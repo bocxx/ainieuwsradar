@@ -1,0 +1,442 @@
+{
+  "title": "AI-radar 12 april 2026: anthropic, llama, minimax",
+  "date": "2026-04-12",
+  "description": "Op 12 april 2026 versnelde Anthropic het sterkst met een score van +20 over 209 vermeldingen, verspreid over Hacker News, Reddit, X, Bluesky en…",
+  "analysis": "Op 12 april 2026 versnelde Anthropic het sterkst met een score van +20 over 209 vermeldingen, verspreid over Hacker News, Reddit, X, Bluesky en nieuwsartikelen. Ook Llama (+11, 44 vermeldingen) en MiniMax (+11, 17 vermeldingen) lieten opvallende beweging zien. Simulation scoorde +8 met 23 vermeldingen over vijf brontypen, terwijl JavaScript (+8, 24 vermeldingen) eveneens versnelde. Bij de opkomende signalen viel SoftBank op met +4 en 4 vermeldingen uit Bluesky en nieuwsartikelen.\n\nBij de zwakke signalen is lightbox het volgen waard: met een score van +8 en 10 vermeldingen verschijnt het alleen in nieuwsartikelen, wat wijst op een mogelijk beginnende mediacyclus. Digital twin (+6, 6 vermeldingen) komt uit zowel nieuwsartikelen als ArXiv, wat duidt op zowel academische als publieke aandacht. De radar volgde die dag 2497 onderwerpen. Dit zijn meetgegevens uit signaaldetectie, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-04-12",
+    "prev_date": "2026-04-11",
+    "accelerating": [
+      {
+        "keyword": "anthropic",
+        "mentions": 209,
+        "velocity": 20,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 145,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "llama",
+        "mentions": 44,
+        "velocity": 11,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 24,
+        "headline": "the state of LocalLLama"
+      },
+      {
+        "keyword": "minimax",
+        "mentions": 17,
+        "velocity": 11,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 13,
+        "headline": "MiniMax M2.7 is NOT open source - DOA License :("
+      },
+      {
+        "keyword": "artificial intelligence",
+        "mentions": 21,
+        "velocity": 10,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 5,
+        "headline": "📰 8 sinais para identificar um deepfake quando até as ferramentas falham"
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 23,
+        "velocity": 8,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 17,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "javascript",
+        "mentions": 24,
+        "velocity": 8,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "articles"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 6,
+        "headline": "Prefab: a generative UI framework for MCP Apps, built into FastMCP"
+      },
+      {
+        "keyword": "chatgpt",
+        "mentions": 145,
+        "velocity": 7,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 41,
+        "headline": "classmate was using chatgpt to write an essay about why using ai is bad https://t.co/puPRJZR4b5"
+      },
+      {
+        "keyword": "ai agent",
+        "mentions": 104,
+        "velocity": 7,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 76,
+        "headline": "ChatGPT’s new AI agent reportedly passed the ‘I am not a robot’ test by moving a cursor like a human https://t.co/14AJrg"
+      },
+      {
+        "keyword": "linkedin",
+        "mentions": 9,
+        "velocity": 7,
+        "sources": [
+          "reddit",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "LinkedIn Hit With Class-Action Lawsuits Over Browser-Extension Scanning"
+      },
+      {
+        "keyword": "github",
+        "mentions": 31,
+        "velocity": 6,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "articles"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 7,
+        "headline": "AMD AI directors analysis confirms lobotomization of Claude"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "softbank",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 SoftBank launches AI venture in Japan with Sony, Honda"
+      },
+      {
+        "keyword": "swiftterm",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: Waffle – Native macOS terminal that auto-tiles sessions into a grid"
+      },
+      {
+        "keyword": "ai polls",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 \"AI polls\" are fake polls"
+      },
+      {
+        "keyword": "machine learning",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 (g+) Transformer: Wie macht er das nur?"
+      },
+      {
+        "keyword": "delusion of omnipotence",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Pope Leo XIV denounces the 'delusion of omnipotence' he says fuels the Iran war"
+      },
+      {
+        "keyword": "perfmonitor",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads"
+      },
+      {
+        "keyword": "cvss",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621"
+      },
+      {
+        "keyword": "omg what if you didn",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 There is going to be a big wave of \"omg what if you didn't treat this as an answer machine\" \"what if"
+      },
+      {
+        "keyword": "t describe",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 he didn't describe \"AI\" as that. he described a 2016 computer animation project that was billed as \""
+      },
+      {
+        "keyword": "russian",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 @caolanrob.bsky.social 💥\n\n#Russian agents are in #Budapest. They are here to meddle with the electio"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "lightbox",
+        "mentions": 10,
+        "velocity": 8,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 10,
+        "headline": "📰 April 2026 — ChatGPT / API Image Gallery, Prompt Tips, and Help: Generative Art Theme: Spring / New Beginnings"
+      },
+      {
+        "keyword": "digital twin",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "📰 Feature Request: Perspective-Locked Isometric / Engineering Mode for Image"
+      },
+      {
+        "keyword": "s what i",
+        "mentions": 5,
+        "velocity": 5,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 My husband and I just celebrated our 30th anniversary. Here's what I've learned about love, life, and parenting."
+      },
+      {
+        "keyword": "highlight plaintext",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 Entity mapping in depth: attributes, types, and nullable fields"
+      },
+      {
+        "keyword": "golang",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 [Hiring] [Remote] [Global] - Developers / Engineers (Various technologies) $50 - $120 / hr"
+      },
+      {
+        "keyword": "free",
+        "mentions": 8,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "📺 The Off-Road 6x6 Is On Fire... This Is REALLY Bad!"
+      },
+      {
+        "keyword": "onebox twitterstatus",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📰 Looking for Intel Mac users to test the Codex app"
+      },
+      {
+        "keyword": "worldnews",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📺 Pope Leo urges end to 'madness of war' as US, Iran start talks"
+      },
+      {
+        "keyword": "oauth state not found",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📰 ChatGPT MCP Connector OAuth: \"OAuth state not found\" — callback fails before token exchange"
+      },
+      {
+        "keyword": "mmlu",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 MiniMax m2.7 (mac only) 63gb: 88% and 89gb: 95%, MMLU 200q"
+      }
+    ],
+    "total_tracked": 2497
+  }
+}

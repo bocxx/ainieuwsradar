@@ -1,0 +1,455 @@
+{
+  "title": "AI-radar 26 maart 2026: large language model, ai agent, ai agents",
+  "date": "2026-03-26",
+  "description": "Op 26 maart 2026 domineerden large language models de signaalradar met 29 versnellingspunten en 134 vermeldingen, verspreid over Bluesky, nieuwsartikelen…",
+  "analysis": "Op 26 maart 2026 domineerden large language models de signaalradar met 29 versnellingspunten en 134 vermeldingen, verspreid over Bluesky, nieuwsartikelen en ArXiv. Ook ai agent (18 punten, 113 vermeldingen) en ai agents (16 punten, 96 vermeldingen) lieten een sterke piek zien, met bronnen variërend van Hacker News tot LinkedIn en ArXiv. Anthropic scoorde 13 versnellingspunten bij 124 vermeldingen, evenals github met 13 punten maar slechts 47 vermeldingen. Lora haalde 12 punten met 29 vermeldingen uit Bluesky, LinkedIn, nieuwsartikelen en ArXiv.\n\nBij de zwakke signalen valt distillation op met 11 punten en 23 vermeldingen, verdeeld over nieuwsartikelen en ArXiv, wat wijst op een technische onderstroom die zowel academisch als journalistiek aandacht trekt. Ook world model (8 punten, 13 vermeldingen uit ArXiv) en fine-tuning (7 punten, 20 vermeldingen uit nieuwsartikelen en ArXiv) tonen een vergelijkbaar patroon van niche-interesse met potentieel. Dit zijn meetgegevens van 2813 gevolgde onderwerpen die dag, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-03-26",
+    "prev_date": "2026-03-25",
+    "accelerating": [
+      {
+        "keyword": "large language model",
+        "mentions": 134,
+        "velocity": 29,
+        "sources": [
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 130,
+        "headline": "📰 Wikipedia Bans Use of Generative AI"
+      },
+      {
+        "keyword": "ai agent",
+        "mentions": 113,
+        "velocity": 18,
+        "sources": [
+          "hackernews",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 88,
+        "headline": "ChatGPT’s new AI agent reportedly passed the ‘I am not a robot’ test by moving a cursor like a human https://t.co/14AJrg"
+      },
+      {
+        "keyword": "ai agents",
+        "mentions": 96,
+        "velocity": 16,
+        "sources": [
+          "hackernews",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 78,
+        "headline": "📰 Why Your AI Agent Forgets Everything (And How to Fix It)"
+      },
+      {
+        "keyword": "anthropic",
+        "mentions": 124,
+        "velocity": 13,
+        "sources": [
+          "hackernews",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 102,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "github",
+        "mentions": 47,
+        "velocity": 13,
+        "sources": [
+          "hackernews",
+          "bluesky",
+          "linkedin",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 40,
+        "headline": "📰 How to Monitor Uptime for Free Using GitHub as Your Backend"
+      },
+      {
+        "keyword": "lora",
+        "mentions": 29,
+        "velocity": 12,
+        "sources": [
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 23,
+        "headline": "📰 Sources: X let go of 20+ staffers in nontechnical roles ahead of a SpaceX IPO; X staff have been told to focus on growin"
+      },
+      {
+        "keyword": "claude",
+        "mentions": 169,
+        "velocity": 10,
+        "sources": [
+          "hackernews",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 131,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "ai coding",
+        "mentions": 23,
+        "velocity": 10,
+        "sources": [
+          "hackernews",
+          "bluesky",
+          "linkedin",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 19,
+        "headline": "📰 Using AI to code does not mean your code is more secure"
+      },
+      {
+        "keyword": "agentic",
+        "mentions": 49,
+        "velocity": 9,
+        "sources": [
+          "hackernews",
+          "twitter",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 39,
+        "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS"
+      },
+      {
+        "keyword": "chatgpt",
+        "mentions": 114,
+        "velocity": 6,
+        "sources": [
+          "hackernews",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 43,
+        "headline": "classmate was using chatgpt to write an essay about why using ai is bad https://t.co/puPRJZR4b5"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "relay",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "🟠 Show HN: Relay – The open-source Claude Cowork for OpenClaw"
+      },
+      {
+        "keyword": "join",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "🟠 Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3"
+      },
+      {
+        "keyword": "airdrop",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "📰 AirDrop on the Galaxy S26 is just as quick and easy as I hoped [Gallery]"
+      },
+      {
+        "keyword": "chat control",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 End of \"Chat Control\": EU Parliament Stops Mass Surveillance in Voting Thriller"
+      },
+      {
+        "keyword": "verify",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Apple randomly closes bug reports unless you \"verify\" the bug remains unfixed"
+      },
+      {
+        "keyword": "disregard that",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 \"Disregard That\" Attacks"
+      },
+      {
+        "keyword": "blackhawk",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Drone attack on parked U.S. Army BlackHawk in Iraq"
+      },
+      {
+        "keyword": "layerleak",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: Layerleak – Like Trufflehog, but for Docker Hub"
+      },
+      {
+        "keyword": "turbolite",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3"
+      },
+      {
+        "keyword": "hyperagents",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 HyperAgents: Self-referential self-improving agents"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "dall-e",
+        "mentions": 28,
+        "velocity": 12,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 28,
+        "headline": "📰 The Official ImageGen, 4o and Dall-E Megathread"
+      },
+      {
+        "keyword": "imagegen",
+        "mentions": 28,
+        "velocity": 12,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 28,
+        "headline": "📰 The Official ImageGen, 4o and Dall-E Megathread"
+      },
+      {
+        "keyword": "distillation",
+        "mentions": 23,
+        "velocity": 11,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 23,
+        "headline": "📰 Apple gets full Gemini access and uses distillation to build lightweight on-device AI"
+      },
+      {
+        "keyword": "cohere",
+        "mentions": 22,
+        "velocity": 9,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 16,
+        "headline": "📰 These Stocks Are Today&rsquo;s Movers: Meta, Alphabet, Super Micro, Coherent, Sandisk, Pony AI, Best Buy, and More - Bar"
+      },
+      {
+        "keyword": "world model",
+        "mentions": 13,
+        "velocity": 8,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 13,
+        "headline": "📄 DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 20,
+        "velocity": 7,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 20,
+        "headline": "📰 Fine-tuning job never moves out of queued state"
+      },
+      {
+        "keyword": "world models",
+        "mentions": 8,
+        "velocity": 6,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📄 DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving"
+      },
+      {
+        "keyword": "grpo",
+        "mentions": 8,
+        "velocity": 6,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📄 DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving"
+      },
+      {
+        "keyword": "voice mode",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📺 Claude Is Winning. Here's Why."
+      },
+      {
+        "keyword": "xnxx",
+        "mentions": 5,
+        "velocity": 5,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 EU-Kommission: Pornhub, Stripchat und weitere verstoßen wohl gegen den Digital Services Act"
+      }
+    ],
+    "total_tracked": 2813
+  }
+}

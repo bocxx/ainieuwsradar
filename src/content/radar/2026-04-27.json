@@ -1,0 +1,436 @@
+{
+  "title": "AI-radar 27 april 2026: deepseek, openai, huggingface",
+  "date": "2026-04-27",
+  "description": "Op 27 april 2026 versnelde deepseek het sterkst met een toename van 27 punten en 147 vermeldingen, verspreid over Hacker News, Reddit, Bluesky,…",
+  "analysis": "Op 27 april 2026 versnelde deepseek het sterkst met een toename van 27 punten en 147 vermeldingen, verspreid over Hacker News, Reddit, Bluesky, nieuwsartikelen en ArXiv. OpenAI steeg met 8 punten maar telde 341 vermeldingen over vijf brontypen, waaronder X. Ook huggingface (+8, 24 vermeldingen) en ai coding (+6, 20 vermeldingen) lieten groei zien. Bij de opkomende signalen scoorden fpga, evanflow, turboquant, godaddy, captive en american elk 3 punten met 3 vermeldingen, waarbij fpga zich onderscheidde door aanwezigheid in zowel Reddit als ArXiv.\n\nTussen de zwakke signalen springt reward hacking eruit: met 23 punten en 24 vermeldingen verscheen het in zowel nieuwsartikelen als ArXiv, wat op academische én publieke aandacht duidt. Enclosure scoorde hoger (37 punten, 208 vermeldingen) maar bleef beperkt tot nieuwsartikelen. Digital twin combineerde 14 punten met 16 vermeldingen over nieuwsartikelen en ArXiv. Dit zijn meetgegevens van 2480 gevolgde onderwerpen die dag, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-04-27",
+    "prev_date": "2026-04-26",
+    "accelerating": [
+      {
+        "keyword": "deepseek",
+        "mentions": 147,
+        "velocity": 27,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 143,
+        "headline": "Deepseek v4 people"
+      },
+      {
+        "keyword": "openai",
+        "mentions": 341,
+        "velocity": 8,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 274,
+        "headline": "OpenAI is shutting down its AI video slop-making platform Sora. https://t.co/1yzebNdKgf"
+      },
+      {
+        "keyword": "huggingface",
+        "mentions": 24,
+        "velocity": 8,
+        "sources": [
+          "reddit",
+          "bluesky"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 21,
+        "headline": "HauhauCS (of \"Uncensored Aggressive\" fame) published an abliteration package that plagiarizes Heretic without attributio"
+      },
+      {
+        "keyword": "gguf",
+        "mentions": 13,
+        "velocity": 6,
+        "sources": [
+          "reddit",
+          "bluesky"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 13,
+        "headline": "unsloth Qwen3.6-27B-GGUF"
+      },
+      {
+        "keyword": "ai coding",
+        "mentions": 20,
+        "velocity": 6,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 14,
+        "headline": "SpaceX secured the right to buy Cursor for $60B. For context, Twitter sold for $44B and had 250M users."
+      },
+      {
+        "keyword": "deepmind",
+        "mentions": 8,
+        "velocity": 6,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 2,
+        "headline": "📰 Google DeepMind to open its first AI campus in the world in Seoul"
+      },
+      {
+        "keyword": "youtube",
+        "mentions": 20,
+        "velocity": 5,
+        "sources": [
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 5,
+        "headline": "Hot take: I think YouTube should demonetize all videos are AI generated."
+      },
+      {
+        "keyword": "ai chip",
+        "mentions": 7,
+        "velocity": 4,
+        "sources": [
+          "twitter",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 4,
+        "headline": "Super congratulations to the @Tesla_AI software &amp; chip design teams on a successful @Robotaxi launch!!\n\nCulmination "
+      },
+      {
+        "keyword": "bolt",
+        "mentions": 8,
+        "velocity": 4,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 5,
+        "headline": "Bolt by MirrorMe | Claims speeds of 11m/s indoors, 10.09 m/s outdoor so far (Usain Bolt's top speed is 12.42 m/s)"
+      },
+      {
+        "keyword": "google deepmind",
+        "mentions": 6,
+        "velocity": 4,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 2,
+        "headline": "📰 Google DeepMind to open its first AI campus in the world in Seoul"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "fpga",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "Thoughts on using an AMD Alveo V80 FPGA PCI card as a poor man’s Taalas HC1 (LLM-burned-onto-a-chip)."
+      },
+      {
+        "keyword": "evanflow",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 EvanFlow – A TDD driven feedback loop for Claude Code"
+      },
+      {
+        "keyword": "turboquant",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 TurboQuant: A First-Principles Walkthrough"
+      },
+      {
+        "keyword": "godaddy",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 GoDaddy gave a domain to a stranger without any documentation"
+      },
+      {
+        "keyword": "captive",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 A populist wave is rising to end the 'captive' repair economy"
+      },
+      {
+        "keyword": "american",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 U.S. Mint Buys Drug Cartel Gold and Sells It as 'American'"
+      },
+      {
+        "keyword": "jumpstartsignal",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: A free ESG stock screener that publishes its losses and methodology"
+      },
+      {
+        "keyword": "ethical",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 FSF Position on \"Ethical\" AI"
+      },
+      {
+        "keyword": "jetbrains",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Ask HN: Anyone still using JetBrains products today?"
+      },
+      {
+        "keyword": "agent",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 An Interesting Perspective - from Claude / AGENT_002"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "enclosure",
+        "mentions": 208,
+        "velocity": 37,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 50,
+        "headline": "📰 Black Hat USA"
+      },
+      {
+        "keyword": "textblock",
+        "mentions": 35,
+        "velocity": 27,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "📰 Come caricare lo smartphone senza danni alla batteria: consigli, falsi miti e gadget"
+      },
+      {
+        "keyword": "reward hacking",
+        "mentions": 24,
+        "velocity": 23,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 24,
+        "headline": "📄 Removing Sandbagging in LLMs by Training with Weak Supervision"
+      },
+      {
+        "keyword": "emoji",
+        "mentions": 22,
+        "velocity": 18,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 22,
+        "headline": "📰 April 2026 — ChatGPT / API Image Gallery, Prompt Tips, and Help: Generative Art Theme: Spring / New Beginnings"
+      },
+      {
+        "keyword": "save",
+        "mentions": 17,
+        "velocity": 17,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 Save $40 on the Fitbit Charge 6 at Amazon — buy for under $120 right now"
+      },
+      {
+        "keyword": "digital twin",
+        "mentions": 16,
+        "velocity": 14,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 16,
+        "headline": "📄 LLMPhy: Parameter-Identifiable Physical Reasoning Combining Large Language Models and Physics Engines"
+      },
+      {
+        "keyword": "title",
+        "mentions": 18,
+        "velocity": 14,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 18,
+        "headline": "📰 Collection of GPT-image-generator 2.0 issues, bugs, and work-around tips (check first post)"
+      },
+      {
+        "keyword": "avatar",
+        "mentions": 18,
+        "velocity": 14,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 18,
+        "headline": "📰 Collection of GPT-image-generator 2.0 issues, bugs, and work-around tips (check first post)"
+      },
+      {
+        "keyword": "prompt injection",
+        "mentions": 13,
+        "velocity": 11,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📰 Run OpenClaw Locally on Windows Using Windows Sandbox for Secure Isolation"
+      },
+      {
+        "keyword": "mention",
+        "mentions": 16,
+        "velocity": 10,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 16,
+        "headline": "📰 Codex Security tab shows invalid API URL errors"
+      }
+    ],
+    "total_tracked": 2480
+  }
+}

@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+import radar from '../data/radar.json';
+const tr = radar.track_record ?? {};
+const hitPct = Math.round((tr.hit_rate ?? 0) * 100);
+const months = ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+const fmt = (iso) => { if(!iso) return ''; const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()]} ${x.getFullYear()}`; };
+const calls = radar.best_calls ?? [];
+const byType = tr.by_signal_type ?? {};
+---
+<Layout title="Track record — kwam onze vroege AI-radar uit? | AI Nieuws Radar"
+  description={`Eerlijke verantwoording: ${tr.scored_predictions ?? 0} gescoorde voorspellingen, ${hitPct}% kwam uit, gemiddeld ${tr.avg_lead_days ?? 0} dagen voorsprong op het nieuws.`}>
+  <main id="main" class="page">
+    <header class="phead">
+      <p class="kicker kicker--accent">Track record</p>
+      <h1>Kwam het uit?</h1>
+      <p class="lede">Een radar zonder verantwoording is een waarzegger. We scoren onze eigen vroege signalen achteraf — dit is wat eruit komt.</p>
+    </header>
+
+    <div class="stats">
+      <div class="stat"><div class="stat__num">{(tr.scored_predictions ?? 0).toLocaleString('nl-NL')}</div><div class="stat__lbl">voorspellingen gescoord</div></div>
+      <div class="stat"><div class="stat__num">{hitPct}%</div><div class="stat__lbl">kwam uit</div></div>
+      <div class="stat"><div class="stat__num">{tr.avg_lead_days ?? 0}<span>d</span></div><div class="stat__lbl">gem. voorsprong</div></div>
+      <div class="stat"><div class="stat__num">{tr.max_lead_days ?? 0}<span>d</span></div><div class="stat__lbl">max. voorsprong</div></div>
+    </div>
+
+    <section class="block">
+      <h2 class="block__title">Per signaaltype</h2>
+      <p class="note">Niet elk signaaltype is even trefzeker — en dat hoort ook zo. "Opkomend" is al breed gedragen en komt vaker uit; "zwak signaal" is vroeger en gokt vaker mis, maar levert de grootste voorsprong als het raak is.</p>
+      <div class="types">
+        {Object.entries(byType).map(([k, v]) => (
+          <div class="type">
+            <h3>{k === 'emerging' ? 'Opkomend' : 'Zwak signaal'}</h3>
+            <p>{Math.round((v.hit_rate ?? 0) * 100)}% raak · {v.hits ?? 0} van {v.scored ?? 0}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    {calls.length > 0 && (
+      <section class="block">
+        <h2 class="block__title">Bewezen vroege calls</h2>
+        <div class="tr-wrap">
+          <table class="trt">
+            <thead><tr><th>Onderwerp</th><th>Type</th><th>Geflagd</th><th>Bevestigd</th><th class="r">Voorsprong</th></tr></thead>
+            <tbody>
+              {calls.map((c) => (
+                <tr>
+                  <td><b>{c.keyword}</b></td>
+                  <td><span class="tag">{c.signal_type === 'emerging' ? 'opkomend' : 'zwak signaal'}</span></td>
+                  <td class="num">{fmt(c.flagged_on)}</td>
+                  <td class="num">{fmt(c.materialized_on)}</td>
+                  <td class="r num lead">+{c.lead_days}d</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    <aside class="cross"><p>Benieuwd hoe we tot deze cijfers komen? Lees de <a href="/methode">methode</a>.</p></aside>
+  </main>
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:58ch; line-height:var(--leading-relaxed); }
+    .stats { display:grid; grid-template-columns:repeat(2,1fr); gap:var(--space-3); margin:var(--space-10) 0; max-width:680px; }
+    @media (min-width:48em){ .stats{ grid-template-columns:repeat(4,1fr); } }
+    .stat { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); box-shadow:var(--shadow-sm); }
+    .stat__num { font-family:var(--font-display); font-size:var(--text-4xl); line-height:1; }
+    .stat__num span { font-size:var(--text-xl); color:var(--text-muted); }
+    .stat__lbl { font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--space-2); }
+    .block { margin:var(--space-12) 0; }
+    .block__title { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-3); }
+    .note { font-size:var(--text-base); color:var(--text-secondary); max-width:64ch; margin-bottom:var(--space-5); line-height:var(--leading-relaxed); }
+    .types { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:var(--space-4); }
+    .type { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); }
+    .type h3 { font-family:var(--font-body); font-size:var(--text-lg); font-weight:var(--font-semibold); margin:0 0 var(--space-1); }
+    .type p { font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted); }
+    .tr-wrap { overflow-x:auto; }
+    table.trt { width:100%; border-collapse:collapse; font-size:var(--text-sm); }
+    table.trt th { text-align:left; font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); padding:0 var(--space-4) var(--space-3); border-bottom:1px solid var(--border-strong); }
+    table.trt td { padding:var(--space-4); border-bottom:1px solid var(--border-subtle); color:var(--text-secondary); }
+    table.trt td b { color:var(--text-primary); text-transform:capitalize; }
+    .tag { font-family:var(--font-mono); font-size:var(--text-2xs); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:1px 6px; }
+    .num { font-family:var(--font-mono); font-size:var(--text-xs); }
+    .r { text-align:right; } .lead { color:var(--primary-bright); }
+    .cross { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5) var(--space-6); margin-top:var(--space-10); }
+    .cross p { margin:0; color:var(--text-secondary); }
+  </style>
+</Layout>

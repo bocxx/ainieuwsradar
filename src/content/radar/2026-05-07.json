@@ -1,0 +1,454 @@
+{
+  "title": "AI-radar 7 mei 2026: large language model, gemini, claude",
+  "date": "2026-05-07",
+  "description": "Op 7 mei 2026 domineerden de grote taalmodellen het signaal met 84 punten en 436 vermeldingen verspreid over Reddit, Bluesky, nieuwsartikelen en ArXiv.…",
+  "analysis": "Op 7 mei 2026 domineerden de grote taalmodellen het signaal met 84 punten en 436 vermeldingen verspreid over Reddit, Bluesky, nieuwsartikelen en ArXiv. Gemini volgde met 41 punten en 146 vermeldingen, terwijl Claude 37 punten haalde bij 254 vermeldingen. Opvallend was de opkomst van Grok met 28 punten en 82 vermeldingen, en Qwen met 24 punten en 91 vermeldingen. Anthropic scoorde 32 punten met 164 vermeldingen, wat wijst op brede aandacht voor meerdere AI-aanbieders tegelijk.\n\nBij de zwakke signalen valt reinforcement learning op met 11 punten maar liefst 126 vermeldingen, uitsluitend uit ArXiv. Die combinatie van beperkte signaalsterkte met hoog vermeldingsvolume en wetenschappelijke focus suggereert dat er onder de oppervlakte methodologisch werk gaande is. RLHF scoorde eveneens 11 punten bij 17 vermeldingen, ook vanuit ArXiv. Dit zijn meetgegevens van de ainieuwsradar, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-05-07",
+    "prev_date": "2026-05-06",
+    "accelerating": [
+      {
+        "keyword": "large language model",
+        "mentions": 436,
+        "velocity": 84,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 430,
+        "headline": "AI lets chemists design molecules by simply describing them"
+      },
+      {
+        "keyword": "gemini",
+        "mentions": 146,
+        "velocity": 41,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 118,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "claude",
+        "mentions": 254,
+        "velocity": 37,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 159,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "anthropic",
+        "mentions": 164,
+        "velocity": 32,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 125,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "grok",
+        "mentions": 82,
+        "velocity": 28,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 43,
+        "headline": "Hii @grok put me in a bikini https://t.co/IxyovEVRZf"
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 91,
+        "velocity": 24,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 87,
+        "headline": "Llama.cpp MTP support now in beta!"
+      },
+      {
+        "keyword": "ai agent",
+        "mentions": 102,
+        "velocity": 20,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 76,
+        "headline": "ChatGPT’s new AI agent reportedly passed the ‘I am not a robot’ test by moving a cursor like a human https://t.co/14AJrg"
+      },
+      {
+        "keyword": "gpt-4",
+        "mentions": 35,
+        "velocity": 16,
+        "sources": [
+          "twitter",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 33,
+        "headline": "His name is Suchir Balaji.\n\nHe was 26 years old. Indian-American. \n\nAn AI researcher at OpenAI for 4 years.\nHe helped bu"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 112,
+        "velocity": 16,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 110,
+        "headline": "UltraReal Fine-Tune Anima v1"
+      },
+      {
+        "keyword": "hallucination",
+        "mentions": 49,
+        "velocity": 15,
+        "sources": [
+          "hackernews",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 46,
+        "headline": "📰 A shocking study made me rethink how I use AI, and you should probably do that too"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "spacex",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 SpaceX basa su éxito en repetir, repetir y repetir. Ahora unos vecinos de Texas se han puesto en su camino"
+      },
+      {
+        "keyword": "ucla",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "A 23-year-old UCLA graduate, identified as Andre Mai, went viral in June 2025 after displaying his use of ChatGPT during"
+      },
+      {
+        "keyword": "limits",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "bluesky"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "CLAUDE LIMITS HAVE RESET"
+      },
+      {
+        "keyword": "ai excluded show hn",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Time to add option in Hacker News \"AI excluded Show HN\""
+      },
+      {
+        "keyword": "claw",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 Vidu Claw 开启「百元出百万级大片」时代：微信说句话，视频就出片"
+      },
+      {
+        "keyword": "buildinpublic",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 where are you shipping from today?"
+      },
+      {
+        "keyword": "t that it",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "reddit"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "the part nobody warns you about"
+      },
+      {
+        "keyword": "infinite",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "reddit",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "Three key areas Anthropic is working on for their next models"
+      },
+      {
+        "keyword": "jobs",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Yo, anyone want to be a Bird Identification Machine Learning Software Engineer for the wonderful Cor"
+      },
+      {
+        "keyword": "ethical",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 There are obvi no \"ethical\" corporations, but this is still an astronomically stupid decision even f"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "artificial intelligence",
+        "mentions": 28,
+        "velocity": 27,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "📰 Buscando ofertas con inteligencia artificial en mercado libre"
+      },
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 126,
+        "velocity": 11,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 126,
+        "headline": "📄 Moira: Language-driven Hierarchical Reinforcement Learning for Pair Trading"
+      },
+      {
+        "keyword": "rlhf",
+        "mentions": 17,
+        "velocity": 11,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 17,
+        "headline": "📄 12 Angry AI Agents: Evaluating Multi-Agent LLM Decision-Making Through Cinematic Jury Deliberation"
+      },
+      {
+        "keyword": "gpt-4o",
+        "mentions": 22,
+        "velocity": 10,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 22,
+        "headline": "📰 Significant Slowdown in Whisper and GPT-4o Transcribe APIs (since May 2026)"
+      },
+      {
+        "keyword": "amazon",
+        "mentions": 11,
+        "velocity": 10,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "📰 Anzeige: Smarter Türöffner zum Sparpreis 35 Euro günstiger"
+      },
+      {
+        "keyword": "samsung",
+        "mentions": 10,
+        "velocity": 10,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 Samsung se une al club del billón de dólares. La IA lo ha hecho posible, pero también la ha convertido en su enemigo"
+      },
+      {
+        "keyword": "apple",
+        "mentions": 9,
+        "velocity": 9,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 Mercato tablet, Apple è sempre la regina: Samsung invece è in affanno"
+      },
+      {
+        "keyword": "risc",
+        "mentions": 8,
+        "velocity": 8,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 8,
+        "headline": "📄 HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks"
+      },
+      {
+        "keyword": "chocochorales",
+        "mentions": 8,
+        "velocity": 8,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 8,
+        "headline": "📄 PHALAR: Phasors for Learned Musical Audio Representations"
+      },
+      {
+        "keyword": "phalar",
+        "mentions": 8,
+        "velocity": 8,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 8,
+        "headline": "📄 PHALAR: Phasors for Learned Musical Audio Representations"
+      }
+    ],
+    "total_tracked": 3147
+  }
+}

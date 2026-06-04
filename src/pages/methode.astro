@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+const weights = [
+  ['ArXiv', '4×', 'wetenschappelijke preprints — vroegste signaal'],
+  ['Hacker News', '3×', 'technische diepgang, hoge signaalwaarde'],
+  ['GitHub', '3×', 'wat ontwikkelaars daadwerkelijk bouwen'],
+  ['Product Hunt', '2,5×', 'productlanceringen'],
+  ['Bluesky', '2,5×', 'vroege tech-community'],
+  ['Expert-vermeldingen', '2×', 'gewogen naar herkomst'],
+  ['YouTube', '1,5×', 'educatieve verspreiding'],
+  ['Algemeen nieuws', '1×', 'mainstream-dekking'],
+];
+---
+<Layout title="Methode — hoe de AI-signaalradar meet | AI Nieuws Radar"
+  description="Hoe ainieuwsradar.nl AI-trends meet: 1000+ bronnen, gewogen signalen (ArXiv 4×, HN 3×, GitHub 3×), fase-indeling en achteraf gescoorde voorspellingen.">
+  <main id="main" class="page">
+    <header class="phead">
+      <p class="kicker kicker--accent">Methode</p>
+      <h1>Hoe we meten</h1>
+      <p class="lede">ainieuwsradar.nl is geen redactie maar een meetinstrument. We volgen elke dag meer dan duizend bronnen en vertalen ruwe vermeldingen naar een gewogen signaal. Hier staat precies hoe.</p>
+    </header>
+
+    <section class="prose">
+      <h2>Bronnen en weging</h2>
+      <p>Niet elke bron is even veelzeggend. Een paper op ArXiv of een repository die plots in de lift zit op GitHub loopt doorgaans vóór op het algemene nieuws. Daarom wegen we bronnen verschillend: hoe vroeger en technischer het signaal, hoe zwaarder het meetelt.</p>
+      <table class="wtable">
+        <thead><tr><th>Bron</th><th>Gewicht</th><th>Waarom</th></tr></thead>
+        <tbody>
+          {weights.map(([s, w, why]) => (<tr><td><b>{s}</b></td><td class="w">{w}</td><td>{why}</td></tr>))}
+        </tbody>
+      </table>
+
+      <h2>Van vermelding naar fase</h2>
+      <p>Per onderwerp kijken we naar het verloop in de tijd — niet alleen hoe vaak iets genoemd wordt, maar of dat versnelt, net opkomt, piekt of wegzakt. Zo belandt elk trefwoord in een fase: <b>zwak signaal</b> (vroege ruis, vaak nog alleen in academische of niche-bronnen), <b>opkomend</b> (net opgekomen, met brede dekking), <b>versnellend</b> (sterkste stijgers), <b>piekend</b>, <b>wegzakkend</b> en <b>aanhoudend</b>.</p>
+      <p>Voor de versnellers en opkomende signalen eisen we corroboratie: een trefwoord moet op minstens één sociale of dev-bron (GitHub, Hacker News, Reddit, X, Bluesky) opduiken, niet alléén in artikelen en preprints. Dat filtert academische token-ruis weg en houdt echt momentum over.</p>
+
+      <h2>Eerlijk over wat klopte</h2>
+      <p>Een radar zonder verantwoording is een waarzegger. Daarom scoren we onze eigen vroege signalen achteraf: kwam een onderwerp dat we vroeg flagden later breed in het nieuws, en zo ja, met hoeveel dagen voorsprong? Die cijfers staan open en bloot op de <a href="/track-record">track record-pagina</a>.</p>
+
+      <h2>Wat dit niet is</h2>
+      <p>Dit zijn metingen, geen redactioneel nieuws. We duiden niet wat een ontwikkeling <em>betekent</em> — dat doet <a href="https://hetlaatsteainieuws.nl" rel="noopener">hetlaatsteainieuws.nl</a>. We reviewen geen tools — dat doet <a href="https://debesteaitools.nl" rel="noopener">debesteaitools.nl</a>. Hier zie je alleen, zo objectief mogelijk, wat er in de data beweegt.</p>
+    </section>
+  </main>
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:60ch; line-height:var(--leading-relaxed); }
+    .prose { margin-top:var(--space-12); max-width:68ch; }
+    .prose h2 { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:var(--space-10) 0 var(--space-4); }
+    .prose p { font-size:var(--text-lg); line-height:var(--leading-relaxed); color:var(--text-secondary); margin-bottom:var(--space-4); }
+    .wtable { width:100%; border-collapse:collapse; margin:var(--space-6) 0; font-size:var(--text-sm); }
+    .wtable th { text-align:left; font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); padding:0 var(--space-3) var(--space-3); border-bottom:1px solid var(--border-strong); }
+    .wtable td { padding:var(--space-3); border-bottom:1px solid var(--border-subtle); color:var(--text-secondary); }
+    .wtable .w { font-family:var(--font-mono); color:var(--primary-bright); }
+  </style>
+</Layout>

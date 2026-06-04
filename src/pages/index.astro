@@ -1,0 +1,281 @@
+---
+import Layout from '../layouts/Layout.astro';
+import radar from '../data/radar.json';
+import { getCollection } from 'astro:content';
+
+// Trefwoorden die een eigen trendpagina hebben → interne links (anti-cannibal hub).
+const trendEntries = (await getCollection('trends')).filter((t) => !t.data.draft);
+const trendSlug = new Map(trendEntries.map((t) => [t.data.keyword.toLowerCase(), t.data.slug]));
+const slugFor = (kw) => trendSlug.get((kw || '').toLowerCase()) ?? null;
+
+const tr = radar.track_record ?? {};
+const hitPct = Math.round((tr.hit_rate ?? 0) * 100);
+const fmtNum = (n) => (n ?? 0).toLocaleString('nl-NL');
+const fmtDate = (s) => s ? new Date(s).toLocaleDateString('nl-NL', { day:'numeric', month:'long', year:'numeric' }) : '';
+const fmtShort = (s) => s ? new Date(s).toLocaleDateString('nl-NL', { day:'numeric', month:'short' }) : '';
+const cap = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+
+// "Op de radar nu" = opkomend + blijvend, gededupliceerd (opkomend eerst).
+// Houdt de sectie gevuld ook als de strenge buzz-filter weinig puur-opkomende
+// termen overlaat.
+const onRadarSeen = new Set();
+const onRadar = [...(radar.emerging ?? []), ...(radar.sustained ?? [])]
+  .filter((it) => {
+    const k = (it.keyword || '').toLowerCase();
+    if (onRadarSeen.has(k)) return false;
+    onRadarSeen.add(k);
+    return true;
+  })
+  .slice(0, 8);
+---
+<Layout
+  title="AI Nieuws Radar — zie wat in AI doorbreekt, voor het nieuws wordt"
+  description="Live signaalradar over AI: opkomende trends, zwakke signalen en een bewezen track record. Gevoed door 8+ bronnen via NewsFlux.">
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-label="Vandaag op de AI-radar">
+      <div class="hero__inner">
+        <div class="hero__statement">
+          <p class="kicker">● Live · bijgewerkt {fmtDate(radar.generated_at)}</p>
+          <h1 class="hero__title">
+            Zie wat in AI <span class="accent">doorbreekt</span> — voordat het nieuws wordt.
+          </h1>
+          <p class="hero__deck">
+            We volgen <strong>{fmtNum(radar.total_tracked)}</strong> onderwerpen over ArXiv,
+            HackerNews, GitHub, Reddit, Bluesky, X en de media. De radar laat zien wat versnelt,
+            wat net opkomt en welke zwakke signalen je in de gaten moet houden — zonder hype.
+          </p>
+          <ul class="anchors">
+            <li><a class="anchor" href="#radar"><span class="anchor__label">Radar vandaag</span><span class="anchor__meta">{radar.accelerating.length + radar.emerging.length} trends</span></a></li>
+            <li><a class="anchor" href="#trackrecord"><span class="anchor__label">Track record</span><span class="anchor__meta">{hitPct}% raak</span></a></li>
+          </ul>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat"><div class="stat__num">{fmtNum(tr.scored_predictions)}</div><div class="stat__lbl">voorspellingen gescoord</div></div>
+          <div class="stat"><div class="stat__num">{hitPct}%</div><div class="stat__lbl">kwam uit</div></div>
+          <div class="stat"><div class="stat__num">{tr.avg_lead_days}<span>d</span></div><div class="stat__lbl">gem. voorsprong</div></div>
+          <div class="stat"><div class="stat__num">{tr.max_lead_days}<span>d</span></div><div class="stat__lbl">max. voorsprong</div></div>
+        </div>
+      </div>
+
+      <ul class="trust" aria-label="Wat ons onderscheidt">
+        <li><span class="trust__ico"></span>1000+ bronnen, dagelijks gescand</li>
+        <li><span class="trust__ico"></span>Gewogen signalen (ArXiv 4×, HN 3×)</li>
+        <li><span class="trust__ico"></span>Voorspellingen, achteraf gescoord</li>
+        <li><span class="trust__ico"></span>Geen hype — alleen momentum</li>
+      </ul>
+    </section>
+
+    <!-- RADAR: VERSNELT NU -->
+    <section id="radar" class="block">
+      <div class="block__head">
+        <p class="kicker kicker--accent">Radar vandaag</p>
+        <h2 class="block__title">Versnelt nu</h2>
+        <p class="block__note">De sterkste stijgers van dit moment — breekt door in het nieuws.</p>
+      </div>
+      <ol class="rlist">
+        {radar.accelerating.map((it, i) => (
+          <li class="rlist__item">
+            <span class="rlist__rank">{String(i+1).padStart(2,'0')}</span>
+            <div class="rlist__body">
+              <div class="rlist__top">
+                <h3 class="rlist__kw">{slugFor(it.keyword)
+                  ? <a href={`/trend/${slugFor(it.keyword)}`}>{cap(it.keyword)}</a>
+                  : cap(it.keyword)}</h3>
+                <span class="vel">▲ {it.velocity}</span>
+              </div>
+              {it.headline && <p class="rlist__hl">{it.headline}</p>}
+              <div class="rlist__meta">
+                <span>{fmtNum(it.mentions)} vermeldingen</span><span class="dot">·</span>
+                <span>{it.source_count} bronnen</span><span class="dot">·</span>
+                <span>{it.confidence}% zekerheid</span>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <!-- NIEUW OP DE RADAR -->
+    <section class="block">
+      <div class="block__head">
+        <p class="kicker kicker--accent">Opkomend &amp; blijvend</p>
+        <h2 class="block__title">Op de radar nu</h2>
+        <p class="block__note">Trends met brede dekking across bronnen — net opgekomen of aanhoudend in beeld.</p>
+      </div>
+      <div class="cards">
+        {onRadar.map((it) => (
+          <article class="card">
+            <div class="card__top">
+              <h3 class="card__kw">{slugFor(it.keyword)
+                ? <a href={`/trend/${slugFor(it.keyword)}`}>{cap(it.keyword)}</a>
+                : cap(it.keyword)}</h3>
+              <span class="vel">▲ {it.velocity}</span>
+            </div>
+            <div class="card__meta">
+              <span>{fmtNum(it.mentions)} vermeldingen</span><span class="dot">·</span>
+              <span>{it.source_count} bronnen</span>
+            </div>
+            {it.articles && it.articles.length > 0 && (
+              <ul class="card__links">
+                {it.articles.slice(0,2).map((a) => (
+                  <li><a href={a.url} target="_blank" rel="noopener">{a.title}</a><span class="tag">{a.source}</span></li>
+                ))}
+              </ul>
+            )}
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <!-- ZWAKKE SIGNALEN -->
+    <section id="signalen" class="block">
+      <div class="block__head">
+        <p class="kicker kicker--warn">Vroege ruis</p>
+        <h2 class="block__title">Zwakke signalen</h2>
+        <p class="block__note">Nog onder de radar van de media. Hier kijken we extra goed.</p>
+      </div>
+      <div class="chips">
+        {radar.weak_signals.map((it) => (
+          <div class="chip">
+            <strong>{cap(it.keyword)}</strong>
+            <span class="chip__meta">{it.mentions}× · {it.source_count} bron</span>
+            {it.headline && <span class="chip__hl">{it.headline}</span>}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- TRACK RECORD -->
+    <section id="trackrecord" class="block">
+      <div class="block__head">
+        <p class="kicker kicker--accent">Bewijs</p>
+        <h2 class="block__title">Bewezen vroege calls</h2>
+        <p class="block__note">Signalen die we flagden vóór ze breed in het nieuws kwamen — met de voorsprong in dagen.</p>
+      </div>
+      <div class="tr-wrap">
+        <table class="tr">
+          <thead><tr><th>Onderwerp</th><th>Type</th><th>Geflagd</th><th>Bevestigd</th><th class="r">Voorsprong</th></tr></thead>
+          <tbody>
+            {radar.best_calls.map((c) => (
+              <tr>
+                <td><strong>{cap(c.keyword)}</strong></td>
+                <td><span class="tag">{c.signal_type === 'emerging' ? 'opkomend' : 'zwak signaal'}</span></td>
+                <td class="num">{fmtShort(c.flagged_on)}</td>
+                <td class="num">{fmtShort(c.materialized_on)}</td>
+                <td class="r num lead">+{c.lead_days}d</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="block__more"><a href="/track-record">Volledig track record &amp; per signaaltype →</a></p>
+    </section>
+
+    <!-- DIEPER / INTERLINKING -->
+    <section class="block explore">
+      <a class="ecard" href="/radar">
+        <h3>Radar-archief</h3>
+        <p>Elke dag een meting — {radar.total_tracked ? '105+' : ''} dagen terug in de tijd.</p>
+      </a>
+      <a class="ecard" href="/trends">
+        <h3>Trend-signalen</h3>
+        <p>Per AI-onderwerp het volledige signaalverloop, met sparkline.</p>
+      </a>
+      <a class="ecard" href="/methode">
+        <h3>Methode</h3>
+        <p>Hoe we 1000+ bronnen wegen tot één signaal. Open en navolgbaar.</p>
+      </a>
+    </section>
+  </main>
+
+  <style>
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--secondary-bright); margin:0 0 var(--space-3); }
+    .kicker--accent { color:var(--primary-bright); }
+    .kicker--warn { color:var(--color-warning); }
+    .accent { color:var(--primary-bright); }
+    .block__more { margin-top:var(--space-5); font-family:var(--font-mono); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); }
+    .explore { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:var(--space-4); }
+    .ecard { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-6); box-shadow:var(--shadow-xs); transition:border-color var(--transition-fast), transform var(--transition-fast); }
+    .ecard:hover { border-color:var(--border-accent); transform:translateY(-2px); }
+    .ecard h3 { font-family:var(--font-display); font-size:var(--text-xl); font-weight:var(--font-regular); margin:0 0 var(--space-2); color:var(--text-primary); }
+    .ecard p { font-size:var(--text-sm); color:var(--text-secondary); margin:0; line-height:var(--leading-snug); }
+    .vel { font-family:var(--font-mono); font-size:var(--text-xs); font-weight:var(--font-medium); color:var(--primary-bright); white-space:nowrap; }
+    .dot { color:var(--text-muted); margin:0 var(--space-1); }
+    .tag { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:1px 6px; }
+
+    /* HERO */
+    .hero { max-width:var(--container-xwide); margin:0 auto; padding:var(--space-12) var(--space-6) var(--space-8); }
+    .hero__inner { display:grid; grid-template-columns:minmax(0,1fr); gap:var(--space-10); margin-bottom:var(--space-10); }
+    @media (min-width:64em){ .hero__inner{ grid-template-columns:minmax(0,1.45fr) minmax(0,1fr); column-gap:var(--space-12); align-items:start; } }
+    .hero__title { font-family:var(--font-display); font-size:clamp(1.9rem,1.4rem+2.6vw,3.4rem); font-weight:var(--font-regular); line-height:1.3; letter-spacing:var(--tracking-tight); color:var(--text-primary); margin:0 0 var(--space-5); max-width:20ch; }
+    .hero__deck { font-size:clamp(var(--text-base),0.95rem+0.4vw,var(--text-lg)); line-height:var(--leading-relaxed); color:var(--text-secondary); margin:0 0 var(--space-7); max-width:54ch; }
+    .hero__deck strong { color:var(--text-primary); font-weight:var(--font-semibold); }
+    .anchors { display:grid; gap:var(--space-3); max-width:42ch; }
+    @media (min-width:30em){ .anchors{ grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--space-4); } }
+    .anchor { display:flex; align-items:center; justify-content:space-between; gap:var(--space-3); padding:var(--space-3) var(--space-4); border:1px solid var(--border-subtle); border-radius:var(--radius-md); transition:border-color var(--transition-fast), background var(--transition-fast); }
+    .anchor:hover { border-color:var(--border-strong); background:var(--bg-elevated); }
+    .anchor__label { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-primary); }
+    .anchor__meta { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--primary-bright); }
+
+    .hero__stats { display:grid; grid-template-columns:repeat(2,1fr); gap:var(--space-3); }
+    .stat { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); box-shadow:var(--shadow-sm); }
+    .stat__num { font-family:var(--font-display); font-size:var(--text-4xl); line-height:1; color:var(--text-primary); }
+    .stat__num span { font-size:var(--text-xl); color:var(--text-muted); }
+    .stat__lbl { font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--space-2); }
+
+    .trust { padding:var(--space-8) 0 0; border-top:1px solid var(--border-subtle); display:grid; grid-template-columns:minmax(0,1fr); gap:var(--space-5); }
+    @media (min-width:48em){ .trust{ grid-template-columns:repeat(2,1fr); gap:var(--space-6) var(--space-8); } }
+    @media (min-width:64em){ .trust{ grid-template-columns:repeat(4,1fr); } }
+    .trust li { display:inline-flex; align-items:center; gap:var(--space-3); font-family:var(--font-display); font-size:var(--text-sm); color:var(--text-primary); }
+    .trust__ico { width:9px; height:9px; border-radius:var(--radius-full); background:var(--secondary-bright); flex-shrink:0; }
+
+    /* BLOCKS */
+    .block { max-width:var(--container-xwide); margin:0 auto var(--space-16); padding:0 var(--space-6); }
+    .block__head { margin-bottom:var(--space-6); }
+    .block__title { font-family:var(--font-display); font-size:var(--text-3xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-2); }
+    .block__note { font-size:var(--text-sm); color:var(--text-secondary); margin:0; max-width:60ch; }
+
+    /* VERSNELT NU — numbered list */
+    .rlist { display:grid; gap:0; border-top:1px solid var(--border-subtle); }
+    .rlist__item { display:grid; grid-template-columns:auto 1fr; gap:var(--space-4); padding:var(--space-5) 0; border-bottom:1px solid var(--border-subtle); }
+    .rlist__rank { font-family:var(--font-mono); font-size:var(--text-lg); color:var(--primary-bright); padding-top:2px; }
+    .rlist__top { display:flex; align-items:baseline; justify-content:space-between; gap:var(--space-3); }
+    .rlist__kw { font-family:var(--font-body); font-size:var(--text-xl); font-weight:var(--font-semibold); margin:0; color:var(--text-primary); }
+    .rlist__hl { font-size:var(--text-sm); color:var(--text-secondary); line-height:var(--leading-relaxed); margin:var(--space-2) 0 var(--space-2); max-width:70ch; }
+    .rlist__meta { display:flex; flex-wrap:wrap; align-items:center; font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+
+    /* CARDS */
+    .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:var(--space-4); }
+    .card { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); box-shadow:var(--shadow-xs); transition:border-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast); }
+    .card:hover { border-color:var(--border-accent); transform:translateY(-2px); box-shadow:var(--shadow-md); }
+    .card__top { display:flex; align-items:baseline; justify-content:space-between; gap:var(--space-3); }
+    .card__kw { font-family:var(--font-body); font-size:var(--text-lg); font-weight:var(--font-semibold); margin:0; }
+    .card__meta { display:flex; align-items:center; font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); margin-top:var(--space-2); }
+    .card__links { display:grid; gap:var(--space-2); margin-top:var(--space-4); padding-top:var(--space-4); border-top:1px solid var(--border-subtle); }
+    .card__links li { display:flex; flex-direction:column; gap:var(--space-1); }
+    .card__links a { font-size:var(--text-sm); line-height:var(--leading-snug); color:var(--text-primary); }
+    .card__links a:hover { color:var(--primary-bright); }
+    .card__links .tag { align-self:flex-start; }
+
+    /* CHIPS */
+    .chips { display:flex; flex-wrap:wrap; gap:var(--space-3); }
+    .chip { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-left:3px solid var(--color-warning); border-radius:var(--radius-md); padding:var(--space-3) var(--space-4); display:flex; flex-direction:column; gap:2px; max-width:320px; box-shadow:var(--shadow-xs); }
+    .chip strong { font-size:var(--text-sm); font-weight:var(--font-semibold); color:var(--text-primary); }
+    .chip__meta { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+    .chip__hl { font-size:var(--text-xs); color:var(--text-secondary); margin-top:var(--space-1); }
+
+    /* TABLE */
+    .tr-wrap { overflow-x:auto; }
+    table.tr { width:100%; border-collapse:collapse; font-size:var(--text-sm); }
+    table.tr th { text-align:left; font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); font-weight:var(--font-medium); padding:0 var(--space-4) var(--space-3); border-bottom:1px solid var(--border-strong); }
+    table.tr td { padding:var(--space-4); border-bottom:1px solid var(--border-subtle); color:var(--text-secondary); }
+    table.tr td strong { color:var(--text-primary); }
+    table.tr tbody tr:hover { background:var(--bg-surface); }
+    .num { font-family:var(--font-mono); font-size:var(--text-xs); }
+    .r { text-align:right; }
+    .lead { color:var(--primary-bright); }
+  </style>
+</Layout>

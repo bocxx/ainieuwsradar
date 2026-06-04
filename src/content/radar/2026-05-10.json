@@ -1,0 +1,434 @@
+{
+  "title": "AI-radar 10 mei 2026: data center, anthropic, simulation",
+  "date": "2026-05-10",
+  "description": "Op 10 mei 2026 zag je vooral beweging rond infrastructuur en bedrijven: data center steeg met 14 punten en kwam 77 keer voor, anthropic klom met 11 punten…",
+  "analysis": "Op 10 mei 2026 zag je vooral beweging rond infrastructuur en bedrijven: data center steeg met 14 punten en kwam 77 keer voor, anthropic klom met 11 punten bij 191 vermeldingen, en ai agents won 5 punten met 104 vermeldingen. Nvidia (+4, 35 vermeldingen) en foundation model (+4, 18 vermeldingen) lieten ook groei zien. Bij de opkomende trefwoorden viel een cluster van technische termen op die elk 3 keer voorkwamen en uitsluitend op Hacker News opdoken: delete, head, browser use, dirty frag en rokr.\n\nBij de zwakke signalen springt distillation eruit met een stijging van 7 punten en 28 vermeldingen, uitsluitend uit ArXiv. Dat is opvallend omdat het qua volume en groei de andere academische signalen overtreft: thinking model en mmlu haalden beide 3 punten bij 8 vermeldingen, rlvr 3 punten bij 18 vermeldingen. De concentratie van distillation in wetenschappelijke publicaties suggereert een onderzoekstrend die nog niet breed doordrong. Dit zijn meetgegevens van 2537 gevolgde onderwerpen die dag, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-05-10",
+    "prev_date": "2026-05-09",
+    "accelerating": [
+      {
+        "keyword": "data center",
+        "mentions": 77,
+        "velocity": 14,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 38,
+        "headline": "Mind you this is what ai is doing to peoples homes. Some cant even let fresh air in bc the smell from the data centers i"
+      },
+      {
+        "keyword": "anthropic",
+        "mentions": 191,
+        "velocity": 11,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 150,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 33,
+        "velocity": 5,
+        "sources": [
+          "twitter",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 30,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "ai agents",
+        "mentions": 104,
+        "velocity": 5,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 89,
+        "headline": "Anthropic’s new finance AI agents feel like a bigger move than just “better chat”"
+      },
+      {
+        "keyword": "nvidia",
+        "mentions": 35,
+        "velocity": 4,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 23,
+        "headline": "Unpopular Opinion: The DGX Spark Forum community of devs is talented AF and will make the crippled hardware a success th"
+      },
+      {
+        "keyword": "foundation model",
+        "mentions": 18,
+        "velocity": 4,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 15,
+        "headline": "HiDream-O1-Image - A pixel space model , no need for VAE, , 8B parameters."
+      },
+      {
+        "keyword": "fuck",
+        "mentions": 7,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "twitter",
+          "bluesky"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 6,
+        "headline": "YOOO FUCK THIS AI GENERATION TELL ME WHY I JUST MET TAEHYUNG AND IT LOOKS LIKE AI GENERATED 😭😭😭 #btsportugal https://t.c"
+      },
+      {
+        "keyword": "llama.cpp",
+        "mentions": 20,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 18,
+        "headline": "2.5x faster inference with Qwen 3.6 27B using MTP - Finally a viable option for local agentic coding - 262k context on 4"
+      },
+      {
+        "keyword": "quantization",
+        "mentions": 19,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 19,
+        "headline": "Quality comparison between Qwen 3.6 27B quantizations (BF16, Q8_0, Q6_K, Q5_K_XL, Q4_K_XL, IQ4_XS, IQ3_XXS,...)"
+      },
+      {
+        "keyword": "dits",
+        "mentions": 6,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 5,
+        "headline": "HiDream-O1-Image - A pixel space model , no need for VAE, , 8B parameters."
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "delete",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: Building a web server in assembly to give my life (a lack of) meaning"
+      },
+      {
+        "keyword": "head",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: Building a web server in assembly to give my life (a lack of) meaning"
+      },
+      {
+        "keyword": "browser use",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: Mochi.js: bun-native high-fidelity browser automation library"
+      },
+      {
+        "keyword": "dirty frag",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 \"Dirty Frag\" (CVE-2026-43284): The Second Linux Root Exploit in Eight Days"
+      },
+      {
+        "keyword": "rokr",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 The ROKR wooden typewriter: a closer look"
+      },
+      {
+        "keyword": "away",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 NO, GOOGLE, I DON'T *FUCKING* WANT TO USE GEMINI GET AWAY FROM ME LEAVE ME THE *FUCK* ALONE."
+      },
+      {
+        "keyword": "leave",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 NO, GOOGLE, I DON'T *FUCKING* WANT TO USE GEMINI GET AWAY FROM ME LEAVE ME THE *FUCK* ALONE."
+      },
+      {
+        "keyword": "alone",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 NO, GOOGLE, I DON'T *FUCKING* WANT TO USE GEMINI GET AWAY FROM ME LEAVE ME THE *FUCK* ALONE."
+      },
+      {
+        "keyword": "theportal",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Daniel Dylan Wray on the record's making, impact and legacy, plus the complicated legacy of IDM via "
+      },
+      {
+        "keyword": "sinkedin",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 behold, the fish-o-tron 3000, a machine that gives you fish. the days of learning to fish are behind"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "distillation",
+        "mentions": 28,
+        "velocity": 7,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 28,
+        "headline": "📄 MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval"
+      },
+      {
+        "keyword": "thinking model",
+        "mentions": 8,
+        "velocity": 3,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📄 Post Reasoning: Improving the Performance of Non-Thinking Models at No Cost"
+      },
+      {
+        "keyword": "mmlu",
+        "mentions": 8,
+        "velocity": 3,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📄 Post Reasoning: Improving the Performance of Non-Thinking Models at No Cost"
+      },
+      {
+        "keyword": "rlvr",
+        "mentions": 18,
+        "velocity": 3,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 18,
+        "headline": "📄 AGPO: Asymmetric Group Policy Optimization for Verifiable Reasoning and Search Ads Relevance at JD"
+      },
+      {
+        "keyword": "fpga",
+        "mentions": 5,
+        "velocity": 3,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 5,
+        "headline": "📄 LLM-Driven Design Space Exploration of FPGA-based Accelerators"
+      },
+      {
+        "keyword": "webshop",
+        "mentions": 5,
+        "velocity": 3,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 5,
+        "headline": "📄 StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction"
+      },
+      {
+        "keyword": "artificial general intelligence",
+        "mentions": 3,
+        "velocity": 2,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 2,
+        "headline": "📰 Artificial general intelligence tool vs person"
+      },
+      {
+        "keyword": "semeval",
+        "mentions": 7,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 7,
+        "headline": "📄 RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble for Faithful "
+      },
+      {
+        "keyword": "synthetic data",
+        "mentions": 7,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 7,
+        "headline": "📄 PSK at SemEval-2026 Task 9: Multilingual Polarization Detection Using Ensemble Gemma Models with Syn"
+      },
+      {
+        "keyword": "mcdiarmid",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📄 Matrix-Decoupled Concentration for Autoregressive Sequences: Dimension-Free Guarantees for Sparse Lo"
+      }
+    ],
+    "total_tracked": 2537
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "title": "AI-radar 26 mei 2026: enclosure, large language model, hallucination",
+  "date": "2026-05-26",
+  "description": "Op 26 mei 2026 schoot 'enclosure' naar voren met een plus van 103 en 269 vermeldingen, verspreid over Hacker News, nieuwsartikelen en andere bronnen. Ook…",
+  "analysis": "Op 26 mei 2026 schoot 'enclosure' naar voren met een plus van 103 en 269 vermeldingen, verspreid over Hacker News, nieuwsartikelen en andere bronnen. Ook 'large language model' versnelde flink (+54, 252 vermeldingen) en dook op in discussies op Hacker News, Reddit, Bluesky, nieuwsartikelen én ArXiv. 'Hallucination' steeg met 21 punten naar 31 vermeldingen, vooral zichtbaar op Reddit, Bluesky en in wetenschappelijke preprints. Verder trokken 'qwen' (+16, 54 vermeldingen) en 'code generation' (+14, 21 vermeldingen) de aandacht.\n\nBij de zwakke signalen valt 'test-time compute' op: 20 vermeldingen met een stijging van 20, verdeeld over nieuwsartikelen en ArXiv. Die brede verspreiding over zowel academische als journalistieke bronnen maakt het interessant om te volgen. Ook 'shap' (18 punten stijging, 20 vermeldingen) en 'humaneval' (+16, 16 vermeldingen) verschenen in nieuwsartikelen én ArXiv. Dit zijn meetgegevens van ainieuwsradar.nl uit 3190 gevolgde onderwerpen die dag, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-05-26",
+    "prev_date": "2026-05-25",
+    "accelerating": [
+      {
+        "keyword": "enclosure",
+        "mentions": 269,
+        "velocity": 103,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 71,
+        "headline": "📰 Black Hat USA"
+      },
+      {
+        "keyword": "large language model",
+        "mentions": 252,
+        "velocity": 54,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 249,
+        "headline": "BitCPM-CANN: Native 1.58-Bit Large Language Model Training on Ascend NPU"
+      },
+      {
+        "keyword": "hallucination",
+        "mentions": 31,
+        "velocity": 21,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 25,
+        "headline": "Academics in Meltdown Now That They’re Responsible for AI Hallucinations in Their Research Papers"
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 54,
+        "velocity": 16,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 49,
+        "headline": "Waiting for Qwen 3.7 open weight... The new King has arrived..."
+      },
+      {
+        "keyword": "code generation",
+        "mentions": 21,
+        "velocity": 14,
+        "sources": [
+          "hackernews",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 21,
+        "headline": "🟠 Constraint Decay: The Fragility of LLM Agents in Back End Code Generation"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 53,
+        "velocity": 12,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 52,
+        "headline": "GPT 5.5 \"secret sauce\" is just having the thinking be some stupid caveman mode?"
+      },
+      {
+        "keyword": "gemma",
+        "mentions": 22,
+        "velocity": 11,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 20,
+        "headline": "BeeLlama v0.2.0 – major DFlash update. Single RTX 3090: Qwen 3.6 27B up to 164 tps (4.40x), Gemma 4 31B up to 177.8 tps "
+      },
+      {
+        "keyword": "wired",
+        "mentions": 10,
+        "velocity": 9,
+        "sources": [
+          "twitter",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "A man in India says he made thousands of dollars scamming 'super dumb' MAGA fans with a fake AI influencer named 'Emily "
+      },
+      {
+        "keyword": "github",
+        "mentions": 30,
+        "velocity": 9,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 18,
+        "headline": "The Financial Times has published an article about Heretic"
+      },
+      {
+        "keyword": "hallucinations",
+        "mentions": 14,
+        "velocity": 8,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 10,
+        "headline": "Academics in Meltdown Now That They’re Responsible for AI Hallucinations in Their Research Papers"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "h100",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "NuExtract3 released: open-weight 4B VLM for Markdown, OCR and structured extraction (self-hostable)"
+      },
+      {
+        "keyword": "disarm",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "hackernews",
+          "reddit"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "Pope Leo XIV just dropped a massive 42,300-word encyclical on AI"
+      },
+      {
+        "keyword": "ferrari luce",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "reddit",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "The 'Ferrari Elettrica' - Today I was disappointed by the new 'Ferrari Luce', so I asked ChatGPT for an electric Ferrari"
+      },
+      {
+        "keyword": "gptq",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "reddit"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "NuExtract3 released: open-weight 4B VLM for Markdown, OCR and structured extraction (self-hostable)"
+      },
+      {
+        "keyword": "new forms of dehumanization",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Pope Leo: opaque AI run by few firms risks \"New Forms of Dehumanization\""
+      },
+      {
+        "keyword": "s remarks on pope leo xiv",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Anthropic Cofounder Chris Olah's Remarks on Pope Leo XIV's \"Magnifica Humanitas\""
+      },
+      {
+        "keyword": "openbrief",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: OpenBrief – Local-first video downloader/summarizer"
+      },
+      {
+        "keyword": "intj",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Every Frontier AI Is INTJ"
+      },
+      {
+        "keyword": "databricks",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Sqlit – A lazygit-style TUI for SQL databases"
+      },
+      {
+        "keyword": "clickhouse",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Sqlit – A lazygit-style TUI for SQL databases"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "test-time compute",
+        "mentions": 20,
+        "velocity": 20,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 20,
+        "headline": "📄 Understanding and Mitigating Premature Confidence for Better LLM Reasoning"
+      },
+      {
+        "keyword": "shap",
+        "mentions": 20,
+        "velocity": 18,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 20,
+        "headline": "📄 Verified SHAP: Provable Bounds for Exact Shapley Values of Neural Networks"
+      },
+      {
+        "keyword": "humaneval",
+        "mentions": 16,
+        "velocity": 16,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 16,
+        "headline": "📄 Plan for Speed: Dilated Scheduling for Masked Diffusion Language Models"
+      },
+      {
+        "keyword": "mbpp",
+        "mentions": 16,
+        "velocity": 14,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 16,
+        "headline": "📄 Plan for Speed: Dilated Scheduling for Masked Diffusion Language Models"
+      },
+      {
+        "keyword": "grpo",
+        "mentions": 29,
+        "velocity": 13,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 28,
+        "headline": "📰 Output Length Constrained Summarization using GRPO on tiny LLMs | smolcluster"
+      },
+      {
+        "keyword": "save",
+        "mentions": 13,
+        "velocity": 13,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 The Fitbit Versa 4 is still on sale at Amazon after Memorial Day — act fast to save $40"
+      },
+      {
+        "keyword": "ai governance",
+        "mentions": 13,
+        "velocity": 12,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 12,
+        "headline": "📰 Part 2: Enterprise Decision Intelligence Architecture: AI Governance, Threshold Policy Engines, and Operational AI Syste"
+      },
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 101,
+        "velocity": 12,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 100,
+        "headline": "📰 995: End-to-End Foundation Models for the Energy Industry, with Jazmia Henry"
+      },
+      {
+        "keyword": "psnr",
+        "mentions": 12,
+        "velocity": 12,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 12,
+        "headline": "📄 BFORE: Butterfly-Firefly Optimized Retinex Enhancement for Low-Light Image Quality Improvement"
+      },
+      {
+        "keyword": "dhrl",
+        "mentions": 12,
+        "velocity": 12,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 12,
+        "headline": "📄 Adaptive Human-AI Coordination via Hierarchical Action Disentanglement"
+      }
+    ],
+    "total_tracked": 3190
+  }
+}

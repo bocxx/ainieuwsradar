@@ -1,0 +1,146 @@
+---
+import '../styles/main.css';
+const {
+  title = 'AI Nieuws Radar',
+  description = '',
+  ogType = 'website',
+  image = '/og-image.png',
+  noindex = false,
+} = Astro.props;
+const year = new Date().getFullYear();
+const site = Astro.site ?? new URL('https://ainieuwsradar.nl');
+const canonical = new URL(Astro.url.pathname.replace(/\/$/, '') || '/', site).href;
+const ogImage = new URL(image, site).href;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'AI Nieuws Radar',
+  url: site.href,
+  inLanguage: 'nl-NL',
+  description:
+    'Signaalradar voor AI: opkomende trends, zwakke signalen en een bewezen track record, gemeten over 1000+ bronnen.',
+  publisher: { '@type': 'Organization', name: 'AI Nieuws Radar' },
+};
+---
+<!doctype html>
+<html lang="nl" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
+  <meta name="theme-color" content="#fcfaf7" />
+
+  <meta property="og:type" content={ogType} />
+  <meta property="og:site_name" content="AI Nieuws Radar" />
+  <meta property="og:locale" content="nl_NL" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
+
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />
+</head>
+<body>
+  <a href="#main" class="skip-link">Naar de hoofdinhoud</a>
+
+  <header class="hdr">
+    <div class="hdr__inner">
+      <a href="/" class="logo" aria-label="ai / radar — homepage">
+        <span class="logo__a">ai</span><span class="logo__slash">/</span><span class="logo__b">radar</span>
+      </a>
+      <nav class="hdr__nav" aria-label="Hoofdnavigatie">
+        <a href="/radar">Archief</a>
+        <a href="/trends">Trends</a>
+        <a href="/methode">Methode</a>
+        <a href="/track-record">Track record</a>
+      </nav>
+      <button id="theme-toggle" class="hdr__theme" type="button" aria-label="Wissel thema">
+        <span class="hdr__theme-dot"></span>
+      </button>
+    </div>
+  </header>
+
+  <slot />
+
+  <footer class="ftr">
+    <div class="ftr__inner">
+      <div>
+        <a href="/" class="logo logo--sm" aria-label="ai / radar">
+          <span class="logo__a">ai</span><span class="logo__slash">/</span><span class="logo__b">radar</span>
+        </a>
+        <p class="ftr__tag">Signaalradar voor AI. Zie wat doorbreekt — voor het nieuws wordt.</p>
+        <nav class="ftr__links" aria-label="Footer">
+          <a href="/radar">Radar-archief</a>
+          <a href="/trends">Trends A–Z</a>
+          <a href="/methode">Methode</a>
+          <a href="/track-record">Track record</a>
+        </nav>
+      </div>
+      <p class="ftr__net">
+        Onderdeel van het netwerk van
+        <a href="https://hetlaatsteainieuws.nl">hetlaatsteainieuws.nl</a> &amp;
+        <a href="https://debesteaitools.nl">debesteaitools.nl</a>.
+      </p>
+      <p class="ftr__copy">© {year} ai / radar · gevoed door NewsFlux</p>
+    </div>
+  </footer>
+
+  <script is:inline>
+    (() => {
+      const root = document.documentElement;
+      const KEY = 'air-theme';
+      const saved = localStorage.getItem(KEY);
+      if (saved) root.setAttribute('data-theme', saved);
+      const btn = document.getElementById('theme-toggle');
+      btn && btn.addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem(KEY, next);
+      });
+    })();
+  </script>
+
+  <style>
+    .skip-link { position:absolute; left:-9999px; top:0; background:var(--primary-bright); color:var(--text-inverse); padding:var(--space-2) var(--space-4); border-radius:var(--radius-md); z-index:var(--z-max); }
+    .skip-link:focus { left:var(--space-4); top:var(--space-4); }
+
+    .hdr { position:sticky; top:0; z-index:var(--z-sticky); background:var(--bg-glass); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px); border-bottom:1px solid var(--border-subtle); }
+    .hdr__inner { max-width:var(--container-xwide); margin:0 auto; padding:var(--space-3) var(--space-6); display:flex; align-items:center; gap:var(--space-6); }
+    .hdr__nav { margin-left:auto; display:flex; gap:var(--space-5); }
+    .hdr__nav a { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+    .hdr__nav a:hover { color:var(--primary-bright); }
+    .hdr__theme { width:34px; height:20px; border:1px solid var(--border-strong); border-radius:var(--radius-full); display:inline-flex; align-items:center; padding:0 2px; }
+    .hdr__theme-dot { width:14px; height:14px; border-radius:var(--radius-full); background:var(--primary-bright); transition:transform var(--transition-base); }
+    html[data-theme="light"] .hdr__theme-dot { transform:translateX(0); }
+    html:not([data-theme="light"]) .hdr__theme-dot { transform:translateX(14px); }
+    @media (max-width:48em){ .hdr__nav{ display:none; } }
+
+    .logo { display:inline-flex; align-items:baseline; gap:1px; font-family:var(--font-logo); font-size:var(--text-lg); color:var(--text-primary); letter-spacing:var(--tracking-tight); }
+    .logo__slash { color:var(--primary-bright); margin:0 2px; }
+    .logo__b { color:var(--text-primary); }
+    .logo--sm { font-size:var(--text-base); }
+
+    .ftr { margin-top:var(--space-24); border-top:1px solid var(--border-subtle); background:var(--bg-surface); }
+    .ftr__inner { max-width:var(--container-xwide); margin:0 auto; padding:var(--space-12) var(--space-6); display:grid; gap:var(--space-4); }
+    .ftr__tag { font-size:var(--text-sm); color:var(--text-secondary); margin-top:var(--space-2); max-width:42ch; }
+    .ftr__links { display:flex; flex-wrap:wrap; gap:var(--space-4); margin-top:var(--space-4); }
+    .ftr__links a { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+    .ftr__links a:hover { color:var(--primary-bright); }
+    .ftr__net { font-size:var(--text-sm); color:var(--text-secondary); }
+    .ftr__copy { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+  </style>
+</body>
+</html>

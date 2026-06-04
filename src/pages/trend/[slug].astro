@@ -1,0 +1,103 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const trends = (await getCollection('trends')).filter((t) => !t.data.draft)
+    .sort((a, b) => (b.data.data.total_mentions ?? 0) - (a.data.data.total_mentions ?? 0));
+  const days = (await getCollection('radar')).filter((d) => !d.data.draft)
+    .sort((a, b) => b.data.date.localeCompare(a.data.date)).slice(0, 5)
+    .map((d) => ({ date: d.data.date }));
+  return trends.map((entry) => {
+    const others = trends
+      .filter((o) => o.data.slug !== entry.data.slug)
+      .slice(0, 8)
+      .map((o) => ({ keyword: o.data.keyword, slug: o.data.slug }));
+    return { params: { slug: entry.data.slug }, props: { entry, others, recentDays: days } };
+  });
+}
+const { entry, others, recentDays } = Astro.props;
+const t = entry.data.data;
+const months = ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+const fmt = (iso) => { const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()]} ${x.getFullYear()}`; };
+const paras = entry.data.analysis.split(/\n\n+/).filter(Boolean);
+const labels = { github:'GitHub', hackernews:'Hacker News', reddit:'Reddit', twitter:'X', bluesky:'Bluesky', linkedin:'LinkedIn', producthunt:'Product Hunt', articles:'nieuwsartikelen', arxiv:'ArXiv', huggingface:'Hugging Face' };
+
+// Sparkline uit trajectory
+const traj = (t.trajectory ?? []).map((p) => p.mentions);
+const W = 640, H = 120, max = Math.max(1, ...traj);
+const pts = traj.map((v, i) => `${(i/(traj.length-1||1))*W},${H - (v/max)*(H-8) - 4}`).join(' ');
+const expertPct = Math.round((t.expert_share ?? 0) * 100);
+---
+<Layout title={`${t.keyword} — AI-signaal op de radar | AI Nieuws Radar`}
+  description={entry.data.description} ogType="article" image={`/og/trend-${entry.data.slug}.png`}>
+  <main id="main" class="page">
+    <nav class="crumbs"><a href="/trends">Trends</a> <span>/</span> <span>{t.keyword}</span></nav>
+    <header class="phead">
+      <p class="kicker kicker--accent">Trend-signaal</p>
+      <h1>{t.keyword}</h1>
+      <div class="stats">
+        <div><b>{fmt(t.first_seen)}</b><span>eerste signaal</span></div>
+        <div><b>{t.days_tracked}</b><span>dagen op de radar</span></div>
+        <div><b>{t.peak_mentions.toLocaleString('nl-NL')}</b><span>piek (op {fmt(t.peak_date)})</span></div>
+        <div><b>{expertPct}%</b><span>expert-aandeel</span></div>
+      </div>
+    </header>
+
+    <figure class="spark">
+      <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" role="img" aria-label={`Vermeldingen van ${t.keyword} over tijd`}>
+        <polyline points={pts} fill="none" stroke="var(--primary-bright)" stroke-width="2" vector-effect="non-scaling-stroke" />
+      </svg>
+      <figcaption>Vermeldingen per meetdag — {fmt(t.first_seen)} tot {fmt(t.last_seen)}</figcaption>
+    </figure>
+
+    <div class="analysis">{paras.map((p) => <p>{p}</p>)}</div>
+
+    <section class="block">
+      <h2 class="block__title">Bronnen waar dit signaal opdook</h2>
+      <div class="src-tags">{(t.sources ?? []).map((s) => <span class="tag">{labels[s] ?? s}</span>)}</div>
+    </section>
+
+    <aside class="cross">
+      <p>Dit is een meet-signaal, geen nieuwsartikel. Voor redactionele duiding over <em>{t.keyword}</em> zie
+        <a href="https://hetlaatsteainieuws.nl" rel="noopener">hetlaatsteainieuws.nl</a>;
+        voor tools <a href="https://debesteaitools.nl" rel="noopener">debesteaitools.nl</a>.</p>
+    </aside>
+    <section class="block">
+      <h2 class="block__title">Verder kijken</h2>
+      <div class="rel">
+        {others.map((o) => <a href={`/trend/${o.slug}`} class="rel__chip">{o.keyword}</a>)}
+      </div>
+      <p class="recent">Recente radars:
+        {recentDays.map((d, i) => (<> {i > 0 ? ' · ' : ''}<a href={`/radar/${d.date}`}>{d.date}</a></>))}
+      </p>
+    </section>
+    <p class="back"><a href="/trends">← Alle trends</a></p>
+  </main>
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .crumbs { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); display:flex; gap:var(--space-2); margin-bottom:var(--space-6); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-5); text-transform:capitalize; }
+    .stats { display:grid; grid-template-columns:repeat(2,1fr); gap:var(--space-4); max-width:520px; }
+    @media (min-width:48em){ .stats{ grid-template-columns:repeat(4,1fr); } }
+    .stats div { display:flex; flex-direction:column; }
+    .stats b { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); }
+    .stats span { font-size:var(--text-2xs); color:var(--text-muted); text-transform:uppercase; letter-spacing:var(--tracking-wide); font-family:var(--font-mono); }
+    .spark { margin:var(--space-8) 0; }
+    .spark svg { width:100%; height:120px; background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); }
+    .spark figcaption { font-family:var(--font-mono); font-size:var(--text-2xs); color:var(--text-muted); margin-top:var(--space-2); text-transform:uppercase; letter-spacing:var(--tracking-wide); }
+    .analysis { margin:var(--space-8) 0; max-width:68ch; }
+    .analysis p { font-size:var(--text-lg); line-height:var(--leading-relaxed); color:var(--text-secondary); margin-bottom:var(--space-4); }
+    .block__title { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .src-tags { display:flex; flex-wrap:wrap; gap:var(--space-2); }
+    .tag { font-family:var(--font-mono); font-size:var(--text-2xs); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:2px 8px; color:var(--text-secondary); }
+    .cross { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5) var(--space-6); margin:var(--space-10) 0; }
+    .cross p { font-size:var(--text-base); color:var(--text-secondary); margin:0; }
+    .rel { display:flex; flex-wrap:wrap; gap:var(--space-2); }
+    .rel__chip { font-family:var(--font-mono); font-size:var(--text-xs); text-transform:capitalize; background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-full); padding:var(--space-2) var(--space-4); color:var(--text-primary); transition:border-color var(--transition-fast); }
+    .rel__chip:hover { border-color:var(--primary-bright); color:var(--primary-bright); }
+    .recent { font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--space-4); }
+    .back { font-family:var(--font-mono); font-size:var(--text-xs); margin-top:var(--space-6); }
+  </style>
+</Layout>

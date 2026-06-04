@@ -1,0 +1,135 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const days = (await getCollection('radar')).filter((d) => !d.data.draft);
+  const trends = (await getCollection('trends')).filter((t) => !t.data.draft);
+  const trendSlug = new Map(trends.map((t) => [t.data.keyword.toLowerCase(), t.data.slug]));
+  const trendSet = new Set(trendSlug.keys());
+  const sorted = [...days].sort((a, b) => a.data.date.localeCompare(b.data.date));
+  return sorted.map((entry, i) => {
+    const dd = entry.data.data;
+    const kws = [...(dd.accelerating ?? []), ...(dd.emerging ?? []), ...(dd.weak_signals ?? [])]
+      .map((m) => m.keyword);
+    const seen = new Set();
+    const related = [];
+    for (const kw of kws) {
+      const s = trendSlug.get(kw.toLowerCase());
+      if (s && !seen.has(s)) { seen.add(s); related.push({ keyword: kw, slug: s }); }
+      if (related.length >= 6) break;
+    }
+    return {
+      params: { date: entry.data.date },
+      props: { entry, prev: sorted[i - 1] ?? null, next: sorted[i + 1] ?? null, trendSet, related },
+    };
+  });
+}
+
+const { entry, prev, next, trendSet, related } = Astro.props;
+const d = entry.data.data;
+const slug = (k) => k.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const cap = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+const months = ['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
+const dt = new Date(entry.data.date);
+const dateNL = `${dt.getDate()} ${months[dt.getMonth()]} ${dt.getFullYear()}`;
+const paras = entry.data.analysis.split(/\n\n+/).filter(Boolean);
+const dayNL = (iso) => { const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()].slice(0,3)}`; };
+---
+<Layout title={`${entry.data.title} | AI Nieuws Radar`} description={entry.data.description} ogType="article" image={`/og/radar-${entry.data.date}.png`}>
+  <main id="main" class="page">
+    <nav class="crumbs"><a href="/radar">Radar-archief</a> <span>/</span> <span>{dateNL}</span></nav>
+    <header class="phead">
+      <p class="kicker kicker--accent">Dag-radar</p>
+      <h1>{entry.data.title}</h1>
+      <p class="phead__meta">{d.total_tracked?.toLocaleString('nl-NL')} onderwerpen gevolgd · meetdata, geen redactioneel nieuws</p>
+    </header>
+
+    <div class="analysis">
+      {paras.map((p) => <p>{p}</p>)}
+    </div>
+
+    <section class="block">
+      <h2 class="block__title">Versnelde het hardst</h2>
+      <ol class="rlist">
+        {d.accelerating.slice(0,8).map((m, i) => (
+          <li class="rlist__item">
+            <span class="rlist__rank">{String(i+1).padStart(2,'0')}</span>
+            <div class="rlist__body">
+              <div class="rlist__top">
+                <h3 class="rlist__kw">{trendSet.has(m.keyword.toLowerCase())
+                  ? <a href={`/trend/${slug(m.keyword)}`}>{cap(m.keyword)}</a>
+                  : cap(m.keyword)}</h3>
+                <span class="vel">▲ {m.velocity}</span>
+              </div>
+              <div class="rlist__meta">{m.mentions.toLocaleString('nl-NL')} vermeldingen · {m.source_count} bronnen</div>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    {d.weak_signals?.length > 0 && (
+      <section class="block">
+        <h2 class="block__title">Zwakke signalen die dag</h2>
+        <div class="chips">
+          {d.weak_signals.slice(0,8).map((m) => (
+            <div class="chip"><strong>{cap(m.keyword)}</strong><span class="chip__meta">{m.mentions}× · {m.source_count} bron</span></div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {related.length > 0 && (
+      <section class="block">
+        <h2 class="block__title">Gerelateerde trends</h2>
+        <div class="rel">
+          {related.map((r) => <a href={`/trend/${r.slug}`} class="rel__chip">{cap(r.keyword)}</a>)}
+        </div>
+      </section>
+    )}
+
+    <aside class="cross">
+      <p>Wil je weten wat dit <em>betekent</em> voor de praktijk? De redactionele duiding staat op
+        <a href="https://hetlaatsteainieuws.nl" rel="noopener">hetlaatsteainieuws.nl</a>.
+        Op zoek naar concrete tools? Zie <a href="https://debesteaitools.nl" rel="noopener">debesteaitools.nl</a>.</p>
+    </aside>
+
+    <nav class="pager">
+      {prev ? <a href={`/radar/${prev.data.date}`}>← {dayNL(prev.data.date)}</a> : <span></span>}
+      <a href="/radar" class="pager__all">Alle radars</a>
+      {next ? <a href={`/radar/${next.data.date}`}>{dayNL(next.data.date)} →</a> : <span></span>}
+    </nav>
+  </main>
+
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .crumbs { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); display:flex; gap:var(--space-2); margin-bottom:var(--space-6); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--secondary-bright); margin:0 0 var(--space-3); }
+    .kicker--accent { color:var(--primary-bright); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-4xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); line-height:1.2; margin:0 0 var(--space-3); }
+    .phead__meta { font-size:var(--text-sm); color:var(--text-muted); }
+    .analysis { margin:var(--space-8) 0; max-width:68ch; }
+    .analysis p { font-size:var(--text-lg); line-height:var(--leading-relaxed); color:var(--text-secondary); margin-bottom:var(--space-4); }
+    .block { margin:var(--space-10) 0; }
+    .block__title { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .rlist { border-top:1px solid var(--border-subtle); }
+    .rlist__item { display:grid; grid-template-columns:auto 1fr; gap:var(--space-4); padding:var(--space-4) 0; border-bottom:1px solid var(--border-subtle); }
+    .rlist__rank { font-family:var(--font-mono); color:var(--primary-bright); }
+    .rlist__top { display:flex; justify-content:space-between; align-items:baseline; gap:var(--space-3); }
+    .rlist__kw { font-family:var(--font-body); font-size:var(--text-lg); font-weight:var(--font-semibold); margin:0; text-transform:capitalize; }
+    .vel { font-family:var(--font-mono); font-size:var(--text-xs); color:var(--primary-bright); white-space:nowrap; }
+    .rlist__meta { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); margin-top:var(--space-1); }
+    .chips { display:flex; flex-wrap:wrap; gap:var(--space-3); }
+    .chip { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-left:3px solid var(--color-warning); border-radius:var(--radius-md); padding:var(--space-3) var(--space-4); display:flex; flex-direction:column; gap:2px; }
+    .chip strong { font-size:var(--text-sm); text-transform:capitalize; }
+    .chip__meta { font-family:var(--font-mono); font-size:var(--text-2xs); color:var(--text-muted); }
+    .rel { display:flex; flex-wrap:wrap; gap:var(--space-2); }
+    .rel__chip { font-family:var(--font-mono); font-size:var(--text-xs); text-transform:capitalize; background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-full); padding:var(--space-2) var(--space-4); color:var(--text-primary); transition:border-color var(--transition-fast); }
+    .rel__chip:hover { border-color:var(--primary-bright); color:var(--primary-bright); }
+    .cross { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5) var(--space-6); margin:var(--space-10) 0; }
+    .cross p { font-size:var(--text-base); color:var(--text-secondary); margin:0; }
+    .pager { display:flex; justify-content:space-between; align-items:center; gap:var(--space-4); padding-top:var(--space-8); border-top:1px solid var(--border-subtle); font-family:var(--font-mono); font-size:var(--text-xs); }
+    .pager__all { text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+  </style>
+</Layout>

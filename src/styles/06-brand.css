@@ -1,0 +1,37 @@
+/* ainieuwsradar.nl — brand override on top of HLN design system.
+   Unlayered: redefines fonts + swaps the primary hue amber→emerald.
+   Everything else (teal secondary, slate text, warm-white light bg) is
+   inherited verbatim from HLN's 00-tokens.css. */
+
+@font-face { font-family:'Boldonse'; src:url('/fonts/boldonse.ttf') format('truetype'); font-weight:400; font-display:swap; }
+@font-face { font-family:'InterLocal'; src:url('/fonts/inter-regular.ttf') format('truetype'); font-weight:400; font-display:swap; }
+@font-face { font-family:'InterLocal'; src:url('/fonts/inter-semibold.ttf') format('truetype'); font-weight:600; font-display:swap; }
+@font-face { font-family:'InterLocal'; src:url('/fonts/inter-bold.ttf') format('truetype'); font-weight:700; font-display:swap; }
+@font-face { font-family:'SpaceGroteskLocal'; src:url('/fonts/space-grotesk-bold.ttf') format('truetype'); font-weight:700; font-display:swap; }
+
+:root {
+  /* Astro-fonts-API vars that HLN's tokens reference */
+  --font-boldonse: 'Boldonse', 'SpaceGroteskLocal', 'Helvetica Neue', sans-serif;
+  --font-geist: 'InterLocal', system-ui, 'Helvetica Neue', Arial, sans-serif;
+  --font-jetbrains-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Primary → Emerald (dark mode, on near-black). */
+  --primary-h: 158;
+  --primary-bright: oklch(80% 0.16 158);
+  --primary-mid: oklch(70% 0.15 158);
+  --primary-dark: oklch(55% 0.13 160);
+  --primary-dim: oklch(32% 0.08 160);
+
+  --border-accent: color-mix(in oklch, var(--primary-bright) 40%, transparent);
+  --glow-primary: color-mix(in oklch, var(--primary-bright) 15%, transparent);
+}
+
+[data-theme="light"] {
+  /* Emerald, darkened for AA contrast on warm-white page + recessed surface. */
+  --primary-bright: oklch(48% 0.13 158);
+  --primary-mid: oklch(42% 0.12 158);
+  --primary-dark: oklch(35% 0.10 158);
+  --primary-dim: oklch(94% 0.045 158);
+  --border-accent: color-mix(in oklch, var(--primary-bright) 35%, transparent);
+  --glow-primary: color-mix(in oklch, var(--primary-bright) 10%, transparent);
+}

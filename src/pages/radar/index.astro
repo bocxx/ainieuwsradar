@@ -1,0 +1,52 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+const days = (await getCollection('radar')).filter((d) => !d.data.draft)
+  .sort((a, b) => b.data.date.localeCompare(a.data.date));
+const months = ['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
+const fmt = (iso) => { const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()]}`; };
+const groups = {};
+for (const d of days) {
+  const x = new Date(d.data.date);
+  const key = `${months[x.getMonth()]} ${x.getFullYear()}`;
+  (groups[key] ??= []).push(d);
+}
+---
+<Layout title="Radar-archief — elke dag een AI-signaalmeting | AI Nieuws Radar"
+  description={`Het volledige archief van de AI-signaalradar: ${days.length} dagelijkse metingen van opkomende AI-trends, met de versnellers en zwakke signalen per dag.`}>
+  <main id="main" class="page">
+    <header class="phead">
+      <p class="kicker kicker--accent">Archief</p>
+      <h1>Radar-archief</h1>
+      <p class="lede">{days.length} dagelijkse metingen. Elke dag legt vast wat versnelde, wat opkwam en welke zwakke signalen onder de radar bleven — puur uit de data.</p>
+    </header>
+    {Object.entries(groups).map(([month, items]) => (
+      <section class="mgroup">
+        <h2 class="mgroup__title">{month}</h2>
+        <ul class="dlist">
+          {items.map((d) => (
+            <li>
+              <a href={`/radar/${d.data.date}`}>
+                <span class="dlist__date">{fmt(d.data.date)}</span>
+                <span class="dlist__title">{d.data.title.replace(/^AI-radar [^:]+:\s*/, '')}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </main>
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:60ch; line-height:var(--leading-relaxed); }
+    .mgroup { margin-top:var(--space-12); }
+    .mgroup__title { font-family:var(--font-mono); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:var(--tracking-wider); color:var(--text-muted); padding-bottom:var(--space-3); border-bottom:1px solid var(--border-subtle); margin-bottom:var(--space-2); }
+    .dlist li { border-bottom:1px solid var(--border-subtle); }
+    .dlist a { display:grid; grid-template-columns:90px 1fr; gap:var(--space-4); padding:var(--space-3) 0; align-items:baseline; color:var(--text-primary); }
+    .dlist a:hover .dlist__title { color:var(--primary-bright); }
+    .dlist__date { font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted); }
+    .dlist__title { font-size:var(--text-base); line-height:var(--leading-snug); }
+  </style>
+</Layout>

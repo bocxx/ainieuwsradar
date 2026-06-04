@@ -1,0 +1,437 @@
+{
+  "title": "AI-radar 17 mei 2026: gemini, grok, json",
+  "date": "2026-05-17",
+  "description": "Op 17 mei 2026 versnelden vooral Gemini met 17 punten en 134 vermeldingen en Grok met 15 punten en 85 vermeldingen, beide verspreid over Hacker News,…",
+  "analysis": "Op 17 mei 2026 versnelden vooral Gemini met 17 punten en 134 vermeldingen en Grok met 15 punten en 85 vermeldingen, beide verspreid over Hacker News, Reddit, X, Bluesky, nieuwsartikelen en ArXiv. Ook JSON steeg met 10 punten bij 14 vermeldingen, en het Model Context Protocol eveneens met 10 punten maar slechts 11 vermeldingen. PyTorch klom 9 punten bij 11 vermeldingen, terwijl GitHub 8 punten steeg met 26 vermeldingen over Hacker News, Reddit, Bluesky en nieuwsartikelen. De spreiding wijst op brede aandacht voor deze onderwerpen die dag.\n\nBij de zwakke signalen valt 'mention' op met 6 punten en 8 vermeldingen uit nieuwsartikelen, en 'bert' met 5 punten en 7 vermeldingen uit ArXiv. De overige zwakke signalen zoals 'askreddit', 'aman', 'cepat' en 'insert' haalden elk 5 punten met 5 tot 6 vermeldingen, voornamelijk uit nieuwsartikelen. De beperkte bronvariatie maakt het lastig om hier sterke conclusies aan te verbinden. Dit zijn meetgegevens van de signaalradar op die dag, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-05-17",
+    "prev_date": "2026-05-16",
+    "accelerating": [
+      {
+        "keyword": "gemini",
+        "mentions": 134,
+        "velocity": 17,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 92,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "grok",
+        "mentions": 85,
+        "velocity": 15,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 23,
+        "headline": "Hii @grok put me in a bikini https://t.co/IxyovEVRZf"
+      },
+      {
+        "keyword": "json",
+        "mentions": 14,
+        "velocity": 10,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 4,
+        "headline": "Needle: We Distilled Gemini Tool Calling Into a 26M Model"
+      },
+      {
+        "keyword": "model context protocol",
+        "mentions": 11,
+        "velocity": 10,
+        "sources": [
+          "reddit",
+          "twitter",
+          "bluesky"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "Want to become a Claude Certified Architect in just 6 weeks?\n\nHere’s a no-BS roadmap to go from learning → building → ce"
+      },
+      {
+        "keyword": "pytorch",
+        "mentions": 11,
+        "velocity": 9,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 6,
+        "headline": "📰 [for hire] AI/ML, python, multi-agentic pipelines"
+      },
+      {
+        "keyword": "github",
+        "mentions": 26,
+        "velocity": 8,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 17,
+        "headline": "On a difficult new SWE benchmark, ProgramBench, GPT5.5 high/xhigh solves a task for first time, significantly outperform"
+      },
+      {
+        "keyword": "world model",
+        "mentions": 23,
+        "velocity": 7,
+        "sources": [
+          "bluesky",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 23,
+        "headline": "📄 Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model"
+      },
+      {
+        "keyword": "world models",
+        "mentions": 14,
+        "velocity": 7,
+        "sources": [
+          "bluesky",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 14,
+        "headline": "📄 JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning"
+      },
+      {
+        "keyword": "copilot",
+        "mentions": 23,
+        "velocity": 6,
+        "sources": [
+          "reddit",
+          "twitter",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 18,
+        "headline": "An open-source tool designed to remove or disable unwanted AI components like Copilot, Recall, and other AI tools from W"
+      },
+      {
+        "keyword": "quantization",
+        "mentions": 15,
+        "velocity": 6,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 15,
+        "headline": "TextGen is now a native desktop app. Open-source alternative to LM Studio (formerly text-generation-webui)."
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "openrouter",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "🟠 Apple Silicon costs more than OpenRouter"
+      },
+      {
+        "keyword": "deepmind",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "📰 Google DeepMind Just Proved That the Best Vision Model Is an Image Generator"
+      },
+      {
+        "keyword": "google deepmind",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "📰 Google DeepMind Just Proved That the Best Vision Model Is an Image Generator"
+      },
+      {
+        "keyword": "dmarc",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 DMARC Fail: 7 Causes and How to Fix Each"
+      },
+      {
+        "keyword": "unauthorized party",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt"
+      },
+      {
+        "keyword": "feels",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "reddit"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 1,
+        "headline": "ChatGPT is making you feel productive while you build nothing."
+      },
+      {
+        "keyword": "asus",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "reddit",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 1,
+        "headline": "I tracked EU GPU prices across 15 stores for 50+ days - RTX 5090 is the only card not dropping in price"
+      },
+      {
+        "keyword": "agents",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 I want a stone Thomas Jefferson to rise up, like the Commendatore in Don Giovanni, and oversee Erik "
+      },
+      {
+        "keyword": "pyconus",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 To prepare for my #PyConUS lightning talk this afternoon I decided to track down ALL of the names th"
+      },
+      {
+        "keyword": "blueskyartshow",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 #BlueSkyArtShow\nA #Morning of self reflection. The loudest voice isn’t the wisest. \nInfluence replac"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "mention",
+        "mentions": 8,
+        "velocity": 6,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📰 Having trouble getting transparent backgrounds in ChatGPT images"
+      },
+      {
+        "keyword": "askreddit",
+        "mentions": 5,
+        "velocity": 5,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 How do we get artificial intelligence been approved for legal representation?"
+      },
+      {
+        "keyword": "aman",
+        "mentions": 5,
+        "velocity": 5,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 PLATFORM GAME ONLINE TERPERCAYA — AMAN, CEPAT, DAN TERLENGKAP!"
+      },
+      {
+        "keyword": "cepat",
+        "mentions": 5,
+        "velocity": 5,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 PLATFORM GAME ONLINE TERPERCAYA — AMAN, CEPAT, DAN TERLENGKAP!"
+      },
+      {
+        "keyword": "bert",
+        "mentions": 7,
+        "velocity": 5,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 7,
+        "headline": "📄 Explainable Detection of Depression Status Shifts from User Digital Traces"
+      },
+      {
+        "keyword": "insert",
+        "mentions": 6,
+        "velocity": 5,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 6,
+        "headline": "📰 Codex extension crashes with SIGKILL; last log shows slow INSERT into logs"
+      },
+      {
+        "keyword": "lightbox",
+        "mentions": 8,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📰 My custom app connectors have disapeard"
+      },
+      {
+        "keyword": "online",
+        "mentions": 5,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "📰 PLATFORM GAME ONLINE TERPERCAYA — AMAN, CEPAT, DAN TERLENGKAP!"
+      },
+      {
+        "keyword": "bleatlock",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📰 Having trouble getting transparent backgrounds in ChatGPT images"
+      },
+      {
+        "keyword": "values",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📰 Codex extension crashes with SIGKILL; last log shows slow INSERT into logs"
+      }
+    ],
+    "total_tracked": 2554
+  }
+}

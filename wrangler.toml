@@ -1,0 +1,16 @@
+name = "ainieuwsradar"
+compatibility_date = "2026-03-27"
+workers_dev = true
+preview_urls = true
+
+routes = [
+  { pattern = "ainieuwsradar.nl", custom_domain = true },
+  { pattern = "www.ainieuwsradar.nl", custom_domain = true },
+]
+
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
+
+[observability]
+enabled = true

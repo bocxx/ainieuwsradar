@@ -1,0 +1,375 @@
+/**
+ * Animations — hetlaatsteainieuws.nl v2
+ * Centrale keyframe-definities en animation utility classes.
+ *
+ * Alle animaties gebruiken CSS custom properties voor easy customization.
+ * ClawsHub-specifieke en gradient-animaties zijn verwijderd (zie BRIEFING).
+ */
+
+@layer animations {
+  /* ============================================
+     KEYFRAME DEFINITIONS
+     ============================================ */
+
+  /* Entrance Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(var(--fade-distance, 20px));
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(var(--fade-distance, -20px));
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(var(--fade-distance, -20px));
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(var(--fade-distance, 20px));
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(var(--scale-start, 0.9));
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Continuous Animations */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(var(--float-start, 0));
+    }
+    50% {
+      transform: translateY(var(--float-end, var(--float-distance, -8px)));
+    }
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(var(--pulse-scale-min, 1));
+      opacity: 1;
+    }
+    50% {
+      transform: scale(var(--pulse-scale-max, 1.05));
+      opacity: 0.9;
+    }
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(var(--rotate-degrees, 360deg));
+    }
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(var(--bounce-height, -10px));
+    }
+  }
+
+  /* Special Effects */
+  @keyframes blink {
+    0%, 90%, 100% {
+      opacity: 1;
+    }
+    95% {
+      opacity: var(--blink-opacity, 0.3);
+    }
+  }
+
+  @keyframes wiggle {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(var(--wiggle-angle, -3deg));
+    }
+    75% {
+      transform: rotate(var(--wiggle-angle-inverse, 3deg));
+    }
+  }
+
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(var(--shake-distance, -2px));
+    }
+    75% {
+      transform: translateX(var(--shake-distance-inverse, 2px));
+    }
+  }
+
+  /* Atmospheric Animations */
+  @keyframes twinkle {
+    0% {
+      opacity: var(--twinkle-min, 0.4);
+    }
+    100% {
+      opacity: var(--twinkle-max, 0.7);
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  /* Scroll Animations — voor OpenAI-style horizontal scroll-rows */
+  @keyframes scrollLeft {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes scrollRight {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  /* ============================================
+     ANIMATION UTILITY CLASSES
+     ============================================ */
+
+  /* Entrance Animations */
+  .animate-fade-in {
+    animation: fadeIn var(--duration-base) var(--ease-out) both;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp var(--duration-base) var(--ease-out) both;
+  }
+
+  .animate-fade-in-down {
+    animation: fadeInDown var(--duration-base) var(--ease-out) both;
+  }
+
+  .animate-fade-in-left {
+    animation: fadeInLeft var(--duration-base) var(--ease-out) both;
+  }
+
+  .animate-fade-in-right {
+    animation: fadeInRight var(--duration-base) var(--ease-out) both;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn var(--duration-base) var(--ease-out) both;
+  }
+
+  /* Continuous Animations */
+  .animate-float {
+    animation: float var(--float-duration) ease-in-out infinite;
+    will-change: transform;
+  }
+
+  .animate-pulse {
+    animation: pulse var(--pulse-duration) ease-in-out infinite;
+    will-change: transform, opacity;
+  }
+
+  .animate-spin {
+    animation: spin var(--rotate-duration) linear infinite;
+    will-change: transform;
+  }
+
+  .animate-bounce {
+    animation: bounce var(--duration-slow) ease-in-out infinite;
+    will-change: transform;
+  }
+
+  /* Special Effects */
+  .animate-blink {
+    animation: blink 3s ease-in-out infinite;
+    will-change: opacity;
+  }
+
+  .animate-wiggle {
+    animation: wiggle 2s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  .animate-shake {
+    animation: shake 0.1s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  /* Atmospheric */
+  .animate-twinkle {
+    animation: twinkle 8s ease-in-out infinite alternate;
+    will-change: opacity;
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in oklch, var(--text-primary) 15%, transparent),
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s linear infinite;
+    will-change: background-position;
+  }
+
+  /* ============================================
+     ANIMATION MODIFIERS
+     ============================================ */
+
+  /* Duration Modifiers */
+  .animate-faster {
+    animation-duration: calc(var(--duration-base) * 0.5);
+  }
+
+  .animate-slower {
+    animation-duration: calc(var(--duration-base) * 1.5);
+  }
+
+  .animate-delay-1 {
+    animation-delay: 0.15s;
+  }
+
+  .animate-delay-2 {
+    animation-delay: 0.3s;
+  }
+
+  .animate-delay-3 {
+    animation-delay: 0.45s;
+  }
+
+  .animate-delay-4 {
+    animation-delay: 0.6s;
+  }
+
+  .animate-delay-5 {
+    animation-delay: 0.75s;
+  }
+
+  /* Play State Controls */
+  .animate-paused {
+    animation-play-state: paused;
+  }
+
+  .animate-running {
+    animation-play-state: running;
+  }
+
+  /* Hover Interactions */
+  .animate-pause-on-hover:hover,
+  .animate-pause-on-hover:focus-within {
+    animation-play-state: paused;
+  }
+
+  .animate-play-on-hover {
+    animation-play-state: paused;
+  }
+
+  .animate-play-on-hover:hover,
+  .animate-play-on-hover:focus {
+    animation-play-state: running;
+  }
+
+  /* ============================================
+     ACCESSIBILITY — Respect reduced motion
+     ============================================ */
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+
+    /* Verwijder will-change voor reduced motion */
+    .animate-float,
+    .animate-pulse,
+    .animate-spin,
+    .animate-bounce,
+    .animate-blink,
+    .animate-wiggle,
+    .animate-shake,
+    .animate-twinkle,
+    .animate-shimmer {
+      will-change: auto;
+    }
+  }
+
+  /* ============================================
+     PERFORMANCE OPTIMIZATION
+     ============================================ */
+
+  /* Contain animations voor betere performance */
+  [class*="animate-"] {
+    contain: layout style paint;
+  }
+
+  /* Optimaliseer specifieke animaties met hardware acceleration */
+  .animate-float,
+  .animate-pulse,
+  .animate-bounce {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+}

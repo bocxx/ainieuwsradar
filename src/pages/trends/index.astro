@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+const trends = (await getCollection('trends')).filter((t) => !t.data.draft)
+  .sort((a, b) => (b.data.data.total_mentions ?? 0) - (a.data.data.total_mentions ?? 0));
+---
+<Layout title="AI-trends op de radar — signaalverloop per onderwerp | AI Nieuws Radar"
+  description={`${trends.length} AI-trefwoorden met hun gemeten signaalverloop: sinds wanneer op de radar, hoe sterk, hoe betrouwbaar. Data over 1000+ bronnen.`}>
+  <main id="main" class="page">
+    <header class="phead">
+      <p class="kicker kicker--accent">Trends A–Z</p>
+      <h1>Trend-signalen</h1>
+      <p class="lede">{trends.length} AI-onderwerpen, elk met een gemeten verloop: sinds wanneer op de radar, hoe sterk, en hoe breed gedragen door bronnen. Geen mening — meting.</p>
+    </header>
+    <div class="grid">
+      {trends.map((t) => (
+        <a class="tcard" href={`/trend/${t.data.slug}`}>
+          <h2 class="tcard__kw">{t.data.keyword}</h2>
+          <p class="tcard__meta">{(t.data.data.days_tracked ?? 0)} dagen · piek {(t.data.data.peak_mentions ?? 0).toLocaleString('nl-NL')}</p>
+          <p class="tcard__desc">{t.data.description}</p>
+        </a>
+      ))}
+    </div>
+  </main>
+  <style>
+    .page { max-width:var(--container-xwide); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:62ch; line-height:var(--leading-relaxed); margin-bottom:var(--space-10); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:var(--space-4); }
+    .tcard { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); box-shadow:var(--shadow-xs); transition:border-color var(--transition-fast), transform var(--transition-fast); }
+    .tcard:hover { border-color:var(--border-accent); transform:translateY(-2px); }
+    .tcard__kw { font-family:var(--font-body); font-size:var(--text-xl); font-weight:var(--font-semibold); margin:0; text-transform:capitalize; color:var(--text-primary); }
+    .tcard__meta { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); margin:var(--space-1) 0 var(--space-3); }
+    .tcard__desc { font-size:var(--text-sm); color:var(--text-secondary); line-height:var(--leading-snug); display:-webkit-box; -webkit-line-clamp:3; line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  </style>
+</Layout>
