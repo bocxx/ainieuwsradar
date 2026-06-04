@@ -157,6 +157,7 @@ Ruisfilter en bronlabels staan in `export_ainieuwsradar.py` (`SKIP`,
 |---|---|
 | `wrangler deploy` vraagt om login | `npx wrangler login` (eenmalig). |
 | Custom domain koppelt niet | Zone nog niet **Active** in Cloudflare — even wachten op nameserver-propagatie, dan opnieuw. |
+| `Hostname … already has externally managed DNS records … [code: 100117]` | Cloudflare heeft bij het toevoegen van de zone bestaande A/AAAA/CNAME-records (parking/oude host) overgenomen op `@` en `www`. **DNS → Records → verwijder die A/AAAA/CNAME op `ainieuwsradar.nl` en `www`** (MX/TXT laten staan), dan opnieuw `npm run deploy`. Wrangler maakt dan zelf het custom-domain-record. |
 | `Invalid _redirects configuration: Only relative URLs are allowed` | `_redirects` mag geen absolute/cross-host URL's bevatten. Verwijder `public/_redirects` en doe `www → apex` via een Redirect Rule in het dashboard (zie boven). |
 | Sitemap mist na build | Controleer dat `@astrojs/sitemap` op een **Astro 4**-compatibele versie staat (3.2.x). Nieuwere majors verwachten Astro 5+ en falen met `_routes … reduce`. |
 | `EPERM unlink … .astro/…` | Treedt alleen op in de sandbox-omgeving (mount blokkeert `unlink`). Op je Mac bouwt het schoon door. |
