@@ -1,20 +1,11 @@
-/* ainieuwsradar.nl — brand override on top of HLN design system.
-   Unlayered: redefines fonts + swaps the primary hue amber→emerald.
-   Everything else (teal secondary, slate text, warm-white light bg) is
-   inherited verbatim from HLN's 00-tokens.css. */
-
-@font-face { font-family:'Boldonse'; src:url('/fonts/boldonse.ttf') format('truetype'); font-weight:400; font-display:swap; }
-@font-face { font-family:'InterLocal'; src:url('/fonts/inter-regular.ttf') format('truetype'); font-weight:400; font-display:swap; }
-@font-face { font-family:'InterLocal'; src:url('/fonts/inter-semibold.ttf') format('truetype'); font-weight:600; font-display:swap; }
-@font-face { font-family:'InterLocal'; src:url('/fonts/inter-bold.ttf') format('truetype'); font-weight:700; font-display:swap; }
-@font-face { font-family:'SpaceGroteskLocal'; src:url('/fonts/space-grotesk-bold.ttf') format('truetype'); font-weight:700; font-display:swap; }
+/* ainieuwsradar.nl — brand overrides on top of design system.
+   Unlayered so these rules win over @layer tokens.
+   Font variables (--font-boldonse, --font-geist, --font-jetbrains-mono)
+   are set by the Astro fonts API via <Font> in Layout.astro — do not
+   redeclare them here or they will override the self-hosted WOFF2 fonts.
+   Color: primary hue → Emerald. Everything else inherits from 00-tokens. */
 
 :root {
-  /* Astro-fonts-API vars that HLN's tokens reference */
-  --font-boldonse: 'Boldonse', 'SpaceGroteskLocal', 'Helvetica Neue', sans-serif;
-  --font-geist: 'InterLocal', system-ui, 'Helvetica Neue', Arial, sans-serif;
-  --font-jetbrains-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
-
   /* Primary → Emerald (dark mode, on near-black). */
   --primary-h: 158;
   --primary-bright: oklch(80% 0.16 158);

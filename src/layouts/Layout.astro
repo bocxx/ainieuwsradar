@@ -1,5 +1,6 @@
 ---
 import '../styles/main.css';
+import { Font } from 'astro:assets';
 const {
   title = 'AI Nieuws Radar',
   description = '',
@@ -28,6 +29,10 @@ const jsonld = {
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
+  <Font cssVariable="--font-boldonse" preload />
+  <Font cssVariable="--font-geist" />
+  <Font cssVariable="--font-jetbrains-mono" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
   {noindex && <meta name="robots" content="noindex, nofollow" />}
@@ -48,9 +53,6 @@ const jsonld = {
   <meta name="twitter:image" content={ogImage} />
 
   <link rel="sitemap" href="/sitemap-index.xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />
 </head>
 <body>
