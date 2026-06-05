@@ -1,10 +1,8 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
-// Data-collections (JSON), gegenereerd door NewsFlux:
-//   src/content/radar/<YYYY-MM-DD>.json  — dag-snapshot + LLM-analyse
-//   src/content/trends/<slug>.json       — trend-entiteit + LLM-analyse
 const radar = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './src/content/radar' }),
   schema: z.object({
     title: z.string(),
     date: z.string(),
@@ -16,7 +14,7 @@ const radar = defineCollection({
 });
 
 const trends = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './src/content/trends' }),
   schema: z.object({
     title: z.string(),
     keyword: z.string(),
