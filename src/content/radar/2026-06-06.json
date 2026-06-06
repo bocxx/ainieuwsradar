@@ -1,0 +1,471 @@
+{
+  "title": "AI-radar 6 juni 2026: large language model, reinforcement learning, lora",
+  "date": "2026-06-06",
+  "description": "Op 6 juni 2026 domineerden de vertrouwde bouwstenen van AI-ontwikkeling de radar. Large language models stegen met 284 punten naar 800 vermeldingen,…",
+  "analysis": "Op 6 juni 2026 domineerden de vertrouwde bouwstenen van AI-ontwikkeling de radar. Large language models stegen met 284 punten naar 800 vermeldingen, verspreid over Hacker News, Reddit, Bluesky, nieuwsartikelen en ArXiv. Reinforcement learning klom met 160 punten naar 270 vermeldingen, terwijl agentic (+85 naar 251) en ai agent (+77 naar 335) lieten zien dat autonome systemen nog steeds volop aandacht krijgen. Fine-tuning en lora, beide met stijgingen rond de 85 en 114 punten, bevestigen dat het optimaliseren van bestaande modellen een terugkerend thema blijft.\n\nBij de zwakke signalen valt grpo op: een stijging van 46 punten naar 74 vermeldingen, uitsluitend uit nieuwsartikelen en ArXiv. Die combinatie van academische en journalistieke bronnen suggereert een techniek die de overgang maakt van onderzoek naar bredere bekendheid. World models en world model tonen samen ook beweging (25 en 21 punten stijging), maar grpo's concentratie in twee brontypen maakt het een compacter signaal om te volgen. Dit zijn meetgegevens van 986 gevolgde onderwerpen, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-06-06",
+    "prev_date": "2026-06-05",
+    "accelerating": [
+      {
+        "keyword": "large language model",
+        "mentions": 800,
+        "velocity": 284,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 796,
+        "headline": "\"[Google employee] was fired from Google in December 2020 for refusing to retract a research paper, and every single war"
+      },
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 270,
+        "velocity": 160,
+        "sources": [
+          "reddit",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 268,
+        "headline": "AI agent deployed on Robotic Air Hockey Table"
+      },
+      {
+        "keyword": "lora",
+        "mentions": 172,
+        "velocity": 114,
+        "sources": [
+          "github",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 166,
+        "headline": "Colorado Governor Vetoes Surveillance Pricing Ban as Public Backlash Against the Tech Grows"
+      },
+      {
+        "keyword": "agentic",
+        "mentions": 251,
+        "velocity": 85,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 8,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 231,
+        "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 183,
+        "velocity": 85,
+        "sources": [
+          "hackernews",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 183,
+        "headline": "📄 Towards Generalization of Block Attention via Automatic Segmentation and Block Distillation"
+      },
+      {
+        "keyword": "ai agent",
+        "mentions": 335,
+        "velocity": 77,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 255,
+        "headline": "ChatGPT’s new AI agent reportedly passed the ‘I am not a robot’ test by moving a cursor like a human https://t.co/14AJrg"
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 179,
+        "velocity": 76,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 175,
+        "headline": "Stop asking what model to run. There are literally only two."
+      },
+      {
+        "keyword": "multimodal",
+        "mentions": 244,
+        "velocity": 74,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 7,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 237,
+        "headline": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model"
+      },
+      {
+        "keyword": "ai agents",
+        "mentions": 265,
+        "velocity": 60,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 8,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 201,
+        "headline": "'Resistance is futile,' says Qualcomm CEO. AI agents will be become invisible, inescapable, follow you across devices"
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 89,
+        "velocity": 42,
+        "sources": [
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 7,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 82,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "luma",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "reddit",
+          "producthunt",
+          "articles"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 1,
+        "headline": "OpenLumara - A different kind of AI agent, written from scratch, not vibecoded. Extremely token-efficient, super small s"
+      },
+      {
+        "keyword": "code completion",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Ask HN: What was your \"oh shit\" moment with GenAI?"
+      },
+      {
+        "keyword": "oh shit",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Ask HN: What was your \"oh shit\" moment with GenAI?"
+      },
+      {
+        "keyword": "fastscan",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Inside FAISS: Billion-Scale Similarity Search"
+      },
+      {
+        "keyword": "sakana ai",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Sakana AI's Recursive Self-Improvement (RSI) Lab"
+      },
+      {
+        "keyword": "desantis",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Florida, a state led by Gov. Ron DeSantis’ right-wing, pro-business administration, sued OpenAI and "
+      },
+      {
+        "keyword": "we talked to his estate",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 I think the fact that they immediately led with \"we talked to his estate\" to immediately try to quel"
+      },
+      {
+        "keyword": "mckinseyfied",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Meanwhile, the McKinseyfied Pichai-era Google is using AI to lose a bunch of money, further ruin Goo"
+      },
+      {
+        "keyword": "sellerclaw",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 SellerClaw"
+      },
+      {
+        "keyword": "localclicky",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 LocalClicky"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "foundation model",
+        "mentions": 118,
+        "velocity": 99,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 118,
+        "headline": "📄 Towards Unified and Data-Efficient Prognostics and Health Management with Tabular Foundation Models"
+      },
+      {
+        "keyword": "distillation",
+        "mentions": 98,
+        "velocity": 66,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 98,
+        "headline": "📄 Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation"
+      },
+      {
+        "keyword": "grpo",
+        "mentions": 74,
+        "velocity": 46,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 74,
+        "headline": "📄 Soft Sequence Policy Optimization"
+      },
+      {
+        "keyword": "gpt-5",
+        "mentions": 76,
+        "velocity": 27,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 75,
+        "headline": "📄 CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives"
+      },
+      {
+        "keyword": "world models",
+        "mentions": 30,
+        "velocity": 25,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 30,
+        "headline": "📄 Learning to Theorize the World from Observation"
+      },
+      {
+        "keyword": "world model",
+        "mentions": 37,
+        "velocity": 21,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 37,
+        "headline": "📄 Learning to Theorize the World from Observation"
+      },
+      {
+        "keyword": "synthetic data",
+        "mentions": 25,
+        "velocity": 18,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 25,
+        "headline": "📄 Epidemiology of Model Collapse: Modeling Synthetic Data Contamination via Bilayer SIR Dynamics"
+      },
+      {
+        "keyword": "react",
+        "mentions": 13,
+        "velocity": 11,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 13,
+        "headline": "📄 ProfiliTable: Profiling-Driven Tabular Data Processing via Agentic Workflows"
+      },
+      {
+        "keyword": "core",
+        "mentions": 13,
+        "velocity": 11,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 13,
+        "headline": "📄 Framing, Judging, Steering: An Assessable Competency Model for Teach-ing Students to Reason With Generative AI"
+      },
+      {
+        "keyword": "reward hacking",
+        "mentions": 18,
+        "velocity": 10,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 18,
+        "headline": "📄 InfoDensity: Rewarding Information-Dense Traces for Efficient Reasoning"
+      }
+    ],
+    "total_tracked": 986
+  }
+}
