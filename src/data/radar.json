@@ -1,111 +1,112 @@
 {
-  "generated_at": "2026-06-08T07:18:16.051178",
-  "total_tracked": 8687,
+  "generated_at": "2026-06-08T19:23:20.444303",
+  "total_tracked": 8806,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "large language model",
-      "mentions": 881,
-      "velocity": 144.4,
+      "keyword": "data center",
+      "mentions": 101,
+      "velocity": 12.5,
       "sources": [
         "articles",
-        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.52,
+      "headline": "Mind you this is what ai is doing to peoples homes. Some cant even let fresh air in bc the smell from the data centers i",
+      "articles": [
+        {
+          "title": "Farmer donates land for a park, city sells it for data center development — $10 gift became $10M for city government, wi",
+          "url": "https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Demand for data center CPUs has surged, and AI agents are responsible – why the CPU to GPU ratio is more important than ",
+          "url": "https://www.tomshardware.com/pc-components/cpus/demand-for-data-center-cpus-has-surged-and-ai-agents-are-responsible-why-the-cpu-to-gpu-ratio-is-more-important-than-ever-for-hyperscalers",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "A Farmer Donated Land to Turn into a Park. The City Is Building a Data Center",
+          "url": "https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "gemma",
+      "mentions": 82,
+      "velocity": 7.7,
+      "sources": [
+        "articles",
+        "hackernews",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "\"[Google employee] was fired from Google in December 2020 for refusing to retract a research paper, and every single war",
+      "expert_ratio": 0.87,
+      "headline": "More Gemma 4 models incoming",
       "articles": [
         {
-          "title": "Evidence-Based Intelligent Diagnostic and Therapeutic Visualization System with Large Language Models: Multi-Turn Intera",
-          "url": "https://arxiv.org/abs/2606.06869",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Why is the MLX version of the Gemma 4 QAT so big??",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0cu9e/why_is_the_mlx_version_of_the_gemma_4_qat_so_big/",
+          "source": "LocalLLaMA"
         },
         {
-          "title": "Agentic Large Language Models for Automated Structural Analysis of 3D Frame Systems",
-          "url": "https://arxiv.org/abs/2606.06525",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Gemma 4 QAT + MTP: max 33% speed increase in token generation, any ideas?",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0aj1b/gemma_4_qat_mtp_max_33_speed_increase_in_token/",
+          "source": "LocalLLaMA"
         },
         {
-          "title": "FAIR-Calib: Frontier-Aware Instability-Reweighted Calibration for Post-Training Quantization of Diffusion Large Language",
-          "url": "https://arxiv.org/abs/2606.06547",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Gemma 4 12 b: Google Released The Model Without Encoder And That was My WTF Moment",
+          "url": "https://www.towardsdeeplearning.com/gemma-4-12-b-google-released-the-model-without-encoder-and-that-was-my-wtf-moment-096595686bf9?source=rss------deep_learning-5",
+          "source": "Deep Learning on Medium"
         }
       ]
-    },
+    }
+  ],
+  "emerging": [
     {
-      "keyword": "agentic",
-      "mentions": 330,
-      "velocity": 56.2,
+      "keyword": "anthropic",
+      "mentions": 297,
+      "velocity": 11.6,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS",
+      "expert_ratio": 0.78,
+      "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug ",
       "articles": [
         {
-          "title": "Two LLMs, One GPU, and a Smart Router: Building an Agentic Stack on Kubernetes",
-          "url": "https://pub.towardsai.net/two-llms-one-gpu-and-a-smart-router-building-an-agentic-stack-on-kubernetes-943110ec7ed3?source=rss----98111c9905da---4",
-          "source": "Towards AI - Medium"
+          "title": "Anthropic accidentally revealed the secret to AI success",
+          "url": "https://www.reddit.com/r/artificial/comments/1u0an5m/anthropic_accidentally_revealed_the_secret_to_ai/",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety",
-          "url": "https://arxiv.org/abs/2606.06529",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Is AI Building More AI? Anthropic Thinks So",
+          "url": "https://www.reddit.com/r/patchpulse/comments/1u0acv7/is_ai_building_more_ai_anthropic_thinks_so/",
+          "source": "reddit.com: search results - artificialintelligence"
         },
         {
-          "title": "Exploring Agentic Tool-Calling Decisions via Uncertainty-Aligned Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2606.06976",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "lora",
-      "mentions": 214,
-      "velocity": 44.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Colorado Governor Vetoes Surveillance Pricing Ban as Public Backlash Against the Tech Grows",
-      "articles": [
-        {
-          "title": "Human Adults and LLMs as Scientists: Who Benefits from Active Exploration?",
-          "url": "https://arxiv.org/abs/2606.06464",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "DxPTA: An Architecture Design Space Exploration with Optical Dataflow-guided Strategy for HW/SW Co-Design of Photonic Tr",
-          "url": "https://arxiv.org/abs/2606.06515",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Auditing Training Data in Domain-adapted LLMs: LoRA-MINT",
-          "url": "https://arxiv.org/abs/2606.06946",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Is AI Building More AI? Anthropic Thinks So",
+          "url": "https://www.reddit.com/r/patchpulse/comments/1u0acv7/is_ai_building_more_ai_anthropic_thinks_so/",
+          "source": "reddit.com:  artificialintelligence"
         }
       ]
     }
   ],
-  "emerging": [],
   "weak_signals": [
     {
       "keyword": "airflow",
@@ -147,40 +148,6 @@
       "articles": []
     },
     {
-      "keyword": "apache airflow",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ apache/airflow: Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-      "articles": [
-        {
-          "title": "From 24 Hours to 2 Hours: How We Fixed a Broken BI System With Apache Airflow",
-          "url": "https://dzone.com/articles/fixing-bi-system-apache-airflow",
-          "source": "dzone.com: latest front page"
-        }
-      ]
-    },
-    {
-      "keyword": "vosk-api",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ alphacep/vosk-api: Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and ",
-      "articles": []
-    },
-    {
       "keyword": "streamlit",
       "mentions": 3,
       "velocity": 2.0,
@@ -215,7 +182,7 @@
       "articles": []
     },
     {
-      "keyword": "claude-hud",
+      "keyword": "apache airflow",
       "mentions": 3,
       "velocity": 2.0,
       "sources": [
@@ -225,8 +192,14 @@
       "confidence": 63,
       "days_active": 2,
       "expert_ratio": 1.0,
-      "headline": "⭐ jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and ",
-      "articles": []
+      "headline": "⭐ apache/airflow: Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "articles": [
+        {
+          "title": "From 24 Hours to 2 Hours: How We Fixed a Broken BI System With Apache Airflow",
+          "url": "https://dzone.com/articles/fixing-bi-system-apache-airflow",
+          "source": "dzone.com: latest front page"
+        }
+      ]
     },
     {
       "keyword": "aiagentic",
@@ -241,6 +214,52 @@
       "expert_ratio": 1.0,
       "headline": "⭐ CodeBoarding/CodeBoarding: Interactive architecture diagrams for codebases",
       "articles": []
+    },
+    {
+      "keyword": "claude-hud",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and ",
+      "articles": []
+    },
+    {
+      "keyword": "vosk-api",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ alphacep/vosk-api: Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and ",
+      "articles": []
+    },
+    {
+      "keyword": "paddlepaddle",
+      "mentions": 3,
+      "velocity": 1.2,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "🤗 PaddlePaddle/PaddleOCR-VL-1.6",
+      "articles": [
+        {
+          "title": "PaddlePaddle/PaddleOCR-VL-1.6",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq1jpt/paddlepaddlepaddleocrvl16/",
+          "source": "LocalLLaMA"
+        }
+      ]
     },
     {
       "keyword": "moss-tts",
@@ -261,69 +280,39 @@
           "source": "LocalLLaMA"
         }
       ]
-    },
-    {
-      "keyword": "cookbook",
-      "mentions": 3,
-      "velocity": 1.2,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "⭐ Liquid4All/cookbook: Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP ",
-      "articles": [
-        {
-          "title": "A nutritionist and cookbook author shares the 4 flavor boosters she uses to make healthy dishes shine",
-          "url": "https://www.businessinsider.com/nutritionist-flavor-boosters-tasty-food-good-diet-2026-5",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "A nutritionist and cookbook author shares the 4 flavor boosters she uses to make healthy dishes shine",
-          "url": "https://www.businessinsider.com/nutritionist-flavor-boosters-tasty-food-good-diet-2026-5",
-          "source": "Business Insider"
-        },
-        {
-          "title": "A nutritionist and cookbook author shares the 4 flavor boosters she uses to make healthy dishes shine",
-          "url": "https://www.businessinsider.com/nutritionist-flavor-boosters-tasty-food-good-diet-2026-5",
-          "source": "Business Insider"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "openclaw",
-      "mentions": 24,
+      "keyword": "pytorch",
+      "mentions": 12,
       "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
+        "hackernews",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.65,
-      "headline": "OpenLumara - A different kind of AI agent, written from scratch, not vibecoded. Extremely token-efficient, super small s",
+      "expert_ratio": 0.83,
+      "headline": "Hi Reddit, I posted my Build Your Own LLM workshop to Youtube (GPT2 & Qwen3.6 style)",
       "articles": [
         {
-          "title": "Automating cold outreach with OpenClaw",
-          "url": "https://www.youtube.com/shorts/yf7T9sPMmtc",
-          "source": "Matt Ganzak"
+          "title": "PyTorch from Scratch — Part 1: Tensors, Gradients ＆ Activations",
+          "url": "https://dev.to/meclin/pytorch-from-scratch-part-1-tensors-gradients-activations-24o4",
+          "source": "The Practical Developer"
         },
         {
-          "title": "How Microsoft is bringing OpenClaw to the masses",
-          "url": "https://www.fastcompany.com/91554066/microsoft-openclaw-scout-autopilots",
-          "source": "Fast Company"
+          "title": "Medical Image Classification with PyTorch: A Learning Project on Pneumonia Detection from Chest X-rays (repo available)",
+          "url": "https://www.reddit.com/r/deeplearning/comments/1twrazu/medical_image_classification_with_pytorch_a/",
+          "source": "Deep Learning"
         },
         {
-          "title": "How Microsoft is bringing OpenClaw to the masses",
-          "url": "https://www.fastcompany.com/91554066/microsoft-openclaw-scout-autopilots",
-          "source": "Fast Company"
+          "title": "Train Neural Networks without Draining your Pocket: Understand PyTorch Lightning’s Profiler Table",
+          "url": "https://medium.com/@mohanarc/train-neural-networks-without-draining-your-pocket-understand-pytorch-lightnings-profiler-table-880672aa08fd?source=rss------deep_learning-5",
+          "source": "Deep Learning on Medium"
         }
       ]
     },
@@ -356,37 +345,6 @@
           "title": "Notion Plugin Getting Unauthorized",
           "url": "https://community.openai.com/t/notion-plugin-getting-unauthorized/1381088#post_4",
           "source": "OpenAI API Community Forum - Latest posts"
-        }
-      ]
-    },
-    {
-      "keyword": "llama.cpp",
-      "mentions": 21,
-      "velocity": 0.5,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "Calling it now Microsoft is buying Unsloth.",
-      "articles": [
-        {
-          "title": "Run AI Locally with llama.cpp — No Limits, No Internet, No Cost",
-          "url": "https://medium.com/codex/run-ai-locally-with-llama-cpp-no-limits-no-internet-no-cost-83177dc242ff?source=rss------web_development-5",
-          "source": "Web Development on Medium"
-        },
-        {
-          "title": "Run AI Locally with llama.cpp — No Limits, No Internet, No Cost",
-          "url": "https://medium.com/codex/run-ai-locally-with-llama-cpp-no-limits-no-internet-no-cost-83177dc242ff?source=rss------programming-5",
-          "source": "Programming on Medium"
-        },
-        {
-          "title": "Run AI Locally with llama.cpp — No Limits, No Internet, No Cost",
-          "url": "https://medium.com/codex/run-ai-locally-with-llama-cpp-no-limits-no-internet-no-cost-83177dc242ff?source=rss------programming-5",
-          "source": "Programming on Medium"
         }
       ]
     }
@@ -441,6 +399,12 @@
     "new_on_radar": [
       {
         "keyword": "moss-tts",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-08",
+        "confidence": 0.65
+      },
+      {
+        "keyword": "text to speech",
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-08",
         "confidence": 0.65
@@ -531,24 +495,17 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "luma",
-        "recent_mentions": 15,
-        "prior_mentions": 2,
-        "change_ratio": 7.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "voice agent",
-        "recent_mentions": 43,
-        "prior_mentions": 6,
-        "change_ratio": 7.17,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "hermes agent",
         "recent_mentions": 12,
         "prior_mentions": 2,
         "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "voice agent",
+        "recent_mentions": 35,
+        "prior_mentions": 6,
+        "change_ratio": 5.83,
         "corroborating_sources": 2
       },
       {
@@ -566,14 +523,21 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "beautiful ai",
+        "keyword": "looka",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "tweethunter",
+        "keyword": "ai safety",
+        "recent_mentions": 18,
+        "prior_mentions": 4,
+        "change_ratio": 4.5,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "uizard",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
