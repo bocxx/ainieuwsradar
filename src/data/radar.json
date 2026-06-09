@@ -1,113 +1,255 @@
 {
-  "generated_at": "2026-06-08T19:23:20.444303",
-  "total_tracked": 8806,
+  "generated_at": "2026-06-09T07:16:44.046597",
+  "total_tracked": 8399,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "data center",
-      "mentions": 101,
-      "velocity": 12.5,
+      "keyword": "large language model",
+      "mentions": 1361,
+      "velocity": 303.4,
       "sources": [
         "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "Mind you this is what ai is doing to peoples homes. Some cant even let fresh air in bc the smell from the data centers i",
-      "articles": [
-        {
-          "title": "Farmer donates land for a park, city sells it for data center development — $10 gift became $10M for city government, wi",
-          "url": "https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Demand for data center CPUs has surged, and AI agents are responsible – why the CPU to GPU ratio is more important than ",
-          "url": "https://www.tomshardware.com/pc-components/cpus/demand-for-data-center-cpus-has-surged-and-ai-agents-are-responsible-why-the-cpu-to-gpu-ratio-is-more-important-than-ever-for-hyperscalers",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "A Farmer Donated Land to Turn into a Park. The City Is Building a Data Center",
-          "url": "https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "gemma",
-      "mentions": 82,
-      "velocity": 7.7,
-      "sources": [
-        "articles",
-        "hackernews",
+        "arxiv",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "More Gemma 4 models incoming",
+      "expert_ratio": 0.99,
+      "headline": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16 · Hugging Face",
       "articles": [
         {
-          "title": "Why is the MLX version of the Gemma 4 QAT so big??",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0cu9e/why_is_the_mlx_version_of_the_gemma_4_qat_so_big/",
-          "source": "LocalLLaMA"
+          "title": "Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model",
+          "url": "https://arxiv.org/abs/2606.07721",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Gemma 4 QAT + MTP: max 33% speed increase in token generation, any ideas?",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0aj1b/gemma_4_qat_mtp_max_33_speed_increase_in_token/",
-          "source": "LocalLLaMA"
+          "title": "Some hypotheses on how chatbots work in problem-solving-driven conversations. Large Language Models as confirmation of t",
+          "url": "https://arxiv.org/abs/2606.07722",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Gemma 4 12 b: Google Released The Model Without Encoder And That was My WTF Moment",
-          "url": "https://www.towardsdeeplearning.com/gemma-4-12-b-google-released-the-model-without-encoder-and-that-was-my-wtf-moment-096595686bf9?source=rss------deep_learning-5",
-          "source": "Deep Learning on Medium"
+          "title": "Stress-testing medical large language models reveals latent safety pathology beyond benchmark accuracy",
+          "url": "https://arxiv.org/abs/2606.07929",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
-      "keyword": "anthropic",
-      "mentions": 297,
-      "velocity": 11.6,
+      "keyword": "multimodal",
+      "mentions": 425,
+      "velocity": 93.9,
       "sources": [
         "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "🚀 Google DeepMind has introduced the new Gemma 4 12B, which runs on a standard laptop.",
+      "articles": [
+        {
+          "title": "Improving Multimodal Reasoning via Worst Dimension Optimization",
+          "url": "https://arxiv.org/abs/2606.07801",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Late-Layer Fusion is Enough: Dual-Path Vision Token Routing for Multimodal Large Language Models under Visual Saturation",
+          "url": "https://arxiv.org/abs/2606.09131",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "IMUG-Bench: Benchmarking Unified Multimodal Models on Interleaved Understanding and Generation",
+          "url": "https://arxiv.org/abs/2606.09169",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 396,
+      "velocity": 90.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "📄 MC-CPO: Mastery-Conditioned Constrained Policy Optimization for Pedagogically Safe Intelligent Tutoring Systems",
+      "articles": [
+        {
+          "title": "Neuro-Symbolic Injection of LTLf Constraints in Autoregressive Reinforcement Learning Policies",
+          "url": "https://arxiv.org/abs/2606.08312",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "GIFT: LLM-Guided State-Reward Interface for Financial Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.08450",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Structure-Conditioned Actor-Critic Branches for Quality-Diversity Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.08735",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 317,
+      "velocity": 72.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "📄 Post-training is (Massive) Supervised Learning",
+      "articles": [
+        {
+          "title": "How Small Can You Go? LoRA Fine-Tuning 270M-8B Models for Merchant Information Extraction in Financial Transactions",
+          "url": "https://arxiv.org/abs/2606.08051",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Phantom transitions in language model fine-tuning",
+          "url": "https://arxiv.org/abs/2606.07559",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Mechanistic Analysis of Adversarial Fine-tuning of Vision Transformers",
+          "url": "https://arxiv.org/abs/2606.07593",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 364,
+      "velocity": 67.2,
+      "sources": [
+        "articles",
+        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug ",
+      "expert_ratio": 0.85,
+      "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS",
       "articles": [
         {
-          "title": "Anthropic accidentally revealed the secret to AI success",
-          "url": "https://www.reddit.com/r/artificial/comments/1u0an5m/anthropic_accidentally_revealed_the_secret_to_ai/",
-          "source": "Artificial Intelligence"
+          "title": "PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic Workflow",
+          "url": "https://arxiv.org/abs/2606.07549",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Is AI Building More AI? Anthropic Thinks So",
-          "url": "https://www.reddit.com/r/patchpulse/comments/1u0acv7/is_ai_building_more_ai_anthropic_thinks_so/",
-          "source": "reddit.com: search results - artificialintelligence"
+          "title": "A Multi-modal Agentic Co-pilot for Evidence Grounded Computational Pathology",
+          "url": "https://arxiv.org/abs/2606.08093",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Is AI Building More AI? Anthropic Thinks So",
-          "url": "https://www.reddit.com/r/patchpulse/comments/1u0acv7/is_ai_building_more_ai_anthropic_thinks_so/",
-          "source": "reddit.com:  artificialintelligence"
+          "title": "SAGE: An LLM-driven Self Reflective Agentic Framework for Fraud Detection",
+          "url": "https://arxiv.org/abs/2606.08146",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
+  "emerging": [],
   "weak_signals": [
+    {
+      "keyword": "streamlit",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ streamlit/streamlit: Streamlit — A faster way to build and share data apps.",
+      "articles": [
+        {
+          "title": "I Built a Multi-Agent Insurance Support Streamlit Chatbot on Databricks-Full Code Walkthrough",
+          "url": "https://pub.towardsai.net/i-built-a-multi-agent-insurance-support-streamlit-chatbot-on-databricks-full-code-walkthrough-1c2f64349659?source=rss----98111c9905da---4",
+          "source": "Towards AI - Medium"
+        }
+      ]
+    },
+    {
+      "keyword": "codeboarding",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ CodeBoarding/CodeBoarding: Interactive architecture diagrams for codebases",
+      "articles": []
+    },
+    {
+      "keyword": "vosk-api",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ alphacep/vosk-api: Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and ",
+      "articles": []
+    },
+    {
+      "keyword": "claude-hud",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and ",
+      "articles": []
+    },
+    {
+      "keyword": "aiagentic",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ CodeBoarding/CodeBoarding: Interactive architecture diagrams for codebases",
+      "articles": []
+    },
     {
       "keyword": "airflow",
       "mentions": 3,
@@ -148,40 +290,6 @@
       "articles": []
     },
     {
-      "keyword": "streamlit",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ streamlit/streamlit: Streamlit — A faster way to build and share data apps.",
-      "articles": [
-        {
-          "title": "I Built a Multi-Agent Insurance Support Streamlit Chatbot on Databricks-Full Code Walkthrough",
-          "url": "https://pub.towardsai.net/i-built-a-multi-agent-insurance-support-streamlit-chatbot-on-databricks-full-code-walkthrough-1c2f64349659?source=rss----98111c9905da---4",
-          "source": "Towards AI - Medium"
-        }
-      ]
-    },
-    {
-      "keyword": "codeboarding",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ CodeBoarding/CodeBoarding: Interactive architecture diagrams for codebases",
-      "articles": []
-    },
-    {
       "keyword": "apache airflow",
       "mentions": 3,
       "velocity": 2.0,
@@ -198,66 +306,6 @@
           "title": "From 24 Hours to 2 Hours: How We Fixed a Broken BI System With Apache Airflow",
           "url": "https://dzone.com/articles/fixing-bi-system-apache-airflow",
           "source": "dzone.com: latest front page"
-        }
-      ]
-    },
-    {
-      "keyword": "aiagentic",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ CodeBoarding/CodeBoarding: Interactive architecture diagrams for codebases",
-      "articles": []
-    },
-    {
-      "keyword": "claude-hud",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and ",
-      "articles": []
-    },
-    {
-      "keyword": "vosk-api",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ alphacep/vosk-api: Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and ",
-      "articles": []
-    },
-    {
-      "keyword": "paddlepaddle",
-      "mentions": 3,
-      "velocity": 1.2,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "🤗 PaddlePaddle/PaddleOCR-VL-1.6",
-      "articles": [
-        {
-          "title": "PaddlePaddle/PaddleOCR-VL-1.6",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq1jpt/paddlepaddlepaddleocrvl16/",
-          "source": "LocalLLaMA"
         }
       ]
     },
@@ -280,46 +328,98 @@
           "source": "LocalLLaMA"
         }
       ]
+    },
+    {
+      "keyword": "paddlepaddle",
+      "mentions": 3,
+      "velocity": 1.2,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "🤗 PaddlePaddle/PaddleOCR-VL-1.6",
+      "articles": [
+        {
+          "title": "PaddlePaddle/PaddleOCR-VL-1.6",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq1jpt/paddlepaddlepaddleocrvl16/",
+          "source": "LocalLLaMA"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "pytorch",
-      "mentions": 12,
-      "velocity": 1.6,
+      "keyword": "huggingface",
+      "mentions": 16,
+      "velocity": 1.5,
       "sources": [
-        "articles",
         "arxiv",
-        "hackernews",
+        "github",
+        "linkedin",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Hi Reddit, I posted my Build Your Own LLM workshop to Youtube (GPT2 & Qwen3.6 style)",
+      "expert_ratio": 0.94,
+      "headline": "120 tok/s on 12GB VRAM with Gemma 4 12B QAT MTP",
       "articles": [
         {
-          "title": "PyTorch from Scratch — Part 1: Tensors, Gradients ＆ Activations",
-          "url": "https://dev.to/meclin/pytorch-from-scratch-part-1-tensors-gradients-activations-24o4",
-          "source": "The Practical Developer"
+          "title": "mindlab-research/Macaron-V1-Preview-749B • Huggingface",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u020y3/mindlabresearchmacaronv1preview749b_huggingface/",
+          "source": "LocalLLaMA"
         },
         {
-          "title": "Medical Image Classification with PyTorch: A Learning Project on Pneumonia Detection from Chest X-rays (repo available)",
-          "url": "https://www.reddit.com/r/deeplearning/comments/1twrazu/medical_image_classification_with_pytorch_a/",
-          "source": "Deep Learning"
+          "title": "nex-agi/Nex-N2-mini • Huggingface",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twjvep/nexaginexn2mini_huggingface/",
+          "source": "LocalLLaMA"
         },
         {
-          "title": "Train Neural Networks without Draining your Pocket: Understand PyTorch Lightning’s Profiler Table",
-          "url": "https://medium.com/@mohanarc/train-neural-networks-without-draining-your-pocket-understand-pytorch-lightnings-profiler-table-880672aa08fd?source=rss------deep_learning-5",
-          "source": "Deep Learning on Medium"
+          "title": "nex-agi/Nex-N2-Pro • Huggingface",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw5711/nexaginexn2pro_huggingface/",
+          "source": "LocalLLaMA"
+        }
+      ]
+    },
+    {
+      "keyword": "cline",
+      "mentions": 23,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.64,
+      "headline": "Ai-generated artwork officially is ineligible for copyright protection as the US Supreme Court declined to review a appe",
+      "articles": [
+        {
+          "title": "The Rise of PWAs and the Quiet Decline of Mobile App Stores",
+          "url": "https://medium.com/@mrhotfix/the-rise-of-pwas-and-the-quiet-decline-of-mobile-app-stores-4039bdc2aa0f?source=rss------web_development-5",
+          "source": "Web Development on Medium"
+        },
+        {
+          "title": "Alibaba and WuXi AppTec decline in Hong Kong after addition to US blacklist",
+          "url": "https://www.scmp.com/business/china-business/article/3356439/alibaba-and-wuxi-apptec-decline-hong-kong-after-addition-us-blacklist?utm_source=rss_feed",
+          "source": "South China Morning Post"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang declines Warren’s request to testify at AI hearing",
+          "url": "https://www.reddit.com/r/technology/comments/1u0ko03/nvidia_ceo_jensen_huang_declines_warrens_request/",
+          "source": "Technology"
         }
       ]
     },
     {
       "keyword": "notion",
       "mentions": 11,
-      "velocity": 1.2,
+      "velocity": 0.8,
       "sources": [
         "linkedin",
         "reddit",
@@ -329,8 +429,13 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
-      "headline": "There's probably $100+ billion up for grabs for people who build startup for AI agents\n\nOver the next 10 years you're go",
+      "headline": "Canada is facing a crisis of genocidal Jewish supremacy. Anyone who suggests there’s a crisis of antisemitism at this mo",
       "articles": [
+        {
+          "title": "EQUILIBRIUM-STATE-DB-SCAFFOLD-001 - I gave 4 different AIs the same question about my Notion work. They disagreed on the",
+          "url": "https://www.reddit.com/r/perplexity_ai/comments/1u0brye/equilibriumstatedbscaffold001_i_gave_4_different/",
+          "source": "perplexity"
+        },
         {
           "title": "Notion restores access to Anthropic after service disruption",
           "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
@@ -340,11 +445,105 @@
           "title": "Build Your Own 'Notion AI' for $1/month: Notion API + OpenAI in 50 Lines",
           "url": "https://dev.to/trackstack/build-your-own-notion-ai-for-1month-notion-api-openai-in-50-lines-6lo",
           "source": "The Practical Developer"
+        }
+      ]
+    },
+    {
+      "keyword": "flux",
+      "mentions": 18,
+      "velocity": 0.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.63,
+      "headline": "You just cant hate ideogram4",
+      "articles": [
+        {
+          "title": "Hyperflux: Pruning Reveals Importance",
+          "url": "https://arxiv.org/abs/2504.05349",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Notion Plugin Getting Unauthorized",
-          "url": "https://community.openai.com/t/notion-plugin-getting-unauthorized/1381088#post_4",
-          "source": "OpenAI API Community Forum - Latest posts"
+          "title": "Hyperflux: Pruning Reveals Importance",
+          "url": "https://arxiv.org/abs/2504.05349",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Hyperflux: Pruning Reveals Importance",
+          "url": "https://arxiv.org/abs/2504.05349",
+          "source": "stat.ML updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 42,
+      "velocity": 0.4,
+      "sources": [
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.54,
+      "headline": "Mind you this is what ai is doing to peoples homes. Some cant even let fresh air in bc the smell from the data centers i",
+      "articles": [
+        {
+          "title": "Meta puts $115M toward a \"workforce academy\", a free 5-week program to train Americans to build data centers, offering j",
+          "url": "https://www.techmeme.com/260608/p56#a260608p56",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Meta puts $115M toward a \"workforce academy\", a free 5-week program to train Americans to build data centers, offering j",
+          "url": "https://www.techmeme.com/260608/p56#a260608p56",
+          "source": "Techmeme"
+        },
+        {
+          "title": "🏗️ Maine towns halt data centers Moratoriums slow rapid expansion 👇",
+          "url": "https://www.reddit.com/r/NewEnglandContext/comments/1u0n01i/maine_towns_halt_data_centers_moratoriums_slow/",
+          "source": "reddit.com: search results - artificial"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 77,
+      "velocity": -0.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.4,
+      "headline": "Hii @grok put me in a bikini https://t.co/IxyovEVRZf",
+      "articles": [
+        {
+          "title": "Musk’s xAI Taps Starlink Staffer to Run Grok Training Team",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-09/musk-s-xai-taps-starlink-staffer-to-run-grok-training-team",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Grok’s AI Agents Destroyed Their Simulated World in Just 4 Days - But Lovology Might Be the Antidote",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1u0obhm/groks_ai_agents_destroyed_their_simulated_world/",
+          "source": "Ai"
+        },
+        {
+          "title": "⚖️ xAI Asks Court to Strip Anonymity from 4 Victims of Fake Grok Nude Photos",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1u00je3/xai_asks_court_to_strip_anonymity_from_4_victims/",
+          "source": "Ai"
         }
       ]
     }
@@ -398,9 +597,15 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "anthropic",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-09",
+        "confidence": 1.0
+      },
+      {
         "keyword": "moss-tts",
         "signal_type": "weak_signal",
-        "flagged_on": "2026-06-08",
+        "flagged_on": "2026-06-09",
         "confidence": 0.65
       },
       {
@@ -408,12 +613,6 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-08",
         "confidence": 0.65
-      },
-      {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-07",
-        "confidence": 1.0
       },
       {
         "keyword": "claude",
@@ -428,13 +627,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "openai",
+        "keyword": "mcp",
         "signal_type": "emerging",
         "flagged_on": "2026-06-05",
         "confidence": 1.0
       },
       {
-        "keyword": "mcp",
+        "keyword": "openai",
         "signal_type": "emerging",
         "flagged_on": "2026-06-05",
         "confidence": 1.0
@@ -444,104 +643,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-06-03",
         "confidence": 1.0
-      },
-      {
-        "keyword": "gpt-5",
-        "signal_type": "emerging",
-        "flagged_on": "2026-05-31",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "mcp client",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-05-31",
-        "confidence": 0.48
       }
     ],
     "heating_up": [
       {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 33,
-        "prior_mentions": 1,
-        "change_ratio": 33.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "ideogram",
-        "recent_mentions": 41,
+        "recent_mentions": 57,
         "prior_mentions": 4,
-        "change_ratio": 10.25,
+        "change_ratio": 14.25,
         "corroborating_sources": 3
       },
       {
-        "keyword": "voice synthesis",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "machine consciousness",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 41,
+        "prior_mentions": 5,
+        "change_ratio": 8.2,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai sdk",
+        "keyword": "luma",
         "recent_mentions": 8,
         "prior_mentions": 1,
         "change_ratio": 8.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
         "keyword": "hermes agent",
-        "recent_mentions": 12,
-        "prior_mentions": 2,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "voice agent",
-        "recent_mentions": 35,
-        "prior_mentions": 6,
-        "change_ratio": 5.83,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "replicate",
-        "recent_mentions": 21,
-        "prior_mentions": 4,
-        "change_ratio": 5.25,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "framer",
         "recent_mentions": 15,
-        "prior_mentions": 3,
+        "prior_mentions": 2,
+        "change_ratio": 7.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "capcut",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "descript",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "looka",
-        "recent_mentions": 9,
+        "keyword": "sdxl",
+        "recent_mentions": 10,
         "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai safety",
-        "recent_mentions": 18,
-        "prior_mentions": 4,
-        "change_ratio": 4.5,
+        "keyword": "vision language model",
+        "recent_mentions": 39,
+        "prior_mentions": 8,
+        "change_ratio": 4.88,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "small language model",
+        "recent_mentions": 48,
+        "prior_mentions": 11,
+        "change_ratio": 4.36,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "tokenizer",
+        "recent_mentions": 42,
+        "prior_mentions": 10,
+        "change_ratio": 4.2,
         "corroborating_sources": 3
       },
       {
-        "keyword": "uizard",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
+        "keyword": "cowork",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
+        "change_ratio": 4.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "replicate",
+        "recent_mentions": 26,
+        "prior_mentions": 7,
+        "change_ratio": 3.71,
+        "corroborating_sources": 3
       }
     ]
   }
