@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/Layout.astro';
+import hype from '../data/hype_meter.json';
+
+const items = hype.items ?? [];
+const window = hype.window_days ?? 7;
+const months = ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+const gen = hype.generated_at ? new Date(hype.generated_at) : null;
+const genLabel = gen ? `${gen.getDate()} ${months[gen.getMonth()]} ${gen.getFullYear()}` : '';
+
+// Schaal de hype/science-balkjes relatief aan de grootste waarde in de set.
+const maxSocial = Math.max(...items.map((i) => i.avg_social_sources ?? 0), 1);
+const maxScience = Math.max(...items.map((i) => i.avg_science_sources ?? 0), 1);
+const pct = (v, max) => Math.max(4, Math.round(((v ?? 0) / max) * 100));
+
+const verdictClass = (label) => {
+  if (label === 'mostly_hype' || label === 'pure_hype') return 'v--hype';
+  if (label === 'balanced') return 'v--balanced';
+  return 'v--science';
+};
+
+const mostlyHype = items.filter((i) => (i.hype_ratio ?? 0) >= 2).length;
+const backed = items.length - mostlyHype;
+---
+<Layout title="Hype-o-Meter — hype versus wetenschap per AI-trend | AI Nieuws Radar"
+  description={`Welke AI-trends drijven op social buzz en welke op wetenschappelijk fundament? De Hype-o-Meter meet de verhouding over de afgelopen ${window} dagen.`}>
+  <main id="main" class="page">
+    <header class="phead">
+      <p class="kicker">Hype-o-Meter</p>
+      <h1>Hype of houdbaar?</h1>
+      <p class="lede">Voor elk trending AI-onderwerp meten we de social buzz (X, Reddit, Bluesky) tegen het wetenschappelijke fundament (ArXiv-papers, Hacker News-discussie). Een hoge ratio betekent: veel geroep, weinig onderbouwing.</p>
+    </header>
+
+    <div class="stats">
+      <div class="stat"><div class="stat__num">{items.length}</div><div class="stat__lbl">trends gemeten</div></div>
+      <div class="stat"><div class="stat__num">{mostlyHype}</div><div class="stat__lbl">overwegend hype</div></div>
+      <div class="stat"><div class="stat__num">{backed}</div><div class="stat__lbl">met fundament</div></div>
+      <div class="stat"><div class="stat__num">{window}<span>d</span></div><div class="stat__lbl">meetvenster</div></div>
+    </div>
+
+    <section class="block">
+      <div class="meter-list">
+        {items.map((i) => (
+          <article class="meter">
+            <div class="meter__head">
+              <h2 class="meter__kw">{i.keyword}</h2>
+              <span class={`verdict ${verdictClass(i.label)}`}>{i.label_nl ?? i.label}</span>
+              <span class="ratio num" title={`hype-ratio: social buzz gedeeld door wetenschappelijke bronnen`}>×{(i.hype_ratio ?? 0).toLocaleString('nl-NL')}</span>
+            </div>
+            <div class="meter__bars" role="img" aria-label={`${i.keyword}: ${i.avg_social_sources} social-bronnen tegenover ${i.avg_science_sources} wetenschappelijke bronnen per dag`}>
+              <div class="bar">
+                <span class="bar__lbl">buzz</span>
+                <span class="bar__track"><span class="bar__fill bar__fill--hype" style={`width:${pct(i.avg_social_sources, maxSocial)}%`}></span></span>
+                <span class="bar__val num">{(i.avg_social_sources ?? 0).toLocaleString('nl-NL')}/d</span>
+              </div>
+              <div class="bar">
+                <span class="bar__lbl">science</span>
+                <span class="bar__track"><span class="bar__fill bar__fill--sci" style={`width:${pct(i.avg_science_sources, maxScience)}%`}></span></span>
+                <span class="bar__val num">{(i.avg_science_sources ?? 0).toLocaleString('nl-NL')}/d</span>
+              </div>
+            </div>
+            <p class="meter__meta num">{(i.avg_mentions ?? 0).toLocaleString('nl-NL')} mentions/dag gem. · piek {(i.peak_mentions ?? 0).toLocaleString('nl-NL')} · {i.days_tracked}d gevolgd</p>
+          </article>
+        ))}
+      </div>
+      <p class="note note--legend">De balkjes zijn geschaald binnen deze lijst: de drukste trend staat op 100%. "Buzz" telt unieke social-bronnen per dag, "science" telt ArXiv-papers en HN-expertdiscussie. Bijgewerkt {genLabel}.</p>
+    </section>
+
+    <aside class="cross"><p>Wil je weten wat er <em>aankomt</em> in plaats van wat er rondzingt? Bekijk <a href="/wetenschap">Breaking Science</a> — of lees de <a href="/methode">methode</a>.</p></aside>
+  </main>
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:58ch; line-height:var(--leading-relaxed); }
+    .stats { display:grid; grid-template-columns:repeat(2,1fr); gap:var(--space-3); margin:var(--space-10) 0; max-width:680px; }
+    @media (min-width:48em){ .stats{ grid-template-columns:repeat(4,1fr); } }
+    .stat { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); box-shadow:var(--shadow-sm); }
+    .stat__num { font-family:var(--font-display); font-size:var(--text-4xl); line-height:1; }
+    .stat__num span { font-size:var(--text-xl); color:var(--text-muted); }
+    .stat__lbl { font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--space-2); }
+    .block { margin:var(--space-12) 0; }
+    .note { font-size:var(--text-base); color:var(--text-secondary); max-width:64ch; line-height:var(--leading-relaxed); }
+    .note--legend { margin-top:var(--space-6); font-size:var(--text-sm); color:var(--text-muted); }
+
+    .meter-list { display:grid; gap:var(--space-4); }
+    .meter { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); }
+    .meter__head { display:flex; align-items:baseline; gap:var(--space-3); flex-wrap:wrap; }
+    .meter__kw { font-family:var(--font-body); font-size:var(--text-lg); font-weight:var(--font-semibold); margin:0; text-transform:capitalize; }
+    .ratio { margin-left:auto; color:var(--text-muted); font-size:var(--text-sm); }
+    .verdict { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:2px 8px; }
+    .v--hype { color:var(--primary-bright); border-color:var(--border-accent); }
+    .v--balanced { color:var(--text-secondary); }
+    .v--science { color:var(--text-primary); border-color:var(--border-strong); }
+
+    .meter__bars { display:grid; gap:var(--space-2); margin-top:var(--space-4); }
+    .bar { display:grid; grid-template-columns:64px 1fr 64px; align-items:center; gap:var(--space-3); }
+    .bar__lbl { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+    .bar__track { display:block; height:8px; background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-full); overflow:hidden; }
+    .bar__fill { display:block; height:100%; border-radius:var(--radius-full); }
+    .bar__fill--hype { background:var(--primary-bright); }
+    .bar__fill--sci { background:var(--text-secondary); }
+    .bar__val { text-align:right; color:var(--text-muted); }
+    .meter__meta { font-family:var(--font-mono); font-size:var(--text-2xs); color:var(--text-muted); margin:var(--space-3) 0 0; }
+    .num { font-family:var(--font-mono); font-size:var(--text-xs); }
+
+    .cross { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5) var(--space-6); margin-top:var(--space-10); }
+    .cross p { margin:0; color:var(--text-secondary); }
+  </style>
+</Layout>

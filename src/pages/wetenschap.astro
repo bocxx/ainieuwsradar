@@ -1,0 +1,89 @@
+---
+import Layout from '../layouts/Layout.astro';
+import science from '../data/breaking_science.json';
+
+const signals = science.signals ?? [];
+const window = science.window_days ?? 7;
+const months = ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+const fmt = (iso) => { if (!iso) return '—'; const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()]}`; };
+const gen = science.generated_at ? new Date(science.generated_at) : null;
+const genLabel = gen ? `${gen.getDate()} ${months[gen.getMonth()]} ${gen.getFullYear()}` : '';
+
+const avgLead = signals.length
+  ? Math.round(signals.reduce((s, x) => s + (x.estimated_days_to_mainstream ?? 0), 0) / signals.length)
+  : 0;
+const highConfidence = signals.filter((s) => (s.confidence ?? 0) >= 80).length;
+---
+<Layout title="Breaking Science — AI-onderzoek dat het nieuws nog moet halen | AI Nieuws Radar"
+  description={`ArXiv-concepten die wetenschappelijk versnellen maar nog nauwelijks in de pers verschijnen. ${signals.length} signalen, gemeten over ${window} dagen.`}>
+  <main id="main" class="page">
+    <header class="phead">
+      <p class="kicker">Breaking Science</p>
+      <h1>Wat de pers nog mist</h1>
+      <p class="lede">Deze concepten groeien hard in wetenschappelijke papers (ArXiv) maar verschijnen nog nauwelijks in mainstream-nieuws. Historisch worden zulke signalen binnen 6–50 dagen grote verhalen — dit is je voorsprong.</p>
+    </header>
+
+    <div class="stats">
+      <div class="stat"><div class="stat__num">{signals.length}</div><div class="stat__lbl">actieve signalen</div></div>
+      <div class="stat"><div class="stat__num">{highConfidence}</div><div class="stat__lbl">hoge zekerheid (≥80%)</div></div>
+      <div class="stat"><div class="stat__num">~{avgLead}<span>d</span></div><div class="stat__lbl">gem. tot mainstream</div></div>
+      <div class="stat"><div class="stat__num">{window}<span>d</span></div><div class="stat__lbl">meetvenster</div></div>
+    </div>
+
+    <section class="block">
+      <div class="tr-wrap">
+        <table class="trt">
+          <thead><tr>
+            <th>Concept</th><th class="r">ArXiv/dag</th><th class="r">Nieuws/dag</th><th class="r">Science-lead</th><th>Mainstream rond</th><th class="r">Zekerheid</th>
+          </tr></thead>
+          <tbody>
+            {signals.map((s) => (
+              <tr>
+                <td><b>{s.keyword}</b></td>
+                <td class="r num">{(s.avg_arxiv_per_day ?? 0).toLocaleString('nl-NL')}</td>
+                <td class="r num">{(s.avg_articles_per_day ?? 0).toLocaleString('nl-NL')}</td>
+                <td class="r num lead">×{(s.science_lead_ratio ?? 0).toLocaleString('nl-NL')}</td>
+                <td class="num">{fmt(s.estimated_mainstream_date)} <span class="dim">(+{s.estimated_days_to_mainstream}d)</span></td>
+                <td class="r"><span class="conf"><span class="conf__track"><span class="conf__fill" style={`width:${s.confidence ?? 0}%`}></span></span><span class="num">{s.confidence}%</span></span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="note note--legend">"Science-lead" is de verhouding tussen wetenschappelijke activiteit en nieuwsdekking: ×3 betekent drie keer zoveel papers als artikelen. De mainstream-datum is een schatting op basis van historische doorlooptijden. Bijgewerkt {genLabel}.</p>
+    </section>
+
+    <aside class="cross"><p>Wil je het omgekeerde zien — wat rondzingt zonder fundament? Bekijk de <a href="/hype">Hype-o-Meter</a>. Of check ons <a href="/track-record">track record</a>: kwamen eerdere signalen uit?</p></aside>
+  </main>
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:58ch; line-height:var(--leading-relaxed); }
+    .stats { display:grid; grid-template-columns:repeat(2,1fr); gap:var(--space-3); margin:var(--space-10) 0; max-width:680px; }
+    @media (min-width:48em){ .stats{ grid-template-columns:repeat(4,1fr); } }
+    .stat { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); box-shadow:var(--shadow-sm); }
+    .stat__num { font-family:var(--font-display); font-size:var(--text-4xl); line-height:1; }
+    .stat__num span { font-size:var(--text-xl); color:var(--text-muted); }
+    .stat__lbl { font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--space-2); }
+    .block { margin:var(--space-12) 0; }
+    .note { font-size:var(--text-base); color:var(--text-secondary); max-width:64ch; line-height:var(--leading-relaxed); }
+    .note--legend { margin-top:var(--space-6); font-size:var(--text-sm); color:var(--text-muted); }
+
+    .tr-wrap { overflow-x:auto; }
+    table.trt { width:100%; border-collapse:collapse; font-size:var(--text-sm); }
+    table.trt th { text-align:left; font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); padding:0 var(--space-4) var(--space-3); border-bottom:1px solid var(--border-strong); }
+    table.trt th.r { text-align:right; }
+    table.trt td { padding:var(--space-4); border-bottom:1px solid var(--border-subtle); color:var(--text-secondary); }
+    table.trt td b { color:var(--text-primary); }
+    .num { font-family:var(--font-mono); font-size:var(--text-xs); }
+    .r { text-align:right; } .lead { color:var(--primary-bright); }
+    .dim { color:var(--text-muted); }
+    .conf { display:inline-flex; align-items:center; gap:var(--space-2); }
+    .conf__track { display:inline-block; width:56px; height:6px; background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-full); overflow:hidden; }
+    .conf__fill { display:block; height:100%; background:var(--primary-bright); border-radius:var(--radius-full); }
+
+    .cross { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5) var(--space-6); margin-top:var(--space-10); }
+    .cross p { margin:0; color:var(--text-secondary); }
+  </style>
+</Layout>

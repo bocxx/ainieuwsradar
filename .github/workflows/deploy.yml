@@ -1,0 +1,61 @@
+name: Deploy to Cloudflare
+
+# Auto-deploy bij elke push/merge naar main — zelfde opzet als
+# hetlaatsteainieuws-v2. Draait `npm run deploy` (build + wrangler deploy).
+#
+# Vereist ÉÉN repo-secret:
+#   CLOUDFLARE_API_TOKEN — token met "Edit Cloudflare Workers"-rechten.
+#   Zetten: gh secret set CLOUDFLARE_API_TOKEN -R bocxx/ainieuwsradar
+#   (token aanmaken: dash.cloudflare.com → My Profile → API Tokens
+#    → template "Edit Cloudflare Workers")
+#
+# Zolang het secret ontbreekt slaat de deploy-job over met een warning,
+# zodat pushes geen rode kruisjes opleveren.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {} # handmatig deployen via de Actions-tab
+
+# Eén deploy tegelijk; nieuwe pushes wachten i.p.v. een lopende deploy af te breken.
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.token.outputs.ok }}
+    steps:
+      - name: Check CLOUDFLARE_API_TOKEN
+        id: token
+        run: |
+          if [ -n "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::CLOUDFLARE_API_TOKEN ontbreekt — deploy overgeslagen. Zet 'm met: gh secret set CLOUDFLARE_API_TOKEN -R bocxx/ainieuwsradar"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: preflight
+    if: needs.preflight.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build & deploy
+        run: npm run deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # Account-ID is geen credential (staat ook in de deploy-output).
+          CLOUDFLARE_ACCOUNT_ID: "0a23a74af77e5ac37af0ffa04ba46059"
