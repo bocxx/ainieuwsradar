@@ -1,48 +1,12 @@
 {
-  "generated_at": "2026-06-10T19:25:07.400244",
-  "total_tracked": 7892,
+  "generated_at": "2026-06-11T07:20:01.223703",
+  "total_tracked": 7470,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "claude",
-      "mentions": 613,
-      "velocity": 19.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.71,
-      "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug ",
-      "articles": [
-        {
-          "title": "Claude Fable 5 bat ses rivaux, mais son lancement déclenche déjà une grosse polémique",
-          "url": "https://www.futura-sciences.com/tech/actualites/claude-claude-fable-5-bat-rivaux-mais-son-lancement-declenche-deja-grosse-polemique-135246/#xtor%3DRSS-8",
-          "source": "Les dernières actualités de Futura-Sciences"
-        },
-        {
-          "title": "Anthropic CEO Doesn’t Know If Claude Used in Iran School Strike",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-10/anthropic-ceo-doesn-t-know-if-claude-used-in-iran-school-strike",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "A Day in the Life: Complete Claude Code Session Walkthrough",
-          "url": "https://dev.to/panditabhis/a-day-in-the-life-complete-claude-code-session-walkthrough-7o9",
-          "source": "The Practical Developer"
-        }
-      ]
-    },
-    {
       "keyword": "large language model",
-      "mentions": 371,
-      "velocity": 16.1,
+      "mentions": 1048,
+      "velocity": 213.4,
       "sources": [
         "articles",
         "arxiv",
@@ -55,26 +19,164 @@
       "headline": "Anthropic purposely made its new Mythos-based models bad at AI research, and developers are fuming",
       "articles": [
         {
-          "title": "Null-Space Constrained Low-Rank Adaptation for Response-Specified Large Language Model Unlearning",
-          "url": "https://arxiv.org/abs/2606.10989",
+          "title": "From Architecture to Output: Structural Origins of Hallucination in Large Language Models and the Amplifying Role of Dat",
+          "url": "https://arxiv.org/abs/2606.07537",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Using Probabilistic Programs to Train Inductive Reasoning in Large Language Models",
-          "url": "https://arxiv.org/abs/2606.09856",
+          "title": "ProcessThinker: Enhancing Multi-modal Large Language Models Reasoning via Rollout-based Process Reward",
+          "url": "https://arxiv.org/abs/2606.11209",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Using Probabilistic Programs to Train Inductive Reasoning in Large Language Models",
-          "url": "https://arxiv.org/abs/2606.09856",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Calibration Drift Under Reasoning: How Chain-of-Thought Budgets Induce Overconfidence in Large Language Models",
+          "url": "https://arxiv.org/abs/2606.11211",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "gemini",
-      "mentions": 169,
-      "velocity": 8.6,
+      "keyword": "multimodal",
+      "mentions": 408,
+      "velocity": 89.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "🚀 Google DeepMind has introduced the new Gemma 4 12B, which runs on a standard laptop.",
+      "articles": [
+        {
+          "title": "Information-Theoretic Decomposition for Multimodal Interaction Learning",
+          "url": "https://arxiv.org/abs/2606.11614",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "MultiToP: Learning to Patch Visual Tokens to Mitigate Hallucinations in Video Large Multimodal Models",
+          "url": "https://arxiv.org/abs/2606.11792",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Multimodal Ordinal Modeling of Alzheimer's Disease Severity Using Structural MRI and Clinical Data",
+          "url": "https://arxiv.org/abs/2606.11794",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 349,
+      "velocity": 81.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "Anthropic's new model Fable will silently handicap work on LLMs [D]",
+      "articles": [
+        {
+          "title": "Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training",
+          "url": "https://arxiv.org/abs/2606.11854",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning",
+          "url": "https://arxiv.org/abs/2606.12109",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training",
+          "url": "https://arxiv.org/abs/2606.11854",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 347,
+      "velocity": 75.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "📄 Libra: Efficient Resource Management for Agentic RL Post-Training",
+      "articles": [
+        {
+          "title": "Architecture-Aware Reinforcement Learning Makes Sliding-Window Attention Competitive in Math Reasoning",
+          "url": "https://arxiv.org/abs/2606.11634",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SVoT: State-aware Visualization-of-Thought for Spatial Reasoning via Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.11770",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Generalization Hacking: Models Can Game Reinforcement Learning by Preventing Behavioral Generalization",
+          "url": "https://arxiv.org/abs/2606.12016",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 361,
+      "velocity": 66.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS",
+      "articles": [
+        {
+          "title": "Brillio's Kathleen Ulrich and Anuj Mathur on moving from personalization to agentic transformation",
+          "url": "https://aglbrnd.co/r/4e51e1efd69d5d9a",
+          "source": "The Agile Brand with Greg Kihlström®: Expert Mode Marketing Technology， AI， ＆ CX"
+        },
+        {
+          "title": "HERO: Hindsight-Enhanced Reflection from Environment Observations for Agentic Self-Distillation",
+          "url": "https://arxiv.org/abs/2606.11559",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "An Ethical eValuation Agent (EeVA): Results of a Proof-of-Concept Test on a Prototype Agentic-like Workflow to Assist Et",
+          "url": "https://arxiv.org/abs/2606.11218",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "claude",
+      "mentions": 651,
+      "velocity": 24.8,
       "sources": [
         "articles",
         "arxiv",
@@ -88,178 +190,63 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.72,
-      "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers.",
+      "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug ",
       "articles": [
         {
-          "title": "Gemini no Chrome chega ao Brasil para auxiliar navegação na web",
-          "url": "https://tecnoblog.net/noticias/gemini-no-chrome-chega-ao-brasil-para-auxiliar-navegacao-na-web/",
-          "source": "Tecnoblog"
+          "title": "How I Ship 10x Faster with Claude Code: The 5-Layer Workflow System",
+          "url": "https://dev.to/mgj/how-i-ship-10x-faster-with-claude-code-the-5-layer-workflow-system-3120",
+          "source": "The Practical Developer"
         },
         {
-          "title": "Gemini terá simulados e planos de estudo para Enem",
-          "url": "https://tecnoblog.net/noticias/gemini-tera-simulados-e-planos-de-estudo-para-enem/",
-          "source": "Tecnoblog"
+          "title": "Anthropic backtracks on a policy limiting Claude Fable 5's ability to develop other AI models, after significant backlas",
+          "url": "https://www.techmeme.com/260610/p69#a260610p69",
+          "source": "Techmeme"
         },
         {
-          "title": "Gemini in Chrome expands further to Latin America and the Middle East",
-          "url": "https://www.engadget.com/2191174/gemini-in-chrome-expands-to-latin-america-middle-east/",
-          "source": "Engadget"
+          "title": "Anthropic backtracks on a policy limiting Claude Fable 5's ability to develop other AI models, after significant backlas",
+          "url": "https://www.techmeme.com/260610/p69#a260610p69",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "distillation",
-      "mentions": 52,
-      "velocity": 6.5,
+      "keyword": "gemini",
+      "mentions": 186,
+      "velocity": 11.0,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Claude Fable 5 feels less like a model launch and more like a preview of AI inequality",
-      "articles": [
-        {
-          "title": "Self-Distillation Policy Optimization via Visual Feedback: Bridging Code and Visual Artifacts",
-          "url": "https://arxiv.org/abs/2606.10334",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Cross-Modal Knowledge Distillation without Paired Data: Theoretical Foundation and Algorithm",
-          "url": "https://arxiv.org/abs/2606.10504",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "The Role of Feedback Alignment in Self-Distillation",
-          "url": "https://arxiv.org/abs/2606.11173",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "fine-tuning",
-      "mentions": 94,
-      "velocity": 6.2,
-      "sources": [
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Anthropic's new model Fable will silently handicap work on LLMs [D]",
-      "articles": [
-        {
-          "title": "Supervised Fine-tuning with Synthetic Rationale Data Hurts Real-World Disease Prediction",
-          "url": "https://arxiv.org/abs/2606.10279",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Two to Tango: Coupled Task-Reference Selection for Safe LLM Fine-tuning",
-          "url": "https://arxiv.org/abs/2606.09866",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Fisher-Guided Progressive Parameter Selection for Adaptive Fine-Tuning",
-          "url": "https://arxiv.org/abs/2606.10196",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "anthropic",
-      "mentions": 313,
-      "velocity": 8.7,
-      "sources": [
-        "articles",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug ",
+      "expert_ratio": 0.73,
+      "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers.",
       "articles": [
         {
-          "title": "Please don't turn offerings by OpenAI into a joke like Anthropic does.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1u26y97/please_dont_turn_offerings_by_openai_into_a_joke/",
-          "source": "OpenAI"
+          "title": "Google Just Dropped Gemini 3.5 Live Translate: Why Turn-By-Turn AI is Officially Dead",
+          "url": "https://medium.com/@ruler547/google-just-dropped-gemini-3-5-live-translate-why-turn-by-turn-ai-is-officially-dead-42f9e562ec03?source=rss------web_development-5",
+          "source": "Web Development on Medium"
         },
         {
-          "title": "Anthropic CEO Doesn’t Know If Claude Used in Iran School Strike",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-10/anthropic-ceo-doesn-t-know-if-claude-used-in-iran-school-strike",
-          "source": "Bloomberg Technology"
+          "title": "Gemini saved my life!",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1u2huw6/gemini_saved_my_life/",
+          "source": "ChatGPT"
         },
         {
-          "title": "Anthropic's new model Fable will silently handicap work on LLMs [D]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/",
-          "source": "Machine Learning"
+          "title": "Gemini’s New Automation Features Are Mind-Blowing: Build AI Apps and Automate Workflows Without…",
+          "url": "https://medium.com/@aitoolinsight/geminis-new-automation-features-are-mind-blowing-build-ai-apps-and-automate-workflows-without-4c1543cda853?source=rss------artificial_intelligence-5",
+          "source": "Artificial Intelligence on Medium"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "vosk-api",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ alphacep/vosk-api: Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and ",
-      "articles": []
-    },
-    {
-      "keyword": "apache airflow",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ apache/airflow: Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-      "articles": [
-        {
-          "title": "From 24 Hours to 2 Hours: How We Fixed a Broken BI System With Apache Airflow",
-          "url": "https://dzone.com/articles/fixing-bi-system-apache-airflow",
-          "source": "dzone.com: latest front page"
-        }
-      ]
-    },
-    {
-      "keyword": "aiagentic",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "⭐ CodeBoarding/CodeBoarding: Interactive architecture diagrams for codebases",
-      "articles": []
-    },
     {
       "keyword": "streamlit",
       "mentions": 3,
@@ -305,7 +292,7 @@
       "articles": []
     },
     {
-      "keyword": "claude-hud",
+      "keyword": "apache airflow",
       "mentions": 3,
       "velocity": 2.0,
       "sources": [
@@ -315,7 +302,41 @@
       "confidence": 63,
       "days_active": 2,
       "expert_ratio": 1.0,
-      "headline": "⭐ jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and ",
+      "headline": "⭐ apache/airflow: Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "articles": [
+        {
+          "title": "From 24 Hours to 2 Hours: How We Fixed a Broken BI System With Apache Airflow",
+          "url": "https://dzone.com/articles/fixing-bi-system-apache-airflow",
+          "source": "dzone.com: latest front page"
+        }
+      ]
+    },
+    {
+      "keyword": "vosk-api",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ alphacep/vosk-api: Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and ",
+      "articles": []
+    },
+    {
+      "keyword": "aiagentic",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "⭐ CodeBoarding/CodeBoarding: Interactive architecture diagrams for codebases",
       "articles": []
     },
     {
@@ -358,21 +379,21 @@
       "articles": []
     },
     {
-      "keyword": "moss-tts",
+      "keyword": "claude-hud",
       "mentions": 3,
-      "velocity": 1.2,
+      "velocity": 2.0,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
+      "confidence": 63,
+      "days_active": 2,
       "expert_ratio": 1.0,
-      "headline": "⭐ OpenMOSS/MOSS-TTS: MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the Open",
+      "headline": "⭐ jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and ",
       "articles": []
     },
     {
-      "keyword": "llm evaluation",
+      "keyword": "ai-guide",
       "mentions": 3,
       "velocity": 1.2,
       "sources": [
@@ -382,192 +403,138 @@
       "confidence": 65,
       "days_active": 3,
       "expert_ratio": 1.0,
-      "headline": "⭐ comet-ml/opik: Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehe",
+      "headline": "⭐ liyupi/ai-guide: 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude）、最新 AI 资",
       "articles": [
         {
-          "title": "Building a Real-Time AI Call Audit System: Speech-to-Text, LLM Evaluation, Compliance Monitoring…",
-          "url": "https://medium.com/@shashank_shekhar_pandey/building-a-real-time-ai-call-audit-system-speech-to-text-llm-evaluation-compliance-monitoring-585fb8d53be7?source=rss------deep_learning-5",
-          "source": "Deep Learning on Medium"
-        },
+          "title": "TIL of a couple who tried to conceive for 20 years, failing multiple IVFs and surgeries. Scientists used a new AI-guided",
+          "url": "https://www.reddit.com/r/todayilearned/comments/1twnnty/til_of_a_couple_who_tried_to_conceive_for_20/",
+          "source": "reddit: the front page of the internet"
+        }
+      ]
+    },
+    {
+      "keyword": "paddlepaddle",
+      "mentions": 3,
+      "velocity": 1.2,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "🤗 PaddlePaddle/PaddleOCR-VL-1.6",
+      "articles": [
         {
-          "title": "Beyond English benchmarks: clinical llm evaluation in Brazilian Portuguese",
-          "url": "https://arxiv.org/abs/2606.07853",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Beyond English benchmarks: clinical llm evaluation in Brazilian Portuguese",
-          "url": "https://arxiv.org/abs/2606.07853",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "PaddlePaddle/PaddleOCR-VL-1.6",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq1jpt/paddlepaddlepaddleocrvl16/",
+          "source": "LocalLLaMA"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "openclaw",
-      "mentions": 25,
+      "keyword": "google deepmind",
+      "mentions": 14,
+      "velocity": 1.9,
+      "sources": [
+        "articles",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "Google DeepMind CEO says we don't have much time to prepare for the 'new human era'",
+      "articles": [
+        {
+          "title": "Google DeepMind releases DiffusionGemma, a model that runs local AI 4x faster",
+          "url": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost/",
+          "source": "Ars Technica"
+        },
+        {
+          "title": "Google DeepMind Partner Posts Video of Fake Humanoid Robot",
+          "url": "https://futurism.com/robots-and-machines/google-deepmind-partner-video-fake-humanoid-robot",
+          "source": "Futurism"
+        },
+        {
+          "title": "Google DeepMind Just Dropped \"DiffusionGemma\" — Text Generation via Image-Style Diffusion Model",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1u298ix/google_deepmind_just_dropped_diffusiongemma_text/",
+          "source": "Ai"
+        }
+      ]
+    },
+    {
+      "keyword": "ai act",
+      "mentions": 14,
       "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.62,
-      "headline": "OpenLumara - A different kind of AI agent, written from scratch, not vibecoded. Extremely token-efficient, super small s",
-      "articles": [
-        {
-          "title": "6 Hermes Use Cases that OpenClaw Never Had",
-          "url": "https://www.youtube.com/watch?v=qMEm1bgxnUM",
-          "source": "AI LABS"
-        },
-        {
-          "title": "Baidu CFO Tells 'Odd Lots' About How OpenClaw Founder Sought to Collaborate",
-          "url": "https://www.bloomberg.com/news/videos/2026-06-10/baidu-cfo-says-openclaw-founder-sought-to-collaborate-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Understanding and mitigating the risks of OpenClaw for non-technical users: A practical guide with Skill",
-          "url": "https://arxiv.org/abs/2606.11007",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "deepmind",
-      "mentions": 13,
-      "velocity": 1.6,
-      "sources": [
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.38,
-      "headline": "Google DeepMind CEO says we don't have much time to prepare for the 'new human era'",
-      "articles": [
-        {
-          "title": "Google DeepMind economist sees no AI jobs bloodbath yet, but warns of a layoff cascade",
-          "url": "https://www.businessinsider.com/google-deepmind-economist-ai-layoff-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Google DeepMind economist sees no AI jobs bloodbath yet, but warns of a layoff cascade",
-          "url": "https://www.businessinsider.com/google-deepmind-economist-ai-layoff-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Google DeepMind economist sees no AI jobs bloodbath yet, but warns of a layoff cascade",
-          "url": "https://www.businessinsider.com/google-deepmind-economist-ai-layoff-2026-6",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "google deepmind",
-      "mentions": 11,
-      "velocity": 1.5,
-      "sources": [
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "Google DeepMind CEO says we don't have much time to prepare for the 'new human era'",
-      "articles": [
-        {
-          "title": "Google DeepMind economist sees no AI jobs bloodbath yet, but warns of a layoff cascade",
-          "url": "https://www.businessinsider.com/google-deepmind-economist-ai-layoff-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Google DeepMind economist sees no AI jobs bloodbath yet, but warns of a layoff cascade",
-          "url": "https://www.businessinsider.com/google-deepmind-economist-ai-layoff-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Google DeepMind economist sees no AI jobs bloodbath yet, but warns of a layoff cascade",
-          "url": "https://www.businessinsider.com/google-deepmind-economist-ai-layoff-2026-6",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 112,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "Nvidia CEO Jensen Huang declines Warren’s request to testify at AI hearing",
-      "articles": [
-        {
-          "title": "Pharmicell Sole Supplier of Key CCL Materials for Nvidia AI Servers via Doosan",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=11204",
-          "source": "THE ELEC， Korea Electronics Industry Media - 전체기사"
-        },
-        {
-          "title": "Sources: Germany's Neura Robotics, which builds AI-powered humanoid robots, raised $1.4B from Tether, Qualcomm, Amazon, ",
-          "url": "https://www.techmeme.com/260610/p38#a260610p38",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Sources: Germany's Neura Robotics, which builds AI-powered humanoid robots, raised $1.4B from Tether, Qualcomm, Amazon, ",
-          "url": "https://www.techmeme.com/260610/p38#a260610p38",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "tiktok",
-      "mentions": 23,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
+        "reddit",
         "twitter"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Matan was roasting Republicans at his speech last night\n\n“I just wanna thank Trump for releasing the Epstein files, unfo",
+      "expert_ratio": 0.45,
+      "headline": "New York passes law requiring ads to disclose if AI actors are in it \n\nThey've also banned deepfakes of deceased perform",
       "articles": [
         {
-          "title": "Ces jeunes qui révisent le bac sur TikTok et Instagram : « C’est la seule aide disponible les derniers jours avant l’exa",
-          "url": "https://www.lemonde.fr/pixels/article/2026/06/10/ces-jeunes-qui-revisent-le-bac-sur-tiktok-et-instagram-c-est-la-seule-aide-disponible-les-derniers-jours-avant-l-examen_6700504_4408996.html",
-          "source": "Pixels : Toute l'actualité sur Le Monde.fr."
+          "title": "How to add EU AI Act disclosure to your SaaS UI (with code)",
+          "url": "https://dev.to/disclos/how-to-add-eu-ai-act-disclosure-to-your-saas-ui-with-codepublished-false-3319",
+          "source": "The Practical Developer"
         },
         {
-          "title": "No es envidia, es el algoritmo: por qué Instagram y TikTok están diseñados para que odies las vacaciones de los multimil",
-          "url": "https://www.xataka.com/medicina-y-salud/no-envidia-algoritmo-que-instagram-tiktok-estan-disenados-odies-vacaciones-multimillonarios",
-          "source": "Xataka"
+          "title": "AI Act: pubblicato codice di condotta sulla trasparenza",
+          "url": "https://www.punto-informatico.it/ai-act-pubblicato-codice-condotta-trasparenza/",
+          "source": "Punto Informatico"
         },
         {
-          "title": "TikTok Shop gaat live in Nederland: ‘We hebben veel momentum opgebouwd’",
-          "url": "https://twinklemagazine.nl/2026/06/tiktok-shop-gaat-live-in-nederland-we-hebben-veel-momentum-opgebouwd/index.xml",
-          "source": "Twinklemagazine | RSS"
+          "title": "Is AI actually replacing hiring departments now? Came across something that surprised me",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1u2af05/is_ai_actually_replacing_hiring_departments_now/",
+          "source": "Ai"
         }
       ]
     },
     {
-      "keyword": "llama",
-      "mentions": 64,
-      "velocity": 1.0,
+      "keyword": "claude opus",
+      "mentions": 24,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Introducing Claude Opus 4.6. Our smartest model got an upgrade. \n\nOpus 4.6 plans more carefully, sustains agentic tasks ",
+      "articles": [
+        {
+          "title": "The AI Arbitrage Edge: Dominating Polymarket with Claude Opus 4.8",
+          "url": "https://medium.com/@danielnedev562/the-ai-arbitrage-edge-dominating-polymarket-with-claude-opus-4-8-b1e00a1c99aa?source=rss------artificial_intelligence-5",
+          "source": "Artificial Intelligence on Medium"
+        },
+        {
+          "title": "Claude Opus 4.8",
+          "url": "https://medium.com/@sohail_saifi/claude-opus-4-8-b09ba139d5a4?source=rss------programming-5",
+          "source": "Programming on Medium"
+        },
+        {
+          "title": "Claude Opus 4.8",
+          "url": "https://medium.com/@sohail_saifi/claude-opus-4-8-b09ba139d5a4?source=rss------programming-5",
+          "source": "Programming on Medium"
+        }
+      ]
+    },
+    {
+      "keyword": "llama 3",
+      "mentions": 11,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "arxiv",
@@ -576,23 +543,86 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "🚀 Google DeepMind has introduced the new Gemma 4 12B, which runs on a standard laptop.",
+      "expert_ratio": 0.94,
+      "headline": "Me: Arguing with an AI bot who just posted something on this sub about Llama 3.1.",
       "articles": [
         {
-          "title": "The One llama.cpp Setting That Made My RTX 3090 10× Faster (Every Guide Gets It Wrong)",
-          "url": "https://medium.com/coding-nexus/the-one-llama-cpp-setting-that-made-my-rtx-3090-10-faster-every-guide-gets-it-wrong-48fcabcb1aec?source=rss------programming-5",
+          "title": "Doubled Qwen3.6-27B on a single 3090: ollama 35.7 → llama.cpp+MTP 80.2 tok/s, measured lever by lever",
+          "url": "https://www.reddit.com/r/deeplearning/comments/1u16cuz/doubled_qwen3627b_on_a_single_3090_ollama_357/",
+          "source": "Deep Learning"
+        },
+        {
+          "title": "I Built a Financial Document Chatbot for Free Using Groq LLaMA 3.1 and LangChain — Here’s How",
+          "url": "https://medium.com/@rastogikunal191/i-built-a-financial-document-chatbot-for-free-using-groq-llama-3-1-and-langchain-heres-how-51eed7d7c3f8?source=rss------programming-5",
           "source": "Programming on Medium"
         },
         {
-          "title": "The One llama.cpp Setting That Made My RTX 3090 10× Faster (Every Guide Gets It Wrong)",
-          "url": "https://medium.com/coding-nexus/the-one-llama-cpp-setting-that-made-my-rtx-3090-10-faster-every-guide-gets-it-wrong-48fcabcb1aec?source=rss------programming-5",
+          "title": "I Built a Financial Document Chatbot for Free Using Groq LLaMA 3.1 and LangChain — Here’s How",
+          "url": "https://medium.com/@rastogikunal191/i-built-a-financial-document-chatbot-for-free-using-groq-llama-3-1-and-langchain-heres-how-51eed7d7c3f8?source=rss------programming-5",
           "source": "Programming on Medium"
+        }
+      ]
+    },
+    {
+      "keyword": "genai",
+      "mentions": 14,
+      "velocity": 1.7,
+      "sources": [
+        "github",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "Is it bad that this feels too accurate?\n\n\"Just a little.\" Three hours later, still going.\n\nSomewhere in there, half a th",
+      "articles": [
+        {
+          "title": "Carbon-Aware Governance Gates: An Architecture for Sustainable GenAI Development",
+          "url": "https://arxiv.org/abs/2602.19718",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "BYD lanza el híbrido enchufable más barato del mercado: tiene 105 Km de autonomía eléctrica, cuesta menos de 19.000 euro",
-          "url": "https://hipertextual.com/movilidad/byd-lanza-el-hibrido-enchufable-mas-barato-del-mercado-tiene-105-km-de-autonomia-electrica-cuesta-menos-de-19-000-euros-y-se-llama-dolphin-g-dm-i/",
-          "source": "Hipertextual"
+          "title": "Carbon-Aware Governance Gates: An Architecture for Sustainable GenAI Development",
+          "url": "https://arxiv.org/abs/2602.19718",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Data Fabrics, Mesh, and GenAI: Unifying Data Architecture for AI-First Organizations",
+          "url": "https://pub.towardsai.net/data-fabrics-mesh-and-genai-unifying-data-architecture-for-ai-first-organizations-db261d97da94?source=rss----98111c9905da---4",
+          "source": "Towards AI - Medium"
+        }
+      ]
+    },
+    {
+      "keyword": "flux",
+      "mentions": 17,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.68,
+      "headline": "Some cinematic  Ideogram 4 tests",
+      "articles": [
+        {
+          "title": "Mercedes‑Benz starts large‑scale production of electric axial flux motor",
+          "url": "https://media.mercedes-benz.com/en/article/bebac2af-acdc-465a-9538-adb0bf3d8ccf",
+          "source": "Hacker News"
+        },
+        {
+          "title": "The Daily Market Flux - Your Complete Market Rundown (06/09/2026)",
+          "url": "https://www.reddit.com/r/MarketFluxHub/comments/1u1jw1z/the_daily_market_flux_your_complete_market/",
+          "source": "reddit.com: search results - artificial"
+        },
+        {
+          "title": "Hyperflux: Pruning Reveals Importance",
+          "url": "https://arxiv.org/abs/2504.05349",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     }
@@ -605,15 +635,15 @@
     "max_lead_days": 39,
     "since": "2026-03-01",
     "by_signal_type": {
-      "emerging": {
-        "scored": 367,
-        "hits": 98,
-        "hit_rate": 0.267
-      },
       "weak_signal": {
         "scored": 368,
         "hits": 16,
         "hit_rate": 0.043
+      },
+      "emerging": {
+        "scored": 367,
+        "hits": 98,
+        "hit_rate": 0.267
       }
     }
   },
@@ -646,16 +676,16 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "moss-tts",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-10",
-        "confidence": 0.65
-      },
-      {
         "keyword": "anthropic",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-09",
+        "flagged_on": "2026-06-11",
         "confidence": 1.0
+      },
+      {
+        "keyword": "moss-tts",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-11",
+        "confidence": 0.65
       },
       {
         "keyword": "text to speech",
@@ -676,13 +706,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "openai",
+        "keyword": "mcp",
         "signal_type": "emerging",
         "flagged_on": "2026-06-05",
         "confidence": 1.0
       },
       {
-        "keyword": "mcp",
+        "keyword": "openai",
         "signal_type": "emerging",
         "flagged_on": "2026-06-05",
         "confidence": 1.0
@@ -696,88 +726,88 @@
     ],
     "heating_up": [
       {
-        "keyword": "ai chips",
-        "recent_mentions": 12,
-        "prior_mentions": 1,
-        "change_ratio": 12.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "capcut",
-        "recent_mentions": 11,
+        "recent_mentions": 16,
         "prior_mentions": 1,
-        "change_ratio": 11.0,
+        "change_ratio": 16.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "luma",
+        "keyword": "neuromorphic",
         "recent_mentions": 10,
         "prior_mentions": 1,
         "change_ratio": 10.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "ideogram",
-        "recent_mentions": 73,
-        "prior_mentions": 9,
-        "change_ratio": 8.11,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "higgsfield",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 37,
-        "prior_mentions": 8,
-        "change_ratio": 4.62,
         "corroborating_sources": 1
       },
       {
-        "keyword": "sovereign ai",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "keyword": "relevance",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "sakana ai",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
-        "change_ratio": 4.0,
+        "keyword": "artificial general intelligence",
+        "recent_mentions": 29,
+        "prior_mentions": 4,
+        "change_ratio": 7.25,
         "corroborating_sources": 1
       },
       {
-        "keyword": "code completion",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
-        "change_ratio": 3.67,
+        "keyword": "vision language model",
+        "recent_mentions": 39,
+        "prior_mentions": 6,
+        "change_ratio": 6.5,
         "corroborating_sources": 1
       },
       {
         "keyword": "cowork",
-        "recent_mentions": 17,
+        "recent_mentions": 26,
         "prior_mentions": 5,
-        "change_ratio": 3.4,
-        "corroborating_sources": 4
+        "change_ratio": 5.2,
+        "corroborating_sources": 5
       },
       {
         "keyword": "national ai",
-        "recent_mentions": 13,
-        "prior_mentions": 4,
-        "change_ratio": 3.25,
+        "recent_mentions": 15,
+        "prior_mentions": 3,
+        "change_ratio": 5.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "browser-use",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
+        "keyword": "sovereign ai",
+        "recent_mentions": 13,
+        "prior_mentions": 3,
+        "change_ratio": 4.33,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai governance",
+        "recent_mentions": 30,
+        "prior_mentions": 7,
+        "change_ratio": 4.29,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 36,
+        "prior_mentions": 9,
+        "change_ratio": 4.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "vlm",
+        "recent_mentions": 250,
+        "prior_mentions": 63,
+        "change_ratio": 3.97,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ideogram",
+        "recent_mentions": 87,
+        "prior_mentions": 22,
+        "change_ratio": 3.95,
+        "corroborating_sources": 3
       }
     ]
   }
