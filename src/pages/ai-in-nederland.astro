@@ -1,0 +1,151 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../data/ai_nederland.json';
+
+const fmt = (v: number | null) => (v == null ? '–' : v.toLocaleString('nl-NL', { minimumFractionDigits: 1, maximumFractionDigits: 1 }));
+const round0 = (v: number | null) => (v == null ? '–' : Math.round(v).toString());
+
+// Schaal voor de technologie-balken: grootste NL-waarde bepaalt 100%.
+const techMax = Math.max(...data.technologies.map((t) => t.nl ?? 0), 1);
+const sizeMax = Math.max(...data.by_size.map((s) => s.value ?? 0), 1);
+
+const eurostat = data.sources.find((s) => s.name.startsWith('Eurostat'));
+const title = `AI in Nederland — ${round0(data.headline.nl)}% van de bedrijven gebruikt AI | AI Nieuws Radar`;
+const description = `Officiële cijfers: ${fmt(data.headline.nl)}% van de Nederlandse bedrijven (10+ werknemers) gebruikt minstens één AI-technologie, tegen ${fmt(data.headline.eu)}% EU-gemiddeld (${data.year}). Bron: Eurostat & CBS.`;
+---
+<Layout title={title} description={description} image="/og/ai-in-nederland.png">
+  <main id="main" class="page">
+    <header class="phead">
+      <p class="kicker kicker--accent">AI in Nederland</p>
+      <h1>Nederlandse bedrijven gebruiken bijna twee keer zo vaak AI als gemiddeld in Europa</h1>
+      <p class="lede">In {data.year} zette een derde van de Nederlandse bedrijven minstens één AI-technologie in. Het EU-gemiddelde bleef op een vijfde steken. Cijfers van de officiële statistiekbureaus — geen schatting uit online buzz.</p>
+    </header>
+
+    <section class="hero">
+      <div class="stat stat--nl">
+        <span class="stat__lab">🇳🇱 Nederland</span>
+        <span class="stat__num">{round0(data.headline.nl)}%</span>
+        <span class="stat__sub">van de bedrijven ({data.basis}) gebruikt AI</span>
+      </div>
+      <div class="stat">
+        <span class="stat__lab">🇪🇺 EU-gemiddelde</span>
+        <span class="stat__num">{round0(data.headline.eu)}%</span>
+        <span class="stat__sub">EU27 · zelfde meting, zelfde jaar</span>
+      </div>
+    </section>
+
+    <p class="plain">Wat je hier ziet: het aandeel bedrijven dat <b>echt</b> AI gebruikt, gemeten door de officiële statistiekbureaus. Nederland zit ruim boven het Europese gemiddelde.</p>
+
+    <section class="block">
+      <h2>Welke AI gebruiken Nederlandse bedrijven?</h2>
+      <p class="bsub">Aandeel bedrijven per technologie — Nederland tegenover het EU-gemiddelde ({data.year}).</p>
+      <div class="legend">
+        <span><i class="sw sw--nl"></i>Nederland</span>
+        <span><i class="sw sw--eu"></i>EU-gemiddelde</span>
+      </div>
+      {data.technologies.map((t) => (
+        <div class="bar">
+          <div class="bar__top">
+            <span class="bar__name">{t.label}</span>
+            <span class="bar__vals"><b>{fmt(t.nl)}%</b> · {fmt(t.eu)}% EU</span>
+          </div>
+          <div class="track">
+            <div class="fill fill--nl" style={`width:${Math.min(100, (t.nl ?? 0) / techMax * 100)}%`}></div>
+            <div class="fill fill--eu" style={`width:${Math.min(100, (t.eu ?? 0) / techMax * 100)}%`}></div>
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <section class="block">
+      <h2>Hoe groter het bedrijf, hoe vaker AI</h2>
+      <p class="bsub">Aandeel Nederlandse bedrijven dat AI gebruikt, naar aantal werknemers ({data.year}).</p>
+      <div class="sizes">
+        {data.by_size.map((s) => (
+          <div class="size">
+            <span class="size__num">{round0(s.value)}%</span>
+            <span class="size__lab">{s.label}</span>
+            <div class="size__track"><div class="size__fill" style={`width:${(s.value ?? 0) / sizeMax * 100}%`}></div></div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <details class="pro">
+      <summary>Voor de kenner — alle cijfers &amp; methode</summary>
+      <table class="ptable">
+        <thead><tr><th>Indicator ({data.year})</th><th>NL</th><th>EU27</th></tr></thead>
+        <tbody>
+          {data.intensity.map((r) => (<tr><td>{r.label}</td><td class="nl">{fmt(r.nl)}</td><td>{fmt(r.eu)}</td></tr>))}
+          {data.technologies.map((r) => (<tr><td>{r.label}</td><td class="nl">{fmt(r.nl)}</td><td>{fmt(r.eu)}</td></tr>))}
+          <tr><td>{data.no_ai.label}</td><td class="nl">{fmt(data.no_ai.nl)}</td><td>{fmt(data.no_ai.eu)}</td></tr>
+        </tbody>
+      </table>
+      <p class="pnote">Basis: {data.basis}. "Gebruikt ≥1 AI-technologie" telt een bedrijf mee zodra het één van de bovenstaande technologieën inzet. Eurostat-tabel <code>isoc_eb_ai</code>, peiljaar {data.year}; CBS "ICT-gebruik bij bedrijven" (2024) bevestigt het beeld voor Nederland. Dit is een meting van adoptie, geen voorspelling.</p>
+    </details>
+
+    <footer class="src">
+      <span class="badge">● Officiële statistiek</span>
+      <p>Bronnen: <a href={eurostat?.url} target="_blank" rel="noopener">Eurostat — AI by size class of enterprise ({data.year})</a> · CBS — ICT-gebruik bij bedrijven (2024). Cijfers in procenten van bedrijven met 10+ werknemers.</p>
+    </footer>
+  </main>
+
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:62ch; line-height:var(--leading-relaxed); }
+
+    .hero { display:grid; grid-template-columns:1fr 1fr; gap:var(--space-4); margin:var(--space-10) 0 var(--space-4); }
+    .stat { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-6); }
+    .stat--nl { border-color:var(--primary-bright); }
+    .stat__lab { display:block; font-size:var(--text-sm); color:var(--text-secondary); margin-bottom:var(--space-2); }
+    .stat__num { display:block; font-family:var(--font-display); font-size:var(--text-6xl); line-height:1; }
+    .stat--nl .stat__num { color:var(--primary-bright); }
+    .stat__sub { display:block; font-size:var(--text-sm); color:var(--text-muted); margin-top:var(--space-2); }
+
+    .plain { background:var(--bg-surface); border:1px solid var(--border-subtle); border-left:3px solid var(--primary-bright); border-radius:0 var(--radius-md) var(--radius-md) 0; padding:var(--space-4) var(--space-5); margin:var(--space-4) 0 var(--space-12); font-size:var(--text-base); color:var(--text-primary); max-width:68ch; }
+    .plain b { color:var(--primary-bright); }
+
+    .block { margin:var(--space-12) 0; }
+    .block h2 { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-2); }
+    .bsub { font-size:var(--text-base); color:var(--text-secondary); margin:0 0 var(--space-5); }
+
+    .legend { display:flex; gap:var(--space-5); font-size:var(--text-sm); color:var(--text-secondary); margin-bottom:var(--space-5); }
+    .legend span { display:inline-flex; align-items:center; gap:var(--space-2); }
+    .sw { width:13px; height:13px; border-radius:var(--radius-sm); display:inline-block; }
+    .sw--nl { background:var(--primary-bright); }
+    .sw--eu { background:var(--text-muted); }
+
+    .bar { margin-bottom:var(--space-4); }
+    .bar__top { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:var(--space-2); }
+    .bar__name { font-size:var(--text-base); color:var(--text-primary); }
+    .bar__vals { font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted); }
+    .bar__vals b { color:var(--primary-bright); }
+    .track { position:relative; height:26px; background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); overflow:hidden; }
+    .fill { position:absolute; left:0; border-radius:var(--radius-sm); }
+    .fill--nl { top:0; height:100%; background:var(--primary-bright); opacity:.85; }
+    .fill--eu { top:50%; transform:translateY(-50%); height:9px; background:var(--text-muted); opacity:.8; }
+
+    .sizes { display:grid; grid-template-columns:repeat(3,1fr); gap:var(--space-4); }
+    .size { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); }
+    .size__num { display:block; font-family:var(--font-display); font-size:var(--text-4xl); color:var(--primary-bright); line-height:1; }
+    .size__lab { display:block; font-size:var(--text-sm); color:var(--text-secondary); margin:var(--space-2) 0 var(--space-3); }
+    .size__track { height:6px; background:var(--border-subtle); border-radius:var(--radius-full); overflow:hidden; }
+    .size__fill { height:100%; background:var(--primary-bright); border-radius:var(--radius-full); }
+
+    .pro { margin:var(--space-8) 0 0; background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:0 var(--space-5); }
+    .pro summary { cursor:pointer; padding:var(--space-4) 0; font-family:var(--font-mono); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-secondary); }
+    .ptable { width:100%; border-collapse:collapse; font-size:var(--text-sm); margin:var(--space-2) 0 var(--space-4); }
+    .ptable th, .ptable td { text-align:right; padding:var(--space-2) var(--space-3); border-bottom:1px solid var(--border-subtle); font-variant-numeric:tabular-nums; }
+    .ptable th:first-child, .ptable td:first-child { text-align:left; }
+    .ptable thead th { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; color:var(--text-muted); font-weight:var(--font-regular); }
+    .ptable td.nl { color:var(--primary-bright); }
+    .pnote { font-size:var(--text-sm); color:var(--text-muted); padding-bottom:var(--space-4); line-height:var(--leading-relaxed); }
+
+    .src { margin-top:var(--space-10); padding-top:var(--space-5); border-top:1px solid var(--border-subtle); font-size:var(--text-sm); color:var(--text-muted); }
+    .src a { color:var(--text-secondary); text-decoration:underline; }
+    .badge { display:inline-flex; align-items:center; gap:6px; color:var(--primary-bright); font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); margin-bottom:var(--space-2); }
+    @media (max-width:38em){ .hero, .sizes { grid-template-columns:1fr; } }
+  </style>
+</Layout>

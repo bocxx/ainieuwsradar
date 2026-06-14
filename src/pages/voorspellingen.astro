@@ -1,0 +1,138 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../data/open_predictions.json';
+import wl from '../data/model_watchlist.json';
+
+const watch = (wl?.watchlist ?? []);
+const wlMax = Math.max(...watch.map((w) => w.score ?? 0), 0.01);
+const sc = wl?.live_scorecard ?? {};
+
+const months = ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+const fmt = (iso) => { if(!iso) return ''; const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()]}`; };
+const cap = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+const typeLbl = (t) => t === 'emerging' ? 'opkomend' : 'zwak signaal';
+
+const s = data.stats ?? {};
+const open = data.open ?? [];
+const resolved = data.recent_resolved ?? [];
+const hitPct = Math.round((s.hit_rate ?? 0) * 100);
+const win = data.window_days ?? 45;
+---
+<Layout title="Open voorspellingen — wat de AI-radar nu verwacht | AI Nieuws Radar"
+  description={`Wij leggen vroege AI-signalen publiek vast en laten ze open en bloot oplossen: ${s.hits ?? 0} uitgekomen, ${s.misses ?? 0} niet. Inclusief de missers.`}>
+  <main id="main" class="page">
+    <header class="phead">
+      <p class="kicker kicker--accent">Open voorspellingen</p>
+      <h1>Wat we nu verwachten</h1>
+      <p class="lede">We leggen vroege signalen publiek vast als open verwachting, en laten ze daarna oplossen tegen een onafhankelijke maatstaf: verschijnt het onderwerp binnen {win} dagen in een gevette outlet? Open en bloot — <b>inclusief de keren dat we het mishadden.</b></p>
+    </header>
+
+    <div class="stats">
+      <div class="stat"><div class="stat__num">{open.length}</div><div class="stat__lbl">nu in de gaten</div></div>
+      <div class="stat"><div class="stat__num">{s.hits ?? 0}</div><div class="stat__lbl">uitgekomen</div></div>
+      <div class="stat"><div class="stat__num">{s.misses ?? 0}</div><div class="stat__lbl">niet uitgekomen</div></div>
+      <div class="stat"><div class="stat__num">{hitPct}%</div><div class="stat__lbl">opgepikt door media</div></div>
+    </div>
+
+    {(s.resolved ?? 0) > 0 && (
+      <div class="hmbar" role="img" aria-label={`${s.hits} uitgekomen, ${s.misses} niet`}>
+        <span class="hmbar__hit" style={`flex:${s.hits}`}>{s.hits} ✓</span>
+        <span class="hmbar__miss" style={`flex:${Math.max(1, s.misses)}`}>{s.misses} ✕</span>
+      </div>
+    )}
+
+    {open.length > 0 && (
+      <section class="block">
+        <h2 class="block__title">Nu in de gaten</h2>
+        <p class="note">Signalen die wij vroeg flagden en die nog niet breed in het nieuws zijn. We wachten af of ze doorbreken.</p>
+        <div class="cards">
+          {open.map((o) => (
+            <article class="card">
+              <h3 class="card__kw">{cap(o.keyword)}</h3>
+              <span class="card__type">{typeLbl(o.signal_type)}</span>
+              <p class="card__meta">Geflagd {fmt(o.flagged_on)} · nog {o.days_left} dagen in het venster</p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="block">
+      <h2 class="block__title">Recent opgelost</h2>
+      <p class="note">"Uitgekomen" = het onderwerp verscheen daarna in de titel van een gevette outlet, met de voorsprong in dagen. "Niet uitgekomen" tonen we net zo goed.</p>
+      <ul class="reslist">
+        {resolved.map((r) => (
+          <li class={`res res--${r.status}`}>
+            <span class="res__ico" aria-hidden="true">{r.status === 'hit' ? '✓' : '✕'}</span>
+            <span class="res__kw">{cap(r.keyword)}</span>
+            <span class="res__detail">
+              {r.status === 'hit'
+                ? <>uitgekomen{r.lead_days != null && <> · <b>+{r.lead_days}d</b> voorsprong</>}{r.outlet && <> · {r.outlet}</>}</>
+                : <>niet uitgekomen · venster verstreken</>}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {watch.length > 0 && (
+      <section class="block">
+        <h2 class="block__title">Modelvoorspellingen <span class="exp">experimenteel · in toetsing</span></h2>
+        <p class="note">Een eerste momentum-model wijst de net-opgekomen onderwerpen aan met de hoogste kans op doorbraak. We leggen ze vooraf vast en toetsen ze live; de teller telt pas mee zodra ze oplossen. De scores zijn <b>relatief</b> (de base rate is laag) — een rangschikking, geen zekerheid.</p>
+        <div class="wlist">
+          {watch.map((w) => (
+            <div class="wl">
+              <span class="wl__kw">{cap(w.keyword)}</span>
+              <span class="wl__track"><span class="wl__fill" style={`width:${Math.round((w.score ?? 0)/wlMax*100)}%`}></span></span>
+              <span class="wl__score">{Math.round((w.score ?? 0)*100)}</span>
+            </div>
+          ))}
+        </div>
+        <p class="note">Live scorecard: {sc.resolved ?? 0} opgelost ({sc.hits ?? 0} ✓ / {sc.misses ?? 0} ✕), {sc.open ?? 0} open. De eerste lichting lost rond half juli op — dán krijgt deze sectie betekenis.</p>
+      </section>
+    )}
+
+    <aside class="cross"><p>Hoe we meten staat op de <a href="/methode">methode</a>; de volledige score op het <a href="/track-record">track record</a>.</p></aside>
+  </main>
+  <style>
+    .page { max-width:var(--container-base); margin:0 auto; padding:var(--space-10) var(--space-6) var(--space-16); }
+    .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
+    .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
+    .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:60ch; line-height:var(--leading-relaxed); }
+    .lede b { color:var(--text-primary); font-weight:var(--font-semibold); }
+    .stats { display:grid; grid-template-columns:repeat(2,1fr); gap:var(--space-3); margin:var(--space-10) 0; max-width:680px; }
+    @media (min-width:48em){ .stats{ grid-template-columns:repeat(4,1fr); } }
+    .stat { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); box-shadow:var(--shadow-sm); }
+    .stat__num { font-family:var(--font-display); font-size:var(--text-4xl); line-height:1; }
+    .stat__lbl { font-size:var(--text-xs); color:var(--text-muted); margin-top:var(--space-2); }
+    .block { margin:var(--space-12) 0; }
+    .block__title { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-2); }
+    .note { font-size:var(--text-base); color:var(--text-secondary); max-width:64ch; margin-bottom:var(--space-5); line-height:var(--leading-relaxed); }
+    .cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:var(--space-4); }
+    .card { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-left:3px solid var(--primary-bright); border-radius:var(--radius-md); padding:var(--space-5); }
+    .card__kw { font-family:var(--font-body); font-size:var(--text-lg); font-weight:var(--font-semibold); margin:0; text-transform:capitalize; }
+    .card__type { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+    .card__meta { font-size:var(--text-sm); color:var(--text-secondary); margin:var(--space-3) 0 0; }
+    .reslist { list-style:none; padding:0; margin:0; display:grid; gap:0; border-top:1px solid var(--border-subtle); }
+    .res { display:flex; align-items:center; gap:var(--space-3); padding:var(--space-3) 0; border-bottom:1px solid var(--border-subtle); flex-wrap:wrap; }
+    .res__ico { width:22px; height:22px; border-radius:var(--radius-full); display:inline-flex; align-items:center; justify-content:center; font-size:var(--text-xs); flex-shrink:0; }
+    .res--hit .res__ico { background:color-mix(in srgb, var(--primary-bright) 18%, transparent); color:var(--primary-bright); }
+    .res--miss .res__ico { background:var(--bg-surface); color:var(--text-muted); border:1px solid var(--border-strong); }
+    .res__kw { font-weight:var(--font-semibold); color:var(--text-primary); text-transform:capitalize; min-width:9ch; }
+    .res__detail { font-size:var(--text-sm); color:var(--text-secondary); }
+    .res__detail b { color:var(--primary-bright); font-family:var(--font-mono); }
+    .res--miss .res__kw { color:var(--text-secondary); }
+    .hmbar { display:flex; height:30px; border-radius:var(--radius-md); overflow:hidden; margin:0 0 var(--space-4); max-width:680px; font-family:var(--font-mono); font-size:var(--text-xs); }
+    .hmbar__hit { background:var(--primary-bright); color:var(--text-inverse); display:flex; align-items:center; justify-content:center; }
+    .hmbar__miss { background:var(--bg-elevated); color:var(--text-muted); display:flex; align-items:center; justify-content:center; border:1px solid var(--border-subtle); }
+    .exp { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--color-warning); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:2px 8px; vertical-align:middle; margin-left:var(--space-2); }
+    .wlist { display:grid; gap:var(--space-2-5); max-width:560px; }
+    .wl { display:flex; align-items:center; gap:var(--space-3); }
+    .wl__kw { font-size:var(--text-sm); color:var(--text-primary); text-transform:capitalize; min-width:10em; }
+    .wl__track { flex:1; height:8px; background:var(--bg-surface); border-radius:var(--radius-full); overflow:hidden; }
+    .wl__fill { display:block; height:100%; background:var(--primary-bright); opacity:.75; border-radius:var(--radius-full); }
+    .wl__score { font-family:var(--font-mono); font-size:var(--text-2xs); color:var(--text-muted); min-width:2em; text-align:right; }
+    .cross { background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5) var(--space-6); margin-top:var(--space-10); }
+    .cross p { margin:0; color:var(--text-secondary); }
+  </style>
+</Layout>

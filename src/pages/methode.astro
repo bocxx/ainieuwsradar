@@ -20,6 +20,11 @@ const weights = [
       <p class="lede">ainieuwsradar.nl is geen redactie maar een meetinstrument. We volgen elke dag meer dan duizend bronnen en vertalen ruwe vermeldingen naar een gewogen signaal. Hier staat precies hoe.</p>
     </header>
 
+    <aside class="inshort">
+      <h2>In het kort</h2>
+      <p>We tellen elke dag waar online over AI gepraat wordt — van wetenschappelijke papers tot sociale media — en laten zien wat opvalt: wat snel groeit, wat net opkomt, en wat vooral geroep is. Geen mening, alleen wat de data laat zien. Hieronder staat de techniek erachter, voor wie het precies wil weten.</p>
+    </aside>
+
     <section class="prose">
       <h2>Bronnen en weging</h2>
       <p>Niet elke bron is even veelzeggend. Een paper op ArXiv of een repository die plots in de lift zit op GitHub loopt doorgaans vóór op het algemene nieuws. Daarom wegen we bronnen verschillend: hoe vroeger en technischer het signaal, hoe zwaarder het meetelt.</p>
@@ -46,6 +51,9 @@ const weights = [
     .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
     .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
     .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:60ch; line-height:var(--leading-relaxed); }
+    .inshort { margin-top:var(--space-8); max-width:68ch; background:var(--bg-surface); border:1px solid var(--border-subtle); border-left:3px solid var(--primary-bright); border-radius:0 var(--radius-md) var(--radius-md) 0; padding:var(--space-5) var(--space-6); }
+    .inshort h2 { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--primary-bright); margin:0 0 var(--space-2); }
+    .inshort p { font-size:var(--text-base); color:var(--text-primary); margin:0; line-height:var(--leading-relaxed); }
     .prose { margin-top:var(--space-12); max-width:68ch; }
     .prose h2 { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:var(--space-10) 0 var(--space-4); }
     .prose p { font-size:var(--text-lg); line-height:var(--leading-relaxed); color:var(--text-secondary); margin-bottom:var(--space-4); }

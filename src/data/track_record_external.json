@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-06-14T17:38:30+00:00",
+  "method": "extern",
+  "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
+  "window_days": 45,
+  "early_threshold_days": 3,
+  "track_record": {
+    "scored_predictions": 62,
+    "covered": 52,
+    "coverage_rate": 0.839,
+    "early": 15,
+    "early_rate": 0.242,
+    "avg_lead_days": 11.5,
+    "median_lead_days": 5,
+    "max_lead_days": 39,
+    "hit_rate": 0.839,
+    "materialized": 52,
+    "by_signal_type": {
+      "emerging": {
+        "scored": 51,
+        "covered": 49,
+        "early": 13,
+        "coverage_rate": 0.961,
+        "early_rate": 0.255,
+        "hit_rate": 0.961
+      },
+      "weak_signal": {
+        "scored": 11,
+        "covered": 3,
+        "early": 2,
+        "coverage_rate": 0.273,
+        "early_rate": 0.182,
+        "hit_rate": 0.273
+      }
+    }
+  },
+  "best_calls": [
+    {
+      "keyword": "large language model",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-14",
+      "materialized_on": "2026-04-22",
+      "lead_days": 39
+    },
+    {
+      "keyword": "gemma",
+      "signal_type": "emerging",
+      "flagged_on": "2026-04-07",
+      "materialized_on": "2026-05-06",
+      "lead_days": 29
+    },
+    {
+      "keyword": "mcp server",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-05",
+      "materialized_on": "2026-04-01",
+      "lead_days": 27
+    },
+    {
+      "keyword": "multimodal",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-12",
+      "materialized_on": "2026-03-31",
+      "lead_days": 19
+    },
+    {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "flagged_on": "2026-04-03",
+      "materialized_on": "2026-04-10",
+      "lead_days": 7
+    },
+    {
+      "keyword": "ai developer",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-05",
+      "materialized_on": "2026-03-10",
+      "lead_days": 5
+    },
+    {
+      "keyword": "llama",
+      "signal_type": "emerging",
+      "flagged_on": "2026-04-03",
+      "materialized_on": "2026-04-08",
+      "lead_days": 5
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
+    }
+  ],
+  "caveats": [
+    "Alleen voorspellingen met het volle venster meegeteld — geen right-censoring.",
+    "Gelijktijdige dekking (voorsprong < drempel) telt als dekking, niet als vroege call.",
+    "Nog geen nul-model/controlegroep: de dekking is nog niet tegen toeval afgezet."
+  ]
+}

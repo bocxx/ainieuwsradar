@@ -63,14 +63,20 @@ const jsonld = {
       <a href="/" class="logo" aria-label="ai / radar — homepage">
         <span class="logo__a">ai</span><span class="logo__slash">/</span><span class="logo__b">radar</span>
       </a>
+      <input type="checkbox" id="navtoggle" class="navtoggle" hidden />
       <nav class="hdr__nav" aria-label="Hoofdnavigatie">
         <a href="/radar">Archief</a>
         <a href="/trends">Trends</a>
         <a href="/hype">Hype</a>
+        <a href="/ai-in-nederland">AI in NL</a>
         <a href="/wetenschap">Wetenschap</a>
         <a href="/methode">Methode</a>
+        <a href="/voorspellingen">Voorspellingen</a>
         <a href="/track-record">Track record</a>
       </nav>
+      <label for="navtoggle" class="hamburger" aria-label="Menu openen/sluiten">
+        <span></span><span></span><span></span>
+      </label>
       <button id="theme-toggle" class="hdr__theme" type="button" aria-label="Wissel thema">
         <span class="hdr__theme-dot"></span>
       </button>
@@ -90,8 +96,10 @@ const jsonld = {
           <a href="/radar">Radar-archief</a>
           <a href="/trends">Trends A–Z</a>
           <a href="/hype">Hype-o-Meter</a>
+          <a href="/ai-in-nederland">AI in Nederland</a>
           <a href="/wetenschap">Breaking Science</a>
           <a href="/methode">Methode</a>
+          <a href="/voorspellingen">Open voorspellingen</a>
           <a href="/track-record">Track record</a>
         </nav>
       </div>
@@ -124,15 +132,28 @@ const jsonld = {
     .skip-link:focus { left:var(--space-4); top:var(--space-4); }
 
     .hdr { position:sticky; top:0; z-index:var(--z-sticky); background:var(--bg-glass); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px); border-bottom:1px solid var(--border-subtle); }
-    .hdr__inner { max-width:var(--container-xwide); margin:0 auto; padding:var(--space-3) var(--space-6); display:flex; align-items:center; gap:var(--space-6); }
+    .hdr__inner { position:relative; max-width:var(--container-xwide); margin:0 auto; padding:var(--space-3) var(--space-6); display:flex; align-items:center; gap:var(--space-6); }
     .hdr__nav { margin-left:auto; display:flex; gap:var(--space-5); }
     .hdr__nav a { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
     .hdr__nav a:hover { color:var(--primary-bright); }
+    .hamburger { display:none; flex-direction:column; justify-content:center; gap:4px; width:34px; height:28px; cursor:pointer; }
+    .hamburger span { display:block; height:2px; width:20px; background:var(--text-primary); border-radius:2px; transition:transform var(--transition-base); }
     .hdr__theme { width:34px; height:20px; border:1px solid var(--border-strong); border-radius:var(--radius-full); display:inline-flex; align-items:center; padding:0 2px; }
     .hdr__theme-dot { width:14px; height:14px; border-radius:var(--radius-full); background:var(--primary-bright); transition:transform var(--transition-base); }
     html[data-theme="light"] .hdr__theme-dot { transform:translateX(0); }
     html:not([data-theme="light"]) .hdr__theme-dot { transform:translateX(14px); }
-    @media (max-width:48em){ .hdr__nav{ display:none; } }
+    @media (max-width:48em){
+      .hamburger { display:flex; margin-left:auto; }
+      .hdr__nav {
+        display:none; position:absolute; top:100%; left:0; right:0; margin:0;
+        flex-direction:column; gap:0;
+        background:var(--bg-surface); border-bottom:1px solid var(--border-subtle);
+        padding:var(--space-2) var(--space-6) var(--space-4);
+        box-shadow:var(--shadow-md);
+      }
+      .navtoggle:checked ~ .hdr__nav { display:flex; }
+      .hdr__nav a { padding:var(--space-3) 0; font-size:var(--text-xs); border-bottom:1px solid var(--border-subtle); }
+    }
 
     .logo { display:inline-flex; align-items:baseline; gap:1px; font-family:var(--font-logo); font-size:var(--text-lg); color:var(--text-primary); letter-spacing:var(--tracking-tight); }
     .logo__slash { color:var(--primary-bright); margin:0 2px; }

@@ -1,7 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import radar from '../data/radar.json';
+import nl from '../data/ai_nederland.json';
 import { getCollection } from 'astro:content';
+
+const nlPct = Math.round((nl?.headline?.nl ?? 0));
+const euPct = Math.round((nl?.headline?.eu ?? 0));
+const nlYear = nl?.year ?? '';
+const nlTop = (nl?.technologies ?? []).slice(0, 4);
+const nlTopMax = Math.max(...nlTop.map((t) => t.nl ?? 0), 1);
 
 // Trefwoorden die een eigen trendpagina hebben → interne links (anti-cannibal hub).
 const trendEntries = (await getCollection('trends')).filter((t) => !t.data.draft);
@@ -9,7 +16,9 @@ const trendSlug = new Map(trendEntries.map((t) => [t.data.keyword.toLowerCase(),
 const slugFor = (kw) => trendSlug.get((kw || '').toLowerCase()) ?? null;
 
 const tr = radar.track_record ?? {};
-const hitPct = Math.round((tr.hit_rate ?? 0) * 100);
+const earlyPct = Math.round((tr.early_rate ?? 0) * 100);
+const coveragePct = Math.round((tr.coverage_rate ?? tr.hit_rate ?? 0) * 100);
+const earlyThr = tr.early_threshold_days ?? 3;
 const fmtNum = (n) => (n ?? 0).toLocaleString('nl-NL');
 const fmtDate = (s) => s ? new Date(s).toLocaleDateString('nl-NL', { day:'numeric', month:'long', year:'numeric' }) : '';
 const fmtShort = (s) => s ? new Date(s).toLocaleDateString('nl-NL', { day:'numeric', month:'short' }) : '';
@@ -48,24 +57,46 @@ const onRadar = [...(radar.emerging ?? []), ...(radar.sustained ?? [])]
           </p>
           <ul class="anchors">
             <li><a class="anchor" href="#radar"><span class="anchor__label">Radar vandaag</span><span class="anchor__meta">{radar.accelerating.length + radar.emerging.length} trends</span></a></li>
-            <li><a class="anchor" href="#trackrecord"><span class="anchor__label">Track record</span><span class="anchor__meta">{hitPct}% raak</span></a></li>
+            <li><a class="anchor" href="#trackrecord"><span class="anchor__label">Track record</span><span class="anchor__meta">open getoetst</span></a></li>
           </ul>
         </div>
 
         <div class="hero__stats">
-          <div class="stat"><div class="stat__num">{fmtNum(tr.scored_predictions)}</div><div class="stat__lbl">voorspellingen gescoord</div></div>
-          <div class="stat"><div class="stat__num">{hitPct}%</div><div class="stat__lbl">kwam uit</div></div>
-          <div class="stat"><div class="stat__num">{tr.avg_lead_days}<span>d</span></div><div class="stat__lbl">gem. voorsprong</div></div>
-          <div class="stat"><div class="stat__num">{tr.max_lead_days}<span>d</span></div><div class="stat__lbl">max. voorsprong</div></div>
+          <div class="stat"><div class="stat__num">{fmtNum(radar.total_tracked)}</div><div class="stat__lbl">onderwerpen op de radar</div></div>
+          <div class="stat"><div class="stat__num">8<span>+</span></div><div class="stat__lbl">brontypes, dagelijks gescand</div></div>
+          <div class="stat"><div class="stat__num">{radar.window_days}<span>d</span></div><div class="stat__lbl">meetvenster</div></div>
+          <div class="stat"><div class="stat__num">{fmtNum(tr.scored_predictions)}</div><div class="stat__lbl">voorspellingen open getoetst</div></div>
         </div>
       </div>
 
       <ul class="trust" aria-label="Wat ons onderscheidt">
         <li><span class="trust__ico"></span>1000+ bronnen, dagelijks gescand</li>
         <li><span class="trust__ico"></span>Gewogen signalen (ArXiv 4×, HN 3×)</li>
-        <li><span class="trust__ico"></span>Voorspellingen, achteraf gescoord</li>
+        <li><span class="trust__ico"></span>Voorspellingen, getoetst aan media-dekking</li>
         <li><span class="trust__ico"></span>Geen hype — alleen momentum</li>
       </ul>
+    </section>
+
+    <!-- AI IN NEDERLAND — uitgelichte, onaanvechtbare cijfers -->
+    <section class="nlband" aria-label="AI in Nederland">
+      <div class="nlband__inner">
+        <div class="nlband__lead">
+          <p class="kicker kicker--accent">AI in Nederland · officiële cijfers</p>
+          <h2 class="nlband__title">Nederlandse bedrijven gebruiken <span class="accent">{nlPct}%</span> AI — tegen {euPct}% EU-gemiddeld.</h2>
+          <p class="nlband__sub">Geen schatting uit online buzz, maar Eurostat &amp; CBS ({nlYear}). <a href="/ai-in-nederland">Bekijk alle cijfers →</a></p>
+        </div>
+        <div class="nlband__viz">
+          <div class="nlcmp">
+            <div class="nlcmp__row"><span class="nlcmp__lab">🇳🇱 NL</span><span class="nlcmp__bar"><span class="nlcmp__fill nlcmp__fill--nl" style={`width:${Math.min(100, nlPct)}%`}></span></span><span class="nlcmp__val">{nlPct}%</span></div>
+            <div class="nlcmp__row"><span class="nlcmp__lab">🇪🇺 EU</span><span class="nlcmp__bar"><span class="nlcmp__fill" style={`width:${Math.min(100, euPct)}%`}></span></span><span class="nlcmp__val">{euPct}%</span></div>
+          </div>
+          <ul class="nltech">
+            {nlTop.map((t) => (
+              <li><span class="nltech__name">{t.label}</span><span class="nltech__track"><span class="nltech__fill" style={`width:${Math.round((t.nl ?? 0)/nlTopMax*100)}%`}></span></span><span class="nltech__val">{(t.nl ?? 0).toLocaleString('nl-NL',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span></li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- RADAR: VERSNELT NU -->
@@ -74,6 +105,7 @@ const onRadar = [...(radar.emerging ?? []), ...(radar.sustained ?? [])]
         <p class="kicker kicker--accent">Radar vandaag</p>
         <h2 class="block__title">Versnelt nu</h2>
         <p class="block__note">De sterkste stijgers van dit moment — breekt door in het nieuws.</p>
+        <p class="block__legend">Je hoeft geen cijfers te lezen: het <span class="vel">▲</span>-getal is de groeisnelheid — hoe hoger, hoe sneller in opkomst.</p>
       </div>
       <ol class="rlist">
         {radar.accelerating.map((it, i) => (
@@ -84,13 +116,13 @@ const onRadar = [...(radar.emerging ?? []), ...(radar.sustained ?? [])]
                 <h3 class="rlist__kw">{slugFor(it.keyword)
                   ? <a href={`/trend/${slugFor(it.keyword)}`}>{cap(it.keyword)}</a>
                   : cap(it.keyword)}</h3>
-                <span class="vel">▲ {it.velocity}</span>
+                <span class="vel" title="Groeisnelheid: toename in vermeldingen per dag. Hoger = sneller in opkomst.">▲ {it.velocity}</span>
               </div>
               {it.headline && <p class="rlist__hl">{it.headline}</p>}
               <div class="rlist__meta">
                 <span>{fmtNum(it.mentions)} vermeldingen</span><span class="dot">·</span>
                 <span>{it.source_count} bronnen</span><span class="dot">·</span>
-                <span>{it.confidence}% zekerheid</span>
+                <span title="Hoe betrouwbaar het signaal is, op een schaal van 0–100.">{it.confidence}% zekerheid</span>
               </div>
             </div>
           </li>
@@ -112,7 +144,7 @@ const onRadar = [...(radar.emerging ?? []), ...(radar.sustained ?? [])]
               <h3 class="card__kw">{slugFor(it.keyword)
                 ? <a href={`/trend/${slugFor(it.keyword)}`}>{cap(it.keyword)}</a>
                 : cap(it.keyword)}</h3>
-              <span class="vel">▲ {it.velocity}</span>
+              <span class="vel" title="Groeisnelheid: toename in vermeldingen per dag. Hoger = sneller in opkomst.">▲ {it.velocity}</span>
             </div>
             <div class="card__meta">
               <span>{fmtNum(it.mentions)} vermeldingen</span><span class="dot">·</span>
@@ -206,6 +238,34 @@ const onRadar = [...(radar.emerging ?? []), ...(radar.sustained ?? [])]
     .dot { color:var(--text-muted); margin:0 var(--space-1); }
     .tag { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:1px 6px; }
 
+    /* AI IN NEDERLAND band */
+    .nlband { max-width:var(--container-xwide); margin:0 auto var(--space-16); padding:0 var(--space-6); }
+    .nlband__inner { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-left:4px solid var(--primary-bright); border-radius:var(--radius-lg); padding:var(--space-8); display:grid; grid-template-columns:1fr; gap:var(--space-8); box-shadow:var(--shadow-sm); }
+    @media (min-width:56em){ .nlband__inner{ grid-template-columns:1.1fr 1fr; align-items:center; column-gap:var(--space-12); } }
+    .nlband__title { font-family:var(--font-display); font-size:clamp(1.5rem,1.1rem+1.6vw,2.2rem); font-weight:var(--font-regular); line-height:1.2; letter-spacing:var(--tracking-tight); margin:var(--space-2) 0 var(--space-3); }
+    .nlband__title .accent { color:var(--primary-bright); }
+    .nlband__sub { font-size:var(--text-base); color:var(--text-secondary); margin:0; }
+    .nlband__sub a { color:var(--primary-bright); font-family:var(--font-mono); font-size:var(--text-xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); white-space:nowrap; }
+    .nlcmp { display:grid; gap:var(--space-3); margin-bottom:var(--space-5); }
+    .nlcmp__row { display:flex; align-items:center; gap:var(--space-3); }
+    .nlcmp__lab { font-size:var(--text-sm); color:var(--text-secondary); min-width:3.5em; }
+    .nlcmp__bar { position:relative; flex:1; height:18px; background:var(--bg-surface); border-radius:var(--radius-sm); overflow:hidden; }
+    .nlcmp__fill { position:absolute; left:0; top:0; height:100%; background:var(--text-muted); border-radius:var(--radius-sm); }
+    .nlcmp__fill--nl { background:var(--primary-bright); }
+    .nlcmp__val { font-family:var(--font-mono); font-size:var(--text-sm); min-width:2.6em; text-align:right; }
+    .nltech { list-style:none; margin:0; padding:var(--space-4) 0 0; border-top:1px solid var(--border-subtle); display:grid; gap:var(--space-2-5); }
+    .nltech li { display:flex; align-items:center; gap:var(--space-3); }
+    .nltech__name { font-size:var(--text-xs); color:var(--text-secondary); min-width:11em; }
+    .nltech__track { flex:1; height:8px; background:var(--bg-surface); border-radius:var(--radius-full); overflow:hidden; }
+    .nltech__fill { display:block; height:100%; background:var(--primary-bright); opacity:.8; border-radius:var(--radius-full); }
+    .nltech__val { font-family:var(--font-mono); font-size:var(--text-2xs); color:var(--text-muted); min-width:3em; text-align:right; }
+    @media (max-width:34em){
+      .nlband { padding:0 var(--space-4); }
+      .nlband__inner { padding:var(--space-6); }
+      .nltech__name { min-width:8em; font-size:11px; }
+      .nlband__sub a { white-space:normal; }
+    }
+
     /* HERO */
     .hero { max-width:var(--container-xwide); margin:0 auto; padding:var(--space-12) var(--space-6) var(--space-8); }
     .hero__inner { display:grid; grid-template-columns:minmax(0,1fr); gap:var(--space-10); margin-bottom:var(--space-10); }
@@ -237,6 +297,8 @@ const onRadar = [...(radar.emerging ?? []), ...(radar.sustained ?? [])]
     .block__head { margin-bottom:var(--space-6); }
     .block__title { font-family:var(--font-display); font-size:var(--text-3xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-2); }
     .block__note { font-size:var(--text-sm); color:var(--text-secondary); margin:0; max-width:60ch; }
+    .block__legend { font-size:var(--text-xs); color:var(--text-muted); margin:var(--space-2) 0 0; max-width:60ch; }
+    .block__legend .vel { font-size:var(--text-xs); }
 
     /* VERSNELT NU — numbered list */
     .rlist { display:grid; gap:0; border-top:1px solid var(--border-subtle); }

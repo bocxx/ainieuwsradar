@@ -2,36 +2,59 @@
 import Layout from '../layouts/Layout.astro';
 import radar from '../data/radar.json';
 const tr = radar.track_record ?? {};
-const hitPct = Math.round((tr.hit_rate ?? 0) * 100);
+const n = tr.scored_predictions ?? 0;
+const earlyPct = Math.round((tr.early_rate ?? 0) * 100);
+const coveragePct = Math.round((tr.coverage_rate ?? tr.hit_rate ?? 0) * 100);
+const earlyThr = radar.track_record_window ? (tr.early_threshold_days ?? 3) : 3;
 const months = ['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
 const fmt = (iso) => { if(!iso) return ''; const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()]} ${x.getFullYear()}`; };
 const calls = radar.best_calls ?? [];
 const byType = tr.by_signal_type ?? {};
+const windowDays = radar.track_record_window ?? 45;
+const nullm = radar.track_record_null ?? null;
+const nullEarlyPct = nullm ? Math.round((nullm.null_mean?.early_rate ?? 0) * 100) : null;
+const pEarly = nullm ? nullm.p_value?.early_rate : null;
+const beatsChance = pEarly != null && pEarly < 0.05;
 ---
 <Layout title="Track record — kwam onze vroege AI-radar uit? | AI Nieuws Radar"
-  description={`Eerlijke verantwoording: ${tr.scored_predictions ?? 0} gescoorde voorspellingen, ${hitPct}% kwam uit, gemiddeld ${tr.avg_lead_days ?? 0} dagen voorsprong op het nieuws.`}>
+  description={`Eerlijke verantwoording: van ${n} vroege AI-signalen was ${earlyPct}% écht vroeg (minstens ${earlyThr} dagen vóór de gevette media), met gemiddeld ${tr.avg_lead_days ?? 0} dagen voorsprong.`}>
   <main id="main" class="page">
     <header class="phead">
       <p class="kicker kicker--accent">Track record</p>
       <h1>Kwam het uit?</h1>
-      <p class="lede">Een radar zonder verantwoording is een waarzegger. We scoren onze eigen vroege signalen achteraf — dit is wat eruit komt.</p>
+      <p class="lede">Een radar zonder verantwoording is een waarzegger. We toetsen onze vroege signalen aan een <b>onafhankelijke</b> maatstaf: kwam een onderwerp dat wij vroeg flagden later daadwerkelijk in een gevette outlet (NYT, Reuters, Techmeme, …) terecht? Dit is wat eruit komt.</p>
     </header>
+    <p class="method-note">Meetwijze: we toetsen tegen <b>onafhankelijke</b> Tier-A-mediadekking binnen {windowDays} dagen na onze flag — niet onze eigen buzz. We scheiden twee dingen: <b>dekking</b> (het kwam er later, ongeacht timing) en <b>écht vroeg</b> (we waren minstens {earlyThr} dagen eerder). Alleen voorspellingen die het volle venster hadden tellen mee; missers tellen net zo goed.</p>
 
     <div class="stats">
-      <div class="stat"><div class="stat__num">{(tr.scored_predictions ?? 0).toLocaleString('nl-NL')}</div><div class="stat__lbl">voorspellingen gescoord</div></div>
-      <div class="stat"><div class="stat__num">{hitPct}%</div><div class="stat__lbl">kwam uit</div></div>
-      <div class="stat"><div class="stat__num">{tr.avg_lead_days ?? 0}<span>d</span></div><div class="stat__lbl">gem. voorsprong</div></div>
-      <div class="stat"><div class="stat__num">{tr.max_lead_days ?? 0}<span>d</span></div><div class="stat__lbl">max. voorsprong</div></div>
+      <div class="stat"><div class="stat__num">{earlyPct}%</div><div class="stat__lbl">écht vroeg (≥{earlyThr}d voor de media)</div></div>
+      <div class="stat"><div class="stat__num">{tr.avg_lead_days ?? 0}<span>d</span></div><div class="stat__lbl">gem. voorsprong (mediaan {tr.median_lead_days ?? 0}d)</div></div>
+      <div class="stat"><div class="stat__num">{coveragePct}%</div><div class="stat__lbl">uiteindelijk opgepikt</div></div>
+      <div class="stat"><div class="stat__num">{n.toLocaleString('nl-NL')}</div><div class="stat__lbl">signalen gescoord</div></div>
     </div>
+
+    {nullm && (
+      <div class={`verdict ${beatsChance ? 'verdict--ok' : 'verdict--warn'}`}>
+        <p class="verdict__title">{beatsChance ? 'Beter dan toeval' : 'Eerlijk: nog niet aantoonbaar beter dan toeval'}</p>
+        <p>We hebben het getoetst met een controlegroep: dezelfde trefwoorden, maar met <b>willekeurige</b> flag-datums ({nullm.permutations.toLocaleString('nl-NL')} herhalingen). Onze vroege signalen scoren <b>{Math.round((nullm.observed.early_rate)*100)}%</b> écht vroeg; willekeurige datums scoren <b>{nullEarlyPct}%</b> (p={pEarly}). {beatsChance ? 'Onze timing draagt dus echte informatie.' : 'Het verschil is statistisch niet aantoonbaar — deze onderwerpen worden tóch wel gedekt omdat het populaire AI-termen zijn. We tonen dit liever eerlijk dan dat we voorspelkracht claimen die we (nog) niet kunnen bewijzen.'}</p>
+        <div class="nullviz">
+          <div class="nullviz__row"><span class="nullviz__lab">wij</span><span class="nullviz__bar"><span class="nullviz__fill nullviz__fill--us" style={`width:${Math.min(100, Math.round((nullm.observed.early_rate)*100)*2.5)}%`}></span></span><span class="nullviz__val">{Math.round((nullm.observed.early_rate)*100)}%</span></div>
+          <div class="nullviz__row"><span class="nullviz__lab">toeval</span><span class="nullviz__bar"><span class="nullviz__fill" style={`width:${Math.min(100, (nullEarlyPct ?? 0)*2.5)}%`}></span></span><span class="nullviz__val">{nullEarlyPct}%</span></div>
+        </div>
+        <p class="verdict__small">Naarmate we langer en breder meten kan dit veranderen; we publiceren de uitkomst hoe dan ook.</p>
+      </div>
+    )}
+
+    <p class="caveat">Lees de percentages dus als richting bij een <b>kleine steekproef</b> (n={n}), niet als bewijs. "Uiteindelijk opgepikt" ({coveragePct}%) is grotendeels base rate. De calls hieronder zijn <b>illustratief</b>, geen bewijs van voorspelkracht.</p>
 
     <section class="block">
       <h2 class="block__title">Per signaaltype</h2>
-      <p class="note">Niet elk signaaltype is even trefzeker — en dat hoort ook zo. "Opkomend" is al breed gedragen en komt vaker uit; "zwak signaal" is vroeger en gokt vaker mis, maar levert de grootste voorsprong als het raak is.</p>
+      <p class="note">"Opkomend" is al breder gedragen en wordt dus bijna altijd opgepikt — dat zegt weinig. "Zwak signaal" is vroeger en zeldzamer; daar zit de echte voorsprong, maar de aantallen zijn nog klein.</p>
       <div class="types">
         {Object.entries(byType).map(([k, v]) => (
           <div class="type">
             <h3>{k === 'emerging' ? 'Opkomend' : 'Zwak signaal'}</h3>
-            <p>{Math.round((v.hit_rate ?? 0) * 100)}% raak · {v.hits ?? 0} van {v.scored ?? 0}</p>
+            <p>{Math.round((v.early_rate ?? 0) * 100)}% écht vroeg · {Math.round((v.coverage_rate ?? 0) * 100)}% opgepikt · n={v.scored ?? 0}</p>
           </div>
         ))}
       </div>
@@ -40,6 +63,7 @@ const byType = tr.by_signal_type ?? {};
     {calls.length > 0 && (
       <section class="block">
         <h2 class="block__title">Bewezen vroege calls</h2>
+        <p class="note">"Bevestigd" = de eerste keer dat het onderwerp in de titel van een gevette outlet verscheen. Eeuwige mega-termen (OpenAI, Nvidia, ChatGPT…) tellen niet mee — die in de pers zien is triviaal.</p>
         <div class="tr-wrap">
           <table class="trt">
             <thead><tr><th>Onderwerp</th><th>Type</th><th>Geflagd</th><th>Bevestigd</th><th class="r">Voorsprong</th></tr></thead>
@@ -66,6 +90,25 @@ const byType = tr.by_signal_type ?? {};
     .kicker { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-widest); color:var(--primary-bright); margin:0 0 var(--space-3); }
     .phead h1 { font-family:var(--font-display); font-size:var(--text-5xl); font-weight:var(--font-regular); letter-spacing:var(--tracking-tight); margin:0 0 var(--space-4); }
     .lede { font-size:var(--text-lg); color:var(--text-secondary); max-width:58ch; line-height:var(--leading-relaxed); }
+    .lede b { color:var(--text-primary); font-weight:var(--font-semibold); }
+    .method-note { font-family:var(--font-mono); font-size:var(--text-xs); color:var(--text-muted); max-width:64ch; margin-top:var(--space-4); line-height:var(--leading-relaxed); border-left:2px solid var(--border-strong); padding-left:var(--space-3); }
+    .method-note b { color:var(--text-secondary); }
+    .caveat { font-size:var(--text-sm); color:var(--text-secondary); max-width:66ch; margin:var(--space-6) 0 0; line-height:var(--leading-relaxed); background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:var(--space-4) var(--space-5); }
+    .caveat b { color:var(--text-primary); }
+    .verdict { max-width:66ch; margin:var(--space-8) 0 0; padding:var(--space-5) var(--space-6); border-radius:var(--radius-lg); border:1px solid var(--border-subtle); background:var(--bg-surface); }
+    .verdict--warn { border-left:3px solid var(--color-warning); }
+    .verdict--ok { border-left:3px solid var(--primary-bright); }
+    .verdict__title { font-family:var(--font-display); font-size:var(--text-xl); margin:0 0 var(--space-2); color:var(--text-primary); }
+    .verdict p { font-size:var(--text-base); color:var(--text-secondary); line-height:var(--leading-relaxed); margin:0 0 var(--space-2); }
+    .verdict b { color:var(--text-primary); font-variant-numeric:tabular-nums; }
+    .verdict__small { font-size:var(--text-xs); color:var(--text-muted); margin:var(--space-2) 0 0; }
+    .nullviz { display:grid; gap:var(--space-2); margin:var(--space-4) 0; max-width:32em; }
+    .nullviz__row { display:flex; align-items:center; gap:var(--space-3); }
+    .nullviz__lab { font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); min-width:4em; }
+    .nullviz__bar { position:relative; flex:1; height:16px; background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); overflow:hidden; }
+    .nullviz__fill { position:absolute; left:0; top:0; height:100%; background:var(--text-muted); }
+    .nullviz__fill--us { background:var(--primary-bright); }
+    .nullviz__val { font-family:var(--font-mono); font-size:var(--text-xs); min-width:2.6em; text-align:right; }
     .stats { display:grid; grid-template-columns:repeat(2,1fr); gap:var(--space-3); margin:var(--space-10) 0; max-width:680px; }
     @media (min-width:48em){ .stats{ grid-template-columns:repeat(4,1fr); } }
     .stat { background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:var(--space-5); box-shadow:var(--shadow-sm); }

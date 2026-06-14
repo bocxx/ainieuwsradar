@@ -23,10 +23,22 @@ const fmt = (iso) => { const x = new Date(iso); return `${x.getDate()} ${months[
 const paras = entry.data.analysis.split(/\n\n+/).filter(Boolean);
 const labels = { github:'GitHub', hackernews:'Hacker News', reddit:'Reddit', twitter:'X', bluesky:'Bluesky', linkedin:'LinkedIn', producthunt:'Product Hunt', articles:'nieuwsartikelen', arxiv:'ArXiv', huggingface:'Hugging Face' };
 
-// Sparkline uit trajectory
-const traj = (t.trajectory ?? []).map((p) => p.mentions);
-const W = 640, H = 120, max = Math.max(1, ...traj);
-const pts = traj.map((v, i) => `${(i/(traj.length-1||1))*W},${H - (v/max)*(H-8) - 4}`).join(' ');
+// Verloop uit trajectory, gesplitst in vakpubliek (expert) en breed publiek (mainstream)
+const traj = t.trajectory ?? [];
+const exArr = traj.map((p) => p.expert ?? p.mentions ?? 0);
+const totArr = traj.map((p) => (p.expert ?? p.mentions ?? 0) + (p.mainstream ?? 0));
+const W = 640, H = 140, PAD = 4, max = Math.max(1, ...totArr);
+const X = (i) => (i / (traj.length - 1 || 1)) * W;
+const Y = (v) => H - PAD - (v / max) * (H - PAD * 2);
+const areaPath = (vals) => {
+  if (!vals.length) return '';
+  let d = `M ${X(0)} ${Y(vals[0])}`;
+  for (let i = 1; i < vals.length; i++) d += ` L ${X(i)} ${Y(vals[i])}`;
+  d += ` L ${X(vals.length - 1)} ${Y(0)} L ${X(0)} ${Y(0)} Z`;
+  return d;
+};
+const expertArea = areaPath(exArr);
+const totalArea = areaPath(totArr);
 const expertPct = Math.round((t.expert_share ?? 0) * 100);
 ---
 <Layout title={`${t.keyword} — AI-signaal op de radar | AI Nieuws Radar`}
@@ -45,10 +57,15 @@ const expertPct = Math.round((t.expert_share ?? 0) * 100);
     </header>
 
     <figure class="spark">
-      <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" role="img" aria-label={`Vermeldingen van ${t.keyword} over tijd`}>
-        <polyline points={pts} fill="none" stroke="var(--primary-bright)" stroke-width="2" vector-effect="non-scaling-stroke" />
+      <div class="spark__legend">
+        <span><i class="dot dot--ex"></i>vakpubliek</span>
+        <span><i class="dot dot--pub"></i>breed publiek</span>
+      </div>
+      <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" role="img" aria-label={`Vermeldingen van ${t.keyword} over tijd, gesplitst in vakpubliek en breed publiek`}>
+        <path d={totalArea} class="area area--pub" />
+        <path d={expertArea} class="area area--ex" />
       </svg>
-      <figcaption>Vermeldingen per meetdag — {fmt(t.first_seen)} tot {fmt(t.last_seen)}</figcaption>
+      <figcaption>Vermeldingen per meetdag, gesplitst in vakpubliek (ArXiv, GitHub, Hacker News) en breed publiek — {fmt(t.first_seen)} tot {fmt(t.last_seen)}</figcaption>
     </figure>
 
     <div class="analysis">{paras.map((p) => <p>{p}</p>)}</div>
@@ -59,7 +76,7 @@ const expertPct = Math.round((t.expert_share ?? 0) * 100);
     </section>
 
     <aside class="cross">
-      <p>Dit is een meet-signaal, geen nieuwsartikel. Voor redactionele duiding over <em>{t.keyword}</em> zie
+      <p>Dit is een meet-signaal van de <em>aandacht</em>, geen nieuwsartikel. Wil je zien welke modellen, repos en tools nú daadwerkelijk tractie krijgen? Bekijk <a href="https://feedzzz.online" rel="noopener">feedzzz.online</a>. Voor redactionele duiding over <em>{t.keyword}</em> zie
         <a href="https://hetlaatsteainieuws.nl" rel="noopener">hetlaatsteainieuws.nl</a>;
         voor tools <a href="https://debesteaitools.nl" rel="noopener">debesteaitools.nl</a>.</p>
     </aside>
@@ -85,7 +102,14 @@ const expertPct = Math.round((t.expert_share ?? 0) * 100);
     .stats b { font-family:var(--font-display); font-size:var(--text-2xl); font-weight:var(--font-regular); }
     .stats span { font-size:var(--text-2xs); color:var(--text-muted); text-transform:uppercase; letter-spacing:var(--tracking-wide); font-family:var(--font-mono); }
     .spark { margin:var(--space-8) 0; }
-    .spark svg { width:100%; height:120px; background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); }
+    .spark svg { width:100%; height:140px; background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-lg); display:block; }
+    .spark .area--ex { fill:var(--primary-bright); opacity:.85; }
+    .spark .area--pub { fill:var(--text-muted); opacity:.32; }
+    .spark__legend { display:flex; gap:var(--space-4); margin-bottom:var(--space-2); font-family:var(--font-mono); font-size:var(--text-2xs); text-transform:uppercase; letter-spacing:var(--tracking-wide); color:var(--text-muted); }
+    .spark__legend span { display:inline-flex; align-items:center; gap:6px; }
+    .spark__legend .dot { width:10px; height:10px; border-radius:var(--radius-sm); display:inline-block; }
+    .spark__legend .dot--ex { background:var(--primary-bright); }
+    .spark__legend .dot--pub { background:var(--text-muted); opacity:.5; }
     .spark figcaption { font-family:var(--font-mono); font-size:var(--text-2xs); color:var(--text-muted); margin-top:var(--space-2); text-transform:uppercase; letter-spacing:var(--tracking-wide); }
     .analysis { margin:var(--space-8) 0; max-width:68ch; }
     .analysis p { font-size:var(--text-lg); line-height:var(--leading-relaxed); color:var(--text-secondary); margin-bottom:var(--space-4); }
