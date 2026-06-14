@@ -120,6 +120,10 @@
     /* Smooth scrolling */
     scroll-behavior: smooth;
 
+    /* Reserveer altijd de scrollbar-ruimte, zodat de (gecentreerde) header niet
+       ~15px verspringt tussen pagina's mét en zónder verticale scrollbar. */
+    scrollbar-gutter: stable;
+
     /* Betere font rendering */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
