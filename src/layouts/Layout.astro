@@ -1,6 +1,7 @@
 ---
 import '../styles/main.css';
 import { Font } from 'astro:assets';
+import { ClientRouter } from 'astro:transitions';
 const {
   title = 'AI Nieuws Radar',
   description = '',
@@ -28,6 +29,13 @@ const jsonld = {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {/* Thema vóór de eerste paint zetten — voorkomt een licht→donker-flits bij elke
+      navigatie. Her-toepassen na een view-transition-swap. */}
+  <script is:inline>
+    (() => { try { const t = localStorage.getItem('air-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {} })();
+    document.addEventListener('astro:after-swap', () => { try { const t = localStorage.getItem('air-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {} });
+  </script>
+  <ClientRouter />
   <title>{title}</title>
   <Font cssVariable="--font-boldonse" preload />
   <Font cssVariable="--font-geist" />
@@ -58,7 +66,7 @@ const jsonld = {
 <body>
   <a href="#main" class="skip-link">Naar de hoofdinhoud</a>
 
-  <header class="hdr">
+  <header class="hdr" transition:persist>
     <div class="hdr__inner">
       <a href="/" class="logo" aria-label="ai / radar — homepage">
         <span class="logo__a">ai</span><span class="logo__slash">/</span><span class="logo__b">radar</span>
@@ -114,16 +122,19 @@ const jsonld = {
 
   <script is:inline>
     (() => {
-      const root = document.documentElement;
-      const KEY = 'air-theme';
-      const saved = localStorage.getItem(KEY);
-      if (saved) root.setAttribute('data-theme', saved);
-      const btn = document.getElementById('theme-toggle');
-      btn && btn.addEventListener('click', () => {
-        const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-        root.setAttribute('data-theme', next);
-        localStorage.setItem(KEY, next);
-      });
+      const root = document.documentElement, KEY = 'air-theme';
+      const bind = () => {
+        const btn = document.getElementById('theme-toggle');
+        if (!btn || btn.dataset.bound) return;
+        btn.dataset.bound = '1';
+        btn.addEventListener('click', () => {
+          const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem(KEY, next); } catch (e) {}
+        });
+      };
+      bind();
+      document.addEventListener('astro:page-load', bind);
     })();
   </script>
 
