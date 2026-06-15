@@ -1,102 +1,138 @@
 {
-  "generated_at": "2026-06-15T07:17:21.950158",
-  "total_tracked": 5771,
+  "generated_at": "2026-06-15T19:25:39.403102",
+  "total_tracked": 5900,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "large language model",
-      "mentions": 567,
-      "velocity": 60.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented D",
-      "articles": [
-        {
-          "title": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented D",
-          "url": "https://arxiv.org/abs/2606.13683",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Aligning Quantum Operators with Large Language Models",
-          "url": "https://arxiv.org/abs/2606.13811",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Two-Stage Statistical Framework for Evaluating Associative Interference in Large Language Models",
-          "url": "https://arxiv.org/abs/2606.14117",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "reinforcement learning",
-      "mentions": 285,
-      "velocity": 57.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
-      "articles": [
-        {
-          "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
-          "url": "https://arxiv.org/abs/2606.13682",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Deep Dense Exploration for LLM Reinforcement Learning via Pivot-Driven Resampling",
-          "url": "https://arxiv.org/abs/2602.14169",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Safety-Contract Graph Multi-Agent Reinforcement Learning for Autonomous Network Security Response",
-          "url": "https://arxiv.org/abs/2606.13832",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "lora",
-      "mentions": 214,
-      "velocity": 32.7,
+      "keyword": "anthropic",
+      "mentions": 411,
+      "velocity": 18.2,
       "sources": [
         "articles",
         "arxiv",
         "github",
+        "hackernews",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 5,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "Beyond LoRA: Is Sparsity-Induced Adaptation Better?",
+      "expert_ratio": 0.78,
+      "headline": "Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models",
       "articles": [
         {
-          "title": "Beyond LoRA: Is Sparsity-Induced Adaptation Better?",
-          "url": "https://arxiv.org/abs/2606.13767",
+          "title": "Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models",
+          "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Zhipu shares jump as Wall Street bets China AI fills the Anthropic gap",
+          "url": "https://thenextweb.com/news/zhipu-stock-surge-china-ai-anthropic-curbs-glm-5-2",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Sources say Anthropic struggles to communicate effectively with the Trump administration; an official says it \"screwed u",
+          "url": "https://www.techmeme.com/260615/p20#a260615p20",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "hallucinations",
+      "mentions": 35,
+      "velocity": 4.3,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "articles": [
+        {
+          "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+          "url": "https://arxiv.org/abs/2606.14697",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "FedRot-LoRA: Mitigating Rotational Misalignment in Federated LoRA",
-          "url": "https://arxiv.org/abs/2602.23638",
+          "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+          "url": "https://arxiv.org/abs/2606.14697",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Beyond LoRA: Is Sparsity-Induced Adaptation Better?",
-          "url": "https://arxiv.org/abs/2606.13767",
+          "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 71,
+      "velocity": 3.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.89,
+      "headline": "The great AI Irony: China cracks down on Western models while US companies flock to DeepSeek",
+      "articles": [
+        {
+          "title": "The great AI Irony: China cracks down on Western models while US companies flock to DeepSeek",
+          "url": "https://www.techradar.com/pro/the-great-ai-irony-china-cracks-down-on-western-models-while-us-companies-flock-to-deepseek",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "The great AI Irony: China cracks down on Western models while US companies flock to DeepSeek",
+          "url": "https://www.techradar.com/pro/the-great-ai-irony-china-cracks-down-on-western-models-while-us-companies-flock-to-deepseek",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Open Reproduction of DeepSeek-R1",
+          "url": "https://github.com/huggingface/open-r1",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 66,
+      "velocity": 3.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
+      "articles": [
+        {
+          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
+          "url": "https://arxiv.org/abs/2512.22671",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
+          "url": "https://arxiv.org/abs/2512.22671",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Quantitative Experimental Repeated Measures Study of Training Dynamics in a Small Llama Style Language Model Under a C",
+          "url": "https://arxiv.org/abs/2606.13370",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -105,7 +141,7 @@
   "emerging": [],
   "weak_signals": [
     {
-      "keyword": "hand",
+      "keyword": "chatbox",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -115,27 +151,11 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Spotify removed 57,000 fake podcast episodes promoting illegal drugs, but only after a senator forced its hand",
-      "articles": [
-        {
-          "title": "Spotify removed 57,000 fake podcast episodes promoting illegal drugs, but only after a senator forced its hand",
-          "url": "https://thenextweb.com/news/spotify-removed-57000-fake-podcast-episodes-drug-spam",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Spotify removed 57,000 fake podcast episodes promoting illegal drugs, but only after a senator forced its hand",
-          "url": "https://thenextweb.com/news/spotify-removed-57000-fake-podcast-episodes-drug-spam",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Spotify removed 57,000 fake podcast episodes promoting illegal drugs, but only after a senator forced its hand",
-          "url": "https://thenextweb.com/news/spotify-removed-57000-fake-podcast-episodes-drug-spam",
-          "source": "The Next Web"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "inflection",
+      "keyword": "hand",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -243,21 +263,21 @@
       ]
     },
     {
-      "keyword": "machine-learning-interviews",
-      "mentions": 3,
-      "velocity": 0.8,
+      "keyword": "indycar",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 1.0,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "awesome-free-llm-apis",
+      "keyword": "machine-learning-interviews",
       "mentions": 3,
       "velocity": 0.8,
       "sources": [
@@ -291,17 +311,17 @@
         {
           "title": "A compensation coach explains why she thinks negotiating via email is the smarter move",
           "url": "https://www.businessinsider.com/compensation-coach-explains-why-she-prefers-email-negotiation-strategy-2026-5",
-          "source": "All Content from Business Insider"
+          "source": "Business Insider"
         },
         {
           "title": "A compensation coach explains why she thinks negotiating via email is the smarter move",
           "url": "https://www.businessinsider.com/compensation-coach-explains-why-she-prefers-email-negotiation-strategy-2026-5",
-          "source": "Business Insider"
+          "source": "All Content from Business Insider"
         }
       ]
     },
     {
-      "keyword": "llm router",
+      "keyword": "rag-from-scratch",
       "mentions": 3,
       "velocity": 0.8,
       "sources": [
@@ -311,101 +331,88 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 1.0,
-      "headline": "OrcaRouter: A Production-Oriented LLM Router with Hybrid Offline-Online Learning",
-      "articles": [
-        {
-          "title": "OrcaRouter: A Production-Oriented LLM Router with Hybrid Offline-Online Learning",
-          "url": "https://arxiv.org/abs/2605.30736",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "OrcaRouter: A Production-Oriented LLM Router with Hybrid Offline-Online Learning",
-          "url": "https://arxiv.org/abs/2605.30736",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "tiktok",
-      "mentions": 26,
+      "keyword": "foundation model",
+      "mentions": 36,
       "velocity": 1.9,
       "sources": [
-        "articles",
         "arxiv",
-        "twitter"
+        "hackernews",
+        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.57,
-      "headline": "TikTok Shop van start: groot platform, smalle businesscase",
+      "expert_ratio": 0.97,
+      "headline": "OdysSim: Building Foundation Models for Human Behavior Simulation",
       "articles": [
         {
-          "title": "TikTok Shop van start: groot platform, smalle businesscase",
-          "url": "https://www.emerce.nl/nieuws/tiktok-shop-start-groot-platform-smalle-businesscase",
-          "source": "Nieuws - Emerce"
-        },
-        {
-          "title": "I'm addicted to TikTok's weird little games. That's a good thing for its ads business.",
-          "url": "https://www.businessinsider.com/tiktok-app-mini-games-advertising-mobile-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "I'm addicted to TikTok's weird little games. That's a good thing for its ads business.",
-          "url": "https://www.businessinsider.com/tiktok-app-mini-games-advertising-mobile-2026-6",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "llama",
-      "mentions": 62,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
-      "articles": [
-        {
-          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
-          "url": "https://arxiv.org/abs/2512.22671",
+          "title": "OdysSim: Building Foundation Models for Human Behavior Simulation",
+          "url": "https://arxiv.org/abs/2606.14199",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
-          "url": "https://arxiv.org/abs/2512.22671",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "LoMC: Localized Multidirectional Correction for Refusal Suppression in Routed Foundation Models",
+          "url": "https://arxiv.org/abs/2606.13709",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "A Quantitative Experimental Repeated Measures Study of Training Dynamics in a Small Llama Style Language Model Under a C",
-          "url": "https://arxiv.org/abs/2606.13370",
+          "title": "Silent Failures in Federated Personalization of Foundation Models",
+          "url": "https://arxiv.org/abs/2606.00947",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "dify",
-      "mentions": 18,
-      "velocity": 1.0,
+      "keyword": "whatsapp",
+      "mentions": 22,
+      "velocity": 1.2,
       "sources": [
         "articles",
-        "arxiv",
         "linkedin",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
+      "expert_ratio": 0.37,
+      "headline": "Kettingbericht zegt onterecht dat Meta AI groepschats in WhatsApp kan lezen",
+      "articles": [
+        {
+          "title": "Kettingbericht zegt onterecht dat Meta AI groepschats in WhatsApp kan lezen",
+          "url": "https://tweakers.net/nieuws/249104/kettingbericht-zegt-onterecht-dat-meta-ai-groepschats-in-whatsapp-kan-lezen.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Facebook, Instagram en WhatsApp zijn mogelijk onbereikbaar door storing",
+          "url": "https://tweakers.net/nieuws/249074/facebook-instagram-en-whatsapp-zijn-mogelijk-onbereikbaar-door-storing.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Facebook, Instagram, and WhatsApp hit by a major Meta outage",
+          "url": "https://thenextweb.com/news/meta-outage-facebook-instagram-whatsapp-down",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "langchain",
+      "mentions": 16,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
       "headline": "",
       "articles": []
     },
@@ -441,37 +448,69 @@
       ]
     },
     {
-      "keyword": "gpt-5",
-      "mentions": 41,
-      "velocity": 0.9,
+      "keyword": "simulation",
+      "mentions": 46,
+      "velocity": 0.7,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.8,
+      "headline": "When Plausible Is Not Realistic: Evaluating Human Mobility in LLM-Based Urban Simulation",
+      "articles": [
+        {
+          "title": "When Plausible Is Not Realistic: Evaluating Human Mobility in LLM-Based Urban Simulation",
+          "url": "https://arxiv.org/abs/2606.13835",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Robustness without Wrinkles: Parallel Simulation and Robust MPC for Certified Deformable Manipulation",
+          "url": "https://arxiv.org/abs/2606.14188",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "OdysSim: Building Foundation Models for Human Behavior Simulation",
+          "url": "https://arxiv.org/abs/2606.14199",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
-      "keyword": "ideogram",
-      "mentions": 23,
-      "velocity": -0.0,
+      "keyword": "tiktok",
+      "mentions": 21,
+      "velocity": 0.4,
       "sources": [
-        "reddit",
+        "articles",
         "twitter"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.55,
+      "headline": "TikTok and YouTube will be banned for kids under 16 in Britain, says PM Starmer",
+      "articles": [
+        {
+          "title": "TikTok and YouTube will be banned for kids under 16 in Britain, says PM Starmer",
+          "url": "https://www.fastcompany.com/91559512/tiktok-youtube-banned-kids-under-16-britain-says-pm-starmer",
+          "source": "Fast Company"
+        },
+        {
+          "title": "TikTok and YouTube will be banned for kids under-16 in Britain, says PM Starmer",
+          "url": "https://www.fastcompany.com/91559512/tiktok-youtube-banned-kids-under-16-britain-says-pm-starmer",
+          "source": "Fast Company"
+        },
+        {
+          "title": "The UK's social media ban will cover Snapchat, TikTok, YouTube, Instagram, Facebook, X, and more, and will require platf",
+          "url": "https://www.techmeme.com/260615/p9#a260615p9",
+          "source": "Techmeme"
+        }
+      ]
     }
   ],
   "track_record": {
@@ -598,10 +637,22 @@
         "confidence": 1.0
       },
       {
+        "keyword": "chatbox",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-15",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "browser use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-15",
+        "confidence": 0.2
+      },
+      {
         "keyword": "inflection",
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-15",
-        "confidence": 0.61
+        "confidence": 0.2
       },
       {
         "keyword": "claude",
@@ -650,6 +701,13 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "tgi",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "exa",
         "recent_mentions": 5,
         "prior_mentions": 1,
@@ -665,31 +723,10 @@
       },
       {
         "keyword": "gemini 2",
-        "recent_mentions": 40,
+        "recent_mentions": 33,
         "prior_mentions": 13,
-        "change_ratio": 3.08,
+        "change_ratio": 2.54,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "gpt-4o",
-        "recent_mentions": 50,
-        "prior_mentions": 18,
-        "change_ratio": 2.78,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "gpt-4",
-        "recent_mentions": 80,
-        "prior_mentions": 30,
-        "change_ratio": 2.67,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "comet",
-        "recent_mentions": 8,
-        "prior_mentions": 3,
-        "change_ratio": 2.67,
-        "corroborating_sources": 1
       },
       {
         "keyword": "mistral ai",
@@ -699,25 +736,39 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "code generation",
-        "recent_mentions": 77,
-        "prior_mentions": 31,
-        "change_ratio": 2.48,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "kimi",
-        "recent_mentions": 32,
-        "prior_mentions": 13,
-        "change_ratio": 2.46,
-        "corroborating_sources": 5
-      },
-      {
         "keyword": "llamaindex",
         "recent_mentions": 12,
         "prior_mentions": 5,
         "change_ratio": 2.4,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "browser-use",
+        "recent_mentions": 9,
+        "prior_mentions": 4,
+        "change_ratio": 2.25,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "h100",
+        "recent_mentions": 15,
+        "prior_mentions": 7,
+        "change_ratio": 2.14,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "mistral",
+        "recent_mentions": 63,
+        "prior_mentions": 31,
+        "change_ratio": 2.03,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "gpt-4o",
+        "recent_mentions": 36,
+        "prior_mentions": 18,
+        "change_ratio": 2.0,
+        "corroborating_sources": 3
       }
     ]
   }
