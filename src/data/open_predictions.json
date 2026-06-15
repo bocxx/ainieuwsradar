@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-14T17:38:35+00:00",
+  "generated_at": "2026-06-15T05:32:18+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 6,
+    "open": 7,
     "resolved": 29,
     "hits": 24,
     "misses": 5,
@@ -14,36 +14,42 @@
       "keyword": "mcp client",
       "signal_type": "weak_signal",
       "flagged_on": "2026-05-31",
-      "days_left": 31
+      "days_left": 30
     },
     {
       "keyword": "gpt-5",
       "signal_type": "emerging",
       "flagged_on": "2026-05-31",
-      "days_left": 31
+      "days_left": 30
     },
     {
       "keyword": "text to speech",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-08",
-      "days_left": 39
+      "days_left": 38
     },
     {
       "keyword": "lora",
       "signal_type": "emerging",
       "flagged_on": "2026-06-12",
-      "days_left": 43
+      "days_left": 42
     },
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 44
+      "days_left": 43
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
-      "flagged_on": "2026-06-14",
+      "flagged_on": "2026-06-15",
+      "days_left": 45
+    },
+    {
+      "keyword": "grok",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-15",
       "days_left": 45
     }
   ],
@@ -61,10 +67,19 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-03-14",
       "resolved_on": "2026-04-22",
-      "lead_days": 15,
+      "lead_days": 39,
       "outlet": "Nature"
+    },
+    {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-10",
+      "lead_days": 3,
+      "outlet": "Techmeme"
     },
     {
       "keyword": "tokens",
@@ -74,15 +89,6 @@
       "resolved_on": "2026-04-10",
       "lead_days": 3,
       "outlet": "Business Insider"
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-04",
-      "resolved_on": "2026-04-10",
-      "lead_days": 6,
-      "outlet": "Techmeme"
     },
     {
       "keyword": "llama",
@@ -101,6 +107,15 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "The Register"
+    },
+    {
+      "keyword": "copilot",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
     },
     {
       "keyword": "benchmark",
@@ -137,15 +152,6 @@
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
-    },
-    {
-      "keyword": "copilot",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
     },
     {
       "keyword": "ai agents",

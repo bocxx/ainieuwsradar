@@ -1,164 +1,111 @@
 {
-  "generated_at": "2026-06-14T19:21:45.516096",
-  "total_tracked": 6378,
+  "generated_at": "2026-06-15T07:17:21.950158",
+  "total_tracked": 5771,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "clawhavoc",
-      "mentions": 5,
-      "velocity": 2.4,
+      "keyword": "large language model",
+      "mentions": 567,
+      "velocity": 60.5,
       "sources": [
         "articles",
         "arxiv",
         "reddit"
       ],
       "source_count": 3,
-      "confidence": 99,
-      "days_active": 3,
-      "expert_ratio": 0.57,
-      "headline": "",
-      "articles": []
-    }
-  ],
-  "emerging": [
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented D",
+      "articles": [
+        {
+          "title": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented D",
+          "url": "https://arxiv.org/abs/2606.13683",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Aligning Quantum Operators with Large Language Models",
+          "url": "https://arxiv.org/abs/2606.13811",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Two-Stage Statistical Framework for Evaluating Associative Interference in Large Language Models",
+          "url": "https://arxiv.org/abs/2606.14117",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
     {
-      "keyword": "anthropic",
-      "mentions": 384,
-      "velocity": 14.5,
+      "keyword": "reinforcement learning",
+      "mentions": 285,
+      "velocity": 57.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
+      "articles": [
+        {
+          "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
+          "url": "https://arxiv.org/abs/2606.13682",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Deep Dense Exploration for LLM Reinforcement Learning via Pivot-Driven Resampling",
+          "url": "https://arxiv.org/abs/2602.14169",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Safety-Contract Graph Multi-Agent Reinforcement Learning for Autonomous Network Security Response",
+          "url": "https://arxiv.org/abs/2606.13832",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 214,
+      "velocity": 32.7,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "EU says it is looking at the practical consequences of US restricting Anthropic's models, notes such measures \"should no",
+      "expert_ratio": 0.9,
+      "headline": "Beyond LoRA: Is Sparsity-Induced Adaptation Better?",
       "articles": [
         {
-          "title": "EU says it is looking at the practical consequences of US restricting Anthropic's models, notes such measures \"should no",
-          "url": "https://www.techmeme.com/260614/p9#a260614p9",
-          "source": "Techmeme"
+          "title": "Beyond LoRA: Is Sparsity-Induced Adaptation Better?",
+          "url": "https://arxiv.org/abs/2606.13767",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "EU says it is looking at the practical consequences of US restricting Anthropic's models, notes such measures \"should no",
-          "url": "https://www.techmeme.com/260614/p9#a260614p9",
-          "source": "Techmeme"
+          "title": "FedRot-LoRA: Mitigating Rotational Misalignment in Federated LoRA",
+          "url": "https://arxiv.org/abs/2602.23638",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "OpenAI, Anthropic Employees Have Already Cashed Out About $14 Billion",
-          "url": "https://www.theinformation.com/articles/openai-anthropic-employees-cashed-14-billion",
-          "source": "The Information"
+          "title": "Beyond LoRA: Is Sparsity-Induced Adaptation Better?",
+          "url": "https://arxiv.org/abs/2606.13767",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
+  "emerging": [],
   "weak_signals": [
     {
-      "keyword": "single",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 48,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "Researchers recycle old phones and cluster them into ‘computing platforms’ — says processors on modern smartphones deliv",
-      "articles": [
-        {
-          "title": "Researchers recycle old phones and cluster them into ‘computing platforms’ — says processors on modern smartphones deliv",
-          "url": "https://www.tomshardware.com/desktops/servers/researchers-recycle-old-phones-and-cluster-them-into-computing-platforms-says-processors-on-modern-smartphones-deliver-higher-single-core-performance-than-comparable-multicore-servers",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "A single mom moved into her parents' garage to save money. Now she's on track to pay off her student loans within a year",
-          "url": "https://www.businessinsider.com/single-mom-moved-into-parents-garage-paying-off-student-debt-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "A single mom moved into her parents' garage to save money. Now she's on track to pay off her student loans within a year",
-          "url": "https://www.businessinsider.com/single-mom-moved-into-parents-garage-paying-off-student-debt-2026-6",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "paddlepaddle",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 48,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "health",
-      "mentions": 3,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 2,
-      "expert_ratio": 0.8,
-      "headline": "Why grandparents matter more than ever for children's mental health",
-      "articles": [
-        {
-          "title": "Why grandparents matter more than ever for children's mental health",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260613034206.htm",
-          "source": "Latest Science News -- ScienceDaily"
-        },
-        {
-          "title": "Why grandparents matter more than ever for children's mental health",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260613034206.htm",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Why grandparents matter more than ever for children's mental health",
-          "url": "https://www.sciencedaily.com/releases/2026/06/260613034206.htm",
-          "source": "Mind ＆ Brain News -- ScienceDaily"
-        }
-      ]
-    },
-    {
-      "keyword": "money",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "A single mom moved into her parents' garage to save money. Now she's on track to pay off her student loans within a year",
-      "articles": [
-        {
-          "title": "A single mom moved into her parents' garage to save money. Now she's on track to pay off her student loans within a year",
-          "url": "https://www.businessinsider.com/single-mom-moved-into-parents-garage-paying-off-student-debt-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "A single mom moved into her parents' garage to save money. Now she's on track to pay off her student loans within a year",
-          "url": "https://www.businessinsider.com/single-mom-moved-into-parents-garage-paying-off-student-debt-2026-6",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "A single mom moved into her parents' garage to save money. Now she's on track to pay off her student loans within a year",
-          "url": "https://www.businessinsider.com/single-mom-moved-into-parents-garage-paying-off-student-debt-2026-6",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "spreadsheetbench",
+      "keyword": "hand",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -168,8 +115,24 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
+      "headline": "Spotify removed 57,000 fake podcast episodes promoting illegal drugs, but only after a senator forced its hand",
+      "articles": [
+        {
+          "title": "Spotify removed 57,000 fake podcast episodes promoting illegal drugs, but only after a senator forced its hand",
+          "url": "https://thenextweb.com/news/spotify-removed-57000-fake-podcast-episodes-drug-spam",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Spotify removed 57,000 fake podcast episodes promoting illegal drugs, but only after a senator forced its hand",
+          "url": "https://thenextweb.com/news/spotify-removed-57000-fake-podcast-episodes-drug-spam",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Spotify removed 57,000 fake podcast episodes promoting illegal drugs, but only after a senator forced its hand",
+          "url": "https://thenextweb.com/news/spotify-removed-57000-fake-podcast-episodes-drug-spam",
+          "source": "The Next Web"
+        }
+      ]
     },
     {
       "keyword": "inflection",
@@ -210,22 +173,22 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "I’m excited for Legend of Zelda: Ocarina of Time on the Switch 2, but I wish it was a sequel to Majora’s Mask instead",
+      "headline": "Mask, Sample, Revise: A Revisable CTMC Inference Stack for Guided Discrete Flow Matching Text-to-Speech",
       "articles": [
         {
-          "title": "I’m excited for Legend of Zelda: Ocarina of Time on the Switch 2, but I wish it was a sequel to Majora’s Mask instead",
-          "url": "https://www.techradar.com/gaming/nintendo-switch/im-excited-for-legend-of-zelda-ocarina-of-time-on-the-switch-2-but-i-wish-it-was-a-sequel-to-majoras-mask-instead",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Mask, Sample, Revise: A Revisable CTMC Inference Stack for Guided Discrete Flow Matching Text-to-Speech",
+          "url": "https://arxiv.org/abs/2606.13989",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Mask, Sample, Revise: A Revisable CTMC Inference Stack for Guided Discrete Flow Matching Text-to-Speech",
+          "url": "https://arxiv.org/abs/2606.13989",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
           "title": "I’m excited for Legend of Zelda: Ocarina of Time on the Switch 2, but I wish it was a sequel to Majora’s Mask instead",
           "url": "https://www.techradar.com/gaming/nintendo-switch/im-excited-for-legend-of-zelda-ocarina-of-time-on-the-switch-2-but-i-wish-it-was-a-sequel-to-majoras-mask-instead",
           "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Can a $159 Bluetooth sleep mask actually help you snooze better? I tested to find out",
-          "url": "https://www.theguardian.com/thefilter-us/2026/jun/08/best-bluetooth-sleep-masks",
-          "source": "Technology | The Guardian"
         }
       ]
     },
@@ -253,14 +216,14 @@
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Catch-Only-One: Non-Transferable Examples for Model-Specific Authorization",
-          "url": "https://arxiv.org/abs/2510.10982",
+          "title": "Silent Failures in Physical AI: A Literature Review of Runtime Action Authorization for Autonomous Systems",
+          "url": "https://arxiv.org/abs/2606.00090",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "polyrange",
+      "keyword": "totalenergies",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -270,131 +233,186 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
+      "headline": "New York Sues Trump Administration Over TotalEnergies Wind Farm",
+      "articles": [
+        {
+          "title": "New York Sues Trump Administration Over TotalEnergies Wind Farm",
+          "url": "https://www.nytimes.com/2026/06/02/climate/new-york-lawsuit-trump-offshore-wind.html",
+          "source": "NYT ＞ Science"
+        }
+      ]
+    },
+    {
+      "keyword": "machine-learning-interviews",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 1.0,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "awesome-free-llm-apis",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "email",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "A compensation coach explains why she thinks negotiating via email is the smarter move",
+      "articles": [
+        {
+          "title": "A compensation coach explains why she thinks negotiating via email is the smarter move",
+          "url": "https://www.businessinsider.com/compensation-coach-explains-why-she-prefers-email-negotiation-strategy-2026-5",
+          "source": "Business Insider"
+        },
+        {
+          "title": "A compensation coach explains why she thinks negotiating via email is the smarter move",
+          "url": "https://www.businessinsider.com/compensation-coach-explains-why-she-prefers-email-negotiation-strategy-2026-5",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "A compensation coach explains why she thinks negotiating via email is the smarter move",
+          "url": "https://www.businessinsider.com/compensation-coach-explains-why-she-prefers-email-negotiation-strategy-2026-5",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "llm router",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "OrcaRouter: A Production-Oriented LLM Router with Hybrid Offline-Online Learning",
+      "articles": [
+        {
+          "title": "OrcaRouter: A Production-Oriented LLM Router with Hybrid Offline-Online Learning",
+          "url": "https://arxiv.org/abs/2605.30736",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "OrcaRouter: A Production-Oriented LLM Router with Hybrid Offline-Online Learning",
+          "url": "https://arxiv.org/abs/2605.30736",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "minimax",
-      "mentions": 16,
+      "keyword": "tiktok",
+      "mentions": 26,
       "velocity": 1.9,
       "sources": [
+        "articles",
         "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "Deploy Long-Context Reasoning and Agentic Workflows with MiniMax M3 on NVIDIA Accelerated Infrastructure",
-      "articles": [
-        {
-          "title": "Deploy Long-Context Reasoning and Agentic Workflows with MiniMax M3 on NVIDIA Accelerated Infrastructure",
-          "url": "https://developer.nvidia.com/blog/deploy-long-context-reasoning-and-agentic-workflows-with-minimax-m3-on-nvidia-accelerated-infrastructure/",
-          "source": "NVIDIA Developer Blog"
-        },
-        {
-          "title": "MiniMax Sparse Attention",
-          "url": "https://arxiv.org/abs/2606.13392",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "MiniMax Sparse Attention",
-          "url": "https://arxiv.org/abs/2606.13392",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "foundation model",
-      "mentions": 34,
-      "velocity": 1.9,
-      "sources": [
-        "arxiv",
-        "linkedin",
-        "reddit"
+        "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.96,
-      "headline": "Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering",
+      "expert_ratio": 0.57,
+      "headline": "TikTok Shop van start: groot platform, smalle businesscase",
       "articles": [
         {
-          "title": "Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering",
-          "url": "https://arxiv.org/abs/2606.11836",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "TikTok Shop van start: groot platform, smalle businesscase",
+          "url": "https://www.emerce.nl/nieuws/tiktok-shop-start-groot-platform-smalle-businesscase",
+          "source": "Nieuws - Emerce"
         },
         {
-          "title": "Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering",
-          "url": "https://arxiv.org/abs/2606.11836",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "I'm addicted to TikTok's weird little games. That's a good thing for its ads business.",
+          "url": "https://www.businessinsider.com/tiktok-app-mini-games-advertising-mobile-2026-6",
+          "source": "Business Insider"
         },
         {
-          "title": "BrainDINO: A Brain MRI Foundation Model for Generalizable Clinical Representation Learning",
-          "url": "https://arxiv.org/abs/2604.27277",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "I'm addicted to TikTok's weird little games. That's a good thing for its ads business.",
+          "url": "https://www.businessinsider.com/tiktok-app-mini-games-advertising-mobile-2026-6",
+          "source": "Business Insider"
         }
       ]
     },
     {
-      "keyword": "hallucinations",
-      "mentions": 25,
+      "keyword": "llama",
+      "mentions": 62,
       "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
+        "github",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "expert_ratio": 0.85,
+      "headline": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
       "articles": [
         {
-          "title": "KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-          "source": "Hacker News"
+          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
+          "url": "https://arxiv.org/abs/2512.22671",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-          "source": "TechCrunch"
+          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
+          "url": "https://arxiv.org/abs/2512.22671",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "A report on the benefits of AI was reportedly full of AI hallucinations",
-          "url": "https://www.engadget.com/2193679/kpmg-paper-ai-hallucinations/",
-          "source": "Engadget"
+          "title": "A Quantitative Experimental Repeated Measures Study of Training Dynamics in a Small Llama Style Language Model Under a C",
+          "url": "https://arxiv.org/abs/2606.13370",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "claude",
-      "mentions": 638,
-      "velocity": 1.7,
+      "keyword": "dify",
+      "mentions": 18,
+      "velocity": 1.0,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
+      "expert_ratio": 0.89,
       "headline": "",
       "articles": []
     },
     {
       "keyword": "ai bubble",
       "mentions": 15,
-      "velocity": 1.4,
+      "velocity": 0.9,
       "sources": [
         "hackernews",
         "twitter"
@@ -402,7 +420,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.75,
+      "expert_ratio": 0.76,
       "headline": "AI bubble fears are spreading, even as SpaceX readies the biggest IPO ever",
       "articles": [
         {
@@ -423,35 +441,37 @@
       ]
     },
     {
-      "keyword": "multi-modal",
-      "mentions": 14,
-      "velocity": 1.3,
+      "keyword": "gpt-5",
+      "mentions": 41,
+      "velocity": 0.9,
       "sources": [
+        "articles",
         "arxiv",
-        "linkedin"
+        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.92,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "ideogram",
+      "mentions": 23,
+      "velocity": -0.0,
+      "sources": [
+        "reddit",
+        "twitter"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Multi-Modal Agents for Power Distribution Defect Detection: An Evaluation of Foundation Models",
-      "articles": [
-        {
-          "title": "Multi-Modal Agents for Power Distribution Defect Detection: An Evaluation of Foundation Models",
-          "url": "https://arxiv.org/abs/2606.12969",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Multi-Modal Agents for Power Distribution Defect Detection: An Evaluation of Foundation Models",
-          "url": "https://arxiv.org/abs/2606.12969",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "MSUE: Multi-Modal Soccer Understanding Expert",
-          "url": "https://arxiv.org/abs/2606.12106",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -542,17 +562,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "ai developer",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-05",
-      "materialized_on": "2026-03-10",
-      "lead_days": 5
-    },
-    {
       "keyword": "llama",
       "signal_type": "emerging",
       "flagged_on": "2026-04-03",
       "materialized_on": "2026-04-08",
+      "lead_days": 5
+    },
+    {
+      "keyword": "ai developer",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-05",
+      "materialized_on": "2026-03-10",
       "lead_days": 5
     },
     {
@@ -568,20 +588,26 @@
       {
         "keyword": "anthropic",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-14",
+        "flagged_on": "2026-06-15",
         "confidence": 1.0
+      },
+      {
+        "keyword": "grok",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-15",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "inflection",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-15",
+        "confidence": 0.61
       },
       {
         "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-06-14",
         "confidence": 1.0
-      },
-      {
-        "keyword": "inflection",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-14",
-        "confidence": 0.61
       },
       {
         "keyword": "moss-tts",
@@ -606,98 +632,92 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-08",
         "confidence": 0.65
-      },
-      {
-        "keyword": "chatgpt",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-06",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "browser use",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai alignment",
-        "recent_mentions": 18,
-        "prior_mentions": 2,
-        "change_ratio": 9.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "autogpt",
+        "recent_mentions": 12,
+        "prior_mentions": 1,
+        "change_ratio": 12.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "browser use",
         "recent_mentions": 9,
         "prior_mentions": 1,
         "change_ratio": 9.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "deepseek v3",
-        "recent_mentions": 9,
+        "keyword": "exa",
+        "recent_mentions": 5,
         "prior_mentions": 1,
-        "change_ratio": 9.0,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "autogen",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "moonshot ai",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
+        "keyword": "claude 4",
+        "recent_mentions": 26,
+        "prior_mentions": 6,
+        "change_ratio": 4.33,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "gemini 2",
+        "recent_mentions": 40,
+        "prior_mentions": 13,
+        "change_ratio": 3.08,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "gpt-4o",
+        "recent_mentions": 50,
+        "prior_mentions": 18,
+        "change_ratio": 2.78,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "gpt-4",
+        "recent_mentions": 80,
+        "prior_mentions": 30,
+        "change_ratio": 2.67,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "comet",
+        "recent_mentions": 8,
+        "prior_mentions": 3,
+        "change_ratio": 2.67,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "mistral ai",
+        "recent_mentions": 10,
+        "prior_mentions": 4,
+        "change_ratio": 2.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "code generation",
+        "recent_mentions": 77,
+        "prior_mentions": 31,
+        "change_ratio": 2.48,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "kimi",
+        "recent_mentions": 32,
+        "prior_mentions": 13,
+        "change_ratio": 2.46,
+        "corroborating_sources": 5
       },
       {
         "keyword": "llamaindex",
         "recent_mentions": 12,
-        "prior_mentions": 2,
-        "change_ratio": 6.0,
+        "prior_mentions": 5,
+        "change_ratio": 2.4,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "granola",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "ai copyright",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "liquid neural network",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "h100",
-        "recent_mentions": 15,
-        "prior_mentions": 4,
-        "change_ratio": 3.75,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "kimi",
-        "recent_mentions": 29,
-        "prior_mentions": 8,
-        "change_ratio": 3.62,
-        "corroborating_sources": 5
       }
     ]
   }
