@@ -1,138 +1,135 @@
 {
-  "generated_at": "2026-06-15T19:25:39.403102",
-  "total_tracked": 5900,
+  "generated_at": "2026-06-16T07:18:21.360287",
+  "total_tracked": 4629,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "anthropic",
-      "mentions": 411,
-      "velocity": 18.2,
+      "keyword": "large language model",
+      "mentions": 1147,
+      "velocity": 248.2,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models",
-      "articles": [
-        {
-          "title": "Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models",
-          "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Zhipu shares jump as Wall Street bets China AI fills the Anthropic gap",
-          "url": "https://thenextweb.com/news/zhipu-stock-surge-china-ai-anthropic-curbs-glm-5-2",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Sources say Anthropic struggles to communicate effectively with the Trump administration; an official says it \"screwed u",
-          "url": "https://www.techmeme.com/260615/p20#a260615p20",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "hallucinations",
-      "mentions": 35,
-      "velocity": 4.3,
-      "sources": [
-        "arxiv",
-        "hackernews",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "expert_ratio": 0.99,
+      "headline": "DYNA : Dynamic Episodic Memory Networks for Augmenting Large Language Models with Temporal Knowledge Graphs in Continuou",
       "articles": [
         {
-          "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
-          "url": "https://arxiv.org/abs/2606.14697",
+          "title": "DYNA : Dynamic Episodic Memory Networks for Augmenting Large Language Models with Temporal Knowledge Graphs in Continuou",
+          "url": "https://arxiv.org/abs/2606.15778",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
-          "url": "https://arxiv.org/abs/2606.14697",
+          "title": "ChatPlanner: A Large Language Model Framework for Personalized Public Transit Routing",
+          "url": "https://arxiv.org/abs/2606.15315",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "KPMG pulls report on AI usage due to apparent hallucinations",
-          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-          "source": "Hacker News"
+          "title": "Deep Residual Injection for Full-Spectrum Forensic Signal Perception in Multimodal Large Language Models",
+          "url": "https://arxiv.org/abs/2606.15880",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "deepseek",
-      "mentions": 71,
-      "velocity": 3.2,
+      "keyword": "multimodal",
+      "mentions": 382,
+      "velocity": 81.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "Deep Residual Injection for Full-Spectrum Forensic Signal Perception in Multimodal Large Language Models",
+      "articles": [
+        {
+          "title": "Deep Residual Injection for Full-Spectrum Forensic Signal Perception in Multimodal Large Language Models",
+          "url": "https://arxiv.org/abs/2606.15880",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Lost at the End: Primacy Bias in Multimodal Retrieval-Augmented Question Answering",
+          "url": "https://arxiv.org/abs/2606.16494",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "VinQA: Visual Elements Interleaved Long-form Answer Generation for Real-World Multimodal Document QA",
+          "url": "https://arxiv.org/abs/2606.16092",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 357,
+      "velocity": 80.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "STRIDE: Strategic Trajectory Reasoning via Discriminative Estimation for Verifiable Reinforcement Learning",
+      "articles": [
+        {
+          "title": "STRIDE: Strategic Trajectory Reasoning via Discriminative Estimation for Verifiable Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.15866",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ROSA-RL: Uncertainty-Aware Roundabout Optimized Speed Advisory with Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.16558",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "When in Doubt, Plan It Out: Committed Small Language Model Deliberation for Reactive Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.16995",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 368,
+      "velocity": 71.0,
       "sources": [
         "articles",
         "arxiv",
         "hackernews",
-        "reddit"
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "The great AI Irony: China cracks down on Western models while US companies flock to DeepSeek",
+      "expert_ratio": 0.82,
+      "headline": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
       "articles": [
         {
-          "title": "The great AI Irony: China cracks down on Western models while US companies flock to DeepSeek",
-          "url": "https://www.techradar.com/pro/the-great-ai-irony-china-cracks-down-on-western-models-while-us-companies-flock-to-deepseek",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "The great AI Irony: China cracks down on Western models while US companies flock to DeepSeek",
-          "url": "https://www.techradar.com/pro/the-great-ai-irony-china-cracks-down-on-western-models-while-us-companies-flock-to-deepseek",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Open Reproduction of DeepSeek-R1",
-          "url": "https://github.com/huggingface/open-r1",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "llama",
-      "mentions": 66,
-      "velocity": 3.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
-      "articles": [
-        {
-          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
-          "url": "https://arxiv.org/abs/2512.22671",
+          "title": "MAGE-RAG: Multigranular Adaptive Graph Evidence for Agentic Multimodal RAG in Long-Document QA",
+          "url": "https://arxiv.org/abs/2606.15906",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
-          "url": "https://arxiv.org/abs/2512.22671",
+          "title": "TechRAG: Evidence-Gated Multimodal Agentic RAG for Technical Literature Reasoning",
+          "url": "https://arxiv.org/abs/2606.01613",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "A Quantitative Experimental Repeated Measures Study of Training Dynamics in a Small Llama Style Language Model Under a C",
-          "url": "https://arxiv.org/abs/2606.13370",
+          "title": "MedAI: Evaluating TxAgent's Therapeutic Agentic Reasoning in the NeurIPS CURE-Bench Competition",
+          "url": "https://arxiv.org/abs/2512.11682",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -140,34 +137,6 @@
   ],
   "emerging": [],
   "weak_signals": [
-    {
-      "keyword": "chatbox",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "hand",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
     {
       "keyword": "dragonfly",
       "mentions": 2,
@@ -193,22 +162,22 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Mask, Sample, Revise: A Revisable CTMC Inference Stack for Guided Discrete Flow Matching Text-to-Speech",
+      "headline": "Mask-Proof: An LLM-based Automated Data Curation Pipeline on Mathematical Proofs",
       "articles": [
         {
-          "title": "Mask, Sample, Revise: A Revisable CTMC Inference Stack for Guided Discrete Flow Matching Text-to-Speech",
-          "url": "https://arxiv.org/abs/2606.13989",
+          "title": "Mask-Proof: An LLM-based Automated Data Curation Pipeline on Mathematical Proofs",
+          "url": "https://arxiv.org/abs/2606.15258",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Mask, Sample, Revise: A Revisable CTMC Inference Stack for Guided Discrete Flow Matching Text-to-Speech",
-          "url": "https://arxiv.org/abs/2606.13989",
+          "title": "Mask Proposal Voting Based on Geodesic Framework for Robust Image Segmentation",
+          "url": "https://arxiv.org/abs/2606.14912",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "I’m excited for Legend of Zelda: Ocarina of Time on the Switch 2, but I wish it was a sequel to Majora’s Mask instead",
-          "url": "https://www.techradar.com/gaming/nintendo-switch/im-excited-for-legend-of-zelda-ocarina-of-time-on-the-switch-2-but-i-wish-it-was-a-sequel-to-majoras-mask-instead",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Mask-Proof: An LLM-based Automated Data Curation Pipeline on Mathematical Proofs",
+          "url": "https://arxiv.org/abs/2606.15258",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -263,7 +232,7 @@
       ]
     },
     {
-      "keyword": "indycar",
+      "keyword": "pilot",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -273,20 +242,6 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "machine-learning-interviews",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 1.0,
       "headline": "",
       "articles": []
     },
@@ -301,125 +256,161 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "A compensation coach explains why she thinks negotiating via email is the smarter move",
+      "headline": "Phishing Email Detection Using Large Language Models",
       "articles": [
         {
-          "title": "A compensation coach explains why she thinks negotiating via email is the smarter move",
-          "url": "https://www.businessinsider.com/compensation-coach-explains-why-she-prefers-email-negotiation-strategy-2026-5",
-          "source": "Business Insider"
+          "title": "Phishing Email Detection Using Large Language Models",
+          "url": "https://arxiv.org/abs/2512.10104",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Phishing Email Detection Using Large Language Models",
+          "url": "https://arxiv.org/abs/2512.10104",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
           "title": "A compensation coach explains why she thinks negotiating via email is the smarter move",
           "url": "https://www.businessinsider.com/compensation-coach-explains-why-she-prefers-email-negotiation-strategy-2026-5",
           "source": "Business Insider"
-        },
-        {
-          "title": "A compensation coach explains why she thinks negotiating via email is the smarter move",
-          "url": "https://www.businessinsider.com/compensation-coach-explains-why-she-prefers-email-negotiation-strategy-2026-5",
-          "source": "All Content from Business Insider"
         }
       ]
     },
     {
-      "keyword": "rag-from-scratch",
+      "keyword": "voice mode",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "chatbox",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "browser use",
       "mentions": 3,
-      "velocity": 0.8,
+      "velocity": 0.3,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 1.0,
+      "confidence": 79,
+      "days_active": 6,
+      "expert_ratio": 0.75,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "image generation",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 67,
+      "days_active": 4,
+      "expert_ratio": 0.67,
+      "headline": "EPIG: Emotion-Based Prompting for Personalised Image Generation",
+      "articles": [
+        {
+          "title": "EPIG: Emotion-Based Prompting for Personalised Image Generation",
+          "url": "https://arxiv.org/abs/2606.13247",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "EPIG: Emotion-Based Prompting for Personalised Image Generation",
+          "url": "https://arxiv.org/abs/2606.13247",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Mode",
+          "url": "https://arxiv.org/abs/2512.12675",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "foundation model",
-      "mentions": 36,
-      "velocity": 1.9,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "OdysSim: Building Foundation Models for Human Behavior Simulation",
-      "articles": [
-        {
-          "title": "OdysSim: Building Foundation Models for Human Behavior Simulation",
-          "url": "https://arxiv.org/abs/2606.14199",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "LoMC: Localized Multidirectional Correction for Refusal Suppression in Routed Foundation Models",
-          "url": "https://arxiv.org/abs/2606.13709",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Silent Failures in Federated Personalization of Foundation Models",
-          "url": "https://arxiv.org/abs/2606.00947",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "whatsapp",
-      "mentions": 22,
-      "velocity": 1.2,
+      "keyword": "vram",
+      "mentions": 13,
+      "velocity": 1.8,
       "sources": [
         "articles",
-        "linkedin",
+        "arxiv",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.37,
-      "headline": "Kettingbericht zegt onterecht dat Meta AI groepschats in WhatsApp kan lezen",
+      "expert_ratio": 0.61,
+      "headline": "RX 6700 XT 12GB: la VRAM che oggi fa davvero la differenza, a 259€",
       "articles": [
         {
-          "title": "Kettingbericht zegt onterecht dat Meta AI groepschats in WhatsApp kan lezen",
-          "url": "https://tweakers.net/nieuws/249104/kettingbericht-zegt-onterecht-dat-meta-ai-groepschats-in-whatsapp-kan-lezen.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "RX 6700 XT 12GB: la VRAM che oggi fa davvero la differenza, a 259€",
+          "url": "https://www.tomshw.it/hardware/amd-rx-6700xt-12gb-mai-cosi-poco-74-2026-06-09",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Facebook, Instagram en WhatsApp zijn mogelijk onbereikbaar door storing",
-          "url": "https://tweakers.net/nieuws/249074/facebook-instagram-en-whatsapp-zijn-mogelijk-onbereikbaar-door-storing.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Facebook, Instagram, and WhatsApp hit by a major Meta outage",
-          "url": "https://thenextweb.com/news/meta-outage-facebook-instagram-whatsapp-down",
-          "source": "The Next Web"
+          "title": "Le RTX 50 Super tornano in pista e puntano sulla VRAM",
+          "url": "https://www.tomshw.it/hardware/le-rtx-50-super-tornano-in-pista-e-puntano-sulla-vram",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "langchain",
-      "mentions": 16,
-      "velocity": 1.1,
+      "keyword": "minimax",
+      "mentions": 18,
+      "velocity": 1.0,
       "sources": [
-        "articles",
-        "arxiv",
-        "github"
+        "hackernews",
+        "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.92,
+      "headline": "Zhipu's shares closed up 33% on Monday after JPMorgan raised the stock's price target and picked it as a winner against ",
+      "articles": [
+        {
+          "title": "Zhipu's shares closed up 33% on Monday after JPMorgan raised the stock's price target and picked it as a winner against ",
+          "url": "https://www.techmeme.com/260615/p25#a260615p25",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Zhipu's shares closed up 33% on Monday after JPMorgan raised the stock's price target and picked it as a winner against ",
+          "url": "https://www.techmeme.com/260615/p25#a260615p25",
+          "source": "Techmeme"
+        },
+        {
+          "title": "MiniMax Sparse Attention",
+          "url": "https://arxiv.org/abs/2606.13392",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
       "keyword": "ai bubble",
       "mentions": 15,
-      "velocity": 0.9,
+      "velocity": 0.7,
       "sources": [
         "hackernews",
         "twitter"
@@ -427,7 +418,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
+      "expert_ratio": 0.78,
       "headline": "AI bubble fears are spreading, even as SpaceX readies the biggest IPO ever",
       "articles": [
         {
@@ -448,69 +439,76 @@
       ]
     },
     {
-      "keyword": "simulation",
-      "mentions": 46,
-      "velocity": 0.7,
+      "keyword": "claude code",
+      "mentions": 51,
+      "velocity": 0.5,
       "sources": [
         "articles",
-        "arxiv",
         "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "When Plausible Is Not Realistic: Evaluating Human Mobility in LLM-Based Urban Simulation",
+      "expert_ratio": 0.0,
+      "headline": "A profile of Cursor, including its hiring process and testy relationship with Anthropic, which told Cursor that Claude C",
       "articles": [
         {
-          "title": "When Plausible Is Not Realistic: Evaluating Human Mobility in LLM-Based Urban Simulation",
-          "url": "https://arxiv.org/abs/2606.13835",
+          "title": "A profile of Cursor, including its hiring process and testy relationship with Anthropic, which told Cursor that Claude C",
+          "url": "https://www.techmeme.com/260615/p43#a260615p43",
+          "source": "Techmeme"
+        },
+        {
+          "title": "A profile of Cursor, including its hiring process and testy relationship with Anthropic, which told Cursor that Claude C",
+          "url": "https://www.techmeme.com/260615/p43#a260615p43",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering",
+      "mentions": 19,
+      "velocity": -0.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.87,
+      "headline": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+      "articles": [
+        {
+          "title": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+          "url": "https://arxiv.org/abs/2606.11459",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Robustness without Wrinkles: Parallel Simulation and Robust MPC for Certified Deformable Manipulation",
-          "url": "https://arxiv.org/abs/2606.14188",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "OdysSim: Building Foundation Models for Human Behavior Simulation",
-          "url": "https://arxiv.org/abs/2606.14199",
+          "title": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+          "url": "https://arxiv.org/abs/2606.11459",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "tiktok",
-      "mentions": 21,
-      "velocity": 0.4,
+      "keyword": "gemma",
+      "mentions": 76,
+      "velocity": -0.4,
       "sources": [
         "articles",
-        "twitter"
+        "arxiv",
+        "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "TikTok and YouTube will be banned for kids under 16 in Britain, says PM Starmer",
-      "articles": [
-        {
-          "title": "TikTok and YouTube will be banned for kids under 16 in Britain, says PM Starmer",
-          "url": "https://www.fastcompany.com/91559512/tiktok-youtube-banned-kids-under-16-britain-says-pm-starmer",
-          "source": "Fast Company"
-        },
-        {
-          "title": "TikTok and YouTube will be banned for kids under-16 in Britain, says PM Starmer",
-          "url": "https://www.fastcompany.com/91559512/tiktok-youtube-banned-kids-under-16-britain-says-pm-starmer",
-          "source": "Fast Company"
-        },
-        {
-          "title": "The UK's social media ban will cover Snapchat, TikTok, YouTube, Instagram, Facebook, X, and more, and will require platf",
-          "url": "https://www.techmeme.com/260615/p9#a260615p9",
-          "source": "Techmeme"
-        }
-      ]
+      "expert_ratio": 0.89,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -601,17 +599,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "llama",
-      "signal_type": "emerging",
-      "flagged_on": "2026-04-03",
-      "materialized_on": "2026-04-08",
-      "lead_days": 5
-    },
-    {
       "keyword": "ai developer",
       "signal_type": "emerging",
       "flagged_on": "2026-03-05",
       "materialized_on": "2026-03-10",
+      "lead_days": 5
+    },
+    {
+      "keyword": "llama",
+      "signal_type": "emerging",
+      "flagged_on": "2026-04-03",
+      "materialized_on": "2026-04-08",
       "lead_days": 5
     },
     {
@@ -625,6 +623,36 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "hallucination",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-16",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "browser use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-16",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "deepseek v3",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-16",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "voice mode",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-16",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "chatbox",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-16",
+        "confidence": 0.2
+      },
+      {
         "keyword": "anthropic",
         "signal_type": "emerging",
         "flagged_on": "2026-06-15",
@@ -635,18 +663,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-06-15",
         "confidence": 1.0
-      },
-      {
-        "keyword": "chatbox",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-15",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "browser use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-15",
-        "confidence": 0.2
       },
       {
         "keyword": "inflection",
@@ -677,97 +693,91 @@
         "signal_type": "emerging",
         "flagged_on": "2026-06-11",
         "confidence": 1.0
-      },
-      {
-        "keyword": "text to speech",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-08",
-        "confidence": 0.65
       }
     ],
     "heating_up": [
       {
-        "keyword": "autogpt",
-        "recent_mentions": 12,
-        "prior_mentions": 1,
-        "change_ratio": 12.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "browser use",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "tgi",
+        "keyword": "real-time voice",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
-        "keyword": "exa",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "keyword": "llama 4",
+        "recent_mentions": 13,
+        "prior_mentions": 3,
+        "change_ratio": 4.33,
         "corroborating_sources": 1
       },
       {
         "keyword": "claude 4",
-        "recent_mentions": 26,
-        "prior_mentions": 6,
-        "change_ratio": 4.33,
+        "recent_mentions": 28,
+        "prior_mentions": 8,
+        "change_ratio": 3.5,
         "corroborating_sources": 3
       },
       {
-        "keyword": "gemini 2",
-        "recent_mentions": 33,
-        "prior_mentions": 13,
-        "change_ratio": 2.54,
+        "keyword": "modal",
+        "recent_mentions": 27,
+        "prior_mentions": 8,
+        "change_ratio": 3.38,
         "corroborating_sources": 2
       },
       {
-        "keyword": "mistral ai",
+        "keyword": "deepseek v3",
         "recent_mentions": 10,
-        "prior_mentions": 4,
-        "change_ratio": 2.5,
+        "prior_mentions": 3,
+        "change_ratio": 3.33,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "llamaindex",
-        "recent_mentions": 12,
-        "prior_mentions": 5,
-        "change_ratio": 2.4,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "browser-use",
-        "recent_mentions": 9,
-        "prior_mentions": 4,
-        "change_ratio": 2.25,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "h100",
-        "recent_mentions": 15,
-        "prior_mentions": 7,
-        "change_ratio": 2.14,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "mistral",
-        "recent_mentions": 63,
-        "prior_mentions": 31,
-        "change_ratio": 2.03,
-        "corroborating_sources": 5
       },
       {
         "keyword": "gpt-4o",
-        "recent_mentions": 36,
-        "prior_mentions": 18,
-        "change_ratio": 2.0,
+        "recent_mentions": 69,
+        "prior_mentions": 21,
+        "change_ratio": 3.29,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "synthetic data",
+        "recent_mentions": 75,
+        "prior_mentions": 24,
+        "change_ratio": 3.12,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "autogpt",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "world models",
+        "recent_mentions": 95,
+        "prior_mentions": 33,
+        "change_ratio": 2.88,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude sonnet",
+        "recent_mentions": 77,
+        "prior_mentions": 27,
+        "change_ratio": 2.85,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "world model",
+        "recent_mentions": 141,
+        "prior_mentions": 50,
+        "change_ratio": 2.82,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "glm 5",
+        "recent_mentions": 5,
+        "prior_mentions": 2,
+        "change_ratio": 2.5,
         "corroborating_sources": 3
       }
     ]
