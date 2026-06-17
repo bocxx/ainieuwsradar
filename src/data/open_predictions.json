@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-16T17:40:33+00:00",
+  "generated_at": "2026-06-17T05:34:05+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 13,
+    "open": 16,
     "resolved": 29,
     "hits": 24,
     "misses": 5,
@@ -14,72 +14,72 @@
       "keyword": "mcp client",
       "signal_type": "weak_signal",
       "flagged_on": "2026-05-31",
-      "days_left": 29
+      "days_left": 28
     },
     {
       "keyword": "gpt-5",
       "signal_type": "emerging",
       "flagged_on": "2026-05-31",
-      "days_left": 29
+      "days_left": 28
     },
     {
       "keyword": "text to speech",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-08",
-      "days_left": 37
+      "days_left": 36
     },
     {
       "keyword": "lora",
       "signal_type": "emerging",
       "flagged_on": "2026-06-12",
-      "days_left": 41
+      "days_left": 40
     },
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 42
+      "days_left": 41
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 44
+      "days_left": 43
     },
     {
       "keyword": "grok",
       "signal_type": "emerging",
       "flagged_on": "2026-06-15",
-      "days_left": 44
-    },
-    {
-      "keyword": "browser use",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-16",
-      "days_left": 45
-    },
-    {
-      "keyword": "chatbox",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-16",
-      "days_left": 45
+      "days_left": 43
     },
     {
       "keyword": "voice mode",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 45
+      "days_left": 44
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 45
+      "days_left": 44
     },
     {
       "keyword": "hallucination",
       "signal_type": "emerging",
       "flagged_on": "2026-06-16",
+      "days_left": 44
+    },
+    {
+      "keyword": "deepseek r1",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-16",
+      "days_left": 44
+    },
+    {
+      "keyword": "browser use",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-17",
       "days_left": 45
     }
   ],
@@ -97,19 +97,10 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-03-14",
       "resolved_on": "2026-04-22",
-      "lead_days": 15,
+      "lead_days": 39,
       "outlet": "Nature"
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-03",
-      "resolved_on": "2026-04-10",
-      "lead_days": 7,
-      "outlet": "Techmeme"
     },
     {
       "keyword": "tokens",
@@ -119,6 +110,15 @@
       "resolved_on": "2026-04-10",
       "lead_days": 3,
       "outlet": "Business Insider"
+    },
+    {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-03",
+      "resolved_on": "2026-04-10",
+      "lead_days": 7,
+      "outlet": "Techmeme"
     },
     {
       "keyword": "llama",
@@ -157,15 +157,6 @@
       "outlet": "Tweakers"
     },
     {
-      "keyword": "benchmarks",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
-    },
-    {
       "keyword": "data center",
       "signal_type": "emerging",
       "status": "hit",
@@ -173,6 +164,15 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Techmeme"
+    },
+    {
+      "keyword": "benchmarks",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
     },
     {
       "keyword": "ai copyright",
