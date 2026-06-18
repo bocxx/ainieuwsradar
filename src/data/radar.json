@@ -1,79 +1,111 @@
 {
-  "generated_at": "2026-06-17T19:24:18.846123",
-  "total_tracked": 4691,
+  "generated_at": "2026-06-18T07:19:38.217842",
+  "total_tracked": 4615,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "large language model",
-      "mentions": 369,
-      "velocity": 18.2,
+      "mentions": 683,
+      "velocity": 107.3,
       "sources": [
+        "articles",
         "arxiv",
         "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
-      "headline": "AIPatient Arena: EHR-grounded evaluation of large language models in end-to-end clinical consultation workflows",
+      "headline": "How Well Do Large Language Models Capture Human Personality?",
       "articles": [
         {
-          "title": "AIPatient Arena: EHR-grounded evaluation of large language models in end-to-end clinical consultation workflows",
-          "url": "https://arxiv.org/abs/2606.17474",
+          "title": "How Well Do Large Language Models Capture Human Personality?",
+          "url": "https://arxiv.org/abs/2606.18263",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Do Large Language Models Always Tell The Same Stories?",
-          "url": "https://arxiv.org/abs/2606.17350",
+          "title": "As Easy as Rocket Science: Assessing the Ability of Large Language Models to Interpret Negation in Figurative Language",
+          "url": "https://arxiv.org/abs/2606.18922",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Would a Large Language Model Pay Extra for a View? Inferring Willingness to Pay from Subjective Choices",
-          "url": "https://arxiv.org/abs/2602.09802",
+          "title": "Structured Cognitive Loop for Behavioral Intelligence in Large Language Model Agents (Extended Revision: From Behavioral",
+          "url": "https://arxiv.org/abs/2510.05107",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "anthropic",
-      "mentions": 416,
-      "velocity": 10.8,
+      "keyword": "reinforcement learning",
+      "mentions": 264,
+      "velocity": 49.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning",
+      "articles": [
+        {
+          "title": "R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.18786",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ThinkDeception: A Progressive Reinforcement Learning Framework for Interpretable Multimodal Deception Detection",
+          "url": "https://arxiv.org/abs/2606.18988",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "TRIDENT: Breaking the Hybrid-Safety-Physics Coupling for Provably Safe Multi-Agent Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.18308",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 166,
+      "velocity": 21.6,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "US Order on Anthropic Models Signals New Era for AI Controls",
+      "expert_ratio": 1.0,
+      "headline": "TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins",
       "articles": [
         {
-          "title": "US Order on Anthropic Models Signals New Era for AI Controls",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-06-17/us-order-on-anthropic-models-signals-new-era-for-ai-controls",
-          "source": "Bloomberg Technology"
+          "title": "TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins",
+          "url": "https://arxiv.org/abs/2606.17660",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Anthropic Employees Accuse Trump Administration of Targeting Them",
-          "url": "https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html",
-          "source": "NYT ＞ Technology"
+          "title": "A Risk Decomposition Framework for Pre-Hoc Fine-Tuning Prediction",
+          "url": "https://arxiv.org/abs/2606.17649",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "A look at chaos inside Anthropic after disabling Fable 5 and Mythos 5 with less than 90 minutes of notice, as some staff",
-          "url": "https://www.techmeme.com/260617/p30#a260617p30",
-          "source": "Techmeme"
+          "title": "TuneAhead: Predicting Fine-tuning Performance Before Full Training Begins",
+          "url": "https://arxiv.org/abs/2606.17660",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
+    }
+  ],
+  "emerging": [
     {
       "keyword": "gemini",
-      "mentions": 175,
-      "velocity": 10.6,
+      "mentions": 199,
+      "velocity": 14.6,
       "sources": [
         "articles",
         "arxiv",
@@ -86,160 +118,13 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.7,
-      "headline": "Google’s first speaker in six years is really a $10-a-month Gemini subscription",
-      "articles": [
-        {
-          "title": "Google’s first speaker in six years is really a $10-a-month Gemini subscription",
-          "url": "https://thenextweb.com/news/google-home-speaker-gemini-99-subscription",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google’s first speaker in six years is really a $10-a-month Gemini subscription",
-          "url": "https://thenextweb.com/news/google-home-speaker-gemini-99-subscription",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google’s first speaker in six years is really a $10-a-month Gemini subscription",
-          "url": "https://thenextweb.com/news/google-home-speaker-gemini-99-subscription",
-          "source": "The Next Web"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
-    {
-      "keyword": "qwen",
-      "mentions": 104,
-      "velocity": 9.5,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "Sources: a new AI lab founded by Junyang Lin, former lead of Alibaba's Qwen models, has raised several hundred million d",
-      "articles": [
-        {
-          "title": "Sources: a new AI lab founded by Junyang Lin, former lead of Alibaba's Qwen models, has raised several hundred million d",
-          "url": "https://www.techmeme.com/260617/p8#a260617p8",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Sources: a new AI lab founded by Junyang Lin, former lead of Alibaba's Qwen models, has raised several hundred million d",
-          "url": "https://www.techmeme.com/260617/p8#a260617p8",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Alibaba's AI unit Tongyi Lab launches the Qwen Robot Suite, its first family of AI models for robots, in pilot testing w",
-          "url": "https://www.techmeme.com/260616/p13#a260616p13",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 657,
-      "velocity": 7.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "Claude a consumo via SDK, Anthropic fa un passo indietro",
-      "articles": [
-        {
-          "title": "Claude a consumo via SDK, Anthropic fa un passo indietro",
-          "url": "https://www.tomshw.it/business/anthropic-passo-indietro-sdk-claude-consumo-token",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "deepseek",
-      "mentions": 91,
-      "velocity": 7.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Microsoft might put China’s DeepSeek inside Copilot to tame its AI bills",
-      "articles": [
-        {
-          "title": "Microsoft might put China’s DeepSeek inside Copilot to tame its AI bills",
-          "url": "https://thenextweb.com/news/microsoft-deepseek-copilot-cowork",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Microsoft might put China’s DeepSeek inside Copilot to tame its AI bills",
-          "url": "https://thenextweb.com/news/microsoft-deepseek-copilot-cowork?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Microsoft might put China’s DeepSeek inside Copilot to tame its AI bills",
-          "url": "https://thenextweb.com/news/microsoft-deepseek-copilot-cowork",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "openai",
-      "mentions": 322,
-      "velocity": 4.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "As G7 wraps, OpenAI and Anthropic meet with world leaders to discuss the future of AI",
-      "articles": [
-        {
-          "title": "As G7 wraps, OpenAI and Anthropic meet with world leaders to discuss the future of AI",
-          "url": "https://www.fastcompany.com/91561045/g7-wraps-openai-anthropic-meet-world-leaders-discuss-future-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=06172026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "As G7 wraps, OpenAI and Anthropic meet with world leaders to discuss the future of AI",
-          "url": "https://www.fastcompany.com/91561045/g7-wraps-openai-anthropic-meet-world-leaders-discuss-future-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=06172026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Anthropic's Dario Amodei and OpenAI's Sam Altman are attending the same CEO lunch today",
-          "url": "https://www.businessinsider.com/anthropic-dario-amodei-openai-sam-altman-demis-hassabis-g7-lunch-2026-6",
-          "source": "Business Insider"
-        }
-      ]
-    }
-  ],
-  "emerging": [
     {
       "keyword": "github",
-      "mentions": 119,
-      "velocity": 8.6,
+      "mentions": 133,
+      "velocity": 10.2,
       "sources": [
         "articles",
         "arxiv",
@@ -271,133 +156,79 @@
       ]
     },
     {
-      "keyword": "cursor",
-      "mentions": 65,
-      "velocity": 6.6,
+      "keyword": "openai",
+      "mentions": 338,
+      "velocity": 7.8,
       "sources": [
         "articles",
+        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.5,
-      "headline": "SpaceX's $60 billion Cursor deal more than doubles its young cofounders' net worths",
+      "expert_ratio": 0.8,
+      "headline": "Star Google Researcher Joins OpenAI in Coup for ChatGPT Creator",
       "articles": [
         {
-          "title": "SpaceX's $60 billion Cursor deal more than doubles its young cofounders' net worths",
-          "url": "https://qz.com/spacex-acquiring-cursor-anysphere-60-billion-stock-deal-061726",
-          "source": "Quartz"
+          "title": "Star Google Researcher Joins OpenAI in Coup for ChatGPT Creator",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-18/star-google-researcher-jumps-to-openai-in-coup-for-startup",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "SpaceX is buying AI coding startup Cursor in a $60 billion all-stock deal",
-          "url": "https://qz.com/spacex-acquiring-cursor-anysphere-60-billion-stock-deal-061726",
-          "source": "Quartz"
+          "title": "A Google veteran who founded Character.AI is jumping to OpenAI",
+          "url": "https://www.businessinsider.com/google-veteran-founded-characterai-is-jumping-to-openai-talent-war-2026-6",
+          "source": "Business Insider"
         },
         {
-          "title": "SpaceX to acquire the AI coding startup Cursor for $60 billion",
-          "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
+          "title": "A Google veteran who founded Character.AI is jumping to OpenAI",
+          "url": "https://www.businessinsider.com/google-veteran-founded-characterai-is-jumping-to-openai-talent-war-2026-6",
+          "source": "Business Insider"
         }
       ]
     },
     {
-      "keyword": "reinforcement learning",
-      "mentions": 109,
-      "velocity": 4.7,
+      "keyword": "claude",
+      "mentions": 661,
+      "velocity": 6.7,
       "sources": [
+        "articles",
         "arxiv",
-        "reddit"
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Learning Fair Pareto-Optimal Policies in Multi-Objective Reinforcement Learning",
+      "expert_ratio": 0.73,
+      "headline": "Anthropic updates Claude Design with design system imports, bidirectional integration with Claude Code, lower token cons",
       "articles": [
         {
-          "title": "Learning Fair Pareto-Optimal Policies in Multi-Objective Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2606.18111",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic updates Claude Design with design system imports, bidirectional integration with Claude Code, lower token cons",
+          "url": "https://www.techmeme.com/260617/p42#a260617p42",
+          "source": "Techmeme"
         },
         {
-          "title": "RLRC: Reinforcement Learning-based Recovery for Compressed Vision-Language-Action Models",
-          "url": "https://arxiv.org/abs/2506.17639",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic updates Claude Design with design system imports, bidirectional integration with Claude Code, lower token cons",
+          "url": "https://www.techmeme.com/260617/p42#a260617p42",
+          "source": "Techmeme"
         },
         {
-          "title": "Enhanced Evolutionary Multi-Objective Deep Reinforcement Learning for Reliable and Efficient Wireless Rechargeable Senso",
-          "url": "https://arxiv.org/abs/2510.21127",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Epic says Unreal Engine 6, planned for early access in late 2027, will unify UE5 and Unreal Editor for Fortnite, add int",
+          "url": "https://www.techmeme.com/260617/p41#a260617p41",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "community",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": ".Community - Q＆A: Stel je vragen aan SURF's Nextcloud-baas Claudia van Kruistum",
-      "articles": [
-        {
-          "title": ".Community - Q＆A: Stel je vragen aan SURF's Nextcloud-baas Claudia van Kruistum",
-          "url": "https://tweakers.net/reviews/14904/q-en-a-stel-je-vragen-aan-surfs-nextcloud-baas-claudia-van-kruistum.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Threads adds new personalization and community features as it reaches 500M monthly users",
-          "url": "https://techcrunch.com/2026/06/16/threads-adds-new-personalization-and-community-features-as-it-reaches-500m-monthly-users/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "From tech platforms to parks, these companies are putting humanity and community first",
-          "url": "https://www.fastcompany.com/91547264/community-society-world-changing-ideas-2026",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "mask",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Mask Proposal Voting Based on Geodesic Framework for Robust Image Segmentation",
-      "articles": [
-        {
-          "title": "Mask Proposal Voting Based on Geodesic Framework for Robust Image Segmentation",
-          "url": "https://arxiv.org/abs/2606.14912",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Mask-Proof: An LLM-based Automated Data Curation Pipeline on Mathematical Proofs",
-          "url": "https://arxiv.org/abs/2606.15258",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Mask Proposal Voting Based on Geodesic Framework for Robust Image Segmentation",
-          "url": "https://arxiv.org/abs/2606.14912",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
     {
       "keyword": "authorization",
       "mentions": 2,
@@ -409,59 +240,6 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Overlaying Governance: A Compositional Authorization Framework for Delegation and Scope in Agentic AI",
-      "articles": [
-        {
-          "title": "Overlaying Governance: A Compositional Authorization Framework for Delegation and Scope in Agentic AI",
-          "url": "https://arxiv.org/abs/2606.03518",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Overlaying Governance: A Compositional Authorization Framework for Delegation and Scope in Agentic AI",
-          "url": "https://arxiv.org/abs/2606.03518",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "totalenergies",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "techcommunity",
-      "mentions": 3,
-      "velocity": 0.9,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 67,
-      "days_active": 4,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "airtable",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
       "headline": "",
       "articles": []
     },
@@ -476,36 +254,122 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "Apple plans change to Hide My Email that could make it less effective",
+      "headline": "Apple's planned move of Hide My Email aliases to private.icloud.com will let services easily distinguish them from norma",
       "articles": [
         {
-          "title": "Apple plans change to Hide My Email that could make it less effective",
-          "url": "https://techcrunch.com/2026/06/16/apple-plans-to-change-its-hide-my-email-privacy-feature-that-could-make-it-less-effective/",
-          "source": "Hacker News"
+          "title": "Apple's planned move of Hide My Email aliases to private.icloud.com will let services easily distinguish them from norma",
+          "url": "https://www.techmeme.com/260617/p48#a260617p48",
+          "source": "Techmeme"
         },
         {
-          "title": "Microsoft says you don’t need another email security tool; experts say, not so fast",
-          "url": "https://www.computerworld.com/article/4185990/microsoft-says-you-dont-need-another-email-security-tool-experts-say-not-so-fast-2.html",
-          "source": "Computerworld"
+          "title": "Apple's planned move of Hide My Email aliases to private.icloud.com will let services easily distinguish them from norma",
+          "url": "https://www.techmeme.com/260617/p48#a260617p48",
+          "source": "Techmeme"
         },
         {
-          "title": "Microsoft says you don’t need another email security tool; experts say, not so fast",
-          "url": "https://www.computerworld.com/article/4185990/microsoft-says-you-dont-need-another-email-security-tool-experts-say-not-so-fast-2.html",
-          "source": "Artificial Intelligence – Computerworld"
+          "title": "Mastodon adds email newsletters, letting writers send their posts directly to subscribers' inboxes, even to readers with",
+          "url": "https://www.techmeme.com/260617/p47#a260617p47",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "innovation",
+      "keyword": "community",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.8,
       "sources": [
         "linkedin"
       ],
       "source_count": 1,
-      "confidence": 75,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Towards Multi-Agent-Simulation-Based Community Note Evaluation",
+      "articles": [
+        {
+          "title": "Towards Multi-Agent-Simulation-Based Community Note Evaluation",
+          "url": "https://arxiv.org/abs/2606.18268",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": ".Community - Q＆A: Stel je vragen aan SURF's Nextcloud-baas Claudia van Kruistum",
+          "url": "https://tweakers.net/reviews/14904/q-en-a-stel-je-vragen-aan-surfs-nextcloud-baas-claudia-van-kruistum.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Threads adds new personalization and community features as it reaches 500M monthly users",
+          "url": "https://techcrunch.com/2026/06/16/threads-adds-new-personalization-and-community-features-as-it-reaches-500m-monthly-users/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "techcommunity",
+      "mentions": 3,
+      "velocity": 0.6,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 71,
+      "days_active": 4,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "seongjoon",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 73,
+      "days_active": 4,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "chatbox",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "crewai",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 13,
+      "expert_ratio": 0.69,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "innovation",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 77,
       "days_active": 5,
-      "expert_ratio": 0.9,
+      "expert_ratio": 0.91,
       "headline": "One Climate Change Innovation: Just Look Up",
       "articles": [
         {
@@ -526,153 +390,149 @@
       ]
     },
     {
-      "keyword": "jetbrains",
-      "mentions": 3,
-      "velocity": 0.5,
+      "keyword": "supralabs",
+      "mentions": 2,
+      "velocity": 0.4,
       "sources": [
-        "hackernews"
+        "reddit"
       ],
       "source_count": 1,
-      "confidence": 75,
+      "confidence": 69,
       "days_active": 6,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "developers",
+      "keyword": "jetbrains",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.3,
       "sources": [
-        "linkedin"
+        "hackernews"
       ],
       "source_count": 1,
-      "confidence": 95,
-      "days_active": 13,
+      "confidence": 79,
+      "days_active": 6,
       "expert_ratio": 1.0,
-      "headline": "Developers build the best tools for developers – and are now defanging the AI menace",
-      "articles": [
-        {
-          "title": "Developers build the best tools for developers – and are now defanging the AI menace",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/17/developers-build-the-best-tools-for-developers-and-are-now-defanging-the-ai-menace/5255316",
-          "source": "The Register"
-        },
-        {
-          "title": "Developers build the best tools for developers – and are now defanging the AI menace",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/17/developers-build-the-best-tools-for-developers-and-are-now-defanging-the-ai-menace/5255316",
-          "source": "The Register"
-        },
-        {
-          "title": "Attackers hijacked over 1,500 Arch Linux packages to steal developers’ secrets, no hacking required",
-          "url": "https://thenextweb.com/news/arch-linux-aur-malware-credential-stealer-supply-chain",
-          "source": "The Next Web"
-        }
-      ]
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "ai coding",
-      "mentions": 44,
-      "velocity": 1.9,
+      "keyword": "gemma",
+      "mentions": 80,
+      "velocity": 1.8,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "SpaceX is buying AI coding startup Cursor in a $60 billion all-stock deal",
-      "articles": [
-        {
-          "title": "SpaceX is buying AI coding startup Cursor in a $60 billion all-stock deal",
-          "url": "https://qz.com/spacex-acquiring-cursor-anysphere-60-billion-stock-deal-061726",
-          "source": "Quartz"
-        },
-        {
-          "title": "SpaceX to acquire the AI coding startup Cursor for $60 billion",
-          "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
-        },
-        {
-          "title": "Software Delegation Contracts: Measuring Reviewability in AI Coding-Agent Work",
-          "url": "https://arxiv.org/abs/2606.17099",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "foundation model",
-      "mentions": 40,
-      "velocity": 1.6,
-      "sources": [
         "arxiv",
-        "hackernews",
         "linkedin",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "Surrogate Assisted Pedestrian Protection Design via a Foundation Model Orchestrated Workflow",
-      "articles": [
-        {
-          "title": "Surrogate Assisted Pedestrian Protection Design via a Foundation Model Orchestrated Workflow",
-          "url": "https://arxiv.org/abs/2606.17577",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Fast Speech Foundation Model Distillation Using Interleaved Stacking",
-          "url": "https://arxiv.org/abs/2606.11766",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Geometry-Consistent Endoscopic Representations for Image-Guided Navigation via Structured Foundation Model Adaptation",
-          "url": "https://arxiv.org/abs/2606.17340",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "expert_ratio": 0.91,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "genai",
-      "mentions": 17,
-      "velocity": 1.6,
+      "keyword": "tokenizer",
+      "mentions": 11,
+      "velocity": 1.8,
       "sources": [
-        "github",
-        "linkedin"
+        "articles",
+        "arxiv",
+        "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "AI Adoption Across a Multinational Workforce: Sociotechnical Conditions for GenAI Acceptance in Human Resources",
+      "expert_ratio": 0.96,
+      "headline": "Morpheus: A Morphology-Aware Neural Tokenizer and Word Embedder for Turkish",
       "articles": [
         {
-          "title": "AI Adoption Across a Multinational Workforce: Sociotechnical Conditions for GenAI Acceptance in Human Resources",
-          "url": "https://arxiv.org/abs/2606.17887",
+          "title": "Morpheus: A Morphology-Aware Neural Tokenizer and Word Embedder for Turkish",
+          "url": "https://arxiv.org/abs/2606.18717",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Surveying GenAI-based Automation in Printed Circuit Board Design and Test",
-          "url": "https://arxiv.org/abs/2606.17074",
+          "title": "X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Pretraining",
+          "url": "https://arxiv.org/abs/2606.14752",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "AI Adoption Across a Multinational Workforce: Sociotechnical Conditions for GenAI Acceptance in Human Resources",
-          "url": "https://arxiv.org/abs/2606.17887",
+          "title": "X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Pretraining",
+          "url": "https://arxiv.org/abs/2606.14752",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "ai agents",
-      "mentions": 158,
-      "velocity": 1.3,
+      "keyword": "prompt engineering",
+      "mentions": 25,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.87,
+      "headline": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+      "articles": [
+        {
+          "title": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+          "url": "https://arxiv.org/abs/2606.11459",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+          "url": "https://arxiv.org/abs/2606.11459",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "prompt injection",
+      "mentions": 15,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.87,
+      "headline": "LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection",
+      "articles": [
+        {
+          "title": "LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection",
+          "url": "https://arxiv.org/abs/2605.17986",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SkillJect: Effectively Automating Skill-Based Prompt Injection for Skill-Enabled Agents",
+          "url": "https://arxiv.org/abs/2602.14211",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SkillJect: Effectively Automating Skill-Based Prompt Injection for Skill-Enabled Agents",
+          "url": "https://arxiv.org/abs/2602.14211",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 41,
+      "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
@@ -684,88 +544,36 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "AWS says AI agents can work on their own. It’s also building tools to keep them in line",
+      "expert_ratio": 0.89,
+      "headline": "Z.ai’s open-weights GLM-5.2 beats GPT-5.5 on multiple long-horizon coding benchmarks for 1/6th the cost",
       "articles": [
         {
-          "title": "AWS says AI agents can work on their own. It’s also building tools to keep them in line",
-          "url": "https://www.fastcompany.com/91559841/aws-says-autonomous-ai-agents-are-ready-for-work-so-why-do-they-need-so-many-guardrails?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=06172026",
-          "source": "Fast Company"
+          "title": "Z.ai’s open-weights GLM-5.2 beats GPT-5.5 on multiple long-horizon coding benchmarks for 1/6th the cost",
+          "url": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost?utm_source=flipboard&utm_content=topic/artificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Estonia plans government IDs giving AI agents rights and responsibilities",
-          "url": "https://www.computerworld.com/article/4186310/estonia-plans-government-ids-giving-ai-agents-rights-and-responsibilities.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "AWS says AI agents can work on their own. It’s also building tools to keep them in line",
-          "url": "https://www.fastcompany.com/91559841/aws-says-autonomous-ai-agents-are-ready-for-work-so-why-do-they-need-so-many-guardrails",
-          "source": "Fast Company"
+          "title": "Z.ai’s open-weights GLM-5.2 beats GPT-5.5 on multiple long-horizon coding benchmarks for 1/6th the cost",
+          "url": "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+          "source": "VentureBeat"
         }
       ]
     },
     {
-      "keyword": "together",
-      "mentions": 43,
-      "velocity": 1.3,
+      "keyword": "langchain",
+      "mentions": 19,
+      "velocity": 1.5,
       "sources": [
-        "linkedin",
-        "reddit",
-        "twitter"
+        "articles",
+        "arxiv",
+        "github"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Why people should work together to shape the economy",
-      "articles": [
-        {
-          "title": "Why people should work together to shape the economy",
-          "url": "https://www.nature.com/articles/d41586-026-01889-8",
-          "source": "Nature - Issue - nature.com science feeds"
-        },
-        {
-          "title": "Why people should work together to shape the economy",
-          "url": "https://www.nature.com/articles/d41586-026-01889-8",
-          "source": "Nature - Issue - nature.com science feeds"
-        },
-        {
-          "title": "McLaren and Iron Mountain are restoring heritage racing media together to help new fans buckle into the spot — and veter",
-          "url": "https://www.techradar.com/pro/mclaren-and-iron-mountain-are-restoring-heritage-racing-media-together-to-help-new-fans-buckle-into-the-spot-and-veteran-fans-relive-the-glory-days",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "code generation",
-      "mentions": 14,
-      "velocity": 1.2,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "From Paper to Program: Knowledge Externalization for AI-Assisted Quantum Many-Body Code Generation",
-      "articles": [
-        {
-          "title": "From Paper to Program: Knowledge Externalization for AI-Assisted Quantum Many-Body Code Generation",
-          "url": "https://arxiv.org/abs/2604.04089",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "From Paper to Program: Knowledge Externalization for AI-Assisted Quantum Many-Body Code Generation",
-          "url": "https://arxiv.org/abs/2604.04089",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SPARK: Security Knowledge Priming and Representation-Guided Knowledge Activation for LLM-based Secure Code Generation",
-          "url": "https://arxiv.org/abs/2606.16244",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "expert_ratio": 0.95,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -880,13 +688,37 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "anthropic",
+        "keyword": "cursor",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-17",
+        "flagged_on": "2026-06-18",
         "confidence": 1.0
       },
       {
-        "keyword": "cursor",
+        "keyword": "cot",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-18",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "browser use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-18",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "crewai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-18",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "chatbox",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-18",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "anthropic",
         "signal_type": "emerging",
         "flagged_on": "2026-06-17",
         "confidence": 1.0
@@ -904,31 +736,13 @@
         "confidence": 0.6
       },
       {
-        "keyword": "crewai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-17",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "chatbox",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-17",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "browser use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-17",
-        "confidence": 0.2
-      },
-      {
         "keyword": "autogpt",
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-17",
         "confidence": 0.2
       },
       {
-        "keyword": "voice mode",
+        "keyword": "deepseek r1",
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-16",
         "confidence": 0.2
@@ -940,102 +754,96 @@
         "confidence": 0.2
       },
       {
-        "keyword": "deepseek r1",
+        "keyword": "voice mode",
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-16",
         "confidence": 0.2
-      },
-      {
-        "keyword": "grok",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-15",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
         "keyword": "glm 5",
-        "recent_mentions": 14,
+        "recent_mentions": 22,
         "prior_mentions": 1,
-        "change_ratio": 14.0,
+        "change_ratio": 22.0,
         "corroborating_sources": 4
       },
       {
-        "keyword": "real-time voice",
-        "recent_mentions": 5,
+        "keyword": "deepseek r1",
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "modal",
+        "keyword": "codeium",
+        "recent_mentions": 17,
+        "prior_mentions": 3,
+        "change_ratio": 5.67,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "leonardo",
+        "recent_mentions": 22,
+        "prior_mentions": 5,
+        "change_ratio": 4.4,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "open-source ai",
         "recent_mentions": 31,
+        "prior_mentions": 8,
+        "change_ratio": 3.88,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "windsurf",
+        "recent_mentions": 19,
+        "prior_mentions": 5,
+        "change_ratio": 3.8,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "conversational ai",
+        "recent_mentions": 24,
+        "prior_mentions": 7,
+        "change_ratio": 3.43,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "mcp tools",
+        "recent_mentions": 10,
+        "prior_mentions": 3,
+        "change_ratio": 3.33,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "voice agent",
+        "recent_mentions": 30,
         "prior_mentions": 10,
-        "change_ratio": 3.1,
+        "change_ratio": 3.0,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "heygen",
+        "recent_mentions": 21,
+        "prior_mentions": 7,
+        "change_ratio": 3.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "synthetic data",
+        "recent_mentions": 61,
+        "prior_mentions": 21,
+        "change_ratio": 2.9,
         "corroborating_sources": 2
       },
       {
         "keyword": "glm-5",
-        "recent_mentions": 11,
-        "prior_mentions": 4,
-        "change_ratio": 2.75,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "crewai",
-        "recent_mentions": 8,
-        "prior_mentions": 3,
-        "change_ratio": 2.67,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "conversational ai",
-        "recent_mentions": 18,
-        "prior_mentions": 7,
-        "change_ratio": 2.57,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "windsurf",
-        "recent_mentions": 15,
-        "prior_mentions": 6,
-        "change_ratio": 2.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "open-source ai",
-        "recent_mentions": 24,
-        "prior_mentions": 10,
-        "change_ratio": 2.4,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "voice agent",
-        "recent_mentions": 26,
-        "prior_mentions": 11,
-        "change_ratio": 2.36,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "leonardo",
-        "recent_mentions": 16,
-        "prior_mentions": 7,
-        "change_ratio": 2.29,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "minimax",
-        "recent_mentions": 77,
-        "prior_mentions": 38,
-        "change_ratio": 2.03,
-        "corroborating_sources": 6
-      },
-      {
-        "keyword": "hermes agent",
-        "recent_mentions": 10,
+        "recent_mentions": 14,
         "prior_mentions": 5,
-        "change_ratio": 2.0,
-        "corroborating_sources": 2
+        "change_ratio": 2.8,
+        "corroborating_sources": 3
       }
     ]
   }

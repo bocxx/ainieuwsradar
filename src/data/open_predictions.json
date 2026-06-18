@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T17:39:28+00:00",
+  "generated_at": "2026-06-18T05:35:57+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -14,73 +14,73 @@
       "keyword": "mcp client",
       "signal_type": "weak_signal",
       "flagged_on": "2026-05-31",
-      "days_left": 28
+      "days_left": 27
     },
     {
       "keyword": "gpt-5",
       "signal_type": "emerging",
       "flagged_on": "2026-05-31",
-      "days_left": 28
+      "days_left": 27
     },
     {
       "keyword": "text to speech",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-08",
-      "days_left": 36
+      "days_left": 35
     },
     {
       "keyword": "lora",
       "signal_type": "emerging",
       "flagged_on": "2026-06-12",
-      "days_left": 40
+      "days_left": 39
     },
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 41
+      "days_left": 40
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 43
+      "days_left": 42
     },
     {
       "keyword": "grok",
       "signal_type": "emerging",
       "flagged_on": "2026-06-15",
-      "days_left": 43
+      "days_left": 42
     },
     {
       "keyword": "voice mode",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 44
+      "days_left": 43
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 44
+      "days_left": 43
     },
     {
       "keyword": "hallucination",
       "signal_type": "emerging",
       "flagged_on": "2026-06-16",
-      "days_left": 44
+      "days_left": 43
     },
     {
       "keyword": "deepseek r1",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 44
+      "days_left": 43
     },
     {
-      "keyword": "browser use",
+      "keyword": "autogpt",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-17",
-      "days_left": 45
+      "days_left": 44
     }
   ],
   "recent_resolved": [
@@ -115,18 +115,18 @@
       "keyword": "qwen",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-04-04",
       "resolved_on": "2026-04-10",
-      "lead_days": 3,
+      "lead_days": 6,
       "outlet": "Techmeme"
     },
     {
       "keyword": "llama",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-04",
+      "flagged_on": "2026-04-03",
       "resolved_on": "2026-04-08",
-      "lead_days": 4,
+      "lead_days": 5,
       "outlet": "VentureBeat"
     },
     {
@@ -146,15 +146,6 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "The Register"
-    },
-    {
-      "keyword": "copilot",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
     },
     {
       "keyword": "benchmark",
@@ -182,6 +173,15 @@
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
+    },
+    {
+      "keyword": "copilot",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
     },
     {
       "keyword": "ai agents",
