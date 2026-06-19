@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-19T07:13:47.447753",
-  "total_tracked": 4618,
+  "generated_at": "2026-06-19T19:19:41.668182",
+  "total_tracked": 4693,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "large language model",
-      "mentions": 1047,
-      "velocity": 207.8,
+      "mentions": 494,
+      "velocity": 40.7,
       "sources": [
         "articles",
         "arxiv",
@@ -36,41 +36,9 @@
       ]
     },
     {
-      "keyword": "reinforcement learning",
-      "mentions": 372,
-      "velocity": 79.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Reinforcement Learning Foundation Models Should Already Be A Thing",
-      "articles": [
-        {
-          "title": "Reinforcement Learning Foundation Models Should Already Be A Thing",
-          "url": "https://arxiv.org/abs/2606.18812",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "StarOR: Synergizing Tree Search and Test-Time Reinforcement Learning for Optimization Modeling",
-          "url": "https://arxiv.org/abs/2606.15197",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "StarOR: Synergizing Tree Search and Test-Time Reinforcement Learning for Optimization Modeling",
-          "url": "https://arxiv.org/abs/2606.15197",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "multimodal",
-      "mentions": 303,
-      "velocity": 58.0,
+      "mentions": 146,
+      "velocity": 10.6,
       "sources": [
         "articles",
         "arxiv",
@@ -81,55 +49,56 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.97,
-      "headline": "Learning Geometric Representations from Videos for Spatial Intelligent Multimodal Large Language Models",
+      "headline": "FlowMaps: Modeling Long-Term Multimodal Object Dynamics with Flow Matching",
       "articles": [
+        {
+          "title": "FlowMaps: Modeling Long-Term Multimodal Object Dynamics with Flow Matching",
+          "url": "https://arxiv.org/abs/2606.20209",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Pointwise is Pointless? A Multimodal Ablation Study for Precipitation Nowcasting with Graph Neural Networks",
+          "url": "https://arxiv.org/abs/2606.18436",
+          "source": "stat.ML updates on arXiv.org"
+        },
         {
           "title": "Learning Geometric Representations from Videos for Spatial Intelligent Multimodal Large Language Models",
           "url": "https://arxiv.org/abs/2606.05833",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ROSE: Benchmarking the Perception-to-Action Gap in Multimodal Models",
-          "url": "https://arxiv.org/abs/2606.19965",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation",
-          "url": "https://arxiv.org/abs/2605.10873",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "lora",
-      "mentions": 275,
-      "velocity": 56.6,
+      "keyword": "ai agent",
+      "mentions": 217,
+      "velocity": 6.5,
       "sources": [
         "articles",
         "arxiv",
         "hackernews",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining",
+      "expert_ratio": 0.65,
+      "headline": "Microsoft warns AI agents are being 'AutoJack'-ed to deliver RCE payloads by browsing untrusted websites",
       "articles": [
         {
-          "title": "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining",
-          "url": "https://arxiv.org/abs/2606.20506",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Microsoft warns AI agents are being 'AutoJack'-ed to deliver RCE payloads by browsing untrusted websites",
+          "url": "https://www.techradar.com/pro/security/microsoft-warns-ai-agents-are-being-autojack-ed-to-deliver-rce-payloads-by-browsing-untrusted-websites",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Techniques for Peak Memory Reduction for LoRA Fine-tuning of LLMs on Edge Devices",
-          "url": "https://arxiv.org/abs/2606.19528",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Microsoft warns AI agents are being 'AutoJack'-ed to deliver RCE payloads by browsing untrusted websites",
+          "url": "https://www.techradar.com/pro/security/microsoft-warns-ai-agents-are-being-autojack-ed-to-deliver-rce-payloads-by-browsing-untrusted-websites",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining",
-          "url": "https://arxiv.org/abs/2606.20506",
+          "title": "Measuring Biological Capabilities and Risks of AI Agents",
+          "url": "https://arxiv.org/abs/2606.19899",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -137,44 +106,9 @@
   ],
   "emerging": [
     {
-      "keyword": "gemini",
-      "mentions": 188,
-      "velocity": 8.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "Google's top Gemini engineer is leaving for OpenAI less than two years after a $2.7 billion return",
-      "articles": [
-        {
-          "title": "Google's top Gemini engineer is leaving for OpenAI less than two years after a $2.7 billion return",
-          "url": "https://qz.com/google-gemini-noam-shazeer-openai-061826",
-          "source": "Quartz"
-        },
-        {
-          "title": "Epic is building Claude and Gemini into Unreal Engine 6, whether developers like it or not",
-          "url": "https://thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Epic is building Claude and Gemini into Unreal Engine 6, whether developers like it or not",
-          "url": "https://thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
       "keyword": "cursor",
-      "mentions": 83,
-      "velocity": 6.9,
+      "mentions": 85,
+      "velocity": 7.5,
       "sources": [
         "articles",
         "github",
@@ -186,7 +120,7 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.51,
+      "expert_ratio": 0.5,
       "headline": "Cursor Returns Spur VC-Backed Deal Hopes",
       "articles": [
         {
@@ -207,37 +141,33 @@
       ]
     },
     {
-      "keyword": "deepseek",
-      "mentions": 103,
-      "velocity": 6.6,
+      "keyword": "reinforcement learning",
+      "mentions": 132,
+      "velocity": 6.5,
       "sources": [
-        "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
         "reddit"
       ],
-      "source_count": 6,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "expert_ratio": 0.99,
+      "headline": "Reinforcement Learning Foundation Models Should Already Be A Thing",
       "articles": [
         {
-          "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-          "url": "https://arxiv.org/abs/2606.19348",
+          "title": "Reinforcement Learning Foundation Models Should Already Be A Thing",
+          "url": "https://arxiv.org/abs/2606.18812",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-          "url": "https://arxiv.org/abs/2606.19348",
+          "title": "StarOR: Synergizing Tree Search and Test-Time Reinforcement Learning for Optimization Modeling",
+          "url": "https://arxiv.org/abs/2606.15197",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "The US almost blacklisted DeepSeek for contributing to China’s military and intelligence — but the White House held back",
-          "url": "https://www.techradar.com/pro/security/the-us-almost-blacklisted-deepseek-for-contributing-to-chinas-military-and-intelligence-but-the-white-house-held-back-to-avoid-escalating-tensions",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "StarOR: Synergizing Tree Search and Test-Time Reinforcement Learning for Optimization Modeling",
+          "url": "https://arxiv.org/abs/2606.15197",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -339,6 +269,26 @@
       "articles": []
     },
     {
+      "keyword": "python",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 87,
+      "days_active": 9,
+      "expert_ratio": 0.62,
+      "headline": "Software-update - Python 3.14.6",
+      "articles": [
+        {
+          "title": "Software-update - Python 3.14.6",
+          "url": "https://tweakers.net/downloads/77356/python-3146.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
       "keyword": "supralabs",
       "mentions": 2,
       "velocity": 0.4,
@@ -353,6 +303,36 @@
       "articles": []
     },
     {
+      "keyword": "artificial",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 93,
+      "days_active": 9,
+      "expert_ratio": 0.84,
+      "headline": "GLM-5.2 is the leading open weights model on Artificial Analysis' Intelligence Index, scoring 51, only behind Fable 5's ",
+      "articles": [
+        {
+          "title": "GLM-5.2 is the leading open weights model on Artificial Analysis' Intelligence Index, scoring 51, only behind Fable 5's ",
+          "url": "https://www.techmeme.com/260618/p38#a260618p38",
+          "source": "Techmeme"
+        },
+        {
+          "title": "GLM-5.2 is the leading open weights model on Artificial Analysis' Intelligence Index, scoring 51, only behind Fable 5's ",
+          "url": "https://www.techmeme.com/260618/p38#a260618p38",
+          "source": "Techmeme"
+        },
+        {
+          "title": "A Link between Shock-wave Theory and Symmetry-reduced Stochastic Gradient Descent for Artificial Neural Networks",
+          "url": "https://arxiv.org/abs/2606.18303",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "autogpt",
       "mentions": 3,
       "velocity": 0.3,
@@ -365,254 +345,172 @@
       "expert_ratio": 0.92,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "innovation",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 79,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "Massachusetts was just ranked the best economy in the US. Innovation is a big reason why.",
-      "articles": [
-        {
-          "title": "Massachusetts was just ranked the best economy in the US. Innovation is a big reason why.",
-          "url": "https://www.businessinsider.com/why-massachusetts-has-the-best-economy-in-the-us-2026-6",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Massachusetts was just ranked the best economy in the US. Innovation is a big reason why.",
-          "url": "https://www.businessinsider.com/why-massachusetts-has-the-best-economy-in-the-us-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Massachusetts was just ranked the best economy in the US. Innovation is a big reason why.",
-          "url": "https://www.businessinsider.com/why-massachusetts-has-the-best-economy-in-the-us-2026-6",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "developers",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "Epic is building Claude and Gemini into Unreal Engine 6, whether developers like it or not",
-      "articles": [
-        {
-          "title": "Epic is building Claude and Gemini into Unreal Engine 6, whether developers like it or not",
-          "url": "https://thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Epic is building Claude and Gemini into Unreal Engine 6, whether developers like it or not",
-          "url": "https://thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Epic is building Claude and Gemini into Unreal Engine 6, whether developers like it or not",
-          "url": "https://thenextweb.com/news/epic-unreal-engine-6-ai-claude-gemini",
-          "source": "The Next Web"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "whisper",
-      "mentions": 14,
-      "velocity": 1.6,
+      "keyword": "amazon",
+      "mentions": 11,
+      "velocity": 1.5,
       "sources": [
         "articles",
-        "arxiv",
-        "reddit"
+        "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.38,
-      "headline": "BaltiVoice: A Speech Corpus and Fine-tuned Whisper ASR System for the Balti Language",
+      "days_active": 14,
+      "expert_ratio": 0.13,
+      "headline": "The film about Sam Altman has been dropped by Amazon MGM",
       "articles": [
         {
-          "title": "BaltiVoice: A Speech Corpus and Fine-tuned Whisper ASR System for the Balti Language",
-          "url": "https://arxiv.org/abs/2606.03504",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "The film about Sam Altman has been dropped by Amazon MGM",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped",
+          "source": "The Verge -  All Posts"
         },
         {
-          "title": "BaltiVoice: A Speech Corpus and Fine-tuned Whisper ASR System for the Balti Language",
-          "url": "https://arxiv.org/abs/2606.03504",
-          "source": "cs.AI updates on arXiv.org"
+          "title": ".Geek - Amazon gaat vrijwel voltooide film over ontslag Sam Altman toch niet uitbrengen",
+          "url": "https://tweakers.net/geek/249312/amazon-gaat-vrijwel-voltooide-film-over-ontslag-sam-altman-toch-niet-uitbrengen.html",
+          "source": "Tweakers Mixed RSS Feed"
         },
         {
-          "title": "Whisper-GPT -- Continuous Discrete Hybrid Representation Language Models For Speech And Music",
-          "url": "https://arxiv.org/abs/2412.11449",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Amazon is walking away from its Sam Altman movie months after deepening ties with OpenAI",
+          "url": "https://www.businessinsider.com/amazon-drops-sam-altman-movie-months-after-openai-investment-2026-6",
+          "source": "All Content from Business Insider"
         }
       ]
     },
     {
-      "keyword": "gpt-5",
-      "mentions": 38,
-      "velocity": 1.5,
+      "keyword": "openai",
+      "mentions": 320,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
         "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Bernie Sanders’ AI bill would hand the public half of OpenAI, Anthropic and xAI",
+      "articles": [
+        {
+          "title": "Bernie Sanders’ AI bill would hand the public half of OpenAI, Anthropic and xAI",
+          "url": "https://thenextweb.com/news/bernie-sanders-ai-wealth-fund-bill-50-percent-stake",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Bernie Sanders’ AI bill would hand the public half of OpenAI, Anthropic and xAI",
+          "url": "https://thenextweb.com/news/bernie-sanders-ai-wealth-fund-bill-50-percent-stake",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Bernie Sanders’ AI bill would hand the public half of OpenAI, Anthropic and xAI",
+          "url": "https://thenextweb.com/news/bernie-sanders-ai-wealth-fund-bill-50-percent-stake",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 18,
+      "velocity": 1.4,
+      "sources": [
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.16,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "prompt engineering",
+      "mentions": 26,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
         "linkedin",
         "reddit"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "GLM-5.2 is the leading open weights model on Artificial Analysis' Intelligence Index, scoring 51, only behind Fable 5's ",
+      "expert_ratio": 0.85,
+      "headline": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
       "articles": [
         {
-          "title": "GLM-5.2 is the leading open weights model on Artificial Analysis' Intelligence Index, scoring 51, only behind Fable 5's ",
-          "url": "https://www.techmeme.com/260618/p38#a260618p38",
-          "source": "Techmeme"
+          "title": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+          "url": "https://arxiv.org/abs/2606.11459",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "GLM-5.2 is the leading open weights model on Artificial Analysis' Intelligence Index, scoring 51, only behind Fable 5's ",
-          "url": "https://www.techmeme.com/260618/p38#a260618p38",
-          "source": "Techmeme"
+          "title": "APEX: Automated Prompt Engineering eXpert with Dynamic Data Selection",
+          "url": "https://arxiv.org/abs/2606.11459",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "agents",
-      "mentions": 14,
-      "velocity": 1.5,
+      "keyword": "deepseek",
+      "mentions": 85,
+      "velocity": 1.1,
       "sources": [
+        "articles",
         "arxiv",
-        "github",
+        "hackernews",
         "linkedin",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+      "expert_ratio": 0.9,
+      "headline": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
       "articles": [
         {
-          "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
-          "url": "https://arxiv.org/abs/2606.19559",
+          "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "url": "https://arxiv.org/abs/2606.19348",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "AutoPass: Evidence-Guided LLM Agents for Compiler Performance Tuning",
-          "url": "https://arxiv.org/abs/2606.20373",
+          "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "url": "https://arxiv.org/abs/2606.19348",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ORAgentBench: Can LLM Agents Solve Challenging Operations Research Tasks End to End?",
-          "url": "https://arxiv.org/abs/2606.19787",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "The US almost blacklisted DeepSeek for contributing to China’s military and intelligence — but the White House held back",
+          "url": "https://www.techradar.com/pro/security/the-us-almost-blacklisted-deepseek-for-contributing-to-chinas-military-and-intelligence-but-the-white-house-held-back-to-avoid-escalating-tensions",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "genai",
-      "mentions": 20,
-      "velocity": 1.4,
-      "sources": [
-        "github",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "Surveying GenAI-based Automation in Printed Circuit Board Design and Test",
-      "articles": [
-        {
-          "title": "Surveying GenAI-based Automation in Printed Circuit Board Design and Test",
-          "url": "https://arxiv.org/abs/2606.17074",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "AI Adoption Across a Multinational Workforce: Sociotechnical Conditions for GenAI Acceptance in Human Resources",
-          "url": "https://arxiv.org/abs/2606.17887",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Surveying GenAI-based Automation in Printed Circuit Board Design and Test",
-          "url": "https://arxiv.org/abs/2606.17074",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "tiktok",
-      "mentions": 26,
-      "velocity": 1.3,
-      "sources": [
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.58,
-      "headline": "Italian parents sue Meta and TikTok over risks to children",
-      "articles": [
-        {
-          "title": "Italian parents sue Meta and TikTok over risks to children",
-          "url": "https://www.youtube.com/shorts/7IITQelF54U",
-          "source": "Reuters"
-        },
-        {
-          "title": "Kapwing: in tests, ~60% of the first 500 TikTok For You videos shown to a new account were AI slop, ~3x the slop shown t",
-          "url": "https://www.techmeme.com/260616/p47#a260616p47",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Kapwing: in tests, ~60% of the first 500 TikTok For You videos shown to a new account were AI slop, ~3x the slop shown t",
-          "url": "https://www.techmeme.com/260616/p47#a260616p47",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 24,
+      "keyword": "flux",
+      "mentions": 15,
       "velocity": 1.0,
       "sources": [
-        "arxiv",
-        "linkedin",
+        "articles",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Mistral spent two years warning the US could switch off its rivals. A fat-cat meme just made the point for it.",
+      "expert_ratio": 0.65,
+      "headline": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
       "articles": [
         {
-          "title": "Mistral spent two years warning the US could switch off its rivals. A fat-cat meme just made the point for it.",
-          "url": "https://thenextweb.com/news/mistral-sovereignty-moment-anthropic-shutdown-le-chaton-fat",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Mistral spent two years warning the US could switch off its rivals. A fat-cat meme just made the point for it.",
-          "url": "https://thenextweb.com/news/mistral-sovereignty-moment-anthropic-shutdown-le-chaton-fat",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Mistral spent two years warning the US could switch off its rivals. A fat-cat meme just made the point for it.",
-          "url": "https://thenextweb.com/news/mistral-sovereignty-moment-anthropic-shutdown-le-chaton-fat?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "title": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
+          "url": "https://www.science.org/doi/10.1126/science.aeb6410",
+          "source": "Science: Current Issue"
         }
       ]
     }
@@ -729,13 +627,19 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "deepseek",
+        "keyword": "cursor",
         "signal_type": "emerging",
         "flagged_on": "2026-06-19",
         "confidence": 1.0
       },
       {
         "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-19",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-06-19",
         "confidence": 1.0
@@ -759,19 +663,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "openai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-18",
-        "confidence": 1.0
-      },
-      {
         "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-06-18",
         "confidence": 1.0
       },
       {
-        "keyword": "cursor",
+        "keyword": "openai",
         "signal_type": "emerging",
         "flagged_on": "2026-06-18",
         "confidence": 1.0
@@ -804,10 +702,10 @@
     "heating_up": [
       {
         "keyword": "edge ai",
-        "recent_mentions": 17,
+        "recent_mentions": 15,
         "prior_mentions": 1,
-        "change_ratio": 17.0,
-        "corroborating_sources": 2
+        "change_ratio": 15.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "glm 5",
@@ -817,13 +715,6 @@
         "corroborating_sources": 4
       },
       {
-        "keyword": "chain of thought",
-        "recent_mentions": 24,
-        "prior_mentions": 2,
-        "change_ratio": 12.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "codeium",
         "recent_mentions": 19,
         "prior_mentions": 2,
@@ -831,11 +722,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "heygen",
-        "recent_mentions": 24,
-        "prior_mentions": 3,
+        "keyword": "chain of thought",
+        "recent_mentions": 16,
+        "prior_mentions": 2,
         "change_ratio": 8.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
         "keyword": "vision language model",
@@ -845,7 +736,21 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "heygen",
+        "recent_mentions": 22,
+        "prior_mentions": 3,
+        "change_ratio": 7.33,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "command r",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai sdk",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
@@ -866,25 +771,18 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "crewai",
-        "recent_mentions": 14,
-        "prior_mentions": 3,
-        "change_ratio": 4.67,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "phi-4",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "deepseek r1",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "conversational ai",
+        "recent_mentions": 24,
+        "prior_mentions": 6,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
       }
     ]
   }
