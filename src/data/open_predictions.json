@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-22T05:32:17+00:00",
+  "generated_at": "2026-06-22T17:34:29+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 25,
+    "open": 28,
     "resolved": 29,
     "hits": 24,
     "misses": 5,
@@ -103,15 +103,6 @@
       "outlet": "Nature"
     },
     {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-04",
-      "resolved_on": "2026-04-10",
-      "lead_days": 6,
-      "outlet": "Techmeme"
-    },
-    {
       "keyword": "tokens",
       "signal_type": "emerging",
       "status": "hit",
@@ -119,6 +110,15 @@
       "resolved_on": "2026-04-10",
       "lead_days": 3,
       "outlet": "Business Insider"
+    },
+    {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-04",
+      "resolved_on": "2026-04-10",
+      "lead_days": 6,
+      "outlet": "Techmeme"
     },
     {
       "keyword": "llama",
@@ -130,15 +130,6 @@
       "outlet": "VentureBeat"
     },
     {
-      "keyword": "benchmarks",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
-    },
-    {
       "keyword": "ai agent",
       "signal_type": "emerging",
       "status": "hit",
@@ -148,13 +139,13 @@
       "outlet": "The Register"
     },
     {
-      "keyword": "benchmark",
-      "signal_type": "emerging",
-      "status": "hit",
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
       "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
     },
     {
       "keyword": "copilot",
@@ -166,13 +157,22 @@
       "outlet": "Tweakers"
     },
     {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
+      "keyword": "benchmark",
+      "signal_type": "emerging",
+      "status": "hit",
       "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
+    },
+    {
+      "keyword": "benchmarks",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
     },
     {
       "keyword": "data center",
