@@ -62,6 +62,20 @@ const jsonld = {
 
   <link rel="sitemap" href="/sitemap-index.xml" />
   <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />
+
+  {/* Umami Analytics — vul data-website-id met het Website ID van deze site
+      (cloud.umami.is/settings/websites). Eén Umami-account/abonnement, per site
+      een eigen Website ID. View-Transitions-aware. Leeg = geen tracking. */}
+  <link rel="preconnect" href="https://cloud.umami.is" crossorigin />
+  <link rel="dns-prefetch" href="https://cloud.umami.is" />
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="9dad3643-f050-42a8-8d8a-64a868ad15c9" data-auto-track="false"></script>
+  <script is:inline>{`
+    (function(){
+      function t(){if(window.umami&&typeof window.umami.track==='function')window.umami.track();}
+      if(document.readyState!=='loading')t();else document.addEventListener('DOMContentLoaded',t);
+      document.addEventListener('astro:page-load',t);
+    })();
+  `}</script>
 </head>
 <body>
   <a href="#main" class="skip-link">Naar de hoofdinhoud</a>
