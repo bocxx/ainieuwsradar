@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-24T05:31:20+00:00",
+  "generated_at": "2026-06-24T17:34:22+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 31,
+    "open": 33,
     "resolved": 29,
     "hits": 24,
     "misses": 5,
@@ -13,12 +13,6 @@
     {
       "keyword": "mcp client",
       "signal_type": "weak_signal",
-      "flagged_on": "2026-05-31",
-      "days_left": 21
-    },
-    {
-      "keyword": "gpt-5",
-      "signal_type": "emerging",
       "flagged_on": "2026-05-31",
       "days_left": 21
     },
@@ -81,6 +75,12 @@
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
       "days_left": 38
+    },
+    {
+      "keyword": "context window",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-17",
+      "days_left": 38
     }
   ],
   "recent_resolved": [
@@ -97,18 +97,18 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-14",
+      "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-22",
-      "lead_days": 39,
+      "lead_days": 15,
       "outlet": "Nature"
     },
     {
       "keyword": "qwen",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-04-04",
       "resolved_on": "2026-04-10",
-      "lead_days": 3,
+      "lead_days": 6,
       "outlet": "Techmeme"
     },
     {
@@ -130,15 +130,6 @@
       "outlet": "VentureBeat"
     },
     {
-      "keyword": "ai agent",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "The Register"
-    },
-    {
       "keyword": "benchmarks",
       "signal_type": "emerging",
       "status": "hit",
@@ -146,6 +137,15 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
+    },
+    {
+      "keyword": "ai agent",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "The Register"
     },
     {
       "keyword": "copilot",
@@ -166,15 +166,6 @@
       "outlet": "Tweakers"
     },
     {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
       "keyword": "data center",
       "signal_type": "emerging",
       "status": "hit",
@@ -182,6 +173,15 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Techmeme"
+    },
+    {
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-04-07",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
     },
     {
       "keyword": "ai agents",
@@ -202,13 +202,13 @@
       "outlet": "Quartz"
     },
     {
-      "keyword": "multimodal",
+      "keyword": "litellm",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-12",
+      "flagged_on": "2026-03-27",
       "resolved_on": "2026-03-31",
-      "lead_days": 19,
-      "outlet": "The Information"
+      "lead_days": 4,
+      "outlet": "TechCrunch"
     }
   ]
 }

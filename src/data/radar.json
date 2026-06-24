@@ -1,12 +1,47 @@
 {
-  "generated_at": "2026-06-24T07:14:52.446462",
-  "total_tracked": 4493,
+  "generated_at": "2026-06-24T19:18:57.406179",
+  "total_tracked": 4597,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 224,
-      "velocity": 29.4,
+      "keyword": "nvidia",
+      "mentions": 106,
+      "velocity": 13.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "articles": [
+        {
+          "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+          "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+          "source": "Hugging Face Blog"
+        },
+        {
+          "title": "OpenAI's eerste eigen AI-chip heet Jalapeño en 'kan Nvidia Blackwell evenaren'",
+          "url": "https://tweakers.net/nieuws/249446/openais-eerste-eigen-ai-chip-heet-jalapeno-en-kan-nvidia-blackwell-evenaren.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "RunPod, which rents access to non-Nvidia servers, raised $100M led by Summit Partners at a $1B valuation, a source says ",
+          "url": "https://www.techmeme.com/260624/p26#a260624p26",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "openai",
+      "mentions": 331,
+      "velocity": 12.7,
       "sources": [
         "articles",
         "arxiv",
@@ -19,7 +54,43 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
+      "expert_ratio": 0.81,
+      "headline": "OpenAI is unveiling its first custom-built AI chip, designed with Broadcom",
+      "articles": [
+        {
+          "title": "OpenAI is unveiling its first custom-built AI chip, designed with Broadcom",
+          "url": "https://qz.com/openai-broadcom-jalapeno-custom-ai-chip-062426",
+          "source": "Quartz"
+        },
+        {
+          "title": "OpenAI unveils first custom AI inference chip, Jalapeño, with Broadcom — and its development was sped-up with OpenAI's o",
+          "url": "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "OpenAI unveils first custom AI inference chip, Jalapeño, with Broadcom — and its development was sped-up with OpenAI's o",
+          "url": "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 157,
+      "velocity": 9.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
       "headline": "Toward Autonomous O-RAN: A Multi-Scale Agentic AI Framework for Real-Time Network Control and Management",
       "articles": [
         {
@@ -28,125 +99,208 @@
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ATHENA: Agentic Team for Hierarchical Evolutionary Numerical Algorithms",
-          "url": "https://arxiv.org/abs/2512.03476",
+          "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+          "url": "https://arxiv.org/abs/2606.24839",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Multimedia and Visual Analytics in the Agentic Era",
-          "url": "https://arxiv.org/abs/2504.06138",
+          "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2606.23927",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "multimodal",
-      "mentions": 182,
-      "velocity": 24.2,
+      "keyword": "github",
+      "mentions": 125,
+      "velocity": 7.4,
       "sources": [
         "articles",
-        "arxiv",
+        "hackernews",
         "linkedin",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Context-Aware Prediction of Student Quiz Performance with Multimodal Textbook Features",
-      "articles": [
-        {
-          "title": "Context-Aware Prediction of Student Quiz Performance with Multimodal Textbook Features",
-          "url": "https://arxiv.org/abs/2606.24770",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "E-MRL: Cross-view Aligned Evidence-driven Multimodal Reinforcement Learning for Reliable 3D Tumor Analysis",
-          "url": "https://arxiv.org/abs/2606.23888",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Mind the Heads: Topological Representation Alignment for Multimodal LLMs",
-          "url": "https://arxiv.org/abs/2606.23885",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
+      "expert_ratio": 0.37,
+      "headline": "",
+      "articles": []
+    },
     {
-      "keyword": "qwen",
-      "mentions": 138,
-      "velocity": 15.7,
+      "keyword": "ai chip",
+      "mentions": 24,
+      "velocity": 5.8,
       "sources": [
         "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "Qwen-AgentWorld: Language World Models for General Agents",
+      "expert_ratio": 0.27,
+      "headline": "OpenAI is unveiling its first custom-built AI chip, designed with Broadcom",
       "articles": [
         {
-          "title": "Qwen-AgentWorld: Language World Models for General Agents",
-          "url": "https://arxiv.org/abs/2606.24597",
-          "source": "Hacker News"
+          "title": "OpenAI is unveiling its first custom-built AI chip, designed with Broadcom",
+          "url": "https://qz.com/openai-broadcom-jalapeno-custom-ai-chip-062426",
+          "source": "Quartz"
         },
         {
-          "title": "Sources: a new AI lab founded by Junyang Lin, former lead of Alibaba's Qwen models, has raised several hundred million d",
-          "url": "https://www.techmeme.com/260617/p8#a260617p8",
-          "source": "Techmeme"
+          "title": "OpenAI, Broadcom Develop AI Chip Called 'Jalapeno'",
+          "url": "https://www.bloomberg.com/news/videos/2026-06-24/openai-broadcom-develop-ai-chip-called-jalapeno-video",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Sources: a new AI lab founded by Junyang Lin, former lead of Alibaba's Qwen models, has raised several hundred million d",
-          "url": "https://www.techmeme.com/260617/p8#a260617p8",
-          "source": "Techmeme"
+          "title": "OpenAI built its own AI chip. The target is Nvidia.",
+          "url": "https://thenextweb.com/news/openai-jalapeno-chip-broadcom-nvidia?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         }
       ]
     },
     {
-      "keyword": "ai agents",
-      "mentions": 232,
-      "velocity": 15.1,
+      "keyword": "hallucination",
+      "mentions": 44,
+      "velocity": 5.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+      "articles": [
+        {
+          "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+          "url": "https://arxiv.org/abs/2606.24790",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Benchmark for Hallucination Detection in VLMs for Gastrointestinal Endoscopy",
+          "url": "https://arxiv.org/abs/2606.24115",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+          "url": "https://arxiv.org/abs/2606.24790",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "linkedin",
+      "mentions": 25,
+      "velocity": 4.1,
+      "sources": [
+        "articles",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.4,
+      "headline": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
+      "articles": [
+        {
+          "title": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
+          "url": "https://www.businessinsider.com/former-recruiter-shares-advice-resumes-networking-strategies-2026-6",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
+          "url": "https://www.businessinsider.com/former-recruiter-shares-advice-resumes-networking-strategies-2026-6",
+          "source": "Business Insider"
+        },
+        {
+          "title": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
+          "url": "https://www.businessinsider.com/former-recruiter-shares-advice-resumes-networking-strategies-2026-6",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 259,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.71,
-      "headline": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+      "expert_ratio": 0.78,
+      "headline": "Sources: the Trump administration has been happier talking to Anthropic lately after Dario Amodei was replaced by cofoun",
       "articles": [
         {
-          "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
-          "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
-          "source": "TechCrunch"
+          "title": "Sources: the Trump administration has been happier talking to Anthropic lately after Dario Amodei was replaced by cofoun",
+          "url": "https://www.techmeme.com/260624/p29#a260624p29",
+          "source": "Techmeme"
         },
         {
-          "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
-          "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
-          "source": "TechCrunch"
+          "title": "Sources: the Trump administration has been happier talking to Anthropic lately after Dario Amodei was replaced by cofoun",
+          "url": "https://www.techmeme.com/260624/p29#a260624p29",
+          "source": "Techmeme"
         },
         {
-          "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
-          "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/?utm_source=flipboard&utm_content=Techcrunch/magazine/Artificial+Intelligence+in+2023:+News+and+Updates",
-          "source": "Artificial Intelligence"
+          "title": "The Trump White House Is Over Anthropic CEO Dario Amodei",
+          "url": "https://www.wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei/",
+          "source": "WIRED"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "ai agent",
+      "mentions": 244,
+      "velocity": 11.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.62,
+      "headline": "The invisible traffic problem: why AI agents are your biggest blind spot",
+      "articles": [
+        {
+          "title": "The invisible traffic problem: why AI agents are your biggest blind spot",
+          "url": "https://www.techradar.com/pro/the-invisible-traffic-problem-why-ai-agents-are-your-biggest-blind-spot",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "The invisible traffic problem: why AI agents are your biggest blind spot",
+          "url": "https://www.techradar.com/pro/the-invisible-traffic-problem-why-ai-agents-are-your-biggest-blind-spot",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "London-based Isometric, which develops AI agents that work with human verifiers to automate industrial certification, ra",
+          "url": "https://www.techmeme.com/260624/p5#a260624p5",
+          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "claude",
-      "mentions": 599,
-      "velocity": 14.4,
+      "mentions": 583,
+      "velocity": 9.5,
       "sources": [
         "articles",
         "arxiv",
@@ -160,111 +314,86 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.74,
-      "headline": "Anthropic reimagines Claude in Slack as nosy, always-on agentic AI coworker",
+      "headline": "China's 360 Security says it built an AI vulnerability-finder to rival Claude Mythos",
       "articles": [
         {
-          "title": "Anthropic reimagines Claude in Slack as nosy, always-on agentic AI coworker",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
-          "source": "The Register"
+          "title": "China's 360 Security says it built an AI vulnerability-finder to rival Claude Mythos",
+          "url": "https://qz.com/china-360-security-ai-vulnerability-tool-anthropic-mythos-062426",
+          "source": "Quartz"
         },
         {
-          "title": "Anthropic reimagines Claude in Slack as nosy, always-on agentic AI coworker",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
-          "source": "The Register"
-        },
-        {
-          "title": "Anthropic launches Claude Tag, an always-on AI teammate that lives in your Slack channels",
-          "url": "https://thenextweb.com/news/anthropic-claude-tag-slack-always-on-ai-teammate",
-          "source": "The Next Web"
+          "title": "Claude-integratie voor Slack werkt per kanaal of in dm",
+          "url": "https://tweakers.net/nieuws/249424/claude-integratie-voor-slack-werkt-per-kanaal-of-in-dm.html",
+          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     },
     {
       "keyword": "gpt-5",
-      "mentions": 69,
-      "velocity": 10.4,
+      "mentions": 62,
+      "velocity": 8.3,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
         "linkedin",
         "reddit"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "expert_ratio": 0.89,
+      "headline": "An analysis of GPT-5.5, Gemini 3.1 Pro, Grok 4.3, Gab's Arya, and other AI models: most chatbots frequently provide left",
       "articles": [
+        {
+          "title": "An analysis of GPT-5.5, Gemini 3.1 Pro, Grok 4.3, Gab's Arya, and other AI models: most chatbots frequently provide left",
+          "url": "https://www.techmeme.com/260624/p16#a260624p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "An analysis of GPT-5.5, Gemini 3.1 Pro, Grok 4.3, Gab's Arya, and other AI models: most chatbots frequently provide left",
+          "url": "https://www.techmeme.com/260624/p16#a260624p16",
+          "source": "Techmeme"
+        },
         {
           "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
           "url": "https://openai.com/index/gpt-5-immunology-mystery",
           "source": "OpenAI News"
-        },
-        {
-          "title": "OpenAI porta GPT-5.5-Cyber a caccia di bug nell'open source: prima settimana, 37 patch fuse",
-          "url": "https://www.tomshw.it/business/openai-gpt55-cyber-patch-planet-open-source-2026",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "OpenAI DayBreak – GPT-5.5-Cyber",
-          "url": "https://openai.com/index/daybreak-securing-the-world/",
-          "source": "Hacker News"
         }
       ]
     },
     {
-      "keyword": "nvidia",
-      "mentions": 82,
-      "velocity": 6.1,
+      "keyword": "fine-tuning",
+      "mentions": 96,
+      "velocity": 7.5,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
         "linkedin",
         "reddit"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Look out Nvidia — Alibaba reveals its most powerful AI models for robots as it looks to strike ahead in agentic race",
-      "articles": [
-        {
-          "title": "Look out Nvidia — Alibaba reveals its most powerful AI models for robots as it looks to strike ahead in agentic race",
-          "url": "https://www.techradar.com/pro/look-out-nvidia-alibaba-reveals-its-most-powerful-ai-models-for-robots-as-it-looks-to-strike-ahead-in-agentic-race",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Look out Nvidia — Alibaba reveals its most powerful AI models for robots as it looks to strike ahead in agentic race",
-          "url": "https://www.techradar.com/pro/look-out-nvidia-alibaba-reveals-its-most-powerful-ai-models-for-robots-as-it-looks-to-strike-ahead-in-agentic-race",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Boost Inference Performance up to 15x on NVIDIA Blackwell Using DFlash Speculative Decoding",
-          "url": "https://developer.nvidia.com/blog/boost-inference-performance-up-to-15x-on-nvidia-blackwell-using-dflash-speculative-decoding/",
-          "source": "NVIDIA Developer Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 34,
-      "velocity": 5.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit",
-        "twitter"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.99,
+      "headline": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "articles": [
+        {
+          "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+          "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+          "source": "Hugging Face Blog"
+        },
+        {
+          "title": "Cross-Dataset, Age, and Gender Generalization: A Comprehensive Analysis of Fine-Tuning Strategies for Low-Resource Child",
+          "url": "https://arxiv.org/abs/2606.19791",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
+          "url": "https://arxiv.org/abs/2606.24841",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "weak_signals": [
@@ -281,6 +410,78 @@
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "edtech",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "moengage",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Customer engagement service MoEngage acquires Aampe, whose AI agents help brands personalize messaging, for \"tens of mil",
+      "articles": [
+        {
+          "title": "Customer engagement service MoEngage acquires Aampe, whose AI agents help brands personalize messaging, for \"tens of mil",
+          "url": "https://www.techmeme.com/260624/p1#a260624p1",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Customer engagement service MoEngage acquires Aampe, whose AI agents help brands personalize messaging, for \"tens of mil",
+          "url": "https://www.techmeme.com/260624/p1#a260624p1",
+          "source": "Techmeme"
+        },
+        {
+          "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+          "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "attribution",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution",
+      "articles": [
+        {
+          "title": "Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution",
+          "url": "https://arxiv.org/abs/2606.22314",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Faithful by Construction: Claim-Anchored Attribution for Multi-Document Summarization",
+          "url": "https://arxiv.org/abs/2606.23989",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SAFARI: Scaling Long Horizon Agentic Fault Attribution via Active Investigation",
+          "url": "https://arxiv.org/abs/2606.24626",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
       "keyword": "discrimination",
@@ -313,18 +514,6 @@
       ]
     },
     {
-      "keyword": "edtech",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "click",
       "mentions": 2,
       "velocity": 1.0,
@@ -350,56 +539,6 @@
       ]
     },
     {
-      "keyword": "desktop",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Show HN: Y – A malleable coding-agent desktop app built with Electron",
-      "articles": [
-        {
-          "title": "Show HN: Y – A malleable coding-agent desktop app built with Electron",
-          "url": "https://github.com/y-times-y/y",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Prime Day desktop deal: Get a complete next-gen RTX 5070 workstation for under $1690 — the MSI Codex R2 drops $610",
-          "url": "https://www.techradar.com/pro/prime-day-desktop-deal-get-a-complete-next-gen-rtx-5070-workstation-for-under-usd1690-the-msi-codex-r2-drops-usd610",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Prime Day desktop deal: Get a complete next-gen RTX 5070 workstation for under $1690 — the MSI Codex R2 drops $610",
-          "url": "https://www.techradar.com/pro/prime-day-desktop-deal-get-a-complete-next-gen-rtx-5070-workstation-for-under-usd1690-the-msi-codex-r2-drops-usd610",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "moengage",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "India’s MoEngage bets that the future of marketing is millions of AI agents",
-      "articles": [
-        {
-          "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
-          "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
       "keyword": "context",
       "mentions": 2,
       "velocity": 1.0,
@@ -415,17 +554,77 @@
         {
           "title": "Ensemble Distributionally Robust Bayesian Optimisation with Continuous Context",
           "url": "https://arxiv.org/abs/2605.07565",
-          "source": "stat.ML updates on arXiv.org"
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "When Helpfulness Overrides Causal Caution: Context-Dependent Suppression and Recovery in LLMs",
+          "url": "https://arxiv.org/abs/2606.24370",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
           "title": "Ensemble Distributionally Robust Bayesian Optimisation with Continuous Context",
           "url": "https://arxiv.org/abs/2605.07565",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "quantum computing",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "How Chicago is betting on quantum computing, including turning the site of its former US Steel mill into a campus, after",
+      "articles": [
+        {
+          "title": "How Chicago is betting on quantum computing, including turning the site of its former US Steel mill into a campus, after",
+          "url": "https://www.techmeme.com/260624/p13#a260624p13",
+          "source": "Techmeme"
         },
         {
-          "title": "AI-Driven Predictive Maintenance with Environmental Context Integration for Connected Vehicles: Simulation, Benchmarking",
-          "url": "https://arxiv.org/abs/2603.13343",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "How Chicago is betting on quantum computing, including turning the site of its former US Steel mill into a campus, after",
+          "url": "https://www.techmeme.com/260624/p13#a260624p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Il quantum computing spaventa gli USA, che accelerano sulla nuova crittografia",
+          "url": "https://www.tomshw.it/hardware/il-quantum-spaventa-gli-usa-che-accelerano-sulla-nuova-crittografia",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "desktop",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Deno project is going to add cross-platform desktop apps in next major update",
+      "articles": [
+        {
+          "title": "Deno project is going to add cross-platform desktop apps in next major update",
+          "url": "https://www.theregister.com/software/2026/06/24/deno-project-is-going-to-add-cross-platform-desktop-apps-in-next-major-update/5261388",
+          "source": "The Register"
+        },
+        {
+          "title": "Deno project is going to add cross-platform desktop apps in next major update",
+          "url": "https://www.theregister.com/software/2026/06/24/deno-project-is-going-to-add-cross-platform-desktop-apps-in-next-major-update/5261388",
+          "source": "The Register"
+        },
+        {
+          "title": "Get an all-AMD 4K gaming PC with Ryzen 7 9800X3D and Radeon RX 9070 XT for just $1,749 — Walmart has slashed $750 off th",
+          "url": "https://www.tomshardware.com/pc-components/get-an-all-amd-4k-gaming-pc-with-ryzen-7-9800x3d-and-radeon-rx-9070-xt-for-just-usd1-749-walmart-has-slashed-usd750-off-this-prebuilt-desktop",
+          "source": "Tom's Hardware"
         }
       ]
     },
@@ -442,75 +641,44 @@
       "expert_ratio": 0.86,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "we created a monster",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "bengaluru",
-      "mentions": 3,
-      "velocity": 0.7,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 8,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "deepseek",
-      "mentions": 85,
+      "keyword": "ai bubble",
+      "mentions": 13,
       "velocity": 1.9,
       "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
+        "hackernews",
+        "twitter"
       ],
-      "source_count": 5,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "Tencent starts testing the new Xiaowei AI assistant powered by WeLM and DeepSeek models in its WeChat app in China, in a",
+      "expert_ratio": 0.74,
+      "headline": "How to burst the AI bubble: Strike at its roots",
       "articles": [
         {
-          "title": "Tencent starts testing the new Xiaowei AI assistant powered by WeLM and DeepSeek models in its WeChat app in China, in a",
-          "url": "https://www.techmeme.com/260622/p3#a260622p3",
-          "source": "Techmeme"
+          "title": "How to burst the AI bubble: Strike at its roots",
+          "url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
+          "source": "Hacker News"
         },
         {
-          "title": "Tencent starts testing the new Xiaowei AI assistant powered by WeLM and DeepSeek models in its WeChat app in China, in a",
-          "url": "https://www.techmeme.com/260622/p3#a260622p3",
-          "source": "Techmeme"
+          "title": "‘You can’t make billions without hurting people’: Cory Doctorow on Elon Musk, the AI bubble and bosses’ cruel fantasies",
+          "url": "https://www.theguardian.com/technology/2026/jun/24/cory-doctorow-on-elon-musk-ai-bubble-bosses-cruel-fantasies",
+          "source": "Artificial intelligence (AI) | The Guardian"
         },
         {
-          "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-          "url": "https://arxiv.org/abs/2606.19348",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "‘You can’t make billions without hurting people’: Cory Doctorow on Elon Musk, the AI bubble and bosses’ cruel fantasies",
+          "url": "https://www.theguardian.com/technology/2026/jun/24/cory-doctorow-on-elon-musk-ai-bubble-bosses-cruel-fantasies",
+          "source": "Artificial intelligence (AI) | The Guardian"
         }
       ]
     },
     {
       "keyword": "google deepmind",
-      "mentions": 16,
-      "velocity": 1.5,
+      "mentions": 17,
+      "velocity": 1.8,
       "sources": [
         "hackernews",
         "linkedin",
@@ -540,116 +708,116 @@
       ]
     },
     {
-      "keyword": "linkedin",
+      "keyword": "flux",
       "mentions": 16,
-      "velocity": 1.4,
+      "velocity": 1.7,
       "sources": [
-        "linkedin",
+        "articles",
+        "arxiv",
         "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.43,
-      "headline": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
+      "expert_ratio": 0.62,
+      "headline": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
       "articles": [
         {
-          "title": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
-          "url": "https://www.businessinsider.com/former-recruiter-shares-advice-resumes-networking-strategies-2026-6",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
-          "url": "https://www.businessinsider.com/former-recruiter-shares-advice-resumes-networking-strategies-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
-          "url": "https://www.businessinsider.com/former-recruiter-shares-advice-resumes-networking-strategies-2026-6",
-          "source": "Business Insider"
+          "title": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
+          "url": "https://www.science.org/doi/10.1126/science.aeb6410",
+          "source": "Science: Current Issue"
         }
       ]
     },
     {
-      "keyword": "midjourney",
-      "mentions": 22,
-      "velocity": 1.2,
+      "keyword": "langchain",
+      "mentions": 18,
+      "velocity": 1.6,
       "sources": [
-        "hackernews",
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.89,
+      "headline": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
+      "articles": [
+        {
+          "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
+          "url": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
+          "url": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
+      "keyword": "agents",
+      "mentions": 17,
+      "velocity": 1.6,
+      "sources": [
+        "github",
         "linkedin"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Something’s off with Midjourney’s pivot to body scanners",
+      "expert_ratio": 0.91,
+      "headline": "AI coding agents could soon cost more than the developers using them",
       "articles": [
         {
-          "title": "Something’s off with Midjourney’s pivot to body scanners",
-          "url": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
-          "source": "The Verge -  Science Posts"
+          "title": "AI coding agents could soon cost more than the developers using them",
+          "url": "https://www.theregister.com/ai-and-ml/2026/06/24/ai-coding-agents-could-soon-cost-more-than-the-developers-using-them/5260864",
+          "source": "The Register"
         },
         {
-          "title": "Something’s off with Midjourney’s pivot to body scanners",
-          "url": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence?utm_source=flipboard&utm_content=other",
-          "source": "Artificial Intelligence"
+          "title": "AI coding agents could soon cost more than the developers using them",
+          "url": "https://www.theregister.com/ai-and-ml/2026/06/24/ai-coding-agents-could-soon-cost-more-than-the-developers-using-them/5260864",
+          "source": "The Register"
         },
         {
-          "title": "Something’s off with Midjourney’s pivot to body scanners",
-          "url": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "The invisible traffic problem: why AI agents are your biggest blind spot",
+          "url": "https://www.techradar.com/pro/the-invisible-traffic-problem-why-ai-agents-are-your-biggest-blind-spot",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "cline",
-      "mentions": 13,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 152,
-      "velocity": 1.0,
+      "keyword": "copilot",
+      "mentions": 48,
+      "velocity": 1.5,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
         "linkedin",
-        "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "I asked ChatGPT, Gemini and Claude what discount tech to buy on Amazon Prime Day — here’s which AI gave the best advice",
+      "expert_ratio": 0.65,
+      "headline": "Microsoft Says Copilot AI Helped Knock Down Cybercrime Tools",
       "articles": [
         {
-          "title": "I asked ChatGPT, Gemini and Claude what discount tech to buy on Amazon Prime Day — here’s which AI gave the best advice",
-          "url": "https://www.techradar.com/ai-platforms-assistants/i-asked-chatgpt-gemini-and-claude-what-discount-tech-to-buy-on-amazon-prime-day-heres-which-ai-gave-the-best-advice",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Microsoft Says Copilot AI Helped Knock Down Cybercrime Tools",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-06-24/microsoft-says-copilot-ai-helped-knock-down-cybercrime-tools",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "I asked ChatGPT, Gemini and Claude what discount tech to buy on Amazon Prime Day — here’s which AI gave the best advice",
-          "url": "https://www.techradar.com/ai-platforms-assistants/i-asked-chatgpt-gemini-and-claude-what-discount-tech-to-buy-on-amazon-prime-day-heres-which-ai-gave-the-best-advice",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Le Dell 16 Plus chute de 800 € : Core Ultra 7, écran 2,5K, 32 Go de RAM et Copilot+ PC pour un laptop créatif premium à ",
+          "url": "https://www.futura-sciences.com/conso/bons-plans/guides-pc-tablettes-dell-16-plus-chute-800-core-ultra-7-ecran-25k-32-go-ram-copilot-pc-laptop-creatif-premium-moins-1-000-10434/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
         },
         {
-          "title": "Interactions API: our primary interface for Gemini models and agents",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/interactions-api-general-availability/",
-          "source": "The Official Google Blog"
+          "title": "How to prompt Copilot or ChatGPT to accurately troubleshoot your PC - without the AI overconfidence",
+          "url": "https://www.zdnet.com/article/ai-troubleshooting-secrets-my-interview-with-copilot-chatgpt/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
+          "source": "Artificial Intelligence"
         }
       ]
     }
@@ -766,16 +934,34 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "qwen",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-24",
+        "confidence": 1.0
+      },
+      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-06-24",
         "confidence": 1.0
       },
       {
-        "keyword": "voice synthesis",
-        "signal_type": "weak_signal",
+        "keyword": "gpt-5",
+        "signal_type": "emerging",
         "flagged_on": "2026-06-24",
-        "confidence": 0.2
+        "confidence": 1.0
+      },
+      {
+        "keyword": "claude",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-24",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "claude opus",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-24",
+        "confidence": 0.8
       },
       {
         "keyword": "hermes-agent",
@@ -790,14 +976,20 @@
         "confidence": 0.2
       },
       {
+        "keyword": "character.ai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-24",
+        "confidence": 0.2
+      },
+      {
         "keyword": "slm",
         "signal_type": "emerging",
         "flagged_on": "2026-06-24",
         "confidence": 0.2
       },
       {
-        "keyword": "character.ai",
-        "signal_type": "emerging",
+        "keyword": "voice synthesis",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-06-24",
         "confidence": 0.2
       },
@@ -812,30 +1004,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-06-23",
         "confidence": 0.2
-      },
-      {
-        "keyword": "together",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-22",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "mcp server",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-22",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "luma",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-22",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "autogpt",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-22",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
@@ -848,23 +1016,23 @@
       },
       {
         "keyword": "slm",
-        "recent_mentions": 29,
+        "recent_mentions": 25,
         "prior_mentions": 4,
-        "change_ratio": 7.25,
+        "change_ratio": 6.25,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "voicebox",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
+        "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "real-time voice",
-        "recent_mentions": 10,
+        "recent_mentions": 8,
         "prior_mentions": 2,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "groq",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
@@ -875,20 +1043,6 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "voicebox",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "small language model",
-        "recent_mentions": 32,
-        "prior_mentions": 9,
-        "change_ratio": 3.56,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "qlora",
         "recent_mentions": 14,
         "prior_mentions": 4,
@@ -896,11 +1050,18 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "reward hacking",
+        "keyword": "groq",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "edge ai",
         "recent_mentions": 14,
         "prior_mentions": 4,
         "change_ratio": 3.5,
-        "corroborating_sources": 1
+        "corroborating_sources": 3
       },
       {
         "keyword": "poolside",
@@ -910,11 +1071,18 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "edge ai",
-        "recent_mentions": 13,
-        "prior_mentions": 4,
-        "change_ratio": 3.25,
-        "corroborating_sources": 2
+        "keyword": "small language model",
+        "recent_mentions": 28,
+        "prior_mentions": 9,
+        "change_ratio": 3.11,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai developer",
+        "recent_mentions": 30,
+        "prior_mentions": 10,
+        "change_ratio": 3.0,
+        "corroborating_sources": 3
       },
       {
         "keyword": "replicate",
