@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T05:31:14+00:00",
+  "generated_at": "2026-06-24T09:30:52+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -71,17 +71,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "llama",
-      "signal_type": "emerging",
-      "flagged_on": "2026-04-03",
-      "materialized_on": "2026-04-08",
-      "lead_days": 5
-    },
-    {
       "keyword": "ai developer",
       "signal_type": "emerging",
       "flagged_on": "2026-03-05",
       "materialized_on": "2026-03-10",
+      "lead_days": 5
+    },
+    {
+      "keyword": "llama",
+      "signal_type": "emerging",
+      "flagged_on": "2026-04-03",
+      "materialized_on": "2026-04-08",
       "lead_days": 5
     },
     {
@@ -96,5 +96,24 @@
     "Alleen voorspellingen met het volle venster meegeteld — geen right-censoring.",
     "Gelijktijdige dekking (voorsprong < drempel) telt als dekking, niet als vroege call.",
     "Nog geen nul-model/controlegroep: de dekking is nog niet tegen toeval afgezet."
-  ]
+  ],
+  "null_model": {
+    "n": 62,
+    "permutations": 1000,
+    "window_days": 45,
+    "early_threshold_days": 3,
+    "observed": {
+      "coverage_rate": 0.839,
+      "early_rate": 0.242
+    },
+    "null_mean": {
+      "coverage_rate": 0.84,
+      "early_rate": 0.272
+    },
+    "p_value": {
+      "coverage_rate": 0.708,
+      "early_rate": 0.833
+    },
+    "verdict_early": "niet onderscheidbaar van toeval"
+  }
 }
