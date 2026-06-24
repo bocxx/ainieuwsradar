@@ -76,6 +76,29 @@ const jsonld = {
       document.addEventListener('astro:page-load',t);
     })();
   `}</script>
+  <script is:inline>
+    // Umami custom events (netwerk-breed, juni 2026): ai-referral (AEO),
+    // cross-domain-click, source-link-click, tab-switch, audio-play, read-depth.
+    // Rauwe JS (geen template-wrapper). window.umami komt van het externe script.
+    (function () {
+      var CONTENT_SEL = '.article__content, .prose, .content-col';
+      var NET = { 'hetlaatsteainieuws.nl':1,'debesteaitools.nl':1,'aiplatformmkb.nl':1,'ainieuwsradar.nl':1,'feedzzz.online':1,'whotofollow.online':1 };
+      function norm(h){return (h||'').toLowerCase().replace(/^www\./,'');}
+      function slugOf(){var p=location.pathname.replace(/\/+$/,'');return p.split('/').filter(Boolean).pop()||'';}
+      function track(name,data){try{if(window.umami&&window.umami.track)window.umami.track(name,data);}catch(e){}}
+      function trackReady(name,data){function go(){if(window.umami&&window.umami.track){window.umami.track(name,data);return true;}return false;}if(go())return;var n=0;var iv=setInterval(function(){if(go()||++n>100)clearInterval(iv);},50);}
+      var ENGINES={'chatgpt.com':'chatgpt','chat.openai.com':'chatgpt','openai.com':'chatgpt','perplexity.ai':'perplexity','gemini.google.com':'gemini','copilot.microsoft.com':'copilot','m365.cloud.microsoft':'copilot','claude.ai':'claude','you.com':'you','phind.com':'phind','grok.com':'grok','x.ai':'grok','mistral.ai':'mistral','chat.mistral.ai':'mistral','poe.com':'poe','deepseek.com':'deepseek','chat.deepseek.com':'deepseek','meta.ai':'meta'};
+      function engineFromValue(v){if(!v)return null;v=v.toLowerCase();if(ENGINES[norm(v)])return ENGINES[norm(v)];var keys=['chatgpt','openai','perplexity','gemini','copilot','claude','phind','grok','mistral','deepseek','meta.ai'];for(var i=0;i<keys.length;i++){if(v.indexOf(keys[i])!==-1)return keys[i]==='meta.ai'?'meta':keys[i].replace('openai','chatgpt');}return null;}
+      (function(){var src=null;try{var p=new URLSearchParams(location.search);src=p.get('utm_source')||p.get('ref')||p.get('source');}catch(e){}var eng=engineFromValue(src),via='param';if(!eng){var ref=document.referrer||'';if(ref){try{var host=norm(new URL(ref).hostname);if(host&&host!==norm(location.hostname)&&ENGINES[host]){eng=ENGINES[host];via='referrer';}}catch(e){}}}if(eng)trackReady('ai-referral',{engine:eng,via:via,landing:location.pathname+location.search});})();
+      document.addEventListener('click',function(e){var t=e.target;if(!t||!t.closest)return;var tab=t.closest('[data-tab], [data-tab-top]');if(tab){var which=tab.getAttribute('data-tab')||tab.getAttribute('data-tab-top');if(which)track('tab-switch',{tab:which,page:location.pathname});}var a=t.closest('a[href]');if(!a)return;var href=a.getAttribute('href')||'';if(!/^https?:\/\//i.test(href))return;var h;try{h=norm(new URL(href).hostname);}catch(_){return;}if(!h||h===norm(location.hostname))return;if(NET[h])track('cross-domain-click',{to:h,href:href,from:location.pathname});else if(a.closest(CONTENT_SEL))track('source-link-click',{host:h,href:href,from:location.pathname});},true);
+      document.addEventListener('play',function(e){if(e.target&&e.target.tagName==='AUDIO')track('audio-play',{slug:slugOf()});},true);
+      var fired={};function checkDepth(){var el=document.querySelector(CONTENT_SEL);if(!el)return;var total=el.offsetHeight;if(total<=0)return;var rect=el.getBoundingClientRect();var pct=Math.min(total,Math.max(0,window.innerHeight-rect.top))/total;var marks=[25,50,75,100];for(var i=0;i<marks.length;i++){var m=marks[i];if(pct>=m/100&&!fired[m]){fired[m]=1;track('read-depth',{pct:m,slug:slugOf()});}}}
+      var ticking=false;window.addEventListener('scroll',function(){if(ticking)return;ticking=true;requestAnimationFrame(function(){checkDepth();ticking=false;});},{passive:true});
+      function resetForPage(){fired={};checkDepth();}
+      if(document.readyState!=='loading')resetForPage();else document.addEventListener('DOMContentLoaded',resetForPage);
+      document.addEventListener('astro:page-load',resetForPage);
+    })();
+  </script>
 </head>
 <body>
   <a href="#main" class="skip-link">Naar de hoofdinhoud</a>
