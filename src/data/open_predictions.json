@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-25T05:32:30+00:00",
+  "generated_at": "2026-06-25T17:36:50+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 33,
+    "open": 34,
     "resolved": 29,
     "hits": 24,
     "misses": 5,
@@ -59,12 +59,6 @@
       "days_left": 36
     },
     {
-      "keyword": "hallucination",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-16",
-      "days_left": 36
-    },
-    {
       "keyword": "deepseek r1",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
@@ -81,6 +75,12 @@
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
       "days_left": 37
+    },
+    {
+      "keyword": "crewai",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-18",
+      "days_left": 38
     }
   ],
   "recent_resolved": [
@@ -97,19 +97,10 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-14",
+      "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-22",
-      "lead_days": 39,
+      "lead_days": 15,
       "outlet": "Nature"
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-04",
-      "resolved_on": "2026-04-10",
-      "lead_days": 6,
-      "outlet": "Techmeme"
     },
     {
       "keyword": "tokens",
@@ -121,12 +112,21 @@
       "outlet": "Business Insider"
     },
     {
-      "keyword": "llama",
+      "keyword": "qwen",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-03",
+      "resolved_on": "2026-04-10",
+      "lead_days": 7,
+      "outlet": "Techmeme"
+    },
+    {
+      "keyword": "llama",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-04",
       "resolved_on": "2026-04-08",
-      "lead_days": 5,
+      "lead_days": 4,
       "outlet": "VentureBeat"
     },
     {
@@ -137,6 +137,15 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
+    },
+    {
+      "keyword": "ai agent",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "The Register"
     },
     {
       "keyword": "benchmark",
@@ -157,13 +166,13 @@
       "outlet": "Techmeme"
     },
     {
-      "keyword": "ai agent",
-      "signal_type": "emerging",
-      "status": "hit",
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
       "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "The Register"
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
     },
     {
       "keyword": "benchmarks",
@@ -173,15 +182,6 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
-    },
-    {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
     },
     {
       "keyword": "ai agents",
