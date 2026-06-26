@@ -1,45 +1,12 @@
 {
-  "generated_at": "2026-06-26T07:14:21.691835",
-  "total_tracked": 4560,
+  "generated_at": "2026-06-26T19:19:47.381936",
+  "total_tracked": 4646,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "fine-tuning",
-      "mentions": 271,
-      "velocity": 55.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "SSM Adapters via Hankel Reduced-order Modeling: Injection Site Determines Task Suitability in Long-Context Fine-Tuning",
-      "articles": [
-        {
-          "title": "SSM Adapters via Hankel Reduced-order Modeling: Injection Site Determines Task Suitability in Long-Context Fine-Tuning",
-          "url": "https://arxiv.org/abs/2606.26290",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
-          "url": "https://arxiv.org/abs/2606.27091",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SSM Adapters via Hankel Reduced-order Modeling: Injection Site Determines Task Suitability in Long-Context Fine-Tuning",
-          "url": "https://arxiv.org/abs/2606.26290",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "agentic",
-      "mentions": 326,
-      "velocity": 54.8,
+      "keyword": "openai",
+      "mentions": 383,
+      "velocity": 23.3,
       "sources": [
         "articles",
         "arxiv",
@@ -52,30 +19,63 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Autodata: An agentic data scientist to create high quality synthetic data",
+      "expert_ratio": 0.8,
+      "headline": "US tells OpenAI to restrict access to its most powerful AI model",
       "articles": [
         {
-          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
-          "url": "https://arxiv.org/abs/2606.25996",
+          "title": "US tells OpenAI to restrict access to its most powerful AI model",
+          "url": "https://www.computerworld.com/article/4190083/us-tells-openai-to-restrict-access-to-its-most-powerful-ai-model.html",
+          "source": "Computerworld"
+        },
+        {
+          "title": "Morgan Stanley, Goldman Shares Fall on Possible OpenAI IPO Delay",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-26/morgan-stanley-goldman-shares-fall-on-possible-openai-ipo-delay",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 129,
+      "velocity": 12.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
+      "articles": [
+        {
+          "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
+          "url": "https://arxiv.org/abs/2606.27091",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI ",
-          "url": "https://arxiv.org/abs/2606.26203",
+          "title": "SSM Adapters via Hankel Reduced-order Modeling: Injection Site Determines Task Suitability in Long-Context Fine-Tuning",
+          "url": "https://arxiv.org/abs/2606.26290",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Chai: Agentic Discovery of Cryptographic Misuse Vulnerabilities",
-          "url": "https://arxiv.org/abs/2606.26933",
+          "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
+          "url": "https://arxiv.org/abs/2606.27091",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "multimodal",
-      "mentions": 288,
-      "velocity": 54.2,
+      "mentions": 140,
+      "velocity": 9.5,
       "sources": [
         "articles",
         "arxiv",
@@ -105,65 +105,171 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
-      "keyword": "voice ai",
-      "mentions": 26,
-      "velocity": 3.1,
+      "keyword": "distillation",
+      "mentions": 41,
+      "velocity": 3.6,
       "sources": [
         "arxiv",
-        "github",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
+      "articles": [
+        {
+          "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
+          "url": "https://arxiv.org/abs/2606.26091",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
+          "url": "https://arxiv.org/abs/2606.26006",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Heterogeneous and Adept Snapshot Distillation for 3D Semantic Segmentation",
+          "url": "https://arxiv.org/abs/2606.25278",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "bolt",
+      "mentions": 16,
+      "velocity": 3.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
         "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.44,
+      "headline": "Bolt è arrivato a Milano, come funziona il nuovo servizio Ncc",
+      "articles": [
+        {
+          "title": "Bolt è arrivato a Milano, come funziona il nuovo servizio Ncc",
+          "url": "https://www.wired.it/article/bolt-milano-ncc-italia-prezzi/",
+          "source": "Wired"
+        }
+      ]
+    },
+    {
+      "keyword": "cline",
+      "mentions": 22,
+      "velocity": 3.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+      "expert_ratio": 0.51,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "ai agent",
+      "mentions": 281,
+      "velocity": 14.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.6,
+      "headline": "AI agents are coming to China’s workplaces too",
       "articles": [
         {
-          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
-          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
+          "title": "AI agents are coming to China’s workplaces too",
+          "url": "https://www.computerworld.com/article/4190075/ai-agents-are-coming-to-chinas-workplaces-too.html",
+          "source": "Computerworld"
+        },
+        {
+          "title": "Patronus AI raises $50M to stress-test AI agents",
+          "url": "https://thenextweb.com/news/patronus-ai-50m-series-b-agent-simulation",
           "source": "The Next Web"
         },
         {
-          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
-          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
+          "title": "Patronus AI raises $50M to stress-test AI agents",
+          "url": "https://thenextweb.com/news/patronus-ai-50m-series-b-agent-simulation",
           "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 115,
+      "velocity": 8.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization",
+      "articles": [
+        {
+          "title": "Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization",
+          "url": "https://arxiv.org/abs/2606.26668",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
-          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
-          "source": "The Next Web"
+          "title": "Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization",
+          "url": "https://arxiv.org/abs/2606.26668",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining",
+          "url": "https://arxiv.org/abs/2606.20506",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "click",
-      "mentions": 2,
-      "velocity": 1.0,
+      "keyword": "local ai",
+      "mentions": 3,
+      "velocity": 2.0,
       "sources": [
-        "articles"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 61,
+      "confidence": 63,
       "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
+      "expert_ratio": 0.75,
+      "headline": "Ditching the cloud for local AI — how I use two mini PCs to process millions of tokens a day and save money on costly AP",
       "articles": [
         {
-          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
-          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Ditching the cloud for local AI — how I use two mini PCs to process millions of tokens a day and save money on costly AP",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ditching-the-cloud-for-local-ai-how-i-use-two-mini-pcs-to-process-millions-of-tokens-a-day-and-save-money-on-costly-api-fees",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
-          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Redact or Keep? A Fully Local AI Cascade for Educational Dialogue De-Identification",
+          "url": "https://arxiv.org/abs/2606.18372",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -178,36 +284,6 @@
       "expert_ratio": 0.67,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "desktop",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
-      "articles": [
-        {
-          "title": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
-          "url": "https://www.techradar.com/pro/get-a-hp-omen-rtx-5090-desktop-for-under-usd2740-the-ultimate-workstation-for-ai-devs-creative-pros-and-stem-students-heading-back-to-school",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
-          "url": "https://www.techradar.com/pro/get-a-hp-omen-rtx-5090-desktop-for-under-usd2740-the-ultimate-workstation-for-ai-devs-creative-pros-and-stem-students-heading-back-to-school",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Deno project is going to add cross-platform desktop apps in next major update",
-          "url": "https://www.theregister.com/software/2026/06/24/deno-project-is-going-to-add-cross-platform-desktop-apps-in-next-major-update/5261388",
-          "source": "The Register"
-        }
-      ]
     },
     {
       "keyword": "attribution",
@@ -300,6 +376,61 @@
       ]
     },
     {
+      "keyword": "click",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
+      "articles": [
+        {
+          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
+          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
+          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "desktop",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "ACEMAGIC potenzia il suo mini PC con una RTX desktop",
+      "articles": [
+        {
+          "title": "ACEMAGIC potenzia il suo mini PC con una RTX desktop",
+          "url": "https://www.tomshw.it/hardware/acemagic-potenzia-il-suo-mini-pc-con-una-rtx-desktop",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
+          "url": "https://www.techradar.com/pro/get-a-hp-omen-rtx-5090-desktop-for-under-usd2740-the-ultimate-workstation-for-ai-devs-creative-pros-and-stem-students-heading-back-to-school",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
+          "url": "https://www.techradar.com/pro/get-a-hp-omen-rtx-5090-desktop-for-under-usd2740-the-ultimate-workstation-for-ai-devs-creative-pros-and-stem-students-heading-back-to-school",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
       "keyword": "supabase",
       "mentions": 3,
       "velocity": 0.8,
@@ -340,61 +471,58 @@
       "expert_ratio": 0.91,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "omnidocbench",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "reddit"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "automation",
-      "mentions": 13,
-      "velocity": 1.4,
+      "keyword": "agentic",
+      "mentions": 151,
+      "velocity": 1.9,
       "sources": [
         "articles",
-        "github"
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Elastic announces a ~7% reduction in its workforce, and says \"advances in AI and automation are letting us operate with ",
+      "expert_ratio": 0.76,
+      "headline": "ZTE showcases practical path to Level-4 autonomous networks through agentic AI and cross-domain innovation at DTW Ignite",
       "articles": [
         {
-          "title": "Elastic announces a ~7% reduction in its workforce, and says \"advances in AI and automation are letting us operate with ",
-          "url": "https://www.techmeme.com/260625/p56#a260625p56",
-          "source": "Techmeme"
+          "title": "ZTE showcases practical path to Level-4 autonomous networks through agentic AI and cross-domain innovation at DTW Ignite",
+          "url": "https://www.theregister.com/networks/2026/06/26/zte-showcases-practical-path-to-level-4-autonomous-networks-through-agentic-ai-and-cross-domain-innovation-at-dtw-ignite-2026/5263080",
+          "source": "The Register"
         },
         {
-          "title": "Elastic announces a ~7% reduction in its workforce, and says \"advances in AI and automation are letting us operate with ",
-          "url": "https://www.techmeme.com/260625/p56#a260625p56",
-          "source": "Techmeme"
+          "title": "Airwallex raises $320m at an $11bn valuation, betting on agentic finance",
+          "url": "https://thenextweb.com/news/airwallex-320m-series-h-11bn-valuation-2",
+          "source": "The Next Web"
+        },
+        {
+          "title": "HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization",
+          "url": "https://arxiv.org/abs/2606.26614",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "code generation",
-      "mentions": 14,
-      "velocity": 1.3,
+      "mentions": 16,
+      "velocity": 1.9,
       "sources": [
+        "articles",
         "arxiv",
         "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.95,
+      "expert_ratio": 0.94,
       "headline": "‘Never let the builder be its own reviewer’: The next challenge is trust, not speed of code generation",
       "articles": [
         {
@@ -415,80 +543,138 @@
       ]
     },
     {
-      "keyword": "github copilot",
-      "mentions": 12,
-      "velocity": 1.2,
+      "keyword": "chatgpt",
+      "mentions": 205,
+      "velocity": 1.8,
       "sources": [
+        "articles",
+        "arxiv",
+        "github",
         "linkedin",
+        "reddit",
         "twitter"
       ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai bubble",
-      "mentions": 14,
-      "velocity": 1.1,
-      "sources": [
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 2,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "Micron Earnings Inflate the AI Bubble: 3-Minutes MLIV",
+      "expert_ratio": 0.52,
+      "headline": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
       "articles": [
         {
-          "title": "Micron Earnings Inflate the AI Bubble: 3-Minutes MLIV",
-          "url": "https://www.bloomberg.com/news/videos/2026-06-25/micron-earnings-inflate-the-ai-bubble-3-minutes-mliv-video",
-          "source": "Bloomberg Technology"
+          "title": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "How to burst the AI bubble: Strike at its roots",
-          "url": "https://arstechnica.com/gadgets/2026/06/how-to-burst-the-ai-bubble-strike-at-its-roots/",
-          "source": "Hacker News"
+          "title": "OpenAI's Dave Dugan explains how ChatGPT is building a new ad category",
+          "url": "https://www.businessinsider.com/openais-dave-dugan-explains-the-strategy-behind-chatgpt-ads-2026-6",
+          "source": "Business Insider"
         },
         {
-          "title": "‘You can’t make billions without hurting people’: Cory Doctorow on Elon Musk, the AI bubble and bosses’ cruel fantasies",
-          "url": "https://www.theguardian.com/technology/2026/jun/24/cory-doctorow-on-elon-musk-ai-bubble-bosses-cruel-fantasies",
-          "source": "Technology | The Guardian"
+          "title": "OpenAI's Dave Dugan explains how ChatGPT is building a new ad category",
+          "url": "https://www.businessinsider.com/openais-dave-dugan-explains-the-strategy-behind-chatgpt-ads-2026-6",
+          "source": "All Content from Business Insider"
         }
       ]
     },
     {
-      "keyword": "glm 5",
-      "mentions": 16,
-      "velocity": 1.0,
-      "sources": [
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "llama.cpp",
-      "mentions": 14,
-      "velocity": 1.0,
+      "keyword": "macbook",
+      "mentions": 13,
+      "velocity": 1.6,
       "sources": [
         "articles",
-        "reddit"
+        "hackernews"
       ],
       "source_count": 2,
       "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.3,
+      "headline": "Sources: Apple's 14\" and 16\" OLED touch screen MacBook Pros will be powered by the existing M5 Pro and M5 Max chips and ",
+      "articles": [
+        {
+          "title": "Sources: Apple's 14\" and 16\" OLED touch screen MacBook Pros will be powered by the existing M5 Pro and M5 Max chips and ",
+          "url": "https://www.techmeme.com/260626/p13#a260626p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Sources: Apple's 14\" and 16\" OLED touch screen MacBook Pros will be powered by the existing M5 Pro and M5 Max chips and ",
+          "url": "https://www.techmeme.com/260626/p13#a260626p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Apple’s Touch MacBook to Use M5 Pro and Max Chips, With M7 Models to Follow",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-26/apple-s-touchscreen-macbook-to-use-m5-pro-max-chips-m7-pro-max-models-in-2027",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 52,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.88,
+      "headline": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
+      "articles": [
+        {
+          "title": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+          "source": "The Verge -  Artificial Intelligences"
+        },
+        {
+          "title": "OpenAI will delay GPT-5.6 after Trump administration request",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+          "source": "The Verge -  All Posts"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 48,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.83,
+      "headline": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
+      "articles": [
+        {
+          "title": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
+          "url": "https://arxiv.org/abs/2606.15507",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
+          "url": "https://arxiv.org/abs/2606.15507",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
+          "url": "https://arxiv.org/abs/2512.22671",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "track_record": {
@@ -627,19 +813,25 @@
         "confidence": 1.0
       },
       {
+        "keyword": "voice ai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-26",
+        "confidence": 0.6
+      },
+      {
         "keyword": "phi-4",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 0.4
       },
       {
-        "keyword": "anthropic",
+        "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-06-25",
         "confidence": 1.0
       },
       {
-        "keyword": "claude",
+        "keyword": "anthropic",
         "signal_type": "emerging",
         "flagged_on": "2026-06-25",
         "confidence": 1.0
@@ -667,20 +859,14 @@
         "signal_type": "emerging",
         "flagged_on": "2026-06-24",
         "confidence": 0.8
-      },
-      {
-        "keyword": "character.ai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-24",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "slm",
-        "recent_mentions": 54,
+        "recent_mentions": 46,
         "prior_mentions": 3,
-        "change_ratio": 18.0,
+        "change_ratio": 15.33,
         "corroborating_sources": 1
       },
       {
@@ -698,6 +884,13 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "cerebras",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "zhipu",
         "recent_mentions": 10,
         "prior_mentions": 2,
@@ -712,25 +905,11 @@
         "corroborating_sources": 4
       },
       {
-        "keyword": "cerebras",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "fireworks",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "chroma",
-        "recent_mentions": 14,
-        "prior_mentions": 3,
-        "change_ratio": 4.67,
-        "corroborating_sources": 2
       },
       {
         "keyword": "gamma",
@@ -754,11 +933,18 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "ai safety",
-        "recent_mentions": 23,
-        "prior_mentions": 6,
-        "change_ratio": 3.83,
-        "corroborating_sources": 3
+        "keyword": "computer-use",
+        "recent_mentions": 40,
+        "prior_mentions": 11,
+        "change_ratio": 3.64,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "computer use",
+        "recent_mentions": 14,
+        "prior_mentions": 4,
+        "change_ratio": 3.5,
+        "corroborating_sources": 2
       }
     ]
   }
