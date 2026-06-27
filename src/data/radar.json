@@ -1,12 +1,154 @@
 {
-  "generated_at": "2026-06-26T19:19:47.381936",
-  "total_tracked": 4646,
+  "generated_at": "2026-06-27T07:15:07.560436",
+  "total_tracked": 4511,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "anthropic",
+      "mentions": 274,
+      "velocity": 5.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "Anthropic gets US government's permission to redeploy its Mythos cybersecurity AI model",
+      "articles": [
+        {
+          "title": "Anthropic gets US government's permission to redeploy its Mythos cybersecurity AI model",
+          "url": "https://www.engadget.com/2203088/anthropic-redeploy-mythos-cybersecurity-ai-model/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Anthropic gets US government's permission to redeploy its Mythos cybersecurity AI model",
+          "url": "https://www.engadget.com/2203088/anthropic-redeploy-mythos-cybersecurity-ai-model/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
+          "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/?utm_source=flipboard&utm_content=Techcrunch/magazine/Artificial+Intelligence+in+2023:+News+and+Updates",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 57,
+      "velocity": 3.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
+      "articles": [
+        {
+          "title": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
+          "url": "https://arxiv.org/abs/2606.15507",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
+          "url": "https://arxiv.org/abs/2606.15507",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
+          "url": "https://arxiv.org/abs/2512.22671",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 588,
+      "velocity": 3.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.75,
+      "headline": "Anthropic accuses Alibaba of copying Claude by asking it millions of questions — and sets the stage for a new AI war",
+      "articles": [
+        {
+          "title": "Anthropic accuses Alibaba of copying Claude by asking it millions of questions — and sets the stage for a new AI war",
+          "url": "https://www.techradar.com/ai-platforms-assistants/anthropic-accuses-alibaba-of-copying-claude-by-asking-it-millions-of-questions-and-sets-the-stage-for-a-new-ai-war",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Anthropic accuses Alibaba of copying Claude by asking it millions of questions — and sets the stage for a new AI war",
+          "url": "https://www.techradar.com/ai-platforms-assistants/anthropic-accuses-alibaba-of-copying-claude-by-asking-it-millions-of-questions-and-sets-the-stage-for-a-new-ai-war",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+          "url": "https://github.com/workweave/router",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 60,
+      "velocity": 3.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
+      "headline": "OpenAI launches a limited preview of GPT-5.6 for a 'small group of trusted partners'",
+      "articles": [
+        {
+          "title": "OpenAI launches a limited preview of GPT-5.6 for a 'small group of trusted partners'",
+          "url": "https://www.engadget.com/2203102/openai-starts-previewing-gpt-56-and-its-three-variants/",
+          "source": "Engadget"
+        },
+        {
+          "title": "OpenAI says GPT-5.6 Sol and Terra were capable of identifying vulnerabilities but were unable to execute autonomous, end",
+          "url": "https://www.techmeme.com/260626/p23#a260626p23",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI says GPT-5.6 Sol and Terra were capable of identifying vulnerabilities but were unable to execute autonomous, end",
+          "url": "https://www.techmeme.com/260626/p23#a260626p23",
+          "source": "Techmeme"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "openai",
-      "mentions": 383,
-      "velocity": 23.3,
+      "mentions": 410,
+      "velocity": 24.4,
       "sources": [
         "articles",
         "arxiv",
@@ -20,168 +162,29 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.8,
-      "headline": "US tells OpenAI to restrict access to its most powerful AI model",
+      "headline": "OpenAI launches a limited preview of GPT-5.6 for a 'small group of trusted partners'",
       "articles": [
         {
-          "title": "US tells OpenAI to restrict access to its most powerful AI model",
-          "url": "https://www.computerworld.com/article/4190083/us-tells-openai-to-restrict-access-to-its-most-powerful-ai-model.html",
-          "source": "Computerworld"
+          "title": "OpenAI launches a limited preview of GPT-5.6 for a 'small group of trusted partners'",
+          "url": "https://www.engadget.com/2203102/openai-starts-previewing-gpt-56-and-its-three-variants/",
+          "source": "Engadget"
         },
         {
-          "title": "Morgan Stanley, Goldman Shares Fall on Possible OpenAI IPO Delay",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-26/morgan-stanley-goldman-shares-fall-on-possible-openai-ipo-delay",
-          "source": "Bloomberg Technology"
+          "title": "OpenAI Hires Apple Vision Pro and Smart Glasses Executive",
+          "url": "https://www.theinformation.com/briefings/openai-hires-apple-vision-pro-smart-glasses-executive",
+          "source": "The Information"
         },
         {
-          "title": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
-          "source": "Tom's Hardware"
+          "title": "OpenAI says GPT-5.6 Sol and Terra were capable of identifying vulnerabilities but were unable to execute autonomous, end",
+          "url": "https://www.techmeme.com/260626/p23#a260626p23",
+          "source": "Techmeme"
         }
       ]
     },
-    {
-      "keyword": "fine-tuning",
-      "mentions": 129,
-      "velocity": 12.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
-      "articles": [
-        {
-          "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
-          "url": "https://arxiv.org/abs/2606.27091",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SSM Adapters via Hankel Reduced-order Modeling: Injection Site Determines Task Suitability in Long-Context Fine-Tuning",
-          "url": "https://arxiv.org/abs/2606.26290",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
-          "url": "https://arxiv.org/abs/2606.27091",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "multimodal",
-      "mentions": 140,
-      "velocity": 9.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "MMGist: A Comprehensive Multimodal Benchmark for 2027",
-      "articles": [
-        {
-          "title": "MMGist: A Comprehensive Multimodal Benchmark for 2027",
-          "url": "https://arxiv.org/abs/2606.22437",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Semantic Generative Tuning for Unified Multimodal Models",
-          "url": "https://arxiv.org/abs/2605.18714",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "VisNec: Measuring and Leveraging Visual Necessity for Multimodal Instruction Tuning",
-          "url": "https://arxiv.org/abs/2603.01195",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "distillation",
-      "mentions": 41,
-      "velocity": 3.6,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.96,
-      "headline": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
-      "articles": [
-        {
-          "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
-          "url": "https://arxiv.org/abs/2606.26091",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
-          "url": "https://arxiv.org/abs/2606.26006",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Heterogeneous and Adept Snapshot Distillation for 3D Semantic Segmentation",
-          "url": "https://arxiv.org/abs/2606.25278",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "bolt",
-      "mentions": 16,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.44,
-      "headline": "Bolt è arrivato a Milano, come funziona il nuovo servizio Ncc",
-      "articles": [
-        {
-          "title": "Bolt è arrivato a Milano, come funziona il nuovo servizio Ncc",
-          "url": "https://www.wired.it/article/bolt-milano-ncc-italia-prezzi/",
-          "source": "Wired"
-        }
-      ]
-    },
-    {
-      "keyword": "cline",
-      "mentions": 22,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "",
-      "articles": []
-    }
-  ],
-  "emerging": [
     {
       "keyword": "ai agent",
-      "mentions": 281,
-      "velocity": 14.4,
+      "mentions": 266,
+      "velocity": 5.5,
       "sources": [
         "articles",
         "arxiv",
@@ -194,7 +197,7 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.6,
+      "expert_ratio": 0.58,
       "headline": "AI agents are coming to China’s workplaces too",
       "articles": [
         {
@@ -203,9 +206,9 @@
           "source": "Computerworld"
         },
         {
-          "title": "Patronus AI raises $50M to stress-test AI agents",
-          "url": "https://thenextweb.com/news/patronus-ai-50m-series-b-agent-simulation",
-          "source": "The Next Web"
+          "title": "AI agents are coming to China’s workplaces too",
+          "url": "https://www.computerworld.com/article/4190075/ai-agents-are-coming-to-chinas-workplaces-too.html",
+          "source": "Artificial Intelligence – Computerworld"
         },
         {
           "title": "Patronus AI raises $50M to stress-test AI agents",
@@ -216,8 +219,8 @@
     },
     {
       "keyword": "lora",
-      "mentions": 115,
-      "velocity": 8.7,
+      "mentions": 110,
+      "velocity": 4.6,
       "sources": [
         "articles",
         "arxiv",
@@ -240,8 +243,8 @@
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining",
-          "url": "https://arxiv.org/abs/2606.20506",
+          "title": "Techniques for Peak Memory Reduction for LoRA Fine-tuning of LLMs on Edge Devices",
+          "url": "https://arxiv.org/abs/2606.19528",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -249,41 +252,89 @@
   ],
   "weak_signals": [
     {
-      "keyword": "local ai",
-      "mentions": 3,
-      "velocity": 2.0,
+      "keyword": "click",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 63,
+      "confidence": 61,
       "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "Ditching the cloud for local AI — how I use two mini PCs to process millions of tokens a day and save money on costly AP",
+      "expert_ratio": 0.67,
+      "headline": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
       "articles": [
         {
-          "title": "Ditching the cloud for local AI — how I use two mini PCs to process millions of tokens a day and save money on costly AP",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ditching-the-cloud-for-local-ai-how-i-use-two-mini-pcs-to-process-millions-of-tokens-a-day-and-save-money-on-costly-api-fees",
-          "source": "Tom's Hardware"
+          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
+          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Redact or Keep? A Fully Local AI Cascade for Educational Dialogue De-Identification",
-          "url": "https://arxiv.org/abs/2606.18372",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
+          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "edtech",
+      "keyword": "desktop",
       "mentions": 2,
       "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
+      "headline": "ACEMAGIC potenzia il suo mini PC con una RTX desktop",
+      "articles": [
+        {
+          "title": "ACEMAGIC potenzia il suo mini PC con una RTX desktop",
+          "url": "https://www.tomshw.it/hardware/acemagic-potenzia-il-suo-mini-pc-con-una-rtx-desktop",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
+          "url": "https://www.techradar.com/pro/get-a-hp-omen-rtx-5090-desktop-for-under-usd2740-the-ultimate-workstation-for-ai-devs-creative-pros-and-stem-students-heading-back-to-school",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
+          "url": "https://www.techradar.com/pro/get-a-hp-omen-rtx-5090-desktop-for-under-usd2740-the-ultimate-workstation-for-ai-devs-creative-pros-and-stem-students-heading-back-to-school",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "quantum computing",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Efficient foundation decoders for fault-tolerant quantum computing",
+      "articles": [
+        {
+          "title": "Efficient foundation decoders for fault-tolerant quantum computing",
+          "url": "https://arxiv.org/abs/2606.27119",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Efficient foundation decoders for fault-tolerant quantum computing",
+          "url": "https://arxiv.org/abs/2606.27119",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Researchers cast new doubt on Microsoft’s quantum computing advance",
+          "url": "https://www.computerworld.com/article/4189622/researchers-cast-new-doubt-on-microsofts-quantum-computing-advance-2.html",
+          "source": "Computerworld"
+        }
+      ]
     },
     {
       "keyword": "attribution",
@@ -346,91 +397,6 @@
       ]
     },
     {
-      "keyword": "quantum computing",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Efficient foundation decoders for fault-tolerant quantum computing",
-      "articles": [
-        {
-          "title": "Efficient foundation decoders for fault-tolerant quantum computing",
-          "url": "https://arxiv.org/abs/2606.27119",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Efficient foundation decoders for fault-tolerant quantum computing",
-          "url": "https://arxiv.org/abs/2606.27119",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Researchers cast new doubt on Microsoft’s quantum computing advance",
-          "url": "https://www.computerworld.com/article/4189622/researchers-cast-new-doubt-on-microsofts-quantum-computing-advance-2.html",
-          "source": "Computerworld"
-        }
-      ]
-    },
-    {
-      "keyword": "click",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
-      "articles": [
-        {
-          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
-          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
-          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "desktop",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "ACEMAGIC potenzia il suo mini PC con una RTX desktop",
-      "articles": [
-        {
-          "title": "ACEMAGIC potenzia il suo mini PC con una RTX desktop",
-          "url": "https://www.tomshw.it/hardware/acemagic-potenzia-il-suo-mini-pc-con-una-rtx-desktop",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
-          "url": "https://www.techradar.com/pro/get-a-hp-omen-rtx-5090-desktop-for-under-usd2740-the-ultimate-workstation-for-ai-devs-creative-pros-and-stem-students-heading-back-to-school",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Get a HP Omen RTX 5090 desktop for under $2740 — the ultimate workstation for AI devs, creative pros, and STEM students ",
-          "url": "https://www.techradar.com/pro/get-a-hp-omen-rtx-5090-desktop-for-under-usd2740-the-ultimate-workstation-for-ai-devs-creative-pros-and-stem-students-heading-back-to-school",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
       "keyword": "supabase",
       "mentions": 3,
       "velocity": 0.8,
@@ -443,6 +409,31 @@
       "expert_ratio": 0.86,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "local ai",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Ditching the cloud for local AI — how I use two mini PCs to process millions of tokens a day and save money on costly AP",
+      "articles": [
+        {
+          "title": "Ditching the cloud for local AI — how I use two mini PCs to process millions of tokens a day and save money on costly AP",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ditching-the-cloud-for-local-ai-how-i-use-two-mini-pcs-to-process-millions-of-tokens-a-day-and-save-money-on-costly-api-fees",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Redact or Keep? A Fully Local AI Cascade for Educational Dialogue De-Identification",
+          "url": "https://arxiv.org/abs/2606.18372",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
       "keyword": "we created a monster",
@@ -466,215 +457,179 @@
         "github"
       ],
       "source_count": 1,
-      "confidence": 77,
-      "days_active": 7,
-      "expert_ratio": 0.91,
+      "confidence": 75,
+      "days_active": 6,
+      "expert_ratio": 0.9,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "supralabs",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "reddit"
+      ],
+      "source_count": 1,
+      "confidence": 67,
+      "days_active": 5,
+      "expert_ratio": 1.0,
       "headline": "",
       "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "agentic",
-      "mentions": 151,
-      "velocity": 1.9,
+      "keyword": "together",
+      "mentions": 59,
+      "velocity": 2.0,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
         "linkedin",
-        "reddit",
         "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "ZTE showcases practical path to Level-4 autonomous networks through agentic AI and cross-domain innovation at DTW Ignite",
-      "articles": [
-        {
-          "title": "ZTE showcases practical path to Level-4 autonomous networks through agentic AI and cross-domain innovation at DTW Ignite",
-          "url": "https://www.theregister.com/networks/2026/06/26/zte-showcases-practical-path-to-level-4-autonomous-networks-through-agentic-ai-and-cross-domain-innovation-at-dtw-ignite-2026/5263080",
-          "source": "The Register"
-        },
-        {
-          "title": "Airwallex raises $320m at an $11bn valuation, betting on agentic finance",
-          "url": "https://thenextweb.com/news/airwallex-320m-series-h-11bn-valuation-2",
-          "source": "The Next Web"
-        },
-        {
-          "title": "HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization",
-          "url": "https://arxiv.org/abs/2606.26614",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "code generation",
-      "mentions": 16,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "‘Never let the builder be its own reviewer’: The next challenge is trust, not speed of code generation",
+      "expert_ratio": 0.0,
+      "headline": "Got to get you into my life: these essential vinyl albums and gifts will help you come together on Global Beatles Day — ",
       "articles": [
         {
-          "title": "‘Never let the builder be its own reviewer’: The next challenge is trust, not speed of code generation",
-          "url": "https://www.techradar.com/pro/never-let-the-builder-be-its-own-reviewer-the-next-challenge-is-trust-not-speed-of-code-generation",
+          "title": "Got to get you into my life: these essential vinyl albums and gifts will help you come together on Global Beatles Day — ",
+          "url": "https://www.techradar.com/audio/turntables/got-to-get-you-into-my-life-these-essential-vinyl-albums-and-gifts-will-help-you-come-together-on-global-beatles-day",
           "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "‘Never let the builder be its own reviewer’: The next challenge is trust, not speed of code generation",
-          "url": "https://www.techradar.com/pro/never-let-the-builder-be-its-own-reviewer-the-next-challenge-is-trust-not-speed-of-code-generation",
+          "title": "Got to get you into my life: these essential vinyl albums and gifts will help you come together on Global Beatles Day — ",
+          "url": "https://www.techradar.com/audio/turntables/got-to-get-you-into-my-life-these-essential-vinyl-albums-and-gifts-will-help-you-come-together-on-global-beatles-day",
           "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "LibEvoBench: Probing Temporal Knowledge Stratification in Code Generation Models",
-          "url": "https://arxiv.org/abs/2606.25402",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Open Source Growth Boosts Together AI, Hugging Face",
+          "url": "https://www.theinformation.com/articles/open-source-growth-boosts-together-ai-hugging-face",
+          "source": "The Information"
         }
       ]
     },
     {
-      "keyword": "chatgpt",
-      "mentions": 205,
-      "velocity": 1.8,
+      "keyword": "gpt-4o",
+      "mentions": 17,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
-      "articles": [
-        {
-          "title": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "OpenAI's Dave Dugan explains how ChatGPT is building a new ad category",
-          "url": "https://www.businessinsider.com/openais-dave-dugan-explains-the-strategy-behind-chatgpt-ads-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "OpenAI's Dave Dugan explains how ChatGPT is building a new ad category",
-          "url": "https://www.businessinsider.com/openais-dave-dugan-explains-the-strategy-behind-chatgpt-ads-2026-6",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "macbook",
-      "mentions": 13,
-      "velocity": 1.6,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.3,
-      "headline": "Sources: Apple's 14\" and 16\" OLED touch screen MacBook Pros will be powered by the existing M5 Pro and M5 Max chips and ",
-      "articles": [
-        {
-          "title": "Sources: Apple's 14\" and 16\" OLED touch screen MacBook Pros will be powered by the existing M5 Pro and M5 Max chips and ",
-          "url": "https://www.techmeme.com/260626/p13#a260626p13",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Sources: Apple's 14\" and 16\" OLED touch screen MacBook Pros will be powered by the existing M5 Pro and M5 Max chips and ",
-          "url": "https://www.techmeme.com/260626/p13#a260626p13",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Apple’s Touch MacBook to Use M5 Pro and Max Chips, With M7 Models to Follow",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-26/apple-s-touchscreen-macbook-to-use-m5-pro-max-chips-m7-pro-max-models-in-2027",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 52,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
         "reddit"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.88,
-      "headline": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "distillation",
+      "mentions": 39,
+      "velocity": 1.9,
+      "sources": [
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "What Is AI Distillation and Why Is It a Worry for the Industry?",
       "articles": [
         {
-          "title": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says t",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
-          "source": "Tom's Hardware"
+          "title": "What Is AI Distillation and Why Is It a Worry for the Industry?",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-26/what-is-ai-distillation-and-why-is-it-a-worry-for-the-industry",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "OpenAI will delay GPT-5.6 after Trump administration request",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
+          "url": "https://arxiv.org/abs/2606.26091",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "OpenAI will delay GPT-5.6 after Trump administration request",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-          "source": "The Verge -  All Posts"
+          "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
+          "url": "https://arxiv.org/abs/2606.26006",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "llama",
-      "mentions": 48,
-      "velocity": 1.3,
+      "keyword": "synthetic data",
+      "mentions": 15,
+      "velocity": 1.8,
       "sources": [
-        "articles",
         "arxiv",
-        "github",
-        "linkedin",
         "reddit"
       ],
-      "source_count": 5,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
+      "expert_ratio": 0.92,
+      "headline": "Autodata: An agentic data scientist to create high quality synthetic data",
       "articles": [
         {
-          "title": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
-          "url": "https://arxiv.org/abs/2606.15507",
+          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+          "url": "https://arxiv.org/abs/2606.25996",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
-          "url": "https://arxiv.org/abs/2606.15507",
+          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+          "url": "https://arxiv.org/abs/2606.25996",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2",
-          "url": "https://arxiv.org/abs/2512.22671",
+          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+          "url": "https://arxiv.org/abs/2606.25996",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "context window",
+      "mentions": 20,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.73,
+      "headline": "Zhipu launches GLM-5.2, says it markedly improves coding and agentic tasks, with strong long-horizon capabilities and a ",
+      "articles": [
+        {
+          "title": "Zhipu launches GLM-5.2, says it markedly improves coding and agentic tasks, with strong long-horizon capabilities and a ",
+          "url": "https://www.techmeme.com/260616/p37#a260616p37",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Zhipu launches GLM-5.2, says it markedly improves coding and agentic tasks, with strong long-horizon capabilities and a ",
+          "url": "https://www.techmeme.com/260616/p37#a260616p37",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "llama.cpp",
+      "mentions": 17,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -789,13 +744,13 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "data center",
+        "keyword": "lora",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-26",
-        "confidence": 1.0
+        "flagged_on": "2026-06-27",
+        "confidence": 0.6
       },
       {
-        "keyword": "openai",
+        "keyword": "claude code",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 1.0
@@ -807,7 +762,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "claude code",
+        "keyword": "openai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-26",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "data center",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 1.0
@@ -825,13 +786,13 @@
         "confidence": 0.4
       },
       {
-        "keyword": "claude",
+        "keyword": "anthropic",
         "signal_type": "emerging",
         "flagged_on": "2026-06-25",
         "confidence": 1.0
       },
       {
-        "keyword": "anthropic",
+        "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-06-25",
         "confidence": 1.0
@@ -853,63 +814,64 @@
         "signal_type": "emerging",
         "flagged_on": "2026-06-24",
         "confidence": 1.0
-      },
-      {
-        "keyword": "claude opus",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-24",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
       {
-        "keyword": "slm",
-        "recent_mentions": 46,
-        "prior_mentions": 3,
-        "change_ratio": 15.33,
+        "keyword": "notion",
+        "recent_mentions": 19,
+        "prior_mentions": 1,
+        "change_ratio": 19.0,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "voice agent",
+        "recent_mentions": 22,
+        "prior_mentions": 2,
+        "change_ratio": 11.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "claude cowork",
+        "recent_mentions": 9,
+        "prior_mentions": 1,
+        "change_ratio": 9.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "codex cli",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "zhipu",
+        "recent_mentions": 15,
+        "prior_mentions": 2,
+        "change_ratio": 7.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai wearable",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "dalle",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "maestro",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
+        "keyword": "krea",
+        "recent_mentions": 12,
+        "prior_mentions": 2,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "cerebras",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "zhipu",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "notion",
+        "keyword": "computer use",
         "recent_mentions": 15,
         "prior_mentions": 3,
         "change_ratio": 5.0,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "fireworks",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
         "keyword": "gamma",
@@ -919,32 +881,25 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "hugging face",
-        "recent_mentions": 33,
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 32,
         "prior_mentions": 8,
-        "change_ratio": 4.12,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "replicate",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
         "change_ratio": 4.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "computer-use",
-        "recent_mentions": 40,
-        "prior_mentions": 11,
-        "change_ratio": 3.64,
-        "corroborating_sources": 2
+        "keyword": "magic ai",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "computer use",
-        "recent_mentions": 14,
-        "prior_mentions": 4,
+        "keyword": "maestro",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
         "change_ratio": 3.5,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       }
     ]
   }
