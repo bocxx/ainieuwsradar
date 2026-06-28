@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T17:32:38+00:00",
+  "generated_at": "2026-06-28T05:31:13+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -14,73 +14,73 @@
       "keyword": "mcp client",
       "signal_type": "weak_signal",
       "flagged_on": "2026-05-31",
-      "days_left": 18
+      "days_left": 17
     },
     {
       "keyword": "text to speech",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-08",
-      "days_left": 26
+      "days_left": 25
     },
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 31
+      "days_left": 30
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 33
+      "days_left": 32
     },
     {
       "keyword": "grok",
       "signal_type": "emerging",
       "flagged_on": "2026-06-15",
-      "days_left": 33
+      "days_left": 32
     },
     {
       "keyword": "voice mode",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 34
+      "days_left": 33
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 34
+      "days_left": 33
     },
     {
       "keyword": "deepseek r1",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 34
+      "days_left": 33
     },
     {
       "keyword": "hallucinations",
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
-      "days_left": 35
+      "days_left": 34
     },
     {
       "keyword": "context window",
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
-      "days_left": 35
+      "days_left": 34
     },
     {
       "keyword": "crewai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-18",
-      "days_left": 36
+      "days_left": 35
     },
     {
       "keyword": "browser use",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-19",
-      "days_left": 37
+      "days_left": 36
     }
   ],
   "recent_resolved": [
@@ -103,15 +103,6 @@
       "outlet": "Nature"
     },
     {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-03",
-      "resolved_on": "2026-04-10",
-      "lead_days": 7,
-      "outlet": "Techmeme"
-    },
-    {
       "keyword": "tokens",
       "signal_type": "emerging",
       "status": "hit",
@@ -119,6 +110,15 @@
       "resolved_on": "2026-04-10",
       "lead_days": 3,
       "outlet": "Business Insider"
+    },
+    {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-03",
+      "resolved_on": "2026-04-10",
+      "lead_days": 7,
+      "outlet": "Techmeme"
     },
     {
       "keyword": "llama",
@@ -130,6 +130,15 @@
       "outlet": "VentureBeat"
     },
     {
+      "keyword": "data center",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Techmeme"
+    },
+    {
       "keyword": "ai agent",
       "signal_type": "emerging",
       "status": "hit",
@@ -137,15 +146,6 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "The Register"
-    },
-    {
-      "keyword": "benchmark",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
     },
     {
       "keyword": "ai copyright",
@@ -157,13 +157,13 @@
       "outlet": null
     },
     {
-      "keyword": "data center",
+      "keyword": "benchmark",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-07",
       "lead_days": 0,
-      "outlet": "Techmeme"
+      "outlet": "Tweakers"
     },
     {
       "keyword": "copilot",

@@ -1,12 +1,51 @@
 {
-  "generated_at": "2026-06-27T19:16:02.231725",
-  "total_tracked": 4587,
+  "generated_at": "2026-06-28T07:15:28.749853",
+  "total_tracked": 4503,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "anthropic",
-      "mentions": 275,
-      "velocity": 5.4,
+      "keyword": "ai agent",
+      "mentions": 277,
+      "velocity": 8.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.57,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 29,
+      "velocity": 2.9,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.15,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "openai",
+      "mentions": 404,
+      "velocity": 14.8,
       "sources": [
         "articles",
         "arxiv",
@@ -20,60 +59,65 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.79,
-      "headline": "Source: the Trump administration is close to allowing Anthropic to restore access to Fable 5; limits could be lifted as ",
+      "headline": "Apple Vision Pro exec is reportedly leaving for OpenAI",
       "articles": [
         {
-          "title": "Source: the Trump administration is close to allowing Anthropic to restore access to Fable 5; limits could be lifted as ",
-          "url": "https://www.techmeme.com/260627/p8#a260627p8",
-          "source": "Techmeme"
+          "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+          "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Source: the Trump administration is close to allowing Anthropic to restore access to Fable 5; limits could be lifted as ",
-          "url": "https://www.techmeme.com/260627/p8#a260627p8",
-          "source": "Techmeme"
+          "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+          "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Salesforce Employees Worry Over Anthropic’s Invasion of Slack",
-          "url": "https://www.theinformation.com/articles/salesforce-employees-worry-anthropics-invasion-slack",
-          "source": "The Information"
+          "title": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
+          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/we-dont-believe-this-kind-of-government-access-process-should-become-the-long-term-default-openai-unveils-big-gpt-5-6-upgrades-for-chatgpt-but-you-cant-use-them-yet",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "world model",
-      "mentions": 21,
-      "velocity": 3.1,
+      "keyword": "chatgpt",
+      "mentions": 228,
+      "velocity": 6.5,
       "sources": [
+        "articles",
         "arxiv",
-        "reddit"
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
+      "expert_ratio": 0.51,
+      "headline": "ChatGPT has stopped taking your prompts so literally — and that’s a bigger deal than it sounds",
       "articles": [
         {
-          "title": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
-          "url": "https://arxiv.org/abs/2606.27277",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "ChatGPT has stopped taking your prompts so literally — and that’s a bigger deal than it sounds",
+          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-has-stopped-taking-your-prompts-so-literally-and-thats-a-bigger-deal-than-it-sounds",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
-          "url": "https://arxiv.org/abs/2606.27277",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "ChatGPT has stopped taking your prompts so literally — and that’s a bigger deal than it sounds",
+          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-has-stopped-taking-your-prompts-so-literally-and-thats-a-bigger-deal-than-it-sounds",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Einstein World Models",
-          "url": "https://arxiv.org/abs/2606.26969",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
+          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/we-dont-believe-this-kind-of-government-access-process-should-become-the-long-term-default-openai-unveils-big-gpt-5-6-upgrades-for-chatgpt-but-you-cant-use-them-yet",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
       "keyword": "seedance",
-      "mentions": 19,
-      "velocity": 2.6,
+      "mentions": 27,
+      "velocity": 4.3,
       "sources": [
         "linkedin",
         "reddit",
@@ -103,150 +147,26 @@
       ]
     }
   ],
-  "emerging": [
-    {
-      "keyword": "openai",
-      "mentions": 416,
-      "velocity": 26.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
-      "articles": [
-        {
-          "title": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
-          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/we-dont-believe-this-kind-of-government-access-process-should-become-the-long-term-default-openai-unveils-big-gpt-5-6-upgrades-for-chatgpt-but-you-cant-use-them-yet",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
-          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/we-dont-believe-this-kind-of-government-access-process-should-become-the-long-term-default-openai-unveils-big-gpt-5-6-upgrades-for-chatgpt-but-you-cant-use-them-yet",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "OpenAI poaches Uber India’s chief to run its biggest market outside the United States",
-          "url": "https://thenextweb.com/news/openai-india-managing-director-prabhjeet-singh-uber",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 220,
-      "velocity": 5.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
-      "articles": [
-        {
-          "title": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
-          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/we-dont-believe-this-kind-of-government-access-process-should-become-the-long-term-default-openai-unveils-big-gpt-5-6-upgrades-for-chatgpt-but-you-cant-use-them-yet",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
-          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/we-dont-believe-this-kind-of-government-access-process-should-become-the-long-term-default-openai-unveils-big-gpt-5-6-upgrades-for-chatgpt-but-you-cant-use-them-yet",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Ook ChatGPT stelt nieuw model slechts beperkt beschikbaar op verzoek regering VS",
-          "url": "https://www.volkskrant.nl/economie/ook-chatgpt-stelt-nieuw-model-slechts-beperkt-beschikbaar-op-verzoek-regering-vs~b181ea430/",
-          "source": "de Volkskrant - Voorpagina"
-        }
-      ]
-    },
-    {
-      "keyword": "lora",
-      "mentions": 109,
-      "velocity": 4.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization",
-      "articles": [
-        {
-          "title": "Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization",
-          "url": "https://arxiv.org/abs/2606.26668",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization",
-          "url": "https://arxiv.org/abs/2606.26668",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
   "weak_signals": [
     {
-      "keyword": "vector",
+      "keyword": "nemo",
       "mentions": 3,
-      "velocity": 2.0,
+      "velocity": 1.0,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "Sutra: Tensor-Op RNNs as a Compilation Target for Vector Symbolic Architectures",
+      "confidence": 67,
+      "days_active": 3,
+      "expert_ratio": 0.83,
+      "headline": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
       "articles": [
         {
-          "title": "Sutra: Tensor-Op RNNs as a Compilation Target for Vector Symbolic Architectures",
-          "url": "https://arxiv.org/abs/2605.20919",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Sutra: Tensor-Op RNNs as a Compilation Target for Vector Symbolic Architectures",
-          "url": "https://arxiv.org/abs/2605.20919",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "IHUBERT: Vector-Based Semantic Deduplication and Domain-Balanced Pretraining for Persian Resources",
-          "url": "https://arxiv.org/abs/2606.20089",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+          "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+          "source": "Hugging Face Blog"
         }
       ]
-    },
-    {
-      "keyword": "desktop",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "attribution",
@@ -309,7 +229,7 @@
       ]
     },
     {
-      "keyword": "click",
+      "keyword": "desktop",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -319,19 +239,8 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
-      "articles": [
-        {
-          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
-          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "AdGuard VPN launches on the Mac App Store to offer Apple users one-click privacy — but with a caveat",
-          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-launches-on-the-mac-app-store-to-offer-apple-users-one-click-privacy-but-with-a-caveat",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "supabase",
@@ -346,6 +255,31 @@
       "expert_ratio": 0.86,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "vector",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Sutra: Tensor-Op RNNs as a Compilation Target for Vector Symbolic Architectures",
+      "articles": [
+        {
+          "title": "Sutra: Tensor-Op RNNs as a Compilation Target for Vector Symbolic Architectures",
+          "url": "https://arxiv.org/abs/2605.20919",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Sutra: Tensor-Op RNNs as a Compilation Target for Vector Symbolic Architectures",
+          "url": "https://arxiv.org/abs/2605.20919",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
       "keyword": "local ai",
@@ -389,27 +323,27 @@
     {
       "keyword": "nemoclaw",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.6,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 75,
-      "days_active": 6,
-      "expert_ratio": 0.9,
+      "confidence": 73,
+      "days_active": 5,
+      "expert_ratio": 0.89,
       "headline": "",
       "articles": []
     },
     {
       "keyword": "supralabs",
       "mentions": 2,
-      "velocity": 0.4,
+      "velocity": 0.5,
       "sources": [
         "reddit"
       ],
       "source_count": 1,
-      "confidence": 67,
-      "days_active": 5,
+      "confidence": 65,
+      "days_active": 4,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
@@ -417,9 +351,9 @@
   ],
   "sustained": [
     {
-      "keyword": "llama.cpp",
-      "mentions": 18,
-      "velocity": 1.9,
+      "keyword": "linkedin",
+      "mentions": 23,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "reddit"
@@ -427,45 +361,30 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "synthetic data",
-      "mentions": 15,
-      "velocity": 1.8,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "Autodata: An agentic data scientist to create high quality synthetic data",
+      "expert_ratio": 0.45,
+      "headline": "Gen Z is turning Instagram into the new LinkedIn",
       "articles": [
         {
-          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
-          "url": "https://arxiv.org/abs/2606.25996",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Gen Z is turning Instagram into the new LinkedIn",
+          "url": "https://www.fastcompany.com/91563729/gen-z-is-turning-instagram-into-the-new-linkedin",
+          "source": "Fast Company"
         },
         {
-          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
-          "url": "https://arxiv.org/abs/2606.25996",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Gen Z is turning Instagram into the new LinkedIn",
+          "url": "https://www.fastcompany.com/91563729/gen-z-is-turning-instagram-into-the-new-linkedin",
+          "source": "Fast Company"
         },
         {
-          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
-          "url": "https://arxiv.org/abs/2606.25996",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "I'm a former recruiter turned content creator. Don't customize your résumé, don't overdo LinkedIn, and 10 other tips for",
+          "url": "https://www.businessinsider.com/former-recruiter-shares-advice-resumes-networking-strategies-2026-6",
+          "source": "All Content from Business Insider"
         }
       ]
     },
     {
-      "keyword": "bolt",
-      "mentions": 13,
-      "velocity": 1.6,
+      "keyword": "gpt-5",
+      "mentions": 56,
+      "velocity": 1.5,
       "sources": [
         "articles",
         "arxiv",
@@ -475,94 +394,136 @@
       ],
       "source_count": 5,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.48,
-      "headline": "Bolt è arrivato a Milano, come funziona il nuovo servizio Ncc",
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
       "articles": [
         {
-          "title": "Bolt è arrivato a Milano, come funziona il nuovo servizio Ncc",
-          "url": "https://www.wired.it/article/bolt-milano-ncc-italia-prezzi/",
-          "source": "Wired"
+          "title": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
+          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/we-dont-believe-this-kind-of-government-access-process-should-become-the-long-term-default-openai-unveils-big-gpt-5-6-upgrades-for-chatgpt-but-you-cant-use-them-yet",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "'We don’t believe this kind of government access process should become the long-term default': OpenAI unveils big GPT-5.",
+          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/we-dont-believe-this-kind-of-government-access-process-should-become-the-long-term-default-openai-unveils-big-gpt-5-6-upgrades-for-chatgpt-but-you-cant-use-them-yet",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "OpenAI toont GPT-5.6: kan goed lekken vinden, maar VS beperkt voorlopig toegang",
+          "url": "https://tweakers.net/nieuws/249552/openai-toont-gpt-56-kan-goed-lekken-vinden-maar-vs-beperkt-voorlopig-toegang.html",
+          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     },
     {
-      "keyword": "open-source ai",
-      "mentions": 14,
-      "velocity": 1.5,
+      "keyword": "hugging face",
+      "mentions": 13,
+      "velocity": 1.3,
       "sources": [
         "articles",
-        "hackernews"
+        "reddit"
       ],
       "source_count": 2,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.43,
-      "headline": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
+      "days_active": 15,
+      "expert_ratio": 0.51,
+      "headline": "Open Source Growth Boosts Together AI, Hugging Face",
       "articles": [
         {
-          "title": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
-          "url": "https://qz.com/spacex-reflection-ai-computing-deal-colossus-062226",
-          "source": "Quartz"
+          "title": "Open Source Growth Boosts Together AI, Hugging Face",
+          "url": "https://www.theinformation.com/articles/open-source-growth-boosts-together-ai-hugging-face",
+          "source": "The Information"
         },
         {
-          "title": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
-          "url": "https://qz.com/spacex-reflection-ai-computing-deal-colossus-062226",
-          "source": "Quartz"
+          "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+          "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+          "source": "Hugging Face Blog"
         },
         {
-          "title": "How to automate workflows using open-source AI agents",
-          "url": "https://www.techradar.com/pro/how-to-automate-workflows-using-open-source-ai-agents",
+          "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "openclaw",
+      "mentions": 15,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.51,
+      "headline": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
+      "articles": [
+        {
+          "title": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
+          "url": "https://www.techradar.com/pro/security/multiple-malicious-openclaw-skills-found-online-including-two-macos-infostealers",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
+          "url": "https://www.techradar.com/pro/security/multiple-malicious-openclaw-skills-found-online-including-two-macos-infostealers",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "OpenClaw powers $99 mini PC but it's an AI agentic trap wrapped in Windows 11, delivered with a CPU from 2011 - choose a",
+          "url": "https://www.techradar.com/pro/openclaw-powers-usd99-mini-pc-but-its-an-ai-agentic-trap-wrapped-in-windows-11-delivered-with-a-cpu-from-2011-choose-a-refurbished-pc-instead",
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "gpt-4o",
-      "mentions": 14,
-      "velocity": 1.1,
+      "keyword": "data center",
+      "mentions": 45,
+      "velocity": 1.2,
       "sources": [
         "articles",
-        "arxiv",
-        "reddit"
+        "hackernews",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.55,
+      "headline": "How AI is shaping the 2026 US midterms, as public anger grows against data center expansion and the AI industry emerges ",
+      "articles": [
+        {
+          "title": "How AI is shaping the 2026 US midterms, as public anger grows against data center expansion and the AI industry emerges ",
+          "url": "https://www.techmeme.com/260627/p15#a260627p15",
+          "source": "Techmeme"
+        },
+        {
+          "title": "How AI is shaping the 2026 US midterms, as public anger grows against data center expansion and the AI industry emerges ",
+          "url": "https://www.techmeme.com/260627/p15#a260627p15",
+          "source": "Techmeme"
+        },
+        {
+          "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+          "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+          "source": "TechCrunch"
+        }
+      ]
     },
     {
-      "keyword": "macbook",
+      "keyword": "vram",
       "mentions": 13,
-      "velocity": 1.1,
+      "velocity": 1.0,
       "sources": [
         "articles",
-        "hackernews"
+        "reddit"
       ],
       "source_count": 2,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.39,
-      "headline": "Even $100 more expensive, Apple's MacBook Neo still offers great bang for your buck",
-      "articles": [
-        {
-          "title": "Even $100 more expensive, Apple's MacBook Neo still offers great bang for your buck",
-          "url": "https://www.businessinsider.com/apple-macbook-neo-still-good-deal-after-price-increase-2026-6",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Even $100 more expensive, Apple's MacBook Neo still offers great bang for your buck",
-          "url": "https://www.businessinsider.com/apple-macbook-neo-still-good-deal-after-price-increase-2026-6",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Even $100 more expensive, Apple's MacBook Neo still offers great bang for your buck",
-          "url": "https://www.businessinsider.com/apple-macbook-neo-still-good-deal-after-price-increase-2026-6",
-          "source": "Business Insider"
-        }
-      ]
+      "days_active": 15,
+      "expert_ratio": 0.46,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -653,17 +614,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "ai developer",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-05",
-      "materialized_on": "2026-03-10",
-      "lead_days": 5
-    },
-    {
       "keyword": "llama",
       "signal_type": "emerging",
       "flagged_on": "2026-04-03",
       "materialized_on": "2026-04-08",
+      "lead_days": 5
+    },
+    {
+      "keyword": "ai developer",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-05",
+      "materialized_on": "2026-03-10",
       "lead_days": 5
     },
     {
@@ -679,14 +640,26 @@
       {
         "keyword": "openai",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-27",
+        "flagged_on": "2026-06-28",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "chatgpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-28",
         "confidence": 1.0
       },
       {
         "keyword": "lora",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-27",
+        "flagged_on": "2026-06-28",
         "confidence": 0.6
+      },
+      {
+        "keyword": "data center",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-26",
+        "confidence": 1.0
       },
       {
         "keyword": "claude code",
@@ -696,12 +669,6 @@
       },
       {
         "keyword": "gpt-5",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-26",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "data center",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 1.0
@@ -737,12 +704,6 @@
         "confidence": 0.6
       },
       {
-        "keyword": "nvidia",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-24",
-        "confidence": 1.0
-      },
-      {
         "keyword": "qwen",
         "signal_type": "emerging",
         "flagged_on": "2026-06-24",
@@ -751,88 +712,88 @@
     ],
     "heating_up": [
       {
-        "keyword": "notion",
-        "recent_mentions": 19,
+        "keyword": "ai regulation",
+        "recent_mentions": 14,
         "prior_mentions": 1,
-        "change_ratio": 19.0,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "voice agent",
-        "recent_mentions": 21,
-        "prior_mentions": 2,
-        "change_ratio": 10.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "claude cowork",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "codex cli",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "zhipu",
-        "recent_mentions": 15,
-        "prior_mentions": 2,
-        "change_ratio": 7.5,
-        "corroborating_sources": 2
+        "change_ratio": 14.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "ai wearable",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "krea",
         "recent_mentions": 12,
-        "prior_mentions": 2,
-        "change_ratio": 6.0,
+        "prior_mentions": 1,
+        "change_ratio": 12.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "computer use",
-        "recent_mentions": 15,
-        "prior_mentions": 3,
-        "change_ratio": 5.0,
+        "keyword": "browser-use",
+        "recent_mentions": 9,
+        "prior_mentions": 1,
+        "change_ratio": 9.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "dalle",
+        "recent_mentions": 13,
+        "prior_mentions": 2,
+        "change_ratio": 6.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "augment",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "sakana ai",
+        "keyword": "command r",
+        "recent_mentions": 17,
+        "prior_mentions": 3,
+        "change_ratio": 5.67,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "higgsfield",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
+        "keyword": "prompt injection",
+        "recent_mentions": 59,
+        "prior_mentions": 16,
+        "change_ratio": 3.69,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "openai codex",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "recent_mentions": 11,
+        "prior_mentions": 3,
+        "change_ratio": 3.67,
         "corroborating_sources": 3
       },
       {
-        "keyword": "gamma",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "keyword": "computer use",
+        "recent_mentions": 17,
+        "prior_mentions": 5,
+        "change_ratio": 3.4,
         "corroborating_sources": 2
       },
       {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 32,
-        "prior_mentions": 8,
-        "change_ratio": 4.0,
+        "keyword": "zhipu",
+        "recent_mentions": 13,
+        "prior_mentions": 4,
+        "change_ratio": 3.25,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "openrouter",
+        "recent_mentions": 19,
+        "prior_mentions": 6,
+        "change_ratio": 3.17,
+        "corroborating_sources": 3
       }
     ]
   }
