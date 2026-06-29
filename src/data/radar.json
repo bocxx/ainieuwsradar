@@ -1,174 +1,74 @@
 {
-  "generated_at": "2026-06-28T19:16:53.033383",
-  "total_tracked": 4567,
+  "generated_at": "2026-06-29T07:14:44.268416",
+  "total_tracked": 4475,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "krea",
-      "mentions": 29,
-      "velocity": 9.5,
-      "sources": [
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 6,
-      "expert_ratio": 0.0,
-      "headline": "AI creative tools startup Krea, which has raised $83M and claims to have 30M users, releases the open weights for its im",
-      "articles": [
-        {
-          "title": "AI creative tools startup Krea, which has raised $83M and claims to have 30M users, releases the open weights for its im",
-          "url": "https://www.techmeme.com/260624/p3#a260624p3",
-          "source": "Techmeme"
-        },
-        {
-          "title": "AI creative tools startup Krea, which has raised $83M and claims to have 30M users, releases the open weights for its im",
-          "url": "https://www.techmeme.com/260624/p3#a260624p3",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Enterprise-grade AI image generation in 2 seconds is here: Krea 2 Raw and Turbo available as open weights under custom l",
-          "url": "https://venturebeat.com/technology/enterprise-grade-ai-image-generation-in-2-seconds-is-here-krea-2-raw-and-turbo-available-as-open-weights-under-custom-license",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
-      "keyword": "ai code",
-      "mentions": 15,
-      "velocity": 2.0,
+      "keyword": "large language model",
+      "mentions": 698,
+      "velocity": 104.2,
       "sources": [
         "articles",
+        "arxiv",
         "hackernews"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "A way to exclude sensitive files issue still open for OpenAI Codex",
+      "expert_ratio": 0.99,
+      "headline": "DiARC: Distinguishing Positive and Negative Samples Helps Improving ARC-like Reasoning Ability of Large Language Models",
       "articles": [
         {
-          "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
-          "url": "https://github.com/openai/codex/issues/2847",
-          "source": "Hacker News"
+          "title": "DiARC: Distinguishing Positive and Negative Samples Helps Improving ARC-like Reasoning Ability of Large Language Models",
+          "url": "https://arxiv.org/abs/2606.26530",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "OpenAI Codex bombards SSDs with needless write operations, costing millions",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
-          "source": "The Register"
+          "title": "Single and Multi Truth Data Fusion using Large Language Models",
+          "url": "https://arxiv.org/abs/2606.28062",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "OpenAI Codex bombards SSDs with needless write operations, costing millions",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
-          "source": "The Register"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "openai",
-      "mentions": 377,
-      "velocity": 6.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "A way to exclude sensitive files issue still open for OpenAI Codex",
-      "articles": [
-        {
-          "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
-          "url": "https://github.com/openai/codex/issues/2847",
-          "source": "Hacker News"
-        },
-        {
-          "title": "OpenAI Hires Uber’s Prabhjeet Singh to Lead India Operations",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-28/openai-hires-uber-s-prabhjeet-singh-to-lead-india-operations",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "A profile of Jacob Andreou, the 33-year-old former Snap exec leading Microsoft's consolidated Copilot team efforts to ca",
-          "url": "https://www.techmeme.com/260628/p6#a260628p6",
-          "source": "Techmeme"
+          "title": "Hybrid Fact-Checking that Integrates Knowledge Graphs, Large Language Models, and Search-Based Retrieval Agents Improves",
+          "url": "https://arxiv.org/abs/2511.03217",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "seedance",
-      "mentions": 27,
-      "velocity": 4.3,
-      "sources": [
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "ByteDance unveils Seedance 2.5, a 30-second native 4K AI video model that accepts 50 reference inputs",
-      "articles": [
-        {
-          "title": "ByteDance unveils Seedance 2.5, a 30-second native 4K AI video model that accepts 50 reference inputs",
-          "url": "https://thenextweb.com/news/bytedance-seedance-2-5-ai-video-4k-30-seconds",
-          "source": "The Next Web"
-        },
-        {
-          "title": "ByteDance unveils Seedance 2.5, a 30-second native 4K AI video model that accepts 50 reference inputs",
-          "url": "https://thenextweb.com/news/bytedance-seedance-2-5-ai-video-4k-30-seconds",
-          "source": "The Next Web"
-        },
-        {
-          "title": "ByteDance unveils Seedance 2.5, a 30-second native 4K AI video model that accepts 50 reference inputs",
-          "url": "https://thenextweb.com/news/bytedance-seedance-2-5-ai-video-4k-30-seconds",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "world model",
-      "mentions": 24,
-      "velocity": 3.1,
+      "keyword": "multimodal",
+      "mentions": 284,
+      "velocity": 53.7,
       "sources": [
         "articles",
         "arxiv",
-        "reddit"
+        "github"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling",
+      "expert_ratio": 0.99,
+      "headline": "Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety",
       "articles": [
         {
-          "title": "Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling",
-          "url": "https://arxiv.org/abs/2606.26922",
+          "title": "Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety",
+          "url": "https://arxiv.org/abs/2606.25034",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
-          "url": "https://arxiv.org/abs/2606.27277",
+          "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
+          "url": "https://arxiv.org/abs/2606.27652",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Einstein World Models",
-          "url": "https://arxiv.org/abs/2606.26969",
+          "title": "Lost at the End: Primacy Bias in Multimodal Retrieval-Augmented Question Answering",
+          "url": "https://arxiv.org/abs/2606.16494",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
+  "emerging": [],
   "weak_signals": [
     {
       "keyword": "nemo",
@@ -194,20 +94,6 @@
           "source": "Hugging Face Blog"
         }
       ]
-    },
-    {
-      "keyword": "desktop",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "attribution",
@@ -270,6 +156,34 @@
       ]
     },
     {
+      "keyword": "desktop",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "we created a monster",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "supabase",
       "mentions": 3,
       "velocity": 0.8,
@@ -309,20 +223,6 @@
       ]
     },
     {
-      "keyword": "we created a monster",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "nemoclaw",
       "mentions": 3,
       "velocity": 0.6,
@@ -330,22 +230,22 @@
         "github"
       ],
       "source_count": 1,
-      "confidence": 73,
-      "days_active": 5,
-      "expert_ratio": 0.89,
+      "confidence": 71,
+      "days_active": 4,
+      "expert_ratio": 0.88,
       "headline": "",
       "articles": []
     },
     {
       "keyword": "supralabs",
       "mentions": 2,
-      "velocity": 0.5,
+      "velocity": 0.6,
       "sources": [
         "reddit"
       ],
       "source_count": 1,
-      "confidence": 65,
-      "days_active": 4,
+      "confidence": 63,
+      "days_active": 3,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
@@ -353,13 +253,13 @@
     {
       "keyword": "nemotron",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.5,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 77,
-      "days_active": 5,
+      "confidence": 75,
+      "days_active": 4,
       "expert_ratio": 1.0,
       "headline": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
       "articles": [
@@ -383,99 +283,42 @@
   ],
   "sustained": [
     {
-      "keyword": "llama",
-      "mentions": 52,
-      "velocity": 1.5,
+      "keyword": "together",
+      "mentions": 61,
+      "velocity": 2.0,
       "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
-      "articles": [
-        {
-          "title": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
-          "url": "https://arxiv.org/abs/2606.15507",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Frame-Conditioned Moral Computation in LLaMA 3.1-8B-Instruct: A Mechanistic Interpretability Audit of Ethical Reasoning",
-          "url": "https://arxiv.org/abs/2606.15507",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "whisper",
-      "mentions": 11,
-      "velocity": 1.2,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.4,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "llama.cpp",
-      "mentions": 17,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "cuda",
-      "mentions": 11,
-      "velocity": 0.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit"
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "BluTrain: A C++/CUDA Framework for AI Systems",
+      "expert_ratio": 0.0,
+      "headline": "In Venezuela, a Community Comes Together to Search for Earthquake Survivors",
       "articles": [
         {
-          "title": "BluTrain: A C++/CUDA Framework for AI Systems",
-          "url": "https://arxiv.org/abs/2606.24780",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "In Venezuela, a Community Comes Together to Search for Earthquake Survivors",
+          "url": "https://www.nytimes.com/2026/06/28/world/americas/caracas-venezuela-earthquake-rescue.html",
+          "source": "The New York Times"
         },
         {
-          "title": "BluTrain: A C++/CUDA Framework for AI Systems",
-          "url": "https://arxiv.org/abs/2606.24780",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Got to get you into my life: these essential vinyl albums and gifts will help you come together on Global Beatles Day — ",
+          "url": "https://www.techradar.com/audio/turntables/got-to-get-you-into-my-life-these-essential-vinyl-albums-and-gifts-will-help-you-come-together-on-global-beatles-day",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "CCCL Runtime: A Modern C++ Runtime for CUDA",
-          "url": "https://developer.nvidia.com/blog/cccl-runtime-a-modern-c-runtime-for-cuda/",
-          "source": "NVIDIA Developer Blog"
+          "title": "Got to get you into my life: these essential vinyl albums and gifts will help you come together on Global Beatles Day — ",
+          "url": "https://www.techradar.com/audio/turntables/got-to-get-you-into-my-life-these-essential-vinyl-albums-and-gifts-will-help-you-come-together-on-global-beatles-day",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "huggingface",
-      "mentions": 14,
-      "velocity": 0.7,
+      "keyword": "sota",
+      "mentions": 13,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
@@ -484,22 +327,92 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
+      "expert_ratio": 0.67,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "github copilot",
-      "mentions": 11,
-      "velocity": 0.4,
+      "keyword": "flux",
+      "mentions": 24,
+      "velocity": 1.4,
       "sources": [
         "articles",
-        "linkedin"
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.65,
+      "headline": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
+      "articles": [
+        {
+          "title": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
+          "url": "https://www.science.org/doi/10.1126/science.aeb6410",
+          "source": "Science: Current Issue"
+        }
+      ]
+    },
+    {
+      "keyword": "cline",
+      "mentions": 18,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.61,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "open-source ai",
+      "mentions": 16,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "hackernews"
       ],
       "source_count": 2,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.0,
+      "days_active": 15,
+      "expert_ratio": 0.49,
+      "headline": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
+      "articles": [
+        {
+          "title": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
+          "url": "https://qz.com/spacex-reflection-ai-computing-deal-colossus-062226",
+          "source": "Quartz"
+        },
+        {
+          "title": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
+          "url": "https://qz.com/spacex-reflection-ai-computing-deal-colossus-062226",
+          "source": "Quartz"
+        },
+        {
+          "title": "How to automate workflows using open-source AI agents",
+          "url": "https://www.techradar.com/pro/how-to-automate-workflows-using-open-source-ai-agents",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "claude sonnet",
+      "mentions": 15,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
       "headline": "",
       "articles": []
     }
@@ -592,17 +505,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "ai developer",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-05",
-      "materialized_on": "2026-03-10",
-      "lead_days": 5
-    },
-    {
       "keyword": "llama",
       "signal_type": "emerging",
       "flagged_on": "2026-04-03",
       "materialized_on": "2026-04-08",
+      "lead_days": 5
+    },
+    {
+      "keyword": "ai developer",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-05",
+      "materialized_on": "2026-03-10",
       "lead_days": 5
     },
     {
@@ -616,22 +529,34 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "chatgpt",
+        "keyword": "openai",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-28",
+        "flagged_on": "2026-06-29",
         "confidence": 1.0
       },
       {
-        "keyword": "openai",
+        "keyword": "world model",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-28",
-        "confidence": 1.0
+        "flagged_on": "2026-06-29",
+        "confidence": 0.6
       },
       {
         "keyword": "seedance",
         "signal_type": "emerging",
-        "flagged_on": "2026-06-28",
+        "flagged_on": "2026-06-29",
         "confidence": 0.6
+      },
+      {
+        "keyword": "maestro",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-29",
+        "confidence": 0
+      },
+      {
+        "keyword": "chatgpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-28",
+        "confidence": 1.0
       },
       {
         "keyword": "lora",
@@ -646,12 +571,6 @@
         "confidence": 0.2
       },
       {
-        "keyword": "claude code",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-26",
-        "confidence": 1.0
-      },
-      {
         "keyword": "gpt-5",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
@@ -659,6 +578,12 @@
       },
       {
         "keyword": "data center",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-26",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "claude code",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 1.0
@@ -674,75 +599,35 @@
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 0.4
-      },
-      {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-25",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "claude",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-25",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "ai regulation",
-        "recent_mentions": 13,
-        "prior_mentions": 1,
-        "change_ratio": 13.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "ai wearable",
-        "recent_mentions": 12,
+        "recent_mentions": 19,
         "prior_mentions": 1,
-        "change_ratio": 12.0,
+        "change_ratio": 19.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "browser-use",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
+        "keyword": "chain of thought",
+        "recent_mentions": 14,
+        "prior_mentions": 2,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "krea",
-        "recent_mentions": 38,
-        "prior_mentions": 5,
-        "change_ratio": 7.6,
+        "recent_mentions": 52,
+        "prior_mentions": 8,
+        "change_ratio": 6.5,
         "corroborating_sources": 3
       },
       {
-        "keyword": "dalle",
-        "recent_mentions": 13,
+        "keyword": "browser-use",
+        "recent_mentions": 11,
         "prior_mentions": 2,
-        "change_ratio": 6.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "augment",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "command r",
-        "recent_mentions": 16,
-        "prior_mentions": 3,
-        "change_ratio": 5.33,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "higgsfield",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "change_ratio": 5.5,
         "corroborating_sources": 1
       },
       {
@@ -753,24 +638,52 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "openai codex",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
+        "keyword": "world models",
+        "recent_mentions": 96,
+        "prior_mentions": 24,
         "change_ratio": 4.0,
-        "corroborating_sources": 3
+        "corroborating_sources": 5
       },
       {
-        "keyword": "prompt injection",
-        "recent_mentions": 58,
-        "prior_mentions": 16,
-        "change_ratio": 3.62,
+        "keyword": "constitutional ai",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "embodied ai",
+        "recent_mentions": 23,
+        "prior_mentions": 6,
+        "change_ratio": 3.83,
         "corroborating_sources": 2
       },
       {
-        "keyword": "computer use",
-        "recent_mentions": 17,
-        "prior_mentions": 5,
-        "change_ratio": 3.4,
+        "keyword": "world model",
+        "recent_mentions": 137,
+        "prior_mentions": 37,
+        "change_ratio": 3.7,
+        "corroborating_sources": 7
+      },
+      {
+        "keyword": "prompt injection",
+        "recent_mentions": 69,
+        "prior_mentions": 19,
+        "change_ratio": 3.63,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "reward hacking",
+        "recent_mentions": 25,
+        "prior_mentions": 8,
+        "change_ratio": 3.12,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "augment",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
         "corroborating_sources": 2
       }
     ]
