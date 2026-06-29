@@ -1,75 +1,117 @@
 {
-  "generated_at": "2026-06-29T07:14:44.268416",
-  "total_tracked": 4475,
+  "generated_at": "2026-06-29T19:20:52.175235",
+  "total_tracked": 4581,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "large language model",
-      "mentions": 698,
-      "velocity": 104.2,
+      "keyword": "llama",
+      "mentions": 61,
+      "velocity": 3.7,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews"
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "DiARC: Distinguishing Positive and Negative Samples Helps Improving ARC-like Reasoning Ability of Large Language Models",
+      "expert_ratio": 0.82,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 60,
+      "velocity": 3.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.83,
+      "headline": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
       "articles": [
         {
-          "title": "DiARC: Distinguishing Positive and Negative Samples Helps Improving ARC-like Reasoning Ability of Large Language Models",
-          "url": "https://arxiv.org/abs/2606.26530",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
+          "url": "https://www.techmeme.com/260628/p12#a260628p12",
+          "source": "Techmeme"
         },
         {
-          "title": "Single and Multi Truth Data Fusion using Large Language Models",
-          "url": "https://arxiv.org/abs/2606.28062",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Hybrid Fact-Checking that Integrates Knowledge Graphs, Large Language Models, and Search-Based Retrieval Agents Improves",
-          "url": "https://arxiv.org/abs/2511.03217",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
+          "url": "https://www.techmeme.com/260628/p12#a260628p12",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "multimodal",
-      "mentions": 284,
-      "velocity": 53.7,
+      "keyword": "openclaw",
+      "mentions": 18,
+      "velocity": 2.1,
       "sources": [
         "articles",
-        "arxiv",
-        "github"
+        "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety",
+      "expert_ratio": 0.47,
+      "headline": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
       "articles": [
         {
-          "title": "Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety",
-          "url": "https://arxiv.org/abs/2606.25034",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
+          "url": "https://www.techradar.com/pro/security/multiple-malicious-openclaw-skills-found-online-including-two-macos-infostealers",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
-          "url": "https://arxiv.org/abs/2606.27652",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
+          "url": "https://www.techradar.com/pro/security/multiple-malicious-openclaw-skills-found-online-including-two-macos-infostealers",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Lost at the End: Primacy Bias in Multimodal Retrieval-Augmented Question Answering",
-          "url": "https://arxiv.org/abs/2606.16494",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenClaw powers $99 mini PC but it's an AI agentic trap wrapped in Windows 11, delivered with a CPU from 2011 - choose a",
+          "url": "https://www.techradar.com/pro/openclaw-powers-usd99-mini-pc-but-its-an-ai-agentic-trap-wrapped-in-windows-11-delivered-with-a-cpu-from-2011-choose-a-refurbished-pc-instead",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
   ],
   "emerging": [],
   "weak_signals": [
+    {
+      "keyword": "ai systems",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers",
+      "articles": [
+        {
+          "title": "The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers",
+          "url": "https://arxiv.org/abs/2604.24155",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers",
+          "url": "https://arxiv.org/abs/2604.24155",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
+          "url": "https://arxiv.org/abs/2606.26298",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
     {
       "keyword": "nemo",
       "mentions": 3,
@@ -156,25 +198,11 @@
       ]
     },
     {
-      "keyword": "desktop",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "we created a monster",
+      "keyword": "supabase",
       "mentions": 3,
       "velocity": 0.8,
       "sources": [
-        "hackernews"
+        "github"
       ],
       "source_count": 1,
       "confidence": 69,
@@ -184,11 +212,11 @@
       "articles": []
     },
     {
-      "keyword": "supabase",
+      "keyword": "we created a monster",
       "mentions": 3,
       "velocity": 0.8,
       "sources": [
-        "github"
+        "hackernews"
       ],
       "source_count": 1,
       "confidence": 69,
@@ -221,20 +249,6 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "nemoclaw",
-      "mentions": 3,
-      "velocity": 0.6,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 4,
-      "expert_ratio": 0.88,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "supralabs",
@@ -279,6 +293,20 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "next.js",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 10,
+      "expert_ratio": 0.92,
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
@@ -316,58 +344,54 @@
       ]
     },
     {
-      "keyword": "sota",
-      "mentions": 13,
+      "keyword": "mcp server",
+      "mentions": 26,
       "velocity": 1.8,
       "sources": [
         "articles",
-        "arxiv",
+        "hackernews",
+        "linkedin",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.67,
+      "expert_ratio": 0.15,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "flux",
-      "mentions": 24,
+      "keyword": "cuda",
+      "mentions": 14,
       "velocity": 1.4,
       "sources": [
         "articles",
-        "arxiv",
+        "github",
+        "hackernews",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.65,
-      "headline": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
+      "expert_ratio": 0.89,
+      "headline": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
       "articles": [
         {
-          "title": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
-          "url": "https://www.science.org/doi/10.1126/science.aeb6410",
-          "source": "Science: Current Issue"
+          "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+          "url": "https://github.com/JustVugg/nanoeuler",
+          "source": "Hacker News"
+        },
+        {
+          "title": "BluTrain: A C++/CUDA Framework for AI Systems",
+          "url": "https://arxiv.org/abs/2606.24780",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "BluTrain: A C++/CUDA Framework for AI Systems",
+          "url": "https://arxiv.org/abs/2606.24780",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "cline",
-      "mentions": 18,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.61,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "open-source ai",
@@ -380,7 +404,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.49,
+      "expert_ratio": 0.47,
       "headline": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
       "articles": [
         {
@@ -401,18 +425,50 @@
       ]
     },
     {
-      "keyword": "claude sonnet",
-      "mentions": 15,
-      "velocity": 1.1,
+      "keyword": "youtube",
+      "mentions": 38,
+      "velocity": 0.9,
       "sources": [
         "articles",
-        "arxiv",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
+      "expert_ratio": 0.44,
+      "headline": "Unlock deeper insights for YouTube brand campaigns.",
+      "articles": [
+        {
+          "title": "Unlock deeper insights for YouTube brand campaigns.",
+          "url": "https://blog.google/products/ads-commerce/youtube-brand-campaign-updates/",
+          "source": "The Keyword"
+        },
+        {
+          "title": "Unlock deeper insights for YouTube brand campaigns.",
+          "url": "https://blog.google/products/ads-commerce/youtube-brand-campaign-updates/",
+          "source": "The Official Google Blog"
+        },
+        {
+          "title": "YouTube schrapt dislikeknop bij Shorts omdat die te dubbelzinnig is",
+          "url": "https://tweakers.net/nieuws/249590/youtube-schrapt-dislikeknop-bij-shorts-omdat-die-te-dubbelzinnig-is.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "cline",
+      "mentions": 16,
+      "velocity": 0.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.59,
       "headline": "",
       "articles": []
     }
@@ -505,17 +561,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "llama",
-      "signal_type": "emerging",
-      "flagged_on": "2026-04-03",
-      "materialized_on": "2026-04-08",
-      "lead_days": 5
-    },
-    {
       "keyword": "ai developer",
       "signal_type": "emerging",
       "flagged_on": "2026-03-05",
       "materialized_on": "2026-03-10",
+      "lead_days": 5
+    },
+    {
+      "keyword": "llama",
+      "signal_type": "emerging",
+      "flagged_on": "2026-04-03",
+      "materialized_on": "2026-04-08",
       "lead_days": 5
     },
     {
@@ -547,6 +603,18 @@
         "confidence": 0.6
       },
       {
+        "keyword": "browser-use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-29",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "voice mode",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-29",
+        "confidence": 0.2
+      },
+      {
         "keyword": "maestro",
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-29",
@@ -565,10 +633,10 @@
         "confidence": 0.6
       },
       {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-28",
-        "confidence": 0.2
+        "keyword": "claude code",
+        "signal_type": "emerging",
+        "flagged_on": "2026-06-26",
+        "confidence": 1.0
       },
       {
         "keyword": "gpt-5",
@@ -583,22 +651,10 @@
         "confidence": 1.0
       },
       {
-        "keyword": "claude code",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-26",
-        "confidence": 1.0
-      },
-      {
         "keyword": "voice ai",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 0.6
-      },
-      {
-        "keyword": "phi-4",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-26",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
@@ -638,13 +694,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "world models",
-        "recent_mentions": 96,
-        "prior_mentions": 24,
-        "change_ratio": 4.0,
-        "corroborating_sources": 5
-      },
-      {
         "keyword": "constitutional ai",
         "recent_mentions": 8,
         "prior_mentions": 2,
@@ -652,31 +701,10 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "embodied ai",
-        "recent_mentions": 23,
-        "prior_mentions": 6,
-        "change_ratio": 3.83,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "world model",
-        "recent_mentions": 137,
-        "prior_mentions": 37,
-        "change_ratio": 3.7,
-        "corroborating_sources": 7
-      },
-      {
         "keyword": "prompt injection",
-        "recent_mentions": 69,
+        "recent_mentions": 61,
         "prior_mentions": 19,
-        "change_ratio": 3.63,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "reward hacking",
-        "recent_mentions": 25,
-        "prior_mentions": 8,
-        "change_ratio": 3.12,
+        "change_ratio": 3.21,
         "corroborating_sources": 2
       },
       {
@@ -685,6 +713,34 @@
         "prior_mentions": 2,
         "change_ratio": 3.0,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "openai codex",
+        "recent_mentions": 14,
+        "prior_mentions": 5,
+        "change_ratio": 2.8,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "ai regulation",
+        "recent_mentions": 11,
+        "prior_mentions": 4,
+        "change_ratio": 2.75,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "browser use",
+        "recent_mentions": 10,
+        "prior_mentions": 4,
+        "change_ratio": 2.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "bolt",
+        "recent_mentions": 42,
+        "prior_mentions": 17,
+        "change_ratio": 2.47,
+        "corroborating_sources": 5
       }
     ]
   }

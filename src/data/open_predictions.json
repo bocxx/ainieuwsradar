@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T05:33:41+00:00",
+  "generated_at": "2026-06-29T17:38:51+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -41,12 +41,6 @@
       "days_left": 31
     },
     {
-      "keyword": "voice mode",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-16",
-      "days_left": 32
-    },
-    {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
@@ -81,6 +75,12 @@
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-19",
       "days_left": 35
+    },
+    {
+      "keyword": "deepseek",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-19",
+      "days_left": 35
     }
   ],
   "recent_resolved": [
@@ -103,6 +103,15 @@
       "outlet": "Nature"
     },
     {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-10",
+      "lead_days": 3,
+      "outlet": "Techmeme"
+    },
+    {
       "keyword": "tokens",
       "signal_type": "emerging",
       "status": "hit",
@@ -112,22 +121,22 @@
       "outlet": "Business Insider"
     },
     {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-03",
-      "resolved_on": "2026-04-10",
-      "lead_days": 7,
-      "outlet": "Techmeme"
-    },
-    {
       "keyword": "llama",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-03",
+      "flagged_on": "2026-04-04",
       "resolved_on": "2026-04-08",
-      "lead_days": 5,
+      "lead_days": 4,
       "outlet": "VentureBeat"
+    },
+    {
+      "keyword": "data center",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Techmeme"
     },
     {
       "keyword": "ai agent",
@@ -137,6 +146,15 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "The Register"
+    },
+    {
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-04-07",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
     },
     {
       "keyword": "benchmarks",
@@ -166,24 +184,6 @@
       "outlet": "Tweakers"
     },
     {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "data center",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Techmeme"
-    },
-    {
       "keyword": "ai agents",
       "signal_type": "emerging",
       "status": "hit",
@@ -202,13 +202,13 @@
       "outlet": "Quartz"
     },
     {
-      "keyword": "litellm",
+      "keyword": "multimodal",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-27",
+      "flagged_on": "2026-03-12",
       "resolved_on": "2026-03-31",
-      "lead_days": 4,
-      "outlet": "TechCrunch"
+      "lead_days": 19,
+      "outlet": "The Information"
     }
   ]
 }
