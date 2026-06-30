@@ -1,81 +1,103 @@
 {
-  "generated_at": "2026-06-29T19:20:52.175235",
-  "total_tracked": 4581,
+  "generated_at": "2026-06-30T07:13:42.656744",
+  "total_tracked": 4541,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "llama",
-      "mentions": 61,
-      "velocity": 3.7,
+      "keyword": "large language model",
+      "mentions": 954,
+      "velocity": 192.1,
       "sources": [
         "articles",
         "arxiv",
-        "reddit"
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.99,
+      "headline": "Characterizing Large Language Model Agentic Workflows: A Study on N8n Ecosystem",
+      "articles": [
+        {
+          "title": "Characterizing Large Language Model Agentic Workflows: A Study on N8n Ecosystem",
+          "url": "https://arxiv.org/abs/2606.29116",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Solver-Verified Formulation Generation and Selection for Multi-Warehouse Inventory Allocation Using Large Language Model",
+          "url": "https://arxiv.org/abs/2606.29366",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Using Large Language Models as Low-Cost Statistical Estimators for Human-Response Data",
+          "url": "https://arxiv.org/abs/2606.30372",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
-      "keyword": "gpt-5",
-      "mentions": 60,
-      "velocity": 3.1,
+      "keyword": "multimodal",
+      "mentions": 327,
+      "velocity": 68.0,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
+      "articles": [
+        {
+          "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
+          "url": "https://arxiv.org/abs/2606.28514",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Pretraining",
+          "url": "https://arxiv.org/abs/2606.14752",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "COMPASS: Grounding Composition-Intent Guidance in Unified Multimodal Models",
+          "url": "https://arxiv.org/abs/2606.28696",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 264,
+      "velocity": 50.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
         "linkedin",
         "reddit"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
+      "expert_ratio": 0.99,
+      "headline": "Decomposing Memorization Reduction in Privacy-Preserving Fine-Tuning of SLMs for CSIRTs",
       "articles": [
         {
-          "title": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
-          "url": "https://www.techmeme.com/260628/p12#a260628p12",
-          "source": "Techmeme"
+          "title": "Decomposing Memorization Reduction in Privacy-Preserving Fine-Tuning of SLMs for CSIRTs",
+          "url": "https://arxiv.org/abs/2606.28479",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
-          "url": "https://www.techmeme.com/260628/p12#a260628p12",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "openclaw",
-      "mentions": 18,
-      "velocity": 2.1,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
-      "articles": [
-        {
-          "title": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
-          "url": "https://www.techradar.com/pro/security/multiple-malicious-openclaw-skills-found-online-including-two-macos-infostealers",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "A Gravitational Interpretation of Fine-Tuning Reversion",
+          "url": "https://arxiv.org/abs/2606.28525",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Multiple malicious OpenClaw skills found online - including two macOS infostealers",
-          "url": "https://www.techradar.com/pro/security/multiple-malicious-openclaw-skills-found-online-including-two-macos-infostealers",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "OpenClaw powers $99 mini PC but it's an AI agentic trap wrapped in Windows 11, delivered with a CPU from 2011 - choose a",
-          "url": "https://www.techradar.com/pro/openclaw-powers-usd99-mini-pc-but-its-an-ai-agentic-trap-wrapped-in-windows-11-delivered-with-a-cpu-from-2011-choose-a-refurbished-pc-instead",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "The Heterogeneous Safety Impacts of Benign Multilingual Fine-Tuning",
+          "url": "https://arxiv.org/abs/2606.28843",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -83,34 +105,18 @@
   "emerging": [],
   "weak_signals": [
     {
-      "keyword": "ai systems",
+      "keyword": "thinking model",
       "mentions": 3,
-      "velocity": 2.0,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "arxiv"
       ],
       "source_count": 1,
-      "confidence": 63,
+      "confidence": 65,
       "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers",
-      "articles": [
-        {
-          "title": "The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers",
-          "url": "https://arxiv.org/abs/2604.24155",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers",
-          "url": "https://arxiv.org/abs/2604.24155",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
-          "url": "https://arxiv.org/abs/2606.26298",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "nemo",
@@ -138,6 +144,20 @@
       ]
     },
     {
+      "keyword": "convnext",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "attribution",
       "mentions": 2,
       "velocity": 1.0,
@@ -148,21 +168,21 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution",
+      "headline": "How Do LLMs Cite? A Mechanistic Interpretation of Attribution in Retrieval-Augmented Generation",
       "articles": [
         {
-          "title": "Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution",
-          "url": "https://arxiv.org/abs/2606.22314",
+          "title": "How Do LLMs Cite? A Mechanistic Interpretation of Attribution in Retrieval-Augmented Generation",
+          "url": "https://arxiv.org/abs/2606.28358",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Faithful by Construction: Claim-Anchored Attribution for Multi-Document Summarization",
-          "url": "https://arxiv.org/abs/2606.23989",
+          "title": "Symbolic Mechanistic Data Attribution: Tracing Training Influence to Learned Behavioral Policies",
+          "url": "https://arxiv.org/abs/2606.29171",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "SAFARI: Scaling Long Horizon Agentic Fault Attribution via Active Investigation",
-          "url": "https://arxiv.org/abs/2606.24626",
+          "title": "SEVA: Self-Evolving Verification Agent with Process Reward for Fact Attribution",
+          "url": "https://arxiv.org/abs/2606.29713",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -178,8 +198,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Judge signals AI recruitment tool vendors like Workday may not escape liability for discrimination",
+      "headline": "Generative AI Literacy Training Improves Intelligence Analysts' Discrimination of Real and AI-Generated Images",
       "articles": [
+        {
+          "title": "Generative AI Literacy Training Improves Intelligence Analysts' Discrimination of Real and AI-Generated Images",
+          "url": "https://arxiv.org/abs/2606.28510",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "Judge signals AI recruitment tool vendors like Workday may not escape liability for discrimination",
           "url": "https://www.computerworld.com/article/4186560/judge-signals-ai-recruitment-tool-vendors-like-workday-may-not-escape-liability-for-discrimination-2.html",
@@ -189,13 +214,22 @@
           "title": "Judge signals AI recruitment tool vendors like Workday may not escape liability for discrimination",
           "url": "https://www.computerworld.com/article/4186560/judge-signals-ai-recruitment-tool-vendors-like-workday-may-not-escape-liability-for-discrimination-2.html",
           "source": "Computerworld"
-        },
-        {
-          "title": "Discrimination-free Insurance Pricing with Privatized Sensitive Attributes",
-          "url": "https://arxiv.org/abs/2504.11775",
-          "source": "stat.ML updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "supralabs",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "reddit"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "supabase",
@@ -226,6 +260,36 @@
       "articles": []
     },
     {
+      "keyword": "diffusion",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "MedDiffuseMix: Preserving Diagnostic Evidence with Saliency-Aware Diffusion Medical Image Data Augmentatio",
+      "articles": [
+        {
+          "title": "MedDiffuseMix: Preserving Diagnostic Evidence with Saliency-Aware Diffusion Medical Image Data Augmentatio",
+          "url": "https://arxiv.org/abs/2606.28419",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "HDDPM: Heteroscedastic Denoising Diffusion Probabilistic Model for Quantitative Low-Count Brain PET Recovery",
+          "url": "https://arxiv.org/abs/2606.28513",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Constrained Tabular Diffusion for Finance",
+          "url": "https://arxiv.org/abs/2606.28674",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "local ai",
       "mentions": 3,
       "velocity": 0.8,
@@ -249,226 +313,155 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "supralabs",
-      "mentions": 2,
-      "velocity": 0.6,
-      "sources": [
-        "reddit"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "nemotron",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 1.0,
-      "headline": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
-      "articles": [
-        {
-          "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
-          "url": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
-          "source": "NVIDIA Developer Blog"
-        },
-        {
-          "title": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
-          "url": "https://arxiv.org/abs/2606.15007",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
-          "url": "https://arxiv.org/abs/2606.15007",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "next.js",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 10,
-      "expert_ratio": 0.92,
-      "headline": "",
-      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "together",
-      "mentions": 61,
-      "velocity": 2.0,
+      "keyword": "langgraph",
+      "mentions": 11,
+      "velocity": 1.8,
       "sources": [
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "articles",
+        "arxiv",
+        "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "In Venezuela, a Community Comes Together to Search for Earthquake Survivors",
+      "days_active": 14,
+      "expert_ratio": 0.15,
+      "headline": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
       "articles": [
         {
-          "title": "In Venezuela, a Community Comes Together to Search for Earthquake Survivors",
-          "url": "https://www.nytimes.com/2026/06/28/world/americas/caracas-venezuela-earthquake-rescue.html",
-          "source": "The New York Times"
+          "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
+          "url": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes",
+          "source": "VentureBeat"
         },
         {
-          "title": "Got to get you into my life: these essential vinyl albums and gifts will help you come together on Global Beatles Day — ",
-          "url": "https://www.techradar.com/audio/turntables/got-to-get-you-into-my-life-these-essential-vinyl-albums-and-gifts-will-help-you-come-together-on-global-beatles-day",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Got to get you into my life: these essential vinyl albums and gifts will help you come together on Global Beatles Day — ",
-          "url": "https://www.techradar.com/audio/turntables/got-to-get-you-into-my-life-these-essential-vinyl-albums-and-gifts-will-help-you-come-together-on-global-beatles-day",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
+          "url": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         }
       ]
     },
     {
-      "keyword": "mcp server",
-      "mentions": 26,
-      "velocity": 1.8,
+      "keyword": "typescript",
+      "mentions": 11,
+      "velocity": 1.7,
       "sources": [
         "articles",
-        "hackernews",
-        "linkedin",
+        "arxiv",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.15,
+      "expert_ratio": 0.2,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "cuda",
-      "mentions": 14,
-      "velocity": 1.4,
+      "keyword": "vibe coding",
+      "mentions": 29,
+      "velocity": 1.6,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
         "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
-      "articles": [
-        {
-          "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
-          "url": "https://github.com/JustVugg/nanoeuler",
-          "source": "Hacker News"
-        },
-        {
-          "title": "BluTrain: A C++/CUDA Framework for AI Systems",
-          "url": "https://arxiv.org/abs/2606.24780",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "BluTrain: A C++/CUDA Framework for AI Systems",
-          "url": "https://arxiv.org/abs/2606.24780",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "open-source ai",
-      "mentions": 16,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "hackernews"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
+      "expert_ratio": 0.57,
+      "headline": "Vibe coding is being called the greatest unlock for non-techies. These 9 startups are raising billions.",
       "articles": [
         {
-          "title": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
-          "url": "https://qz.com/spacex-reflection-ai-computing-deal-colossus-062226",
-          "source": "Quartz"
+          "title": "Vibe coding is being called the greatest unlock for non-techies. These 9 startups are raising billions.",
+          "url": "https://www.businessinsider.com/startups-raising-billions-vibe-coding-boom-cursor-lovable-replit-emergent-2026-3",
+          "source": "All Content from Business Insider"
         },
         {
-          "title": "SpaceX signed a $6.3 billion computing deal with open-source AI startup Reflection",
-          "url": "https://qz.com/spacex-reflection-ai-computing-deal-colossus-062226",
-          "source": "Quartz"
+          "title": "Vibe coding is being called the greatest unlock for non-techies. These 9 startups are raising billions.",
+          "url": "https://www.businessinsider.com/startups-raising-billions-vibe-coding-boom-cursor-lovable-replit-emergent-2026-3",
+          "source": "Business Insider"
         },
         {
-          "title": "How to automate workflows using open-source AI agents",
-          "url": "https://www.techradar.com/pro/how-to-automate-workflows-using-open-source-ai-agents",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
+          "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+          "source": "TechCrunch"
         }
       ]
     },
     {
-      "keyword": "youtube",
-      "mentions": 38,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.44,
-      "headline": "Unlock deeper insights for YouTube brand campaigns.",
-      "articles": [
-        {
-          "title": "Unlock deeper insights for YouTube brand campaigns.",
-          "url": "https://blog.google/products/ads-commerce/youtube-brand-campaign-updates/",
-          "source": "The Keyword"
-        },
-        {
-          "title": "Unlock deeper insights for YouTube brand campaigns.",
-          "url": "https://blog.google/products/ads-commerce/youtube-brand-campaign-updates/",
-          "source": "The Official Google Blog"
-        },
-        {
-          "title": "YouTube schrapt dislikeknop bij Shorts omdat die te dubbelzinnig is",
-          "url": "https://tweakers.net/nieuws/249590/youtube-schrapt-dislikeknop-bij-shorts-omdat-die-te-dubbelzinnig-is.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
-      "keyword": "cline",
-      "mentions": 16,
-      "velocity": 0.8,
+      "keyword": "voice ai",
+      "mentions": 19,
+      "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
-        "twitter"
+        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.59,
+      "expert_ratio": 0.81,
+      "headline": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+      "articles": [
+        {
+          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "whisper",
+      "mentions": 13,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.48,
+      "headline": "From Dispersion to Attraction: Spectral Dynamics of Hallucination Across Whisper Model Scales",
+      "articles": [
+        {
+          "title": "From Dispersion to Attraction: Spectral Dynamics of Hallucination Across Whisper Model Scales",
+          "url": "https://arxiv.org/abs/2604.08591",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "From Dispersion to Attraction: Spectral Dynamics of Hallucination Across Whisper Model Scales",
+          "url": "https://arxiv.org/abs/2604.08591",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "bert",
+      "mentions": 11,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 13,
+      "expert_ratio": 0.96,
       "headline": "",
       "articles": []
     }
@@ -561,17 +554,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "ai developer",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-05",
-      "materialized_on": "2026-03-10",
-      "lead_days": 5
-    },
-    {
       "keyword": "llama",
       "signal_type": "emerging",
       "flagged_on": "2026-04-03",
       "materialized_on": "2026-04-08",
+      "lead_days": 5
+    },
+    {
+      "keyword": "ai developer",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-05",
+      "materialized_on": "2026-03-10",
       "lead_days": 5
     },
     {
@@ -584,6 +577,12 @@
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "browser-use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-30",
+        "confidence": 0.2
+      },
       {
         "keyword": "openai",
         "signal_type": "emerging",
@@ -601,12 +600,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-06-29",
         "confidence": 0.6
-      },
-      {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-29",
-        "confidence": 0.2
       },
       {
         "keyword": "voice mode",
@@ -633,7 +626,7 @@
         "confidence": 0.6
       },
       {
-        "keyword": "claude code",
+        "keyword": "data center",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 1.0
@@ -645,7 +638,7 @@
         "confidence": 1.0
       },
       {
-        "keyword": "data center",
+        "keyword": "claude code",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 1.0
@@ -659,88 +652,88 @@
     ],
     "heating_up": [
       {
+        "keyword": "ai winter",
+        "recent_mentions": 12,
+        "prior_mentions": 1,
+        "change_ratio": 12.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "krea",
+        "recent_mentions": 62,
+        "prior_mentions": 11,
+        "change_ratio": 5.64,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "reward hacking",
+        "recent_mentions": 38,
+        "prior_mentions": 9,
+        "change_ratio": 4.22,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "constitutional ai",
+        "recent_mentions": 15,
+        "prior_mentions": 4,
+        "change_ratio": 3.75,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "rlhf",
+        "recent_mentions": 58,
+        "prior_mentions": 17,
+        "change_ratio": 3.41,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "world model",
+        "recent_mentions": 148,
+        "prior_mentions": 45,
+        "change_ratio": 3.29,
+        "corroborating_sources": 7
+      },
+      {
+        "keyword": "world models",
+        "recent_mentions": 99,
+        "prior_mentions": 31,
+        "change_ratio": 3.19,
+        "corroborating_sources": 5
+      },
+      {
         "keyword": "ai wearable",
         "recent_mentions": 19,
-        "prior_mentions": 1,
-        "change_ratio": 19.0,
+        "prior_mentions": 6,
+        "change_ratio": 3.17,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "llama 4",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "chain of thought",
-        "recent_mentions": 14,
-        "prior_mentions": 2,
-        "change_ratio": 7.0,
+        "recent_mentions": 12,
+        "prior_mentions": 4,
+        "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "krea",
-        "recent_mentions": 52,
-        "prior_mentions": 8,
-        "change_ratio": 6.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "browser-use",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "glean",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "constitutional ai",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "prompt injection",
-        "recent_mentions": 61,
-        "prior_mentions": 19,
-        "change_ratio": 3.21,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "augment",
+        "keyword": "moonshot ai",
         "recent_mentions": 6,
         "prior_mentions": 2,
         "change_ratio": 3.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "openai codex",
-        "recent_mentions": 14,
-        "prior_mentions": 5,
-        "change_ratio": 2.8,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "ai regulation",
-        "recent_mentions": 11,
-        "prior_mentions": 4,
-        "change_ratio": 2.75,
         "corroborating_sources": 1
       },
       {
-        "keyword": "browser use",
-        "recent_mentions": 10,
+        "keyword": "browser-use",
+        "recent_mentions": 12,
         "prior_mentions": 4,
-        "change_ratio": 2.5,
+        "change_ratio": 3.0,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "bolt",
-        "recent_mentions": 42,
-        "prior_mentions": 17,
-        "change_ratio": 2.47,
-        "corroborating_sources": 5
       }
     ]
   }

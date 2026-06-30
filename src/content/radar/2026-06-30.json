@@ -1,0 +1,457 @@
+{
+  "title": "AI-radar 30 juni 2026: large language model, multimodal, fine-tuning",
+  "date": "2026-06-30",
+  "description": "Op 30 juni 2026 domineerde 'large language model' de signaalradar met 718 vermeldingen verspreid over 954 bronnen, van Hacker News tot ArXiv. Ook…",
+  "analysis": "Op 30 juni 2026 domineerde 'large language model' de signaalradar met 718 vermeldingen verspreid over 954 bronnen, van Hacker News tot ArXiv. Ook 'multimodal' trok aandacht met 235 vermeldingen uit 327 bronnen, terwijl 'agentic' 158 keer opdook in een brede mix van platformen: GitHub, Reddit, X, Bluesky, LinkedIn, Product Hunt en wetenschappelijke publicaties. Fine-tuning en simulation completeerden de top vijf met respectievelijk 178 en 157 vermeldingen.\n\nBij de zwakke signalen springt 'reinforcement learning' eruit: 256 vermeldingen uit 329 bronnen, voornamelijk nieuwsartikelen en ArXiv-papers. Die combinatie van volume en brontype suggereert dat het onderwerp zowel academisch als journalistiek momentum pakte. 'World models' (47 vermeldingen, 62 bronnen) en 'reasoning model' (43 vermeldingen, 57 bronnen) bleven bescheidener maar toonden vergelijkbare spreiding. Dit zijn meetgegevens van ainieuwsradar.nl, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-06-30",
+    "prev_date": "2026-06-29",
+    "accelerating": [
+      {
+        "keyword": "large language model",
+        "mentions": 954,
+        "velocity": 718,
+        "sources": [
+          "hackernews",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 951,
+        "headline": "📰 The Illusion of Deep Learning: Why AI Needs Brainwaves to Remember"
+      },
+      {
+        "keyword": "multimodal",
+        "mentions": 327,
+        "velocity": 235,
+        "sources": [
+          "github",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 326,
+        "headline": "📄 LLM-Guided Planning for Multi-hop Reasoning over Multimodal Nuclear Regulatory Documents"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 264,
+        "velocity": 178,
+        "sources": [
+          "github",
+          "reddit",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 263,
+        "headline": "\"What should I do?\" - consider post-training"
+      },
+      {
+        "keyword": "agentic",
+        "mentions": 268,
+        "velocity": 158,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 244,
+        "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS"
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 189,
+        "velocity": 157,
+        "sources": [
+          "reddit",
+          "twitter",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 185,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "lora",
+        "mentions": 219,
+        "velocity": 129,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 202,
+        "headline": "I Hate Dario Amodei, and everything he stands for."
+      },
+      {
+        "keyword": "foundation model",
+        "mentions": 141,
+        "velocity": 128,
+        "sources": [
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 140,
+        "headline": "📰 Grok 4.5は1.5兆パラメーターの基盤モデルをCursorのデータで追加学習したものでSpaceXとTesla社内でベータテスト中"
+      },
+      {
+        "keyword": "distillation",
+        "mentions": 157,
+        "velocity": 127,
+        "sources": [
+          "hackernews",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 157,
+        "headline": "📄 CRAFT: Counterfactual Credit Assignment from Free Sibling Rollouts for Self-Distilled Agentic Reinforcement Learning"
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 141,
+        "velocity": 71,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 129,
+        "headline": "The number 1 public enemy of open-source."
+      },
+      {
+        "keyword": "world model",
+        "mentions": 81,
+        "velocity": 59,
+        "sources": [
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 79,
+        "headline": "📄 What Capable Agents Must Know: Selection Theorems for Robust Decision-Making under Uncertainty"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "claude haiku",
+        "mentions": 8,
+        "velocity": 8,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 7,
+        "headline": "Claude in Microsoft Foundry is now generally available."
+      },
+      {
+        "keyword": "moes",
+        "mentions": 5,
+        "velocity": 5,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 5,
+        "headline": "I Hate Dario Amodei, and everything he stands for."
+      },
+      {
+        "keyword": "kimi k2",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "twitter",
+          "bluesky"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "Found Free 136+ LLM Models\n\nhttps://t.co/qw1RBfWwVL\n\nhttps://t.co/EdOZwJOE7N\n\nModels :\n\n- minimax m3\n- kimi k2.6\n- glm 5"
+      },
+      {
+        "keyword": "responsible innovations",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Claude, Which of your \"responsible innovations\" by will benefit the Californian ppl?\n\nHow many Calfo"
+      },
+      {
+        "keyword": "pluralistic",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Today's threads (a thread)\t\n\nInside: Gemini is better than search because Google enshittified search"
+      },
+      {
+        "keyword": "synthart",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 #aiart #AIイラスト #synthart #AIArtCommunity #midjourney  \n\nWe Are Not Secret Agents"
+      },
+      {
+        "keyword": "aiartcommunity",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 #aiart #AIイラスト #synthart #AIArtCommunity #midjourney  \n\nWe Are Not Secret Agents"
+      },
+      {
+        "keyword": "fixpilot",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 FixPilot — Free Online Tools"
+      },
+      {
+        "keyword": "wifi",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 FixPilot — Free Online Tools"
+      },
+      {
+        "keyword": "videodatapro",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 VideoDataPro"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 329,
+        "velocity": 256,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 329,
+        "headline": "📄 CRAFT: Counterfactual Credit Assignment from Free Sibling Rollouts for Self-Distilled Agentic Reinforcement Learning"
+      },
+      {
+        "keyword": "world models",
+        "mentions": 62,
+        "velocity": 47,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 62,
+        "headline": "📄 What Capable Agents Must Know: Selection Theorems for Robust Decision-Making under Uncertainty"
+      },
+      {
+        "keyword": "reasoning model",
+        "mentions": 57,
+        "velocity": 43,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 57,
+        "headline": "📄 Mitigating the Safety-utility Trade-off in LLM Alignment via Adaptive Safe Context Learning"
+      },
+      {
+        "keyword": "multi-modal",
+        "mentions": 29,
+        "velocity": 27,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 28,
+        "headline": "📄 Beyond 2D Matching: A Unified Single-Stage Framework for Geometry-Aware Cross-View Object Geo-Localization"
+      },
+      {
+        "keyword": "synthetic data",
+        "mentions": 32,
+        "velocity": 23,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 32,
+        "headline": "📄 Constrained Tabular Diffusion for Finance"
+      },
+      {
+        "keyword": "rlvr",
+        "mentions": 31,
+        "velocity": 21,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 31,
+        "headline": "📄 BV-Blend: Uncertainty-Weighted Historical Baselines for Stable Critic-Free RL with Verifiable Rewards"
+      },
+      {
+        "keyword": "computer-use",
+        "mentions": 21,
+        "velocity": 21,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 21,
+        "headline": "📄 Agent-Computer Observation Interfaces Enable Dynamic Computer Use"
+      },
+      {
+        "keyword": "lstm",
+        "mentions": 22,
+        "velocity": 20,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 22,
+        "headline": "📄 An AI Security Agent for Banking: Multi-Vector Fraud and AML Detection Across Retail and Corporate Accounts"
+      },
+      {
+        "keyword": "hallucinations",
+        "mentions": 29,
+        "velocity": 19,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 29,
+        "headline": "📄 Evidence Graph Consistency in Retrieval-Augmented Generation: A Model-Dependent Analysis of Hallucination Detection"
+      },
+      {
+        "keyword": "code generation",
+        "mentions": 24,
+        "velocity": 15,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 24,
+        "headline": "📄 Code Reasoning for Software Engineering Tasks: A Survey and A Call to Action"
+      }
+    ],
+    "total_tracked": 1094
+  }
+}
