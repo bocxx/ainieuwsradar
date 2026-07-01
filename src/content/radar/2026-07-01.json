@@ -1,0 +1,463 @@
+{
+  "title": "AI-radar 1 juli 2026: large language model, agentic, multimodal",
+  "date": "2026-07-01",
+  "description": "Op 1 juli 2026 zag je vooral beweging rond large language models, met 598 vermeldingen verspreid over 904 bronnen, van Hacker News tot ArXiv. Ook agentic…",
+  "analysis": "Op 1 juli 2026 zag je vooral beweging rond large language models, met 598 vermeldingen verspreid over 904 bronnen, van Hacker News tot ArXiv. Ook agentic systemen lieten zich flink zien: 297 vermeldingen over 429 bronnen, waaronder GitHub, Reddit en LinkedIn. Multimodal kreeg 237 vermeldingen uit 366 bronnen, terwijl fine-tuning 191 keer opdook in 292 bronnen. De brede verspreiding over technische en zakelijke platforms wijst op aanhoudende interesse in zowel de onderliggende modellen als hun praktische toepassingen.\n\nBij de zwakke signalen springt reinforcement learning eruit: 264 vermeldingen uit 361 bronnen, vooral in nieuwsartikelen en ArXiv. Die combinatie van volume en academische aandacht suggereert dat er mogelijk nieuwe ontwikkelingen of inzichten circuleren. Reasoning models en computer-use bleven bescheidener, met respectievelijk 56 en 40 vermeldingen. Dit zijn meetgegevens van die dag, geen redactioneel geselecteerd nieuws—gewoon wat de radar oppikt uit 1013 gevolgde onderwerpen.",
+  "data": {
+    "date": "2026-07-01",
+    "prev_date": "2026-06-30",
+    "accelerating": [
+      {
+        "keyword": "large language model",
+        "mentions": 904,
+        "velocity": 598,
+        "sources": [
+          "hackernews",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 902,
+        "headline": "📄 A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities: Attacks, Risks, Defenses, and Open Pro"
+      },
+      {
+        "keyword": "agentic",
+        "mentions": 429,
+        "velocity": 297,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 394,
+        "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS"
+      },
+      {
+        "keyword": "multimodal",
+        "mentions": 366,
+        "velocity": 237,
+        "sources": [
+          "github",
+          "hackernews",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 364,
+        "headline": "📄 ALM2Vec: Learning Audio Embeddings for Universal Audio Retrieval with Large Audio-Language Models"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 292,
+        "velocity": 191,
+        "sources": [
+          "reddit",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 291,
+        "headline": "\"What should I do?\" - consider post-training"
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 192,
+        "velocity": 158,
+        "sources": [
+          "reddit",
+          "twitter",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 187,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "foundation model",
+        "mentions": 168,
+        "velocity": 148,
+        "sources": [
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 168,
+        "headline": "📄 Exploration and Online Transfer with Behavioral Foundation Models"
+      },
+      {
+        "keyword": "cohere",
+        "mentions": 166,
+        "velocity": 142,
+        "sources": [
+          "reddit",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 163,
+        "headline": "testmu hallucination rubric is killing us on paraphrased RAG output. calibration help"
+      },
+      {
+        "keyword": "lora",
+        "mentions": 217,
+        "velocity": 128,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 197,
+        "headline": "I Hate Dario Amodei, and everything he stands for."
+      },
+      {
+        "keyword": "ai agents",
+        "mentions": 267,
+        "velocity": 112,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 8,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 206,
+        "headline": "Day 32 of building GTA 6 using claude"
+      },
+      {
+        "keyword": "claude",
+        "mentions": 676,
+        "velocity": 111,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 537,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "agentconperth2026",
+        "mentions": 5,
+        "velocity": 5,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 5,
+        "headline": "What a great day at AgentCon Perth 2026! 😊\n\nIt was a pleasure to host the sessions in the Michael Chaney Room at The Uni"
+      },
+      {
+        "keyword": "aippt",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ hugohe3/ppt-master: AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker not"
+      },
+      {
+        "keyword": "ppt-master",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ hugohe3/ppt-master: AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker not"
+      },
+      {
+        "keyword": "bionemo",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "Science is getting an AI lab partner. 🧬\n\nAt \nhashtag\n#BIO2026, NVIDIA’s Kimberly Powell joined Genentech CEO Ashley Maga"
+      },
+      {
+        "keyword": "s the bet we",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "IKEA built an AI chatbot that took over 8,500 customer service roles.\n\nAnd not one of those people lost their job.\n\nThe "
+      },
+      {
+        "keyword": "re a movie star who",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 If you're a movie star who's saying \"over my dead body will i allow my voice to be used for ai,\" you"
+      },
+      {
+        "keyword": "some ai is ok",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Most folks are thinking, and talking, about LLMs/chatbots/agents/vibe coding. So it's a bit of a wei"
+      },
+      {
+        "keyword": "some ai",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Most folks are thinking, and talking, about LLMs/chatbots/agents/vibe coding. So it's a bit of a wei"
+      },
+      {
+        "keyword": "octovault",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 OctoVaultAI"
+      },
+      {
+        "keyword": "labwired",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 LabWired"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 361,
+        "velocity": 264,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 361,
+        "headline": "📄 Exploration and Online Transfer with Behavioral Foundation Models"
+      },
+      {
+        "keyword": "reasoning model",
+        "mentions": 61,
+        "velocity": 56,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 61,
+        "headline": "📄 When Does Learning to Stop Help? A Cost-Aware Study of Early Exits in Reasoning Models"
+      },
+      {
+        "keyword": "computer-use",
+        "mentions": 48,
+        "velocity": 40,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 48,
+        "headline": "📄 GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding"
+      },
+      {
+        "keyword": "vision language model",
+        "mentions": 35,
+        "velocity": 33,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 35,
+        "headline": "📄 PruneGround: Plug-and-play Spatial Pruning for 3D Visual Grounding"
+      },
+      {
+        "keyword": "gemini 2",
+        "mentions": 29,
+        "velocity": 26,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 29,
+        "headline": "📄 Benchmarking Large Language Models on Floating-Point Error Classification"
+      },
+      {
+        "keyword": "imagenet",
+        "mentions": 26,
+        "velocity": 24,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 26,
+        "headline": "📄 CLIMB: Centroid-Based Hierarchical Memory for Online Continual Self-Supervised Learning"
+      },
+      {
+        "keyword": "rlvr",
+        "mentions": 31,
+        "velocity": 24,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 31,
+        "headline": "📄 Which Tokens Matter? Adaptive Token Selection for RLVR with the Relative Surprisal Index"
+      },
+      {
+        "keyword": "dexposure",
+        "mentions": 16,
+        "velocity": 16,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 16,
+        "headline": "📄 DeXposure-FM: A Time-series, Graph Foundation Model for Credit Exposures and Stability on Decentralized Financial Networ"
+      },
+      {
+        "keyword": "hallucinations",
+        "mentions": 26,
+        "velocity": 12,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 26,
+        "headline": "📄 The Label Imitation Game: Turing Test Network for Zero-Shot Pseudo-Label Pruning"
+      },
+      {
+        "keyword": "meanflow",
+        "mentions": 12,
+        "velocity": 12,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 12,
+        "headline": "📄 On Variance Reduction in Learning Mean Flows"
+      }
+    ],
+    "total_tracked": 1013
+  }
+}

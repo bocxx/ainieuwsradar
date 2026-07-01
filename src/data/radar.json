@@ -1,53 +1,157 @@
 {
-  "generated_at": "2026-06-30T19:18:41.208055",
-  "total_tracked": 4630,
+  "generated_at": "2026-07-01T07:16:11.627909",
+  "total_tracked": 4445,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "multimodal",
-      "mentions": 129,
-      "velocity": 8.2,
+      "keyword": "large language model",
+      "mentions": 904,
+      "velocity": 177.9,
       "sources": [
+        "articles",
         "arxiv",
-        "github",
         "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
-      "headline": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
+      "headline": "Optimal Self-Consistency for Efficient Reasoning with Large Language Models",
       "articles": [
         {
-          "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
-          "url": "https://arxiv.org/abs/2606.28514",
+          "title": "Optimal Self-Consistency for Efficient Reasoning with Large Language Models",
+          "url": "https://arxiv.org/abs/2511.12309",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Wisdom Of The (AI) Crowd: Investigating Artificial Swarm Intelligence In Large Language Models",
+          "url": "https://arxiv.org/abs/2606.31404",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Pretraining",
-          "url": "https://arxiv.org/abs/2606.14752",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "COMPASS: Grounding Composition-Intent Guidance in Unified Multimodal Models",
-          "url": "https://arxiv.org/abs/2606.28696",
+          "title": "Optimal Self-Consistency for Efficient Reasoning with Large Language Models",
+          "url": "https://arxiv.org/abs/2511.12309",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "cursor",
-      "mentions": 85,
-      "velocity": 6.9,
+      "keyword": "agentic",
+      "mentions": 429,
+      "velocity": 90.0,
       "sources": [
         "articles",
+        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance",
+      "articles": [
+        {
+          "title": "AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance",
+          "url": "https://arxiv.org/abs/2606.30949",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Same-Origin Policy for Agentic Browsers",
+          "url": "https://arxiv.org/abs/2606.14027",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "HealthAgentBench: A Unified Benchmark Suite of Realistic Agentic Healthcare Environments for Challenging Frontier AI Age",
+          "url": "https://arxiv.org/abs/2606.31179",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "multimodal",
+      "mentions": 366,
+      "velocity": 77.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding",
+      "articles": [
+        {
+          "title": "GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding",
+          "url": "https://arxiv.org/abs/2511.00810",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "UniTac: A Unified Multimodal Model for Cross-Sensor Tactile Understanding and Generation",
+          "url": "https://arxiv.org/abs/2606.31451",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "From Multimodal Perception to Strategic Reasoning: A Survey on AI-Generated Game Commentary",
+          "url": "https://arxiv.org/abs/2506.17294",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "synthetic data",
+      "mentions": 53,
+      "velocity": 10.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "Autodata: An agentic data scientist to create high quality synthetic data",
+      "articles": [
+        {
+          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+          "url": "https://arxiv.org/abs/2606.25996",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+          "url": "https://arxiv.org/abs/2606.25996",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Autodata: An agentic data scientist to create high quality synthetic data",
+          "url": "https://arxiv.org/abs/2606.25996",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 95,
+      "velocity": 7.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.49,
@@ -71,60 +175,43 @@
       ]
     },
     {
-      "keyword": "distillation",
-      "mentions": 53,
-      "velocity": 5.8,
-      "sources": [
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.96,
-      "headline": "PHF: Privileged Hidden Flow for On-Policy Self-Distillation",
-      "articles": [
-        {
-          "title": "PHF: Privileged Hidden Flow for On-Policy Self-Distillation",
-          "url": "https://arxiv.org/abs/2606.29340",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "UCOB: Learning to Utilize and Evolve Agentic Skills via Credit-Aware On-Policy Bidirectional Self-Distillation",
-          "url": "https://arxiv.org/abs/2606.29502",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "DOPD: Dual On-policy Distillation",
-          "url": "https://arxiv.org/abs/2606.30626",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 149,
-      "velocity": 5.6,
+      "keyword": "nvidia",
+      "mentions": 81,
+      "velocity": 5.3,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.65,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.8,
+      "headline": "Qualcomm targets Nvidia, AMD, Huawei with Dragonfly AI accelerator rack loaded with 43TB of LPDDR5x, future generations ",
+      "articles": [
+        {
+          "title": "Qualcomm targets Nvidia, AMD, Huawei with Dragonfly AI accelerator rack loaded with 43TB of LPDDR5x, future generations ",
+          "url": "https://www.techradar.com/pro/qualcomm-targets-nvidia-amd-huawei-with-dragonfly-ai-accelerator-rack-loaded-with-43tb-of-lpddr5x-future-generations-set-to-smash-7pb-s-bandwidth",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Qualcomm targets Nvidia, AMD, Huawei with Dragonfly AI accelerator rack loaded with 43TB of LPDDR5x, future generations ",
+          "url": "https://www.techradar.com/pro/qualcomm-targets-nvidia-amd-huawei-with-dragonfly-ai-accelerator-rack-loaded-with-43tb-of-lpddr5x-future-generations-set-to-smash-7pb-s-bandwidth",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+          "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+          "source": "TechCrunch"
+        }
+      ]
     },
     {
       "keyword": "vibe coding",
-      "mentions": 41,
-      "velocity": 5.3,
+      "mentions": 43,
+      "velocity": 4.3,
       "sources": [
         "articles",
         "github",
@@ -133,7 +220,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.56,
+      "expert_ratio": 0.55,
       "headline": "AI and vibe coding fuel a surge in game releases; ATTN Economy says 181K mobile games launched in six months to May, up ",
       "articles": [
         {
@@ -152,107 +239,9 @@
           "source": "All Content from Business Insider"
         }
       ]
-    },
-    {
-      "keyword": "deepseek",
-      "mentions": 88,
-      "velocity": 4.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "DeepSeek open sources DSpark, a new framework to speed up LLM inference by up to 85%",
-      "articles": [
-        {
-          "title": "DeepSeek open sources DSpark, a new framework to speed up LLM inference by up to 85%",
-          "url": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "DeepSeek open sources DSpark, a new framework to speed up LLM inference by up to 85%",
-          "url": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85?utm_source=flipboard&utm_content=venturebeat/magazine/VentureBeat",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "DeepSeek’s $7.4bn raise is one symptom of China’s AI cash surge",
-          "url": "https://thenextweb.com/news/china-ai-funding-surge-deepseek-unicorns",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 70,
-      "velocity": 2.9,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Nvidia brings the RTX 3060 back from the dead to beat the RAM crisis — there's a reason why it still tops the Steam Hard",
-      "articles": [
-        {
-          "title": "Nvidia brings the RTX 3060 back from the dead to beat the RAM crisis — there's a reason why it still tops the Steam Hard",
-          "url": "https://www.techradar.com/computing/gpu/nvidia-brings-the-rtx-3060-back-from-the-dead-to-beat-the-ram-crisis-theres-a-reason-why-it-still-tops-the-steam-hardware-survey-after-all-these-years",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Nvidia brings the RTX 3060 back from the dead to beat the RAM crisis — there's a reason why it still tops the Steam Hard",
-          "url": "https://www.techradar.com/computing/gpu/nvidia-brings-the-rtx-3060-back-from-the-dead-to-beat-the-ram-crisis-theres-a-reason-why-it-still-tops-the-steam-hardware-survey-after-all-these-years",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Taiwan perquisisce Supermicro per sospetto contrabbando NVIDIA",
-          "url": "https://www.tomshw.it/hardware/taiwan-perquisisce-supermicro-per-sospetto-contrabbando-nvidia",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-4",
-      "mentions": 25,
-      "velocity": 2.4,
-      "sources": [
-        "arxiv",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "",
-      "articles": []
     }
   ],
-  "emerging": [],
   "weak_signals": [
-    {
-      "keyword": "scrapling",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "",
-      "articles": []
-    },
     {
       "keyword": "nemo",
       "mentions": 3,
@@ -279,20 +268,6 @@
       ]
     },
     {
-      "keyword": "thinking model",
-      "mentions": 3,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "convnext",
       "mentions": 2,
       "velocity": 1.0,
@@ -307,6 +282,26 @@
       "articles": []
     },
     {
+      "keyword": "langmem",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
+      "articles": [
+        {
+          "title": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
+          "url": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
       "keyword": "attribution",
       "mentions": 2,
       "velocity": 1.0,
@@ -317,21 +312,21 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "How Do LLMs Cite? A Mechanistic Interpretation of Attribution in Retrieval-Augmented Generation",
+      "headline": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
       "articles": [
         {
-          "title": "How Do LLMs Cite? A Mechanistic Interpretation of Attribution in Retrieval-Augmented Generation",
-          "url": "https://arxiv.org/abs/2606.28358",
+          "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
+          "url": "https://arxiv.org/abs/2606.31478",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Symbolic Mechanistic Data Attribution: Tracing Training Influence to Learned Behavioral Policies",
-          "url": "https://arxiv.org/abs/2606.29171",
+          "title": "FedXDS: Leveraging Model Attribution Methods to counteract Data Heterogeneity in Federated Learning",
+          "url": "https://arxiv.org/abs/2606.31742",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "SEVA: Self-Evolving Verification Agent with Process Reward for Fact Attribution",
-          "url": "https://arxiv.org/abs/2606.29713",
+          "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
+          "url": "https://arxiv.org/abs/2606.31478",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -367,54 +362,6 @@
       ]
     },
     {
-      "keyword": "agentops",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "supralabs",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "reddit"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "langmem",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
-      "articles": [
-        {
-          "title": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
-          "url": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
       "keyword": "diffusion",
       "mentions": 3,
       "velocity": 0.8,
@@ -425,21 +372,93 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "MedDiffuseMix: Preserving Diagnostic Evidence with Saliency-Aware Diffusion Medical Image Data Augmentatio",
+      "headline": "Efficient Sampling with Discrete Diffusion Models: Sharp and Adaptive Guarantees",
       "articles": [
         {
-          "title": "MedDiffuseMix: Preserving Diagnostic Evidence with Saliency-Aware Diffusion Medical Image Data Augmentatio",
-          "url": "https://arxiv.org/abs/2606.28419",
+          "title": "Efficient Sampling with Discrete Diffusion Models: Sharp and Adaptive Guarantees",
+          "url": "https://arxiv.org/abs/2602.15008",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Preserve the Hard, Regenerate the Rest: Uncertainty-Guided Synthetic Training Data Augmentation with Diffusion Models",
+          "url": "https://arxiv.org/abs/2606.31603",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "HDDPM: Heteroscedastic Denoising Diffusion Probabilistic Model for Quantitative Low-Count Brain PET Recovery",
-          "url": "https://arxiv.org/abs/2606.28513",
+          "title": "Rethinking Garment Conditioning in Diffusion-based Virtual Try-On: Decouple, Don't Denoise",
+          "url": "https://arxiv.org/abs/2511.18775",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "supabase",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "we created a monster",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "skillspector",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "transformer",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Temperature Field Reconstruction of Tungsten Monoblock Divertor on EAST using Physics-aware Neural Operator Transformer",
+      "articles": [
+        {
+          "title": "Temperature Field Reconstruction of Tungsten Monoblock Divertor on EAST using Physics-aware Neural Operator Transformer",
+          "url": "https://arxiv.org/abs/2606.31574",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Constrained Tabular Diffusion for Finance",
-          "url": "https://arxiv.org/abs/2606.28674",
+          "title": "Mixture-of-Control: State-Aware Fine-Tuning for Transformer-based Models",
+          "url": "https://arxiv.org/abs/2606.31397",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Revealing Safety-Critical Scenarios for UTM via Transformer",
+          "url": "https://arxiv.org/abs/2606.31114",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -447,162 +466,9 @@
   ],
   "sustained": [
     {
-      "keyword": "copilot",
-      "mentions": 51,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "'Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice': Microsoft ",
-      "articles": [
-        {
-          "title": "'Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice': Microsoft ",
-          "url": "https://www.techradar.com/pro/plenty-of-ai-tools-claim-to-be-built-for-finance-microsoft-365-copilot-in-excel-is-proving-it-in-practice-microsoft-is-fuelling-up-excel-with-lots-more-ai-tools-for-finance-workers",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "'Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice': Microsoft ",
-          "url": "https://www.techradar.com/pro/plenty-of-ai-tools-claim-to-be-built-for-finance-microsoft-365-copilot-in-excel-is-proving-it-in-practice-microsoft-is-fuelling-up-excel-with-lots-more-ai-tools-for-finance-workers",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "The 33-year-old ex-Snap exec Nadella is trusting to fix Copilot now oversees 11,000 people",
-          "url": "https://thenextweb.com/news/microsoft-copilot-andreou-nadella-ai-reset",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 565,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Meta is telling engineers to handle Claude Code and Codex with care",
-      "articles": [
-        {
-          "title": "Meta is telling engineers to handle Claude Code and Codex with care",
-          "url": "https://thenextweb.com/news/meta-restricts-claude-code-codex-distillation",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Meta is telling engineers to handle Claude Code and Codex with care",
-          "url": "https://thenextweb.com/news/meta-restricts-claude-code-codex-distillation",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Meta is telling engineers to handle Claude Code and Codex with care",
-          "url": "https://thenextweb.com/news/meta-restricts-claude-code-codex-distillation",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 59,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
-      "articles": [
-        {
-          "title": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
-          "url": "https://www.techmeme.com/260628/p12#a260628p12",
-          "source": "Techmeme"
-        },
-        {
-          "title": "GPT-5.6 system card indicates Sol is well below the level of most worrisome Mythos use cases, suggesting all GPT-5.6 ver",
-          "url": "https://www.techmeme.com/260628/p12#a260628p12",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "whatsapp",
-      "mentions": 16,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.12,
-      "headline": "WhatsApp-gebruikers kunnen binnenkort gebruikersnamen uitwisselen in plaats van telefoonnummers",
-      "articles": [
-        {
-          "title": "WhatsApp-gebruikers kunnen binnenkort gebruikersnamen uitwisselen in plaats van telefoonnummers",
-          "url": "https://www.volkskrant.nl/tech/liveblog-tech-musk-ai-meta-amazon~b96b97a1/",
-          "source": "de Volkskrant - Voorpagina"
-        },
-        {
-          "title": "I just reserved my WhatsApp username — here are 5 important things you need to know about the process",
-          "url": "https://www.techradar.com/computing/websites-apps/i-just-reserved-my-whatsapp-username-here-are-5-important-things-you-need-to-know-about-the-process",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "I just reserved my WhatsApp username — here are 5 important things you need to know about the process",
-          "url": "https://www.techradar.com/computing/websites-apps/i-just-reserved-my-whatsapp-username-here-are-5-important-things-you-need-to-know-about-the-process",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 89,
-      "velocity": 1.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Qwen-AgentWorld: Language World Models for General Agents",
-      "articles": [
-        {
-          "title": "Qwen-AgentWorld: Language World Models for General Agents",
-          "url": "https://arxiv.org/abs/2606.24597",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
       "keyword": "gpt-4o",
-      "mentions": 14,
-      "velocity": 1.4,
+      "mentions": 17,
+      "velocity": 1.9,
       "sources": [
         "arxiv",
         "reddit"
@@ -613,6 +479,137 @@
       "expert_ratio": 0.91,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "mistral",
+      "mentions": 23,
+      "velocity": 1.8,
+      "sources": [
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.85,
+      "headline": "Mistral launches OCR 4, turning document extraction into a full enterprise AI play",
+      "articles": [
+        {
+          "title": "Mistral launches OCR 4, turning document extraction into a full enterprise AI play",
+          "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play?utm_source=flipboard&utm_content=venturebeat/magazine/Business",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Mistral launches OCR 4, turning document extraction into a full enterprise AI play",
+          "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Mistral launches OCR 4, turning document extraction into a full enterprise AI play",
+          "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play?utm_source=flipboard&utm_content=venturebeat/magazine/Business",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "kling",
+      "mentions": 11,
+      "velocity": 1.6,
+      "sources": [
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.68,
+      "headline": "General Atlantic wants to back China’s Kling AI at $18bn. Beijing is telling its AI firms to refuse US money.",
+      "articles": [
+        {
+          "title": "General Atlantic wants to back China’s Kling AI at $18bn. Beijing is telling its AI firms to refuse US money.",
+          "url": "https://thenextweb.com/news/kling-ai-general-atlantic-2bn-kuaishou-china",
+          "source": "The Next Web"
+        },
+        {
+          "title": "General Atlantic wants to back China’s Kling AI at $18bn. Beijing is telling its AI firms to refuse US money.",
+          "url": "https://thenextweb.com/news/kling-ai-general-atlantic-2bn-kuaishou-china",
+          "source": "The Next Web"
+        },
+        {
+          "title": "General Atlantic wants to back China’s Kling AI at $18bn. Beijing is telling its AI firms to refuse US money.",
+          "url": "https://thenextweb.com/news/kling-ai-general-atlantic-2bn-kuaishou-china",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "github copilot",
+      "mentions": 11,
+      "velocity": 0.9,
+      "sources": [
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "voice ai",
+      "mentions": 17,
+      "velocity": 0.8,
+      "sources": [
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+      "articles": [
+        {
+          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Rejected by 180 investors, Bland just raised $50M to prove voice AI is the future",
+          "url": "https://thenextweb.com/news/bland-50m-series-c-voice-ai",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "flux",
+      "mentions": 19,
+      "velocity": 0.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.61,
+      "headline": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
+      "articles": [
+        {
+          "title": "Decoupling of global metabolic flux and proteome partitioning in bacteria | Science",
+          "url": "https://www.science.org/doi/10.1126/science.aeb6410",
+          "source": "Science: Current Issue"
+        }
+      ]
     }
   ],
   "track_record": {
@@ -703,17 +700,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "llama",
-      "signal_type": "emerging",
-      "flagged_on": "2026-04-03",
-      "materialized_on": "2026-04-08",
-      "lead_days": 5
-    },
-    {
       "keyword": "ai developer",
       "signal_type": "emerging",
       "flagged_on": "2026-03-05",
       "materialized_on": "2026-03-10",
+      "lead_days": 5
+    },
+    {
+      "keyword": "llama",
+      "signal_type": "emerging",
+      "flagged_on": "2026-04-03",
+      "materialized_on": "2026-04-08",
       "lead_days": 5
     },
     {
@@ -727,19 +724,25 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-30",
-        "confidence": 0.2
+        "keyword": "agi",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-01",
+        "confidence": 1.0
       },
       {
         "keyword": "thinking model",
         "signal_type": "weak_signal",
-        "flagged_on": "2026-06-30",
+        "flagged_on": "2026-07-01",
         "confidence": 0.2
       },
       {
         "keyword": "ai winter",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-06-30",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "browser-use",
         "signal_type": "weak_signal",
         "flagged_on": "2026-06-30",
         "confidence": 0.2
@@ -787,13 +790,7 @@
         "confidence": 0.6
       },
       {
-        "keyword": "gpt-5",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-26",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "data center",
+        "keyword": "claude code",
         "signal_type": "emerging",
         "flagged_on": "2026-06-26",
         "confidence": 1.0
@@ -801,87 +798,87 @@
     ],
     "heating_up": [
       {
-        "keyword": "ai winter",
-        "recent_mentions": 12,
-        "prior_mentions": 1,
-        "change_ratio": 12.0,
+        "keyword": "krea",
+        "recent_mentions": 72,
+        "prior_mentions": 12,
+        "change_ratio": 6.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "mixture of experts",
+        "recent_mentions": 16,
+        "prior_mentions": 3,
+        "change_ratio": 5.33,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai governance",
+        "recent_mentions": 21,
+        "prior_mentions": 5,
+        "change_ratio": 4.2,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "moonshot ai",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "anythingllm",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "groq",
+        "recent_mentions": 17,
+        "prior_mentions": 5,
+        "change_ratio": 3.4,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "rlhf",
+        "recent_mentions": 49,
+        "prior_mentions": 15,
+        "change_ratio": 3.27,
         "corroborating_sources": 2
       },
       {
-        "keyword": "krea",
-        "recent_mentions": 62,
-        "prior_mentions": 11,
-        "change_ratio": 5.64,
+        "keyword": "synthetic data",
+        "recent_mentions": 112,
+        "prior_mentions": 39,
+        "change_ratio": 2.87,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "ai winter",
+        "recent_mentions": 11,
+        "prior_mentions": 4,
+        "change_ratio": 2.75,
+        "corroborating_sources": 2
       },
       {
         "keyword": "ai wearable",
         "recent_mentions": 19,
-        "prior_mentions": 6,
-        "change_ratio": 3.17,
+        "prior_mentions": 7,
+        "change_ratio": 2.71,
         "corroborating_sources": 1
       },
       {
-        "keyword": "browser-use",
-        "recent_mentions": 12,
-        "prior_mentions": 4,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "moonshot ai",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "chain of thought",
-        "recent_mentions": 12,
-        "prior_mentions": 4,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "llama 4",
-        "recent_mentions": 9,
+        "keyword": "b200",
+        "recent_mentions": 8,
         "prior_mentions": 3,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "constitutional ai",
-        "recent_mentions": 11,
-        "prior_mentions": 4,
-        "change_ratio": 2.75,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "claude design",
-        "recent_mentions": 10,
-        "prior_mentions": 4,
-        "change_ratio": 2.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "rlhf",
-        "recent_mentions": 42,
-        "prior_mentions": 17,
-        "change_ratio": 2.47,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "browser use",
-        "recent_mentions": 12,
-        "prior_mentions": 5,
-        "change_ratio": 2.4,
+        "change_ratio": 2.67,
         "corroborating_sources": 1
       },
       {
         "keyword": "reward hacking",
-        "recent_mentions": 21,
-        "prior_mentions": 9,
-        "change_ratio": 2.33,
+        "recent_mentions": 32,
+        "prior_mentions": 12,
+        "change_ratio": 2.67,
         "corroborating_sources": 3
       }
     ]
