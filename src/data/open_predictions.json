@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-01T05:33:38+00:00",
+  "generated_at": "2026-07-01T17:34:32+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 44,
+    "open": 47,
     "resolved": 29,
     "hits": 24,
     "misses": 5,
@@ -97,10 +97,19 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-03-14",
       "resolved_on": "2026-04-22",
-      "lead_days": 15,
+      "lead_days": 39,
       "outlet": "Nature"
+    },
+    {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-10",
+      "lead_days": 3,
+      "outlet": "Techmeme"
     },
     {
       "keyword": "tokens",
@@ -110,15 +119,6 @@
       "resolved_on": "2026-04-10",
       "lead_days": 3,
       "outlet": "Business Insider"
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-04",
-      "resolved_on": "2026-04-10",
-      "lead_days": 6,
-      "outlet": "Techmeme"
     },
     {
       "keyword": "llama",
@@ -139,16 +139,7 @@
       "outlet": "The Register"
     },
     {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "benchmark",
+      "keyword": "benchmarks",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-07",
@@ -166,13 +157,22 @@
       "outlet": "Tweakers"
     },
     {
-      "keyword": "benchmarks",
+      "keyword": "benchmark",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
+    },
+    {
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-04-07",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
     },
     {
       "keyword": "data center",
