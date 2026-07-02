@@ -1,12 +1,84 @@
 {
-  "generated_at": "2026-07-02T07:16:23.246406",
-  "total_tracked": 4460,
+  "generated_at": "2026-07-02T19:20:16.149692",
+  "total_tracked": 4544,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "nvidia",
+      "mentions": 86,
+      "velocity": 5.6,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "Nvidia offers to take a cut of AI cloud revenue on top of hardware sales in new optional financing vehicle — trades toke",
+      "articles": [
+        {
+          "title": "Nvidia offers to take a cut of AI cloud revenue on top of hardware sales in new optional financing vehicle — trades toke",
+          "url": "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Supermicro denies that its offices were raided by Taiwanese authorities in Nvidia GPU smuggling case — company says that",
+          "url": "https://www.tomshardware.com/desktops/servers/supermicro-denies-that-its-offices-were-raided-by-taiwanese-authorities-in-nvidia-gpu-smuggling-case-company-says-that-it-coordinated-with-the-police-and-provided-access-to-investigated-employees-workstations-and-gadgets",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Nvidia is launching a revenue-sharing model to give AI startups access to its hardware",
+          "url": "https://qz.com/nvidia-revenue-sharing-model-ai-startups-compute-070226",
+          "source": "Quartz"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 86,
+      "velocity": 3.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.48,
+      "headline": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+      "articles": [
+        {
+          "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+          "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+          "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+          "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "large language model",
-      "mentions": 682,
-      "velocity": 106.5,
+      "mentions": 416,
+      "velocity": 26.2,
       "sources": [
         "articles",
         "arxiv",
@@ -36,80 +108,9 @@
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 255,
-      "velocity": 34.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "Hardening x402: PII-Safe Agentic Payments via Pre-Execution Metadata Filtering",
-      "articles": [
-        {
-          "title": "Hardening x402: PII-Safe Agentic Payments via Pre-Execution Metadata Filtering",
-          "url": "https://arxiv.org/abs/2604.11430",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Knowdit: Agentic Smart Contract Vulnerability Detection with Auditing Knowledge Summarization",
-          "url": "https://arxiv.org/abs/2603.26270",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Diagnosing and Mitigating Compounding Failures in Agentic Persuasion via Taxonomic Strategy Retrieval",
-          "url": "https://arxiv.org/abs/2606.24976",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "multimodal",
-      "mentions": 198,
-      "velocity": 24.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Multimodal and Multiscale Spatial-Temporal Semantic Search and Recommendation with AI Foundation Models",
-      "articles": [
-        {
-          "title": "Multimodal and Multiscale Spatial-Temporal Semantic Search and Recommendation with AI Foundation Models",
-          "url": "https://arxiv.org/abs/2606.28369",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Text Over Image: Auditing Multimodal Robustness in Synthetic Medical Image Detection",
-          "url": "https://arxiv.org/abs/2606.25375",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ManimAgent: Self-Evolving Multimodal Agents for Visual Education",
-          "url": "https://arxiv.org/abs/2606.30296",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
       "keyword": "claude",
-      "mentions": 650,
-      "velocity": 18.6,
+      "mentions": 646,
+      "velocity": 17.4,
       "sources": [
         "articles",
         "arxiv",
@@ -123,65 +124,171 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.76,
-      "headline": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
+      "headline": "I tried Claude Sonnet 5 with prompts that ask it to finish the job, not just answer the question — and that's where the ",
       "articles": [
         {
-          "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
-          "url": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
-          "source": "The Register"
+          "title": "I tried Claude Sonnet 5 with prompts that ask it to finish the job, not just answer the question — and that's where the ",
+          "url": "https://www.techradar.com/ai-platforms-assistants/claude/i-tried-claude-sonnet-5-with-prompts-that-ask-it-to-finish-the-job-not-just-answer-the-question-and-thats-where-the-ai-war-is-going",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
-          "url": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
-          "source": "The Register - Security"
+          "title": "I tried Claude Sonnet 5 with prompts that ask it to finish the job, not just answer the question — and that's where the ",
+          "url": "https://www.techradar.com/ai-platforms-assistants/claude/i-tried-claude-sonnet-5-with-prompts-that-ask-it-to-finish-the-job-not-just-answer-the-question-and-thats-where-the-ai-war-is-going",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
-          "url": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
-          "source": "The Register"
+          "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+          "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
         }
       ]
     },
     {
-      "keyword": "ai agent",
-      "mentions": 266,
-      "velocity": 9.3,
+      "keyword": "ai agents",
+      "mentions": 230,
+      "velocity": 13.5,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "When AI Agents Compete for Jobs: Strategic Capabilities and Economic Dynamics of AI Labour Markets",
+      "expert_ratio": 0.62,
+      "headline": "Cloudflare sets a September 15 deadline for AI companies to differentiate their web crawlers into search, AI training, a",
       "articles": [
+        {
+          "title": "Cloudflare sets a September 15 deadline for AI companies to differentiate their web crawlers into search, AI training, a",
+          "url": "https://www.techmeme.com/260702/p13#a260702p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Cloudflare sets a September 15 deadline for AI companies to differentiate their web crawlers into search, AI training, a",
+          "url": "https://www.techmeme.com/260702/p13#a260702p13",
+          "source": "Techmeme"
+        },
         {
           "title": "When AI Agents Compete for Jobs: Strategic Capabilities and Economic Dynamics of AI Labour Markets",
           "url": "https://arxiv.org/abs/2512.04988",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 170,
+      "velocity": 8.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.74,
+      "headline": "Agentic AI adoption outpaces governance in regulated industries",
+      "articles": [
+        {
+          "title": "Agentic AI adoption outpaces governance in regulated industries",
+          "url": "https://www.techradar.com/pro/agentic-ai-adoption-outpaces-governance-in-regulated-industries",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Anthropic is making AI agents cheaper to run with its new Claude Sonnet 5 model",
-          "url": "https://qz.com/anthropic-claude-sonnet-5-ai-agents-pricing-070126",
-          "source": "Quartz"
+          "title": "Agentic AI adoption outpaces governance in regulated industries",
+          "url": "https://www.techradar.com/pro/agentic-ai-adoption-outpaces-governance-in-regulated-industries",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "AI agents are not your “coworkers”",
-          "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
+          "title": "Z.ai launches ZCode, an \"Agentic Development Environment\" optimized for its new GLM-5.2 model; Z.ai's GLM Coding Plan co",
+          "url": "https://www.techmeme.com/260702/p19#a260702p19",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 169,
+      "velocity": 7.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.66,
+      "headline": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+      "articles": [
+        {
+          "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+          "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Google built a great smart speaker, but Gemini isn’t ready for it",
+          "url": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "Google built a great smart speaker, but Gemini isn’t ready for it",
+          "url": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
+          "source": "The Verge -  Artificial Intelligences"
+        }
+      ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 69,
+      "velocity": 4.8,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.67,
+      "headline": "Le Dell 16 nouvelle génération perd 350 € : Core Ultra 5, écran 16 pouces FHD+, 16 Go de RAM et Copilot+ pour un PC port",
+      "articles": [
+        {
+          "title": "Le Dell 16 nouvelle génération perd 350 € : Core Ultra 5, écran 16 pouces FHD+, 16 Go de RAM et Copilot+ pour un PC port",
+          "url": "https://www.futura-sciences.com/conso/bons-plans/guides-pc-tablettes-dell-16-nouvelle-generation-perd-350-core-ultra-5-ecran-16-pouces-fhd-16-go-ram-copilot-pc-portable-polyvalent-moins-600-10589/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
+        },
+        {
+          "title": "Microsoft suggests Copilot is the 'button you can press to fix everything' in Windows 11 — here's hoping it can fix the ",
+          "url": "https://www.techradar.com/computing/windows/microsoft-suggests-copilot-is-the-button-you-can-press-to-fix-everything-in-windows-11-heres-hoping-it-can-fix-the-companys-marketing-department",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Microsoft suggests Copilot is the 'button you can press to fix everything' in Windows 11 — here's hoping it can fix the ",
+          "url": "https://www.techradar.com/computing/windows/microsoft-suggests-copilot-is-the-button-you-can-press-to-fix-everything-in-windows-11-heres-hoping-it-can-fix-the-companys-marketing-department",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
       "keyword": "claude sonnet",
-      "mentions": 34,
-      "velocity": 4.9,
+      "mentions": 33,
+      "velocity": 4.6,
       "sources": [
         "articles",
         "arxiv",
@@ -192,63 +299,30 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
+      "expert_ratio": 0.81,
+      "headline": "I tried Claude Sonnet 5 with prompts that ask it to finish the job, not just answer the question — and that's where the ",
       "articles": [
+        {
+          "title": "I tried Claude Sonnet 5 with prompts that ask it to finish the job, not just answer the question — and that's where the ",
+          "url": "https://www.techradar.com/ai-platforms-assistants/claude/i-tried-claude-sonnet-5-with-prompts-that-ask-it-to-finish-the-job-not-just-answer-the-question-and-thats-where-the-ai-war-is-going",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "I tried Claude Sonnet 5 with prompts that ask it to finish the job, not just answer the question — and that's where the ",
+          "url": "https://www.techradar.com/ai-platforms-assistants/claude/i-tried-claude-sonnet-5-with-prompts-that-ask-it-to-finish-the-job-not-just-answer-the-question-and-thats-where-the-ai-war-is-going",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
         {
           "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
           "url": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
           "source": "The Register - Security"
-        },
-        {
-          "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
-          "url": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
-          "source": "The Register"
-        },
-        {
-          "title": "Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy",
-          "url": "https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "vibe coding",
-      "mentions": 47,
-      "velocity": 4.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "Vibe Coding Ate My Homework: An evaluation of AI approaches to greenfield software engineering and programming",
-      "articles": [
-        {
-          "title": "Vibe Coding Ate My Homework: An evaluation of AI approaches to greenfield software engineering and programming",
-          "url": "https://arxiv.org/abs/2606.18293",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Base44 launches Base1, its own AI model for vibe coding",
-          "url": "https://thenextweb.com/news/base44-base1-proprietary-ai-model-vibe-coding",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Base44 launches Base1, its own AI model for vibe coding",
-          "url": "https://thenextweb.com/news/base44-base1-proprietary-ai-model-vibe-coding",
-          "source": "The Next Web"
         }
       ]
     },
     {
       "keyword": "claude code",
-      "mentions": 43,
-      "velocity": 4.0,
+      "mentions": 44,
+      "velocity": 4.3,
       "sources": [
         "articles",
         "hackernews",
@@ -260,22 +334,22 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
-      "headline": "Anthropic says it is rolling back a covert Claude Code tracking feature to identify users based in China or affiliated w",
+      "headline": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
       "articles": [
         {
-          "title": "Anthropic says it is rolling back a covert Claude Code tracking feature to identify users based in China or affiliated w",
-          "url": "https://www.techmeme.com/260701/p17#a260701p17",
-          "source": "Techmeme"
+          "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+          "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Anthropic says it is rolling back a covert Claude Code tracking feature to identify users based in China or affiliated w",
-          "url": "https://www.techmeme.com/260701/p17#a260701p17",
-          "source": "Techmeme"
+          "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+          "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Claude Code users complain their chat records are being mysteriously wiped out",
-          "url": "https://www.theregister.com/ai-and-ml/2026/06/30/claude-code-users-complain-their-chat-records-are-being-mysteriously-wiped-out/5264673",
-          "source": "The Register"
+          "title": "Z.ai launches ZCode to challenge Cursor, Claude Code and GitHub Copilot in AI coding",
+          "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
         }
       ]
     }
@@ -337,20 +411,6 @@
       ]
     },
     {
-      "keyword": "convnext",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "langmem",
       "mentions": 2,
       "velocity": 1.0,
@@ -369,6 +429,20 @@
           "source": "VentureBeat"
         }
       ]
+    },
+    {
+      "keyword": "convnext",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "we created a monster",
@@ -427,6 +501,36 @@
       "articles": []
     },
     {
+      "keyword": "transformer",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
+      "articles": [
+        {
+          "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
+          "url": "https://arxiv.org/abs/2607.01232",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling",
+          "url": "https://arxiv.org/abs/2604.02270",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Two-stage Transformer Framework for Temporal Localization of Distracted Driver Behaviors",
+          "url": "https://arxiv.org/abs/2603.21048",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "pocketcal",
       "mentions": 3,
       "velocity": 0.5,
@@ -439,96 +543,52 @@
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "ai regulation",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 91,
-      "days_active": 7,
-      "expert_ratio": 0.61,
-      "headline": "Silicon Valley backed Trump to kill AI regulation, now the industry is begging for rules",
-      "articles": [
-        {
-          "title": "Silicon Valley backed Trump to kill AI regulation, now the industry is begging for rules",
-          "url": "https://thenextweb.com/news/silicon-valley-ai-regulation-trump-biden-irony-framework",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Silicon Valley backed Trump to kill AI regulation, now the industry is begging for rules",
-          "url": "https://thenextweb.com/news/silicon-valley-ai-regulation-trump-biden-irony-framework",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Silicon Valley backed Trump to kill AI regulation, now the industry is begging for rules",
-          "url": "https://thenextweb.com/news/silicon-valley-ai-regulation-trump-biden-irony-framework",
-          "source": "The Next Web"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "voice agent",
-      "mentions": 13,
+      "keyword": "gpt-5",
+      "mentions": 61,
       "velocity": 2.0,
       "sources": [
         "articles",
+        "arxiv",
         "linkedin",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.39,
-      "headline": "Adaptive Turn-Taking for Real-time Multi-Party Voice Agents",
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "OpenAI mulling giving US gov't a 5% stake in the company, days after Washington delayed GPT-5.6 — Altman reportedly want",
       "articles": [
         {
-          "title": "Adaptive Turn-Taking for Real-time Multi-Party Voice Agents",
-          "url": "https://arxiv.org/abs/2606.13544",
+          "title": "OpenAI mulling giving US gov't a 5% stake in the company, days after Washington delayed GPT-5.6 — Altman reportedly want",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-floats-5-percent-government-stake-days-after-washington-delayed-gpt-5-6",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Prompting GPT-5 on Scrum Certification Questions: An Empirical Accuracy Study",
+          "url": "https://arxiv.org/abs/2607.00049",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Adaptive Turn-Taking for Real-time Multi-Party Voice Agents",
-          "url": "https://arxiv.org/abs/2606.13544",
+          "title": "Prompting GPT-5 on Scrum Certification Questions: An Empirical Accuracy Study",
+          "url": "https://arxiv.org/abs/2607.00049",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Coval raises $28M to stress-test AI voice agents",
-          "url": "https://thenextweb.com/news/coval-28m-series-a-voice-ai-testing",
-          "source": "The Next Web"
         }
       ]
     },
     {
-      "keyword": "context window",
-      "mentions": 16,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "kimi",
-      "mentions": 12,
-      "velocity": 1.7,
+      "mentions": 13,
+      "velocity": 2.0,
       "sources": [
         "articles",
+        "hackernews",
         "twitter"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.0,
@@ -536,91 +596,99 @@
       "articles": []
     },
     {
-      "keyword": "langchain",
+      "keyword": "cline",
       "mentions": 20,
+      "velocity": 1.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.56,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "gpt-4o",
+      "mentions": 19,
       "velocity": 1.7,
       "sources": [
-        "github",
+        "articles",
+        "arxiv",
         "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "foundation model",
+      "mentions": 27,
+      "velocity": 1.4,
+      "sources": [
+        "arxiv",
+        "linkedin"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
+      "expert_ratio": 0.92,
+      "headline": "Multimodal and Multiscale Spatial-Temporal Semantic Search and Recommendation with AI Foundation Models",
       "articles": [
         {
-          "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
-          "url": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "title": "Multimodal and Multiscale Spatial-Temporal Semantic Search and Recommendation with AI Foundation Models",
+          "url": "https://arxiv.org/abs/2606.28369",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "7,000 Langflow servers are under attack. LangGraph and LangChain have the same holes",
-          "url": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 23,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.62,
-      "headline": "Which AI chatbot is right for you? Take our quiz to find out whether ChatGPT, Claude, Gemini, Grok or Perplexity is best",
-      "articles": [
-        {
-          "title": "Which AI chatbot is right for you? Take our quiz to find out whether ChatGPT, Claude, Gemini, Grok or Perplexity is best",
-          "url": "https://www.techradar.com/ai-platforms-assistants/which-ai-chatbot-is-right-for-you-take-our-quiz-to-find-out-whether-chatgpt-claude-gemini-grok-or-perplexity-is-best",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Utilizing Earth Foundation Models to Enhance the Simulation Performance of Hydrological Models with AlphaEarth Embedding",
+          "url": "https://arxiv.org/abs/2601.01558",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Which AI chatbot is right for you? Take our quiz to find out whether ChatGPT, Claude, Gemini, Grok or Perplexity is best",
-          "url": "https://www.techradar.com/ai-platforms-assistants/which-ai-chatbot-is-right-for-you-take-our-quiz-to-find-out-whether-chatgpt-claude-gemini-grok-or-perplexity-is-best",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Most Current Model Organisms Are Leaky: Perplexity Differencing Often Reveals Finetuning Objectives",
-          "url": "https://arxiv.org/abs/2605.00994",
+          "title": "EO-VGGT: Orbital Ray-Conditioned 3D Foundation Models for Satellite Multi-View Reconstruction",
+          "url": "https://arxiv.org/abs/2607.00417",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "distillation",
-      "mentions": 44,
-      "velocity": 1.0,
+      "keyword": "simulation",
+      "mentions": 39,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews"
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "Cornerstones or Stumbling Blocks? Deciphering the Rock Tokens in On-Policy Distillation",
+      "expert_ratio": 0.89,
+      "headline": "Agri-SAGE: Simulation-Grounded Multi-Agent LLM for Context-Aware Agricultural Advisory Generation",
       "articles": [
         {
-          "title": "Cornerstones or Stumbling Blocks? Deciphering the Rock Tokens in On-Policy Distillation",
-          "url": "https://arxiv.org/abs/2605.09253",
+          "title": "Agri-SAGE: Simulation-Grounded Multi-Agent LLM for Context-Aware Agricultural Advisory Generation",
+          "url": "https://arxiv.org/abs/2607.00454",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Distill to Detect: Exposing Stealth Biases in LLMs through Cartridge Distillation",
-          "url": "https://arxiv.org/abs/2607.01208",
+          "title": "Room for Error: Large-Scale Simulation of Over-the-Air Acoustic Attacks",
+          "url": "https://arxiv.org/abs/2606.27701",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Cross4D-JEPA: Dense Cross-modal Correspondence Distillation for 4D Point Cloud Representation Learning",
-          "url": "https://arxiv.org/abs/2607.00514",
+          "title": "Utilizing Earth Foundation Models to Enhance the Simulation Performance of Hydrological Models with AlphaEarth Embedding",
+          "url": "https://arxiv.org/abs/2601.01558",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -714,17 +782,17 @@
       "lead_days": 7
     },
     {
-      "keyword": "ai developer",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-05",
-      "materialized_on": "2026-03-10",
-      "lead_days": 5
-    },
-    {
       "keyword": "llama",
       "signal_type": "emerging",
       "flagged_on": "2026-04-03",
       "materialized_on": "2026-04-08",
+      "lead_days": 5
+    },
+    {
+      "keyword": "ai developer",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-05",
+      "materialized_on": "2026-03-10",
       "lead_days": 5
     },
     {
@@ -744,7 +812,19 @@
         "confidence": 1.0
       },
       {
-        "keyword": "agi",
+        "keyword": "claude code",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "claude sonnet",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-07-02",
         "confidence": 1.0
@@ -756,13 +836,31 @@
         "confidence": 1.0
       },
       {
+        "keyword": "agi",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-02",
+        "confidence": 1.0
+      },
+      {
         "keyword": "vibe coding",
         "signal_type": "emerging",
         "flagged_on": "2026-07-02",
-        "confidence": 0.4
+        "confidence": 0.8
       },
       {
         "keyword": "deepseek r1",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-02",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "ai regulation",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-02",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "mistral ai",
         "signal_type": "weak_signal",
         "flagged_on": "2026-07-02",
         "confidence": 0.2
@@ -774,56 +872,26 @@
         "confidence": 0.2
       },
       {
-        "keyword": "cursor",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-01",
-        "confidence": 1.0
-      },
-      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-07-01",
         "confidence": 1.0
-      },
-      {
-        "keyword": "synthetic data",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-01",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-30",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "ai winter",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-06-30",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "openai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-06-29",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
-      {
-        "keyword": "autogen",
-        "recent_mentions": 13,
-        "prior_mentions": 1,
-        "change_ratio": 13.0,
-        "corroborating_sources": 3
-      },
       {
         "keyword": "mixture of experts",
         "recent_mentions": 24,
         "prior_mentions": 2,
         "change_ratio": 12.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "autogen",
+        "recent_mentions": 12,
+        "prior_mentions": 1,
+        "change_ratio": 12.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "cerebras",
@@ -841,10 +909,10 @@
       },
       {
         "keyword": "groq",
-        "recent_mentions": 22,
+        "recent_mentions": 23,
         "prior_mentions": 5,
-        "change_ratio": 4.4,
-        "corroborating_sources": 3
+        "change_ratio": 4.6,
+        "corroborating_sources": 4
       },
       {
         "keyword": "b200",
@@ -861,11 +929,11 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "rlhf",
-        "recent_mentions": 45,
-        "prior_mentions": 12,
-        "change_ratio": 3.75,
-        "corroborating_sources": 2
+        "keyword": "qlora",
+        "recent_mentions": 14,
+        "prior_mentions": 4,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
       },
       {
         "keyword": "suno",
@@ -875,17 +943,10 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "qlora",
-        "recent_mentions": 14,
-        "prior_mentions": 4,
-        "change_ratio": 3.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "llama 3",
-        "recent_mentions": 16,
-        "prior_mentions": 5,
-        "change_ratio": 3.2,
+        "keyword": "rlhf",
+        "recent_mentions": 41,
+        "prior_mentions": 12,
+        "change_ratio": 3.42,
         "corroborating_sources": 2
       },
       {
@@ -893,6 +954,13 @@
         "recent_mentions": 16,
         "prior_mentions": 5,
         "change_ratio": 3.2,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude haiku",
+        "recent_mentions": 12,
+        "prior_mentions": 4,
+        "change_ratio": 3.0,
         "corroborating_sources": 2
       }
     ]
