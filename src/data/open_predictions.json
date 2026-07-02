@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T17:34:32+00:00",
+  "generated_at": "2026-07-02T05:31:56+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -14,73 +14,73 @@
       "keyword": "mcp client",
       "signal_type": "weak_signal",
       "flagged_on": "2026-05-31",
-      "days_left": 14
+      "days_left": 13
     },
     {
       "keyword": "text to speech",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-08",
-      "days_left": 22
+      "days_left": 21
     },
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 27
+      "days_left": 26
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 29
+      "days_left": 28
     },
     {
       "keyword": "grok",
       "signal_type": "emerging",
       "flagged_on": "2026-06-15",
-      "days_left": 29
+      "days_left": 28
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 30
-    },
-    {
-      "keyword": "deepseek r1",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-16",
-      "days_left": 30
+      "days_left": 29
     },
     {
       "keyword": "hallucinations",
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
-      "days_left": 31
+      "days_left": 30
     },
     {
       "keyword": "context window",
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
-      "days_left": 31
+      "days_left": 30
     },
     {
       "keyword": "crewai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-18",
-      "days_left": 32
+      "days_left": 31
     },
     {
       "keyword": "browser use",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-19",
+      "days_left": 32
+    },
+    {
+      "keyword": "ttft",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-20",
       "days_left": 33
     },
     {
-      "keyword": "deepseek",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-19",
-      "days_left": 33
+      "keyword": "chatbox",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-21",
+      "days_left": 34
     }
   ],
   "recent_resolved": [
@@ -148,7 +148,7 @@
       "outlet": "Tweakers"
     },
     {
-      "keyword": "copilot",
+      "keyword": "benchmark",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-07",
@@ -157,7 +157,7 @@
       "outlet": "Tweakers"
     },
     {
-      "keyword": "benchmark",
+      "keyword": "copilot",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-07",
