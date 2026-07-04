@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-03T17:53:42+00:00",
+  "generated_at": "2026-07-04T05:32:23+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 51,
+    "open": 52,
     "resolved": 29,
     "hits": 24,
     "misses": 5,
@@ -14,73 +14,73 @@
       "keyword": "mcp client",
       "signal_type": "weak_signal",
       "flagged_on": "2026-05-31",
-      "days_left": 12
+      "days_left": 11
     },
     {
       "keyword": "text to speech",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-08",
-      "days_left": 20
+      "days_left": 19
     },
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 25
+      "days_left": 24
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 27
+      "days_left": 26
     },
     {
       "keyword": "grok",
       "signal_type": "emerging",
       "flagged_on": "2026-06-15",
-      "days_left": 27
+      "days_left": 26
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 28
+      "days_left": 27
     },
     {
       "keyword": "hallucinations",
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
-      "days_left": 29
+      "days_left": 28
     },
     {
       "keyword": "context window",
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
-      "days_left": 29
+      "days_left": 28
     },
     {
       "keyword": "crewai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-18",
-      "days_left": 30
+      "days_left": 29
     },
     {
       "keyword": "browser use",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-19",
-      "days_left": 31
+      "days_left": 30
     },
     {
       "keyword": "ttft",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-20",
-      "days_left": 32
+      "days_left": 31
     },
     {
       "keyword": "chatbox",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-21",
-      "days_left": 33
+      "days_left": 32
     }
   ],
   "recent_resolved": [
@@ -97,9 +97,9 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-14",
+      "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-22",
-      "lead_days": 39,
+      "lead_days": 15,
       "outlet": "Nature"
     },
     {
@@ -130,6 +130,15 @@
       "outlet": "VentureBeat"
     },
     {
+      "keyword": "copilot",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
+    },
+    {
       "keyword": "ai agent",
       "signal_type": "emerging",
       "status": "hit",
@@ -148,6 +157,15 @@
       "outlet": "Tweakers"
     },
     {
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-04-07",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
       "keyword": "benchmark",
       "signal_type": "emerging",
       "status": "hit",
@@ -164,24 +182,6 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Techmeme"
-    },
-    {
-      "keyword": "copilot",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
-    },
-    {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
     },
     {
       "keyword": "ai agents",
