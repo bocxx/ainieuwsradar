@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-05T17:35:20+00:00",
+  "generated_at": "2026-07-05T18:29:54+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 62,
-    "covered": 52,
-    "coverage_rate": 0.839,
-    "early": 15,
-    "early_rate": 0.242,
-    "avg_lead_days": 11.5,
+    "scored_predictions": 32,
+    "covered": 23,
+    "coverage_rate": 0.719,
+    "early": 9,
+    "early_rate": 0.281,
+    "avg_lead_days": 9.8,
     "median_lead_days": 5,
-    "max_lead_days": 39,
-    "hit_rate": 0.839,
-    "materialized": 52,
+    "max_lead_days": 29,
+    "hit_rate": 0.719,
+    "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 51,
-        "covered": 49,
-        "early": 13,
-        "coverage_rate": 0.961,
-        "early_rate": 0.255,
-        "hit_rate": 0.961
+        "scored": 21,
+        "covered": 20,
+        "early": 7,
+        "coverage_rate": 0.952,
+        "early_rate": 0.333,
+        "hit_rate": 0.952
       },
       "weak_signal": {
         "scored": 11,
@@ -35,13 +35,6 @@
     }
   },
   "best_calls": [
-    {
-      "keyword": "large language model",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-14",
-      "materialized_on": "2026-04-22",
-      "lead_days": 39
-    },
     {
       "keyword": "gemma",
       "signal_type": "emerging",
@@ -57,25 +50,11 @@
       "lead_days": 27
     },
     {
-      "keyword": "multimodal",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-12",
-      "materialized_on": "2026-03-31",
-      "lead_days": 19
-    },
-    {
       "keyword": "qwen",
       "signal_type": "emerging",
       "flagged_on": "2026-04-03",
       "materialized_on": "2026-04-10",
       "lead_days": 7
-    },
-    {
-      "keyword": "llama",
-      "signal_type": "emerging",
-      "flagged_on": "2026-04-03",
-      "materialized_on": "2026-04-08",
-      "lead_days": 5
     },
     {
       "keyword": "ai developer",
@@ -89,6 +68,13 @@
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
+      "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
       "lead_days": 4
     }
   ],
