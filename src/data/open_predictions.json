@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T05:36:38+00:00",
+  "generated_at": "2026-07-06T17:36:33+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -97,19 +97,10 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-03-14",
       "resolved_on": "2026-04-22",
-      "lead_days": 15,
+      "lead_days": 39,
       "outlet": "Nature"
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-03",
-      "resolved_on": "2026-04-10",
-      "lead_days": 7,
-      "outlet": "Techmeme"
     },
     {
       "keyword": "tokens",
@@ -121,6 +112,15 @@
       "outlet": "Business Insider"
     },
     {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-10",
+      "lead_days": 3,
+      "outlet": "Techmeme"
+    },
+    {
       "keyword": "llama",
       "signal_type": "emerging",
       "status": "hit",
@@ -128,42 +128,6 @@
       "resolved_on": "2026-04-08",
       "lead_days": 4,
       "outlet": "VentureBeat"
-    },
-    {
-      "keyword": "ai agent",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "The Register"
-    },
-    {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "copilot",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
-    },
-    {
-      "keyword": "benchmark",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
     },
     {
       "keyword": "data center",
@@ -175,6 +139,33 @@
       "outlet": "Techmeme"
     },
     {
+      "keyword": "copilot",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
+    },
+    {
+      "keyword": "ai agent",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "The Register"
+    },
+    {
+      "keyword": "benchmark",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
+    },
+    {
       "keyword": "benchmarks",
       "signal_type": "emerging",
       "status": "hit",
@@ -182,6 +173,15 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
+    },
+    {
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-04-07",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
     },
     {
       "keyword": "ai agents",

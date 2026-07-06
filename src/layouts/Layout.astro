@@ -11,7 +11,14 @@ const {
 } = Astro.props;
 const year = new Date().getFullYear();
 const site = Astro.site ?? new URL('https://ainieuwsradar.nl');
-const canonical = new URL(Astro.url.pathname.replace(/\/$/, '') || '/', site).href;
+// Niet stripten: Cloudflare Workers Assets serveert de directory-format
+// build-output van deze site (elke pagina bouwt naar path/index.html) op de
+// mét-trailing-slash-vorm (200) en redirect de kale vorm daarheen (307) — zie
+// bv. /radar vs /radar/. Strippen zorgde ervoor dat de canonical van de
+// live-geserveerde pagina terugverwees naar een URL die zelf weer naar deze
+// pagina redirect: een zichzelf tegensprekend signaal, ontdekt tijdens de
+// netwerkbrede audit n.a.v. de canonical-bug op debesteaitools.nl (juli 2026).
+const canonical = new URL(Astro.url.pathname, site).href;
 const ogImage = new URL(image, site).href;
 const jsonld = {
   '@context': 'https://schema.org',
