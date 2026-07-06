@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T18:29:54+00:00",
+  "generated_at": "2026-07-06T05:36:31+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -16,14 +16,6 @@
     "hit_rate": 0.719,
     "materialized": 23,
     "by_signal_type": {
-      "emerging": {
-        "scored": 21,
-        "covered": 20,
-        "early": 7,
-        "coverage_rate": 0.952,
-        "early_rate": 0.333,
-        "hit_rate": 0.952
-      },
       "weak_signal": {
         "scored": 11,
         "covered": 3,
@@ -31,6 +23,14 @@
         "coverage_rate": 0.273,
         "early_rate": 0.182,
         "hit_rate": 0.273
+      },
+      "emerging": {
+        "scored": 21,
+        "covered": 20,
+        "early": 7,
+        "coverage_rate": 0.952,
+        "early_rate": 0.333,
+        "hit_rate": 0.952
       }
     }
   },
@@ -84,21 +84,21 @@
     "Nog geen nul-model/controlegroep: de dekking is nog niet tegen toeval afgezet."
   ],
   "null_model": {
-    "n": 62,
+    "n": 32,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.839,
-      "early_rate": 0.242
+      "coverage_rate": 0.719,
+      "early_rate": 0.281
     },
     "null_mean": {
-      "coverage_rate": 0.84,
-      "early_rate": 0.272
+      "coverage_rate": 0.716,
+      "early_rate": 0.3
     },
     "p_value": {
-      "coverage_rate": 0.708,
-      "early_rate": 0.833
+      "coverage_rate": 0.703,
+      "early_rate": 0.764
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
