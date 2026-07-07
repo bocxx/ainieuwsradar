@@ -1,9 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { canonicalTrendEntries } from '../../lib/trend-filter.mjs';
 
 export async function getStaticPaths() {
-  const trends = (await getCollection('trends')).filter((t) => !t.data.draft)
+  // canonicalTrendEntries: HTML-artefacten (allowfullscreen, textblock, ...)
+  // en enkelvoud/meervoud-duplicaten uit de NewsFlux-data krijgen géén pagina.
+  const trends = canonicalTrendEntries((await getCollection('trends')).filter((t) => !t.data.draft))
     .sort((a, b) => (b.data.data.total_mentions ?? 0) - (a.data.data.total_mentions ?? 0));
   const days = (await getCollection('radar')).filter((d) => !d.data.draft)
     .sort((a, b) => b.data.date.localeCompare(a.data.date)).slice(0, 5)

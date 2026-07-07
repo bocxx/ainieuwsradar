@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import radar from '../data/radar.json';
 import nl from '../data/ai_nederland.json';
 import { getCollection } from 'astro:content';
+import { canonicalTrendEntries } from '../lib/trend-filter.mjs';
 
 const nlPct = Math.round((nl?.headline?.nl ?? 0));
 const euPct = Math.round((nl?.headline?.eu ?? 0));
@@ -11,7 +12,7 @@ const nlTop = (nl?.technologies ?? []).slice(0, 4);
 const nlTopMax = Math.max(...nlTop.map((t) => t.nl ?? 0), 1);
 
 // Trefwoorden die een eigen trendpagina hebben → interne links (anti-cannibal hub).
-const trendEntries = (await getCollection('trends')).filter((t) => !t.data.draft);
+const trendEntries = canonicalTrendEntries((await getCollection('trends')).filter((t) => !t.data.draft));
 const trendSlug = new Map(trendEntries.map((t) => [t.data.keyword.toLowerCase(), t.data.slug]));
 const slugFor = (kw) => trendSlug.get((kw || '').toLowerCase()) ?? null;
 

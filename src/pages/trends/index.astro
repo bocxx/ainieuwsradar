@@ -1,7 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-const trends = (await getCollection('trends')).filter((t) => !t.data.draft)
+import { canonicalTrendEntries } from '../../lib/trend-filter.mjs';
+const trends = canonicalTrendEntries((await getCollection('trends')).filter((t) => !t.data.draft))
   .sort((a, b) => (b.data.data.total_mentions ?? 0) - (a.data.data.total_mentions ?? 0));
 ---
 <Layout title="AI-trends op de radar — signaalverloop per onderwerp | AI Nieuws Radar"

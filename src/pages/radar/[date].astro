@@ -1,10 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { canonicalTrendEntries } from '../../lib/trend-filter.mjs';
 
 export async function getStaticPaths() {
   const days = (await getCollection('radar')).filter((d) => !d.data.draft);
-  const trends = (await getCollection('trends')).filter((t) => !t.data.draft);
+  // Alleen canonieke trends: voorkomt links naar gedropte junk-/duplicaatpagina's.
+  const trends = canonicalTrendEntries((await getCollection('trends')).filter((t) => !t.data.draft));
   const trendSlug = new Map(trends.map((t) => [t.data.keyword.toLowerCase(), t.data.slug]));
   const trendSet = new Set(trendSlug.keys());
   const sorted = [...days].sort((a, b) => a.data.date.localeCompare(b.data.date));
