@@ -1,4 +1,16 @@
+# robots.txt — ainieuwsradar.nl
+# AI-crawlers welkom — de radar wil geciteerd worden als bron over
+# welke AI-trends doorbreken.
+# Let op: Cloudflare's Managed robots.txt kan dit bestand live overschrijven;
+# de AI-bot-blokkade hoort in het CF-dashboard voor deze zone uit te staan.
+
 User-agent: *
 Allow: /
+
+# Content Signals (https://contentsignals.org/) — AI-inzet-voorkeuren.
+# ai-train: nee (geen trainingsdata zonder licentie)
+# search: ja (indexering welkom)
+# ai-input: ja (content als agent-context gebruiken mag)
+Content-Signal: ai-train=no, search=yes, ai-input=yes
 
 Sitemap: https://ainieuwsradar.nl/sitemap-index.xml
