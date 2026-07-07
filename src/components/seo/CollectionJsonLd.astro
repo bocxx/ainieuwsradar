@@ -1,0 +1,61 @@
+---
+/**
+ * CollectionJsonLd — schema.org CollectionPage + ItemList in JSON-LD.
+ *
+ * Voor hub-/listing-pagina's (/trends/, /radar/). Vertelt Google expliciet
+ * "dit is een verzameling pagina's" en presenteert de top-N als ItemList.
+ * Helpt voor sitelinks en collection-style rich-results. Patroon
+ * overgenomen van hetlaatsteainieuws-v2/src/components/seo/CollectionJsonLd.astro.
+ *
+ * Usage:
+ *   <CollectionJsonLd
+ *     name="AI-trends op de radar"
+ *     description="..."
+ *     url="/trends/"
+ *     items={trends.map((t) => ({ name: t.keyword, url: `/trend/${t.slug}/` }))}
+ *   />
+ */
+
+interface Item {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  name: string;
+  description: string;
+  url: string;
+  items: Item[];
+}
+
+const { name, description, url, items } = Astro.props;
+
+const origin = Astro.site?.toString().replace(/\/$/, '') ?? Astro.url.origin;
+const absUrl = (u: string) => (u.startsWith('http') ? u : `${origin}${u}`);
+
+const collection = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name,
+  description,
+  url: absUrl(url),
+  inLanguage: 'nl-NL',
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'AI Nieuws Radar',
+    url: origin,
+  },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: items.length,
+    itemListElement: items.map((item, idx) => ({
+      '@type': 'ListItem',
+      position: idx + 1,
+      name: item.name,
+      url: absUrl(item.url),
+    })),
+  },
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(collection)} />

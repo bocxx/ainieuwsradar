@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import BreadcrumbJsonLd from '../../components/seo/BreadcrumbJsonLd.astro';
 import { getCollection } from 'astro:content';
 import { canonicalTrendEntries } from '../../lib/trend-filter.mjs';
 
@@ -39,6 +40,11 @@ const paras = entry.data.analysis.split(/\n\n+/).filter(Boolean);
 const dayNL = (iso) => { const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()].slice(0,3)}`; };
 ---
 <Layout title={`${entry.data.title} | AI Nieuws Radar`} description={entry.data.description} ogType="article" image={`/og/radar-${entry.data.date}.png`}>
+  <BreadcrumbJsonLd items={[
+    { name: 'Home', url: '/' },
+    { name: 'Radar-archief', url: '/radar/' },
+    { name: dateNL, url: `/radar/${entry.data.date}/` },
+  ]} />
   <main id="main" class="page">
     <nav class="crumbs"><a href="/radar">Radar-archief</a> <span>/</span> <span>{dateNL}</span></nav>
     <header class="phead">

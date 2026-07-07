@@ -1,8 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import CollectionJsonLd from '../../components/seo/CollectionJsonLd.astro';
 import { getCollection } from 'astro:content';
 const days = (await getCollection('radar')).filter((d) => !d.data.draft)
   .sort((a, b) => b.data.date.localeCompare(a.data.date));
+const description = `Het volledige archief van de AI-signaalradar: ${days.length} dagelijkse metingen van opkomende AI-trends, met de versnellers en zwakke signalen per dag.`;
 const months = ['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
 const fmt = (iso) => { const x = new Date(iso); return `${x.getDate()} ${months[x.getMonth()]}`; };
 const groups = {};
@@ -13,7 +15,13 @@ for (const d of days) {
 }
 ---
 <Layout title="Radar-archief — elke dag een AI-signaalmeting | AI Nieuws Radar"
-  description={`Het volledige archief van de AI-signaalradar: ${days.length} dagelijkse metingen van opkomende AI-trends, met de versnellers en zwakke signalen per dag.`}>
+  description={description}>
+  <CollectionJsonLd
+    name="Radar-archief"
+    description={description}
+    url="/radar/"
+    items={days.slice(0, 30).map((d) => ({ name: d.data.title, url: `/radar/${d.data.date}/` }))}
+  />
   <main id="main" class="page">
     <header class="phead">
       <p class="kicker kicker--accent">Archief</p>

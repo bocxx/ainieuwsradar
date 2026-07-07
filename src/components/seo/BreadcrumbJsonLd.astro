@@ -1,0 +1,47 @@
+---
+/**
+ * BreadcrumbJsonLd — schema.org BreadcrumbList in JSON-LD vorm.
+ *
+ * Onzichtbaar voor gebruikers, zichtbaar voor Google. Triggert de
+ * breadcrumb-knoop in SERP rich-results en helpt crawlers de
+ * site-hiërarchie te begrijpen. Patroon overgenomen van
+ * hetlaatsteainieuws-v2/src/components/seo/BreadcrumbJsonLd.astro.
+ *
+ * Usage:
+ *   <BreadcrumbJsonLd items={[
+ *     { name: 'Home', url: '/' },
+ *     { name: 'Trends', url: '/trends/' },
+ *     { name: keyword, url: `/trend/${slug}/` },
+ *   ]} />
+ *
+ * Let op: deze site serveert de mét-trailing-slash-vorm als 200 (zie de
+ * canonical-uitleg in Layout.astro) — geef url's dus mét slash door.
+ */
+
+interface Crumb {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  items: Crumb[];
+}
+
+const { items } = Astro.props;
+
+// Absolute URLs op basis van Astro.site (astro.config.mjs).
+const origin = Astro.site?.toString().replace(/\/$/, '') ?? Astro.url.origin;
+
+const breadcrumbList = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, idx) => ({
+    '@type': 'ListItem',
+    position: idx + 1,
+    name: item.name,
+    item: item.url.startsWith('http') ? item.url : `${origin}${item.url}`,
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbList)} />

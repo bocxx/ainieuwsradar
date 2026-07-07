@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import BreadcrumbJsonLd from '../../components/seo/BreadcrumbJsonLd.astro';
 import { getCollection } from 'astro:content';
 import { canonicalTrendEntries } from '../../lib/trend-filter.mjs';
 
@@ -46,6 +47,11 @@ const expertPct = Math.round((t.expert_share ?? 0) * 100);
 ---
 <Layout title={`${t.keyword} — AI-signaal op de radar | AI Nieuws Radar`}
   description={entry.data.description} ogType="article" image={`/og/trend-${entry.data.slug}.png`}>
+  <BreadcrumbJsonLd items={[
+    { name: 'Home', url: '/' },
+    { name: 'Trends', url: '/trends/' },
+    { name: t.keyword, url: `/trend/${entry.data.slug}/` },
+  ]} />
   <main id="main" class="page">
     <nav class="crumbs"><a href="/trends">Trends</a> <span>/</span> <span>{t.keyword}</span></nav>
     <header class="phead">

@@ -1,12 +1,20 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import CollectionJsonLd from '../../components/seo/CollectionJsonLd.astro';
 import { getCollection } from 'astro:content';
 import { canonicalTrendEntries } from '../../lib/trend-filter.mjs';
 const trends = canonicalTrendEntries((await getCollection('trends')).filter((t) => !t.data.draft))
   .sort((a, b) => (b.data.data.total_mentions ?? 0) - (a.data.data.total_mentions ?? 0));
+const description = `${trends.length} AI-trefwoorden met hun gemeten signaalverloop: sinds wanneer op de radar, hoe sterk, hoe betrouwbaar. Data over 1000+ bronnen.`;
 ---
 <Layout title="AI-trends op de radar — signaalverloop per onderwerp | AI Nieuws Radar"
-  description={`${trends.length} AI-trefwoorden met hun gemeten signaalverloop: sinds wanneer op de radar, hoe sterk, hoe betrouwbaar. Data over 1000+ bronnen.`}>
+  description={description}>
+  <CollectionJsonLd
+    name="AI-trends op de radar"
+    description={description}
+    url="/trends/"
+    items={trends.slice(0, 30).map((t) => ({ name: t.data.keyword, url: `/trend/${t.data.slug}/` }))}
+  />
   <main id="main" class="page">
     <header class="phead">
       <p class="kicker kicker--accent">Trends A–Z</p>
