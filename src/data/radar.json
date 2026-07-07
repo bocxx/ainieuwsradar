@@ -1,48 +1,44 @@
 {
-  "generated_at": "2026-07-06T19:21:07.495854",
-  "total_tracked": 4283,
+  "generated_at": "2026-07-07T07:13:00.024942",
+  "total_tracked": 4369,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "openai",
-      "mentions": 319,
-      "velocity": 9.5,
+      "keyword": "reinforcement learning",
+      "mentions": 368,
+      "velocity": 83.2,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Illinois Governor JB Pritzker signs SB 315, a bill requiring annual third-party safety audits of leading AI companies; O",
+      "expert_ratio": 0.99,
+      "headline": "ICR-RL: Deep Reinforcement Learning via In-Context Regression",
       "articles": [
         {
-          "title": "Illinois Governor JB Pritzker signs SB 315, a bill requiring annual third-party safety audits of leading AI companies; O",
-          "url": "https://www.techmeme.com/260706/p23#a260706p23",
-          "source": "Techmeme"
+          "title": "ICR-RL: Deep Reinforcement Learning via In-Context Regression",
+          "url": "https://arxiv.org/abs/2509.11259",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Illinois Governor JB Pritzker signs SB 315, a bill requiring annual third-party safety audits of leading AI companies; O",
-          "url": "https://www.techmeme.com/260706/p23#a260706p23",
-          "source": "Techmeme"
+          "title": "Regime-Conditional Stabilisation of LLM-Augmented Cooperative Multi-Agent Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.04470",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Quote of the day by OpenAI CEO Sam Altman: 'One of the tech industry’s worst mistakes in a long time was that everybody ",
-          "url": "https://www.techradar.com/pro/quote-of-the-day-by-openai-ceo-sam-altman-one-of-the-tech-industrys-worst-mistakes-in-a-long-time-was-that-everybody-could-go-full-remote-forever-closing-the-doors-to-pandemic-era-flexibility?utm_source=flipboard&utm_content=other",
-          "source": "Artificial Intelligence"
+          "title": "A Unified Causal-Origin Taxonomy of Distributional Shifts in Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.16933",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "data center",
-      "mentions": 58,
-      "velocity": 3.7,
+      "keyword": "agentic",
+      "mentions": 374,
+      "velocity": 72.7,
       "sources": [
         "articles",
         "arxiv",
@@ -54,141 +50,56 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "A new Kentucky AI data center will power Anthropic as part of a 20-year deal",
+      "expert_ratio": 0.78,
+      "headline": "Object-Centric Environment Modeling for Agentic Tasks",
       "articles": [
         {
-          "title": "A new Kentucky AI data center will power Anthropic as part of a 20-year deal",
-          "url": "https://www.businessinsider.com/anthropic-terawulf-data-center-lease-hawesville-kentucky-2026-7",
-          "source": "All Content from Business Insider"
+          "title": "Object-Centric Environment Modeling for Agentic Tasks",
+          "url": "https://arxiv.org/abs/2607.02846",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "A new Kentucky AI data center will power Anthropic as part of a 20-year deal",
-          "url": "https://www.businessinsider.com/anthropic-terawulf-data-center-lease-hawesville-kentucky-2026-7",
-          "source": "Business Insider"
+          "title": "Beyond the Black Box: Interpretability of Agentic AI Tool Use",
+          "url": "https://arxiv.org/abs/2605.06890",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "A new Kentucky AI data center will power Anthropic as part of a 20-year deal",
-          "url": "https://www.businessinsider.com/anthropic-terawulf-data-center-lease-hawesville-kentucky-2026-7",
-          "source": "Business Insider"
+          "title": "Agentic IoT: Architectures, Applications, and Challenges Toward the Internet of Agents",
+          "url": "https://arxiv.org/abs/2607.04219",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "llama",
-      "mentions": 58,
-      "velocity": 3.2,
+      "keyword": "lora",
+      "mentions": 274,
+      "velocity": 54.3,
       "sources": [
         "articles",
         "arxiv",
-        "github",
+        "hackernews",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Meta vieta Claude Code ai propri ingegneri. Llama non deve imparare dai rivali",
+      "expert_ratio": 0.82,
+      "headline": "SHINE: A Scalable In-Context Hypernetwork for Mapping Context to LoRA in a Single Pass",
       "articles": [
         {
-          "title": "Meta vieta Claude Code ai propri ingegneri. Llama non deve imparare dai rivali",
-          "url": "https://www.tomshw.it/business/meta-vieta-claude-code-ai-propri-ingegneri-llama-non-deve-imparare-dai-rivali",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "together",
-      "mentions": 62,
-      "velocity": 3.1,
-      "sources": [
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Together AI raised $800 million, more than doubling its valuation to $8.3 billion",
-      "articles": [
-        {
-          "title": "Together AI raised $800 million, more than doubling its valuation to $8.3 billion",
-          "url": "https://qz.com/together-ai-series-c-funding-800-million-valuation-070126",
-          "source": "Quartz"
+          "title": "SHINE: A Scalable In-Context Hypernetwork for Mapping Context to LoRA in a Single Pass",
+          "url": "https://arxiv.org/abs/2602.06358",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Cultures come together at World Cup",
-          "url": "https://www.youtube.com/shorts/05gTjPMTSus",
-          "source": "Reuters"
+          "title": "Localized LoRA-MoE: Block-wise Low-Rank Experts With Adaptive Routing",
+          "url": "https://arxiv.org/abs/2607.05114",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Ctrl+Alt+Oops: FortiBleed criminal's logins stitch two gangs together",
-          "url": "https://www.theregister.com/security/2026/07/02/ctrlaltoops-fortibleed-criminals-logins-stitch-two-gangs-together/5265912",
-          "source": "The Register - Security"
-        }
-      ]
-    },
-    {
-      "keyword": "microsoft",
-      "mentions": 15,
-      "velocity": 2.9,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.34,
-      "headline": "AdGuard VPN hits the Microsoft Store, and installing it just got a lot simpler",
-      "articles": [
-        {
-          "title": "AdGuard VPN hits the Microsoft Store, and installing it just got a lot simpler",
-          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-hits-the-microsoft-store-and-installing-it-just-got-a-lot-simpler",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "AdGuard VPN hits the Microsoft Store, and installing it just got a lot simpler",
-          "url": "https://www.techradar.com/vpn/vpn-services/adguard-vpn-hits-the-microsoft-store-and-installing-it-just-got-a-lot-simpler",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Microsoft 'resets' Xbox by cutting 3,200 jobs this year, divesting five game studios — firm cites 'margins that are 3-10",
-          "url": "https://www.tomshardware.com/video-games/xbox/microsoft-resets-xbox-by-cutting-3-200-jobs-this-year-divesting-five-game-studios-firm-cites-margins-that-are-3-10x-lower-than-comparable-platform-and-publishing-businesses",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 27,
-      "velocity": 2.8,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.29,
-      "headline": "X launches hosted MCP server so AI tools can plug into its API directly",
-      "articles": [
-        {
-          "title": "X launches hosted MCP server so AI tools can plug into its API directly",
-          "url": "https://thenextweb.com/news/x-hosted-mcp-server-ai-tools-api",
-          "source": "The Next Web"
-        },
-        {
-          "title": "X launches hosted MCP server so AI tools can plug into its API directly",
-          "url": "https://thenextweb.com/news/x-hosted-mcp-server-ai-tools-api",
-          "source": "The Next Web"
-        },
-        {
-          "title": "X launches hosted MCP server so AI tools can plug into its API directly",
-          "url": "https://thenextweb.com/news/x-hosted-mcp-server-ai-tools-api",
-          "source": "The Next Web"
+          "title": "Parametric Memory Decoding for Zero-Shot Routing in LoRA-Based External Parametric Memory",
+          "url": "https://arxiv.org/abs/2607.04118",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -226,6 +137,36 @@
       "velocity": 1.0,
       "sources": [
         "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Trump says Walmart will lower prices after White House request",
+      "articles": [
+        {
+          "title": "Trump says Walmart will lower prices after White House request",
+          "url": "https://www.businessinsider.com/trump-walmart-lower-prices-white-house-request-2026-7",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Trump says Walmart will lower prices after White House request",
+          "url": "https://www.businessinsider.com/trump-walmart-lower-prices-white-house-request-2026-7",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Trump says Walmart will lower prices after White House request",
+          "url": "https://www.businessinsider.com/trump-walmart-lower-prices-white-house-request-2026-7",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "marketsite",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
       ],
       "source_count": 1,
       "confidence": 61,
@@ -269,35 +210,21 @@
       "articles": []
     },
     {
-      "keyword": "sillytavern",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 7,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "buildinpublic",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.5,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 7,
-      "expert_ratio": 0.77,
+      "confidence": 79,
+      "days_active": 6,
+      "expert_ratio": 0.83,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "liquid neural network",
+      "keyword": "context",
       "mentions": 2,
       "velocity": 0.4,
       "sources": [
@@ -306,9 +233,25 @@
       "source_count": 1,
       "confidence": 65,
       "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.8,
+      "headline": "Criterion-Conditional In-Context Learning: Evaluating Criterion-Shift Adaptation in Vision-Language Models",
+      "articles": [
+        {
+          "title": "Criterion-Conditional In-Context Learning: Evaluating Criterion-Shift Adaptation in Vision-Language Models",
+          "url": "https://arxiv.org/abs/2607.02575",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "IndexMem: Learned KV-Cache Eviction with Latent Memory for Long-Context LLM Inference",
+          "url": "https://arxiv.org/abs/2605.25475",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CABTO: Context-Aware Behavior Tree Grounding for Robot Manipulation",
+          "url": "https://arxiv.org/abs/2603.16809",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
       "keyword": "continue",
@@ -318,8 +261,8 @@
         "articles"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 6,
+      "confidence": 67,
+      "days_active": 5,
       "expert_ratio": 1.0,
       "headline": "Insert token to continue, says AI. Yeah, about that...",
       "articles": [
@@ -341,20 +284,6 @@
       ]
     },
     {
-      "keyword": "aiagent",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 85,
-      "days_active": 7,
-      "expert_ratio": 0.93,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "airtable",
       "mentions": 3,
       "velocity": 0.3,
@@ -362,8 +291,22 @@
         "github"
       ],
       "source_count": 1,
-      "confidence": 79,
-      "days_active": 5,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "sillytavern",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 83,
+      "days_active": 8,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
@@ -371,135 +314,163 @@
   ],
   "sustained": [
     {
-      "keyword": "langchain",
-      "mentions": 17,
+      "keyword": "vram",
+      "mentions": 14,
       "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.62,
+      "headline": "Get an RTX 3060 with 12 GB of VRAM for just $329.99 at Newegg — MSI Ventus 2X OC model back in stock with free shipping",
+      "articles": [
+        {
+          "title": "Get an RTX 3060 with 12 GB of VRAM for just $329.99 at Newegg — MSI Ventus 2X OC model back in stock with free shipping",
+          "url": "https://www.tomshardware.com/pc-components/get-an-rtx-3060-with-12-gb-of-vram-for-just-usd329-99-at-newegg-msi-ventus-2x-oc-model-back-in-stock-with-free-shipping",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Le schede video AMD potrebbero costare di più per la VRAM",
+          "url": "https://www.tomshw.it/hardware/le-schede-video-amd-potrebbero-costare-di-piu-per-la-vram",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Il nuovo Yoga Pro 7 arriva in Italia con VRAM da workstation",
+          "url": "https://www.tomshw.it/hardware/il-nuovo-yoga-pro-7-arriva-in-italia-con-vram-da-workstation",
+          "source": "Tom's Hardware"
+        }
+      ]
     },
     {
-      "keyword": "dify",
-      "mentions": 13,
-      "velocity": 1.7,
+      "keyword": "kling",
+      "mentions": 15,
+      "velocity": 1.8,
       "sources": [
+        "articles",
         "arxiv",
-        "hackernews",
         "linkedin",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.85,
+      "headline": "Kuaishou Announces Kling AI Video Unit’s Fundraising at $15 Billion Valuation",
+      "articles": [
+        {
+          "title": "Kuaishou Announces Kling AI Video Unit’s Fundraising at $15 Billion Valuation",
+          "url": "https://www.theinformation.com/briefings/kuaishou-announces-kling-ai-video-units-fundraising-15-billion-valuation",
+          "source": "The Information"
+        },
+        {
+          "title": "Kling AI raises two billion dollars as Kuaishou spins off its fastest-growing business",
+          "url": "https://thenextweb.com/news/kling-ai-2-billion-kuaishou-spinoff-video",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Kling AI raises two billion dollars as Kuaishou spins off its fastest-growing business",
+          "url": "https://thenextweb.com/news/kling-ai-2-billion-kuaishou-spinoff-video",
+          "source": "The Next Web"
+        }
+      ]
     },
     {
-      "keyword": "copilot",
-      "mentions": 63,
-      "velocity": 1.6,
+      "keyword": "perplexity",
+      "mentions": 28,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.63,
-      "headline": "Microsoft makes major AI U-turn following user revolt — will let Teams users turn off Copilot, Facilitator and Recap",
+      "expert_ratio": 0.55,
+      "headline": "Why Perplexity's founder doesn't think the American dream is over",
       "articles": [
         {
-          "title": "Microsoft makes major AI U-turn following user revolt — will let Teams users turn off Copilot, Facilitator and Recap",
-          "url": "https://www.techradar.com/pro/microsoft-makes-major-ai-u-turn-following-user-revolt-will-let-teams-users-turn-off-copilot-facilitator-and-recap",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Why Perplexity's founder doesn't think the American dream is over",
+          "url": "https://www.businessinsider.com/perplexity-ceo-founder-american-dream-risk-business-2026-7",
+          "source": "Business Insider"
         },
         {
-          "title": "Microsoft makes major AI U-turn following user revolt — will let Teams users turn off Copilot, Facilitator and Recap",
-          "url": "https://www.techradar.com/pro/microsoft-makes-major-ai-u-turn-following-user-revolt-will-let-teams-users-turn-off-copilot-facilitator-and-recap",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Why Perplexity's founder doesn't think the American dream is over",
+          "url": "https://www.businessinsider.com/perplexity-ceo-founder-american-dream-risk-business-2026-7",
+          "source": "Business Insider"
         },
         {
-          "title": "What would be your worst nightmare for Windows? Leaked Microsoft video from 2024 shows what many would regard with pure ",
-          "url": "https://www.techradar.com/computing/what-would-be-your-worst-nightmare-for-windows-leaked-microsoft-video-from-2024-shows-what-many-would-regard-with-pure-horror-a-copilot-os",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Why Perplexity's founder doesn't think the American dream is over",
+          "url": "https://www.businessinsider.com/perplexity-ceo-founder-american-dream-risk-business-2026-7",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "sora",
+      "mentions": 13,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.08,
+      "headline": "Beatbot Sora 70, la prova del robot da piscina più smart",
+      "articles": [
+        {
+          "title": "Beatbot Sora 70, la prova del robot da piscina più smart",
+          "url": "https://www.wired.it/article/robot-piscina-beatbot-sora-70-recensione/",
+          "source": "Wired"
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering",
+      "mentions": 14,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "Forget prompt engineering: 'Loop engineering' is all the rage now",
+      "articles": [
+        {
+          "title": "Forget prompt engineering: 'Loop engineering' is all the rage now",
+          "url": "https://www.businessinsider.com/what-are-loops-ai-engineering-tips-2026-6?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
+          "source": "Technology readings"
         }
       ]
     },
     {
       "keyword": "ollama",
-      "mentions": 13,
-      "velocity": 1.5,
-      "sources": [
-        "github",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.4,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "world models",
-      "mentions": 11,
-      "velocity": 1.3,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Predicting Closed-Loop Performance of Latent World Models: Offline Checkpoint Selection for MPC and Model-Based RL Under",
-      "articles": [
-        {
-          "title": "Predicting Closed-Loop Performance of Latent World Models: Offline Checkpoint Selection for MPC and Model-Based RL Under",
-          "url": "https://arxiv.org/abs/2607.01736",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "From World Models to World Action Models: A Concise Tutorial for Robotics",
-          "url": "https://arxiv.org/abs/2607.00836",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "WorldOdysseyBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models",
-          "url": "https://arxiv.org/abs/2606.31672",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "cline",
-      "mentions": 17,
-      "velocity": 1.1,
+      "mentions": 12,
+      "velocity": 0.7,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
-        "twitter"
+        "github",
+        "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.48,
+      "expert_ratio": 0.46,
       "headline": "",
       "articles": []
     }
@@ -632,13 +603,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "langflow",
+        "keyword": "deepseek r1",
         "signal_type": "weak_signal",
         "flagged_on": "2026-07-05",
         "confidence": 0.2
       },
       {
-        "keyword": "deepseek r1",
+        "keyword": "langflow",
         "signal_type": "weak_signal",
         "flagged_on": "2026-07-05",
         "confidence": 0.2
@@ -656,13 +627,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "nvidia",
+        "keyword": "copilot",
         "signal_type": "emerging",
         "flagged_on": "2026-07-04",
         "confidence": 1.0
       },
       {
-        "keyword": "copilot",
+        "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-07-04",
         "confidence": 1.0
@@ -676,17 +647,38 @@
     ],
     "heating_up": [
       {
-        "keyword": "command r",
-        "recent_mentions": 13,
-        "prior_mentions": 2,
-        "change_ratio": 6.5,
+        "keyword": "chain of thought",
+        "recent_mentions": 16,
+        "prior_mentions": 1,
+        "change_ratio": 16.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "codex cli",
-        "recent_mentions": 5,
+        "keyword": "poolside",
+        "recent_mentions": 16,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "change_ratio": 16.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "vllm",
+        "recent_mentions": 33,
+        "prior_mentions": 4,
+        "change_ratio": 8.25,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "windsurf",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "litellm",
+        "recent_mentions": 12,
+        "prior_mentions": 2,
+        "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
@@ -697,66 +689,45 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "hermes agent",
-        "recent_mentions": 19,
+        "keyword": "modal",
+        "recent_mentions": 15,
         "prior_mentions": 4,
-        "change_ratio": 4.75,
+        "change_ratio": 3.75,
         "corroborating_sources": 2
       },
       {
-        "keyword": "claude app",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "keyword": "command r",
+        "recent_mentions": 11,
+        "prior_mentions": 3,
+        "change_ratio": 3.67,
         "corroborating_sources": 2
       },
       {
-        "keyword": "vllm",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
-        "change_ratio": 4.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "litellm",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
+        "keyword": "rlhf",
+        "recent_mentions": 38,
+        "prior_mentions": 11,
+        "change_ratio": 3.45,
         "corroborating_sources": 1
       },
       {
-        "keyword": "claude desktop",
-        "recent_mentions": 23,
-        "prior_mentions": 6,
-        "change_ratio": 3.83,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "relevance",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "langflow",
+        "keyword": "higgsfield",
         "recent_mentions": 10,
         "prior_mentions": 3,
         "change_ratio": 3.33,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai bubble",
-        "recent_mentions": 29,
-        "prior_mentions": 9,
-        "change_ratio": 3.22,
+        "keyword": "world models",
+        "recent_mentions": 98,
+        "prior_mentions": 30,
+        "change_ratio": 3.27,
         "corroborating_sources": 3
       },
       {
         "keyword": "mistral ai",
-        "recent_mentions": 15,
-        "prior_mentions": 5,
-        "change_ratio": 3.0,
+        "recent_mentions": 19,
+        "prior_mentions": 6,
+        "change_ratio": 3.17,
         "corroborating_sources": 2
       }
     ]
