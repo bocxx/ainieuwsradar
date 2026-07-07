@@ -1,79 +1,114 @@
 {
-  "generated_at": "2026-07-07T07:13:00.024942",
-  "total_tracked": 4369,
+  "generated_at": "2026-07-07T19:22:26.121876",
+  "total_tracked": 4452,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 368,
-      "velocity": 83.2,
+      "keyword": "distillation",
+      "mentions": 49,
+      "velocity": 7.5,
       "sources": [
-        "articles",
         "arxiv",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "ICR-RL: Deep Reinforcement Learning via In-Context Regression",
+      "expert_ratio": 0.96,
+      "headline": "Dataset Distillation Efficiently Encodes Low-Dimensional Representations from Gradient-Based Learning of Non-Linear Task",
       "articles": [
         {
-          "title": "ICR-RL: Deep Reinforcement Learning via In-Context Regression",
-          "url": "https://arxiv.org/abs/2509.11259",
+          "title": "Dataset Distillation Efficiently Encodes Low-Dimensional Representations from Gradient-Based Learning of Non-Linear Task",
+          "url": "https://arxiv.org/abs/2603.14830",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Rethinking On-Policy Self-Distillation for Thinking Models",
+          "url": "https://arxiv.org/abs/2607.05184",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Regime-Conditional Stabilisation of LLM-Augmented Cooperative Multi-Agent Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.04470",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Toward Efficient Uncertainty in LLMs through Evidential Knowledge Distillation",
+          "url": "https://arxiv.org/abs/2507.18366",
+          "source": "stat.ML updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 83,
+      "velocity": 5.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "DeepSeek is reportedly designing its own AI chip to sidestep US curbs",
+      "articles": [
+        {
+          "title": "DeepSeek is reportedly designing its own AI chip to sidestep US curbs",
+          "url": "https://thenextweb.com/news/deepseek-own-ai-chip-smic-inference-report",
+          "source": "The Next Web"
         },
         {
-          "title": "A Unified Causal-Origin Taxonomy of Distributional Shifts in Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2606.16933",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Reuters: DeepSeek is developing its own AI chips",
+          "url": "https://www.engadget.com/2209378/deepseek-reportedly-developing-ai-chips/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Chinese AI Startup DeepSeek Developing Own AI Chip, Report Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says",
+          "source": "Bloomberg Technology"
         }
       ]
     },
     {
       "keyword": "agentic",
-      "mentions": 374,
-      "velocity": 72.7,
+      "mentions": 147,
+      "velocity": 4.1,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Object-Centric Environment Modeling for Agentic Tasks",
+      "expert_ratio": 0.75,
+      "headline": "An Exploration of Agentic Information Fusion for Test Maintenance Prediction",
       "articles": [
         {
-          "title": "Object-Centric Environment Modeling for Agentic Tasks",
-          "url": "https://arxiv.org/abs/2607.02846",
+          "title": "An Exploration of Agentic Information Fusion for Test Maintenance Prediction",
+          "url": "https://arxiv.org/abs/2607.04786",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Beyond the Black Box: Interpretability of Agentic AI Tool Use",
-          "url": "https://arxiv.org/abs/2605.06890",
+          "title": "Organizational Memory for Agentic Business Process Execution",
+          "url": "https://arxiv.org/abs/2607.03228",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Agentic IoT: Architectures, Applications, and Challenges Toward the Internet of Agents",
-          "url": "https://arxiv.org/abs/2607.04219",
+          "title": "VideoSearcher: Empowering Video Deep Research with Multi-Tool Agentic Reasoning via Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.02927",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "lora",
-      "mentions": 274,
-      "velocity": 54.3,
+      "keyword": "prompt injection",
+      "mentions": 16,
+      "velocity": 3.2,
       "sources": [
         "articles",
         "arxiv",
@@ -83,28 +118,93 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "SHINE: A Scalable In-Context Hypernetwork for Mapping Context to LoRA in a Single Pass",
+      "expert_ratio": 0.86,
+      "headline": "DualView: Preventing Indirect Prompt Injection in Personal AI Agents",
       "articles": [
         {
-          "title": "SHINE: A Scalable In-Context Hypernetwork for Mapping Context to LoRA in a Single Pass",
-          "url": "https://arxiv.org/abs/2602.06358",
+          "title": "DualView: Preventing Indirect Prompt Injection in Personal AI Agents",
+          "url": "https://arxiv.org/abs/2607.03821",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Localized LoRA-MoE: Block-wise Low-Rank Experts With Adaptive Routing",
-          "url": "https://arxiv.org/abs/2607.05114",
+          "title": "Security--Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+          "url": "https://arxiv.org/abs/2606.30783",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Parametric Memory Decoding for Zero-Shot Routing in LoRA-Based External Parametric Memory",
-          "url": "https://arxiv.org/abs/2607.04118",
+          "title": "RIPA: Sensory-Vector Prompt Injection Attacks on LLM-Controlled ROS 2 Robots",
+          "url": "https://arxiv.org/abs/2606.28649",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "hallucinations",
+      "mentions": 22,
+      "velocity": 3.1,
+      "sources": [
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.87,
+      "headline": "Detecting Hallucinations in Retrieval-Augmented Generation through Grounding-Aware Sensitivity by Perturbation (GASP)",
+      "articles": [
+        {
+          "title": "Detecting Hallucinations in Retrieval-Augmented Generation through Grounding-Aware Sensitivity by Perturbation (GASP)",
+          "url": "https://arxiv.org/abs/2607.04223",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "FADE: Mitigating Hallucinations by Reducing Language-Prior Dominance in Large Vision-Language Models",
+          "url": "https://arxiv.org/abs/2606.29431",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SeeMe: Mitigating Hallucinations in Large Vision-Language Models through Effective Visual Token Engineering",
+          "url": "https://arxiv.org/abs/2607.04163",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
-  "emerging": [],
+  "emerging": [
+    {
+      "keyword": "grok",
+      "mentions": 63,
+      "velocity": 3.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.4,
+      "headline": "Tesla mette un tetto alla spesa AI, ma Grok resta fuori",
+      "articles": [
+        {
+          "title": "Tesla mette un tetto alla spesa AI, ma Grok resta fuori",
+          "url": "https://www.tomshw.it/automotive/tesla-mette-un-tetto-alla-spesa-ai-ma-grok-resta-fuori",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Which AI chatbot is right for you? Take our quiz to find out whether ChatGPT, Claude, Gemini, Grok or Perplexity is best",
+          "url": "https://www.techradar.com/ai-platforms-assistants/which-ai-chatbot-is-right-for-you-take-our-quiz-to-find-out-whether-chatgpt-claude-gemini-grok-or-perplexity-is-best",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Elon Musk says SpaceX is putting top Starship and Starlink engineers to work on Grok",
+          "url": "https://www.businessinsider.com/grok-4-5-starship-starlink-engineers-elon-musk-ai-cursor-2026-6",
+          "source": "Business Insider"
+        }
+      ]
+    }
+  ],
   "weak_signals": [
     {
       "keyword": "nemo",
@@ -132,50 +232,6 @@
       ]
     },
     {
-      "keyword": "request",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Trump says Walmart will lower prices after White House request",
-      "articles": [
-        {
-          "title": "Trump says Walmart will lower prices after White House request",
-          "url": "https://www.businessinsider.com/trump-walmart-lower-prices-white-house-request-2026-7",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Trump says Walmart will lower prices after White House request",
-          "url": "https://www.businessinsider.com/trump-walmart-lower-prices-white-house-request-2026-7",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Trump says Walmart will lower prices after White House request",
-          "url": "https://www.businessinsider.com/trump-walmart-lower-prices-white-house-request-2026-7",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "marketsite",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "langmem",
       "mentions": 2,
       "velocity": 1.0,
@@ -194,6 +250,34 @@
           "source": "VentureBeat"
         }
       ]
+    },
+    {
+      "keyword": "careconnect",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "marketsite",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "scrapling",
@@ -224,66 +308,6 @@
       "articles": []
     },
     {
-      "keyword": "context",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "Criterion-Conditional In-Context Learning: Evaluating Criterion-Shift Adaptation in Vision-Language Models",
-      "articles": [
-        {
-          "title": "Criterion-Conditional In-Context Learning: Evaluating Criterion-Shift Adaptation in Vision-Language Models",
-          "url": "https://arxiv.org/abs/2607.02575",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "IndexMem: Learned KV-Cache Eviction with Latent Memory for Long-Context LLM Inference",
-          "url": "https://arxiv.org/abs/2605.25475",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "CABTO: Context-Aware Behavior Tree Grounding for Robot Manipulation",
-          "url": "https://arxiv.org/abs/2603.16809",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "continue",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 67,
-      "days_active": 5,
-      "expert_ratio": 1.0,
-      "headline": "Insert token to continue, says AI. Yeah, about that...",
-      "articles": [
-        {
-          "title": "Insert token to continue, says AI. Yeah, about that...",
-          "url": "https://www.theregister.com/columnists/2026/07/06/insert-token-to-continue-says-ai-yeah-about-that/5266319",
-          "source": "The Register"
-        },
-        {
-          "title": "Insert token to continue, says AI. Yeah, about that...",
-          "url": "https://www.theregister.com/columnists/2026/07/06/insert-token-to-continue-says-ai-yeah-about-that/5266319",
-          "source": "The Register"
-        },
-        {
-          "title": "Xbox is planning major layoffs as its new CEO warns the gaming division \"cannot continue\" as is",
-          "url": "https://qz.com/xbox-layoffs-ceo-asha-sharma-business-reset-061126",
-          "source": "Quartz"
-        }
-      ]
-    },
-    {
       "keyword": "airtable",
       "mentions": 3,
       "velocity": 0.3,
@@ -310,55 +334,147 @@
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "aiagent",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 83,
+      "days_active": 6,
+      "expert_ratio": 0.93,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "vivatech",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 83,
+      "days_active": 12,
+      "expert_ratio": 0.71,
+      "headline": "VivaTech marque l’ouverture d’une nouvelle décennie pleine de promesses pour les innovations à venir",
+      "articles": [
+        {
+          "title": "VivaTech marque l’ouverture d’une nouvelle décennie pleine de promesses pour les innovations à venir",
+          "url": "https://www.futura-sciences.com/tech/actualites/vivatech-vivatech-marque-ouverture-nouvelle-decennie-pleine-promesses-innovations-venir-135672/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
+        },
+        {
+          "title": "L'avenir des accessoires tech est-il durable ? - Interview avec Boa Hung (RhinoShield) - VivaTech 2026 / Is the future o",
+          "url": "https://podcasts.futura-sciences.com/futura-jeunes-pousses/202606241000-lavenir-des-accessoires-tech-est-il-durable-interview-avec-b?utm_campaign=Jeunes+Pousses+%3A+le+rendez-vous+de+l%27innovation+positive+et+%C3%A0+impact&utm_medium=organic&utm_source=rss&utm_content=L%27avenir+des+accessoires+tech+est-il+durable+%3F+-+Interview+avec+Boa+Hung+%28RhinoShield%29+-+VivaTech+2026+%2F+Is+the+future+of+tech+accessories+sustainable+%3F+-+Interview+with+Boa+Hung+%28RhinoShield%29+-+VivaTech+2026",
+          "source": "Les dernières actualités de Futura-Sciences"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "vram",
-      "mentions": 14,
+      "keyword": "world model",
+      "mentions": 21,
       "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
+      "headline": "Identifiability Without Gaussianity: Symbolic World Models and Near-Infinite Temporal Consistency",
+      "articles": [
+        {
+          "title": "Identifiability Without Gaussianity: Symbolic World Models and Near-Infinite Temporal Consistency",
+          "url": "https://arxiv.org/abs/2606.12471",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Worldscape-MoE: A Unified Mixture-of-Experts World Model for Scalable Heterogeneous Action Control",
+          "url": "https://arxiv.org/abs/2607.03964",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Predicting Closed-Loop Performance of Latent World Models: Offline Checkpoint Selection for MPC and Model-Based RL Under",
+          "url": "https://arxiv.org/abs/2607.01736",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "sota",
+      "mentions": 13,
+      "velocity": 1.6,
+      "sources": [
+        "arxiv",
+        "hackernews",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.62,
-      "headline": "Get an RTX 3060 with 12 GB of VRAM for just $329.99 at Newegg — MSI Ventus 2X OC model back in stock with free shipping",
+      "expert_ratio": 0.77,
+      "headline": "Jamesob's guide to running SOTA LLMs locally",
       "articles": [
         {
-          "title": "Get an RTX 3060 with 12 GB of VRAM for just $329.99 at Newegg — MSI Ventus 2X OC model back in stock with free shipping",
-          "url": "https://www.tomshardware.com/pc-components/get-an-rtx-3060-with-12-gb-of-vram-for-just-usd329-99-at-newegg-msi-ventus-2x-oc-model-back-in-stock-with-free-shipping",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Le schede video AMD potrebbero costare di più per la VRAM",
-          "url": "https://www.tomshw.it/hardware/le-schede-video-amd-potrebbero-costare-di-piu-per-la-vram",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Il nuovo Yoga Pro 7 arriva in Italia con VRAM da workstation",
-          "url": "https://www.tomshw.it/hardware/il-nuovo-yoga-pro-7-arriva-in-italia-con-vram-da-workstation",
-          "source": "Tom's Hardware"
+          "title": "Jamesob's guide to running SOTA LLMs locally",
+          "url": "https://github.com/jamesob/local-llm",
+          "source": "Hacker News"
         }
       ]
     },
     {
-      "keyword": "kling",
-      "mentions": 15,
-      "velocity": 1.8,
+      "keyword": "context window",
+      "mentions": 20,
+      "velocity": 1.5,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
+        "hackernews",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
+      "expert_ratio": 0.82,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "llama.cpp",
+      "mentions": 14,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "kling",
+      "mentions": 13,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.83,
       "headline": "Kuaishou Announces Kling AI Video Unit’s Fundraising at $15 Billion Valuation",
       "articles": [
         {
@@ -372,107 +488,45 @@
           "source": "The Next Web"
         },
         {
-          "title": "Kling AI raises two billion dollars as Kuaishou spins off its fastest-growing business",
-          "url": "https://thenextweb.com/news/kling-ai-2-billion-kuaishou-spinoff-video",
-          "source": "The Next Web"
+          "title": "Kling AI, the Kuaishou AI video generator spin-off, raised $2B at a $15B pre-money valuation and says the round could ex",
+          "url": "https://www.techmeme.com/260702/p25#a260702p25",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "perplexity",
-      "mentions": 28,
-      "velocity": 1.4,
+      "keyword": "data center",
+      "mentions": 53,
+      "velocity": 1.1,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
+        "hackernews",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "Why Perplexity's founder doesn't think the American dream is over",
+      "expert_ratio": 0.52,
+      "headline": "Samsung says it will launch a floating data center by 2028 as it looks to jump on 'a major new opportunity'",
       "articles": [
         {
-          "title": "Why Perplexity's founder doesn't think the American dream is over",
-          "url": "https://www.businessinsider.com/perplexity-ceo-founder-american-dream-risk-business-2026-7",
-          "source": "Business Insider"
+          "title": "Samsung says it will launch a floating data center by 2028 as it looks to jump on 'a major new opportunity'",
+          "url": "https://www.techradar.com/pro/samsung-says-it-will-launch-a-floating-data-center-by-2028-as-it-looks-to-jump-on-a-major-new-opportunity",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Why Perplexity's founder doesn't think the American dream is over",
-          "url": "https://www.businessinsider.com/perplexity-ceo-founder-american-dream-risk-business-2026-7",
-          "source": "Business Insider"
+          "title": "À quoi ressemble le data center de demain ? Le modèle imaginé par Microsoft pour limiter son impact environnemental",
+          "url": "https://www.futura-sciences.com/tech/actualites/informatique-ressemble-data-center-demain-modele-imagine-microsoft-limiter-son-impact-environnemental-135537/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
         },
         {
-          "title": "Why Perplexity's founder doesn't think the American dream is over",
-          "url": "https://www.businessinsider.com/perplexity-ceo-founder-american-dream-risk-business-2026-7",
-          "source": "All Content from Business Insider"
+          "title": "UK gives data centers option to apply for 'national importance' status that overrides local regulations, cuts timeline b",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/uk-gives-data-centers-option-to-apply-for-national-importance-status-that-overrides-local-regulations-cuts-timeline-by-a-year-eligible-projects-to-bypass-local-councils-save-more-than-a-billion-dollars-in-nimby-fights",
+          "source": "Tom's Hardware"
         }
       ]
-    },
-    {
-      "keyword": "sora",
-      "mentions": 13,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.08,
-      "headline": "Beatbot Sora 70, la prova del robot da piscina più smart",
-      "articles": [
-        {
-          "title": "Beatbot Sora 70, la prova del robot da piscina più smart",
-          "url": "https://www.wired.it/article/robot-piscina-beatbot-sora-70-recensione/",
-          "source": "Wired"
-        }
-      ]
-    },
-    {
-      "keyword": "prompt engineering",
-      "mentions": 14,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "Forget prompt engineering: 'Loop engineering' is all the rage now",
-      "articles": [
-        {
-          "title": "Forget prompt engineering: 'Loop engineering' is all the rage now",
-          "url": "https://www.businessinsider.com/what-are-loops-ai-engineering-tips-2026-6?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
-        }
-      ]
-    },
-    {
-      "keyword": "ollama",
-      "mentions": 12,
-      "velocity": 0.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "",
-      "articles": []
     }
   ],
   "track_record": {
@@ -573,16 +627,10 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "claude",
+        "keyword": "b200",
         "signal_type": "emerging",
-        "flagged_on": "2026-07-05",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "claude code",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-05",
-        "confidence": 1.0
+        "flagged_on": "2026-07-07",
+        "confidence": 0.4
       },
       {
         "keyword": "ai coding",
@@ -603,97 +651,96 @@
         "confidence": 0.2
       },
       {
-        "keyword": "deepseek r1",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-05",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "langflow",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-05",
-        "confidence": 0.2
-      },
-      {
         "keyword": "data center",
         "signal_type": "emerging",
         "flagged_on": "2026-07-04",
         "confidence": 1.0
       },
       {
-        "keyword": "gemini",
-        "signal_type": "emerging",
+        "keyword": "langflow",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-07-04",
-        "confidence": 1.0
+        "confidence": 0.2
       },
       {
         "keyword": "copilot",
         "signal_type": "emerging",
-        "flagged_on": "2026-07-04",
+        "flagged_on": "2026-07-03",
         "confidence": 1.0
       },
       {
-        "keyword": "nvidia",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-04",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "claude sonnet",
+        "keyword": "gpt-5",
         "signal_type": "emerging",
         "flagged_on": "2026-07-03",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "browser-use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-03",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "deepseek",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "claude",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-02",
         "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "chain of thought",
-        "recent_mentions": 16,
+        "keyword": "poolside",
+        "recent_mentions": 15,
         "prior_mentions": 1,
-        "change_ratio": 16.0,
+        "change_ratio": 15.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "poolside",
-        "recent_mentions": 16,
+        "keyword": "windsurf",
+        "recent_mentions": 8,
         "prior_mentions": 1,
-        "change_ratio": 16.0,
+        "change_ratio": 8.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "fireworks",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "chain of thought",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
         "corroborating_sources": 2
       },
       {
         "keyword": "vllm",
-        "recent_mentions": 33,
+        "recent_mentions": 21,
         "prior_mentions": 4,
-        "change_ratio": 8.25,
+        "change_ratio": 5.25,
         "corroborating_sources": 3
       },
       {
-        "keyword": "windsurf",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "litellm",
-        "recent_mentions": 12,
+        "recent_mentions": 9,
         "prior_mentions": 2,
-        "change_ratio": 6.0,
+        "change_ratio": 4.5,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "fireworks",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "modal",
-        "recent_mentions": 15,
-        "prior_mentions": 4,
-        "change_ratio": 3.75,
-        "corroborating_sources": 2
       },
       {
         "keyword": "command r",
@@ -703,11 +750,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "rlhf",
-        "recent_mentions": 38,
-        "prior_mentions": 11,
-        "change_ratio": 3.45,
-        "corroborating_sources": 1
+        "keyword": "modal",
+        "recent_mentions": 14,
+        "prior_mentions": 4,
+        "change_ratio": 3.5,
+        "corroborating_sources": 2
       },
       {
         "keyword": "higgsfield",
@@ -717,18 +764,25 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "world models",
-        "recent_mentions": 98,
-        "prior_mentions": 30,
-        "change_ratio": 3.27,
-        "corroborating_sources": 3
-      },
-      {
         "keyword": "mistral ai",
         "recent_mentions": 19,
         "prior_mentions": 6,
         "change_ratio": 3.17,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "slm",
+        "recent_mentions": 15,
+        "prior_mentions": 5,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "veo",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
       }
     ]
   }
