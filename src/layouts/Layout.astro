@@ -89,7 +89,7 @@ const jsonld = {
     // Rauwe JS (geen template-wrapper). window.umami komt van het externe script.
     (function () {
       var CONTENT_SEL = '.article__content, .prose, .content-col';
-      var NET = { 'hetlaatsteainieuws.nl':1,'debesteaitools.nl':1,'aiplatformmkb.nl':1,'ainieuwsradar.nl':1,'feedzzz.online':1,'whotofollow.online':1 };
+      var NET = { 'hetlaatsteainieuws.nl':1,'debesteaitools.nl':1,'aiplatformmkb.nl':1,'ainieuwsradar.nl':1,'feedzz.online':1,'whotofollow.online':1 };
       function norm(h){return (h||'').toLowerCase().replace(/^www\./,'');}
       function slugOf(){var p=location.pathname.replace(/\/+$/,'');return p.split('/').filter(Boolean).pop()||'';}
       function track(name,data){try{if(window.umami&&window.umami.track)window.umami.track(name,data);}catch(e){}}
