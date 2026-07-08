@@ -1,0 +1,463 @@
+{
+  "title": "AI-radar 8 juli 2026: large language model, multimodal, agentic",
+  "date": "2026-07-08",
+  "description": "Op 8 juli 2026 domineerden large language models de signaalradar met 401 punten en 566 vermeldingen, verspreid over Reddit, Bluesky, LinkedIn,…",
+  "analysis": "Op 8 juli 2026 domineerden large language models de signaalradar met 401 punten en 566 vermeldingen, verspreid over Reddit, Bluesky, LinkedIn, nieuwsartikelen en ArXiv. Multimodal-toepassingen scoorden 129 punten bij 204 vermeldingen, terwijl agentic-systemen 111 punten haalden met 258 vermeldingen over een breed spectrum aan bronnen: GitHub, Hacker News, Reddit, X, Bluesky, LinkedIn, Product Hunt, nieuwsartikelen en ArXiv. Reinforcement learning en fine-tuning versnelden beide met 99 punten, respectievelijk 179 en 153 vermeldingen.\n\nBij de zwakke signalen valt code generation op met 22 punten en 27 vermeldingen in nieuwsartikelen en ArXiv, gevolgd door reward hacking met 9 punten en 13 vermeldingen uit dezelfde bronnen. Benchmarks als culturalbench en valuebench verschenen elk met 7 punten en 7 vermeldingen, net als longcrafter en imagenet (8 vermeldingen). De spreiding blijft beperkt tot academische en nieuwskanalen. Dit zijn meetgegevens van 1104 gevolgde onderwerpen die dag, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-07-08",
+    "prev_date": "2026-07-07",
+    "accelerating": [
+      {
+        "keyword": "large language model",
+        "mentions": 566,
+        "velocity": 401,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 559,
+        "headline": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16 · Hugging Face"
+      },
+      {
+        "keyword": "multimodal",
+        "mentions": 204,
+        "velocity": 129,
+        "sources": [
+          "github",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 201,
+        "headline": "📄 What Images Cannot Say: Language-Guided Olfactory Representation Learning"
+      },
+      {
+        "keyword": "agentic",
+        "mentions": 258,
+        "velocity": 111,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 226,
+        "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS"
+      },
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 179,
+        "velocity": 99,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 177,
+        "headline": "Mistral released Leanstral-1.5-119B-A6B"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 153,
+        "velocity": 99,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 152,
+        "headline": "Mistral released Leanstral-1.5-119B-A6B"
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 114,
+        "velocity": 71,
+        "sources": [
+          "reddit",
+          "twitter",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 105,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "cohere",
+        "mentions": 70,
+        "velocity": 51,
+        "sources": [
+          "reddit",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 66,
+        "headline": "Scientists Asked AI to Impersonate 112 Public Figures. What Happened Next Is a ‘Dire’ Warning | Researchers discovered t"
+      },
+      {
+        "keyword": "claude",
+        "mentions": 672,
+        "velocity": 48,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 531,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 154,
+        "velocity": 47,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 139,
+        "headline": "GLM5.2 on 5x Pro 6000s and a 5090, an expensive journey"
+      },
+      {
+        "keyword": "chatgpt",
+        "mentions": 205,
+        "velocity": 39,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 101,
+        "headline": "classmate was using chatgpt to write an essay about why using ai is bad https://t.co/puPRJZR4b5"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "mcconnell",
+        "mentions": 7,
+        "velocity": 7,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 7,
+        "headline": "🦋 I spoke with Mitch McConnell for twenty minutes this morning. He said \"I am a large language model, "
+      },
+      {
+        "keyword": "planning-with-files",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ OthmanAdi/planning-with-files: Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof mark"
+      },
+      {
+        "keyword": "reasoning",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "reddit"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "AI can’t simulate human preferences -  new study tests LLMs against thousands of real users"
+      },
+      {
+        "keyword": "microsoftbuild",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "Had a great time attending Microsoft Build //localhost:Gurugram. It was a fantastic opportunity to learn, meet builders,"
+      },
+      {
+        "keyword": "multicloud4u",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "Had a great time attending Microsoft Build //localhost:Gurugram. It was a fantastic opportunity to learn, meet builders,"
+      },
+      {
+        "keyword": "5thir",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "Had a great time attending Microsoft Build //localhost:Gurugram. It was a fantastic opportunity to learn, meet builders,"
+      },
+      {
+        "keyword": "cloudcomputing",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🎉 𝐀 𝐇𝐮𝐠𝐞 𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐟𝐨𝐫 𝐌𝐚𝐤𝐢𝐧𝐠 𝐭𝐡𝐞 𝐌𝐢𝐜𝐫𝐨𝐬𝐨𝐟𝐭 𝐁𝐮𝐢𝐥𝐝 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 𝐄𝐯𝐞𝐧𝐭 𝟐𝟎𝟐𝟔 with Global AI Community 𝐚 𝐆𝐫𝐚𝐧𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬! 🎉 \n\nWe "
+      },
+      {
+        "keyword": "techcommunity",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🎉 𝐀 𝐇𝐮𝐠𝐞 𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐟𝐨𝐫 𝐌𝐚𝐤𝐢𝐧𝐠 𝐭𝐡𝐞 𝐌𝐢𝐜𝐫𝐨𝐬𝐨𝐟𝐭 𝐁𝐮𝐢𝐥𝐝 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 𝐄𝐯𝐞𝐧𝐭 𝟐𝟎𝟐𝟔 with Global AI Community 𝐚 𝐆𝐫𝐚𝐧𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬! 🎉 \n\nWe "
+      },
+      {
+        "keyword": "decarlo",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "Tuve el gusto de participar en el AgentCon Panama parte del AI Agents World Tour, un espacio ofrecido por Global AI Comm"
+      },
+      {
+        "keyword": "panama",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "linkedin"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "El pasado 27 de junio celebramos AgentCon Panamá City, nuestra conferencia técnica de inteligencia artificial, con la pa"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "code generation",
+        "mentions": 27,
+        "velocity": 22,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 26,
+        "headline": "📄 FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference"
+      },
+      {
+        "keyword": "reward hacking",
+        "mentions": 13,
+        "velocity": 9,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 13,
+        "headline": "📄 Reward as An Agent for Embodied World Models"
+      },
+      {
+        "keyword": "imagenet",
+        "mentions": 8,
+        "velocity": 7,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📄 Self-Routing: Parameter-Free Expert Routing from Hidden States"
+      },
+      {
+        "keyword": "culturalbench",
+        "mentions": 7,
+        "velocity": 7,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 7,
+        "headline": "📄 Prompt Robustness Is Task-Dependent: Comparing Objective and Belief-Style Questions in LLM Evaluation"
+      },
+      {
+        "keyword": "valuebench",
+        "mentions": 7,
+        "velocity": 7,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 7,
+        "headline": "📄 Prompt Robustness Is Task-Dependent: Comparing Objective and Belief-Style Questions in LLM Evaluation"
+      },
+      {
+        "keyword": "longcrafter",
+        "mentions": 7,
+        "velocity": 7,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 7,
+        "headline": "📄 LongCrafter: Towards Diverse Long-Context Understanding via Evidence-Graph-Guided Instruction Synthesis"
+      },
+      {
+        "keyword": "test-time compute",
+        "mentions": 9,
+        "velocity": 7,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 9,
+        "headline": "📄 LLM-as-a-Verifier: A General-Purpose Verification Framework"
+      },
+      {
+        "keyword": "firstresearch",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "📄 FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents"
+      },
+      {
+        "keyword": "functional",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "📄 FORGE: Towards Functional Tool-Use Generalization via Keypoint Trajectory Reasoning"
+      },
+      {
+        "keyword": "itertracer",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "📄 Foundation Models for Automatic CAD Generation"
+      }
+    ],
+    "total_tracked": 1104
+  }
+}
