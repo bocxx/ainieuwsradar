@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-10T19:23:00.227518",
-  "total_tracked": 4871,
+  "generated_at": "2026-07-11T07:17:02.820805",
+  "total_tracked": 4779,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "chatgpt",
-      "mentions": 269,
-      "velocity": 20.7,
+      "keyword": "openai",
+      "mentions": 497,
+      "velocity": 50.2,
       "sources": [
         "articles",
         "arxiv",
@@ -19,30 +19,137 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.48,
-      "headline": "Like the Claude app it imitates, the new ChatGPT \"Super App\", which merges Codex with ChatGPT, is a tangle of toggles an",
+      "expert_ratio": 0.78,
+      "headline": "Apple beschuldigt OpenAI van stelen bedrijfsgeheimen, spant rechtszaak aan",
       "articles": [
         {
-          "title": "Like the Claude app it imitates, the new ChatGPT \"Super App\", which merges Codex with ChatGPT, is a tangle of toggles an",
-          "url": "https://www.techmeme.com/260710/p15#a260710p15",
+          "title": "Apple beschuldigt OpenAI van stelen bedrijfsgeheimen, spant rechtszaak aan",
+          "url": "https://nos.nl/l/2622565",
+          "source": "NOS Nieuws - Algemeen"
+        },
+        {
+          "title": "OpenAI Safety Head Heidecke to Leave Firm After Reshuffle: Wired",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-11/openai-safety-head-heidecke-to-leave-firm-after-reshuffle-wired",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "OpenAI's head of safety, Johannes Heidecke, is leaving as OpenAI integrates its research and safety teams; Mia Glaese wi",
+          "url": "https://www.techmeme.com/260710/p38#a260710p38",
           "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 231,
+      "velocity": 24.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "TAG: A Lightweight Framework for Test-Driven Agentic Artifact Generation",
+      "articles": [
+        {
+          "title": "TAG: A Lightweight Framework for Test-Driven Agentic Artifact Generation",
+          "url": "https://arxiv.org/abs/2607.02615",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "OpenAI stopt al met eigen AI-browser ChatGPT Atlas",
-          "url": "https://tweakers.net/nieuws/249934/openai-stopt-al-met-eigen-ai-browser-chatgpt-atlas.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "MAVEN: A Multi-stage Agentic Annotation Pipeline for Video Reasoning Tasks",
+          "url": "https://arxiv.org/abs/2605.21917",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "7 prompt ChatGPT e DALL-E per branding, thumbnail, social e mockup: il kit per chi non è grafico",
-          "url": "https://www.tomshw.it/aioperator/7-prompt-chatgpt-branding-thumbnail-mockup",
-          "source": "Tom's Hardware"
+          "title": "DeepTutor: Towards Agentic Personalized Tutoring",
+          "url": "https://arxiv.org/abs/2604.26962",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 175,
+      "velocity": 22.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Safe Flow Q-Learning: Offline Safe Reinforcement Learning with Reachability-Based Flow Policies",
+      "articles": [
+        {
+          "title": "Safe Flow Q-Learning: Offline Safe Reinforcement Learning with Reachability-Based Flow Policies",
+          "url": "https://arxiv.org/abs/2603.15136",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ADORN: Adaptive Drift handling for Open RAN using Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.08443",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Self-Adaptive Anomaly Detection with Reinforcement Learning and Human Feedback in Connected Vehicles",
+          "url": "https://arxiv.org/abs/2607.08373",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "chatgpt",
+      "mentions": 280,
+      "velocity": 17.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.49,
+      "headline": "‘Christ almighty, this is so bad’: ChatGPT’s big app update brings huge changes to your workflows — and users seem to ha",
+      "articles": [
+        {
+          "title": "‘Christ almighty, this is so bad’: ChatGPT’s big app update brings huge changes to your workflows — and users seem to ha",
+          "url": "https://www.techradar.com/ai-platforms-assistants/christ-almighty-this-is-so-bad-chatgpts-big-app-update-brings-huge-changes-to-your-workflows-and-users-seem-to-hate-it",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "OpenAI introduces ChatGPT Work, a cloud-based AI agent that manages tasks across email, Slack and calendars",
+          "url": "https://venturebeat.com/technology/openai-introduces-chatgpt-work-a-cloud-based-ai-agent-that-manages-tasks-across-email-slack-and-calendars?utm_source=flipboard&utm_content=topic/technology",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "OpenAI's browser isn't dead, it just moved to the ChatGPT app",
+          "url": "https://www.engadget.com/2212701/openai-browser-isnt-dead/",
+          "source": "Engadget"
         }
       ]
     },
     {
       "keyword": "gpt-5",
-      "mentions": 74,
-      "velocity": 10.3,
+      "mentions": 78,
+      "velocity": 8.4,
       "sources": [
         "articles",
         "arxiv",
@@ -54,58 +161,87 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "OpenAI launches ChatGPT Work as it broadens GPT-5.6 rollout",
+      "expert_ratio": 0.78,
+      "headline": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
       "articles": [
         {
-          "title": "OpenAI launches ChatGPT Work as it broadens GPT-5.6 rollout",
-          "url": "https://www.computerworld.com/article/4195494/openai-launches-chatgpt-work-as-it-broadens-gpt-5-6-rollout-2.html",
-          "source": "Artificial Intelligence – Computerworld"
+          "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+          "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 104,
+      "velocity": 7.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.42,
+      "headline": "Exclusive: Elon Musk Tells Tesla Staff to Move to Using Grok",
+      "articles": [
+        {
+          "title": "Exclusive: Elon Musk Tells Tesla Staff to Move to Using Grok",
+          "url": "https://www.theinformation.com/briefings/exclusive-elon-musk-tells-tesla-staff-move-using-grok",
+          "source": "The Information"
         },
         {
-          "title": "GPT-5.6, OpenAI mette i token al centro del business AI",
-          "url": "https://www.tomshw.it/business/gpt-5-6-openai-mette-i-token-al-centro-del-business-ai",
+          "title": "SpaceXAI launches Grok 4.5, its first built with Cursor's help",
+          "url": "https://www.engadget.com/2211260/spacex-ai-grok-4-5-cursor/",
+          "source": "Engadget"
+        },
+        {
+          "title": "La causa contro Grok sulle immagini illegali alza il rischio compliance per l'AI",
+          "url": "https://www.tomshw.it/business/la-causa-contro-grok-sulle-immagini-illegali-alza-il-rischio-compliance-per-lai",
           "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "fine-tuning",
-      "mentions": 111,
-      "velocity": 8.3,
+      "keyword": "together",
+      "mentions": 86,
+      "velocity": 5.6,
       "sources": [
-        "arxiv",
-        "github",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "ReCoLoRA: Spectrum-Aware Recursive Consolidation for Continual LLM Fine-Tuning",
+      "expert_ratio": 0.0,
+      "headline": "Building the future of global health, together",
       "articles": [
         {
-          "title": "ReCoLoRA: Spectrum-Aware Recursive Consolidation for Continual LLM Fine-Tuning",
-          "url": "https://arxiv.org/abs/2607.07719",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Building the future of global health, together",
+          "url": "https://blog.google/innovation-and-ai/technology/health/open-health-stack-software-foundation/",
+          "source": "The Keyword"
         },
         {
-          "title": "Evaluating Fine-Tuning and Metrics for Neural Decompilation of Dart AOT Binaries",
-          "url": "https://arxiv.org/abs/2607.06125",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Together AI raised $800 million, more than doubling its valuation to $8.3 billion",
+          "url": "https://qz.com/together-ai-series-c-funding-800-million-valuation-070126",
+          "source": "Quartz"
         },
         {
-          "title": "Pretraining Curricula Enable Selective Fine-tuning",
-          "url": "https://arxiv.org/abs/2607.04846",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Cultures come together at World Cup",
+          "url": "https://www.youtube.com/shorts/05gTjPMTSus",
+          "source": "Reuters"
         }
       ]
     },
     {
       "keyword": "deepseek",
-      "mentions": 94,
-      "velocity": 5.3,
+      "mentions": 96,
+      "velocity": 4.3,
       "sources": [
         "articles",
         "arxiv",
@@ -135,308 +271,9 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
-    },
-    {
-      "keyword": "frontier model",
-      "mentions": 33,
-      "velocity": 3.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Reaction-network reasoning with frontier models for experimentally confirmed catalyst-selectivity hypotheses",
-      "articles": [
-        {
-          "title": "Reaction-network reasoning with frontier models for experimentally confirmed catalyst-selectivity hypotheses",
-          "url": "https://arxiv.org/abs/2607.08003",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "How did the government decide OpenAI’s frontier model was safe to release?",
-          "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "The Rise of Verbal Tics in Large Language Models: A Systematic Analysis Across Frontier Models",
-          "url": "https://arxiv.org/abs/2604.19139",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "cowork",
-      "mentions": 20,
-      "velocity": 3.6,
-      "sources": [
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.1,
-      "headline": "Cursor Working on Competitor to Claude Cowork",
-      "articles": [
-        {
-          "title": "Cursor Working on Competitor to Claude Cowork",
-          "url": "https://www.theinformation.com/briefings/cursor-working-competitor-claude-cowork",
-          "source": "The Information"
-        },
-        {
-          "title": "Cursor Is Developing an AI Agent to Compete With Claude Cowork",
-          "url": "https://www.theinformation.com/articles/cursor-developing-ai-agent-compete-claude-cowork",
-          "source": "The Information"
-        },
-        {
-          "title": "OpenAI Unveils Claude Cowork Competitor, Desktop ‘Superapp’",
-          "url": "https://www.theinformation.com/briefings/openai-unveils-claude-cowork-competitor-desktop-superapp",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "claude cowork",
-      "mentions": 16,
-      "velocity": 3.3,
-      "sources": [
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.0,
-      "headline": "Cursor Working on Competitor to Claude Cowork",
-      "articles": [
-        {
-          "title": "Cursor Working on Competitor to Claude Cowork",
-          "url": "https://www.theinformation.com/briefings/cursor-working-competitor-claude-cowork",
-          "source": "The Information"
-        },
-        {
-          "title": "Cursor Is Developing an AI Agent to Compete With Claude Cowork",
-          "url": "https://www.theinformation.com/articles/cursor-developing-ai-agent-compete-claude-cowork",
-          "source": "The Information"
-        },
-        {
-          "title": "OpenAI Unveils Claude Cowork Competitor, Desktop ‘Superapp’",
-          "url": "https://www.theinformation.com/briefings/openai-unveils-claude-cowork-competitor-desktop-superapp",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "stable diffusion",
-      "mentions": 12,
-      "velocity": 2.6,
-      "sources": [
-        "arxiv",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.96,
-      "headline": "AutoAnchor: Stable Diffusion Unlearning Using Cross-Attention as a Manifold Surrogate",
-      "articles": [
-        {
-          "title": "AutoAnchor: Stable Diffusion Unlearning Using Cross-Attention as a Manifold Surrogate",
-          "url": "https://arxiv.org/abs/2607.08337",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "openai",
-      "mentions": 388,
-      "velocity": 24.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "The New York Times and other news outlets are asking a judge to sanction OpenAI for allegedly hiding evidence",
-      "articles": [
-        {
-          "title": "The New York Times and other news outlets are asking a judge to sanction OpenAI for allegedly hiding evidence",
-          "url": "https://qz.com/new-york-times-openai-sanctions-copyright-lawsuit-071026",
-          "source": "Quartz"
-        },
-        {
-          "title": "OpenAI's newest AI model is becoming the preferred engine for Microsoft 365 Copilot",
-          "url": "https://qz.com/openai-gpt-56-microsoft-365-copilot-preferred-model-071026",
-          "source": "Quartz"
-        },
-        {
-          "title": "The New York Times is escalating its fight with OpenAI, urging a judge to impose sanctions",
-          "url": "https://www.fastcompany.com/91571727/the-new-york-times-is-escalating-its-fight-with-openai-urging-a-judge-to-impose-sanctions?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07102026",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 105,
-      "velocity": 10.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.39,
-      "headline": "SpaceXAI launches Grok 4.5, its first built with Cursor's help",
-      "articles": [
-        {
-          "title": "SpaceXAI launches Grok 4.5, its first built with Cursor's help",
-          "url": "https://www.engadget.com/2211260/spacex-ai-grok-4-5-cursor/",
-          "source": "Engadget"
-        },
-        {
-          "title": "La causa contro Grok sulle immagini illegali alza il rischio compliance per l'AI",
-          "url": "https://www.tomshw.it/business/la-causa-contro-grok-sulle-immagini-illegali-alza-il-rischio-compliance-per-lai",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "SpaceXAI launches Grok 4.5, touts lower coding-task costs than AI rivals",
-          "url": "https://www.computerworld.com/article/4194914/spacexai-launches-grok-4-5-touts-lower-coding-task-costs-than-ai-rivals-2.html",
-          "source": "Artificial Intelligence – Computerworld"
-        }
-      ]
-    },
-    {
-      "keyword": "together",
-      "mentions": 88,
-      "velocity": 8.9,
-      "sources": [
-        "articles",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Building the future of global health, together",
-      "articles": [
-        {
-          "title": "Building the future of global health, together",
-          "url": "https://blog.google/innovation-and-ai/technology/health/open-health-stack-software-foundation/",
-          "source": "The Keyword"
-        },
-        {
-          "title": "Together AI raised $800 million, more than doubling its valuation to $8.3 billion",
-          "url": "https://qz.com/together-ai-series-c-funding-800-million-valuation-070126",
-          "source": "Quartz"
-        },
-        {
-          "title": "Cultures come together at World Cup",
-          "url": "https://www.youtube.com/shorts/05gTjPMTSus",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "keyword": "machinelearning",
-      "mentions": 25,
-      "velocity": 4.5,
-      "sources": [
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "reinforcement learning",
-      "mentions": 111,
-      "velocity": 4.2,
-      "sources": [
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Wasserstein Distributionally Robust Regret Optimization for Reinforcement Learning from Human Feedback",
-      "articles": [
-        {
-          "title": "Wasserstein Distributionally Robust Regret Optimization for Reinforcement Learning from Human Feedback",
-          "url": "https://arxiv.org/abs/2605.00155",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Mathematical methods of reinforcement learning",
-          "url": "https://arxiv.org/abs/2607.06935",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Statistical Efficiency and Inference of Quantile Distributional Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.08444",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "ai slop",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "AI slop writing has taken over the internet, particularly LinkedIn and X",
-      "articles": [
-        {
-          "title": "AI slop writing has taken over the internet, particularly LinkedIn and X",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/09/ai-slop-writing-has-taken-over-the-internet-particularly-linkedin-and-x/5269525",
-          "source": "The Register"
-        },
-        {
-          "title": "Who was really at Taylor Swift and Travis Kelce’s Madison Square Garden wedding? AI slop makes it hard to tell",
-          "url": "https://www.fastcompany.com/91569625/taylor-swift-travis-kelce-wedding-guests-msg-who-was-there-ai-slop-makes-it-hard-to-tell",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Our interest in AI slop is hitting a ceiling",
-          "url": "https://www.fastcompany.com/91568818/our-interest-in-ai-slop-is-hitting-a-ceiling?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=8&partner=newsletter&campaign_date=07082026",
-          "source": "Fast Company"
-        }
-      ]
-    },
     {
       "keyword": "langmem",
       "mentions": 2,
@@ -458,58 +295,60 @@
       ]
     },
     {
-      "keyword": "futureofwork",
+      "keyword": "azure",
       "mentions": 3,
-      "velocity": 0.8,
+      "velocity": 0.6,
       "sources": [
         "linkedin"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
+      "confidence": 73,
+      "days_active": 6,
+      "expert_ratio": 0.78,
+      "headline": "Canonical Managed Kubeflow lands on Azure",
+      "articles": [
+        {
+          "title": "Canonical Managed Kubeflow lands on Azure",
+          "url": "https://www.theregister.com/paas-and-iaas/2026/07/09/canonical-managed-kubeflow-lands-on-azure/5268626",
+          "source": "The Register"
+        },
+        {
+          "title": "Meta reportedly wants to start a cloud computing business to compete with AWS, Azure and others",
+          "url": "https://www.techradar.com/pro/meta-reportedly-wants-to-start-a-cloud-computing-business-to-compete-with-aws-azure-and-others",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Microsoft lets Azure Linux 4 out of the cloud in downloadable ISO form",
+          "url": "https://www.theregister.com/os-platforms/2026/07/01/microsoft-lets-azure-linux-4-out-of-the-cloud-in-downloadable-iso-form/5265126",
+          "source": "The Register"
+        }
+      ]
     },
     {
-      "keyword": "aiagent",
+      "keyword": "ai copyright",
       "mentions": 3,
-      "velocity": 0.8,
+      "velocity": 0.6,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 1.0,
+      "confidence": 77,
+      "days_active": 8,
+      "expert_ratio": 0.64,
       "headline": "",
       "articles": []
     },
     {
       "keyword": "graphrag",
       "mentions": 3,
-      "velocity": 0.6,
+      "velocity": 0.5,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 77,
+      "confidence": 81,
       "days_active": 9,
       "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai copyright",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 79,
-      "days_active": 9,
-      "expert_ratio": 0.67,
       "headline": "",
       "articles": []
     },
@@ -528,174 +367,162 @@
       "articles": []
     },
     {
-      "keyword": "learning",
+      "keyword": "futureofwork",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "ai slop",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "AI slop writing has taken over the internet, particularly LinkedIn and X",
+      "articles": [
+        {
+          "title": "AI slop writing has taken over the internet, particularly LinkedIn and X",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/09/ai-slop-writing-has-taken-over-the-internet-particularly-linkedin-and-x/5269525",
+          "source": "The Register"
+        },
+        {
+          "title": "Who was really at Taylor Swift and Travis Kelce’s Madison Square Garden wedding? AI slop makes it hard to tell",
+          "url": "https://www.fastcompany.com/91569625/taylor-swift-travis-kelce-wedding-guests-msg-who-was-there-ai-slop-makes-it-hard-to-tell",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Our interest in AI slop is hitting a ceiling",
+          "url": "https://www.fastcompany.com/91568818/our-interest-in-ai-slop-is-hitting-a-ceiling?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=12&partner=newsletter&campaign_date=07092026",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
+      "keyword": "agentconbengaluru",
       "mentions": 3,
       "velocity": 0.4,
       "sources": [
         "linkedin"
       ],
       "source_count": 1,
-      "confidence": 85,
-      "days_active": 11,
+      "confidence": 95,
+      "days_active": 13,
       "expert_ratio": 1.0,
-      "headline": "Graph-Regularized Deep Learning for EEG-Based Emotion Recognition with Psychologically-Grounded Label Structure",
-      "articles": [
-        {
-          "title": "Graph-Regularized Deep Learning for EEG-Based Emotion Recognition with Psychologically-Grounded Label Structure",
-          "url": "https://arxiv.org/abs/2607.07773",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "LLT: Local Linear Transformer for PDE Operator Learning",
-          "url": "https://arxiv.org/abs/2607.07718",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Multi-cluster Boundary Learning Method for Out-of-Scope Intent Detection via MiniLM Embedding",
-          "url": "https://arxiv.org/abs/2607.07974",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "engineering",
-      "mentions": 2,
-      "velocity": 0.4,
+      "keyword": "voicebox",
+      "mentions": 3,
+      "velocity": 0.3,
       "sources": [
-        "linkedin"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "OpenAI unveils ChatGPT Work, an AI tool capable of handling workloads across finance, data analytics, engineering, and m",
-      "articles": [
-        {
-          "title": "OpenAI unveils ChatGPT Work, an AI tool capable of handling workloads across finance, data analytics, engineering, and m",
-          "url": "https://www.techradar.com/pro/openai-unveils-chatgpt-work-an-ai-tool-capable-of-handling-workloads-across-finance-data-analytics-engineering-and-more",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents",
-          "url": "https://arxiv.org/abs/2607.08028",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Aleena: Alignment Agent for Research Software Engineering Collaborations",
-          "url": "https://arxiv.org/abs/2607.08043",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "confidence": 79,
+      "days_active": 6,
+      "expert_ratio": 0.75,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "education",
-      "mentions": 2,
-      "velocity": 0.4,
+      "keyword": "stability ai",
+      "mentions": 3,
+      "velocity": 0.3,
       "sources": [
-        "linkedin"
+        "arxiv"
       ],
       "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
-      "articles": [
-        {
-          "title": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
-          "url": "https://arxiv.org/abs/2607.08748",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Why does AI unlock new possibilities in STEM education? A Bibliometric Analysis of Trends and Future Agenda",
-          "url": "https://arxiv.org/abs/2607.05412",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Listen to Gen Z when it comes to AI in education",
-          "url": "https://www.nature.com/articles/d41586-026-02110-6",
-          "source": "Nature - Issue - nature.com science feeds"
-        }
-      ]
+      "confidence": 81,
+      "days_active": 7,
+      "expert_ratio": 0.69,
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "huggingface",
-      "mentions": 15,
+      "keyword": "hallucinations",
+      "mentions": 24,
       "velocity": 2.0,
       "sources": [
-        "github",
-        "linkedin",
+        "articles",
+        "arxiv",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.86,
+      "headline": "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory",
+      "articles": [
+        {
+          "title": "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory",
+          "url": "https://arxiv.org/abs/2605.24602",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "New hack exploits AI hallucinations to trick agents into running malicious code — 'HalluSquatting' attack exploits a fun",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/hallusquatting-is-the-latest-agentic-ai-exploit-where-models-dream-up-potentially-malicious-urls-in-tool-calls-attack-exploits-a-fundamental-weakness-in-every-available-model",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "FADE: Mitigating Hallucinations by Reducing Language-Prior Dominance in Large Vision-Language Models",
+          "url": "https://arxiv.org/abs/2606.29431",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
-      "keyword": "lora",
-      "mentions": 100,
-      "velocity": 1.9,
+      "keyword": "cursor",
+      "mentions": 74,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Localized LoRA-MoE: Block-wise Low-Rank Experts With Adaptive Routing",
+      "expert_ratio": 0.46,
+      "headline": "Cursor Working on Competitor to Claude Cowork",
       "articles": [
         {
-          "title": "Localized LoRA-MoE: Block-wise Low-Rank Experts With Adaptive Routing",
-          "url": "https://arxiv.org/abs/2607.05114",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Cursor Working on Competitor to Claude Cowork",
+          "url": "https://www.theinformation.com/briefings/cursor-working-competitor-claude-cowork",
+          "source": "The Information"
         },
         {
-          "title": "Parametric Memory Decoding for Zero-Shot Routing in LoRA-Based External Parametric Memory",
-          "url": "https://arxiv.org/abs/2607.04118",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Cursor Is Developing an AI Agent to Compete With Claude Cowork",
+          "url": "https://www.theinformation.com/articles/cursor-developing-ai-agent-compete-claude-cowork",
+          "source": "The Information"
         },
         {
-          "title": "SHINE: A Scalable In-Context Hypernetwork for Mapping Context to LoRA in a Single Pass",
-          "url": "https://arxiv.org/abs/2602.06358",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "SpaceXAI launches Grok 4.5, its first built with Cursor's help",
+          "url": "https://www.engadget.com/2211260/spacex-ai-grok-4-5-cursor/",
+          "source": "Engadget"
         }
       ]
     },
     {
-      "keyword": "pytorch",
-      "mentions": 12,
-      "velocity": 1.9,
-      "sources": [
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Profiling in PyTorch (Part 3): Attention is all you profile",
-      "articles": [
-        {
-          "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-          "url": "https://huggingface.co/blog/torch-attention-profile",
-          "source": "Hugging Face Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "agentic",
-      "mentions": 154,
-      "velocity": 1.8,
+      "keyword": "gemini",
+      "mentions": 144,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "arxiv",
@@ -708,25 +535,100 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Malaysia Prime Minister Anwar Ibrahim plans to debut an agentic AI avatar of himself within days, which is meant to help",
+      "expert_ratio": 0.68,
+      "headline": "Here’s how to make study notebooks in the Gemini app.",
       "articles": [
         {
-          "title": "Malaysia Prime Minister Anwar Ibrahim plans to debut an agentic AI avatar of himself within days, which is meant to help",
-          "url": "https://www.techmeme.com/260710/p11#a260710p11",
-          "source": "Techmeme"
+          "title": "Here’s how to make study notebooks in the Gemini app.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
+          "source": "The Official Google Blog"
         },
         {
-          "title": "The Context Access Divide: Interaction-Level Architecture as a Complementary Dimension of Agentic Inequality",
-          "url": "https://arxiv.org/abs/2607.08495",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "How to Conduct a Competitive Analysis with Google Gemini",
+          "url": "https://www.theinformation.com/articles/conduct-competitive-analysis-google-gemini",
+          "source": "The Information"
         },
         {
-          "title": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
-          "url": "https://arxiv.org/abs/2607.07858",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Gli agenti Gemini ora girano nel cloud di Google e si collegano ai tuoi strumenti da soli",
+          "url": "https://www.tomshw.it/business/gli-agenti-gemini-ora-girano-nel-cloud-di-google-e-si-collegano-ai-tuoi-strumenti-da-soli",
+          "source": "Tom's Hardware"
         }
       ]
+    },
+    {
+      "keyword": "pytorch",
+      "mentions": 13,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "articles": [
+        {
+          "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+          "url": "https://huggingface.co/blog/torch-attention-profile",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "cowork",
+      "mentions": 17,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.07,
+      "headline": "Cursor Working on Competitor to Claude Cowork",
+      "articles": [
+        {
+          "title": "Cursor Working on Competitor to Claude Cowork",
+          "url": "https://www.theinformation.com/briefings/cursor-working-competitor-claude-cowork",
+          "source": "The Information"
+        },
+        {
+          "title": "Cursor Is Developing an AI Agent to Compete With Claude Cowork",
+          "url": "https://www.theinformation.com/articles/cursor-developing-ai-agent-compete-claude-cowork",
+          "source": "The Information"
+        },
+        {
+          "title": "OpenAI Unveils Claude Cowork Competitor, Desktop ‘Superapp’",
+          "url": "https://www.theinformation.com/briefings/openai-unveils-claude-cowork-competitor-desktop-superapp",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "huggingface",
+      "mentions": 15,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -857,22 +759,16 @@
         "confidence": 1.0
       },
       {
-        "keyword": "chatgpt",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-09",
-        "confidence": 1.0
-      },
-      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-07-09",
         "confidence": 1.0
       },
       {
-        "keyword": "openai sdk",
-        "signal_type": "weak_signal",
+        "keyword": "chatgpt",
+        "signal_type": "emerging",
         "flagged_on": "2026-07-09",
-        "confidence": 0.2
+        "confidence": 1.0
       },
       {
         "keyword": "tavily",
@@ -881,13 +777,19 @@
         "confidence": 0.2
       },
       {
-        "keyword": "hallucination",
+        "keyword": "openai sdk",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-09",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "grok",
         "signal_type": "emerging",
         "flagged_on": "2026-07-08",
         "confidence": 0.8
       },
       {
-        "keyword": "grok",
+        "keyword": "hallucination",
         "signal_type": "emerging",
         "flagged_on": "2026-07-08",
         "confidence": 0.8
@@ -902,87 +804,87 @@
     "heating_up": [
       {
         "keyword": "ai glasses",
-        "recent_mentions": 22,
+        "recent_mentions": 32,
         "prior_mentions": 1,
-        "change_ratio": 22.0,
+        "change_ratio": 32.0,
         "corroborating_sources": 3
       },
       {
-        "keyword": "chroma",
-        "recent_mentions": 17,
+        "keyword": "flowise",
+        "recent_mentions": 11,
         "prior_mentions": 1,
-        "change_ratio": 17.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "ideogram",
-        "recent_mentions": 14,
-        "prior_mentions": 1,
-        "change_ratio": 14.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "zapier",
-        "recent_mentions": 13,
-        "prior_mentions": 1,
-        "change_ratio": 13.0,
+        "change_ratio": 11.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "simplified",
-        "recent_mentions": 12,
-        "prior_mentions": 1,
-        "change_ratio": 12.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "heygen",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "xai",
-        "recent_mentions": 110,
-        "prior_mentions": 13,
-        "change_ratio": 8.46,
-        "corroborating_sources": 6
-      },
-      {
-        "keyword": "ai developer",
-        "recent_mentions": 16,
+        "keyword": "voice mode",
+        "recent_mentions": 19,
         "prior_mentions": 2,
-        "change_ratio": 8.0,
+        "change_ratio": 9.5,
         "corroborating_sources": 4
       },
       {
         "keyword": "voicebox",
-        "recent_mentions": 7,
+        "recent_mentions": 9,
         "prior_mentions": 1,
-        "change_ratio": 7.0,
+        "change_ratio": 9.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "watermelon",
-        "recent_mentions": 13,
-        "prior_mentions": 2,
-        "change_ratio": 6.5,
+        "keyword": "jasper",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "ai sdk",
+        "keyword": "ideogram",
+        "recent_mentions": 16,
+        "prior_mentions": 2,
+        "change_ratio": 8.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "b200",
+        "recent_mentions": 26,
+        "prior_mentions": 4,
+        "change_ratio": 6.5,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "chroma",
+        "recent_mentions": 19,
+        "prior_mentions": 3,
+        "change_ratio": 6.33,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "dall-e",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "gamma",
-        "recent_mentions": 18,
-        "prior_mentions": 3,
-        "change_ratio": 6.0,
+        "keyword": "xai",
+        "recent_mentions": 143,
+        "prior_mentions": 27,
+        "change_ratio": 5.3,
+        "corroborating_sources": 7
+      },
+      {
+        "keyword": "leonardo ai",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "simplified",
+        "recent_mentions": 15,
+        "prior_mentions": 3,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
       }
     ]
   }
