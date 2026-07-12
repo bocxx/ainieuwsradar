@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T17:35:05+00:00",
+  "generated_at": "2026-07-12T05:35:58+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -14,73 +14,73 @@
       "keyword": "mcp client",
       "signal_type": "weak_signal",
       "flagged_on": "2026-05-31",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "text to speech",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-08",
-      "days_left": 12
+      "days_left": 11
     },
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 17
+      "days_left": 16
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 19
+      "days_left": 18
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 20
+      "days_left": 19
     },
     {
       "keyword": "hallucinations",
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
-      "days_left": 21
+      "days_left": 20
     },
     {
       "keyword": "crewai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-18",
-      "days_left": 22
+      "days_left": 21
     },
     {
       "keyword": "browser use",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-19",
-      "days_left": 23
+      "days_left": 22
     },
     {
       "keyword": "ttft",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-20",
-      "days_left": 24
+      "days_left": 23
     },
     {
       "keyword": "chatbox",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-21",
-      "days_left": 25
+      "days_left": 24
     },
     {
       "keyword": "claude haiku",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-21",
-      "days_left": 25
+      "days_left": 24
     },
     {
       "keyword": "autogpt",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 26
+      "days_left": 25
     }
   ],
   "recent_resolved": [
@@ -103,15 +103,6 @@
       "outlet": "Nature"
     },
     {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-03",
-      "resolved_on": "2026-04-10",
-      "lead_days": 7,
-      "outlet": "Techmeme"
-    },
-    {
       "keyword": "tokens",
       "signal_type": "emerging",
       "status": "hit",
@@ -121,12 +112,21 @@
       "outlet": "Business Insider"
     },
     {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-10",
+      "lead_days": 3,
+      "outlet": "Techmeme"
+    },
+    {
       "keyword": "llama",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-03",
+      "flagged_on": "2026-04-04",
       "resolved_on": "2026-04-08",
-      "lead_days": 5,
+      "lead_days": 4,
       "outlet": "VentureBeat"
     },
     {
@@ -148,6 +148,15 @@
       "outlet": "Tweakers"
     },
     {
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-04-07",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
       "keyword": "data center",
       "signal_type": "emerging",
       "status": "hit",
@@ -164,15 +173,6 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
-    },
-    {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
     },
     {
       "keyword": "copilot",
@@ -202,13 +202,13 @@
       "outlet": "Quartz"
     },
     {
-      "keyword": "multimodal",
+      "keyword": "litellm",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-12",
+      "flagged_on": "2026-03-27",
       "resolved_on": "2026-03-31",
-      "lead_days": 19,
-      "outlet": "The Information"
+      "lead_days": 4,
+      "outlet": "TechCrunch"
     }
   ]
 }

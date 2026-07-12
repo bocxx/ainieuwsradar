@@ -1,12 +1,116 @@
 {
-  "generated_at": "2026-07-11T19:19:19.903660",
-  "total_tracked": 4832,
+  "generated_at": "2026-07-12T07:20:20.936888",
+  "total_tracked": 4753,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "chatgpt",
+      "mentions": 275,
+      "velocity": 13.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.5,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 78,
+      "velocity": 6.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "grok",
+      "mentions": 102,
+      "velocity": 5.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.44,
+      "headline": "What xAI's Grok Build CLI Actually Sends to xAI",
+      "articles": [
+        {
+          "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+          "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Exclusive: Elon Musk Tells Tesla Staff to Move to Using Grok",
+          "url": "https://www.theinformation.com/briefings/exclusive-elon-musk-tells-tesla-staff-move-using-grok",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "cowork",
+      "mentions": 17,
+      "velocity": 2.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.06,
+      "headline": "Cursor Working on Competitor to Claude Cowork",
+      "articles": [
+        {
+          "title": "Cursor Working on Competitor to Claude Cowork",
+          "url": "https://www.theinformation.com/briefings/cursor-working-competitor-claude-cowork",
+          "source": "The Information"
+        },
+        {
+          "title": "Cursor Is Developing an AI Agent to Compete With Claude Cowork",
+          "url": "https://www.theinformation.com/articles/cursor-developing-ai-agent-compete-claude-cowork",
+          "source": "The Information"
+        },
+        {
+          "title": "OpenAI Unveils Claude Cowork Competitor, Desktop ‘Superapp’",
+          "url": "https://www.theinformation.com/briefings/openai-unveils-claude-cowork-competitor-desktop-superapp",
+          "source": "The Information"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "openai",
-      "mentions": 454,
-      "velocity": 37.2,
+      "mentions": 453,
+      "velocity": 25.8,
       "sources": [
         "articles",
         "arxiv",
@@ -20,123 +124,36 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.78,
-      "headline": "OpenAI's head of safety is reportedly leaving as part of company reorganization",
+      "headline": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets",
       "articles": [
         {
-          "title": "OpenAI's head of safety is reportedly leaving as part of company reorganization",
-          "url": "https://www.engadget.com/2212941/openai-head-of-safety-leaving-company-reorganization/",
-          "source": "Engadget"
+          "title": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets",
+          "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
+          "source": "Technology readings"
         },
         {
-          "title": "Apple Sues OpenAI Over AI Talent Fight",
-          "url": "https://www.bloomberg.com/news/videos/2026-07-11/apple-sues-openai-over-ai-talent-fight-video",
-          "source": "Bloomberg Technology"
+          "title": "What smart people are saying about Apple's lawsuit accusing OpenAI of stealing trade secrets",
+          "url": "https://www.businessinsider.com/apple-lawsuit-openai-trade-secrets-what-smart-people-are-saying-2026-7",
+          "source": "All Content from Business Insider"
         },
         {
-          "title": "OpenAI bets on families as ChatGPT goes deeper into households",
-          "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-          "source": "TechCrunch"
+          "title": "Apple's lawsuit could sidetrack OpenAI's hardware aspirations for years, or possibly forever, as the startup gets into y",
+          "url": "https://www.techmeme.com/260711/p9#a260711p9",
+          "source": "Techmeme"
         }
       ]
-    },
-    {
-      "keyword": "machinelearning",
-      "mentions": 24,
-      "velocity": 2.9,
-      "sources": [
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "prompt engineering",
-      "mentions": 28,
-      "velocity": 2.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
-      "articles": [
-        {
-          "title": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
-          "url": "https://arxiv.org/abs/2607.06074",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "chatgpt",
-      "mentions": 251,
-      "velocity": 9.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.49,
-      "headline": "OpenAI bets on families as ChatGPT goes deeper into households",
-      "articles": [
-        {
-          "title": "OpenAI bets on families as ChatGPT goes deeper into households",
-          "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "'Users no longer need to choose between powerful AI capabilities and meaningful privacy protections': Proton makes its L",
-          "url": "https://www.techradar.com/pro/users-no-longer-need-to-choose-between-powerful-ai-capabilities-and-meaningful-privacy-protections-proton-makes-its-lumo-privacy-first-chatgpt-alternative-a-lot-more-powerful",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 74,
-      "velocity": 7.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "together",
-      "mentions": 86,
-      "velocity": 5.6,
+      "mentions": 83,
+      "velocity": 3.1,
       "sources": [
+        "articles",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
@@ -160,71 +177,182 @@
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 94,
-      "velocity": 4.2,
+      "keyword": "github",
+      "mentions": 109,
+      "velocity": 2.3,
       "sources": [
         "articles",
         "arxiv",
         "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.42,
-      "headline": "Exclusive: Elon Musk Tells Tesla Staff to Move to Using Grok",
+      "expert_ratio": 0.43,
+      "headline": "Fake Go DNS scanner spread malware through over 200 GitHub repos — 'Operation Muck and Load' has published 700 malicious",
       "articles": [
         {
-          "title": "Exclusive: Elon Musk Tells Tesla Staff to Move to Using Grok",
-          "url": "https://www.theinformation.com/briefings/exclusive-elon-musk-tells-tesla-staff-move-using-grok",
-          "source": "The Information"
-        },
-        {
-          "title": "SpaceXAI launches Grok 4.5, its first built with Cursor's help",
-          "url": "https://www.engadget.com/2211260/spacex-ai-grok-4-5-cursor/",
-          "source": "Engadget"
-        },
-        {
-          "title": "La causa contro Grok sulle immagini illegali alza il rischio compliance per l'AI",
-          "url": "https://www.tomshw.it/business/la-causa-contro-grok-sulle-immagini-illegali-alza-il-rischio-compliance-per-lai",
+          "title": "Fake Go DNS scanner spread malware through over 200 GitHub repos — 'Operation Muck and Load' has published 700 malicious",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/fake-go-dns-scanner-published-700-malicious-versions-before-researchers-traced-it-to-222-github-repos",
           "source": "Tom's Hardware"
+        },
+        {
+          "title": "CISA says weak security controls around the use of public GitHub repos allowed a contractor to accidentally leak private",
+          "url": "https://www.techmeme.com/260710/p33#a260710p33",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Researchers broke GitHub Copilot’s safety by hiding harm in a workflow",
+          "url": "https://thenextweb.com/news/github-copilot-workflow-jailbreak-alan-turing-institute",
+          "source": "The Next Web"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "langmem",
+      "keyword": "moderation",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
-        "arxiv"
+        "articles"
       ],
       "source_count": 1,
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
+      "headline": "Discord admits AI moderation bug wrongfully banned users over harmless images",
       "articles": [
         {
-          "title": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
-          "url": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m",
-          "source": "VentureBeat"
+          "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+          "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Reddit says its AI-powered content moderation systems caught 25K \"spammy posts and comments\" per day in Q1, reducing use",
+          "url": "https://www.techmeme.com/260706/p18#a260706p18",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces",
+          "url": "https://arxiv.org/abs/2607.00481",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
+      "keyword": "localai",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "generative",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 5,
+      "expert_ratio": 0.86,
+      "headline": "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker",
+      "articles": [
+        {
+          "title": "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker",
+          "url": "https://arxiv.org/abs/2607.01170",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "GenDA: Generative Data Assimilation on Complex Urban Areas via Classifier-Free Diffusion Guidance",
+          "url": "https://arxiv.org/abs/2601.11440",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "DreamCharacter-1: From 3D Generative Foundation Models to Product-Ready Character Generation",
+          "url": "https://arxiv.org/abs/2607.07817",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "education",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 73,
+      "days_active": 4,
+      "expert_ratio": 1.0,
+      "headline": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
+      "articles": [
+        {
+          "title": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
+          "url": "https://arxiv.org/abs/2607.08748",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Ransomware attacks against education sector rise 16% in one year becoming the new favorite target — and reckless GenAI u",
+          "url": "https://www.techradar.com/pro/security/ransomware-attacks-against-education-sector-rise-16-percent-in-one-year-becoming-the-new-favorite-target-and-reckless-genai-use-could-be-to-blame",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Why does AI unlock new possibilities in STEM education? A Bibliometric Analysis of Trends and Future Agenda",
+          "url": "https://arxiv.org/abs/2607.05412",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "graphrag",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 79,
+      "days_active": 8,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "buildinpublic",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 79,
+      "days_active": 6,
+      "expert_ratio": 0.83,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "classic",
       "mentions": 2,
-      "velocity": 1.0,
+      "velocity": 0.4,
       "sources": [],
       "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
       "headline": "These 13 airlines offer 'basic' business-class seats for less than the cost of classic fares",
       "articles": [
         {
@@ -247,14 +375,14 @@
     {
       "keyword": "azure",
       "mentions": 3,
-      "velocity": 0.6,
+      "velocity": 0.4,
       "sources": [
         "linkedin"
       ],
       "source_count": 1,
-      "confidence": 73,
-      "days_active": 6,
-      "expert_ratio": 0.78,
+      "confidence": 79,
+      "days_active": 7,
+      "expert_ratio": 0.83,
       "headline": "Canonical Managed Kubeflow lands on Azure",
       "articles": [
         {
@@ -266,95 +394,6 @@
           "title": "Meta reportedly wants to start a cloud computing business to compete with AWS, Azure and others",
           "url": "https://www.techradar.com/pro/meta-reportedly-wants-to-start-a-cloud-computing-business-to-compete-with-aws-azure-and-others",
           "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Microsoft lets Azure Linux 4 out of the cloud in downloadable ISO form",
-          "url": "https://www.theregister.com/os-platforms/2026/07/01/microsoft-lets-azure-linux-4-out-of-the-cloud-in-downloadable-iso-form/5265126",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "ai copyright",
-      "mentions": 3,
-      "velocity": 0.6,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 8,
-      "expert_ratio": 0.64,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "graphrag",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 9,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "buildinpublic",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 79,
-      "days_active": 6,
-      "expert_ratio": 0.83,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "futureofwork",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai slop",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "AI slop writing has taken over the internet, particularly LinkedIn and X",
-      "articles": [
-        {
-          "title": "AI slop writing has taken over the internet, particularly LinkedIn and X",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/09/ai-slop-writing-has-taken-over-the-internet-particularly-linkedin-and-x/5269525",
-          "source": "The Register"
-        },
-        {
-          "title": "Who was really at Taylor Swift and Travis Kelce’s Madison Square Garden wedding? AI slop makes it hard to tell",
-          "url": "https://www.fastcompany.com/91569625/taylor-swift-travis-kelce-wedding-guests-msg-who-was-there-ai-slop-makes-it-hard-to-tell",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Our interest in AI slop is hitting a ceiling",
-          "url": "https://www.fastcompany.com/91568818/our-interest-in-ai-slop-is-hitting-a-ceiling?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=12&partner=newsletter&campaign_date=07092026",
-          "source": "Fast Company"
         }
       ]
     },
@@ -366,87 +405,132 @@
         "linkedin"
       ],
       "source_count": 1,
-      "confidence": 95,
-      "days_active": 13,
+      "confidence": 93,
+      "days_active": 12,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "voicebox",
-      "mentions": 3,
-      "velocity": 0.3,
+      "keyword": "block",
+      "mentions": 2,
+      "velocity": 0.4,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 79,
+      "confidence": 69,
       "days_active": 6,
-      "expert_ratio": 0.75,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 1.0,
+      "headline": "Improving Engine Sound Analysis in Hot-Test Environments via a RAB-U-Net (Residual Attention Block U-Net) Noise Removal ",
+      "articles": [
+        {
+          "title": "Improving Engine Sound Analysis in Hot-Test Environments via a RAB-U-Net (Residual Attention Block U-Net) Noise Removal ",
+          "url": "https://arxiv.org/abs/2606.21887",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "LDFE: Laplacian Decoupled Feature Enhancement Block for Dual-Stream CNN-based RGB-IR Object Detection",
+          "url": "https://arxiv.org/abs/2607.08076",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Trump Tried to Block Canada’s New Bridge to Detroit. It’s Opening Anyway.",
+          "url": "https://www.nytimes.com/2026/07/10/world/canada/gordie-howe-bridge-canada-us-michigan.html",
+          "source": "The New York Times"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "sora",
-      "mentions": 18,
-      "velocity": 1.6,
+      "keyword": "kling",
+      "mentions": 13,
+      "velocity": 1.1,
       "sources": [
         "articles",
-        "twitter"
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.73,
+      "headline": "Kuaishou Announces Kling AI Video Unit’s Fundraising at $15 Billion Valuation",
+      "articles": [
+        {
+          "title": "Kuaishou Announces Kling AI Video Unit’s Fundraising at $15 Billion Valuation",
+          "url": "https://www.theinformation.com/briefings/kuaishou-announces-kling-ai-video-units-fundraising-15-billion-valuation",
+          "source": "The Information"
+        },
+        {
+          "title": "Kling AI raises two billion dollars as Kuaishou spins off its fastest-growing business",
+          "url": "https://thenextweb.com/news/kling-ai-2-billion-kuaishou-spinoff-video",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Kling AI, the Kuaishou AI video generator spin-off, raised $2B at a $15B pre-money valuation and says the round could ex",
+          "url": "https://www.techmeme.com/260702/p25#a260702p25",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "machinelearning",
+      "mentions": 21,
+      "velocity": 1.1,
+      "sources": [
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "flux",
+      "mentions": 18,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "reddit"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.11,
-      "headline": "Beatbot Sora 70, la prova del robot da piscina più smart",
-      "articles": [
-        {
-          "title": "Beatbot Sora 70, la prova del robot da piscina più smart",
-          "url": "https://www.wired.it/article/robot-piscina-beatbot-sora-70-recensione/",
-          "source": "Wired"
-        }
-      ]
+      "expert_ratio": 0.59,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "github",
-      "mentions": 105,
-      "velocity": 1.6,
+      "keyword": "langchain",
+      "mentions": 20,
+      "velocity": 1.0,
       "sources": [
         "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
+        "github",
+        "linkedin"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.42,
-      "headline": "Fake Go DNS scanner spread malware through over 200 GitHub repos — 'Operation Muck and Load' has published 700 malicious",
+      "expert_ratio": 0.74,
+      "headline": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
       "articles": [
         {
-          "title": "Fake Go DNS scanner spread malware through over 200 GitHub repos — 'Operation Muck and Load' has published 700 malicious",
-          "url": "https://www.tomshardware.com/tech-industry/cyber-security/fake-go-dns-scanner-published-700-malicious-versions-before-researchers-traced-it-to-222-github-repos",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "CISA says weak security controls around the use of public GitHub repos allowed a contractor to accidentally leak private",
-          "url": "https://www.techmeme.com/260710/p33#a260710p33",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Researchers broke GitHub Copilot’s safety by hiding harm in a workflow",
-          "url": "https://thenextweb.com/news/github-copilot-workflow-jailbreak-alan-turing-institute",
-          "source": "The Next Web"
+          "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
+          "url": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/",
+          "source": "NVIDIA Developer Blog"
         }
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 154,
-      "velocity": 1.3,
+      "keyword": "gemini",
+      "mentions": 135,
+      "velocity": 0.6,
       "sources": [
         "articles",
         "arxiv",
@@ -459,122 +543,23 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "TAG: A Lightweight Framework for Test-Driven Agentic Artifact Generation",
+      "expert_ratio": 0.68,
+      "headline": "Here’s how to make study notebooks in the Gemini app.",
       "articles": [
         {
-          "title": "TAG: A Lightweight Framework for Test-Driven Agentic Artifact Generation",
-          "url": "https://arxiv.org/abs/2607.02615",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Here’s how to make study notebooks in the Gemini app.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
+          "source": "The Keyword"
         },
         {
-          "title": "MAVEN: A Multi-stage Agentic Annotation Pipeline for Video Reasoning Tasks",
-          "url": "https://arxiv.org/abs/2605.21917",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "How to Conduct a Competitive Analysis with Google Gemini",
+          "url": "https://www.theinformation.com/articles/conduct-competitive-analysis-google-gemini",
+          "source": "The Information"
         },
         {
-          "title": "DeepTutor: Towards Agentic Personalized Tutoring",
-          "url": "https://arxiv.org/abs/2604.26962",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "frontier model",
-      "mentions": 27,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "Reaction-network reasoning with frontier models for experimentally confirmed catalyst-selectivity hypotheses",
-      "articles": [
-        {
-          "title": "Reaction-network reasoning with frontier models for experimentally confirmed catalyst-selectivity hypotheses",
-          "url": "https://arxiv.org/abs/2607.08003",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "How did the government decide OpenAI’s frontier model was safe to release?",
-          "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "The Rise of Verbal Tics in Large Language Models: A Systematic Analysis Across Frontier Models",
-          "url": "https://arxiv.org/abs/2604.19139",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 16,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "OpenAI Safety Head Heidecke to Leave Firm After Reshuffle: Wired",
-      "articles": [
-        {
-          "title": "OpenAI Safety Head Heidecke to Leave Firm After Reshuffle: Wired",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-11/openai-safety-head-heidecke-to-leave-firm-after-reshuffle-wired",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
-          "url": "https://arxiv.org/abs/2607.07695",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Reasoning Consistency Scanning: A Framework for Auditing Chain-of-Thought Validity in AI Safety Evaluations",
-          "url": "https://arxiv.org/abs/2607.07229",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "quantization",
-      "mentions": 21,
-      "velocity": 0.8,
-      "sources": [
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
-      "articles": [
-        {
-          "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
-          "url": "https://arxiv.org/abs/2607.08734",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ARCQuant: Boosting NVFP4 Quantization with Augmented Residual Channels for LLMs",
-          "url": "https://arxiv.org/abs/2601.07475",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
-          "url": "https://arxiv.org/abs/2607.02461",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Gli agenti Gemini ora girano nel cloud di Google e si collegano ai tuoi strumenti da soli",
+          "url": "https://www.tomshw.it/business/gli-agenti-gemini-ora-girano-nel-cloud-di-google-e-si-collegano-ai-tuoi-strumenti-da-soli",
+          "source": "Tom's Hardware"
         }
       ]
     }
@@ -591,14 +576,6 @@
     "hit_rate": 0.719,
     "materialized": 23,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 11,
-        "covered": 3,
-        "early": 2,
-        "coverage_rate": 0.273,
-        "early_rate": 0.182,
-        "hit_rate": 0.273
-      },
       "emerging": {
         "scored": 21,
         "covered": 20,
@@ -606,6 +583,14 @@
         "coverage_rate": 0.952,
         "early_rate": 0.333,
         "hit_rate": 0.952
+      },
+      "weak_signal": {
+        "scored": 11,
+        "covered": 3,
+        "early": 2,
+        "coverage_rate": 0.273,
+        "early_rate": 0.182,
+        "hit_rate": 0.273
       }
     }
   },
@@ -707,19 +692,19 @@
         "confidence": 0.6
       },
       {
-        "keyword": "ai copyright",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-10",
-        "confidence": 0.2
-      },
-      {
         "keyword": "voicebox",
         "signal_type": "weak_signal",
         "flagged_on": "2026-07-10",
         "confidence": 0.2
       },
       {
-        "keyword": "chatgpt",
+        "keyword": "ai copyright",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-10",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "openai",
         "signal_type": "emerging",
         "flagged_on": "2026-07-09",
         "confidence": 1.0
@@ -731,45 +716,31 @@
         "confidence": 1.0
       },
       {
-        "keyword": "openai",
+        "keyword": "chatgpt",
         "signal_type": "emerging",
         "flagged_on": "2026-07-09",
         "confidence": 1.0
-      },
-      {
-        "keyword": "tavily",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-09",
-        "confidence": 0.2
       },
       {
         "keyword": "openai sdk",
         "signal_type": "weak_signal",
         "flagged_on": "2026-07-09",
         "confidence": 0.2
+      },
+      {
+        "keyword": "tavily",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-09",
+        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "ai glasses",
-        "recent_mentions": 32,
+        "keyword": "open webui",
+        "recent_mentions": 9,
         "prior_mentions": 1,
-        "change_ratio": 32.0,
+        "change_ratio": 9.0,
         "corroborating_sources": 3
-      },
-      {
-        "keyword": "flowise",
-        "recent_mentions": 11,
-        "prior_mentions": 1,
-        "change_ratio": 11.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "voice mode",
-        "recent_mentions": 19,
-        "prior_mentions": 2,
-        "change_ratio": 9.5,
-        "corroborating_sources": 4
       },
       {
         "keyword": "voicebox",
@@ -779,32 +750,25 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "ideogram",
-        "recent_mentions": 16,
-        "prior_mentions": 2,
-        "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "jasper",
-        "recent_mentions": 8,
+        "keyword": "tavily",
+        "recent_mentions": 9,
         "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 9.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "exa",
+        "recent_mentions": 9,
+        "prior_mentions": 1,
+        "change_ratio": 9.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "manus",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "b200",
-        "recent_mentions": 26,
-        "prior_mentions": 4,
-        "change_ratio": 6.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "chroma",
-        "recent_mentions": 19,
-        "prior_mentions": 3,
-        "change_ratio": 6.33,
-        "corroborating_sources": 3
       },
       {
         "keyword": "openai sdk",
@@ -814,25 +778,46 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "manus",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
+        "keyword": "voice mode",
+        "recent_mentions": 21,
+        "prior_mentions": 4,
+        "change_ratio": 5.25,
+        "corroborating_sources": 4
       },
       {
-        "keyword": "simplified",
-        "recent_mentions": 15,
-        "prior_mentions": 3,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "dalle",
+        "keyword": "anthropic sdk",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai glasses",
+        "recent_mentions": 35,
+        "prior_mentions": 7,
+        "change_ratio": 5.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "simplified",
+        "recent_mentions": 19,
+        "prior_mentions": 4,
+        "change_ratio": 4.75,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai sdk",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "stable diffusion",
+        "recent_mentions": 36,
+        "prior_mentions": 9,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
       }
     ]
   }
