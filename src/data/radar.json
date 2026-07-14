@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-13T19:22:58.019628",
-  "total_tracked": 4832,
+  "generated_at": "2026-07-14T07:18:45.219153",
+  "total_tracked": 4769,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "grok",
-      "mentions": 116,
-      "velocity": 8.6,
+      "keyword": "agentic",
+      "mentions": 282,
+      "velocity": 42.4,
       "sources": [
         "articles",
         "arxiv",
@@ -17,7 +17,70 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.48,
+      "expert_ratio": 0.79,
+      "headline": "NextFund: A Unified Performance Tracking Platform for Agentic Portfolio Management",
+      "articles": [
+        {
+          "title": "NextFund: A Unified Performance Tracking Platform for Agentic Portfolio Management",
+          "url": "https://arxiv.org/abs/2607.11141",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Filtering Harmful Actions Isn't Enough: Phantom Transfer in Agentic SDF",
+          "url": "https://arxiv.org/abs/2607.10750",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification",
+          "url": "https://arxiv.org/abs/2607.01061",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 188,
+      "velocity": 33.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "LoRA-Based Cascaded Multimodal Fusion for Action Recognition in Medical Training Environments",
+      "articles": [
+        {
+          "title": "LoRA-Based Cascaded Multimodal Fusion for Action Recognition in Medical Training Environments",
+          "url": "https://arxiv.org/abs/2607.11839",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "RSLoRA: Training-free Rank Allocation for LoRA via Representational Sensitivity Probing",
+          "url": "https://arxiv.org/abs/2607.09757",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "grok",
+      "mentions": 103,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.51,
       "headline": "What xAI's Grok Build CLI Actually Sends to xAI",
       "articles": [
         {
@@ -31,156 +94,34 @@
           "source": "The Information"
         }
       ]
-    },
-    {
-      "keyword": "openai",
-      "mentions": 407,
-      "velocity": 6.5,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Apple snoeihard in aanklacht tegen OpenAI: bedrijf van Altman zou bedrijfsgeheimen hebben gestolen",
-      "articles": [
-        {
-          "title": "Apple snoeihard in aanklacht tegen OpenAI: bedrijf van Altman zou bedrijfsgeheimen hebben gestolen",
-          "url": "https://www.volkskrant.nl/tech/apple-snoeihard-in-aanklacht-tegen-openai-bedrijf-van-altman-zou-bedrijfsgeheimen-hebben-gestolen~b3492c1c/",
-          "source": "de Volkskrant - Voorpagina"
-        },
-        {
-          "title": "De opvolger van de iPhone: dat is de inzet van de onvermijdelijke rechtszaak tussen Apple en OpenAI",
-          "url": "https://www.nrc.nl/nieuws/2026/07/13/apple-tegen-openai-de-onvermijdelijke-rechtszaak-over-de-opvolger-van-de-iphone-a4932403",
-          "source": "NRC"
-        },
-        {
-          "title": "OpenAI verso il suo device, ma la lite Apple è un ostacolo",
-          "url": "https://www.tomshw.it/hardware/openai-punta-ancora-al-suo-dispositivo-ma-la-causa-apple-apre-un",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "artificialintelligence",
-      "mentions": 27,
-      "velocity": 2.5,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai chip",
-      "mentions": 17,
-      "velocity": 2.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.34,
-      "headline": "AI Chip Giants TSMC and SK Hynix Pull in Different Directions",
-      "articles": [
-        {
-          "title": "AI Chip Giants TSMC and SK Hynix Pull in Different Directions",
-          "url": "https://www.bloomberg.com/news/videos/2026-07-13/tsmc-and-sk-hynix-pull-in-different-directions-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Intel Invests €5 Billion in Irish Hub to Keep Up in AI Chip Race",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-13/intel-invests-5-billion-in-irish-hub-to-keep-up-in-ai-chip-race",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "South Korea flags a record $530bn budget, paid for by the AI chip boom",
-          "url": "https://thenextweb.com/news/south-korea-record-2027-budget-ai-chip-windfall",
-          "source": "The Next Web"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "claude code",
-      "mentions": 64,
-      "velocity": 8.8,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Anthropic says it is extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate lim",
-      "articles": [
-        {
-          "title": "Anthropic says it is extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate lim",
-          "url": "https://www.techmeme.com/260712/p7#a260712p7",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Beijing flagged Claude Code as a back door, and Chinese coding tools are lining up to take its place",
-          "url": "https://thenextweb.com/news/china-ai-coding-tools-claude-code-backdoor?utm_source=flipboard&utm_content=topic/security",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 139,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "Waze rolls out new customization features and more Gemini updates",
-      "articles": [
-        {
-          "title": "Waze rolls out new customization features and more Gemini updates",
-          "url": "https://blog.google/waze/waze-updates-gemini-motorcycle-mode/",
-          "source": "The Keyword"
-        },
-        {
-          "title": "Here’s how to make study notebooks in the Gemini app.",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
-          "source": "The Keyword"
-        },
-        {
-          "title": "How to Conduct a Competitive Analysis with Google Gemini",
-          "url": "https://www.theinformation.com/articles/conduct-competitive-analysis-google-gemini",
-          "source": "The Information"
-        }
-      ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "pixverse",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M ",
+      "articles": [
+        {
+          "title": "Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M ",
+          "url": "https://www.techmeme.com/260713/p35#a260713p35",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+          "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
     {
       "keyword": "densenet",
       "mentions": 2,
@@ -192,6 +133,115 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "contentcreator",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "marketing",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "NYC-based Vendelux, a live B2B event information platform for CMOs and marketing and sales teams, raised a $50M Series B",
+      "articles": [
+        {
+          "title": "NYC-based Vendelux, a live B2B event information platform for CMOs and marketing and sales teams, raised a $50M Series B",
+          "url": "https://www.techmeme.com/260712/p2#a260712p2",
+          "source": "Techmeme"
+        },
+        {
+          "title": "5 prompt quotidiani con Claude per contesto, blog, marketing: versione per manager e consulenti",
+          "url": "https://www.tomshw.it/aioperator/5-prompt-quotidiani-claude-contesto-blog-marketing",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "user",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "BizFinBench.v2: Towards Reliable LLMs in Finance via Real-User Data and Offline/Online Bilingual Evaluation",
+      "articles": [
+        {
+          "title": "BizFinBench.v2: Towards Reliable LLMs in Finance via Real-User Data and Offline/Online Bilingual Evaluation",
+          "url": "https://arxiv.org/abs/2601.06401",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Embark Now: User Demand Oriented Framework for Multi-day Urban Travel Itinerary Planning",
+          "url": "https://arxiv.org/abs/2607.10651",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "User crippled a network while trying to learn Nmap",
+          "url": "https://www.theregister.com/networks/2026/07/13/user-crippled-a-network-while-trying-to-learn-nmap/5269687",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "keyword": "content",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "An LLM-powered Agentic Recommendation System for Connected TV Content Discovery",
+      "articles": [
+        {
+          "title": "An LLM-powered Agentic Recommendation System for Connected TV Content Discovery",
+          "url": "https://arxiv.org/abs/2607.09988",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Listen to the Features: Voice Anonymization Driven by Content Embedding Matching over Signal Reconstruction",
+          "url": "https://arxiv.org/abs/2607.09767",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation",
+          "url": "https://arxiv.org/abs/2604.06205",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "lightrocket",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
       "headline": "",
       "articles": []
     },
@@ -256,8 +306,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "headline": "Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation",
       "articles": [
+        {
+          "title": "Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation",
+          "url": "https://arxiv.org/abs/2604.06205",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
           "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
@@ -267,155 +322,42 @@
           "title": "Reddit says its AI-powered content moderation systems caught 25K \"spammy posts and comments\" per day in Q1, reducing use",
           "url": "https://www.techmeme.com/260706/p18#a260706p18",
           "source": "Techmeme"
-        },
-        {
-          "title": "Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces",
-          "url": "https://arxiv.org/abs/2607.00481",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "marketing",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "NYC-based Vendelux, a live B2B event information platform for CMOs and marketing and sales teams, raised a $50M Series B",
-      "articles": [
-        {
-          "title": "NYC-based Vendelux, a live B2B event information platform for CMOs and marketing and sales teams, raised a $50M Series B",
-          "url": "https://www.techmeme.com/260712/p2#a260712p2",
-          "source": "Techmeme"
-        },
-        {
-          "title": "5 prompt quotidiani con Claude per contesto, blog, marketing: versione per manager e consulenti",
-          "url": "https://www.tomshw.it/aioperator/5-prompt-quotidiani-claude-contesto-blog-marketing",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "contentcreator",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "lightrocket",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "localai",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "hyperframes",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "developercommunity",
-      "mentions": 3,
-      "velocity": 0.7,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 8,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "prompt engineering",
-      "mentions": 27,
-      "velocity": 1.7,
+      "keyword": "claude code",
+      "mentions": 50,
+      "velocity": 2.0,
       "sources": [
         "articles",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
-      "articles": [
-        {
-          "title": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
-          "url": "https://arxiv.org/abs/2607.06074",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 64,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "arxiv",
         "hackernews",
-        "linkedin"
+        "linkedin",
+        "twitter"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Chinese developers are climbing the firewall to pay more for GPT-5.6, and doing the maths on why",
+      "expert_ratio": 0.0,
+      "headline": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
       "articles": [
         {
-          "title": "Chinese developers are climbing the firewall to pay more for GPT-5.6, and doing the maths on why",
-          "url": "https://thenextweb.com/news/china-users-gpt-5-6-token-efficiency?utm_source=flipboard&utm_content=thenextweb/magazine/ECOSYSTEMS",
-          "source": "Artificial Intelligence"
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+          "url": "https://arxiv.org/abs/2607.01418",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Anthropic says it is extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code's weekly rate lim",
+          "url": "https://www.techmeme.com/260712/p7#a260712p7",
+          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "context window",
-      "mentions": 19,
+      "mentions": 20,
       "velocity": 1.0,
       "sources": [
         "articles",
@@ -436,66 +378,82 @@
       ]
     },
     {
-      "keyword": "data centers",
-      "mentions": 27,
-      "velocity": 0.9,
+      "keyword": "sora",
+      "mentions": 16,
+      "velocity": 0.5,
       "sources": [
         "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Ireland’s data centers consumed nearly as much electricity as every home in the country combined in 2025 — server farms ",
-      "articles": [
-        {
-          "title": "Ireland’s data centers consumed nearly as much electricity as every home in the country combined in 2025 — server farms ",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/irelands-data-centers-consumed-nearly-as-much-electricity-as-every-home-in-the-country-combined-in-2025-server-farms-gulped-23-percent-of-national-power-despite-years-of-grid-restrictions",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "The fight against AI data centers is just beginning",
-          "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
-          "source": "The Verge -  Artificial Intelligences"
-        },
-        {
-          "title": "Analysis: Alphabet, Amazon, Meta, Microsoft, and Oracle, the top spenders on new US data centers, collectively added ~$3",
-          "url": "https://www.techmeme.com/260710/p19#a260710p19",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "ai act",
-      "mentions": 12,
-      "velocity": 0.3,
-      "sources": [
-        "linkedin",
         "twitter"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "The EU AI Act deadline has moved, but data lineage can’t wait",
+      "expert_ratio": 0.17,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "github",
+      "mentions": 101,
+      "velocity": -0.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.44,
+      "headline": "A Large-Scale Dataset of MCP Implementations on GitHub",
       "articles": [
         {
-          "title": "The EU AI Act deadline has moved, but data lineage can’t wait",
-          "url": "https://www.techradar.com/pro/the-eu-ai-act-deadline-has-moved-but-data-lineage-cant-wait",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Position: EU AI Act's Research Exemptions Can Break the Publication Norms of Major AI Conferences",
-          "url": "https://arxiv.org/abs/2506.03218",
+          "title": "A Large-Scale Dataset of MCP Implementations on GitHub",
+          "url": "https://arxiv.org/abs/2607.10123",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "High-Risk AI Systems and the Problem of Identity in the European AI Act",
-          "url": "https://arxiv.org/abs/2605.23922",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+          "url": "https://arxiv.org/abs/2607.01418",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Fake Go DNS scanner spread malware through over 200 GitHub repos — 'Operation Muck and Load' has published 700 malicious",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/fake-go-dns-scanner-published-700-malicious-versions-before-researchers-traced-it-to-222-github-repos",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "together",
+      "mentions": 69,
+      "velocity": -1.9,
+      "sources": [
+        "articles",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "‘Navigating the unknown together’: me and my idiot AI boyfriend – podcast",
+      "articles": [
+        {
+          "title": "‘Navigating the unknown together’: me and my idiot AI boyfriend – podcast",
+          "url": "https://www.theguardian.com/news/audio/2026/jul/13/navigating-the-unknown-together-me-and-my-idiot-ai-boyfriend-podcast",
+          "source": "Artificial intelligence (AI) | The Guardian"
+        },
+        {
+          "title": "After living with my parents for 6 years, we're now neighbors. We have plenty of the benefits of living together, but mo",
+          "url": "https://www.businessinsider.com/lived-with-parents-adult-now-neighbors-benefits-2026-7",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "Building the future of global health, together",
+          "url": "https://blog.google/innovation-and-ai/technology/health/open-health-stack-software-foundation/",
+          "source": "The Keyword"
         }
       ]
     }
@@ -598,6 +556,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "claude code",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-14",
+        "confidence": 0.8
+      },
+      {
         "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-07-11",
@@ -616,16 +580,22 @@
         "confidence": 0.2
       },
       {
+        "keyword": "together",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-10",
+        "confidence": 0.6
+      },
+      {
         "keyword": "qwen",
         "signal_type": "emerging",
         "flagged_on": "2026-07-10",
         "confidence": 0.6
       },
       {
-        "keyword": "together",
-        "signal_type": "emerging",
+        "keyword": "voicebox",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-07-10",
-        "confidence": 0.6
+        "confidence": 0.2
       },
       {
         "keyword": "ai copyright",
@@ -634,10 +604,10 @@
         "confidence": 0.2
       },
       {
-        "keyword": "voicebox",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-10",
-        "confidence": 0.2
+        "keyword": "chatgpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-09",
+        "confidence": 1.0
       },
       {
         "keyword": "nvidia",
@@ -652,108 +622,96 @@
         "confidence": 1.0
       },
       {
-        "keyword": "chatgpt",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-09",
-        "confidence": 1.0
-      },
-      {
         "keyword": "tavily",
         "signal_type": "emerging",
-        "flagged_on": "2026-07-09",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "openai sdk",
-        "signal_type": "weak_signal",
         "flagged_on": "2026-07-09",
         "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "maestro",
-        "recent_mentions": 21,
-        "prior_mentions": 2,
-        "change_ratio": 10.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "character ai",
-        "recent_mentions": 8,
+        "keyword": "openmontage",
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "in video",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "keyword": "gemini 2",
+        "recent_mentions": 26,
+        "prior_mentions": 4,
+        "change_ratio": 6.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "framer",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
-        "change_ratio": 5.0,
+        "keyword": "voice agent",
+        "recent_mentions": 24,
+        "prior_mentions": 6,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "synthetic data",
+        "recent_mentions": 76,
+        "prior_mentions": 22,
+        "change_ratio": 3.45,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "vision language model",
+        "recent_mentions": 43,
+        "prior_mentions": 14,
+        "change_ratio": 3.07,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "code completion",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai chips",
+        "recent_mentions": 11,
+        "prior_mentions": 4,
+        "change_ratio": 2.75,
+        "corroborating_sources": 4
       },
       {
         "keyword": "open webui",
         "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "manus",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "hermes agent",
-        "recent_mentions": 15,
-        "prior_mentions": 4,
-        "change_ratio": 3.75,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "stability ai",
-        "recent_mentions": 11,
         "prior_mentions": 3,
-        "change_ratio": 3.67,
+        "change_ratio": 2.67,
         "corroborating_sources": 2
       },
       {
-        "keyword": "stable diffusion",
-        "recent_mentions": 29,
-        "prior_mentions": 10,
-        "change_ratio": 2.9,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "digital twin",
-        "recent_mentions": 36,
-        "prior_mentions": 13,
-        "change_ratio": 2.77,
+        "keyword": "bolt",
+        "recent_mentions": 43,
+        "prior_mentions": 17,
+        "change_ratio": 2.53,
         "corroborating_sources": 3
       },
       {
-        "keyword": "simplified",
-        "recent_mentions": 20,
-        "prior_mentions": 8,
+        "keyword": "on-device ai",
+        "recent_mentions": 10,
+        "prior_mentions": 4,
+        "change_ratio": 2.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "embodied ai",
+        "recent_mentions": 15,
+        "prior_mentions": 6,
         "change_ratio": 2.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "openai sdk",
+        "keyword": "chatgpt atlas",
         "recent_mentions": 5,
         "prior_mentions": 2,
         "change_ratio": 2.5,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       }
     ]
   }
