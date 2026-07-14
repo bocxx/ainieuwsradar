@@ -76,13 +76,36 @@ const jsonld = {
   <link rel="preconnect" href="https://cloud.umami.is" crossorigin />
   <link rel="dns-prefetch" href="https://cloud.umami.is" />
   <script defer src="https://cloud.umami.is/script.js" data-website-id="9dad3643-f050-42a8-8d8a-64a868ad15c9" data-auto-track="false"></script>
-  <script is:inline>{`
-    (function(){
-      function t(){if(window.umami&&typeof window.umami.track==='function')window.umami.track();}
-      if(document.readyState!=='loading')t();else document.addEventListener('DOMContentLoaded',t);
-      document.addEventListener('astro:page-load',t);
+  {/* LET OP: GEEN template-literal-wrapper rond de JS hieronder. Met is:inline
+      interpoleert Astro niet, dus zo'n wrapper belandt letterlijk in het script
+      en dan draait de code nooit — dat was hier de bug (jul 2026): custom events
+      kwamen wel binnen, pageviews niet. Schrijf hier dus rauwe JS. */}
+  <script is:inline>
+    // View Transitions-aware pageview-tracking bij data-auto-track="false".
+    // Het Umami-script is 'defer' en laadt later dan dit script, dus pollen tot
+    // window.umami klaar is. Ontdubbelen per URL zodat de eerste lading niet
+    // dubbel telt met astro:page-load (dat ook SPA-navigaties dekt).
+    (function () {
+      var lastUrl = null;
+      function fire() {
+        if (!(window.umami && typeof window.umami.track === 'function')) return false;
+        var url = location.pathname + location.search;
+        if (url === lastUrl) return true;
+        lastUrl = url;
+        window.umami.track();
+        return true;
+      }
+      function fireWhenReady() {
+        if (fire()) return;
+        var tries = 0;
+        var iv = setInterval(function () {
+          if (fire() || ++tries > 100) clearInterval(iv); // ~5s max
+        }, 50);
+      }
+      fireWhenReady();
+      document.addEventListener('astro:page-load', fireWhenReady);
     })();
-  `}</script>
+  </script>
   <script is:inline>
     // Umami custom events (netwerk-breed, juni 2026): ai-referral (AEO),
     // cross-domain-click, source-link-click, tab-switch, audio-play, read-depth.
