@@ -1,47 +1,12 @@
 {
-  "generated_at": "2026-07-14T19:23:13.758654",
-  "total_tracked": 4877,
+  "generated_at": "2026-07-15T07:19:19.631084",
+  "total_tracked": 4701,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "openai",
-      "mentions": 447,
-      "velocity": 16.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "OpenAI strikes a partnership with Kalshi to show FIFA World Cup prediction market data in ChatGPT search results, its fi",
-      "articles": [
-        {
-          "title": "OpenAI strikes a partnership with Kalshi to show FIFA World Cup prediction market data in ChatGPT search results, its fi",
-          "url": "https://www.techmeme.com/260714/p26#a260714p26",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Apple and OpenAI's lawsuit is a reminder that not everything from your old job is yours to bring",
-          "url": "https://www.businessinsider.com/apple-openai-lawsuit-trade-secrets-changing-jobs-2026-7",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "OpenAI wants its legal fees from xAI, while Apple comes for OpenAI",
-          "url": "https://thenextweb.com/news/openai-xai-legal-fees-apple-trade-secrets",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 68,
-      "velocity": 6.4,
+      "keyword": "claude code",
+      "mentions": 51,
+      "velocity": 6.0,
       "sources": [
         "articles",
         "hackernews",
@@ -51,30 +16,98 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Sources: data center operator Switch has hired investment banks for a US IPO that could raise up to $10B and value it at",
+      "expert_ratio": 0.0,
+      "headline": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
       "articles": [
         {
-          "title": "Sources: data center operator Switch has hired investment banks for a US IPO that could raise up to $10B and value it at",
-          "url": "https://www.techmeme.com/260714/p31#a260714p31",
-          "source": "Techmeme"
-        },
-        {
-          "title": "New York enacts nation's first statewide moratorium on AI data centers",
-          "url": "https://www.businessinsider.com/new-york-state-ai-data-center-moratorium-temporary-ban-2026-7",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Elon Musk’s Colossus 2 data center installed 59 natural gas turbines without permission, report claims — thousands of to",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-colossus-2-data-center-installed-59-natural-gas-turbines-without-permission-report-claims-thousands-of-tons-of-pollutants-reportedly-impact-black-communities-in-mississippi-already-suffering-from-elevated-lung-disease-rates",
-          "source": "Tom's Hardware"
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+          "url": "https://arxiv.org/abs/2607.01418",
+          "source": "Hacker News"
         }
       ]
     },
     {
-      "keyword": "gemini",
-      "mentions": 155,
-      "velocity": 6.2,
+      "keyword": "voice agent",
+      "mentions": 15,
+      "velocity": 2.9,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.37,
+      "headline": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
+      "articles": [
+        {
+          "title": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
+          "url": "https://arxiv.org/abs/2607.07985",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 23,
+      "velocity": 2.8,
+      "sources": [
+        "arxiv",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Claude Opus 4.8 and Sonnet 5 seem worse at tool calls than older models, likely due to post-training that assumes Claude",
+      "articles": [
+        {
+          "title": "Claude Opus 4.8 and Sonnet 5 seem worse at tool calls than older models, likely due to post-training that assumes Claude",
+          "url": "https://www.techmeme.com/260706/p4#a260706p4",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "github copilot",
+      "mentions": 17,
+      "velocity": 2.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "articles": [
+        {
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+          "url": "https://arxiv.org/abs/2607.01418",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Researchers broke GitHub Copilot’s safety by hiding harm in a workflow",
+          "url": "https://thenextweb.com/news/github-copilot-workflow-jailbreak-alan-turing-institute",
+          "source": "The Next Web"
+        },
+        {
+          "title": "GitHub Copilot: Sorry Dave, I can't do that harmful thing - unless you ask me in code",
+          "url": "https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code/5268654",
+          "source": "The Register"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "openai",
+      "mentions": 473,
+      "velocity": 19.6,
       "sources": [
         "articles",
         "arxiv",
@@ -86,9 +119,49 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "Prepare for Customer Calls with Google Gemini",
+      "expert_ratio": 0.79,
+      "headline": "Sources: OpenAI researcher Miles Wang is leaving the company to launch an AI drug discovery startup, and is in talks to ",
       "articles": [
+        {
+          "title": "Sources: OpenAI researcher Miles Wang is leaving the company to launch an AI drug discovery startup, and is in talks to ",
+          "url": "https://www.techmeme.com/260714/p58#a260714p58",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+          "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "OpenAI hides Codex agent instructions behind encryption, leaving developers in the dark",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/15/openai-hides-codex-agent-instructions-behind-encryption-leaving-developers-in-the-dark/5271484",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 155,
+      "velocity": 4.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.7,
+      "headline": "Book publishers sue Google for copyright infringement over Gemini AI training",
+      "articles": [
+        {
+          "title": "Book publishers sue Google for copyright infringement over Gemini AI training",
+          "url": "https://www.theguardian.com/books/2026/jul/14/publishers-sue-google-gemini-ai-training",
+          "source": "Artificial intelligence (AI) | The Guardian"
+        },
         {
           "title": "Prepare for Customer Calls with Google Gemini",
           "url": "https://www.theinformation.com/articles/prepare-customer-calls-google-gemini",
@@ -98,95 +171,72 @@
           "title": "'The bots are alive!' Jailbroken Gemini spun up new C2 server for Russian fraudster in just 6 minutes",
           "url": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131",
           "source": "The Register"
-        },
-        {
-          "title": "Google brings Gemini in Chrome to UK users",
-          "url": "https://www.engadget.com/2212958/google-gemini-in-chrome-uk/",
-          "source": "Engadget"
         }
       ]
     },
     {
-      "keyword": "cohere",
-      "mentions": 43,
-      "velocity": 4.9,
+      "keyword": "nvidia",
+      "mentions": 74,
+      "velocity": 3.0,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
         "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "deepmind",
-      "mentions": 13,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.57,
-      "headline": "Il capo di Google DeepMind chiede un'autorità globale per l'AI",
-      "articles": [
-        {
-          "title": "Il capo di Google DeepMind chiede un'autorità globale per l'AI",
-          "url": "https://www.tomshw.it/hardware/il-capo-di-google-deepmind-chiede-unautorita-globale-per-lai",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Universities Fret as Anthropic, OpenAI, Meta and DeepMind Lure Their Professors",
-          "url": "https://www.theinformation.com/articles/universities-fret-anthropic-openai-meta-deepmind-lure-professors",
-          "source": "The Information"
-        },
-        {
-          "title": "These career skills matter the most in the AI era, says former OpenAI and Google DeepMind employee",
-          "url": "https://www.businessinsider.com/former-openai-researcher-career-skills-matter-most-ai-era-2026-7",
-          "source": "Business Insider"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "grok",
-      "mentions": 103,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "Researcher: SpaceXAI's Grok Build CLI uploaded user repos to a Google Cloud Storage bucket; uploads have now stopped and",
+      "expert_ratio": 0.8,
+      "headline": "Quote of the day by Linux creator Linus Torvalds: 'Nvidia has been the single worst company we've ever dealt with' — air",
       "articles": [
         {
-          "title": "Researcher: SpaceXAI's Grok Build CLI uploaded user repos to a Google Cloud Storage bucket; uploads have now stopped and",
-          "url": "https://www.techmeme.com/260714/p24#a260714p24",
-          "source": "Techmeme"
+          "title": "Quote of the day by Linux creator Linus Torvalds: 'Nvidia has been the single worst company we've ever dealt with' — air",
+          "url": "https://www.techradar.com/pro/quote-of-the-day-by-linux-creator-linus-torvalds-nvidia-has-been-the-single-worst-company-weve-ever-dealt-with-airing-frustrations-at-walled-gardens",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Musk promises purge after Grok Build caught sending entire repos to the cloud",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/14/musk-promises-purge-after-grok-build-caught-sending-entire-repos-to-the-cloud/5271123",
-          "source": "The Register"
+          "title": "US gov't allows Chinese telecom giant ZTE to purchase Nvidia H200 AI chips — firm joins Alibaba, Tencent, and ByteDance ",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-allows-chinese-telecom-giant-zte-to-purchase-nvidia-h200-ai-chips-firm-joins-alibaba-tencent-and-bytedance-in-access-to-hopper-tech",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "What xAI's Grok Build CLI Actually Sends to xAI",
-          "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
-          "source": "Hacker News"
+          "title": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China",
+          "url": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html?utm_source=flipboard&utm_content=CNBC/magazine/Top+News",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 91,
+      "velocity": 2.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "The father of reinforcement learning is leaving Carmack to build his own AI",
+      "articles": [
+        {
+          "title": "The father of reinforcement learning is leaving Carmack to build his own AI",
+          "url": "https://thenextweb.com/news/richard-sutton-oak-lab-reinforcement-learning",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Distributionally Robust Reinforcement Learning with Interactive Data Collection: Fundamental Hardness and Near-Optimal A",
+          "url": "https://arxiv.org/abs/2404.03578",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Active Offline-to-Online Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.11720",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -203,12 +253,12 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Researcher: SpaceXAI's Grok Build CLI uploaded user repos to a Google Cloud Storage bucket; uploads have now stopped and",
+      "headline": "'The future is now' — PS5 user locked out of Ghost of Yotei due to license verification, and this is why Sony's all-digi",
       "articles": [
         {
-          "title": "Researcher: SpaceXAI's Grok Build CLI uploaded user repos to a Google Cloud Storage bucket; uploads have now stopped and",
-          "url": "https://www.techmeme.com/260714/p24#a260714p24",
-          "source": "Techmeme"
+          "title": "'The future is now' — PS5 user locked out of Ghost of Yotei due to license verification, and this is why Sony's all-digi",
+          "url": "https://www.techradar.com/gaming/the-future-is-now-ps5-user-locked-out-of-ghost-of-yotei-due-to-license-verification-and-this-is-why-sonys-all-digital-future-plans-must-end",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
           "title": "Canva launches Code 2.0, offering AI website building to every user — including free accounts",
@@ -216,9 +266,9 @@
           "source": "Artificial Intelligence"
         },
         {
-          "title": "'It's exploding now?' — Reddit user's Zotac RTX 5090 'explodes' while playing Assassin's Creed Black Flag Resynced, and ",
-          "url": "https://www.techradar.com/computing/gpu/its-exploding-now-reddit-users-zotac-rtx-5090-explodes-while-playing-assassins-creed-black-flag-resynced-and-im-starting-to-get-worried-that-high-powered-gpus-arent-safe",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Researcher: SpaceXAI's Grok Build CLI uploaded user repos to a Google Cloud Storage bucket; uploads have now stopped and",
+          "url": "https://www.techmeme.com/260714/p24#a260714p24",
+          "source": "Techmeme"
         }
       ]
     },
@@ -260,36 +310,6 @@
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "content",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Black Ops 7 Season 5 has been fully revealed, with the next Call of Duty update bringing a raft of fresh content",
-      "articles": [
-        {
-          "title": "Black Ops 7 Season 5 has been fully revealed, with the next Call of Duty update bringing a raft of fresh content",
-          "url": "https://www.techradar.com/gaming/black-ops-7-season-5-has-been-fully-revealed-with-the-next-call-of-duty-update-bringing-a-raft-of-fresh-content",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Survey: 57% of US women and 47% of men ages 18 to 29 say they get health and wellness information from influencers; wome",
-          "url": "https://www.techmeme.com/260714/p10#a260714p10",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Listen to the Features: Voice Anonymization Driven by Content Embedding Matching over Signal Reconstruction",
-          "url": "https://arxiv.org/abs/2607.09767",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     },
     {
       "keyword": "keybanc",
@@ -362,6 +382,36 @@
       ]
     },
     {
+      "keyword": "content",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Apple TV streaming service: Prices, plans, and content (2026)",
+      "articles": [
+        {
+          "title": "Apple TV streaming service: Prices, plans, and content (2026)",
+          "url": "https://www.businessinsider.com/guides/streaming/apple-tv-streaming-service",
+          "source": "Business Insider"
+        },
+        {
+          "title": "ESPN streaming service: Price, plans, and content in the new direct-to-consumer streamer",
+          "url": "https://www.businessinsider.com/guides/streaming/espn-streaming-service",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Black Ops 7 Season 5 has been fully revealed, with the next Call of Duty update bringing a raft of fresh content",
+          "url": "https://www.techradar.com/gaming/black-ops-7-season-5-has-been-fully-revealed-with-the-next-call-of-duty-update-bringing-a-raft-of-fresh-content",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
       "keyword": "lightrocket",
       "mentions": 2,
       "velocity": 1.0,
@@ -372,6 +422,20 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "browser-use",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
       "headline": "",
       "articles": []
     },
@@ -388,33 +452,112 @@
       "expert_ratio": 0.86,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "graphrag",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 6,
-      "expert_ratio": 1.0,
-      "headline": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
-      "articles": [
-        {
-          "title": "RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM",
-          "url": "https://arxiv.org/abs/2607.11683",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "microsoft",
+      "keyword": "whisper",
       "mentions": 11,
-      "velocity": 1.4,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.63,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "grok",
+      "mentions": 102,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "Grok Build was uploading entire Git repositories to xAI’s cloud, including committed secrets",
+      "articles": [
+        {
+          "title": "Grok Build was uploading entire Git repositories to xAI’s cloud, including committed secrets",
+          "url": "https://thenextweb.com/news/grok-build-uploaded-entire-git-repositories-secrets",
+          "source": "The Next Web"
+        },
+        {
+          "title": "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+          "source": "The Verge -  Artificial Intelligences"
+        },
+        {
+          "title": "Researcher: SpaceXAI's Grok Build CLI uploaded user repos to a Google Cloud Storage bucket; uploads have now stopped and",
+          "url": "https://www.techmeme.com/260714/p24#a260714p24",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering",
+      "mentions": 25,
+      "velocity": 1.1,
+      "sources": [
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.92,
+      "headline": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
+      "articles": [
+        {
+          "title": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
+          "url": "https://arxiv.org/abs/2607.06074",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 57,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "Sources: multiple GOP governors and large utilities are expected to join Trump's pledge for data center developers to co",
+      "articles": [
+        {
+          "title": "Sources: multiple GOP governors and large utilities are expected to join Trump's pledge for data center developers to co",
+          "url": "https://www.techmeme.com/260714/p56#a260714p56",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Data Centers to Add Billions in Power Costs in 13 States",
+          "url": "https://www.nytimes.com/2026/07/14/business/energy-environment/pjm-electricity-prices-data-centers.html",
+          "source": "NYT ＞ Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "deepmind",
+      "mentions": 11,
+      "velocity": 1.1,
       "sources": [
         "articles",
         "linkedin"
@@ -422,170 +565,99 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.3,
-      "headline": "Microsoft Defender svela gli attacchi invisibili a Salesforce",
+      "expert_ratio": 0.55,
+      "headline": "Google DeepMind’s Demis Hassabis Calls for New U.S.-Led AI Standards Body",
       "articles": [
         {
-          "title": "Microsoft Defender svela gli attacchi invisibili a Salesforce",
-          "url": "https://www.tomshw.it/altro/microsoft-defender-gli-attacchi-a-salesforce-che-i-login-non-vedono",
-          "source": "Tom's Hardware"
+          "title": "Google DeepMind’s Demis Hassabis Calls for New U.S.-Led AI Standards Body",
+          "url": "https://www.theinformation.com/briefings/google-deepminds-demis-hassabis-calls-new-u-s-led-ai-standards-body",
+          "source": "The Information"
         },
         {
-          "title": "'A single entry point can rapidly expand to greater enterprise impacts': Microsoft introduces changes to tackle ShinyHun",
-          "url": "https://www.techradar.com/pro/security/a-single-entry-point-can-rapidly-expand-to-greater-enterprise-impacts-microsoft-introduces-changes-to-tackle-shinyhunters",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+          "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Eén Microsoft-datacenter gebruikt 1 procent van alle stroom in Nederland",
-          "url": "https://nos.nl/l/2622984",
-          "source": "NOS Nieuws - Algemeen"
+          "title": "Google DeepMind's Demis Hassabis is pushing for a U.S.-led AI watchdog",
+          "url": "https://qz.com/google-deepmind-demis-hassabis-ai-standards-body-finra-071426",
+          "source": "Quartz"
         }
       ]
     },
     {
-      "keyword": "lora",
-      "mentions": 81,
-      "velocity": 1.1,
+      "keyword": "chatgpt",
+      "mentions": 228,
+      "velocity": 0.8,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "RSLoRA: Training-free Rank Allocation for LoRA via Representational Sensitivity Probing",
-      "articles": [
-        {
-          "title": "RSLoRA: Training-free Rank Allocation for LoRA via Representational Sensitivity Probing",
-          "url": "https://arxiv.org/abs/2607.09757",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "LoRA-Based Cascaded Multimodal Fusion for Action Recognition in Medical Training Environments",
-          "url": "https://arxiv.org/abs/2607.11839",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "agentic",
-      "mentions": 143,
-      "velocity": 0.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Replicating Belief, Not Bits: Epistemic State Replication for Agentic Systems",
+      "expert_ratio": 0.51,
+      "headline": "OpenAI may announce a ChatGPT smart speaker this year",
       "articles": [
         {
-          "title": "Replicating Belief, Not Bits: Epistemic State Replication for Agentic Systems",
-          "url": "https://arxiv.org/abs/2607.09748",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Characterizing Large Language Model Agentic Workflows: A Study on N8n Ecosystem",
-          "url": "https://arxiv.org/abs/2606.29116",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification",
-          "url": "https://arxiv.org/abs/2607.01061",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai act",
-      "mentions": 12,
-      "velocity": 0.2,
-      "sources": [
-        "articles",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "The EU AI Act deadline has moved, but data lineage can’t wait",
-      "articles": [
-        {
-          "title": "The EU AI Act deadline has moved, but data lineage can’t wait",
-          "url": "https://www.techradar.com/pro/the-eu-ai-act-deadline-has-moved-but-data-lineage-cant-wait",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Position: EU AI Act's Research Exemptions Can Break the Publication Norms of Major AI Conferences",
-          "url": "https://arxiv.org/abs/2506.03218",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "High-Risk AI Systems and the Problem of Identity in the European AI Act",
-          "url": "https://arxiv.org/abs/2605.23922",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI may announce a ChatGPT smart speaker this year",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+          "source": "The Verge -  All Posts"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 32,
+    "scored_predictions": 34,
     "covered": 23,
-    "coverage_rate": 0.719,
+    "coverage_rate": 0.676,
     "early": 9,
-    "early_rate": 0.281,
+    "early_rate": 0.265,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.719,
+    "hit_rate": 0.676,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 21,
+        "scored": 22,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.952,
-        "early_rate": 0.333,
-        "hit_rate": 0.952
+        "coverage_rate": 0.909,
+        "early_rate": 0.318,
+        "hit_rate": 0.909
       },
       "weak_signal": {
-        "scored": 11,
+        "scored": 12,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.273,
-        "early_rate": 0.182,
-        "hit_rate": 0.273
+        "coverage_rate": 0.25,
+        "early_rate": 0.167,
+        "hit_rate": 0.25
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 32,
+    "n": 34,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.719,
-      "early_rate": 0.281
+      "coverage_rate": 0.706,
+      "early_rate": 0.265
     },
     "null_mean": {
-      "coverage_rate": 0.716,
-      "early_rate": 0.3
+      "coverage_rate": 0.711,
+      "early_rate": 0.292
     },
     "p_value": {
-      "coverage_rate": 0.703,
-      "early_rate": 0.764
+      "coverage_rate": 0.776,
+      "early_rate": 0.781
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -619,22 +691,34 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
       "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "glean",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-15",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "browser-use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-15",
+        "confidence": 0.2
+      },
       {
         "keyword": "claude code",
         "signal_type": "emerging",
@@ -642,13 +726,13 @@
         "confidence": 0.8
       },
       {
-        "keyword": "deepseek",
+        "keyword": "gpt-5",
         "signal_type": "emerging",
         "flagged_on": "2026-07-11",
         "confidence": 1.0
       },
       {
-        "keyword": "gpt-5",
+        "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-07-11",
         "confidence": 1.0
@@ -684,86 +768,74 @@
         "confidence": 0.2
       },
       {
-        "keyword": "openai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-09",
-        "confidence": 1.0
-      },
-      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-07-09",
         "confidence": 1.0
       },
       {
-        "keyword": "chatgpt",
+        "keyword": "openai",
         "signal_type": "emerging",
         "flagged_on": "2026-07-09",
         "confidence": 1.0
-      },
-      {
-        "keyword": "tavily",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-09",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "openmontage",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "gemini 2",
-        "recent_mentions": 22,
-        "prior_mentions": 4,
-        "change_ratio": 5.5,
+        "recent_mentions": 24,
+        "prior_mentions": 3,
+        "change_ratio": 8.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "voice agent",
-        "recent_mentions": 24,
-        "prior_mentions": 6,
-        "change_ratio": 4.0,
+        "keyword": "suno",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
         "corroborating_sources": 2
       },
       {
         "keyword": "ai chips",
-        "recent_mentions": 14,
-        "prior_mentions": 4,
-        "change_ratio": 3.5,
+        "recent_mentions": 17,
+        "prior_mentions": 5,
+        "change_ratio": 3.4,
         "corroborating_sources": 4
       },
       {
+        "keyword": "voice agent",
+        "recent_mentions": 33,
+        "prior_mentions": 10,
+        "change_ratio": 3.3,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "hermes agent",
+        "recent_mentions": 23,
+        "prior_mentions": 7,
+        "change_ratio": 3.29,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "chain of thought",
+        "recent_mentions": 10,
+        "prior_mentions": 4,
+        "change_ratio": 2.5,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "codex cli",
+        "recent_mentions": 5,
+        "prior_mentions": 2,
+        "change_ratio": 2.5,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "chatgpt atlas",
-        "recent_mentions": 6,
+        "recent_mentions": 5,
         "prior_mentions": 2,
-        "change_ratio": 3.0,
+        "change_ratio": 2.5,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "code completion",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "open webui",
-        "recent_mentions": 8,
-        "prior_mentions": 3,
-        "change_ratio": 2.67,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "qlora",
-        "recent_mentions": 16,
-        "prior_mentions": 6,
-        "change_ratio": 2.67,
-        "corroborating_sources": 2
       },
       {
         "keyword": "on-device ai",
@@ -773,25 +845,25 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "open-source ai",
-        "recent_mentions": 22,
-        "prior_mentions": 9,
-        "change_ratio": 2.44,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "character ai",
+        "keyword": "openmontage",
         "recent_mentions": 7,
         "prior_mentions": 3,
         "change_ratio": 2.33,
         "corroborating_sources": 1
       },
       {
-        "keyword": "vision language model",
-        "recent_mentions": 31,
-        "prior_mentions": 14,
-        "change_ratio": 2.21,
-        "corroborating_sources": 1
+        "keyword": "open-source ai",
+        "recent_mentions": 23,
+        "prior_mentions": 10,
+        "change_ratio": 2.3,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "qlora",
+        "recent_mentions": 17,
+        "prior_mentions": 8,
+        "change_ratio": 2.12,
+        "corroborating_sources": 2
       }
     ]
   }
