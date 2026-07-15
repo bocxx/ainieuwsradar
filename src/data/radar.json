@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-15T07:19:19.631084",
-  "total_tracked": 4701,
+  "generated_at": "2026-07-15T19:23:00.449118",
+  "total_tracked": 4799,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "claude code",
-      "mentions": 51,
-      "velocity": 6.0,
+      "mentions": 52,
+      "velocity": 6.3,
       "sources": [
         "articles",
         "hackernews",
@@ -28,8 +28,8 @@
     },
     {
       "keyword": "voice agent",
-      "mentions": 15,
-      "velocity": 2.9,
+      "mentions": 17,
+      "velocity": 3.5,
       "sources": [
         "articles",
         "hackernews"
@@ -37,7 +37,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.37,
+      "expert_ratio": 0.36,
       "headline": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
       "articles": [
         {
@@ -70,16 +70,67 @@
       ]
     },
     {
-      "keyword": "github copilot",
-      "mentions": 17,
-      "velocity": 2.6,
+      "keyword": "langchain",
+      "mentions": 25,
+      "velocity": 2.8,
+      "sources": [
+        "github",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
+      "articles": [
+        {
+          "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
+          "url": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/",
+          "source": "NVIDIA Developer Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "microsoft",
+      "mentions": 16,
+      "velocity": 2.5,
       "sources": [
         "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.3,
+      "headline": "Microsoft frena Windows 11 su alcuni modelli di PC Dell",
+      "articles": [
+        {
+          "title": "Microsoft frena Windows 11 su alcuni modelli di PC Dell",
+          "url": "https://www.tomshw.it/hardware/windows-11-microsoft-ferma-l-ultimo-update-su-alcuni-pc-dell",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Microsoft cancels Patch Tuesday for some Dell users over surprise shutdowns, overheating devices",
+          "url": "https://www.theregister.com/os-platforms/2026/07/15/microsoft-cancels-patch-tuesday-for-some-dell-users-over-surprise-shutdowns-overheating-devices/5271691",
+          "source": "The Register - Security"
+        },
+        {
+          "title": "Account Microsoft violato e sospeso per sempre: migliaia di euro persi",
+          "url": "https://www.tomshw.it/hardware/account-microsoft-violato-e-sospeso-per-sempre-il-supporto-non-puo-recuperarlo",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "github copilot",
+      "mentions": 16,
+      "velocity": 2.3,
+      "sources": [
         "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
@@ -106,8 +157,8 @@
   "emerging": [
     {
       "keyword": "openai",
-      "mentions": 473,
-      "velocity": 19.6,
+      "mentions": 433,
+      "velocity": 7.6,
       "sources": [
         "articles",
         "arxiv",
@@ -120,29 +171,29 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.79,
-      "headline": "Sources: OpenAI researcher Miles Wang is leaving the company to launch an AI drug discovery startup, and is in talks to ",
+      "headline": "OpenAI’s fight with Apple is really about Silicon Valley’s war for talent",
       "articles": [
         {
-          "title": "Sources: OpenAI researcher Miles Wang is leaving the company to launch an AI drug discovery startup, and is in talks to ",
-          "url": "https://www.techmeme.com/260714/p58#a260714p58",
+          "title": "OpenAI’s fight with Apple is really about Silicon Valley’s war for talent",
+          "url": "https://www.fastcompany.com/91574223/openais-fight-with-apple-is-really-about-silicon-valleys-war-for-talent?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07152026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "OpenAI’s fight with Apple is really about Silicon Valley’s war for talent",
+          "url": "https://www.fastcompany.com/91574223/openais-fight-with-apple-is-really-about-silicon-valleys-war-for-talent",
+          "source": "Fast Company"
+        },
+        {
+          "title": "How Anthropic is pursuing a state-by-state push for ever-tougher AI safety laws, in contrast with OpenAI's \"reverse fede",
+          "url": "https://www.techmeme.com/260715/p26#a260715p26",
           "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
-          "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "OpenAI hides Codex agent instructions behind encryption, leaving developers in the dark",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/15/openai-hides-codex-agent-instructions-behind-encryption-leaving-developers-in-the-dark/5271484",
-          "source": "The Register"
         }
       ]
     },
     {
-      "keyword": "gemini",
-      "mentions": 155,
-      "velocity": 4.3,
+      "keyword": "copilot",
+      "mentions": 52,
+      "velocity": 3.1,
       "sources": [
         "articles",
         "arxiv",
@@ -154,94 +205,91 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "Book publishers sue Google for copyright infringement over Gemini AI training",
+      "expert_ratio": 0.62,
+      "headline": "Commenting with Copilot: A Taxonomy and Multi-Year Analysis of Student Code-Generation Specifications",
       "articles": [
         {
-          "title": "Book publishers sue Google for copyright infringement over Gemini AI training",
-          "url": "https://www.theguardian.com/books/2026/jul/14/publishers-sue-google-gemini-ai-training",
-          "source": "Artificial intelligence (AI) | The Guardian"
+          "title": "Commenting with Copilot: A Taxonomy and Multi-Year Analysis of Student Code-Generation Specifications",
+          "url": "https://arxiv.org/abs/2607.10674",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Prepare for Customer Calls with Google Gemini",
-          "url": "https://www.theinformation.com/articles/prepare-customer-calls-google-gemini",
-          "source": "The Information"
+          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+          "url": "https://arxiv.org/abs/2607.01418",
+          "source": "Hacker News"
         },
         {
-          "title": "'The bots are alive!' Jailbroken Gemini spun up new C2 server for Russian fraudster in just 6 minutes",
-          "url": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 74,
-      "velocity": 3.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "Quote of the day by Linux creator Linus Torvalds: 'Nvidia has been the single worst company we've ever dealt with' — air",
-      "articles": [
-        {
-          "title": "Quote of the day by Linux creator Linus Torvalds: 'Nvidia has been the single worst company we've ever dealt with' — air",
-          "url": "https://www.techradar.com/pro/quote-of-the-day-by-linux-creator-linus-torvalds-nvidia-has-been-the-single-worst-company-weve-ever-dealt-with-airing-frustrations-at-walled-gardens",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "US gov't allows Chinese telecom giant ZTE to purchase Nvidia H200 AI chips — firm joins Alibaba, Tencent, and ByteDance ",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-allows-chinese-telecom-giant-zte-to-purchase-nvidia-h200-ai-chips-firm-joins-alibaba-tencent-and-bytedance-in-access-to-hopper-tech",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China",
-          "url": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html?utm_source=flipboard&utm_content=CNBC/magazine/Top+News",
+          "title": "Windows questions? How Copilot can analyze your PC settings now",
+          "url": "https://www.zdnet.com/article/microsoft-copilot-analyze-windows/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
           "source": "Artificial Intelligence"
         }
       ]
     },
     {
-      "keyword": "reinforcement learning",
-      "mentions": 91,
-      "velocity": 2.6,
+      "keyword": "data centers",
+      "mentions": 40,
+      "velocity": 2.8,
       "sources": [
         "articles",
-        "arxiv",
-        "linkedin"
+        "hackernews",
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "The father of reinforcement learning is leaving Carmack to build his own AI",
+      "expert_ratio": 0.54,
+      "headline": "Australia to Impose Energy and Water Guardrails on Data Centers Amid A.I. Boom",
       "articles": [
         {
-          "title": "The father of reinforcement learning is leaving Carmack to build his own AI",
-          "url": "https://thenextweb.com/news/richard-sutton-oak-lab-reinforcement-learning",
-          "source": "The Next Web"
+          "title": "Australia to Impose Energy and Water Guardrails on Data Centers Amid A.I. Boom",
+          "url": "https://www.nytimes.com/2026/07/15/world/australia/albanese-artificial-intelligence-guardrails.html",
+          "source": "Artificial Intelligence Special Report"
         },
         {
-          "title": "Distributionally Robust Reinforcement Learning with Interactive Data Collection: Fundamental Hardness and Near-Optimal A",
-          "url": "https://arxiv.org/abs/2404.03578",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "How hard is it to build orbital data centers, actually?",
+          "url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/",
+          "source": "Ars Technica"
         },
         {
-          "title": "Active Offline-to-Online Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.11720",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "AI advocates fear New York's moratorium on new data centers could embolden Democrats to enact more state restrictions an",
+          "url": "https://www.techmeme.com/260715/p16#a260715p16",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "explainability",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Pr",
+      "articles": [
+        {
+          "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Pr",
+          "url": "https://arxiv.org/abs/2607.11771",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Towards the Explainability of Temporal Graph Networks via Memory Backtracking and Topological Attribution",
+          "url": "https://arxiv.org/abs/2607.07716",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ReMoDEx: A Local-to-Global Relevance-Based Model Decision Explainability Framework for large-Scale Image Datasets",
+          "url": "https://arxiv.org/abs/2607.06889",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
     {
       "keyword": "user",
       "mentions": 2,
@@ -253,22 +301,22 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "'The future is now' — PS5 user locked out of Ghost of Yotei due to license verification, and this is why Sony's all-digi",
+      "headline": "EU lets wearables wriggle out of user-replaceable battery rules",
       "articles": [
+        {
+          "title": "EU lets wearables wriggle out of user-replaceable battery rules",
+          "url": "https://www.theregister.com/personal-tech/2026/07/15/eu-lets-wearables-wriggle-out-of-user-replaceable-battery-rules/5271641",
+          "source": "The Register"
+        },
+        {
+          "title": "Toward Metaphor-Fluid Conversation Design for Voice User Interfaces",
+          "url": "https://arxiv.org/abs/2502.11554",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "'The future is now' — PS5 user locked out of Ghost of Yotei due to license verification, and this is why Sony's all-digi",
           "url": "https://www.techradar.com/gaming/the-future-is-now-ps5-user-locked-out-of-ghost-of-yotei-due-to-license-verification-and-this-is-why-sonys-all-digital-future-plans-must-end",
           "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Canva launches Code 2.0, offering AI website building to every user — including free accounts",
-          "url": "https://venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts?utm_source=flipboard&utm_content=topic/startup",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Researcher: SpaceXAI's Grok Build CLI uploaded user repos to a Google Cloud Storage bucket; uploads have now stopped and",
-          "url": "https://www.techmeme.com/260714/p24#a260714p24",
-          "source": "Techmeme"
         }
       ]
     },
@@ -382,7 +430,7 @@
       ]
     },
     {
-      "keyword": "content",
+      "keyword": "game development",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -392,22 +440,12 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Apple TV streaming service: Prices, plans, and content (2026)",
+      "headline": "GameDevBench: Evaluating Agentic Capabilities Through Game Development",
       "articles": [
         {
-          "title": "Apple TV streaming service: Prices, plans, and content (2026)",
-          "url": "https://www.businessinsider.com/guides/streaming/apple-tv-streaming-service",
-          "source": "Business Insider"
-        },
-        {
-          "title": "ESPN streaming service: Price, plans, and content in the new direct-to-consumer streamer",
-          "url": "https://www.businessinsider.com/guides/streaming/espn-streaming-service",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Black Ops 7 Season 5 has been fully revealed, with the next Call of Duty update bringing a raft of fresh content",
-          "url": "https://www.techradar.com/gaming/black-ops-7-season-5-has-been-fully-revealed-with-the-next-call-of-duty-update-bringing-a-raft-of-fresh-content",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "GameDevBench: Evaluating Agentic Capabilities Through Game Development",
+          "url": "https://arxiv.org/abs/2602.11103",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -426,55 +464,88 @@
       "articles": []
     },
     {
-      "keyword": "browser-use",
-      "mentions": 3,
-      "velocity": 0.8,
+      "keyword": "content",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "localai",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Promp",
+      "articles": [
+        {
+          "title": "Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Promp",
+          "url": "https://arxiv.org/abs/2607.12962",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "RCWT: Measuring Task-Budget Displacement from Coordination Content in LLM Calls",
+          "url": "https://arxiv.org/abs/2607.12216",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Australia demands AI companies must produce more energy than they consume, stop ‘theft’ of content",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/15/australia-demands-ai-companies-must-produce-more-energy-than-they-consume-stop-theft-of-content/5271535",
+          "source": "The Register"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "whisper",
-      "mentions": 11,
+      "keyword": "cohere",
+      "mentions": 37,
       "velocity": 1.6,
       "sources": [
-        "articles",
         "arxiv",
-        "hackernews"
+        "hackernews",
+        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.63,
+      "expert_ratio": 0.89,
       "headline": "",
       "articles": []
     },
     {
+      "keyword": "perplexity",
+      "mentions": 23,
+      "velocity": 1.6,
+      "sources": [
+        "github",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.58,
+      "headline": "Perplexity is quietly building an AI coding tool to rival Cursor and Claude Code",
+      "articles": [
+        {
+          "title": "Perplexity is quietly building an AI coding tool to rival Cursor and Claude Code",
+          "url": "https://thenextweb.com/news/perplexity-teammate-ai-coding-tool-cursor-claude-code",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Perplexity signs up for Nvidia’s Vera CPU as the chipmaker pushes past AI accelerators",
+          "url": "https://thenextweb.com/news/perplexity-nvidia-vera-cpu",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Perplexity is quietly building an AI coding tool to take on Cursor and Claude Code",
+          "url": "https://www.businessinsider.com/perplexity-building-ai-coding-tool-take-on-cursor-and-openai-2026-7",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
       "keyword": "grok",
-      "mentions": 102,
-      "velocity": 1.1,
+      "mentions": 103,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
@@ -507,16 +578,17 @@
     },
     {
       "keyword": "prompt engineering",
-      "mentions": 25,
-      "velocity": 1.1,
+      "mentions": 26,
+      "velocity": 1.4,
       "sources": [
+        "articles",
         "arxiv",
         "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.92,
+      "expert_ratio": 0.91,
       "headline": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
       "articles": [
         {
@@ -527,30 +599,29 @@
       ]
     },
     {
-      "keyword": "data center",
-      "mentions": 57,
+      "keyword": "voice ai",
+      "mentions": 13,
       "velocity": 1.1,
       "sources": [
         "articles",
         "hackernews",
-        "linkedin",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Sources: multiple GOP governors and large utilities are expected to join Trump's pledge for data center developers to co",
+      "expert_ratio": 0.83,
+      "headline": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
       "articles": [
         {
-          "title": "Sources: multiple GOP governors and large utilities are expected to join Trump's pledge for data center developers to co",
-          "url": "https://www.techmeme.com/260714/p56#a260714p56",
-          "source": "Techmeme"
+          "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+          "url": "https://huggingface.co/blog/real-world-voiceeq",
+          "source": "Hugging Face Blog"
         },
         {
-          "title": "Data Centers to Add Billions in Power Costs in 13 States",
-          "url": "https://www.nytimes.com/2026/07/14/business/energy-environment/pjm-electricity-prices-data-centers.html",
-          "source": "NYT ＞ Technology"
+          "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+          "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+          "source": "Hugging Face Blog"
         }
       ]
     },
@@ -582,30 +653,6 @@
           "title": "Google DeepMind's Demis Hassabis is pushing for a U.S.-led AI watchdog",
           "url": "https://qz.com/google-deepmind-demis-hassabis-ai-standards-body-finra-071426",
           "source": "Quartz"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 228,
-      "velocity": 0.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "OpenAI may announce a ChatGPT smart speaker this year",
-      "articles": [
-        {
-          "title": "OpenAI may announce a ChatGPT smart speaker this year",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-          "source": "The Verge -  All Posts"
         }
       ]
     }
@@ -691,22 +738,28 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
       "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-15",
+        "confidence": 1.0
+      },
       {
         "keyword": "glean",
         "signal_type": "emerging",
@@ -726,13 +779,13 @@
         "confidence": 0.8
       },
       {
-        "keyword": "gpt-5",
+        "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-07-11",
         "confidence": 1.0
       },
       {
-        "keyword": "deepseek",
+        "keyword": "gpt-5",
         "signal_type": "emerging",
         "flagged_on": "2026-07-11",
         "confidence": 1.0
@@ -756,22 +809,16 @@
         "confidence": 0.6
       },
       {
-        "keyword": "voicebox",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-10",
-        "confidence": 0.2
-      },
-      {
         "keyword": "ai copyright",
         "signal_type": "weak_signal",
         "flagged_on": "2026-07-10",
         "confidence": 0.2
       },
       {
-        "keyword": "nvidia",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-09",
-        "confidence": 1.0
+        "keyword": "voicebox",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-10",
+        "confidence": 0.2
       },
       {
         "keyword": "openai",
@@ -782,6 +829,13 @@
     ],
     "heating_up": [
       {
+        "keyword": "suno",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "gemini 2",
         "recent_mentions": 24,
         "prior_mentions": 3,
@@ -789,24 +843,10 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "suno",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "ai chips",
-        "recent_mentions": 17,
-        "prior_mentions": 5,
-        "change_ratio": 3.4,
-        "corroborating_sources": 4
-      },
-      {
         "keyword": "voice agent",
-        "recent_mentions": 33,
+        "recent_mentions": 35,
         "prior_mentions": 10,
-        "change_ratio": 3.3,
+        "change_ratio": 3.5,
         "corroborating_sources": 3
       },
       {
@@ -817,11 +857,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "chain of thought",
-        "recent_mentions": 10,
+        "keyword": "ai chips",
+        "recent_mentions": 15,
+        "prior_mentions": 5,
+        "change_ratio": 3.0,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "on-device ai",
+        "recent_mentions": 11,
         "prior_mentions": 4,
-        "change_ratio": 2.5,
-        "corroborating_sources": 3
+        "change_ratio": 2.75,
+        "corroborating_sources": 2
       },
       {
         "keyword": "codex cli",
@@ -831,16 +878,16 @@
         "corroborating_sources": 2
       },
       {
+        "keyword": "chain of thought",
+        "recent_mentions": 10,
+        "prior_mentions": 4,
+        "change_ratio": 2.5,
+        "corroborating_sources": 3
+      },
+      {
         "keyword": "chatgpt atlas",
         "recent_mentions": 5,
         "prior_mentions": 2,
-        "change_ratio": 2.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "on-device ai",
-        "recent_mentions": 10,
-        "prior_mentions": 4,
         "change_ratio": 2.5,
         "corroborating_sources": 1
       },
@@ -852,17 +899,17 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "open-source ai",
-        "recent_mentions": 23,
-        "prior_mentions": 10,
-        "change_ratio": 2.3,
-        "corroborating_sources": 3
-      },
-      {
         "keyword": "qlora",
         "recent_mentions": 17,
         "prior_mentions": 8,
         "change_ratio": 2.12,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "embodied ai",
+        "recent_mentions": 12,
+        "prior_mentions": 6,
+        "change_ratio": 2.0,
         "corroborating_sources": 2
       }
     ]

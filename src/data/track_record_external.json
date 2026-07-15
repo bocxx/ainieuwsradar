@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T05:41:02+00:00",
+  "generated_at": "2026-07-15T17:40:28+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -64,17 +64,17 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
+      "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
       "lead_days": 4
     }
   ],
@@ -84,21 +84,21 @@
     "Nog geen nul-model/controlegroep: de dekking is nog niet tegen toeval afgezet."
   ],
   "null_model": {
-    "n": 32,
+    "n": 34,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.719,
-      "early_rate": 0.281
+      "coverage_rate": 0.706,
+      "early_rate": 0.265
     },
     "null_mean": {
-      "coverage_rate": 0.716,
-      "early_rate": 0.3
+      "coverage_rate": 0.711,
+      "early_rate": 0.292
     },
     "p_value": {
-      "coverage_rate": 0.703,
-      "early_rate": 0.764
+      "coverage_rate": 0.776,
+      "early_rate": 0.781
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
