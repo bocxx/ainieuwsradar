@@ -1,199 +1,113 @@
 {
-  "generated_at": "2026-07-15T19:23:00.449118",
-  "total_tracked": 4799,
+  "generated_at": "2026-07-16T07:16:50.405499",
+  "total_tracked": 4681,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "claude code",
-      "mentions": 52,
-      "velocity": 6.3,
+      "keyword": "agentic",
+      "mentions": 266,
+      "velocity": 38.4,
       "sources": [
         "articles",
+        "arxiv",
+        "github",
         "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "expert_ratio": 0.8,
+      "headline": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
       "articles": [
         {
-          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
-          "url": "https://arxiv.org/abs/2607.01418",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "voice agent",
-      "mentions": 17,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.36,
-      "headline": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
-      "articles": [
+          "title": "An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory",
+          "url": "https://arxiv.org/abs/2607.11707",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
-          "title": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
-          "url": "https://arxiv.org/abs/2607.07985",
+          "title": "ECHO: Prune To Act, Trace To Learn With Selective Turn Memory In Agentic RL",
+          "url": "https://arxiv.org/abs/2606.31650",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "From Reward-Hack Activations to Agentic Risk States: Context-Calibrated Mechanistic Monitoring in LLM Agents",
+          "url": "https://arxiv.org/abs/2606.06223",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "claude opus",
-      "mentions": 23,
-      "velocity": 2.8,
-      "sources": [
-        "arxiv",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "Claude Opus 4.8 and Sonnet 5 seem worse at tool calls than older models, likely due to post-training that assumes Claude",
-      "articles": [
-        {
-          "title": "Claude Opus 4.8 and Sonnet 5 seem worse at tool calls than older models, likely due to post-training that assumes Claude",
-          "url": "https://www.techmeme.com/260706/p4#a260706p4",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "langchain",
-      "mentions": 25,
-      "velocity": 2.8,
-      "sources": [
-        "github",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
-      "articles": [
-        {
-          "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
-          "url": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/",
-          "source": "NVIDIA Developer Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "microsoft",
-      "mentions": 16,
-      "velocity": 2.5,
+      "keyword": "reinforcement learning",
+      "mentions": 171,
+      "velocity": 26.2,
       "sources": [
         "articles",
+        "arxiv",
         "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.3,
-      "headline": "Microsoft frena Windows 11 su alcuni modelli di PC Dell",
-      "articles": [
-        {
-          "title": "Microsoft frena Windows 11 su alcuni modelli di PC Dell",
-          "url": "https://www.tomshw.it/hardware/windows-11-microsoft-ferma-l-ultimo-update-su-alcuni-pc-dell",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Microsoft cancels Patch Tuesday for some Dell users over surprise shutdowns, overheating devices",
-          "url": "https://www.theregister.com/os-platforms/2026/07/15/microsoft-cancels-patch-tuesday-for-some-dell-users-over-surprise-shutdowns-overheating-devices/5271691",
-          "source": "The Register - Security"
-        },
-        {
-          "title": "Account Microsoft violato e sospeso per sempre: migliaia di euro persi",
-          "url": "https://www.tomshw.it/hardware/account-microsoft-violato-e-sospeso-per-sempre-il-supporto-non-puo-recuperarlo",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "github copilot",
-      "mentions": 16,
-      "velocity": 2.3,
-      "sources": [
-        "hackernews",
-        "linkedin",
-        "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "expert_ratio": 0.99,
+      "headline": "LLM-Guided Reinforcement Learning for Audio-Visual Speech Enhancement",
       "articles": [
         {
-          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
-          "url": "https://arxiv.org/abs/2607.01418",
-          "source": "Hacker News"
+          "title": "LLM-Guided Reinforcement Learning for Audio-Visual Speech Enhancement",
+          "url": "https://arxiv.org/abs/2603.13952",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Researchers broke GitHub Copilot’s safety by hiding harm in a workflow",
-          "url": "https://thenextweb.com/news/github-copilot-workflow-jailbreak-alan-turing-institute",
-          "source": "The Next Web"
+          "title": "Knowledge- and Gradient-Guided Reinforcement Learning for Parametrized Action Markov Decision Processes",
+          "url": "https://arxiv.org/abs/2607.12924",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "GitHub Copilot: Sorry Dave, I can't do that harmful thing - unless you ask me in code",
-          "url": "https://www.theregister.com/security/2026/07/08/github-copilot-sorry-dave-i-cant-do-that-harmful-thing-unless-you-ask-me-in-code/5268654",
-          "source": "The Register"
+          "title": "SteinGate: Tail-Sensitive Safe Reinforcement Learning via Stein Discrepancy",
+          "url": "https://arxiv.org/abs/2607.13175",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 122,
+      "velocity": 16.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "Evolution Strategies at Scale: LLM Fine-Tuning Beyond Reinforcement Learning",
+      "articles": [
+        {
+          "title": "Evolution Strategies at Scale: LLM Fine-Tuning Beyond Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2509.24372",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Continual Learning with Elastic Regularization and Synthetic Replay for Federated MLLM Fine-Tuning",
+          "url": "https://arxiv.org/abs/2607.12112",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Multi-Agent System for Autonomous, Fine-Tuning-Free Clinical Symptom Detection: Development and Validation Study",
+          "url": "https://arxiv.org/abs/2607.12886",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "openai",
-      "mentions": 433,
-      "velocity": 7.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "OpenAI’s fight with Apple is really about Silicon Valley’s war for talent",
-      "articles": [
-        {
-          "title": "OpenAI’s fight with Apple is really about Silicon Valley’s war for talent",
-          "url": "https://www.fastcompany.com/91574223/openais-fight-with-apple-is-really-about-silicon-valleys-war-for-talent?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07152026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "OpenAI’s fight with Apple is really about Silicon Valley’s war for talent",
-          "url": "https://www.fastcompany.com/91574223/openais-fight-with-apple-is-really-about-silicon-valleys-war-for-talent",
-          "source": "Fast Company"
-        },
-        {
-          "title": "How Anthropic is pursuing a state-by-state push for ever-tougher AI safety laws, in contrast with OpenAI's \"reverse fede",
-          "url": "https://www.techmeme.com/260715/p26#a260715p26",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
       "keyword": "copilot",
-      "mentions": 52,
-      "velocity": 3.1,
+      "mentions": 58,
+      "velocity": 4.0,
       "sources": [
         "articles",
         "arxiv",
@@ -205,9 +119,14 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.62,
-      "headline": "Commenting with Copilot: A Taxonomy and Multi-Year Analysis of Student Code-Generation Specifications",
+      "expert_ratio": 0.65,
+      "headline": "Top AI tools such as OpenClaw and Github Copilot can be hijacked to create new massive botnets",
       "articles": [
+        {
+          "title": "Top AI tools such as OpenClaw and Github Copilot can be hijacked to create new massive botnets",
+          "url": "https://www.techradar.com/pro/security/top-ai-tools-such-as-openclaw-and-github-copilot-can-be-hijacked-to-create-new-massive-botnets",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
         {
           "title": "Commenting with Copilot: A Taxonomy and Multi-Year Analysis of Student Code-Generation Specifications",
           "url": "https://arxiv.org/abs/2607.10674",
@@ -217,18 +136,13 @@
           "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
           "url": "https://arxiv.org/abs/2607.01418",
           "source": "Hacker News"
-        },
-        {
-          "title": "Windows questions? How Copilot can analyze your PC settings now",
-          "url": "https://www.zdnet.com/article/microsoft-copilot-analyze-windows/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
-          "source": "Artificial Intelligence"
         }
       ]
     },
     {
-      "keyword": "data centers",
-      "mentions": 40,
-      "velocity": 2.8,
+      "keyword": "claude code",
+      "mentions": 48,
+      "velocity": 3.2,
       "sources": [
         "articles",
         "hackernews",
@@ -238,88 +152,12 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "Australia to Impose Energy and Water Guardrails on Data Centers Amid A.I. Boom",
-      "articles": [
-        {
-          "title": "Australia to Impose Energy and Water Guardrails on Data Centers Amid A.I. Boom",
-          "url": "https://www.nytimes.com/2026/07/15/world/australia/albanese-artificial-intelligence-guardrails.html",
-          "source": "Artificial Intelligence Special Report"
-        },
-        {
-          "title": "How hard is it to build orbital data centers, actually?",
-          "url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/",
-          "source": "Ars Technica"
-        },
-        {
-          "title": "AI advocates fear New York's moratorium on new data centers could embolden Democrats to enact more state restrictions an",
-          "url": "https://www.techmeme.com/260715/p16#a260715p16",
-          "source": "Techmeme"
-        }
-      ]
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "explainability",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Pr",
-      "articles": [
-        {
-          "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Pr",
-          "url": "https://arxiv.org/abs/2607.11771",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Towards the Explainability of Temporal Graph Networks via Memory Backtracking and Topological Attribution",
-          "url": "https://arxiv.org/abs/2607.07716",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ReMoDEx: A Local-to-Global Relevance-Based Model Decision Explainability Framework for large-Scale Image Datasets",
-          "url": "https://arxiv.org/abs/2607.06889",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "user",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "EU lets wearables wriggle out of user-replaceable battery rules",
-      "articles": [
-        {
-          "title": "EU lets wearables wriggle out of user-replaceable battery rules",
-          "url": "https://www.theregister.com/personal-tech/2026/07/15/eu-lets-wearables-wriggle-out-of-user-replaceable-battery-rules/5271641",
-          "source": "The Register"
-        },
-        {
-          "title": "Toward Metaphor-Fluid Conversation Design for Voice User Interfaces",
-          "url": "https://arxiv.org/abs/2502.11554",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "'The future is now' — PS5 user locked out of Ghost of Yotei due to license verification, and this is why Sony's all-digi",
-          "url": "https://www.techradar.com/gaming/the-future-is-now-ps5-user-locked-out-of-ghost-of-yotei-due-to-license-verification-and-this-is-why-sonys-all-digital-future-plans-must-end",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
     {
       "keyword": "pixverse",
       "mentions": 2,
@@ -370,12 +208,77 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Apple Gets Rare Bear Rating as KeyBanc Downgrades on Demand Risk",
+      "headline": "Salesforce's Agentforce isn't winning over clients, KeyBanc analysts claim",
       "articles": [
+        {
+          "title": "Salesforce's Agentforce isn't winning over clients, KeyBanc analysts claim",
+          "url": "https://www.theregister.com/saas/2026/07/15/salesforces-agentforce-isnt-winning-over-clients-keybanc-analysts-claim/5271866",
+          "source": "The Register"
+        },
         {
           "title": "Apple Gets Rare Bear Rating as KeyBanc Downgrades on Demand Risk",
           "url": "https://www.bloomberg.com/news/articles/2026-07-14/apple-gets-rare-bear-rating-as-keybanc-downgrades-on-demand-risk",
           "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "user",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Robust Explanations for User Trust in Enterprise NLP Systems",
+      "articles": [
+        {
+          "title": "Robust Explanations for User Trust in Enterprise NLP Systems",
+          "url": "https://arxiv.org/abs/2604.12069",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "How Agents Ask for Permission: User Permissions for AI Agents, from Interfaces to Enforcement",
+          "url": "https://arxiv.org/abs/2607.13718",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SpaceXAI open-sources Grok Build under an Apache 2.0 license after the tool had uploaded user repositories to a Google C",
+          "url": "https://www.techmeme.com/260715/p52#a260715p52",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "content",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Judge: Trump can’t deport researchers just for working in content moderation",
+      "articles": [
+        {
+          "title": "Judge: Trump can’t deport researchers just for working in content moderation",
+          "url": "https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/",
+          "source": "Ars Technica"
+        },
+        {
+          "title": "RCWT: Measuring Task-Budget Displacement from Coordination Content in LLM Calls",
+          "url": "https://arxiv.org/abs/2607.12216",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Promp",
+          "url": "https://arxiv.org/abs/2607.12962",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -410,8 +313,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation",
+      "headline": "Judge: Trump can’t deport researchers just for working in content moderation",
       "articles": [
+        {
+          "title": "Judge: Trump can’t deport researchers just for working in content moderation",
+          "url": "https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/",
+          "source": "Ars Technica"
+        },
         {
           "title": "Tool-MCoT: Tool Augmented Multimodal Chain-of-Thought for Content Safety Moderation",
           "url": "https://arxiv.org/abs/2604.06205",
@@ -421,31 +329,6 @@
           "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
           "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
           "source": "TechCrunch"
-        },
-        {
-          "title": "Reddit says its AI-powered content moderation systems caught 25K \"spammy posts and comments\" per day in Q1, reducing use",
-          "url": "https://www.techmeme.com/260706/p18#a260706p18",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "game development",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "GameDevBench: Evaluating Agentic Capabilities Through Game Development",
-      "articles": [
-        {
-          "title": "GameDevBench: Evaluating Agentic Capabilities Through Game Development",
-          "url": "https://arxiv.org/abs/2602.11103",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -464,7 +347,7 @@
       "articles": []
     },
     {
-      "keyword": "content",
+      "keyword": "fake",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -474,46 +357,65 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Promp",
+      "headline": "Traceback Translators Against Forgetting in Continual Fake Speech Detection",
       "articles": [
         {
-          "title": "Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Promp",
-          "url": "https://arxiv.org/abs/2607.12962",
+          "title": "Traceback Translators Against Forgetting in Continual Fake Speech Detection",
+          "url": "https://arxiv.org/abs/2607.12569",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "deepfakes",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "xAI sues a man for using Grok to generate CSAM ‘deepfakes’",
+      "articles": [
+        {
+          "title": "xAI sues a man for using Grok to generate CSAM ‘deepfakes’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+          "source": "The Verge -  All Posts"
         },
         {
-          "title": "RCWT: Measuring Task-Budget Displacement from Coordination Content in LLM Calls",
-          "url": "https://arxiv.org/abs/2607.12216",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "From typos to deepfakes: the new AI cybersecurity battleground",
+          "url": "https://www.techradar.com/pro/from-typos-to-deepfakes-the-new-ai-cybersecurity-battleground",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Australia demands AI companies must produce more energy than they consume, stop ‘theft’ of content",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/15/australia-demands-ai-companies-must-produce-more-energy-than-they-consume-stop-theft-of-content/5271535",
-          "source": "The Register"
+          "title": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+          "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+          "source": "The Verge -  All Posts"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "cohere",
-      "mentions": 37,
-      "velocity": 1.6,
+      "keyword": "cline",
+      "mentions": 16,
+      "velocity": 2.0,
       "sources": [
+        "articles",
         "arxiv",
-        "hackernews",
-        "linkedin"
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
+      "expert_ratio": 0.44,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "perplexity",
-      "mentions": 23,
+      "keyword": "langchain",
+      "mentions": 24,
       "velocity": 1.6,
       "sources": [
         "github",
@@ -522,64 +424,53 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.58,
-      "headline": "Perplexity is quietly building an AI coding tool to rival Cursor and Claude Code",
+      "expert_ratio": 0.86,
+      "headline": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
       "articles": [
         {
-          "title": "Perplexity is quietly building an AI coding tool to rival Cursor and Claude Code",
-          "url": "https://thenextweb.com/news/perplexity-teammate-ai-coding-tool-cursor-claude-code",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Perplexity signs up for Nvidia’s Vera CPU as the chipmaker pushes past AI accelerators",
-          "url": "https://thenextweb.com/news/perplexity-nvidia-vera-cpu",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Perplexity is quietly building an AI coding tool to take on Cursor and Claude Code",
-          "url": "https://www.businessinsider.com/perplexity-building-ai-coding-tool-take-on-cursor-and-openai-2026-7",
-          "source": "Business Insider"
+          "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
+          "url": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/",
+          "source": "NVIDIA Developer Blog"
         }
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 103,
+      "keyword": "ai act",
+      "mentions": 16,
       "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Grok Build was uploading entire Git repositories to xAI’s cloud, including committed secrets",
+      "expert_ratio": 0.71,
+      "headline": "What problems would an AI speaker from OpenAI actually solve?",
       "articles": [
         {
-          "title": "Grok Build was uploading entire Git repositories to xAI’s cloud, including committed secrets",
-          "url": "https://thenextweb.com/news/grok-build-uploaded-entire-git-repositories-secrets",
-          "source": "The Next Web"
+          "title": "What problems would an AI speaker from OpenAI actually solve?",
+          "url": "https://www.computerworld.com/article/4197338/what-problems-would-an-ai-speaker-from-openai-actually-solve.html",
+          "source": "Artificial Intelligence – Computerworld"
         },
         {
-          "title": "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "Vertical Standardisation for High-Risk AI Systems under the EU AI Act: A Domain-Specific Framework for Algorithmic Hirin",
+          "url": "https://arxiv.org/abs/2607.12588",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Researcher: SpaceXAI's Grok Build CLI uploaded user repos to a Google Cloud Storage bucket; uploads have now stopped and",
-          "url": "https://www.techmeme.com/260714/p24#a260714p24",
-          "source": "Techmeme"
+          "title": "The EU AI Act deadline has moved, but data lineage can’t wait",
+          "url": "https://www.techradar.com/pro/the-eu-ai-act-deadline-has-moved-but-data-lineage-cant-wait",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 26,
-      "velocity": 1.4,
+      "keyword": "huggingface",
+      "mentions": 11,
+      "velocity": 1.2,
       "sources": [
         "articles",
         "arxiv",
@@ -588,85 +479,86 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
+      "expert_ratio": 0.84,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "code generation",
+      "mentions": 13,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "1D-Bench: A Benchmark for Iterative UI Code Generation with Visual Feedback in Real-World",
       "articles": [
         {
-          "title": "Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development",
-          "url": "https://arxiv.org/abs/2607.06074",
+          "title": "1D-Bench: A Benchmark for Iterative UI Code Generation with Visual Feedback in Real-World",
+          "url": "https://arxiv.org/abs/2602.18548",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "TENET: One Step Toward Test-Driven Development for Repository-Level Code Generation",
+          "url": "https://arxiv.org/abs/2509.24148",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "BackendForge: Benchmarking Agentic End-to-End Code Generation with Backend Services",
+          "url": "https://arxiv.org/abs/2607.11042",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "voice ai",
-      "mentions": 13,
-      "velocity": 1.1,
+      "keyword": "data center",
+      "mentions": 57,
+      "velocity": 0.8,
       "sources": [
         "articles",
         "hackernews",
-        "linkedin"
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "articles": [
-        {
-          "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-          "url": "https://huggingface.co/blog/real-world-voiceeq",
-          "source": "Hugging Face Blog"
-        },
-        {
-          "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-          "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-          "source": "Hugging Face Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "deepmind",
-      "mentions": 11,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.55,
-      "headline": "Google DeepMind’s Demis Hassabis Calls for New U.S.-Led AI Standards Body",
+      "headline": "AI execs are bolstering personal security amid rising AI opposition; Liferaft: digital threats against execs and data ce",
       "articles": [
         {
-          "title": "Google DeepMind’s Demis Hassabis Calls for New U.S.-Led AI Standards Body",
-          "url": "https://www.theinformation.com/briefings/google-deepminds-demis-hassabis-calls-new-u-s-led-ai-standards-body",
-          "source": "The Information"
+          "title": "AI execs are bolstering personal security amid rising AI opposition; Liferaft: digital threats against execs and data ce",
+          "url": "https://www.techmeme.com/260715/p54#a260715p54",
+          "source": "Techmeme"
         },
         {
-          "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
-          "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
-          "source": "TechCrunch"
+          "title": "Palm Beach Strikes Down Data Center Plan After Local Backlash",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-16/palm-beach-strikes-down-data-center-plan-after-local-backlash",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Google DeepMind's Demis Hassabis is pushing for a U.S.-led AI watchdog",
-          "url": "https://qz.com/google-deepmind-demis-hassabis-ai-standards-body-finra-071426",
-          "source": "Quartz"
+          "title": "Kevin O'Leary and Fox News sued over claims that data center critics had China ties",
+          "url": "https://www.businessinsider.com/kevin-oleary-fox-news-sued-ccp-data-center-critics-stratos-2026-07",
+          "source": "All Content from Business Insider"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 34,
+    "scored_predictions": 35,
     "covered": 23,
-    "coverage_rate": 0.676,
+    "coverage_rate": 0.657,
     "early": 9,
-    "early_rate": 0.265,
+    "early_rate": 0.257,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.676,
+    "hit_rate": 0.657,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
@@ -678,33 +570,33 @@
         "hit_rate": 0.909
       },
       "weak_signal": {
-        "scored": 12,
+        "scored": 13,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.25,
-        "early_rate": 0.167,
-        "hit_rate": 0.25
+        "coverage_rate": 0.231,
+        "early_rate": 0.154,
+        "hit_rate": 0.231
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 34,
+    "n": 35,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.706,
-      "early_rate": 0.265
+      "coverage_rate": 0.686,
+      "early_rate": 0.257
     },
     "null_mean": {
-      "coverage_rate": 0.711,
-      "early_rate": 0.292
+      "coverage_rate": 0.695,
+      "early_rate": 0.28
     },
     "p_value": {
-      "coverage_rate": 0.776,
-      "early_rate": 0.781
+      "coverage_rate": 0.824,
+      "early_rate": 0.774
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -738,22 +630,34 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
       "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "copilot",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-16",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "data centers",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-16",
+        "confidence": 0.8
+      },
       {
         "keyword": "gemini",
         "signal_type": "emerging",
@@ -779,13 +683,13 @@
         "confidence": 0.8
       },
       {
-        "keyword": "deepseek",
+        "keyword": "gpt-5",
         "signal_type": "emerging",
         "flagged_on": "2026-07-11",
         "confidence": 1.0
       },
       {
-        "keyword": "gpt-5",
+        "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-07-11",
         "confidence": 1.0
@@ -797,120 +701,108 @@
         "confidence": 0.2
       },
       {
-        "keyword": "together",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-10",
-        "confidence": 0.6
-      },
-      {
         "keyword": "qwen",
         "signal_type": "emerging",
         "flagged_on": "2026-07-10",
         "confidence": 0.6
       },
       {
-        "keyword": "ai copyright",
-        "signal_type": "weak_signal",
+        "keyword": "together",
+        "signal_type": "emerging",
         "flagged_on": "2026-07-10",
-        "confidence": 0.2
+        "confidence": 0.6
       },
       {
         "keyword": "voicebox",
         "signal_type": "weak_signal",
         "flagged_on": "2026-07-10",
         "confidence": 0.2
-      },
-      {
-        "keyword": "openai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-09",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "suno",
-        "recent_mentions": 8,
+        "keyword": "descript",
+        "recent_mentions": 5,
         "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "suno ai",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "context length",
+        "recent_mentions": 28,
+        "prior_mentions": 6,
+        "change_ratio": 4.67,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai chips",
+        "recent_mentions": 18,
+        "prior_mentions": 4,
+        "change_ratio": 4.5,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "suno",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "voice agent",
+        "recent_mentions": 45,
+        "prior_mentions": 11,
+        "change_ratio": 4.09,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "blackwell",
+        "recent_mentions": 22,
+        "prior_mentions": 6,
+        "change_ratio": 3.67,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "embodied ai",
+        "recent_mentions": 25,
+        "prior_mentions": 7,
+        "change_ratio": 3.57,
         "corroborating_sources": 2
       },
       {
         "keyword": "gemini 2",
-        "recent_mentions": 24,
-        "prior_mentions": 3,
-        "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "voice agent",
-        "recent_mentions": 35,
-        "prior_mentions": 10,
-        "change_ratio": 3.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "hermes agent",
-        "recent_mentions": 23,
-        "prior_mentions": 7,
-        "change_ratio": 3.29,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai chips",
-        "recent_mentions": 15,
-        "prior_mentions": 5,
-        "change_ratio": 3.0,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "on-device ai",
-        "recent_mentions": 11,
-        "prior_mentions": 4,
-        "change_ratio": 2.75,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "codex cli",
-        "recent_mentions": 5,
-        "prior_mentions": 2,
-        "change_ratio": 2.5,
+        "recent_mentions": 25,
+        "prior_mentions": 8,
+        "change_ratio": 3.12,
         "corroborating_sources": 2
       },
       {
         "keyword": "chain of thought",
-        "recent_mentions": 10,
+        "recent_mentions": 12,
         "prior_mentions": 4,
-        "change_ratio": 2.5,
+        "change_ratio": 3.0,
         "corroborating_sources": 3
       },
       {
-        "keyword": "chatgpt atlas",
-        "recent_mentions": 5,
-        "prior_mentions": 2,
-        "change_ratio": 2.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "openmontage",
-        "recent_mentions": 7,
-        "prior_mentions": 3,
-        "change_ratio": 2.33,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "qlora",
-        "recent_mentions": 17,
-        "prior_mentions": 8,
-        "change_ratio": 2.12,
+        "keyword": "tokenizer",
+        "recent_mentions": 27,
+        "prior_mentions": 11,
+        "change_ratio": 2.45,
         "corroborating_sources": 2
       },
       {
-        "keyword": "embodied ai",
-        "recent_mentions": 12,
-        "prior_mentions": 6,
-        "change_ratio": 2.0,
-        "corroborating_sources": 2
+        "keyword": "hermes agent",
+        "recent_mentions": 22,
+        "prior_mentions": 9,
+        "change_ratio": 2.44,
+        "corroborating_sources": 1
       }
     ]
   }
