@@ -1,29 +1,21 @@
 {
-  "generated_at": "2026-07-17T05:36:26+00:00",
+  "generated_at": "2026-07-18T05:33:54+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 36,
+    "scored_predictions": 37,
     "covered": 23,
-    "coverage_rate": 0.639,
+    "coverage_rate": 0.622,
     "early": 9,
-    "early_rate": 0.25,
+    "early_rate": 0.243,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.639,
+    "hit_rate": 0.622,
     "materialized": 23,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 14,
-        "covered": 3,
-        "early": 2,
-        "coverage_rate": 0.214,
-        "early_rate": 0.143,
-        "hit_rate": 0.214
-      },
       "emerging": {
         "scored": 22,
         "covered": 20,
@@ -31,6 +23,14 @@
         "coverage_rate": 0.909,
         "early_rate": 0.318,
         "hit_rate": 0.909
+      },
+      "weak_signal": {
+        "scored": 15,
+        "covered": 3,
+        "early": 2,
+        "coverage_rate": 0.2,
+        "early_rate": 0.133,
+        "hit_rate": 0.2
       }
     }
   },
@@ -64,17 +64,17 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
+      "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
       "lead_days": 4
     }
   ],
@@ -84,21 +84,21 @@
     "Nog geen nul-model/controlegroep: de dekking is nog niet tegen toeval afgezet."
   ],
   "null_model": {
-    "n": 35,
+    "n": 36,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.686,
-      "early_rate": 0.257
+      "coverage_rate": 0.667,
+      "early_rate": 0.25
     },
     "null_mean": {
-      "coverage_rate": 0.695,
-      "early_rate": 0.28
+      "coverage_rate": 0.678,
+      "early_rate": 0.272
     },
     "p_value": {
-      "coverage_rate": 0.824,
-      "early_rate": 0.774
+      "coverage_rate": 0.844,
+      "early_rate": 0.764
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
