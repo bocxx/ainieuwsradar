@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-18T19:19:53.247662",
-  "total_tracked": 4543,
+  "generated_at": "2026-07-19T07:17:15.352333",
+  "total_tracked": 4491,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 111,
-      "velocity": 5.3,
+      "keyword": "distillation",
+      "mentions": 45,
+      "velocity": 4.9,
       "sources": [
         "arxiv",
         "linkedin"
@@ -14,90 +14,165 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
+      "expert_ratio": 0.95,
+      "headline": "Multi-Turn On-Policy Distillation with Prefix Replay",
       "articles": [
         {
-          "title": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2506.12529",
+          "title": "Multi-Turn On-Policy Distillation with Prefix Replay",
+          "url": "https://arxiv.org/abs/2607.04763",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Fully Offline Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2505.22442",
+          "title": "Pretraining Multiple Instance Learning Networks with Multi-Teacher Distillation from Pathology Slide Foundation Models",
+          "url": "https://arxiv.org/abs/2607.14703",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Reinforcement Learning in Switching Non-Stationary Markov Decision Processes: Algorithms and Convergence Analysis",
-          "url": "https://arxiv.org/abs/2503.18607",
+          "title": "Answer-Conditioned Chains of Thought Degrade Verifiable-Reasoning Distillation in Large Language Models",
+          "url": "https://arxiv.org/abs/2607.14552",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "claude code",
-      "mentions": 42,
-      "velocity": 4.1,
+      "keyword": "kling",
+      "mentions": 37,
+      "velocity": 4.8,
       "sources": [
         "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "'Google stelt Gemini 3.5 Pro uit, presteert slechter dan Codex en Claude Code'",
-      "articles": [
-        {
-          "title": "'Google stelt Gemini 3.5 Pro uit, presteert slechter dan Codex en Claude Code'",
-          "url": "https://tweakers.net/nieuws/250170/google-stelt-gemini-35-pro-uit-presteert-slechter-dan-codex-en-claude-code.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Claude Code’s creator offers a better way to measure AI success than token burn",
-          "url": "https://www.businessinsider.com/claude-code-boris-cherny-better-way-measure-ai-success-dashboards-2026-7",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "hallucination",
-      "mentions": 37,
-      "velocity": 2.4,
-      "sources": [
         "arxiv",
         "hackernews",
         "linkedin"
       ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "kimi",
+      "mentions": 20,
+      "velocity": 4.2,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "Hallo4D: Multi-Modal Hallucination Mitigation for Consistent Spatio-Temporal Generation",
+      "expert_ratio": 0.0,
+      "headline": "Kimi: Threat or menace?",
       "articles": [
         {
-          "title": "Hallo4D: Multi-Modal Hallucination Mitigation for Consistent Spatio-Temporal Generation",
-          "url": "https://arxiv.org/abs/2607.12752",
+          "title": "Kimi: Threat or menace?",
+          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/?utm_source=flipboard&utm_content=Techcrunch/magazine/Artificial+Intelligence+in+2023:+News+and+Updates",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Meet Yang Zhilin, the CEO and founder behind China's buzzy new Kimi K3 AI model",
+          "url": "https://www.businessinsider.com/who-is-yang-zhilin-ceo-founder-moonshot-ai-kimi-k3-2026-7",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "Moonshot’s Kimi Upends Conventional Wisdom on US Lead Over China",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-18/moonshot-s-kimi-upends-conventional-wisdom-on-us-lead-over-china",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 42,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.87,
+      "headline": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+      "articles": [
+        {
+          "title": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+          "url": "https://arxiv.org/abs/2606.12936",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Not All Needles Are Found: How Fact Distribution and Don't Make It Up Prompts Shape Retrieval, Reasoning, and Hallucinat",
-          "url": "https://arxiv.org/abs/2601.02023",
+          "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
+          "url": "https://arxiv.org/abs/2607.14203",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Protective Capacity Hallucination: When Large Language Models Claim Nonexistent Capabilities",
-          "url": "https://arxiv.org/abs/2607.13596",
+          "title": "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation",
+          "url": "https://arxiv.org/abs/2607.13451",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
+      "keyword": "claude",
+      "mentions": 554,
+      "velocity": 2.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 28,
+      "velocity": 2.1,
+      "sources": [
+        "articles",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.59,
+      "headline": "The Prover Is the Judge: Verified Security Software from AI Coding Agents in Ada/SPARK",
+      "articles": [
+        {
+          "title": "The Prover Is the Judge: Verified Security Software from AI Coding Agents in Ada/SPARK",
+          "url": "https://arxiv.org/abs/2607.14340",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
+          "url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
+          "source": "AI - Ars Technica"
+        },
+        {
+          "title": "OpenAI's first hardware device is an RGB macropod — 'Codex Micro' features 13 low-profile keys and a joystick for contro",
+          "url": "https://www.tomshardware.com/peripherals/keyboards/openais-first-hardware-device-is-an-rgb-macropod-codex-micro-features-13-low-profile-keys-and-a-joystick-for-controlling-ai-coding-agents",
+          "source": "Tom's Hardware"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "deepmind",
-      "mentions": 17,
-      "velocity": 2.0,
+      "mentions": 21,
+      "velocity": 2.6,
       "sources": [
         "articles",
         "hackernews",
@@ -106,7 +181,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.64,
+      "expert_ratio": 0.7,
       "headline": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
       "articles": [
         {
@@ -125,25 +200,6 @@
           "source": "The Next Web"
         }
       ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "kling",
-      "mentions": 30,
-      "velocity": 3.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "",
-      "articles": []
     }
   ],
   "weak_signals": [
@@ -168,45 +224,6 @@
       ]
     },
     {
-      "keyword": "pixverse",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M ",
-      "articles": [
-        {
-          "title": "Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M ",
-          "url": "https://www.techmeme.com/260713/p35#a260713p35",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-          "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "keyword": "densenet",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "content",
       "mentions": 2,
       "velocity": 1.0,
@@ -217,8 +234,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Top EU court clips YouTube's intermediary defense over reviewed content",
+      "headline": "Apple has banned home service content on upcoming Maps ads",
       "articles": [
+        {
+          "title": "Apple has banned home service content on upcoming Maps ads",
+          "url": "https://www.engadget.com/2217915/apple-banned-home-service-content-on-upcoming-maps-ads/",
+          "source": "Engadget"
+        },
         {
           "title": "Top EU court clips YouTube's intermediary defense over reviewed content",
           "url": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299",
@@ -228,11 +250,6 @@
           "title": "HABIB_TAZ at SemEval-2026 Task 11: Disentangling Formal Logic from Content via Synthetic Training and Multi-Objective Op",
           "url": "https://arxiv.org/abs/2607.14349",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "X cracks down on creators who steal content",
-          "url": "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/",
-          "source": "TechCrunch"
         }
       ]
     },
@@ -292,46 +309,6 @@
       ]
     },
     {
-      "keyword": "game development",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Korean outfit hosting 1.44MB game development contest to honor the floppy disk — entrants must confine entire fileset, i",
-      "articles": [
-        {
-          "title": "Korean outfit hosting 1.44MB game development contest to honor the floppy disk — entrants must confine entire fileset, i",
-          "url": "https://www.tomshardware.com/software/korean-outfit-hosting-1-44mb-game-development-contest-to-honor-the-floppy-disk-entrants-must-confine-entire-fileset-including-resources-engine-and-library-to-miniscule-storage-format",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "liberal",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "The Liberal American Jew’s Dilemma",
-      "articles": [
-        {
-          "title": "The Liberal American Jew’s Dilemma",
-          "url": "https://www.nytimes.com/2026/07/06/opinion/jewish-america-identity.html",
-          "source": "The New York Times"
-        }
-      ]
-    },
-    {
       "keyword": "lightrocket",
       "mentions": 2,
       "velocity": 1.0,
@@ -344,6 +321,40 @@
       "expert_ratio": 0.67,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "runtimeerror",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "mastercard",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
+      "articles": [
+        {
+          "title": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
+          "url": "https://www.techradar.com/vpn/vpn-services/nordvpn-is-now-part-of-mastercards-lifestyle-perks-find-out-if-you-are-eligible",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
     },
     {
       "keyword": "explainability",
@@ -374,13 +385,169 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "deepfakes",
+      "mentions": 3,
+      "velocity": 0.6,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 73,
+      "days_active": 4,
+      "expert_ratio": 0.67,
+      "headline": "xAI sued a Grok user for allegedly generating deepfakes of child sexual abuse",
+      "articles": [
+        {
+          "title": "xAI sued a Grok user for allegedly generating deepfakes of child sexual abuse",
+          "url": "https://qz.com/xai-sues-grok-user-child-sexual-abuse-deepfakes-071626",
+          "source": "Quartz"
+        },
+        {
+          "title": "xAI sues Grok user for generating nonconsensual sexualized deepfakes",
+          "url": "https://www.engadget.com/2216382/xai-sues-grok-user-generating-nonconsensual-sexualized-deepfakes/",
+          "source": "Engadget"
+        },
+        {
+          "title": "xAI sues a man for using Grok to generate CSAM ‘deepfakes’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+          "source": "The Verge -  All Posts"
+        }
+      ]
+    },
+    {
+      "keyword": "block",
+      "mentions": 2,
+      "velocity": 0.5,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 4,
+      "expert_ratio": 1.0,
+      "headline": "Billionaires Prepare $87 Million Ad Campaign to Block California Wealth Tax",
+      "articles": [
+        {
+          "title": "Billionaires Prepare $87 Million Ad Campaign to Block California Wealth Tax",
+          "url": "https://www.nytimes.com/2026/07/17/us/california-billionaire-tax-opponents-ad-campaign.html",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Don’t block the bots. Build the gate",
+          "url": "https://www.fastcompany.com/91572651/dont-block-the-bots-build-the-gate?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07182026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Don’t block the bots. Build the gate",
+          "url": "https://www.fastcompany.com/91572651/dont-block-the-bots-build-the-gate?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07182026",
+          "source": "Fast Company"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "mcp server",
-      "mentions": 20,
+      "keyword": "vibe coding",
+      "mentions": 32,
       "velocity": 1.9,
+      "sources": [
+        "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.54,
+      "headline": "Getting started with vibe coding as a solopreneur",
+      "articles": [
+        {
+          "title": "Getting started with vibe coding as a solopreneur",
+          "url": "https://www.fastcompany.com/91571994/vibe-coding-solopreneur-guide",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Emergent hits a $1.5bn valuation as vibe coding mints another unicorn",
+          "url": "https://thenextweb.com/news/emergent-130m-series-c-vibe-coding-unicorn",
+          "source": "The Next Web"
+        },
+        {
+          "title": "\"The difference between launching now and launching never\": How vibe coding is turning small business ideas into functio",
+          "url": "https://www.techradar.com/pro/the-difference-between-launching-now-and-launching-never-how-vibe-coding-is-turning-small-business-ideas-into-functional-apps-in-record-time",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 81,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.83,
+      "headline": "CARE-LoRA: Compressed Activation REconstruction for Memory-Efficient LoRA",
+      "articles": [
+        {
+          "title": "CARE-LoRA: Compressed Activation REconstruction for Memory-Efficient LoRA",
+          "url": "https://arxiv.org/abs/2607.11940",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "PFAdapter: Hierarchical LoRA Decomposition for Personalized Federated MLLMs",
+          "url": "https://arxiv.org/abs/2607.12111",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ReLope: KL-Regularized LoRA Probes for Multimodal LLM Routing",
+          "url": "https://arxiv.org/abs/2603.24787",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "google deepmind",
+      "mentions": 13,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.71,
+      "headline": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
+      "articles": [
+        {
+          "title": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
+          "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Meet the philosopher inside Google DeepMind",
+          "url": "https://thenextweb.com/news/deepmind-philosopher-iason-gabriel-ai-ethics",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google DeepMind launched an AI biosecurity programme to fight biological threats",
+          "url": "https://thenextweb.com/news/deepmind-isomorphic-ai-biosecurity-bioresilience",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "model context protocol",
+      "mentions": 11,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
@@ -389,85 +556,52 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.38,
-      "headline": "MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers",
+      "expert_ratio": 0.57,
+      "headline": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
       "articles": [
         {
-          "title": "MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers",
-          "url": "https://arxiv.org/abs/2607.14642",
+          "title": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
+          "url": "https://arxiv.org/abs/2607.05744",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Orchestrating Power Grid Studies with Multi-Agent AI and MCP Servers",
-          "url": "https://arxiv.org/abs/2607.14158",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Privado VPN unveils an MCP server on Windows and macOS to let your AI agent manage your connection",
-          "url": "https://www.techradar.com/vpn/vpn-services/privado-vpn-unveils-an-mcp-server-on-windows-and-macos-to-let-your-ai-agent-manage-your-connection",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "github copilot",
-      "mentions": 14,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Top AI tools such as OpenClaw and Github Copilot can be hijacked to create new massive botnets",
-      "articles": [
-        {
-          "title": "Top AI tools such as OpenClaw and Github Copilot can be hijacked to create new massive botnets",
-          "url": "https://www.techradar.com/pro/security/top-ai-tools-such-as-openclaw-and-github-copilot-can-be-hijacked-to-create-new-massive-botnets",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
-          "url": "https://arxiv.org/abs/2607.01418",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Researchers broke GitHub Copilot’s safety by hiding harm in a workflow",
-          "url": "https://thenextweb.com/news/github-copilot-workflow-jailbreak-alan-turing-institute",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 28,
-      "velocity": 1.5,
+      "keyword": "ai bubble",
+      "mentions": 17,
+      "velocity": 1.1,
       "sources": [
         "arxiv",
-        "linkedin",
+        "hackernews",
         "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Claude Opus 4.8 and Sonnet 5 seem worse at tool calls than older models, likely due to post-training that assumes Claude",
+      "expert_ratio": 0.86,
+      "headline": "An AI critic is warning that OpenAI's failure would be the Lehman Brothers of the AI bubble",
       "articles": [
         {
-          "title": "Claude Opus 4.8 and Sonnet 5 seem worse at tool calls than older models, likely due to post-training that assumes Claude",
-          "url": "https://www.techmeme.com/260706/p4#a260706p4",
-          "source": "Techmeme"
+          "title": "An AI critic is warning that OpenAI's failure would be the Lehman Brothers of the AI bubble",
+          "url": "https://qz.com/ai-critic-openai-bubble-lehman-brothers-collapse-071726",
+          "source": "Quartz"
+        },
+        {
+          "title": "'The AI bubble is an OpenAI bubble:' Ed Zitron says the ChatGPT maker is the Lehman Brothers of AI",
+          "url": "https://www.businessinsider.com/openai-ipo-ai-bubble-tech-capex-anthropic-ed-zitron-lehman-2026-7",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Bailey Says BOE Might Need to Respond If an AI Bubble Bursts",
+          "url": "https://www.bloomberg.com/news/videos/2026-07-14/bailey-boe-might-need-to-respond-if-an-ai-bubble-bursts-video",
+          "source": "Bloomberg Technology"
         }
       ]
     },
     {
       "keyword": "cline",
       "mentions": 17,
-      "velocity": 1.5,
+      "velocity": 1.0,
       "sources": [
         "articles",
         "arxiv",
@@ -477,84 +611,21 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.4,
+      "expert_ratio": 0.43,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "world model",
-      "mentions": 18,
-      "velocity": 1.2,
-      "sources": [
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "Flow Matching in Feature Space for Stochastic World Modeling",
-      "articles": [
-        {
-          "title": "Flow Matching in Feature Space for Stochastic World Modeling",
-          "url": "https://arxiv.org/abs/2606.29059",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "RENEW: Towards Learning World Models and Repairing Model Exploitation from Preferences",
-          "url": "https://arxiv.org/abs/2607.14180",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Concept-Guided Spatial Regularization for World Models in Atari Pong",
-          "url": "https://arxiv.org/abs/2607.15142",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "fine-tuning",
-      "mentions": 85,
-      "velocity": 0.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Introspection Fine-Tuning (IFT): Training Small LLMs to Introspect",
-      "articles": [
-        {
-          "title": "Introspection Fine-Tuning (IFT): Training Small LLMs to Introspect",
-          "url": "https://arxiv.org/abs/2607.14111",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Long-Context Fine-Tuning with Limited VRAM",
-          "url": "https://arxiv.org/abs/2607.15105",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Supervised Fine-Tuning vs. In-Context Learning: An Equilibrium Analysis of LLM Personalization under Congestion",
-          "url": "https://arxiv.org/abs/2607.14371",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 37,
+    "scored_predictions": 38,
     "covered": 23,
-    "coverage_rate": 0.622,
+    "coverage_rate": 0.605,
     "early": 9,
-    "early_rate": 0.243,
+    "early_rate": 0.237,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.622,
+    "hit_rate": 0.605,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
@@ -566,33 +637,33 @@
         "hit_rate": 0.909
       },
       "weak_signal": {
-        "scored": 15,
+        "scored": 16,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.2,
-        "early_rate": 0.133,
-        "hit_rate": 0.2
+        "coverage_rate": 0.188,
+        "early_rate": 0.125,
+        "hit_rate": 0.188
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 37,
+    "n": 38,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.649,
-      "early_rate": 0.243
+      "coverage_rate": 0.632,
+      "early_rate": 0.237
     },
     "null_mean": {
-      "coverage_rate": 0.66,
-      "early_rate": 0.262
+      "coverage_rate": 0.643,
+      "early_rate": 0.254
     },
     "p_value": {
-      "coverage_rate": 0.836,
-      "early_rate": 0.738
+      "coverage_rate": 0.85,
+      "early_rate": 0.744
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -626,22 +697,28 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
       "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "ai bubble",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-19",
+        "confidence": 0.6
+      },
       {
         "keyword": "grok",
         "signal_type": "emerging",
@@ -707,28 +784,22 @@
         "signal_type": "emerging",
         "flagged_on": "2026-07-14",
         "confidence": 0.8
-      },
-      {
-        "keyword": "stability ai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-11",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "mcp tools",
+        "keyword": "deepseek r1",
         "recent_mentions": 13,
-        "prior_mentions": 1,
-        "change_ratio": 13.0,
-        "corroborating_sources": 2
+        "prior_mentions": 2,
+        "change_ratio": 6.5,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "mlx",
-        "recent_mentions": 24,
-        "prior_mentions": 3,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
+        "keyword": "edge ai",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "hermes-agent",
@@ -738,67 +809,67 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "context length",
-        "recent_mentions": 35,
-        "prior_mentions": 6,
-        "change_ratio": 5.83,
+        "keyword": "mcp tools",
+        "recent_mentions": 16,
+        "prior_mentions": 3,
+        "change_ratio": 5.33,
         "corroborating_sources": 2
       },
       {
-        "keyword": "deepseek r1",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
+        "keyword": "kling",
+        "recent_mentions": 122,
+        "prior_mentions": 25,
+        "change_ratio": 4.88,
+        "corroborating_sources": 10
       },
       {
         "keyword": "ai bubble",
-        "recent_mentions": 58,
-        "prior_mentions": 17,
-        "change_ratio": 3.41,
+        "recent_mentions": 67,
+        "prior_mentions": 15,
+        "change_ratio": 4.47,
         "corroborating_sources": 5
       },
       {
-        "keyword": "kling",
-        "recent_mentions": 90,
-        "prior_mentions": 28,
-        "change_ratio": 3.21,
-        "corroborating_sources": 9
+        "keyword": "mlx",
+        "recent_mentions": 24,
+        "prior_mentions": 6,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "dalle",
+        "keyword": "resemble",
         "recent_mentions": 6,
         "prior_mentions": 2,
         "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "reasoning model",
-        "recent_mentions": 56,
-        "prior_mentions": 21,
-        "change_ratio": 2.67,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "ai regulation",
-        "recent_mentions": 5,
-        "prior_mentions": 2,
-        "change_ratio": 2.5,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
         "keyword": "model context protocol",
-        "recent_mentions": 27,
-        "prior_mentions": 12,
-        "change_ratio": 2.25,
-        "corroborating_sources": 4
+        "recent_mentions": 34,
+        "prior_mentions": 13,
+        "change_ratio": 2.62,
+        "corroborating_sources": 5
       },
       {
-        "keyword": "deepmind",
-        "recent_mentions": 53,
-        "prior_mentions": 24,
-        "change_ratio": 2.21,
-        "corroborating_sources": 6
+        "keyword": "reasoning model",
+        "recent_mentions": 59,
+        "prior_mentions": 25,
+        "change_ratio": 2.36,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "dalle",
+        "recent_mentions": 7,
+        "prior_mentions": 3,
+        "change_ratio": 2.33,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai code",
+        "recent_mentions": 46,
+        "prior_mentions": 20,
+        "change_ratio": 2.3,
+        "corroborating_sources": 4
       }
     ]
   }
