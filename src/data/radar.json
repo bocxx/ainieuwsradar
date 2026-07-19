@@ -1,17 +1,35 @@
 {
-  "generated_at": "2026-07-19T07:17:15.352333",
-  "total_tracked": 4491,
+  "generated_at": "2026-07-19T19:18:29.232869",
+  "total_tracked": 4578,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "distillation",
-      "mentions": 45,
-      "velocity": 4.9,
+      "keyword": "kling",
+      "mentions": 40,
+      "velocity": 5.7,
       "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.75,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "distillation",
+      "mentions": 47,
+      "velocity": 5.5,
+      "sources": [
+        "articles",
         "arxiv",
         "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.95,
@@ -35,58 +53,9 @@
       ]
     },
     {
-      "keyword": "kling",
-      "mentions": 37,
-      "velocity": 4.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "kimi",
-      "mentions": 20,
-      "velocity": 4.2,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Kimi: Threat or menace?",
-      "articles": [
-        {
-          "title": "Kimi: Threat or menace?",
-          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/?utm_source=flipboard&utm_content=Techcrunch/magazine/Artificial+Intelligence+in+2023:+News+and+Updates",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Meet Yang Zhilin, the CEO and founder behind China's buzzy new Kimi K3 AI model",
-          "url": "https://www.businessinsider.com/who-is-yang-zhilin-ceo-founder-moonshot-ai-kimi-k3-2026-7",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Moonshot’s Kimi Upends Conventional Wisdom on US Lead Over China",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-18/moonshot-s-kimi-upends-conventional-wisdom-on-us-lead-over-china",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
       "keyword": "simulation",
-      "mentions": 42,
-      "velocity": 2.8,
+      "mentions": 47,
+      "velocity": 4.3,
       "sources": [
         "articles",
         "arxiv",
@@ -118,9 +87,9 @@
       ]
     },
     {
-      "keyword": "claude",
-      "mentions": 554,
-      "velocity": 2.5,
+      "keyword": "anthropic",
+      "mentions": 171,
+      "velocity": 4.2,
       "sources": [
         "articles",
         "arxiv",
@@ -132,47 +101,114 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 28,
-      "velocity": 2.1,
-      "sources": [
-        "articles",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.59,
-      "headline": "The Prover Is the Judge: Verified Security Software from AI Coding Agents in Ada/SPARK",
+      "expert_ratio": 0.79,
+      "headline": "Thinking Machines is coming for Anthropic’s intellectual vibe",
       "articles": [
         {
-          "title": "The Prover Is the Judge: Verified Security Software from AI Coding Agents in Ada/SPARK",
-          "url": "https://arxiv.org/abs/2607.14340",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Thinking Machines is coming for Anthropic’s intellectual vibe",
+          "url": "https://www.fastcompany.com/91575110/thinking-machines-is-coming-for-anthropics-intellectual-vibe?partner=rss&amp&utm_source=rss&amp&utm_medium=feed&amp&utm_campaign=rss+fastcompany&amp&utm_content=rss",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
-          "url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
-          "source": "AI - Ars Technica"
+          "title": "Thinking Machines is coming for Anthropic’s intellectual vibe",
+          "url": "https://www.fastcompany.com/91575110/thinking-machines-is-coming-for-anthropics-intellectual-vibe?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07192026",
+          "source": "Fast Company"
         },
         {
-          "title": "OpenAI's first hardware device is an RGB macropod — 'Codex Micro' features 13 low-profile keys and a joystick for contro",
-          "url": "https://www.tomshardware.com/peripherals/keyboards/openais-first-hardware-device-is-an-rgb-macropod-codex-micro-features-13-low-profile-keys-and-a-joystick-for-controlling-ai-coding-agents",
-          "source": "Tom's Hardware"
+          "title": "Thinking Machines is coming for Anthropic’s intellectual vibe",
+          "url": "https://www.fastcompany.com/91575110/thinking-machines-is-coming-for-anthropics-intellectual-vibe",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 72,
+      "velocity": 2.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "Alibaba’s Qwen Unveils Preview of Flagship AI Model",
+      "articles": [
+        {
+          "title": "Alibaba’s Qwen Unveils Preview of Flagship AI Model",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-19/alibaba-s-qwen-unveils-preview-of-flagship-ai-model",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+          "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Alibaba stock jumps 4% after Qwen is approved to run Apple Intelligence in China",
+          "url": "https://thenextweb.com/news/alibaba-qwen-apple-intelligence-china-approved",
+          "source": "The Next Web"
         }
       ]
     }
   ],
   "emerging": [
     {
+      "keyword": "kimi",
+      "mentions": 18,
+      "velocity": 3.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "Sources: Kimi developer Moonshot told investors it is preparing for a Hong Kong IPO in as early as six months; its ARR h",
+      "articles": [
+        {
+          "title": "Sources: Kimi developer Moonshot told investors it is preparing for a Hong Kong IPO in as early as six months; its ARR h",
+          "url": "https://www.techmeme.com/260719/p5#a260719p5",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Kimi: Threat or menace?",
+          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/?utm_source=flipboard&utm_content=Techcrunch/magazine/Artificial+Intelligence+in+2023:+News+and+Updates",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Meet Yang Zhilin, the CEO and founder behind China's buzzy new Kimi K3 AI model",
+          "url": "https://www.businessinsider.com/who-is-yang-zhilin-ceo-founder-moonshot-ai-kimi-k3-2026-7",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "claude code",
+      "mentions": 44,
+      "velocity": 3.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "deepmind",
-      "mentions": 21,
-      "velocity": 2.6,
+      "mentions": 19,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "hackernews",
@@ -204,6 +240,36 @@
   ],
   "weak_signals": [
     {
+      "keyword": "alignment",
+      "mentions": 3,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 2,
+      "expert_ratio": 0.8,
+      "headline": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
+      "articles": [
+        {
+          "title": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2506.12529",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Decoupled Alignment for Robust Plug-and-Play Adaptation",
+          "url": "https://arxiv.org/abs/2406.01514",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ToolAlignBench: Investigating Alignment Conflicts in Tool-Calling Enabled LLMs",
+          "url": "https://arxiv.org/abs/2607.14285",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "posthog",
       "mentions": 2,
       "velocity": 1.0,
@@ -220,36 +286,6 @@
           "title": "PostHog Open Sourced",
           "url": "https://github.com/PostHog/posthog-foss",
           "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "content",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Apple has banned home service content on upcoming Maps ads",
-      "articles": [
-        {
-          "title": "Apple has banned home service content on upcoming Maps ads",
-          "url": "https://www.engadget.com/2217915/apple-banned-home-service-content-on-upcoming-maps-ads/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Top EU court clips YouTube's intermediary defense over reviewed content",
-          "url": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299",
-          "source": "The Register"
-        },
-        {
-          "title": "HABIB_TAZ at SemEval-2026 Task 11: Disentangling Formal Logic from Content via Synthetic Training and Multi-Objective Op",
-          "url": "https://arxiv.org/abs/2607.14349",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -309,7 +345,7 @@
       ]
     },
     {
-      "keyword": "lightrocket",
+      "keyword": "content",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -319,8 +355,24 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
+      "headline": "Apple has banned home service content on upcoming Maps ads",
+      "articles": [
+        {
+          "title": "Apple has banned home service content on upcoming Maps ads",
+          "url": "https://www.engadget.com/2217915/apple-banned-home-service-content-on-upcoming-maps-ads/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Top EU court clips YouTube's intermediary defense over reviewed content",
+          "url": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299",
+          "source": "The Register"
+        },
+        {
+          "title": "HABIB_TAZ at SemEval-2026 Task 11: Disentangling Formal Logic from Content via Synthetic Training and Multi-Objective Op",
+          "url": "https://arxiv.org/abs/2607.14349",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
       "keyword": "runtimeerror",
@@ -387,36 +439,6 @@
       ]
     },
     {
-      "keyword": "deepfakes",
-      "mentions": 3,
-      "velocity": 0.6,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 73,
-      "days_active": 4,
-      "expert_ratio": 0.67,
-      "headline": "xAI sued a Grok user for allegedly generating deepfakes of child sexual abuse",
-      "articles": [
-        {
-          "title": "xAI sued a Grok user for allegedly generating deepfakes of child sexual abuse",
-          "url": "https://qz.com/xai-sues-grok-user-child-sexual-abuse-deepfakes-071626",
-          "source": "Quartz"
-        },
-        {
-          "title": "xAI sues Grok user for generating nonconsensual sexualized deepfakes",
-          "url": "https://www.engadget.com/2216382/xai-sues-grok-user-generating-nonconsensual-sexualized-deepfakes/",
-          "source": "Engadget"
-        },
-        {
-          "title": "xAI sues a man for using Grok to generate CSAM ‘deepfakes’",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
-          "source": "The Verge -  All Posts"
-        }
-      ]
-    },
-    {
       "keyword": "block",
       "mentions": 2,
       "velocity": 0.5,
@@ -436,86 +458,75 @@
         },
         {
           "title": "Don’t block the bots. Build the gate",
-          "url": "https://www.fastcompany.com/91572651/dont-block-the-bots-build-the-gate?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07182026",
+          "url": "https://www.fastcompany.com/91572651/dont-block-the-bots-build-the-gate?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07182026",
           "source": "Fast Company"
         },
         {
           "title": "Don’t block the bots. Build the gate",
-          "url": "https://www.fastcompany.com/91572651/dont-block-the-bots-build-the-gate?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07182026",
+          "url": "https://www.fastcompany.com/91572651/dont-block-the-bots-build-the-gate?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07182026",
           "source": "Fast Company"
         }
       ]
+    },
+    {
+      "keyword": "vscode",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 71,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "vibe coding",
-      "mentions": 32,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "Getting started with vibe coding as a solopreneur",
-      "articles": [
-        {
-          "title": "Getting started with vibe coding as a solopreneur",
-          "url": "https://www.fastcompany.com/91571994/vibe-coding-solopreneur-guide",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Emergent hits a $1.5bn valuation as vibe coding mints another unicorn",
-          "url": "https://thenextweb.com/news/emergent-130m-series-c-vibe-coding-unicorn",
-          "source": "The Next Web"
-        },
-        {
-          "title": "\"The difference between launching now and launching never\": How vibe coding is turning small business ideas into functio",
-          "url": "https://www.techradar.com/pro/the-difference-between-launching-now-and-launching-never-how-vibe-coding-is-turning-small-business-ideas-into-functional-apps-in-record-time",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "lora",
-      "mentions": 81,
+      "keyword": "model context protocol",
+      "mentions": 12,
       "velocity": 1.7,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "CARE-LoRA: Compressed Activation REconstruction for Memory-Efficient LoRA",
+      "expert_ratio": 0.57,
+      "headline": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
       "articles": [
         {
-          "title": "CARE-LoRA: Compressed Activation REconstruction for Memory-Efficient LoRA",
-          "url": "https://arxiv.org/abs/2607.11940",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "PFAdapter: Hierarchical LoRA Decomposition for Personalized Federated MLLMs",
-          "url": "https://arxiv.org/abs/2607.12111",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ReLope: KL-Regularized LoRA Probes for Multimodal LLM Routing",
-          "url": "https://arxiv.org/abs/2603.24787",
+          "title": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
+          "url": "https://arxiv.org/abs/2607.05744",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
+      "keyword": "cline",
+      "mentions": 18,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.43,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "google deepmind",
-      "mentions": 13,
-      "velocity": 1.6,
+      "mentions": 12,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "hackernews",
@@ -524,7 +535,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.71,
+      "expert_ratio": 0.7,
       "headline": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
       "articles": [
         {
@@ -541,28 +552,6 @@
           "title": "Google DeepMind launched an AI biosecurity programme to fight biological threats",
           "url": "https://thenextweb.com/news/deepmind-isomorphic-ai-biosecurity-bioresilience",
           "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "model context protocol",
-      "mentions": 11,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.57,
-      "headline": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
-      "articles": [
-        {
-          "title": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
-          "url": "https://arxiv.org/abs/2607.05744",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -599,21 +588,59 @@
       ]
     },
     {
-      "keyword": "cline",
-      "mentions": 17,
-      "velocity": 1.0,
+      "keyword": "gpt-5",
+      "mentions": 64,
+      "velocity": 1.1,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
-        "twitter"
+        "hackernews",
+        "linkedin"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.43,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.87,
+      "headline": "OpenAI admits GPT-5.6 occasionally deletes files – but it's an 'honest mistake'",
+      "articles": [
+        {
+          "title": "OpenAI admits GPT-5.6 occasionally deletes files – but it's an 'honest mistake'",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/16/openai-admits-gpt-56-occasionally-deletes-files-but-its-an-honest-mistake/5274008",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 102,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
+      "articles": [
+        {
+          "title": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2506.12529",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Fully Offline Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2505.22442",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Reinforcement Learning in Switching Non-Stationary Markov Decision Processes: Algorithms and Convergence Analysis",
+          "url": "https://arxiv.org/abs/2503.18607",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "track_record": {
@@ -697,22 +724,28 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
       "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "deepmind",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-19",
+        "confidence": 0.6
+      },
       {
         "keyword": "ai bubble",
         "signal_type": "emerging",
@@ -778,12 +811,6 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-07-15",
         "confidence": 0.2
-      },
-      {
-        "keyword": "claude code",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-14",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
@@ -793,13 +820,6 @@
         "prior_mentions": 2,
         "change_ratio": 6.5,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "edge ai",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
       },
       {
         "keyword": "hermes-agent",
@@ -817,10 +837,24 @@
       },
       {
         "keyword": "kling",
-        "recent_mentions": 122,
+        "recent_mentions": 125,
         "prior_mentions": 25,
-        "change_ratio": 4.88,
+        "change_ratio": 5.0,
         "corroborating_sources": 10
+      },
+      {
+        "keyword": "edge ai",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "mlx",
+        "recent_mentions": 29,
+        "prior_mentions": 6,
+        "change_ratio": 4.83,
+        "corroborating_sources": 3
       },
       {
         "keyword": "ai bubble",
@@ -828,13 +862,6 @@
         "prior_mentions": 15,
         "change_ratio": 4.47,
         "corroborating_sources": 5
-      },
-      {
-        "keyword": "mlx",
-        "recent_mentions": 24,
-        "prior_mentions": 6,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
       },
       {
         "keyword": "resemble",
@@ -845,16 +872,16 @@
       },
       {
         "keyword": "model context protocol",
-        "recent_mentions": 34,
+        "recent_mentions": 35,
         "prior_mentions": 13,
-        "change_ratio": 2.62,
+        "change_ratio": 2.69,
         "corroborating_sources": 5
       },
       {
         "keyword": "reasoning model",
-        "recent_mentions": 59,
+        "recent_mentions": 60,
         "prior_mentions": 25,
-        "change_ratio": 2.36,
+        "change_ratio": 2.4,
         "corroborating_sources": 3
       },
       {
@@ -866,9 +893,9 @@
       },
       {
         "keyword": "ai code",
-        "recent_mentions": 46,
+        "recent_mentions": 43,
         "prior_mentions": 20,
-        "change_ratio": 2.3,
+        "change_ratio": 2.15,
         "corroborating_sources": 4
       }
     ]
