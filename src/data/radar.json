@@ -1,29 +1,12 @@
 {
-  "generated_at": "2026-07-19T19:18:29.232869",
-  "total_tracked": 4578,
+  "generated_at": "2026-07-20T07:15:42.601391",
+  "total_tracked": 4514,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "kling",
-      "mentions": 40,
-      "velocity": 5.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "distillation",
-      "mentions": 47,
-      "velocity": 5.5,
+      "keyword": "reinforcement learning",
+      "mentions": 192,
+      "velocity": 28.0,
       "sources": [
         "articles",
         "arxiv",
@@ -32,30 +15,32 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "Multi-Turn On-Policy Distillation with Prefix Replay",
+      "expert_ratio": 0.99,
+      "headline": "From Black Box to Executable Logic: Explainable Reinforcement Learning through Prolog Expert Systems",
       "articles": [
         {
-          "title": "Multi-Turn On-Policy Distillation with Prefix Replay",
-          "url": "https://arxiv.org/abs/2607.04763",
+          "title": "From Black Box to Executable Logic: Explainable Reinforcement Learning through Prolog Expert Systems",
+          "url": "https://arxiv.org/abs/2607.15459",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Pretraining Multiple Instance Learning Networks with Multi-Teacher Distillation from Pathology Slide Foundation Models",
-          "url": "https://arxiv.org/abs/2607.14703",
+          "title": "RL-Struct: A Lightweight Reinforcement Learning Framework for Reliable Structured Output in LLMs",
+          "url": "https://arxiv.org/abs/2512.00319",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Answer-Conditioned Chains of Thought Degrade Verifiable-Reasoning Distillation in Large Language Models",
-          "url": "https://arxiv.org/abs/2607.14552",
+          "title": "Robustness of Reinforcement Learning-Based Congestion Management in Low-Voltage Grids",
+          "url": "https://arxiv.org/abs/2607.16004",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
+    }
+  ],
+  "emerging": [
     {
       "keyword": "simulation",
-      "mentions": 47,
-      "velocity": 4.3,
+      "mentions": 55,
+      "velocity": 5.5,
       "sources": [
         "articles",
         "arxiv",
@@ -67,210 +52,57 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.87,
-      "headline": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+      "headline": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
       "articles": [
+        {
+          "title": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+          "url": "https://arxiv.org/abs/2506.04147",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Frugal, Flexible, Faithful: Causal Data Simulation via Frengression",
+          "url": "https://arxiv.org/abs/2508.01018",
+          "source": "stat.ML updates on arXiv.org"
+        },
         {
           "title": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
           "url": "https://arxiv.org/abs/2606.12936",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
-          "url": "https://arxiv.org/abs/2607.14203",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation",
-          "url": "https://arxiv.org/abs/2607.13451",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 171,
-      "velocity": 4.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Thinking Machines is coming for Anthropic’s intellectual vibe",
-      "articles": [
-        {
-          "title": "Thinking Machines is coming for Anthropic’s intellectual vibe",
-          "url": "https://www.fastcompany.com/91575110/thinking-machines-is-coming-for-anthropics-intellectual-vibe?partner=rss&amp&utm_source=rss&amp&utm_medium=feed&amp&utm_campaign=rss+fastcompany&amp&utm_content=rss",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Thinking Machines is coming for Anthropic’s intellectual vibe",
-          "url": "https://www.fastcompany.com/91575110/thinking-machines-is-coming-for-anthropics-intellectual-vibe?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07192026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Thinking Machines is coming for Anthropic’s intellectual vibe",
-          "url": "https://www.fastcompany.com/91575110/thinking-machines-is-coming-for-anthropics-intellectual-vibe",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 72,
-      "velocity": 2.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "Alibaba’s Qwen Unveils Preview of Flagship AI Model",
-      "articles": [
-        {
-          "title": "Alibaba’s Qwen Unveils Preview of Flagship AI Model",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-19/alibaba-s-qwen-unveils-preview-of-flagship-ai-model",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
-          "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Alibaba stock jumps 4% after Qwen is approved to run Apple Intelligence in China",
-          "url": "https://thenextweb.com/news/alibaba-qwen-apple-intelligence-china-approved",
-          "source": "The Next Web"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "kimi",
-      "mentions": 18,
-      "velocity": 3.6,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Sources: Kimi developer Moonshot told investors it is preparing for a Hong Kong IPO in as early as six months; its ARR h",
-      "articles": [
-        {
-          "title": "Sources: Kimi developer Moonshot told investors it is preparing for a Hong Kong IPO in as early as six months; its ARR h",
-          "url": "https://www.techmeme.com/260719/p5#a260719p5",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Kimi: Threat or menace?",
-          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/?utm_source=flipboard&utm_content=Techcrunch/magazine/Artificial+Intelligence+in+2023:+News+and+Updates",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Meet Yang Zhilin, the CEO and founder behind China's buzzy new Kimi K3 AI model",
-          "url": "https://www.businessinsider.com/who-is-yang-zhilin-ceo-founder-moonshot-ai-kimi-k3-2026-7",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 44,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "deepmind",
-      "mentions": 19,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
-      "articles": [
-        {
-          "title": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
-          "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "DeepMind’s Hassabis says a STEM degree makes you 10x better with AI",
-          "url": "https://thenextweb.com/news/hassabis-stem-degree-ai-computer-science",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Meet the philosopher inside Google DeepMind",
-          "url": "https://thenextweb.com/news/deepmind-philosopher-iason-gabriel-ai-ethics",
-          "source": "The Next Web"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "alignment",
-      "mentions": 3,
+      "keyword": "mythos",
+      "mentions": 2,
       "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 65,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
       "days_active": 2,
-      "expert_ratio": 0.8,
-      "headline": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
+      "expert_ratio": 0.67,
+      "headline": "'You're giving ballistic ⁠missiles to individuals with Mythos': JPMorgan CEO Jamie Dimon says Anthropic's AI model poses",
       "articles": [
         {
-          "title": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2506.12529",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "'You're giving ballistic ⁠missiles to individuals with Mythos': JPMorgan CEO Jamie Dimon says Anthropic's AI model poses",
+          "url": "https://www.techradar.com/pro/youre-giving-ballistic-missiles-to-individuals-with-mythos-jpmorgan-ceo-jamie-dimon-says-anthropics-ai-model-poses-some-serious-risks",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Decoupled Alignment for Robust Plug-and-Play Adaptation",
-          "url": "https://arxiv.org/abs/2406.01514",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "'Microsoft werkt aan eigen Mythos-concurrent voor opsporen en fixen van bugs'",
+          "url": "https://tweakers.net/nieuws/250180/microsoft-werkt-aan-eigen-mythos-concurrent-voor-opsporen-en-fixen-van-bugs.html",
+          "source": "Tweakers Mixed RSS Feed"
         },
         {
-          "title": "ToolAlignBench: Investigating Alignment Conflicts in Tool-Calling Enabled LLMs",
-          "url": "https://arxiv.org/abs/2607.14285",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Source: Microsoft plans to release an AI security tool this month using models from Anthropic, OpenAI, and itself, as a ",
+          "url": "https://www.techmeme.com/260716/p68#a260716p68",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "posthog",
+      "keyword": "mastercard",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -280,12 +112,56 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "PostHog Open Sourced",
+      "headline": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
       "articles": [
         {
-          "title": "PostHog Open Sourced",
-          "url": "https://github.com/PostHog/posthog-foss",
-          "source": "Hacker News"
+          "title": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
+          "url": "https://www.techradar.com/vpn/vpn-services/nordvpn-is-now-part-of-mastercards-lifestyle-perks-find-out-if-you-are-eligible",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "moes",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "content",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Apple has banned home service content on upcoming Maps ads",
+      "articles": [
+        {
+          "title": "Apple has banned home service content on upcoming Maps ads",
+          "url": "https://www.engadget.com/2217915/apple-banned-home-service-content-on-upcoming-maps-ads/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Top EU court clips YouTube's intermediary defense over reviewed content",
+          "url": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299",
+          "source": "The Register"
+        },
+        {
+          "title": "HABIB_TAZ at SemEval-2026 Task 11: Disentangling Formal Logic from Content via Synthetic Training and Multi-Objective Op",
+          "url": "https://arxiv.org/abs/2607.14349",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -345,51 +221,33 @@
       ]
     },
     {
-      "keyword": "content",
+      "keyword": "fable5",
       "mentions": 2,
       "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Apple has banned home service content on upcoming Maps ads",
-      "articles": [
-        {
-          "title": "Apple has banned home service content on upcoming Maps ads",
-          "url": "https://www.engadget.com/2217915/apple-banned-home-service-content-on-upcoming-maps-ads/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Top EU court clips YouTube's intermediary defense over reviewed content",
-          "url": "https://www.theregister.com/off-prem/2026/07/17/top-eu-court-clips-youtubes-intermediary-defense-over-reviewed-content/5274299",
-          "source": "The Register"
-        },
-        {
-          "title": "HABIB_TAZ at SemEval-2026 Task 11: Disentangling Formal Logic from Content via Synthetic Training and Multi-Objective Op",
-          "url": "https://arxiv.org/abs/2607.14349",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "runtimeerror",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
       "days_active": 2,
       "expert_ratio": 0.67,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "mastercard",
+      "keyword": "diffusiongemma",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "posthog",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -399,12 +257,12 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
+      "headline": "PostHog Open Sourced",
       "articles": [
         {
-          "title": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
-          "url": "https://www.techradar.com/vpn/vpn-services/nordvpn-is-now-part-of-mastercards-lifestyle-perks-find-out-if-you-are-eligible",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "PostHog Open Sourced",
+          "url": "https://github.com/PostHog/posthog-foss",
+          "source": "Hacker News"
         }
       ]
     },
@@ -419,8 +277,13 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "Position: Explainability Research Must Prioritize Foundations over Ad-hoc Methods",
+      "headline": "FAIR_XAI: Improving Multimodal Foundation Model Fairness via Explainability for Wellbeing Assessment",
       "articles": [
+        {
+          "title": "FAIR_XAI: Improving Multimodal Foundation Model Fairness via Explainability for Wellbeing Assessment",
+          "url": "https://arxiv.org/abs/2604.23786",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "Position: Explainability Research Must Prioritize Foundations over Ad-hoc Methods",
           "url": "https://arxiv.org/abs/2607.14123",
@@ -430,64 +293,15 @@
           "title": "Towards a Unified Multidimensional Explainability Metric: Evaluating Trustworthiness in AI Models",
           "url": "https://arxiv.org/abs/2607.14315",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Pr",
-          "url": "https://arxiv.org/abs/2607.11771",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "block",
-      "mentions": 2,
-      "velocity": 0.5,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 4,
-      "expert_ratio": 1.0,
-      "headline": "Billionaires Prepare $87 Million Ad Campaign to Block California Wealth Tax",
-      "articles": [
-        {
-          "title": "Billionaires Prepare $87 Million Ad Campaign to Block California Wealth Tax",
-          "url": "https://www.nytimes.com/2026/07/17/us/california-billionaire-tax-opponents-ad-campaign.html",
-          "source": "The New York Times"
-        },
-        {
-          "title": "Don’t block the bots. Build the gate",
-          "url": "https://www.fastcompany.com/91572651/dont-block-the-bots-build-the-gate?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=07182026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Don’t block the bots. Build the gate",
-          "url": "https://www.fastcompany.com/91572651/dont-block-the-bots-build-the-gate?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07182026",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "vscode",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "model context protocol",
-      "mentions": 12,
-      "velocity": 1.7,
+      "keyword": "context window",
+      "mentions": 17,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
@@ -496,37 +310,42 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.57,
-      "headline": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
+      "expert_ratio": 0.81,
+      "headline": "LSRM: High-Fidelity Object-Centric Reconstruction via Scaled Context Windows",
       "articles": [
         {
-          "title": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
-          "url": "https://arxiv.org/abs/2607.05744",
+          "title": "LSRM: High-Fidelity Object-Centric Reconstruction via Scaled Context Windows",
+          "url": "https://arxiv.org/abs/2604.05182",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "cline",
-      "mentions": 18,
-      "velocity": 1.3,
+      "keyword": "bolt",
+      "mentions": 11,
+      "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.43,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.36,
+      "headline": "Axos buys AI fintech Arc Technologies to bolt modern software onto a bank",
+      "articles": [
+        {
+          "title": "Axos buys AI fintech Arc Technologies to bolt modern software onto a bank",
+          "url": "https://thenextweb.com/news/axos-arc-technologies-acquisition-ai-fintech",
+          "source": "The Next Web"
+        }
+      ]
     },
     {
-      "keyword": "google deepmind",
-      "mentions": 12,
-      "velocity": 1.3,
+      "keyword": "kling",
+      "mentions": 31,
+      "velocity": 1.2,
       "sources": [
         "articles",
         "hackernews",
@@ -535,7 +354,54 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.7,
+      "expert_ratio": 0.75,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "synthetic data",
+      "mentions": 11,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Generative Synthetic Data for Causal Inference: Pitfalls, Remedies, and Opportunities",
+      "articles": [
+        {
+          "title": "Generative Synthetic Data for Causal Inference: Pitfalls, Remedies, and Opportunities",
+          "url": "https://arxiv.org/abs/2604.23904",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Escaping Model Collapse via Synthetic Data Verification: Near-term Improvements and Long-term Convergence",
+          "url": "https://arxiv.org/abs/2510.16657",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Fixed-Parameter Tractability of Private Synthetic Data Generation",
+          "url": "https://arxiv.org/abs/2606.11283",
+          "source": "stat.ML updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "deepmind",
+      "mentions": 17,
+      "velocity": 0.8,
+      "sources": [
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.73,
       "headline": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
       "articles": [
         {
@@ -544,13 +410,13 @@
           "source": "Hacker News"
         },
         {
-          "title": "Meet the philosopher inside Google DeepMind",
-          "url": "https://thenextweb.com/news/deepmind-philosopher-iason-gabriel-ai-ethics",
+          "title": "DeepMind’s Hassabis says a STEM degree makes you 10x better with AI",
+          "url": "https://thenextweb.com/news/hassabis-stem-degree-ai-computer-science",
           "source": "The Next Web"
         },
         {
-          "title": "Google DeepMind launched an AI biosecurity programme to fight biological threats",
-          "url": "https://thenextweb.com/news/deepmind-isomorphic-ai-biosecurity-bioresilience",
+          "title": "Meet the philosopher inside Google DeepMind",
+          "url": "https://thenextweb.com/news/deepmind-philosopher-iason-gabriel-ai-ethics",
           "source": "The Next Web"
         }
       ]
@@ -558,16 +424,17 @@
     {
       "keyword": "ai bubble",
       "mentions": 17,
-      "velocity": 1.1,
+      "velocity": 0.8,
       "sources": [
+        "articles",
         "arxiv",
         "hackernews",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
+      "expert_ratio": 0.87,
       "headline": "An AI critic is warning that OpenAI's failure would be the Lehman Brothers of the AI bubble",
       "articles": [
         {
@@ -586,73 +453,18 @@
           "source": "Bloomberg Technology"
         }
       ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 64,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "OpenAI admits GPT-5.6 occasionally deletes files – but it's an 'honest mistake'",
-      "articles": [
-        {
-          "title": "OpenAI admits GPT-5.6 occasionally deletes files – but it's an 'honest mistake'",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/16/openai-admits-gpt-56-occasionally-deletes-files-but-its-an-honest-mistake/5274008",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "reinforcement learning",
-      "mentions": 102,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
-      "articles": [
-        {
-          "title": "Similarity as Reward Alignment: Robust and Versatile Preference-based Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2506.12529",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Fully Offline Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2505.22442",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Reinforcement Learning in Switching Non-Stationary Markov Decision Processes: Algorithms and Convergence Analysis",
-          "url": "https://arxiv.org/abs/2503.18607",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 38,
+    "scored_predictions": 39,
     "covered": 23,
-    "coverage_rate": 0.605,
+    "coverage_rate": 0.59,
     "early": 9,
-    "early_rate": 0.237,
+    "early_rate": 0.231,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.605,
+    "hit_rate": 0.59,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
@@ -664,33 +476,33 @@
         "hit_rate": 0.909
       },
       "weak_signal": {
-        "scored": 16,
+        "scored": 17,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.188,
-        "early_rate": 0.125,
-        "hit_rate": 0.188
+        "coverage_rate": 0.176,
+        "early_rate": 0.118,
+        "hit_rate": 0.176
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 38,
+    "n": 39,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.632,
-      "early_rate": 0.237
+      "coverage_rate": 0.615,
+      "early_rate": 0.231
     },
     "null_mean": {
-      "coverage_rate": 0.643,
-      "early_rate": 0.254
+      "coverage_rate": 0.629,
+      "early_rate": 0.255
     },
     "p_value": {
-      "coverage_rate": 0.85,
-      "early_rate": 0.744
+      "coverage_rate": 0.877,
+      "early_rate": 0.782
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -740,6 +552,18 @@
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "kimi",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-20",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "chatbox",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-20",
+        "confidence": 0.2
+      },
       {
         "keyword": "deepmind",
         "signal_type": "emerging",
@@ -799,104 +623,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-07-15",
         "confidence": 1.0
-      },
-      {
-        "keyword": "glean",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-15",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-15",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "deepseek r1",
-        "recent_mentions": 13,
+        "recent_mentions": 17,
         "prior_mentions": 2,
-        "change_ratio": 6.5,
+        "change_ratio": 8.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "hermes-agent",
+        "keyword": "moonshot ai",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "voicebox",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "mcp tools",
-        "recent_mentions": 16,
-        "prior_mentions": 3,
-        "change_ratio": 5.33,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "kling",
-        "recent_mentions": 125,
-        "prior_mentions": 25,
-        "change_ratio": 5.0,
-        "corroborating_sources": 10
-      },
-      {
-        "keyword": "edge ai",
+        "keyword": "cerebras",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "mlx",
-        "recent_mentions": 29,
-        "prior_mentions": 6,
-        "change_ratio": 4.83,
-        "corroborating_sources": 3
+        "keyword": "h100",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "ai bubble",
-        "recent_mentions": 67,
-        "prior_mentions": 15,
-        "change_ratio": 4.47,
-        "corroborating_sources": 5
+        "keyword": "gamma",
+        "recent_mentions": 11,
+        "prior_mentions": 3,
+        "change_ratio": 3.67,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "resemble",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
+        "keyword": "kling",
+        "recent_mentions": 131,
+        "prior_mentions": 41,
+        "change_ratio": 3.2,
+        "corroborating_sources": 10
+      },
+      {
+        "keyword": "stable diffusion",
+        "recent_mentions": 27,
+        "prior_mentions": 9,
         "change_ratio": 3.0,
         "corroborating_sources": 2
       },
       {
         "keyword": "model context protocol",
-        "recent_mentions": 35,
-        "prior_mentions": 13,
-        "change_ratio": 2.69,
+        "recent_mentions": 53,
+        "prior_mentions": 18,
+        "change_ratio": 2.94,
         "corroborating_sources": 5
       },
       {
-        "keyword": "reasoning model",
-        "recent_mentions": 60,
-        "prior_mentions": 25,
-        "change_ratio": 2.4,
+        "keyword": "mlx",
+        "recent_mentions": 34,
+        "prior_mentions": 12,
+        "change_ratio": 2.83,
         "corroborating_sources": 3
       },
       {
-        "keyword": "dalle",
-        "recent_mentions": 7,
-        "prior_mentions": 3,
-        "change_ratio": 2.33,
-        "corroborating_sources": 1
+        "keyword": "notebooklm",
+        "recent_mentions": 27,
+        "prior_mentions": 10,
+        "change_ratio": 2.7,
+        "corroborating_sources": 4
       },
       {
-        "keyword": "ai code",
-        "recent_mentions": 43,
-        "prior_mentions": 20,
-        "change_ratio": 2.15,
-        "corroborating_sources": 4
+        "keyword": "ai bubble",
+        "recent_mentions": 70,
+        "prior_mentions": 26,
+        "change_ratio": 2.69,
+        "corroborating_sources": 5
       }
     ]
   }
