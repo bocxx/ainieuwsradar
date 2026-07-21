@@ -1,12 +1,78 @@
 {
-  "generated_at": "2026-07-20T19:22:03.921201",
-  "total_tracked": 4595,
+  "generated_at": "2026-07-21T07:16:49.018467",
+  "total_tracked": 4494,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "anthropic",
-      "mentions": 199,
-      "velocity": 11.4,
+      "keyword": "reinforcement learning",
+      "mentions": 287,
+      "velocity": 58.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Sign-SZPO: Provable Preference-based Reinforcement Learning with an Unknown Link Function",
+      "articles": [
+        {
+          "title": "Sign-SZPO: Provable Preference-based Reinforcement Learning with an Unknown Link Function",
+          "url": "https://arxiv.org/abs/2506.03066",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Full Bayesian Reinforcement Learning via LF-IBIS",
+          "url": "https://arxiv.org/abs/2607.01741",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "A Survey on the Verification of Reinforcement Learning Policies",
+          "url": "https://arxiv.org/abs/2607.16210",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 247,
+      "velocity": 51.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.87,
+      "headline": "A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
+      "articles": [
+        {
+          "title": "A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
+          "url": "https://arxiv.org/abs/2607.17205",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SOS-LoRA: Static Orthogonal-Subspace Low-Rank Adaptation with Fixed Multi-Scale Scaling",
+          "url": "https://arxiv.org/abs/2607.16252",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in ",
+          "url": "https://arxiv.org/abs/2607.16635",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 278,
+      "velocity": 41.0,
       "sources": [
         "articles",
         "arxiv",
@@ -18,213 +84,67 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Levent Alpöge, a mathematician who works at Anthropic, says he was able to disprove the 87-year-old Jacobian conjecture ",
+      "expert_ratio": 0.82,
+      "headline": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
       "articles": [
         {
-          "title": "Levent Alpöge, a mathematician who works at Anthropic, says he was able to disprove the 87-year-old Jacobian conjecture ",
-          "url": "https://www.techmeme.com/260720/p28#a260720p28",
-          "source": "Techmeme"
-        },
-        {
-          "title": "‘Parliament has not been immune to AI slop’: The EU is about to roll out its own AI platform — including tools from Open",
-          "url": "https://www.techradar.com/pro/parliament-has-not-been-immune-to-ai-slop-the-eu-is-about-to-roll-out-its-own-ai-platform-including-tools-from-openai-meta-anthropic-and-mistral",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Moonshot AI’s Kimi K3 Stuns Investors, Challenges Anthropic, OpenAI Lead",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-07-20/moonshot-ai-s-kimi-k3-stuns-investors-challenges-anthropic-openai-lead",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "kimi",
-      "mentions": 30,
-      "velocity": 6.2,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Une nouvelle IA fait trembler les géants : qui est Kimi K3, celle qui dépasse ChatGPT et Claude sur plusieurs tests ?",
-      "articles": [
-        {
-          "title": "Une nouvelle IA fait trembler les géants : qui est Kimi K3, celle qui dépasse ChatGPT et Claude sur plusieurs tests ?",
-          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-nouvelle-ia-fait-trembler-geants-kimi-k3-celle-depasse-chatgpt-claude-plusieurs-tests-136386/#xtor%3DRSS-8",
-          "source": "Les dernières actualités de Futura-Sciences"
-        },
-        {
-          "title": "What the New Kimi K3 Model Really Means for the U.S.-China AI Race",
-          "url": "https://www.theinformation.com/articles/new-kimi-k3-model-means-u-s-china-ai-race",
-          "source": "The Information"
-        },
-        {
-          "title": "Chinese open models like Kimi K3 and Qwen3.8 Max shift the industry's focus back to marginal costs and cost of goods sol",
-          "url": "https://www.techmeme.com/260720/p16#a260720p16",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 54,
-      "velocity": 5.5,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 171,
-      "velocity": 4.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "Google is building a chip with Gemini baked into the silicon",
-      "articles": [
-        {
-          "title": "Google is building a chip with Gemini baked into the silicon",
-          "url": "https://thenextweb.com/news/google-frozen-chip-gemini-silicon",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google Frozen V2: il chip Gemini sarebbe fino a 10 volte più efficiente delle TPU",
-          "url": "https://www.tomshw.it/hardware/google-frozen-v2-il-chip-gemini-sarebbe-fino-a-10-volte-piu",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Sources: Google is developing a specialized server chip, informally dubbed \"Frozen v2\", that integrates its Gemini AI mo",
-          "url": "https://www.techmeme.com/260720/p19#a260720p19",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "foundation model",
-      "mentions": 43,
-      "velocity": 3.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "Map as a Prompt: Learning Multi-Modal Spatial-Signal Foundation Models for Cross-scenario Wireless Localization",
-      "articles": [
-        {
-          "title": "Map as a Prompt: Learning Multi-Modal Spatial-Signal Foundation Models for Cross-scenario Wireless Localization",
-          "url": "https://arxiv.org/abs/2607.15713",
+          "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
+          "url": "https://arxiv.org/abs/2607.16204",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Revisiting data-driven dynamic security assessment with a tabular foundation model",
-          "url": "https://arxiv.org/abs/2607.16031",
+          "title": "SAGA: Synthetic Agentic Graph Architecture for Temporal Benchmark Generation",
+          "url": "https://arxiv.org/abs/2607.17288",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "FAIR_XAI: Improving Multimodal Foundation Model Fairness via Explainability for Wellbeing Assessment",
-          "url": "https://arxiv.org/abs/2604.23786",
+          "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategies Refinement in E-Commerce Recommendation",
+          "url": "https://arxiv.org/abs/2607.17719",
           "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "notebooklm",
-      "mentions": 13,
-      "velocity": 2.6,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.0,
-      "headline": "NotebookLM krijgt een nieuwe naam: Gemini Notebook",
-      "articles": [
-        {
-          "title": "NotebookLM krijgt een nieuwe naam: Gemini Notebook",
-          "url": "https://tweakers.net/nieuws/250136/notebooklm-krijgt-een-nieuwe-naam-gemini-notebook.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Google renames NotebookLM to Gemini Notebook and expands code execution to Pro users",
-          "url": "https://thenextweb.com/news/google-notebooklm-gemini-notebook-rebrand",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google renames NotebookLM to Gemini Notebook and rolls out an update giving every notebook a secure cloud computer, lett",
-          "url": "https://www.techmeme.com/260716/p41#a260716p41",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "suno",
-      "mentions": 10,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 12,
-      "expert_ratio": 0.0,
-      "headline": "I hate that I don’t hate this song made with Suno",
-      "articles": [
-        {
-          "title": "I hate that I don’t hate this song made with Suno",
-          "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
-          "source": "The Verge -  Artificial Intelligences"
-        },
-        {
-          "title": "Suno trained its AI on millions of songs from YouTube Music, Deezer and other sites, new hack reveals — and critics have",
-          "url": "https://www.techradar.com/ai-platforms-assistants/suno-trained-its-ai-on-millions-of-songs-from-youtube-music-deezer-and-other-sites-new-hack-reveals-and-critics-have-branded-it-staggering-theft",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "A hacker claims to have accessed Suno user info and source code, showing how it scraped music; Suno says no sensitive in",
-          "url": "https://www.techmeme.com/260716/p35#a260716p35",
-          "source": "Techmeme"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "qwen",
-      "mentions": 79,
-      "velocity": 3.8,
+      "keyword": "anthropic",
+      "mentions": 205,
+      "velocity": 9.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "Anthropic’s landmark $1.5B copyright settlement is approved",
+      "articles": [
+        {
+          "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
+          "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Judge approves Anthropic's $1.5B settlement with authors, the first major US case of its kind to settle; some authors op",
+          "url": "https://www.techmeme.com/260720/p39#a260720p39",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI and Anthropic Are (Still) Beefing",
+          "url": "https://www.nytimes.com/video/podcasts/100000011042584/openai-and-anthropic-are-still-beefing.html",
+          "source": "Artificial Intelligence Special Report"
+        }
+      ]
+    },
+    {
+      "keyword": "github",
+      "mentions": 104,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "arxiv",
@@ -234,25 +154,9 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "Alibaba’s Qwen Unveils Preview of Flagship AI Model",
-      "articles": [
-        {
-          "title": "Alibaba’s Qwen Unveils Preview of Flagship AI Model",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-19/alibaba-s-qwen-unveils-preview-of-flagship-ai-model?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
-        },
-        {
-          "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
-          "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Alibaba stock jumps 4% after Qwen is approved to run Apple Intelligence in China",
-          "url": "https://thenextweb.com/news/alibaba-qwen-apple-intelligence-china-approved",
-          "source": "The Next Web"
-        }
-      ]
+      "expert_ratio": 0.42,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "sonicwall",
@@ -270,43 +174,24 @@
       "articles": []
     },
     {
-      "keyword": "model context protocol",
-      "mentions": 16,
-      "velocity": 2.4,
+      "keyword": "claude code",
+      "mentions": 48,
+      "velocity": 2.0,
       "sources": [
         "articles",
-        "arxiv",
-        "linkedin"
+        "hackernews",
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.58,
-      "headline": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
-      "articles": [
-        {
-          "title": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Acr",
-          "url": "https://arxiv.org/abs/2607.05744",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "diffusiongemma",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
     {
       "keyword": "posthog",
       "mentions": 2,
@@ -328,11 +213,56 @@
       ]
     },
     {
-      "keyword": "moes",
+      "keyword": "keybanc",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
-        "arxiv"
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Salesforce's Agentforce isn't winning over clients, KeyBanc analysts claim",
+      "articles": [
+        {
+          "title": "Salesforce's Agentforce isn't winning over clients, KeyBanc analysts claim",
+          "url": "https://www.theregister.com/saas/2026/07/15/salesforces-agentforce-isnt-winning-over-clients-keybanc-analysts-claim/5271866",
+          "source": "The Register"
+        },
+        {
+          "title": "Apple Gets Rare Bear Rating as KeyBanc Downgrades on Demand Risk",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-14/apple-gets-rare-bear-rating-as-keybanc-downgrades-on-demand-risk",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "block",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "OneDrive will block screenshots of sensitive documents, but only in Microsoft’s own browser.",
+      "articles": [
+        {
+          "title": "OneDrive will block screenshots of sensitive documents, but only in Microsoft’s own browser.",
+          "url": "https://thenextweb.com/news/microsoft-edge-screenshot-blocking-sensitive-pdfs",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "sakana ai",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
       ],
       "source_count": 1,
       "confidence": 61,
@@ -372,31 +302,6 @@
       ]
     },
     {
-      "keyword": "keybanc",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Salesforce's Agentforce isn't winning over clients, KeyBanc analysts claim",
-      "articles": [
-        {
-          "title": "Salesforce's Agentforce isn't winning over clients, KeyBanc analysts claim",
-          "url": "https://www.theregister.com/saas/2026/07/15/salesforces-agentforce-isnt-winning-over-clients-keybanc-analysts-claim/5271866",
-          "source": "The Register"
-        },
-        {
-          "title": "Apple Gets Rare Bear Rating as KeyBanc Downgrades on Demand Risk",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-14/apple-gets-rare-bear-rating-as-keybanc-downgrades-on-demand-risk",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
       "keyword": "mastercard",
       "mentions": 2,
       "velocity": 1.0,
@@ -417,26 +322,89 @@
       ]
     },
     {
-      "keyword": "fable5",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
+      "keyword": "explainability",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Feature Attribution-Based Explainability Analysis of Deep Learning Models in Predictive Process Monitoring",
+      "articles": [
+        {
+          "title": "Feature Attribution-Based Explainability Analysis of Deep Learning Models in Predictive Process Monitoring",
+          "url": "https://arxiv.org/abs/2607.17783",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "FAIR_XAI: Improving Multimodal Foundation Model Fairness via Explainability for Wellbeing Assessment",
+          "url": "https://arxiv.org/abs/2604.23786",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Position: Explainability Research Must Prioritize Foundations over Ad-hoc Methods",
+          "url": "https://arxiv.org/abs/2607.14123",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "local ai",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 73,
+      "days_active": 5,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
+      "headline": "Colibrì proof-of-concept gains frontier-level 1.5-TB AI model — novel approach runs on only 25GB of RAM and shows promis",
+      "articles": [
+        {
+          "title": "Colibrì proof-of-concept gains frontier-level 1.5-TB AI model — novel approach runs on only 25GB of RAM and shows promis",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Build Your Own 100% Local AI Second Brain",
+          "url": "https://www.dailydoseofds.com/p/build-your-own-100-local-ai-second-brain/",
+          "source": "Daily Dose of Data Science"
+        }
+      ]
+    },
+    {
+      "keyword": "arxiv",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 7,
+      "expert_ratio": 0.85,
+      "headline": "Whoops! Most arXiv papers contain information never meant to be shared",
+      "articles": [
+        {
+          "title": "Whoops! Most arXiv papers contain information never meant to be shared",
+          "url": "https://www.nature.com/articles/d41586-026-02057-8",
+          "source": "Nature - Issue - nature.com science feeds"
+        }
+      ]
     },
     {
       "keyword": "mythos",
       "mentions": 2,
-      "velocity": 1.0,
+      "velocity": 0.4,
       "sources": [],
       "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
       "headline": "'You're giving ballistic ⁠missiles to individuals with Mythos': JPMorgan CEO Jamie Dimon says Anthropic's AI model poses",
       "articles": [
         {
@@ -455,63 +423,160 @@
           "source": "Techmeme"
         }
       ]
-    },
-    {
-      "keyword": "explainability",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "FAIR_XAI: Improving Multimodal Foundation Model Fairness via Explainability for Wellbeing Assessment",
-      "articles": [
-        {
-          "title": "FAIR_XAI: Improving Multimodal Foundation Model Fairness via Explainability for Wellbeing Assessment",
-          "url": "https://arxiv.org/abs/2604.23786",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Position: Explainability Research Must Prioritize Foundations over Ad-hoc Methods",
-          "url": "https://arxiv.org/abs/2607.14123",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Towards a Unified Multidimensional Explainability Metric: Evaluating Trustworthiness in AI Models",
-          "url": "https://arxiv.org/abs/2607.14315",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "block",
-      "mentions": 2,
-      "velocity": 0.6,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "OneDrive will block screenshots of sensitive documents, but only in Microsoft’s own browser.",
-      "articles": [
-        {
-          "title": "OneDrive will block screenshots of sensitive documents, but only in Microsoft’s own browser.",
-          "url": "https://thenextweb.com/news/microsoft-edge-screenshot-blocking-sensitive-pdfs",
-          "source": "The Next Web"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "github",
-      "mentions": 97,
+      "keyword": "vision language model",
+      "mentions": 12,
+      "velocity": 1.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "Contextualized Evaluation of Vision Language Models through Dynamic, Multi-turn Interactions",
+      "articles": [
+        {
+          "title": "Contextualized Evaluation of Vision Language Models through Dynamic, Multi-turn Interactions",
+          "url": "https://arxiv.org/abs/2607.14499",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "HIVE: Understanding Post-Hallucination Reasoning in Vision Language Models",
+          "url": "https://arxiv.org/abs/2607.07507",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Evaluating and Understanding Model Editing for Medical Vision Language Models",
+          "url": "https://arxiv.org/abs/2607.05310",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 50,
+      "velocity": 1.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.57,
+      "headline": "A Phased Development Framework Enabling Islanded Operation of Sustainable AI Data Centers With Onsite Grid-Following and",
+      "articles": [
+        {
+          "title": "A Phased Development Framework Enabling Islanded Operation of Sustainable AI Data Centers With Onsite Grid-Following and",
+          "url": "https://arxiv.org/abs/2607.17391",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "NEXTDC Shares Jump After Data Center Operator Wins New Contracts",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-21/nextdc-shares-jump-after-data-center-operator-wins-new-contracts",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "70% of Americans don’t want data centers built nearby, but the government is seizing private property to force construct",
+          "url": "https://www.techradar.com/pro/70-percent-of-americans-dont-want-data-centers-built-nearby-but-the-government-is-seizing-private-property-to-force-construction-to-start",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-4",
+      "mentions": 21,
       "velocity": 1.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+      "articles": [
+        {
+          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+          "url": "https://arxiv.org/abs/2607.15509",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "notebooklm",
+      "mentions": 12,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.0,
+      "headline": "NotebookLM krijgt een nieuwe naam: Gemini Notebook",
+      "articles": [
+        {
+          "title": "NotebookLM krijgt een nieuwe naam: Gemini Notebook",
+          "url": "https://tweakers.net/nieuws/250136/notebooklm-krijgt-een-nieuwe-naam-gemini-notebook.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Google renames NotebookLM to Gemini Notebook and expands code execution to Pro users",
+          "url": "https://thenextweb.com/news/google-notebooklm-gemini-notebook-rebrand",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google renames NotebookLM to Gemini Notebook and rolls out an update giving every notebook a secure cloud computer, lett",
+          "url": "https://www.techmeme.com/260716/p41#a260716p41",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "ai code",
+      "mentions": 13,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Line-Anchored Feedback Cuts Token Costs and Improves Correctness in AI Code Editing",
+      "articles": [
+        {
+          "title": "Line-Anchored Feedback Cuts Token Costs and Improves Correctness in AI Code Editing",
+          "url": "https://arxiv.org/abs/2607.12713",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Understanding the Impact of AI Code Assistants on Security API Usage: An Empirical Study",
+          "url": "https://arxiv.org/abs/2607.11348",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "deepmind",
+      "mentions": 18,
+      "velocity": 0.8,
       "sources": [
         "articles",
         "arxiv",
@@ -521,115 +586,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.42,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "distillation",
-      "mentions": 40,
-      "velocity": 1.7,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "On the Failure of Boundary-Seeking Distillation in Bottlenecked Generative Architectures",
-      "articles": [
-        {
-          "title": "On the Failure of Boundary-Seeking Distillation in Bottlenecked Generative Architectures",
-          "url": "https://arxiv.org/abs/2607.15919",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "UCOB: Learning to Utilize and Evolve Agentic Skills via Credit-Aware On-Policy Bidirectional Self-Distillation",
-          "url": "https://arxiv.org/abs/2606.29502",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models",
-          "url": "https://arxiv.org/abs/2603.01875",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "lora",
-      "mentions": 80,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
-      "articles": [
-        {
-          "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
-          "url": "https://github.com/Saivineeth147/lora-speedrun",
-          "source": "Hacker News"
-        },
-        {
-          "title": "ReLope: KL-Regularized LoRA Probes for Multimodal LLM Routing",
-          "url": "https://arxiv.org/abs/2603.24787",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "PFAdapter: Hierarchical LoRA Decomposition for Personalized Federated MLLMs",
-          "url": "https://arxiv.org/abs/2607.12111",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "voice ai",
-      "mentions": 14,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "RW-Voice-EQ Bench: A Real World Benchmark for Evaluating Voice AI Systems",
-      "articles": [
-        {
-          "title": "RW-Voice-EQ Bench: A Real World Benchmark for Evaluating Voice AI Systems",
-          "url": "https://arxiv.org/abs/2607.14846",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-          "url": "https://huggingface.co/blog/real-world-voiceeq",
-          "source": "Hugging Face Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "deepmind",
-      "mentions": 18,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.73,
+      "expert_ratio": 0.76,
       "headline": "A $400M nonprofit backed by France and DeepMind is building AI’s ‘public option’",
       "articles": [
         {
@@ -648,41 +605,18 @@
           "source": "The Next Web"
         }
       ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 65,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-      "articles": [
-        {
-          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-          "url": "https://arxiv.org/abs/2607.15509",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 39,
+    "scored_predictions": 40,
     "covered": 23,
-    "coverage_rate": 0.59,
+    "coverage_rate": 0.575,
     "early": 9,
-    "early_rate": 0.231,
+    "early_rate": 0.225,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.59,
+    "hit_rate": 0.575,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
@@ -694,33 +628,33 @@
         "hit_rate": 0.909
       },
       "weak_signal": {
-        "scored": 17,
+        "scored": 18,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.176,
-        "early_rate": 0.118,
-        "hit_rate": 0.176
+        "coverage_rate": 0.167,
+        "early_rate": 0.111,
+        "hit_rate": 0.167
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 39,
+    "n": 40,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.615,
-      "early_rate": 0.231
+      "coverage_rate": 0.6,
+      "early_rate": 0.225
     },
     "null_mean": {
-      "coverage_rate": 0.629,
-      "early_rate": 0.255
+      "coverage_rate": 0.612,
+      "early_rate": 0.248
     },
     "p_value": {
-      "coverage_rate": 0.877,
-      "early_rate": 0.782
+      "coverage_rate": 0.866,
+      "early_rate": 0.789
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -771,6 +705,24 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "qwen",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-21",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "model context protocol",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-21",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "sakana ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-21",
+        "confidence": 0.2
+      },
+      {
         "keyword": "kimi",
         "signal_type": "emerging",
         "flagged_on": "2026-07-20",
@@ -783,13 +735,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "ai bubble",
+        "keyword": "deepmind",
         "signal_type": "emerging",
         "flagged_on": "2026-07-19",
         "confidence": 0.6
       },
       {
-        "keyword": "deepmind",
+        "keyword": "ai bubble",
         "signal_type": "emerging",
         "flagged_on": "2026-07-19",
         "confidence": 0.6
@@ -823,110 +775,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-07-16",
         "confidence": 1.0
-      },
-      {
-        "keyword": "data centers",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-16",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "context length",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-16",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-15",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "deepseek r1",
-        "recent_mentions": 17,
-        "prior_mentions": 2,
-        "change_ratio": 8.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "moonshot ai",
-        "recent_mentions": 7,
+        "keyword": "inflection",
+        "recent_mentions": 9,
         "prior_mentions": 1,
-        "change_ratio": 7.0,
+        "change_ratio": 9.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "voicebox",
+        "keyword": "kimi",
+        "recent_mentions": 134,
+        "prior_mentions": 17,
+        "change_ratio": 7.88,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "edge ai",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "stability ai",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "h100",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
+        "keyword": "moonshot ai",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
+        "change_ratio": 5.0,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "deepseek r1",
+        "recent_mentions": 20,
+        "prior_mentions": 4,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "gamma",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
-        "change_ratio": 3.67,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "kling",
-        "recent_mentions": 129,
-        "prior_mentions": 41,
-        "change_ratio": 3.15,
-        "corroborating_sources": 10
-      },
-      {
-        "keyword": "mlx",
-        "recent_mentions": 34,
-        "prior_mentions": 12,
-        "change_ratio": 2.83,
-        "corroborating_sources": 3
-      },
-      {
         "keyword": "notebooklm",
-        "recent_mentions": 27,
-        "prior_mentions": 10,
-        "change_ratio": 2.7,
+        "recent_mentions": 38,
+        "prior_mentions": 8,
+        "change_ratio": 4.75,
         "corroborating_sources": 4
       },
       {
         "keyword": "resemble",
-        "recent_mentions": 8,
-        "prior_mentions": 3,
-        "change_ratio": 2.67,
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "stable diffusion",
-        "recent_mentions": 23,
-        "prior_mentions": 9,
-        "change_ratio": 2.56,
+        "keyword": "claude haiku",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "rlhf",
+        "recent_mentions": 32,
+        "prior_mentions": 11,
+        "change_ratio": 2.91,
         "corroborating_sources": 2
       },
       {
-        "keyword": "ai bubble",
-        "recent_mentions": 65,
-        "prior_mentions": 26,
-        "change_ratio": 2.5,
-        "corroborating_sources": 5
+        "keyword": "quantization",
+        "recent_mentions": 112,
+        "prior_mentions": 40,
+        "change_ratio": 2.8,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "kimi",
-        "recent_mentions": 59,
-        "prior_mentions": 24,
-        "change_ratio": 2.46,
-        "corroborating_sources": 5
+        "keyword": "small language model",
+        "recent_mentions": 39,
+        "prior_mentions": 14,
+        "change_ratio": 2.79,
+        "corroborating_sources": 2
       }
     ]
   }
