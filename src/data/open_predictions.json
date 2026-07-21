@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-21T05:37:16+00:00",
+  "generated_at": "2026-07-21T17:42:00+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 70,
+    "open": 71,
     "resolved": 31,
     "hits": 23,
     "misses": 8,
@@ -124,18 +124,18 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-14",
+      "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-22",
-      "lead_days": 39,
+      "lead_days": 15,
       "outlet": "Nature"
     },
     {
       "keyword": "qwen",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-04-03",
       "resolved_on": "2026-04-10",
-      "lead_days": 3,
+      "lead_days": 7,
       "outlet": "Techmeme"
     },
     {
@@ -166,7 +166,7 @@
       "outlet": "The Register"
     },
     {
-      "keyword": "benchmarks",
+      "keyword": "benchmark",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-07",
@@ -193,6 +193,15 @@
       "outlet": "Tweakers"
     },
     {
+      "keyword": "benchmarks",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
+    },
+    {
       "keyword": "data center",
       "signal_type": "emerging",
       "status": "hit",
@@ -200,15 +209,6 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Techmeme"
-    },
-    {
-      "keyword": "benchmark",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
     }
   ]
 }

@@ -1,44 +1,94 @@
 {
-  "generated_at": "2026-07-21T07:16:49.018467",
-  "total_tracked": 4494,
+  "generated_at": "2026-07-21T19:24:17.242499",
+  "total_tracked": 4581,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 287,
-      "velocity": 58.0,
+      "keyword": "kimi",
+      "mentions": 79,
+      "velocity": 19.1,
       "sources": [
         "articles",
-        "arxiv",
-        "linkedin"
+        "hackernews",
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Sign-SZPO: Provable Preference-based Reinforcement Learning with an Unknown Link Function",
+      "expert_ratio": 0.0,
+      "headline": "Kimi K3 rocks the AI industry as Moonshot AI undercuts closed-source American competitors on price — but the huge 2.8T o",
       "articles": [
         {
-          "title": "Sign-SZPO: Provable Preference-based Reinforcement Learning with an Unknown Link Function",
-          "url": "https://arxiv.org/abs/2506.03066",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Kimi K3 rocks the AI industry as Moonshot AI undercuts closed-source American competitors on price — but the huge 2.8T o",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/kimi-k3-rocks-the-ai-industry-as-moonshot-ai-undercuts-closed-source-american-competitors-on-price-but-the-huge-2-8t-open-weight-model-still-needs-serious-hardware-to-deploy-at-scale",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Full Bayesian Reinforcement Learning via LF-IBIS",
-          "url": "https://arxiv.org/abs/2607.01741",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Sources: after it closes a round at a $31.5B valuation, Moonshot plans a final raise at a $50B valuation to capitalize o",
+          "url": "https://www.techmeme.com/260721/p23#a260721p23",
+          "source": "Techmeme"
         },
         {
-          "title": "A Survey on the Verification of Reinforcement Learning Policies",
-          "url": "https://arxiv.org/abs/2607.16210",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Kimi K3 marks the arrival of frontier open-weight models; the core Kimi team has incredible culture and a freedom to exp",
+          "url": "https://www.techmeme.com/260721/p11#a260721p11",
+          "source": "Techmeme"
         }
       ]
     },
     {
+      "keyword": "anthropic",
+      "mentions": 228,
+      "velocity": 16.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "Tech Weekly: Anthropic's settlement; defense firms dominate air show",
+      "articles": [
+        {
+          "title": "Tech Weekly: Anthropic's settlement; defense firms dominate air show",
+          "url": "https://www.youtube.com/watch?v=-mq3J2Yxt2g",
+          "source": "Reuters"
+        },
+        {
+          "title": "Anthropic hit with largest-ever $1.5 billion penalty in copyright lawsuit — court says training AI on published material",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-slapped-with-usd1-5-billion-settlement-in-copyright-lawsuit-largest-payout-ever-court-says-that-training-ai-on-books-other-publications-is-fair-use-but-ruled-that-the-startups-7-million-book-pirated-library-infringes-authors-rights",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 571,
+      "velocity": 10.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "lora",
-      "mentions": 247,
-      "velocity": 51.5,
+      "mentions": 103,
+      "velocity": 8.0,
       "sources": [
         "articles",
         "arxiv",
@@ -49,7 +99,7 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
+      "expert_ratio": 0.86,
       "headline": "A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
       "articles": [
         {
@@ -70,81 +120,42 @@
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 278,
-      "velocity": 41.0,
+      "keyword": "nvidia",
+      "mentions": 98,
+      "velocity": 7.2,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 6,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
+      "expert_ratio": 0.79,
+      "headline": "Nvidia details its Vera CPU, its first CPU with a custom core design, featuring 88 cores and 176 threads, and set for ge",
       "articles": [
         {
-          "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
-          "url": "https://arxiv.org/abs/2607.16204",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SAGA: Synthetic Agentic Graph Architecture for Temporal Benchmark Generation",
-          "url": "https://arxiv.org/abs/2607.17288",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategies Refinement in E-Commerce Recommendation",
-          "url": "https://arxiv.org/abs/2607.17719",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "anthropic",
-      "mentions": 205,
-      "velocity": 9.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Anthropic’s landmark $1.5B copyright settlement is approved",
-      "articles": [
-        {
-          "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
-          "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Judge approves Anthropic's $1.5B settlement with authors, the first major US case of its kind to settle; some authors op",
-          "url": "https://www.techmeme.com/260720/p39#a260720p39",
+          "title": "Nvidia details its Vera CPU, its first CPU with a custom core design, featuring 88 cores and 176 threads, and set for ge",
+          "url": "https://www.techmeme.com/260721/p28#a260721p28",
           "source": "Techmeme"
         },
         {
-          "title": "OpenAI and Anthropic Are (Still) Beefing",
-          "url": "https://www.nytimes.com/video/podcasts/100000011042584/openai-and-anthropic-are-still-beefing.html",
-          "source": "Artificial Intelligence Special Report"
+          "title": "NVIDIA Vera Rubin è in produzione: primi sistemi dall’autunno 2026",
+          "url": "https://www.tomshw.it/hardware/nvidia-vera-rubin-e-in-produzione-primi-sistemi-dall-autunno-2026",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Behind the scenes at Nvidia's Engineering SuperLab — Vera Rubin NVL72 running OpenAI workloads, 800VDC demonstrated, and",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/behind-the-scenes-at-nvidias-engineering-superlab-vera-rubin-nvl72-running-openai-workloads-800vdc-demonstrated-and-more",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "github",
-      "mentions": 104,
-      "velocity": 3.4,
+      "keyword": "qwen",
+      "mentions": 89,
+      "velocity": 5.6,
       "sources": [
         "articles",
         "arxiv",
@@ -154,9 +165,117 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.42,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.91,
+      "headline": "Alibaba’s Qwen Unveils Preview of Flagship AI Model",
+      "articles": [
+        {
+          "title": "Alibaba’s Qwen Unveils Preview of Flagship AI Model",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-19/alibaba-s-qwen-unveils-preview-of-flagship-ai-model?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
+          "source": "Technology readings"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 60,
+      "velocity": 4.9,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.56,
+      "headline": "Amazon data center in Bahrain struck and destroyed by Iranian cruise missiles, state media claims — attacks launched aga",
+      "articles": [
+        {
+          "title": "Amazon data center in Bahrain struck and destroyed by Iranian cruise missiles, state media claims — attacks launched aga",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-data-center-in-bahrain-struck-and-destroyed-by-iranian-cruise-missiles-state-media-claims-attacks-launched-against-aws-site-in-response-to-alleged-us-strikes-on-an-under-construction-nuclear-plant",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Intel plans layoffs within its data center group",
+          "url": "https://www.businessinsider.com/intel-layoffs-data-center-group-2026-7",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "Electricians are training for an AI data center boom that may be over by graduation",
+          "url": "https://qz.com/apprentice-electrician-data-center-timing-gap-071026",
+          "source": "Quartz"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "gemini",
+      "mentions": 180,
+      "velocity": 6.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.75,
+      "headline": "Google launches Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, and says it has started its \"most ambitious pre-t",
+      "articles": [
+        {
+          "title": "Google launches Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, and says it has started its \"most ambitious pre-t",
+          "url": "https://www.techmeme.com/260721/p29#a260721p29",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Google says Gemini 3.6 Flash delivers better coding, knowledge work, and multimodal performance while reducing output to",
+          "url": "https://www.techmeme.com/260721/p30#a260721p30",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Google says Gemini 3.5 Flash Cyber is a \"cost-efficient and highly capable alternative\" to models like Mythos, available",
+          "url": "https://www.techmeme.com/260721/p26#a260721p26",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "foundation model",
+      "mentions": 48,
+      "velocity": 3.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "Docs: AI data startup Mercor had $614M in gross revenue in H1 2026, up 70% from all of 2025, with ~91% from foundation m",
+      "articles": [
+        {
+          "title": "Docs: AI data startup Mercor had $614M in gross revenue in H1 2026, up 70% from all of 2025, with ~91% from foundation m",
+          "url": "https://www.techmeme.com/260721/p22#a260721p22",
+          "source": "Techmeme"
+        },
+        {
+          "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Anal",
+          "url": "https://arxiv.org/abs/2607.18218",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Do Maps Still Matter for Machines: Revisiting the Role of Choropleth Maps in Foundation Model Spatial Understanding",
+          "url": "https://arxiv.org/abs/2607.17999",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
       "keyword": "sonicwall",
@@ -174,24 +293,54 @@
       "articles": []
     },
     {
-      "keyword": "claude code",
-      "mentions": 48,
-      "velocity": 2.0,
+      "keyword": "github",
+      "mentions": 101,
+      "velocity": 2.5,
       "sources": [
         "articles",
+        "arxiv",
         "hackernews",
-        "linkedin",
-        "twitter"
+        "linkedin"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.42,
+      "headline": "Onuitgebracht model van OpenAI vond een lek om op GitHub te kunnen posten",
+      "articles": [
+        {
+          "title": "Onuitgebracht model van OpenAI vond een lek om op GitHub te kunnen posten",
+          "url": "https://tweakers.net/nieuws/250238/onuitgebracht-model-van-openai-vond-een-lek-om-op-github-te-kunnen-posten.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "GitHub says individuals and orgs have invested $100M+ in open source maintainers and projects via GitHub Sponsors since ",
+          "url": "https://www.techmeme.com/260721/p3#a260721p3",
+          "source": "Techmeme"
+        },
+        {
+          "title": "An OpenAI model posted internal company data publicly on GitHub.",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/968209/an-openai-model-posted-internal-company-data-publicly-on-github?utm_source=flipboard&utm_content=topic/technology",
+          "source": "Artificial Intelligence"
+        }
+      ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "chandra",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "",
+      "articles": []
+    },
     {
       "keyword": "posthog",
       "mentions": 2,
@@ -209,6 +358,26 @@
           "title": "PostHog Open Sourced",
           "url": "https://github.com/PostHog/posthog-foss",
           "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "mastercard",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
+      "articles": [
+        {
+          "title": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
+          "url": "https://www.techradar.com/vpn/vpn-services/nordvpn-is-now-part-of-mastercards-lifestyle-perks-find-out-if-you-are-eligible",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
@@ -234,26 +403,6 @@
           "title": "Apple Gets Rare Bear Rating as KeyBanc Downgrades on Demand Risk",
           "url": "https://www.bloomberg.com/news/articles/2026-07-14/apple-gets-rare-bear-rating-as-keybanc-downgrades-on-demand-risk",
           "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "block",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "OneDrive will block screenshots of sensitive documents, but only in Microsoft’s own browser.",
-      "articles": [
-        {
-          "title": "OneDrive will block screenshots of sensitive documents, but only in Microsoft’s own browser.",
-          "url": "https://thenextweb.com/news/microsoft-edge-screenshot-blocking-sensitive-pdfs",
-          "source": "The Next Web"
         }
       ]
     },
@@ -302,7 +451,7 @@
       ]
     },
     {
-      "keyword": "mastercard",
+      "keyword": "block",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -311,13 +460,18 @@
       "source_count": 1,
       "confidence": 61,
       "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
+      "expert_ratio": 1.0,
+      "headline": "Market Talk: 'Severe oil supply shortages' possible if Houthis block Red Sea",
       "articles": [
         {
-          "title": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
-          "url": "https://www.techradar.com/vpn/vpn-services/nordvpn-is-now-part-of-mastercards-lifestyle-perks-find-out-if-you-are-eligible",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Market Talk: 'Severe oil supply shortages' possible if Houthis block Red Sea",
+          "url": "https://www.youtube.com/watch?v=NCtEbSCxsRo",
+          "source": "Reuters"
+        },
+        {
+          "title": "A Washington judge grants a request to temporarily block Kalshi from offering sports-related bets in the state, citing a",
+          "url": "https://www.techmeme.com/260721/p7#a260721p7",
+          "source": "Techmeme"
         }
       ]
     },
@@ -352,29 +506,18 @@
       ]
     },
     {
-      "keyword": "local ai",
+      "keyword": "cloakbrowser",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.6,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 73,
-      "days_active": 5,
-      "expert_ratio": 0.67,
-      "headline": "Colibrì proof-of-concept gains frontier-level 1.5-TB AI model — novel approach runs on only 25GB of RAM and shows promis",
-      "articles": [
-        {
-          "title": "Colibrì proof-of-concept gains frontier-level 1.5-TB AI model — novel approach runs on only 25GB of RAM and shows promis",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Build Your Own 100% Local AI Second Brain",
-          "url": "https://www.dailydoseofds.com/p/build-your-own-100-local-ai-second-brain/",
-          "source": "Daily Dose of Data Science"
-        }
-      ]
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "arxiv",
@@ -395,41 +538,36 @@
           "source": "Nature - Issue - nature.com science feeds"
         }
       ]
-    },
-    {
-      "keyword": "mythos",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "'You're giving ballistic ⁠missiles to individuals with Mythos': JPMorgan CEO Jamie Dimon says Anthropic's AI model poses",
-      "articles": [
-        {
-          "title": "'You're giving ballistic ⁠missiles to individuals with Mythos': JPMorgan CEO Jamie Dimon says Anthropic's AI model poses",
-          "url": "https://www.techradar.com/pro/youre-giving-ballistic-missiles-to-individuals-with-mythos-jpmorgan-ceo-jamie-dimon-says-anthropics-ai-model-poses-some-serious-risks",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "'Microsoft werkt aan eigen Mythos-concurrent voor opsporen en fixen van bugs'",
-          "url": "https://tweakers.net/nieuws/250180/microsoft-werkt-aan-eigen-mythos-concurrent-voor-opsporen-en-fixen-van-bugs.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Source: Microsoft plans to release an AI security tool this month using models from Anthropic, OpenAI, and itself, as a ",
-          "url": "https://www.techmeme.com/260716/p68#a260716p68",
-          "source": "Techmeme"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "vision language model",
+      "keyword": "gpt-5",
+      "mentions": 69,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.89,
+      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+      "articles": [
+        {
+          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+          "url": "https://arxiv.org/abs/2607.15509",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "bolt",
       "mentions": 12,
-      "velocity": 1.9,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "arxiv",
@@ -438,79 +576,13 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "Contextualized Evaluation of Vision Language Models through Dynamic, Multi-turn Interactions",
+      "expert_ratio": 0.35,
+      "headline": "Axos buys AI fintech Arc Technologies to bolt modern software onto a bank",
       "articles": [
         {
-          "title": "Contextualized Evaluation of Vision Language Models through Dynamic, Multi-turn Interactions",
-          "url": "https://arxiv.org/abs/2607.14499",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "HIVE: Understanding Post-Hallucination Reasoning in Vision Language Models",
-          "url": "https://arxiv.org/abs/2607.07507",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Evaluating and Understanding Model Editing for Medical Vision Language Models",
-          "url": "https://arxiv.org/abs/2607.05310",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 50,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.57,
-      "headline": "A Phased Development Framework Enabling Islanded Operation of Sustainable AI Data Centers With Onsite Grid-Following and",
-      "articles": [
-        {
-          "title": "A Phased Development Framework Enabling Islanded Operation of Sustainable AI Data Centers With Onsite Grid-Following and",
-          "url": "https://arxiv.org/abs/2607.17391",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "NEXTDC Shares Jump After Data Center Operator Wins New Contracts",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-21/nextdc-shares-jump-after-data-center-operator-wins-new-contracts",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "70% of Americans don’t want data centers built nearby, but the government is seizing private property to force construct",
-          "url": "https://www.techradar.com/pro/70-percent-of-americans-dont-want-data-centers-built-nearby-but-the-government-is-seizing-private-property-to-force-construction-to-start",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-4",
-      "mentions": 21,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-      "articles": [
-        {
-          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-          "url": "https://arxiv.org/abs/2607.15509",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Axos buys AI fintech Arc Technologies to bolt modern software onto a bank",
+          "url": "https://thenextweb.com/news/axos-arc-technologies-acquisition-ai-fintech",
+          "source": "The Next Web"
         }
       ]
     },
@@ -547,64 +619,38 @@
       ]
     },
     {
-      "keyword": "ai code",
-      "mentions": 13,
-      "velocity": 1.1,
+      "keyword": "claude code",
+      "mentions": 46,
+      "velocity": 1.4,
       "sources": [
         "articles",
-        "arxiv",
-        "hackernews"
+        "hackernews",
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "Line-Anchored Feedback Cuts Token Costs and Improves Correctness in AI Code Editing",
-      "articles": [
-        {
-          "title": "Line-Anchored Feedback Cuts Token Costs and Improves Correctness in AI Code Editing",
-          "url": "https://arxiv.org/abs/2607.12713",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Understanding the Impact of AI Code Assistants on Security API Usage: An Empirical Study",
-          "url": "https://arxiv.org/abs/2607.11348",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "deepmind",
-      "mentions": 18,
-      "velocity": 0.8,
+      "keyword": "dify",
+      "mentions": 13,
+      "velocity": 0.6,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
+        "github",
         "linkedin"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "A $400M nonprofit backed by France and DeepMind is building AI’s ‘public option’",
-      "articles": [
-        {
-          "title": "A $400M nonprofit backed by France and DeepMind is building AI’s ‘public option’",
-          "url": "https://thenextweb.com/news/current-ai-public-open-ai-alternative-400-million",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
-          "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "DeepMind’s Hassabis says a STEM degree makes you 10x better with AI",
-          "url": "https://thenextweb.com/news/hassabis-stem-degree-ai-computer-science",
-          "source": "The Next Web"
-        }
-      ]
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -705,6 +751,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "anthropic",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-21",
+        "confidence": 1.0
+      },
+      {
         "keyword": "qwen",
         "signal_type": "emerging",
         "flagged_on": "2026-07-21",
@@ -769,12 +821,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-07-17",
         "confidence": 0.2
-      },
-      {
-        "keyword": "copilot",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-16",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
@@ -787,17 +833,10 @@
       },
       {
         "keyword": "kimi",
-        "recent_mentions": 134,
+        "recent_mentions": 137,
         "prior_mentions": 17,
-        "change_ratio": 7.88,
+        "change_ratio": 8.06,
         "corroborating_sources": 5
-      },
-      {
-        "keyword": "edge ai",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
       },
       {
         "keyword": "stability ai",
@@ -805,6 +844,13 @@
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "edge ai",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "moonshot ai",
@@ -842,25 +888,25 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "rlhf",
-        "recent_mentions": 32,
-        "prior_mentions": 11,
-        "change_ratio": 2.91,
+        "keyword": "ai developer",
+        "recent_mentions": 25,
+        "prior_mentions": 10,
+        "change_ratio": 2.5,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "gamma",
+        "recent_mentions": 9,
+        "prior_mentions": 4,
+        "change_ratio": 2.25,
         "corroborating_sources": 2
       },
       {
-        "keyword": "quantization",
-        "recent_mentions": 112,
-        "prior_mentions": 40,
-        "change_ratio": 2.8,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "small language model",
-        "recent_mentions": 39,
-        "prior_mentions": 14,
-        "change_ratio": 2.79,
-        "corroborating_sources": 2
+        "keyword": "ai safety",
+        "recent_mentions": 38,
+        "prior_mentions": 17,
+        "change_ratio": 2.24,
+        "corroborating_sources": 5
       }
     ]
   }
