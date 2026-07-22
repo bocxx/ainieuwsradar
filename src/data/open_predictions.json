@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-22T05:34:22+00:00",
+  "generated_at": "2026-07-22T17:47:55+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 72,
+    "open": 73,
     "resolved": 31,
     "hits": 23,
     "misses": 8,
@@ -124,19 +124,10 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-14",
+      "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-22",
-      "lead_days": 39,
+      "lead_days": 15,
       "outlet": "Nature"
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-04",
-      "resolved_on": "2026-04-10",
-      "lead_days": 6,
-      "outlet": "Techmeme"
     },
     {
       "keyword": "tokens",
@@ -148,6 +139,15 @@
       "outlet": "Business Insider"
     },
     {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-03",
+      "resolved_on": "2026-04-10",
+      "lead_days": 7,
+      "outlet": "Techmeme"
+    },
+    {
       "keyword": "llama",
       "signal_type": "emerging",
       "status": "hit",
@@ -155,6 +155,15 @@
       "resolved_on": "2026-04-08",
       "lead_days": 4,
       "outlet": "VentureBeat"
+    },
+    {
+      "keyword": "copilot",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
     },
     {
       "keyword": "ai agent",
@@ -166,13 +175,13 @@
       "outlet": "The Register"
     },
     {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
+      "keyword": "benchmark",
+      "signal_type": "emerging",
+      "status": "hit",
       "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
     },
     {
       "keyword": "data center",
@@ -184,22 +193,13 @@
       "outlet": "Techmeme"
     },
     {
-      "keyword": "benchmark",
-      "signal_type": "emerging",
-      "status": "hit",
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
       "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
-    },
-    {
-      "keyword": "copilot",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
     },
     {
       "keyword": "benchmarks",

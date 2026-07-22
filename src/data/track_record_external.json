@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T05:34:12+00:00",
+  "generated_at": "2026-07-22T17:47:45+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -16,14 +16,6 @@
     "hit_rate": 0.561,
     "materialized": 23,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 19,
-        "covered": 3,
-        "early": 2,
-        "coverage_rate": 0.158,
-        "early_rate": 0.105,
-        "hit_rate": 0.158
-      },
       "emerging": {
         "scored": 22,
         "covered": 20,
@@ -31,6 +23,14 @@
         "coverage_rate": 0.909,
         "early_rate": 0.318,
         "hit_rate": 0.909
+      },
+      "weak_signal": {
+        "scored": 19,
+        "covered": 3,
+        "early": 2,
+        "coverage_rate": 0.158,
+        "early_rate": 0.105,
+        "hit_rate": 0.158
       }
     }
   },
@@ -64,17 +64,17 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
+      "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
       "lead_days": 4
     }
   ],
@@ -84,21 +84,21 @@
     "Nog geen nul-model/controlegroep: de dekking is nog niet tegen toeval afgezet."
   ],
   "null_model": {
-    "n": 40,
+    "n": 41,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.6,
-      "early_rate": 0.225
+      "coverage_rate": 0.585,
+      "early_rate": 0.22
     },
     "null_mean": {
-      "coverage_rate": 0.612,
-      "early_rate": 0.248
+      "coverage_rate": 0.6,
+      "early_rate": 0.246
     },
     "p_value": {
-      "coverage_rate": 0.866,
-      "early_rate": 0.789
+      "coverage_rate": 0.889,
+      "early_rate": 0.794
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
