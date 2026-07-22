@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-21T17:42:00+00:00",
+  "generated_at": "2026-07-22T05:34:22+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 71,
+    "open": 72,
     "resolved": 31,
     "hits": 23,
     "misses": 8,
@@ -14,73 +14,73 @@
       "keyword": "text to speech",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-08",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 10
+      "days_left": 9
     },
     {
       "keyword": "crewai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-18",
-      "days_left": 12
+      "days_left": 11
     },
     {
       "keyword": "browser use",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-19",
-      "days_left": 13
+      "days_left": 12
     },
     {
       "keyword": "ttft",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-20",
-      "days_left": 14
+      "days_left": 13
     },
     {
       "keyword": "claude haiku",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-21",
-      "days_left": 15
+      "days_left": 14
     },
     {
       "keyword": "autogpt",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 16
+      "days_left": 15
     },
     {
       "keyword": "luma",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 16
+      "days_left": 15
     },
     {
       "keyword": "mcp server",
       "signal_type": "emerging",
       "flagged_on": "2026-06-22",
-      "days_left": 16
+      "days_left": 15
     },
     {
       "keyword": "midjourney",
       "signal_type": "emerging",
       "flagged_on": "2026-06-22",
-      "days_left": 16
+      "days_left": 15
     }
   ],
   "recent_resolved": [
@@ -88,7 +88,7 @@
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "status": "miss",
-      "flagged_on": "2026-06-05",
+      "flagged_on": "2026-06-06",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
@@ -124,18 +124,18 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-03-14",
       "resolved_on": "2026-04-22",
-      "lead_days": 15,
+      "lead_days": 39,
       "outlet": "Nature"
     },
     {
       "keyword": "qwen",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-03",
+      "flagged_on": "2026-04-04",
       "resolved_on": "2026-04-10",
-      "lead_days": 7,
+      "lead_days": 6,
       "outlet": "Techmeme"
     },
     {
@@ -166,15 +166,6 @@
       "outlet": "The Register"
     },
     {
-      "keyword": "benchmark",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
-    },
-    {
       "keyword": "ai copyright",
       "signal_type": "weak_signal",
       "status": "miss",
@@ -182,6 +173,24 @@
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
+    },
+    {
+      "keyword": "data center",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Techmeme"
+    },
+    {
+      "keyword": "benchmark",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Tweakers"
     },
     {
       "keyword": "copilot",
@@ -200,15 +209,6 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
-    },
-    {
-      "keyword": "data center",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Techmeme"
     }
   ]
 }
