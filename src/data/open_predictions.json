@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-23T05:35:20+00:00",
+  "generated_at": "2026-07-23T17:43:04+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 75,
+    "open": 77,
     "resolved": 31,
     "hits": 23,
     "misses": 8,
@@ -130,6 +130,15 @@
       "outlet": "Nature"
     },
     {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-04",
+      "resolved_on": "2026-04-10",
+      "lead_days": 6,
+      "outlet": "Techmeme"
+    },
+    {
       "keyword": "tokens",
       "signal_type": "emerging",
       "status": "hit",
@@ -139,31 +148,13 @@
       "outlet": "Business Insider"
     },
     {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-10",
-      "lead_days": 3,
-      "outlet": "Techmeme"
-    },
-    {
       "keyword": "llama",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-04",
+      "flagged_on": "2026-04-03",
       "resolved_on": "2026-04-08",
-      "lead_days": 4,
+      "lead_days": 5,
       "outlet": "VentureBeat"
-    },
-    {
-      "keyword": "data center",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Techmeme"
     },
     {
       "keyword": "ai agent",
@@ -191,6 +182,15 @@
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
+    },
+    {
+      "keyword": "data center",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Techmeme"
     },
     {
       "keyword": "benchmarks",
