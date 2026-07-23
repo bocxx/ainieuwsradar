@@ -1,41 +1,117 @@
 {
-  "generated_at": "2026-07-22T19:21:52.490682",
-  "total_tracked": 4501,
+  "generated_at": "2026-07-23T07:17:57.080968",
+  "total_tracked": 4403,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "kimi",
-      "mentions": 132,
-      "velocity": 29.4,
+      "keyword": "lora",
+      "mentions": 177,
+      "velocity": 25.4,
       "sources": [
         "articles",
+        "arxiv",
+        "github",
         "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Kimi K3 rocks the AI industry as Moonshot AI undercuts closed-source American competitors on price — but the huge 2.8T o",
+      "expert_ratio": 0.89,
+      "headline": "LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features",
       "articles": [
         {
-          "title": "Kimi K3 rocks the AI industry as Moonshot AI undercuts closed-source American competitors on price — but the huge 2.8T o",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/kimi-k3-rocks-the-ai-industry-as-moonshot-ai-undercuts-closed-source-american-competitors-on-price-but-the-huge-2-8t-open-weight-model-still-needs-serious-hardware-to-deploy-at-scale",
-          "source": "Tom's Hardware"
+          "title": "LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features",
+          "url": "https://arxiv.org/abs/2606.28445",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Sources: after it closes a round at a $31.5B valuation, Moonshot plans a final raise at a $50B valuation to capitalize o",
-          "url": "https://www.techmeme.com/260721/p23#a260721p23",
-          "source": "Techmeme"
+          "title": "TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in ",
+          "url": "https://arxiv.org/abs/2607.16635",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SOS-LoRA: Static Orthogonal-Subspace Low-Rank Adaptation with Fixed Multi-Scale Scaling",
+          "url": "https://arxiv.org/abs/2607.16252",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
+      "keyword": "fine-tuning",
+      "mentions": 164,
+      "velocity": 24.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "Opto-ViT-v2: Noise-Resilient On-Chip Fine-Tuning for Photonic Near-Sensor Vision Transformer Accelerators",
+      "articles": [
+        {
+          "title": "Opto-ViT-v2: Noise-Resilient On-Chip Fine-Tuning for Photonic Near-Sensor Vision Transformer Accelerators",
+          "url": "https://arxiv.org/abs/2607.19421",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "LAARA: Layer-Aware Adaptive Rank Allocation for Parameter-Efficient Fine-Tuning",
+          "url": "https://arxiv.org/abs/2607.19391",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation",
+          "url": "https://arxiv.org/abs/2607.19354",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 186,
+      "velocity": 24.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "Posterior Sampling Reinforcement Learning with Gaussian Processes for Continuous Control: Sublinear Regret Bounds for Un",
+      "articles": [
+        {
+          "title": "Posterior Sampling Reinforcement Learning with Gaussian Processes for Continuous Control: Sublinear Regret Bounds for Un",
+          "url": "https://arxiv.org/abs/2603.08287",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Asymptotically Optimal Regret for Reinforcement Learning without Horizon Dependence",
+          "url": "https://arxiv.org/abs/2607.19854",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Toward Adaptable Multi-Agent Reinforcement Learning: An Assumption-Aware Review",
+          "url": "https://arxiv.org/abs/2507.10142",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "openai",
-      "mentions": 360,
-      "velocity": 19.6,
+      "mentions": 418,
+      "velocity": 31.1,
       "sources": [
         "articles",
         "arxiv",
@@ -49,29 +125,29 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.81,
-      "headline": "OpenAI’s AI spending spree has ballooned to $750B",
+      "headline": "OpenAI hackt ander AI-bedrijf, maar van 'op hol geslagen AI' is geen sprake",
       "articles": [
         {
-          "title": "OpenAI’s AI spending spree has ballooned to $750B",
-          "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
-          "source": "TechCrunch"
+          "title": "OpenAI hackt ander AI-bedrijf, maar van 'op hol geslagen AI' is geen sprake",
+          "url": "https://nos.nl/l/2624086",
+          "source": "NOS Nieuws - Algemeen"
         },
         {
-          "title": "OpenAI Sued Over ChatGPT’s ‘Dangerous’ Health Advice",
-          "url": "https://www.nytimes.com/2026/07/22/well/openai-chatgpt-health-lawsuit.html",
-          "source": "The New York Times"
+          "title": "OpenAI scored an own goal with HuggingFace attack, showing how open Chinese models are winning",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-scored-an-own-goal-with-huggingface-attack-showing-how-open-chinese-models-are-winning/5276699",
+          "source": "The Register - Security"
         },
         {
-          "title": "OpenAI introduces Presence, to help companies better connect AI agents to their internal systems and automate customer s",
-          "url": "https://www.techmeme.com/260722/p33#a260722p33",
+          "title": "Sources: OpenAI staff were \"freaked out\" when GPT-Sol 5.6 breached Hugging Face, as OpenAI used more aggressive training",
+          "url": "https://www.techmeme.com/260722/p57#a260722p57",
           "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "hugging face",
-      "mentions": 57,
-      "velocity": 15.6,
+      "mentions": 95,
+      "velocity": 22.4,
       "sources": [
         "articles",
         "arxiv",
@@ -82,186 +158,30 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "OpenAI's models broke containment and cyberattacked Hugging Face — what enterprises need to know",
+      "expert_ratio": 0.69,
+      "headline": "Sources: OpenAI staff were \"freaked out\" when GPT-Sol 5.6 breached Hugging Face, as OpenAI used more aggressive training",
       "articles": [
         {
-          "title": "OpenAI's models broke containment and cyberattacked Hugging Face — what enterprises need to know",
-          "url": "https://venturebeat.com/security/openais-models-broke-containment-and-cyberattacked-hugging-face-what-enterprises-need-to-know?utm_source=flipboard&utm_content=user/venturebeat",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "OpenAI's AI models broke out of a security test and autonomously hacked Hugging Face",
-          "url": "https://qz.com/openai-ai-models-escaped-testing-hacked-hugging-face-072226",
-          "source": "Quartz"
-        },
-        {
-          "title": "OpenAI's Hugging Face breach is the first known example of a misaligned AI escaping containment and carrying out a hack ",
-          "url": "https://www.techmeme.com/260722/p11#a260722p11",
+          "title": "Sources: OpenAI staff were \"freaked out\" when GPT-Sol 5.6 breached Hugging Face, as OpenAI used more aggressive training",
+          "url": "https://www.techmeme.com/260722/p57#a260722p57",
           "source": "Techmeme"
+        },
+        {
+          "title": "The credential that let OpenAI's agents into Hugging Face exists in most enterprises right now",
+          "url": "https://venturebeat.com/security/the-credential-that-let-openais-agents-into-hugging-face-exists-in-most-enterprises-right-now",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
+          "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+          "source": "TechCrunch"
         }
       ]
     },
-    {
-      "keyword": "reinforcement learning",
-      "mentions": 128,
-      "velocity": 9.2,
-      "sources": [
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "The Price of Reasoning: Cost-Quality Tradeoffs in Reinforcement Learning for Neural Machine Translation",
-      "articles": [
-        {
-          "title": "The Price of Reasoning: Cost-Quality Tradeoffs in Reinforcement Learning for Neural Machine Translation",
-          "url": "https://arxiv.org/abs/2607.19226",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Comparative Study of Multi-Agent Actor-Critic Algorithms in Parameterized Action Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.19117",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Transdiagnostic Space of Disorder Like Phenotypes in Reinforcement Learning Agents",
-          "url": "https://arxiv.org/abs/2607.07753",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 190,
-      "velocity": 7.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Gemini Intelligence debutta sui Galaxy Z Fold8 e Flip8 con 4 nuove funzioni AI",
-      "articles": [
-        {
-          "title": "Gemini Intelligence debutta sui Galaxy Z Fold8 e Flip8 con 4 nuove funzioni AI",
-          "url": "https://www.tomshw.it/smartphone/gemini-intelligence-debutta-sui-galaxy-z-fold8-e-flip8-con-4-nuove",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Samsung's new foldables come with Gemini Notebook pre-installed",
-          "url": "https://www.engadget.com/2220546/samsung-new-foldables-come-with-gemini-notebook/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Gemini 3.5 Flash Cyber: 55 falle in V8, accesso riservato a governi e partner",
-          "url": "https://www.tomshw.it/hardware/gemini-3-5-flash-cyber-55-falle-in-v8-accesso-riservato-a",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "huggingface",
-      "mentions": 27,
-      "velocity": 6.4,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 215,
-      "velocity": 5.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "OpenAI Sued Over ChatGPT’s ‘Dangerous’ Health Advice",
-      "articles": [
-        {
-          "title": "OpenAI Sued Over ChatGPT’s ‘Dangerous’ Health Advice",
-          "url": "https://www.nytimes.com/2026/07/22/well/openai-chatgpt-health-lawsuit.html",
-          "source": "The New York Times"
-        },
-        {
-          "title": "Reddit is hofleverancier voor ChatGPT. Dat hebben adverteerders ook door",
-          "url": "https://www.nrc.nl/nieuws/2026/07/22/reddit-is-hofleverancier-voor-chatgpt-dat-hebben-adverteerders-ook-door-a4932847",
-          "source": "NRC"
-        },
-        {
-          "title": "The most useful ways to connect your apps to ChatGPT and Claude",
-          "url": "https://www.fastcompany.com/91576545/the-most-useful-ways-to-connect-your-apps-to-chatgpt-and-claude?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07222026",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "fine-tuning",
-      "mentions": 94,
-      "velocity": 5.1,
-      "sources": [
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Federated Lightweight Fine-Tuning",
-      "articles": [
-        {
-          "title": "Federated Lightweight Fine-Tuning",
-          "url": "https://arxiv.org/abs/2607.18343",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Structured Synthetic Reasoning Data for Arithmetic Fine-Tuning of Small Language Models",
-          "url": "https://arxiv.org/abs/2607.18266",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Dual Adversarial Fine-tuning for Enhancing Robustness of Large Vision Language Model",
-          "url": "https://arxiv.org/abs/2607.18958",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
     {
       "keyword": "claude",
-      "mentions": 605,
-      "velocity": 17.6,
+      "mentions": 620,
+      "velocity": 16.9,
       "sources": [
         "articles",
         "arxiv",
@@ -275,167 +195,126 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.8,
-      "headline": "AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, ",
+      "headline": "Anthropic sceglie (di nuovo) AMD: Claude girerà su Instinct MI450",
       "articles": [
+        {
+          "title": "Anthropic sceglie (di nuovo) AMD: Claude girerà su Instinct MI450",
+          "url": "https://www.tomshw.it/hardware/amd-e-anthropic-insieme-fino-a-2-gw-di-gpu-instinct-mi450",
+          "source": "Tom's Hardware"
+        },
         {
           "title": "AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, ",
           "url": "https://www.tomshardware.com/tech-industry/amd-to-supply-anthropic-with-2-gigawatts-of-instinct-mi450-gpus",
           "source": "Tom's Hardware"
-        },
-        {
-          "title": "The most useful ways to connect your apps to ChatGPT and Claude",
-          "url": "https://www.fastcompany.com/91576545/the-most-useful-ways-to-connect-your-apps-to-chatgpt-and-claude?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=07222026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "The most useful ways to connect your apps to ChatGPT and Claude",
-          "url": "https://www.fastcompany.com/91576545/the-most-useful-ways-to-connect-your-apps-to-chatgpt-and-claude?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07222026",
-          "source": "Fast Company"
         }
       ]
     },
     {
-      "keyword": "anthropic",
-      "mentions": 223,
-      "velocity": 10.2,
+      "keyword": "kimi",
+      "mentions": 106,
+      "velocity": 12.7,
       "sources": [
         "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "OpenAI’s Brockman Says Kimi K3 Is ‘Pretty Good,’ Won’t Confirm Distillation",
+      "articles": [
+        {
+          "title": "OpenAI’s Brockman Says Kimi K3 Is ‘Pretty Good,’ Won’t Confirm Distillation",
+          "url": "https://thenextweb.com/news/openai-brockman-kimi-k3-pretty-good-distillation-white-house",
+          "source": "The Next Web"
+        },
+        {
+          "title": "OpenAI President Greg Brockman says Kimi K3 is a \"pretty good model\" but it is \"too early\" to tell whether Moonshot used",
+          "url": "https://www.techmeme.com/260722/p45#a260722p45",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI President Says Kimi K3 ‘Pretty Good,’ Unsure If Distilled",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-president-says-kimi-k3-pretty-good-unsure-if-distilled",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 238,
+      "velocity": 10.9,
+      "sources": [
+        "articles",
+        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Anthropic Investor in Talks to Fund New Lab Run By Two Stanford AI Professors",
+      "expert_ratio": 0.55,
+      "headline": "Leveraging ChatGPT's Multimodal Vision Capabilities to Rank Satellite Images by Poverty Level: Advancing Tools for Socia",
       "articles": [
         {
-          "title": "Anthropic Investor in Talks to Fund New Lab Run By Two Stanford AI Professors",
-          "url": "https://www.theinformation.com/articles/anthropic-investor-talks-fund-new-lab-run-two-stanford-ai-professors",
-          "source": "The Information"
+          "title": "Leveraging ChatGPT's Multimodal Vision Capabilities to Rank Satellite Images by Poverty Level: Advancing Tools for Socia",
+          "url": "https://arxiv.org/abs/2501.14546",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, ",
-          "url": "https://www.tomshardware.com/tech-industry/amd-to-supply-anthropic-with-2-gigawatts-of-instinct-mi450-gpus",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "White House OSTP Director Michael Kratsios says \"we have information that Moonshot AI distilled Anthropic's Fable for th",
-          "url": "https://www.techmeme.com/260722/p32#a260722p32",
-          "source": "Techmeme"
+          "title": "Google's Gemini app nips at ChatGPT's heels as it nears 1 billion users",
+          "url": "https://www.businessinsider.com/google-q2-2026-earnings-gemini-closing-in-chatgpt-1-billion-2026-7",
+          "source": "Business Insider"
         }
       ]
     },
     {
-      "keyword": "lora",
-      "mentions": 113,
-      "velocity": 8.6,
+      "keyword": "huggingface",
+      "mentions": 34,
+      "velocity": 6.6,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
         "reddit"
       ],
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in ",
+      "expert_ratio": 0.9,
+      "headline": "OpenAI scored an own goal with HuggingFace attack, showing how open Chinese models are winning",
       "articles": [
         {
-          "title": "TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in ",
-          "url": "https://arxiv.org/abs/2607.16635",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SOS-LoRA: Static Orthogonal-Subspace Low-Rank Adaptation with Fixed Multi-Scale Scaling",
-          "url": "https://arxiv.org/abs/2607.16252",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
-          "url": "https://arxiv.org/abs/2607.17205",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI scored an own goal with HuggingFace attack, showing how open Chinese models are winning",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-scored-an-own-goal-with-huggingface-attack-showing-how-open-chinese-models-are-winning/5276699",
+          "source": "The Register - Security"
         }
       ]
     },
     {
-      "keyword": "nvidia",
-      "mentions": 103,
-      "velocity": 6.5,
+      "keyword": "bittorrent",
+      "mentions": 6,
+      "velocity": 5.0,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
+        "hackernews"
       ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Nvidia tries again to get gamers to accept DLSS 5 — and doesn't entirely succeed",
-      "articles": [
-        {
-          "title": "Nvidia tries again to get gamers to accept DLSS 5 — and doesn't entirely succeed",
-          "url": "https://www.techradar.com/computing/gpu/nvidia-tries-again-to-get-gamers-to-accept-dlss-5-and-doesnt-entirely-succeed",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Wistron stock surges after opening its first U.S. factory to build Nvidia AI servers",
-          "url": "https://qz.com/wistron-stock-nvidia-ai-server-factory-texas-072226",
-          "source": "Quartz"
-        },
-        {
-          "title": "OpenAI and Anthropic now out-lobby Nvidia in Washington",
-          "url": "https://thenextweb.com/news/openai-anthropic-record-lobbying-q2",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 33,
-      "velocity": 6.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Microsoft gaat Europese Mistral-servers gebruiken voor AI-modellen",
-      "articles": [
-        {
-          "title": "Microsoft gaat Europese Mistral-servers gebruiken voor AI-modellen",
-          "url": "https://tweakers.net/nieuws/250276/microsoft-gaat-europese-mistral-servers-gebruiken-voor-ai-modellen.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Samsung reportedly in talks to back Mistral at €20bn valuation",
-          "url": "https://thenextweb.com/news/samsung-mistral-investment-talks-20bn-valuation",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Microsoft compra potenza di calcolo da Mistral, l'alleanza si stringe",
-          "url": "https://www.tomshw.it/business/microsoft-mistral-gpu-alleanza",
-          "source": "Tom's Hardware"
-        }
-      ]
+      "source_count": 2,
+      "confidence": 84,
+      "days_active": 2,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "cursor",
-      "mentions": 52,
-      "velocity": 4.0,
+      "mentions": 58,
+      "velocity": 4.6,
       "sources": [
         "articles",
         "arxiv",
@@ -447,9 +326,14 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "Researchers found sandbox escapes or boundary bypasses in Cursor, Codex, Gemini CLI, and Antigravity by writing files tr",
+      "expert_ratio": 0.45,
+      "headline": "Exclusive: Cursor Launches Model Router",
       "articles": [
+        {
+          "title": "Exclusive: Cursor Launches Model Router",
+          "url": "https://www.theinformation.com/briefings/exclusive-cursor-launches-model-router",
+          "source": "The Information"
+        },
         {
           "title": "Researchers found sandbox escapes or boundary bypasses in Cursor, Codex, Gemini CLI, and Antigravity by writing files tr",
           "url": "https://www.techmeme.com/260720/p41#a260720p41",
@@ -464,54 +348,6 @@
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "posthog",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "PostHog Open Sourced",
-      "articles": [
-        {
-          "title": "PostHog Open Sourced",
-          "url": "https://github.com/PostHog/posthog-foss",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "cyber",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Gemini 3.5 Flash Cyber: 55 falle in V8, accesso riservato a governi e partner",
-      "articles": [
-        {
-          "title": "Gemini 3.5 Flash Cyber: 55 falle in V8, accesso riservato a governi e partner",
-          "url": "https://www.tomshw.it/hardware/gemini-3-5-flash-cyber-55-falle-in-v8-accesso-riservato-a",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "The hidden cyber risks facing our water supply",
-          "url": "https://www.techradar.com/pro/the-hidden-cyber-risks-facing-our-water-supply",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Chicken Back on Menu as Cyber-Hit Nichirei Restores Operations",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-22/chicken-back-on-menu-as-cyber-hit-nichirei-restores-operations",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
     {
       "keyword": "keybanc",
       "mentions": 2,
@@ -536,45 +372,6 @@
           "source": "Bloomberg Technology"
         }
       ]
-    },
-    {
-      "keyword": "mastercard",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Mastercard's Jill Kramer says AI can be an engine of human creativity and insight",
-      "articles": [
-        {
-          "title": "Mastercard's Jill Kramer says AI can be an engine of human creativity and insight",
-          "url": "https://www.businessinsider.com/mastercard-cmo-jill-cramer-ai-marketing-strategy-2026-6",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
-          "url": "https://www.techradar.com/vpn/vpn-services/nordvpn-is-now-part-of-mastercards-lifestyle-perks-find-out-if-you-are-eligible",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "opengraph",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "moderation",
@@ -607,41 +404,57 @@
       ]
     },
     {
-      "keyword": "chandra",
-      "mentions": 3,
-      "velocity": 0.8,
+      "keyword": "posthog",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "cerebras",
-      "mentions": 3,
-      "velocity": 0.7,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 8,
-      "expert_ratio": 0.9,
-      "headline": "Beacon Security, which offers an agentic security platform, raised a $13M seed and says it has \"tens\" of large enterpris",
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "PostHog Open Sourced",
       "articles": [
         {
-          "title": "Beacon Security, which offers an agentic security platform, raised a $13M seed and says it has \"tens\" of large enterpris",
-          "url": "https://www.techmeme.com/260716/p18#a260716p18",
-          "source": "Techmeme"
+          "title": "PostHog Open Sourced",
+          "url": "https://github.com/PostHog/posthog-foss",
+          "source": "Hacker News"
         }
       ]
     },
     {
-      "keyword": "caveman",
+      "keyword": "mastercard",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Mastercard's Jill Kramer says AI can be an engine of human creativity and insight",
+      "articles": [
+        {
+          "title": "Mastercard's Jill Kramer says AI can be an engine of human creativity and insight",
+          "url": "https://www.businessinsider.com/mastercard-cmo-jill-kramer-ai-marketing-strategy-2026-6",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "Mastercard's Jill Kramer says AI can be an engine of human creativity and insight",
+          "url": "https://www.businessinsider.com/mastercard-cmo-jill-cramer-ai-marketing-strategy-2026-6",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "NordVPN is now part of Mastercard’s lifestyle perks — find out if you are eligible",
+          "url": "https://www.techradar.com/vpn/vpn-services/nordvpn-is-now-part-of-mastercards-lifestyle-perks-find-out-if-you-are-eligible",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "hermes-agent",
       "mentions": 3,
       "velocity": 0.6,
       "sources": [
@@ -655,161 +468,258 @@
       "articles": []
     },
     {
-      "keyword": "ask gemini",
+      "keyword": "caveman",
       "mentions": 3,
-      "velocity": 0.6,
+      "velocity": 0.5,
       "sources": [
-        "reddit"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 69,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "skillsbench",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
       "days_active": 3,
-      "expert_ratio": 0.86,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "chatgpt work",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "OpenAI’s agents hit 10 million users as ChatGPT Work push accelerates",
+      "articles": [
+        {
+          "title": "OpenAI’s agents hit 10 million users as ChatGPT Work push accelerates",
+          "url": "https://thenextweb.com/news/openai-agents-10-million-chatgpt-work",
+          "source": "The Next Web"
+        },
+        {
+          "title": "OpenAI says it now has 10M people using Codex and ChatGPT Work, nearly doubling usage from earlier this month when the c",
+          "url": "https://www.techmeme.com/260721/p18#a260721p18",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI’s Agents Reach 10 Million Users After ChatGPT Work Debut",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-21/openai-s-agents-reach-10-million-users-after-chatgpt-work-debut",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "opengraph",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "vits",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
       "headline": "",
       "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "open-source ai",
-      "mentions": 13,
-      "velocity": 1.9,
+      "keyword": "blackwell",
+      "mentions": 11,
+      "velocity": 2.0,
       "sources": [
         "articles",
+        "arxiv",
+        "linkedin",
         "reddit"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.35,
-      "headline": "Silicon Valley is freaking out over China's open-source AI strategy",
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Nvidia supplier Wistron opens $700m Texas factory to build Grace Blackwell superchips",
       "articles": [
         {
-          "title": "Silicon Valley is freaking out over China's open-source AI strategy",
-          "url": "https://www.businessinsider.com/open-source-ai-china-kimi-american-ai-industry-openai-anthropic-2026-7?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "title": "Nvidia supplier Wistron opens $700m Texas factory to build Grace Blackwell superchips",
+          "url": "https://thenextweb.com/news/wistron-texas-ai-factory-nvidia-gb300",
+          "source": "The Next Web"
         },
         {
-          "title": "Capital One releases VulnHunter, an open-source AI tool that finds software flaws before hackers do",
-          "url": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do",
-          "source": "VentureBeat"
+          "title": "Local AI clustering with Dell's Pro Max GB10 — connecting two Nvidia Grace Blackwell to scale out AI compute at home",
+          "url": "https://www.tomshardware.com/pc-components/gpus/local-ai-clustering-with-dells-pro-max-gb10-connecting-two-nvidia-grace-blackwell-to-scale-out-ai-compute-at-home",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Xi Jinping calls for more open-source AI: 'China is ready to be more open'",
-          "url": "https://www.businessinsider.com/xi-jinping-open-source-ai-us-competition-openai-anthropic-models-2026-7?utm_source=flipboard&utm_content=user/BusinessInsider",
-          "source": "Artificial Intelligence"
+          "title": "New plugin unlocks granular VRAM temperature tracking on Nvidia RTX 50-series GPUs — community cracks open Blackwell's f",
+          "url": "https://www.tomshardware.com/pc-components/gpus/new-plugin-unlocks-granular-vram-temperature-tracking-on-nvidia-rtx-50-series-gpus-community-cracks-open-blackwells-forbidden-telemetry-sensors",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "copilot",
-      "mentions": 54,
+      "keyword": "quantization",
+      "mentions": 21,
       "velocity": 1.9,
       "sources": [
         "articles",
+        "arxiv",
         "github",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "10 cool things Copilot can do in PowerPoint",
+      "expert_ratio": 0.96,
+      "headline": "High-accuracy Low-Bit KV-Cache Quantization via Local Distribution Restoration",
       "articles": [
         {
-          "title": "10 cool things Copilot can do in PowerPoint",
-          "url": "https://www.computerworld.com/article/4194634/10-cool-things-copilot-can-do-in-powerpoint.html",
-          "source": "Artificial Intelligence – Computerworld"
+          "title": "High-accuracy Low-Bit KV-Cache Quantization via Local Distribution Restoration",
+          "url": "https://arxiv.org/abs/2607.16248",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Microsoft and Mistral sign a multibillion-dollar deal to build European data centers and integrate Mistral models into F",
-          "url": "https://www.techmeme.com/260721/p16#a260721p16",
-          "source": "Techmeme"
+          "title": "Efficient EEG Seizure Detection Using INT8 Quantization, Channel Pruning, and Spiking Neural Networks",
+          "url": "https://arxiv.org/abs/2607.16296",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "TurboVec: A Case Study in Cost-Efficient Private Retrieval for Enterprise RAG via Codebook-Oblivious Quantization",
+          "url": "https://arxiv.org/abs/2607.16973",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 22,
-      "velocity": 1.9,
-      "sources": [
-        "arxiv",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 33,
+      "keyword": "flux",
+      "mentions": 16,
       "velocity": 1.8,
       "sources": [
+        "articles",
         "arxiv",
-        "linkedin",
-        "twitter"
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.92,
+      "expert_ratio": 0.83,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "seedance",
-      "mentions": 13,
+      "keyword": "claude sonnet",
+      "mentions": 12,
       "velocity": 1.8,
       "sources": [
-        "hackernews",
-        "linkedin",
-        "twitter"
+        "articles",
+        "arxiv",
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.89,
+      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+      "articles": [
+        {
+          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+          "url": "https://arxiv.org/abs/2607.15509",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
-      "keyword": "bolt",
-      "mentions": 13,
+      "keyword": "data centers",
+      "mentions": 37,
       "velocity": 1.7,
       "sources": [
         "articles",
-        "arxiv",
-        "linkedin"
+        "hackernews",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.41,
-      "headline": "Gritt raises $32M for AI robots that bolt onto existing construction equipment to build solar farms faster",
+      "expert_ratio": 0.58,
+      "headline": "OpenAI's latest proposal shows it's very aware that data centers are unpopular",
       "articles": [
         {
-          "title": "Gritt raises $32M for AI robots that bolt onto existing construction equipment to build solar farms faster",
-          "url": "https://thenextweb.com/news/gritt-32m-physical-ai-construction-solar",
-          "source": "The Next Web"
+          "title": "OpenAI's latest proposal shows it's very aware that data centers are unpopular",
+          "url": "https://www.businessinsider.com/openai-effingham-georgia-data-center-project-camellia-water-use-tokens-2026-7",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Data centers forecast to use 20% of US power by 2035 — analysts estimate usage will rocket to 194 gigawatts, 83% more th",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/bnef-nearly-doubles-its-us-data-center-power-forecast-to-194gw",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Why Mark Cuban says many AI data centers could wind up as 'pickleball courts'",
+          "url": "https://www.businessinsider.com/mark-cuban-ai-buildout-data-centers-infrastructure-pickleball-dotcom-bubble-2026-7",
+          "source": "Business Insider"
         }
       ]
+    },
+    {
+      "keyword": "kling",
+      "mentions": 30,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
-    "scored_predictions": 41,
+    "scored_predictions": 43,
     "covered": 23,
-    "coverage_rate": 0.561,
+    "coverage_rate": 0.535,
     "early": 9,
-    "early_rate": 0.22,
+    "early_rate": 0.209,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.561,
+    "hit_rate": 0.535,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
@@ -821,33 +731,33 @@
         "hit_rate": 0.909
       },
       "weak_signal": {
-        "scored": 19,
+        "scored": 21,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.158,
-        "early_rate": 0.105,
-        "hit_rate": 0.158
+        "coverage_rate": 0.143,
+        "early_rate": 0.095,
+        "hit_rate": 0.143
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 41,
+    "n": 43,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.585,
-      "early_rate": 0.22
+      "coverage_rate": 0.558,
+      "early_rate": 0.209
     },
     "null_mean": {
-      "coverage_rate": 0.6,
-      "early_rate": 0.246
+      "coverage_rate": 0.573,
+      "early_rate": 0.236
     },
     "p_value": {
-      "coverage_rate": 0.889,
-      "early_rate": 0.794
+      "coverage_rate": 0.886,
+      "early_rate": 0.804
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -898,6 +808,30 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "lora",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-23",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "poolside",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-23",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "hermes-agent",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-23",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "cerebras",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-07-23",
+        "confidence": 0.2
+      },
+      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-07-22",
@@ -944,116 +878,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-07-21",
         "confidence": 0.8
-      },
-      {
-        "keyword": "model context protocol",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-21",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "sakana ai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-21",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "kimi",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-20",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "chatbox",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-20",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "inflection",
-        "recent_mentions": 13,
-        "prior_mentions": 1,
-        "change_ratio": 13.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "kimi",
-        "recent_mentions": 259,
-        "prior_mentions": 21,
-        "change_ratio": 12.33,
-        "corroborating_sources": 6
-      },
-      {
         "keyword": "hugging face",
-        "recent_mentions": 76,
-        "prior_mentions": 8,
-        "change_ratio": 9.5,
+        "recent_mentions": 167,
+        "prior_mentions": 10,
+        "change_ratio": 16.7,
         "corroborating_sources": 7
       },
       {
-        "keyword": "qdrant",
+        "keyword": "kimi",
+        "recent_mentions": 347,
+        "prior_mentions": 34,
+        "change_ratio": 10.21,
+        "corroborating_sources": 6
+      },
+      {
+        "keyword": "h100",
+        "recent_mentions": 10,
+        "prior_mentions": 1,
+        "change_ratio": 10.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "reward hacking",
         "recent_mentions": 7,
         "prior_mentions": 1,
         "change_ratio": 7.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "h100",
+        "keyword": "zapier",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "mixture of experts",
+        "keyword": "mistral",
+        "recent_mentions": 118,
+        "prior_mentions": 20,
+        "change_ratio": 5.9,
+        "corroborating_sources": 9
+      },
+      {
+        "keyword": "langflow",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "thinking model",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
+        "keyword": "qdrant",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
         "change_ratio": 5.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
-        "keyword": "krea",
+        "keyword": "relevance ai",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "relevance",
-        "recent_mentions": 12,
+        "keyword": "llama 3",
+        "recent_mentions": 15,
         "prior_mentions": 3,
-        "change_ratio": 4.0,
+        "change_ratio": 5.0,
         "corroborating_sources": 3
-      },
-      {
-        "keyword": "moonshot ai",
-        "recent_mentions": 19,
-        "prior_mentions": 5,
-        "change_ratio": 3.8,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "notebooklm",
-        "recent_mentions": 39,
-        "prior_mentions": 11,
-        "change_ratio": 3.55,
-        "corroborating_sources": 4
       },
       {
         "keyword": "durable",
-        "recent_mentions": 14,
+        "recent_mentions": 17,
         "prior_mentions": 4,
-        "change_ratio": 3.5,
+        "change_ratio": 4.25,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "mixture of experts",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
       }
     ]
   }
