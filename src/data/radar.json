@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-24T07:17:56.581568",
-  "total_tracked": 4367,
+  "generated_at": "2026-07-24T19:20:51.350594",
+  "total_tracked": 4462,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "openai",
-      "mentions": 594,
-      "velocity": 71.0,
+      "mentions": 584,
+      "velocity": 68.0,
       "sources": [
         "articles",
         "arxiv",
@@ -20,54 +20,248 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.78,
-      "headline": "Elon Musk said helping create OpenAI accidentally accelerated the AI race, which ‘wasn’t really’ his intention",
+      "headline": "'Science fiction that happened': experts explain why OpenAI's 'mind-blowing' cyberattack should worry us all",
       "articles": [
         {
-          "title": "Elon Musk said helping create OpenAI accidentally accelerated the AI race, which ‘wasn’t really’ his intention",
-          "url": "https://www.businessinsider.com/elon-musk-said-creating-openai-accidentally-accelerated-the-ai-race-2026-7",
-          "source": "All Content from Business Insider"
+          "title": "'Science fiction that happened': experts explain why OpenAI's 'mind-blowing' cyberattack should worry us all",
+          "url": "https://www.techradar.com/ai-platforms-assistants/openai/science-fiction-that-happened-experts-explain-why-openais-mind-blowing-cyberattack-should-worry-us-all",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "OpenAI President Endorses Musk’s Proposal For Industry Meetings on AI Safety",
-          "url": "https://www.theinformation.com/briefings/openai-president-endorses-musks-proposal-industry-meetings-ai-safety",
-          "source": "The Information"
+          "title": "OpenAI took ten days to tell Hugging Face its models were behind the July 11 weekend hack, report claims — rogue AI agen",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-took-ten-days-to-tell-hugging-face-its-models-were-behind-the-july-11-weekend-hack",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "OpenAI-Hugging Face attack doesn't mean agents are evil – unless you tell them to be",
-          "url": "https://www.theregister.com/security/2026/07/24/openai-hugging-face-attack-doesnt-mean-agents-are-evil-unless-you-tell-them-to-be/5277881",
-          "source": "The Register - Security"
+          "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
+          "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+          "source": "TechCrunch"
         }
       ]
     },
     {
-      "keyword": "reinforcement learning",
-      "mentions": 215,
-      "velocity": 31.8,
+      "keyword": "claude",
+      "mentions": 622,
+      "velocity": 13.6,
       "sources": [
         "articles",
         "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Hackers hid dangerous malware on a page hidden in Anthopic's Claude.ai domain",
+      "articles": [
+        {
+          "title": "Hackers hid dangerous malware on a page hidden in Anthopic's Claude.ai domain",
+          "url": "https://www.techradar.com/pro/security/hackers-hid-dangerous-malware-on-a-page-hidden-in-anthopics-claude-ai-domain",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Claude ora parla italiano e si collega alla tua Gmail",
+          "url": "https://www.tomshw.it/hardware/claude-ora-parla-italiano-la-modalita-vocale-usa-opus-sonnet-e-gmail",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Claude Code ora integra il simulatore iOS: beta per (quasi) tutti",
+          "url": "https://www.tomshw.it/hardware/claude-code-compila-e-testa-le-app-nel-simulatore-ios-beta-per",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 117,
+      "velocity": 8.4,
+      "sources": [
+        "arxiv",
+        "hackernews",
         "linkedin",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "Exploiting Exogenous Structure for Sample-Efficient Reinforcement Learning",
+      "expert_ratio": 0.98,
+      "headline": "Learn2Zinc: Fine-tuning Small Language Models for Text-to-Model Translation in MiniZinc",
       "articles": [
         {
-          "title": "Exploiting Exogenous Structure for Sample-Efficient Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2409.14557",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Learn2Zinc: Fine-tuning Small Language Models for Text-to-Model Translation in MiniZinc",
+          "url": "https://arxiv.org/abs/2607.20456",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "EmoAgent-R1: Towards Multimodal Emotion Understanding with Reinforcement Learning-based Dynamic Agent Specialization",
-          "url": "https://arxiv.org/abs/2607.21013",
+          "title": "Opto-ViT-v2: Noise-Resilient On-Chip Fine-Tuning for Photonic Near-Sensor Vision Transformer Accelerators",
+          "url": "https://arxiv.org/abs/2607.19421",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "LAARA: Layer-Aware Adaptive Rank Allocation for Parameter-Efficient Fine-Tuning",
+          "url": "https://arxiv.org/abs/2607.19391",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "github",
+      "mentions": 120,
+      "velocity": 5.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.4,
+      "headline": "GitHub restructures bug bounty program following flood of AI-generated reports",
+      "articles": [
+        {
+          "title": "GitHub restructures bug bounty program following flood of AI-generated reports",
+          "url": "https://www.techradar.com/pro/security/github-restructures-bug-bounty-program-following-flood-of-ai-generated-reports",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "India orders GitHub to remove Bitchat, the offline messaging app built by Jack Dorsey that is used by anti-government pr",
+          "url": "https://www.techmeme.com/260724/p10#a260724p10",
+          "source": "Techmeme"
+        },
+        {
+          "title": "GitHub plans a two-tier bug bounty program that cuts rewards for the public and boosts payouts for invite-only researche",
+          "url": "https://www.techmeme.com/260723/p33#a260723p33",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 37,
+      "velocity": 4.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.34,
+      "headline": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
+      "articles": [
+        {
+          "title": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
+          "url": "https://arxiv.org/abs/2607.20531",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Show HN: An MCP server that turns async-work practices into tools",
+          "url": "https://github.com/open-and-async/mcp",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "flux",
+      "mentions": 27,
+      "velocity": 4.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "Germany's Black Forest Labs launches Flux 3 and Flux-mimic, its first models for robotics, as it expands from generative",
+      "articles": [
+        {
+          "title": "Germany's Black Forest Labs launches Flux 3 and Flux-mimic, its first models for robotics, as it expands from generative",
+          "url": "https://www.techmeme.com/260723/p44#a260723p44",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Black Forest Labs launches FLUX 3 capable of generating images and 20-second video with audio — but in limited release t",
+          "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
+      "keyword": "nvidia",
+      "mentions": 105,
+      "velocity": 4.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Microsoft, Meta, Nvidia, and Palantir have a message for Washington",
+      "articles": [
+        {
+          "title": "Microsoft, Meta, Nvidia, and Palantir have a message for Washington",
+          "url": "https://www.businessinsider.com/microsoft-nvidia-meta-palantir-jensen-huang-open-source-ai-letter-2026-7",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "AMD exec was ‘very happy’ to see Nvidia‘s Vera performance results – ‘I actually thought we were beating them by smaller",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-exec-was-very-happy-to-see-nvidias-vera-performance-results-i-actually-thought-we-were-beating-them-by-smaller-numbers",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Meta, Nvidia, Microsoft, a16z, and others sign a letter defending open-source AI; Jensen Huang, in his first X post, say",
+          "url": "https://www.techmeme.com/260724/p13#a260724p13",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 54,
+      "velocity": 4.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.83,
+      "headline": "SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data",
+      "articles": [
+        {
+          "title": "SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data",
+          "url": "https://arxiv.org/abs/2607.19949",
           "source": "cs.AI updates on arXiv.org"
         },
         {
           "title": "What Matters for Simulation to Online Reinforcement Learning on Real Robots",
           "url": "https://arxiv.org/abs/2602.20220",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+          "url": "https://arxiv.org/abs/2607.21522",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -75,109 +269,9 @@
   ],
   "emerging": [
     {
-      "keyword": "gemini",
-      "mentions": 247,
-      "velocity": 17.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "Google accelera su Gemini 4: rilasci (quasi) mensili in arrivo",
-      "articles": [
-        {
-          "title": "Google accelera su Gemini 4: rilasci (quasi) mensili in arrivo",
-          "url": "https://www.tomshw.it/hardware/google-avvia-il-pre-training-di-gemini-4-rilasci-quasi-mensili",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Google CEO distracts from Gemini 3.5 Pro delay with talk of Gemini 4 and monthly releases",
-          "url": "https://www.computerworld.com/article/4200823/google-ceo-distracts-from-gemini-3-5-pro-delay-with-talk-of-gemini-4-and-monthly-releases-2.html",
-          "source": "Computerworld"
-        },
-        {
-          "title": "Apply now for the Google for Startups Gemini Startup Forum.",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-winter-2026/",
-          "source": "The Official Google Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "hugging face",
-      "mentions": 89,
-      "velocity": 15.0,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "OpenAI-Hugging Face attack doesn't mean agents are evil – unless you tell them to be",
-      "articles": [
-        {
-          "title": "OpenAI-Hugging Face attack doesn't mean agents are evil – unless you tell them to be",
-          "url": "https://www.theregister.com/security/2026/07/24/openai-hugging-face-attack-doesnt-mean-agents-are-evil-unless-you-tell-them-to-be/5277881",
-          "source": "The Register"
-        },
-        {
-          "title": "Why OpenAI’s Hugging Face AI Hack Spooked Employees",
-          "url": "https://www.theinformation.com/articles/openais-hugging-face-ai-hack-spooked-employees",
-          "source": "The Information"
-        },
-        {
-          "title": "Sources: OpenAI models breached Hugging Face's internal systems in a matter of hours, a feat that would typically have t",
-          "url": "https://www.techmeme.com/260723/p4#a260723p4",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 245,
-      "velocity": 10.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "The Startups Angling to Go Public After Anthropic",
-      "articles": [
-        {
-          "title": "The Startups Angling to Go Public After Anthropic",
-          "url": "https://www.theinformation.com/articles/startups-angling-go-public-anthropic",
-          "source": "The Information"
-        },
-        {
-          "title": "Alphabet’s Anthropic Stake Jumps to Around $124 Billion",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-23/alphabet-s-anthropic-stake-jumps-to-around-124-billion",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
       "keyword": "chatgpt",
-      "mentions": 248,
-      "velocity": 9.3,
+      "mentions": 267,
+      "velocity": 15.0,
       "sources": [
         "articles",
         "arxiv",
@@ -191,17 +285,125 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.56,
-      "headline": "Agentic coding goes hands-free as OpenAI brings GPT-Live's full duplex voice control to Codex and ChatGPT on the desktop",
+      "headline": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
       "articles": [
         {
-          "title": "Agentic coding goes hands-free as OpenAI brings GPT-Live's full duplex voice control to Codex and ChatGPT on the desktop",
-          "url": "https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop",
-          "source": "VentureBeat"
+          "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
+          "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+          "source": "TechCrunch"
         },
         {
-          "title": "OpenAI once again makes the case for giving ChatGPT your health records",
-          "url": "https://www.engadget.com/2222059/openai-once-again-makes-the-case-for-giving-chatgpt-your-health-records/",
-          "source": "Engadget"
+          "title": "Delhi High Court rules OpenAI's use of ANI content to train ChatGPT wasn't copyright infringement as the news agency did",
+          "url": "https://www.techmeme.com/260724/p12#a260724p12",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Experts warn ChatGPT's Workspace Agent Builder can be hijacked to create malicious AI workers",
+          "url": "https://www.techradar.com/pro/security/experts-warn-chatgpts-workspace-agent-builder-can-be-hijacked-to-create-malicious-ai-workers",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "hugging face",
+      "mentions": 88,
+      "velocity": 14.7,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.7,
+      "headline": "A rogue AI hacked Hugging Face. Now Congress wants a kill switch.",
+      "articles": [
+        {
+          "title": "A rogue AI hacked Hugging Face. Now Congress wants a kill switch.",
+          "url": "https://thenextweb.com/news/ai-kill-switch-act-lieu-moran-dhs-openai-hugging-face",
+          "source": "The Next Web"
+        },
+        {
+          "title": "OpenAI took ten days to tell Hugging Face its models were behind the July 11 weekend hack, report claims — rogue AI agen",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-took-ten-days-to-tell-hugging-face-its-models-were-behind-the-july-11-weekend-hack",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Sources: OpenAI told Hugging Face only this week its models caused the July 11 hack; the models appear to have been acti",
+          "url": "https://www.techmeme.com/260724/p4#a260724p4",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 223,
+      "velocity": 10.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.74,
+      "headline": "Google is rolling out Gemini Live to its first-gen smart home devices, and it’s great news if your Home Mini speaker is ",
+      "articles": [
+        {
+          "title": "Google is rolling out Gemini Live to its first-gen smart home devices, and it’s great news if your Home Mini speaker is ",
+          "url": "https://www.techradar.com/home/smart-speakers/google-is-rolling-out-gemini-live-to-its-first-gen-smart-home-devices-and-its-great-news-if-your-home-mini-speaker-is-still-going-strong-heres-how-you-can-sign-up-to-early-access",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Google porta Gemini Live sui vecchi Home Mini e Nest Hub (e si paga)",
+          "url": "https://www.tomshw.it/hardware/gemini-live-sui-primi-home-mini-e-nest-hub-in-italia-serve",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Gemini Spark, niente Italia: resta escluso anche per chi paga AI Ultra",
+          "url": "https://www.tomshw.it/hardware/gemini-spark-niente-italia-resta-escluso-anche-per-chi-paga-ai-ultra",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 120,
+      "velocity": 5.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.88,
+      "headline": "LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features",
+      "articles": [
+        {
+          "title": "LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features",
+          "url": "https://arxiv.org/abs/2606.28445",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SOS-LoRA: Static Orthogonal-Subspace Low-Rank Adaptation with Fixed Multi-Scale Scaling",
+          "url": "https://arxiv.org/abs/2607.16252",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in ",
+          "url": "https://arxiv.org/abs/2607.16635",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -228,115 +430,38 @@
       ]
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 39,
+      "keyword": "anthropic",
+      "mentions": 226,
       "velocity": 4.8,
       "sources": [
         "articles",
         "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "data centers",
-      "mentions": 51,
-      "velocity": 4.7,
-      "sources": [
-        "articles",
-        "arxiv",
+        "github",
         "hackernews",
+        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.59,
-      "headline": "Google says it has $811B in contracted future spending commitments as of June, up ~$500B from March, covering chips, dat",
+      "expert_ratio": 0.83,
+      "headline": "The Startups Angling to Go Public After Anthropic",
       "articles": [
         {
-          "title": "Google says it has $811B in contracted future spending commitments as of June, up ~$500B from March, covering chips, dat",
-          "url": "https://www.techmeme.com/260723/p59#a260723p59",
-          "source": "Techmeme"
+          "title": "The Startups Angling to Go Public After Anthropic",
+          "url": "https://www.theinformation.com/articles/startups-angling-go-public-anthropic",
+          "source": "The Information"
         },
         {
-          "title": "The right-wing boomers protesting data centers have a lot in common with the left",
-          "url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
-          "source": "The Verge -  Artificial Intelligences"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 37,
-      "velocity": 3.4,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Microsoft investeert miljarden in Europese AI-uitbreiding van Mistral",
-      "articles": [
-        {
-          "title": "Microsoft investeert miljarden in Europese AI-uitbreiding van Mistral",
-          "url": "https://www.emerce.nl/nieuws/microsoft-investeert-miljarden-europese-aiuitbreiding-mistral",
-          "source": "Nieuws - Emerce"
-        },
-        {
-          "title": "Microsoft gaat Europese Mistral-servers gebruiken voor AI-modellen",
-          "url": "https://tweakers.net/nieuws/250276/microsoft-gaat-europese-mistral-servers-gebruiken-voor-ai-modellen.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Samsung reportedly in talks to back Mistral at €20bn valuation",
-          "url": "https://thenextweb.com/news/samsung-mistral-investment-talks-20bn-valuation",
-          "source": "The Next Web"
+          "title": "Alphabet’s Anthropic Stake Jumps to Around $124 Billion",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-23/alphabet-s-anthropic-stake-jumps-to-around-124-billion",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "moderation",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "When Are Reasoning-Based Guardrails Not Efficient? ResponseGuard: A Fast Vision-Language Guard for Real-Time Moderation",
-      "articles": [
-        {
-          "title": "When Are Reasoning-Based Guardrails Not Efficient? ResponseGuard: A Fast Vision-Language Guard for Real-Time Moderation",
-          "url": "https://arxiv.org/abs/2607.21401",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Some Instagram and Facebook users say Meta's AI moderation deleted their accounts; Meta says AI makes 13% fewer errors a",
-          "url": "https://www.techmeme.com/260721/p41#a260721p41",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Judge: Trump can’t deport researchers just for working in content moderation",
-          "url": "https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/",
-          "source": "Ars Technica"
-        }
-      ]
-    },
     {
       "keyword": "posthog",
       "mentions": 2,
@@ -382,6 +507,66 @@
       ]
     },
     {
+      "keyword": "genesis mission",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "US outlines its $5 billion Genesis Mission to boost science with AI",
+      "articles": [
+        {
+          "title": "US outlines its $5 billion Genesis Mission to boost science with AI",
+          "url": "https://www.engadget.com/2221309/us-outlines-its-5-billion-genesis-mission-to-boost-science-with-ai/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+          "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+          "source": "Google DeepMind News"
+        },
+        {
+          "title": "Meta's AI models are powering the first wave of Genesis Mission projects",
+          "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "moderation",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "When Are Reasoning-Based Guardrails Not Efficient? ResponseGuard: A Fast Vision-Language Guard for Real-Time Moderation",
+      "articles": [
+        {
+          "title": "When Are Reasoning-Based Guardrails Not Efficient? ResponseGuard: A Fast Vision-Language Guard for Real-Time Moderation",
+          "url": "https://arxiv.org/abs/2607.21401",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Some Instagram and Facebook users say Meta's AI moderation deleted their accounts; Meta says AI makes 13% fewer errors a",
+          "url": "https://www.techmeme.com/260721/p41#a260721p41",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Judge: Trump can’t deport researchers just for working in content moderation",
+          "url": "https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/",
+          "source": "Ars Technica"
+        }
+      ]
+    },
+    {
       "keyword": "effort",
       "mentions": 2,
       "velocity": 1.0,
@@ -407,7 +592,7 @@
         {
           "title": "Trump administration says 15 agencies will get $5bn in ‘AI for science’ effort",
           "url": "https://www.theguardian.com/us-news/2026/jul/22/trump-science-funding-overhaul-ai",
-          "source": "Artificial intelligence (AI) | The Guardian"
+          "source": "Technology | The Guardian"
         }
       ]
     },
@@ -446,26 +631,6 @@
       "articles": []
     },
     {
-      "keyword": "skypilot",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "Databricks co-founder Ion Stoica's GPU orchestration startup SkyPilot, which aims to be neutral across hardware and clou",
-      "articles": [
-        {
-          "title": "Databricks co-founder Ion Stoica's GPU orchestration startup SkyPilot, which aims to be neutral across hardware and clou",
-          "url": "https://www.techmeme.com/260721/p17#a260721p17",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
       "keyword": "awesome-gpt-image-2",
       "mentions": 3,
       "velocity": 0.8,
@@ -494,138 +659,174 @@
       "articles": []
     },
     {
-      "keyword": "local llm",
+      "keyword": "skypilot",
       "mentions": 3,
-      "velocity": 0.6,
+      "velocity": 0.8,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 71,
-      "days_active": 4,
-      "expert_ratio": 1.0,
-      "headline": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Databricks co-founder Ion Stoica's GPU orchestration startup SkyPilot, which aims to be neutral across hardware and clou",
       "articles": [
         {
-          "title": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
-          "url": "https://github.com/projectargus-cc/libargus.cc",
-          "source": "Hacker News"
+          "title": "Databricks co-founder Ion Stoica's GPU orchestration startup SkyPilot, which aims to be neutral across hardware and clou",
+          "url": "https://www.techmeme.com/260721/p17#a260721p17",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "ollama",
-      "mentions": 11,
-      "velocity": 1.9,
+      "keyword": "copilot",
+      "mentions": 55,
+      "velocity": 1.8,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.61,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 31,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.65,
-      "headline": "Beyond Heavy Log Curation: Perplexity-Based APT Detection via Unsupervised, Context-Augmented Language Models",
-      "articles": [
-        {
-          "title": "Beyond Heavy Log Curation: Perplexity-Based APT Detection via Unsupervised, Context-Augmented Language Models",
-          "url": "https://arxiv.org/abs/2607.20832",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "When Perplexity Lies: Generation-Focused Distillation of Hybrid Sequence Models",
-          "url": "https://arxiv.org/abs/2603.26556",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "These 3 Perplexity power-user techniques make AI search more useful",
-          "url": "https://www.fastcompany.com/91575886/perplexity-tips-2",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 52,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "arxiv",
         "github",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "Exclusive: Cursor Launches Model Router",
+      "expert_ratio": 0.67,
+      "headline": "Lenovo's premium Yoga Slim 7x Copilot+ laptop with a 'phenomenal OLED display' is over $420 off at Best Buy",
       "articles": [
         {
-          "title": "Exclusive: Cursor Launches Model Router",
-          "url": "https://www.theinformation.com/briefings/exclusive-cursor-launches-model-router",
-          "source": "The Information"
+          "title": "Lenovo's premium Yoga Slim 7x Copilot+ laptop with a 'phenomenal OLED display' is over $420 off at Best Buy",
+          "url": "https://www.techradar.com/pro/lenovos-premium-yoga-slim-7x-copilot-laptop-with-a-phenomenal-oled-display-is-over-usd420-off-at-best-buy",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Researchers found sandbox escapes or boundary bypasses in Cursor, Codex, Gemini CLI, and Antigravity by writing files tr",
-          "url": "https://www.techmeme.com/260720/p41#a260720p41",
+          "title": "10 cool things Copilot can do in PowerPoint",
+          "url": "https://www.computerworld.com/article/4194634/10-cool-things-copilot-can-do-in-powerpoint.html",
+          "source": "Computerworld"
+        },
+        {
+          "title": "Microsoft and Mistral sign a multibillion-dollar deal to build European data centers and integrate Mistral models into F",
+          "url": "https://www.techmeme.com/260721/p16#a260721p16",
           "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "synthetic data",
-      "mentions": 12,
-      "velocity": 1.6,
+      "keyword": "cuda",
+      "mentions": 14,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
+        "github",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Synthetic data generation framework for quality control automation in gravure printing",
+      "expert_ratio": 0.83,
+      "headline": "Geekbench 7 heeft vernieuwde multicoretest en ondersteuning voor CUDA",
       "articles": [
         {
-          "title": "Synthetic data generation framework for quality control automation in gravure printing",
-          "url": "https://arxiv.org/abs/2607.21577",
+          "title": "Geekbench 7 heeft vernieuwde multicoretest en ondersteuning voor CUDA",
+          "url": "https://tweakers.net/nieuws/250350/geekbench-7-heeft-vernieuwde-multicoretest-en-ondersteuning-voor-cuda.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Multi-turn RL with Structural and Performance Aware Rewards for CUDA Kernel Generation",
+          "url": "https://arxiv.org/abs/2607.20908",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "SynPre-FL: Synthetic data-driven pretraining integrated Federated Learning training framework",
-          "url": "https://arxiv.org/abs/2607.19524",
+          "title": "Geekbench 7 introduces biggest overhaul yet — real-world CPU testing, new media workloads, AI benchmarks, and CUDA suppo",
+          "url": "https://www.tomshardware.com/software/geekbench-7-introduces-biggest-overhaul-yet-real-world-cpu-testing-new-media-workloads-ai-benchmarks-and-cuda-support",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "vibe coding",
+      "mentions": 29,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.6,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "foundation model",
+      "mentions": 42,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Anal",
+      "articles": [
+        {
+          "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Anal",
+          "url": "https://arxiv.org/abs/2607.18218",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Environment-free Synthetic Data Generation for API-Calling Agents",
-          "url": "https://arxiv.org/abs/2607.16900",
+          "title": "A Sovereign, Open-Source Foundation Model for German and English",
+          "url": "https://arxiv.org/abs/2607.09424",
           "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Three-Phase Foundation Model for Tax-Aware Personalized Portfolio Management",
+          "url": "https://arxiv.org/abs/2606.30997",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 70,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.89,
+      "headline": "Autonomous disproofs of the sum-product conjecture over $\\mathbb R$ with GPT-5.5 Pro",
+      "articles": [
+        {
+          "title": "Autonomous disproofs of the sum-product conjecture over $\\mathbb R$ with GPT-5.5 Pro",
+          "url": "https://arxiv.org/abs/2607.20525",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "GPT-5.6 Pro: 58 parole potrebbero confutare la congettura Dinitz-Garg-Goemans",
+          "url": "https://www.tomshw.it/hardware/gpt-5-6-pro-58-parole-potrebbero-confutare-la-congettura-dinitz-garg",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Modelli piccoli che battono GPT-5.5 e costano meno, Cisco riparte dalla cybersecurity",
+          "url": "https://www.tomshw.it/business/modelli-piccoli-che-battono-gpt-55-e-costano-meno-cisco-riparte-dalla-cybersecurity",
+          "source": "Tom's Hardware"
         }
       ]
     },
@@ -645,29 +846,6 @@
       "expert_ratio": 0.0,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "langchain",
-      "mentions": 18,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "A single AI agent conversation can look perfect and still be broken, leaders from LangChain, Conviva and CoreWeave said ",
-      "articles": [
-        {
-          "title": "A single AI agent conversation can look perfect and still be broken, leaders from LangChain, Conviva and CoreWeave said ",
-          "url": "https://venturebeat.com/data/a-single-ai-agent-conversation-can-look-perfect-and-still-be-broken-leaders-from-langchain-conviva-and-coreweave-said-at-vb-transform-2026",
-          "source": "VentureBeat"
-        }
-      ]
     }
   ],
   "track_record": {
@@ -768,13 +946,43 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-24",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "data centers",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-24",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "data center",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-24",
+        "confidence": 1.0
+      },
+      {
         "keyword": "hallucination",
         "signal_type": "emerging",
         "flagged_on": "2026-07-24",
         "confidence": 0.8
       },
       {
-        "keyword": "openai",
+        "keyword": "prompt engineering",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-24",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "small language model",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-24",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "cursor",
         "signal_type": "emerging",
         "flagged_on": "2026-07-23",
         "confidence": 1.0
@@ -786,13 +994,19 @@
         "confidence": 1.0
       },
       {
-        "keyword": "cursor",
+        "keyword": "lora",
         "signal_type": "emerging",
         "flagged_on": "2026-07-23",
         "confidence": 1.0
       },
       {
-        "keyword": "lora",
+        "keyword": "openai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-23",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "hugging face",
         "signal_type": "emerging",
         "flagged_on": "2026-07-23",
         "confidence": 1.0
@@ -802,58 +1016,15 @@
         "signal_type": "emerging",
         "flagged_on": "2026-07-23",
         "confidence": 1.0
-      },
-      {
-        "keyword": "hugging face",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-23",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "huggingface",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-23",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "poolside",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-23",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "hermes-agent",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-23",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "cerebras",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-23",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "nvidia",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-22",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
         "keyword": "hugging face",
-        "recent_mentions": 236,
+        "recent_mentions": 235,
         "prior_mentions": 15,
-        "change_ratio": 15.73,
-        "corroborating_sources": 7
-      },
-      {
-        "keyword": "llama 3",
-        "recent_mentions": 23,
-        "prior_mentions": 2,
-        "change_ratio": 11.5,
-        "corroborating_sources": 2
+        "change_ratio": 15.67,
+        "corroborating_sources": 8
       },
       {
         "keyword": "computer use",
@@ -877,11 +1048,11 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "kimi",
-        "recent_mentions": 417,
-        "prior_mentions": 59,
-        "change_ratio": 7.07,
-        "corroborating_sources": 6
+        "keyword": "llama 3",
+        "recent_mentions": 15,
+        "prior_mentions": 2,
+        "change_ratio": 7.5,
+        "corroborating_sources": 2
       },
       {
         "keyword": "deepseek v3",
@@ -891,18 +1062,25 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "reward hacking",
+        "keyword": "mistral",
+        "recent_mentions": 140,
+        "prior_mentions": 23,
+        "change_ratio": 6.09,
+        "corroborating_sources": 9
+      },
+      {
+        "keyword": "browser-use",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "mistral",
-        "recent_mentions": 136,
-        "prior_mentions": 23,
-        "change_ratio": 5.91,
-        "corroborating_sources": 9
+        "keyword": "reward hacking",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "huggingface",
@@ -919,11 +1097,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "langflow",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
+        "keyword": "kimi",
+        "recent_mentions": 319,
+        "prior_mentions": 59,
+        "change_ratio": 5.41,
+        "corroborating_sources": 6
       }
     ]
   }
