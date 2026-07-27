@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T07:17:52.908981",
-  "total_tracked": 4131,
+  "generated_at": "2026-07-27T19:24:56.601112",
+  "total_tracked": 4244,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 191,
-      "velocity": 19.7,
+      "keyword": "nvidia",
+      "mentions": 138,
+      "velocity": 13.8,
       "sources": [
         "articles",
         "arxiv",
@@ -19,23 +19,163 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+      "expert_ratio": 0.76,
+      "headline": "Nvidia Forms Alliance to Back Open-Source A.I. Amid Debate Over Safety",
       "articles": [
         {
-          "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
-          "url": "https://arxiv.org/abs/2607.22511",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Nvidia Forms Alliance to Back Open-Source A.I. Amid Debate Over Safety",
+          "url": "https://www.nytimes.com/2026/07/27/technology/nvidia-open-source-ai.html",
+          "source": "NYT ＞ Technology"
         },
         {
-          "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
-          "url": "https://arxiv.org/abs/2607.19190",
+          "title": "Nvidia Makes Multibillion Dollar Investment in Ilya Sutskever’s Safe Superintelligence",
+          "url": "https://www.theinformation.com/briefings/nvidia-makes-multibillion-dollar-investment-ilya-sutskevers-safe-superintelligence",
+          "source": "The Information"
+        },
+        {
+          "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+          "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 79,
+      "velocity": 6.2,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.56,
+      "headline": "How Meta Got Everything It Wanted in a Secret Louisiana Data Center Deal",
+      "articles": [
+        {
+          "title": "How Meta Got Everything It Wanted in a Secret Louisiana Data Center Deal",
+          "url": "https://www.nytimes.com/2026/07/27/technology/meta-data-center-louisiana.html",
+          "source": "NYT ＞ Technology"
+        },
+        {
+          "title": "5 Things to Know About Meta’s Giant Data Center in Louisiana",
+          "url": "https://www.nytimes.com/2026/07/27/business/meta-data-center-louisiana-takeaways.html",
+          "source": "The New York Times"
+        },
+        {
+          "title": "How would AI data centers in space even work? A former NASA robotics chief explains",
+          "url": "https://www.zdnet.com/article/how-would-ai-data-centers-in-space-even-work-a-former-nasa-robotics-chief-explains/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "github",
+      "mentions": 137,
+      "velocity": 4.7,
+      "sources": [
+        "articles",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.35,
+      "headline": "GitHub rivoluziona Dependabot: sicurezza sempre prioritaria",
+      "articles": [
+        {
+          "title": "GitHub rivoluziona Dependabot: sicurezza sempre prioritaria",
+          "url": "https://www.tomshw.it/hardware/github-dependabot-update-ordinari-dopo-72-ore-quelli-di-sicurezza-subito",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "From Hugging Face to GitHub: Tracing License Drift in the Open-Source AI Ecosystem",
+          "url": "https://arxiv.org/abs/2509.09873",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "SwiftMem: Fast Agentic Memory via Query-aware Indexing",
-          "url": "https://arxiv.org/abs/2601.08160",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "GitHub halveert maximale bugbountybeloningen vanwege toenemende AI-meldingen",
+          "url": "https://tweakers.net/nieuws/250374/github-halveert-maximale-bugbountybeloningen-vanwege-toenemende-ai-meldingen.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 45,
+      "velocity": 3.7,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "Claude Opus 5 vient d’être lancé : ses premiers résultats bousculent toute la hiérarchie avec des coûts divisés par 2 !",
+      "articles": [
+        {
+          "title": "Claude Opus 5 vient d’être lancé : ses premiers résultats bousculent toute la hiérarchie avec des coûts divisés par 2 !",
+          "url": "https://www.futura-sciences.com/tech/actualites/claude-claude-opus-5-vient-etre-lance-premiers-resultats-bousculent-toute-hierarchie-couts-divises-2-136554/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
+        }
+      ]
+    },
+    {
+      "keyword": "llama.cpp",
+      "mentions": 18,
+      "velocity": 3.1,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.88,
+      "headline": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
+      "articles": [
+        {
+          "title": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
+          "source": "Ollama Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "voice mode",
+      "mentions": 14,
+      "velocity": 2.6,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 12,
+      "expert_ratio": 0.35,
+      "headline": "Claude’s new voice mode isn’t chasing natural. It’s chasing your to-do list.",
+      "articles": [
+        {
+          "title": "Claude’s new voice mode isn’t chasing natural. It’s chasing your to-do list.",
+          "url": "https://thenextweb.com/news/anthropic-claude-voice-mode-opus-sonnet-tools",
+          "source": "The Next Web"
+        },
+        {
+          "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
+          "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Anthropic makes its Opus and Sonnet models available in voice mode, and says voice mode can now tap into some connected ",
+          "url": "https://www.techmeme.com/260723/p41#a260723p41",
+          "source": "Techmeme"
         }
       ]
     }
@@ -43,8 +183,8 @@
   "emerging": [
     {
       "keyword": "openai",
-      "mentions": 616,
-      "velocity": 24.7,
+      "mentions": 589,
+      "velocity": 16.5,
       "sources": [
         "articles",
         "arxiv",
@@ -58,22 +198,22 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.72,
-      "headline": "How US companies flipped from \"tokenmaxxing\" to \"thrift-maxxing\", mixing cheaper Chinese models with OpenAI and Anthropi",
+      "headline": "Tech giants link hands to praise open AI models after OpenAI - Hugging Face attack",
       "articles": [
         {
-          "title": "How US companies flipped from \"tokenmaxxing\" to \"thrift-maxxing\", mixing cheaper Chinese models with OpenAI and Anthropi",
-          "url": "https://www.techmeme.com/260726/p12#a260726p12",
-          "source": "Techmeme"
+          "title": "Tech giants link hands to praise open AI models after OpenAI - Hugging Face attack",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
+          "source": "The Register"
         },
         {
-          "title": "Sources: Nvidia is in talks to provide a ~$250B backstop for OpenAI as part of a 10GW data center project that SoftBank ",
-          "url": "https://www.techmeme.com/260726/p10#a260726p10",
-          "source": "Techmeme"
+          "title": "Hugging Face is billing OpenAI $100mn for hacking it",
+          "url": "https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Nvidia Mulls $250 Billion Backing for OpenAI Hub, WSJ Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
-          "source": "Bloomberg Technology"
+          "title": "Hugging Face vuole vederci chiaro sul cyberattacco di OpenAI",
+          "url": "https://www.tomshw.it/hardware/hugging-face-chiede-a-openai-le-tracce-dell-attacco-ai-e-100",
+          "source": "Tom's Hardware"
         }
       ]
     },
@@ -93,67 +233,71 @@
       "articles": []
     },
     {
-      "keyword": "openclaw",
-      "mentions": 16,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "Top AI tools such as OpenClaw and Github Copilot can be hijacked to create new massive botnets",
-      "articles": [
-        {
-          "title": "Top AI tools such as OpenClaw and Github Copilot can be hijacked to create new massive botnets",
-          "url": "https://www.techradar.com/pro/security/top-ai-tools-such-as-openclaw-and-github-copilot-can-be-hijacked-to-create-new-massive-botnets",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Sources: Nous Research, the startup behind Hermes, an open-source agent and OpenClaw rival, is raising $75M+ at a $1.5B ",
-          "url": "https://www.techmeme.com/260713/p33#a260713p33",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenClaw becomes a nonprofit foundation as it seeks to be ‘the Switzerland of AI’",
-          "url": "https://www.computerworld.com/article/4196365/openclaw-becomes-a-nonprofit-foundation-as-it-seeks-to-be-the-switzerland-of-ai.html",
-          "source": "Computerworld"
-        }
-      ]
-    },
-    {
-      "keyword": "flux",
-      "mentions": 28,
-      "velocity": 2.4,
+      "keyword": "deepseek",
+      "mentions": 65,
+      "velocity": 2.2,
       "sources": [
         "articles",
         "arxiv",
         "hackernews",
+        "linkedin",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "Germany's Black Forest Labs launches Flux 3 and Flux-mimic, its first models for robotics, as it expands from generative",
+      "expert_ratio": 0.87,
+      "headline": "A million words costs $50 from Anthropic and 87 cents from DeepSeek. Corporate America noticed.",
       "articles": [
         {
-          "title": "Germany's Black Forest Labs launches Flux 3 and Flux-mimic, its first models for robotics, as it expands from generative",
-          "url": "https://www.techmeme.com/260723/p44#a260723p44",
-          "source": "Techmeme"
+          "title": "A million words costs $50 from Anthropic and 87 cents from DeepSeek. Corporate America noticed.",
+          "url": "https://thenextweb.com/news/thrift-maxxing-chinese-models-openai-anthropic-ipo-valuations?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Black Forest Labs launches FLUX 3 capable of generating images and 20-second video with audio — but in limited release t",
-          "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start",
-          "source": "VentureBeat"
+          "title": "DeepSeek pauses its second fundraising round after founder’s leaked investor comments go viral",
+          "url": "https://thenextweb.com/news/deepseek-funding-pause-viral-posts-liang-wenfeng",
+          "source": "The Next Web"
+        },
+        {
+          "title": "DeepSeek Puts Current Funding Round on Hold",
+          "url": "https://www.theinformation.com/briefings/deepseek-puts-current-funding-round-hold",
+          "source": "The Information"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "email",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "Costco's email marketing just turned into a $14 million problem",
+      "articles": [
+        {
+          "title": "Costco's email marketing just turned into a $14 million problem",
+          "url": "https://qz.com/costco-class-action-settlement-promotional-emails-washington-072726",
+          "source": "Quartz"
+        },
+        {
+          "title": "This Russian cybercrime campaign can infect a user just by viewing an email",
+          "url": "https://www.techradar.com/pro/security/this-russian-cybercrime-campaign-can-infect-a-user-just-by-viewing-an-email",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Zimbra, basta visualizzare un'email per rubare posta, password e codici 2FA",
+          "url": "https://www.tomshw.it/altro/zimbra-basta-visualizzare-un-email-per-rubare-posta-password-e-codici-2fa",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
     {
       "keyword": "posthog",
       "mentions": 2,
@@ -167,6 +311,34 @@
       "expert_ratio": 0.67,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "moss",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Actor Ellie Bamber needed to become Kate Moss on-screen. Her trainer helped her do it without starvation.",
+      "articles": [
+        {
+          "title": "Actor Ellie Bamber needed to become Kate Moss on-screen. Her trainer helped her do it without starvation.",
+          "url": "https://www.businessinsider.com/ellie-bamber-kate-moss-workout-diet-2026-7",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "AI-run 'utopias,' Moss in 2D and other new indie games worth checking out",
+          "url": "https://www.engadget.com/2217879/ai-run-utopias-moss-in-2d-and-other-new-indie-games-worth-checking-out/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Moss: The Forgotten Relic abbandona la realtà virtuale",
+          "url": "https://www.tomshw.it/videogioco/moss-the-forgotten-relic-lascia-la-vr-ma-salva-il-legame-piu",
+          "source": "Tom's Hardware"
+        }
+      ]
     },
     {
       "keyword": "mastercard",
@@ -249,31 +421,6 @@
       ]
     },
     {
-      "keyword": "ai security",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "AI Security Policy Should Assess Systems, Not Only Models",
-      "articles": [
-        {
-          "title": "AI Security Policy Should Assess Systems, Not Only Models",
-          "url": "https://arxiv.org/abs/2605.09504",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Multi-turn attacks broke AI models 88% of the time — single-turn testing missed it, Cisco AI security lead warns at VB T",
-          "url": "https://venturebeat.com/security/openai-anthropic-google-and-xai-models-all-broke-under-multi-turn-attack-up-to-88-of-the-time",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
       "keyword": "hermes-agent",
       "mentions": 3,
       "velocity": 0.8,
@@ -284,20 +431,6 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "caveman",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
       "headline": "",
       "articles": []
     },
@@ -322,6 +455,20 @@
       ]
     },
     {
+      "keyword": "caveman",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "auto",
       "mentions": 3,
       "velocity": 0.4,
@@ -332,46 +479,90 @@
       "confidence": 79,
       "days_active": 6,
       "expert_ratio": 0.83,
-      "headline": "CrypTorch: PyTorch-based Auto-tuning Compiler for Machine Learning with Multi-party Computation",
-      "articles": [
-        {
-          "title": "CrypTorch: PyTorch-based Auto-tuning Compiler for Machine Learning with Multi-party Computation",
-          "url": "https://arxiv.org/abs/2511.19711",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Android Auto has a developer menu you can access in seconds",
-          "url": "https://www.engadget.com/2218723/android-auto-hidden-menu/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
-      "keyword": "cloudfront",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "AWS CloudFront outage serves errors instead of websites",
-      "articles": [
-        {
-          "title": "AWS CloudFront outage serves errors instead of websites",
-          "url": "https://www.theregister.com/off-prem/2026/07/16/aws-cloudfront-outage-serves-errors-instead-of-websites/5272421",
-          "source": "The Register"
-        }
-      ]
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "llama.cpp",
-      "mentions": 14,
-      "velocity": 1.9,
+      "keyword": "flux",
+      "mentions": 26,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.71,
+      "headline": "Germany's Black Forest Labs launches Flux 3 and Flux-mimic, its first models for robotics, as it expands from generative",
+      "articles": [
+        {
+          "title": "Germany's Black Forest Labs launches Flux 3 and Flux-mimic, its first models for robotics, as it expands from generative",
+          "url": "https://www.techmeme.com/260723/p44#a260723p44",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Black Forest Labs launches FLUX 3 capable of generating images and 20-second video with audio — but in limited release t",
+          "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
+      "keyword": "synthetic data",
+      "mentions": 11,
+      "velocity": 1.6,
+      "sources": [
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture",
+      "articles": [
+        {
+          "title": "Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture",
+          "url": "https://arxiv.org/abs/2607.22445",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SurvDiff: A Diffusion Model for Generating Synthetic Data in Survival Analysis",
+          "url": "https://arxiv.org/abs/2509.22352",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Synthetic data generation framework for quality control automation in gravure printing",
+          "url": "https://arxiv.org/abs/2607.21577",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "dify",
+      "mentions": 16,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.85,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "macbook",
+      "mentions": 12,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "reddit"
@@ -379,171 +570,73 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
+      "expert_ratio": 0.61,
+      "headline": "The reason why the MacBook Air doesn't need a fan",
       "articles": [
         {
-          "title": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
-          "source": "Ollama Releases"
+          "title": "The reason why the MacBook Air doesn't need a fan",
+          "url": "https://www.engadget.com/2218722/macbook-air-missing-fan-reason-why/",
+          "source": "Engadget"
+        },
+        {
+          "title": "'Apple is entering 'the touchbar phase' again': MacBook OLED could be on track to launch in a few months, but skeptics s",
+          "url": "https://www.techradar.com/computing/macbooks/apple-is-entering-the-touchbar-phase-again-macbook-oled-could-be-on-track-to-launch-in-a-few-months-but-skeptics-still-hate-that-rumored-touchscreen",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "I've picked the 10 best back-to-school laptop deals — how to choose between the Dell XPS 13, MacBook Neo, HP OmniBook, a",
+          "url": "https://www.techradar.com/computing/laptops/ive-picked-the-10-best-back-to-school-laptop-deals-how-to-choose-between-the-dell-xps-13-macbook-neo-hp-omnibook-and-more-to-get-the-best-value-for-money",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "llama",
-      "mentions": 45,
-      "velocity": 1.6,
+      "keyword": "quantization",
+      "mentions": 18,
+      "velocity": 1.2,
       "sources": [
-        "articles",
         "arxiv",
+        "github",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
+      "expert_ratio": 0.94,
+      "headline": "An Empirical Study of OpenPangu Quantization on Ascend NPUs",
       "articles": [
         {
-          "title": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
-          "source": "Ollama Releases"
-        }
-      ]
-    },
-    {
-      "keyword": "ai act",
-      "mentions": 13,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE",
-      "articles": [
-        {
-          "title": "From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE",
-          "url": "https://arxiv.org/abs/2607.21608",
+          "title": "An Empirical Study of OpenPangu Quantization on Ascend NPUs",
+          "url": "https://arxiv.org/abs/2606.21257",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content.",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/",
-          "source": "The Keyword"
+          "title": "Beyond Independent Optimization: Compression, MoE Routing, and Quantization Interactions in Multimodal Edge Intelligence",
+          "url": "https://arxiv.org/abs/2607.20981",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Engadget Podcast: Is Siri AI actually useful in iOS 27 and macOS Golden Gate?",
-          "url": "https://www.engadget.com/2217377/engadget-podcast-is-siri-ai-actually-useful-in-ios-27-and-macos-golden-gate/",
-          "source": "Engadget"
+          "title": "FAIR-Calib: Frontier-Aware Instability-Reweighted Calibration for Post-Training Quantization of Diffusion Large Language",
+          "url": "https://arxiv.org/abs/2606.06547",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "mistral",
-      "mentions": 35,
-      "velocity": 1.4,
+      "keyword": "seedance",
+      "mentions": 13,
+      "velocity": 1.1,
       "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
         "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Microsoft investeert miljarden in Europese AI-uitbreiding van Mistral",
-      "articles": [
-        {
-          "title": "Microsoft investeert miljarden in Europese AI-uitbreiding van Mistral",
-          "url": "https://www.emerce.nl/nieuws/microsoft-investeert-miljarden-europese-aiuitbreiding-mistral",
-          "source": "Nieuws - Emerce"
-        },
-        {
-          "title": "Microsoft gaat Europese Mistral-servers gebruiken voor AI-modellen",
-          "url": "https://tweakers.net/nieuws/250276/microsoft-gaat-europese-mistral-servers-gebruiken-voor-ai-modellen.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Samsung reportedly in talks to back Mistral at €20bn valuation",
-          "url": "https://thenextweb.com/news/samsung-mistral-investment-talks-20bn-valuation",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 35,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.59,
-      "headline": "Anthropic releases Claude Opus 5 for both AI coding and general office work",
-      "articles": [
-        {
-          "title": "Anthropic releases Claude Opus 5 for both AI coding and general office work",
-          "url": "https://www.fastcompany.com/91578762/anthropic-releases-claude-opus-5-for-both-ai-coding-and-general-office-work?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07272026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Anthropic releases Claude Opus 5 for both AI coding and general office work",
-          "url": "https://www.fastcompany.com/91578762/anthropic-releases-claude-opus-5-for-both-ai-coding-and-general-office-work?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=07252026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Anthropic releases Claude Opus 5 for both AI coding and general office work",
-          "url": "https://www.fastcompany.com/91578762/anthropic-releases-claude-opus-5-for-both-ai-coding-and-general-office-work?partner=rss&amp&utm_source=rss&amp&utm_medium=feed&amp&utm_campaign=rss+fastcompany&amp&utm_content=rss",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 63,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.56,
-      "headline": "Sources: Nvidia is in talks to provide a ~$250B backstop for OpenAI as part of a 10GW data center project that SoftBank ",
-      "articles": [
-        {
-          "title": "Sources: Nvidia is in talks to provide a ~$250B backstop for OpenAI as part of a 10GW data center project that SoftBank ",
-          "url": "https://www.techmeme.com/260726/p10#a260726p10",
-          "source": "Techmeme"
-        },
-        {
-          "title": "'How we build is just as important as what we build' — Google reveals how it's going to solve the AI data center water p",
-          "url": "https://www.techradar.com/ai-platforms-assistants/how-we-build-is-just-as-important-as-what-we-build-google-reveals-how-its-going-to-solve-the-ai-data-center-water-problem-by-2030",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "The Flawed Environmental Case Against Data Centers",
-          "url": "https://www.nytimes.com/2026/07/25/opinion/data-centers-environment-ai.html",
-          "source": "The New York Times"
-        }
-      ]
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -644,20 +737,32 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "flux",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-27",
+        "confidence": 0.8
+      },
+      {
         "keyword": "durable",
         "signal_type": "emerging",
         "flagged_on": "2026-07-27",
         "confidence": 0.6
       },
       {
-        "keyword": "krea",
+        "keyword": "openclaw",
         "signal_type": "emerging",
-        "flagged_on": "2026-07-26",
-        "confidence": 0.2
+        "flagged_on": "2026-07-27",
+        "confidence": 0.6
       },
       {
         "keyword": "ai energy",
         "signal_type": "weak_signal",
+        "flagged_on": "2026-07-26",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "krea",
+        "signal_type": "emerging",
         "flagged_on": "2026-07-26",
         "confidence": 0.2
       },
@@ -680,6 +785,12 @@
         "confidence": 0.2
       },
       {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-24",
+        "confidence": 1.0
+      },
+      {
         "keyword": "data centers",
         "signal_type": "emerging",
         "flagged_on": "2026-07-24",
@@ -692,37 +803,26 @@
         "confidence": 1.0
       },
       {
-        "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-24",
-        "confidence": 1.0
-      },
-      {
         "keyword": "hallucination",
         "signal_type": "emerging",
         "flagged_on": "2026-07-24",
         "confidence": 0.8
-      },
-      {
-        "keyword": "prompt engineering",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-24",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "small language model",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-24",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
       {
         "keyword": "voice mode",
-        "recent_mentions": 32,
+        "recent_mentions": 34,
         "prior_mentions": 3,
-        "change_ratio": 10.67,
+        "change_ratio": 11.33,
         "corroborating_sources": 5
+      },
+      {
+        "keyword": "devin",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "computer use",
@@ -747,17 +847,10 @@
       },
       {
         "keyword": "open webui",
-        "recent_mentions": 12,
+        "recent_mentions": 9,
         "prior_mentions": 2,
-        "change_ratio": 6.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "openclaw",
-        "recent_mentions": 45,
-        "prior_mentions": 10,
         "change_ratio": 4.5,
-        "corroborating_sources": 4
+        "corroborating_sources": 2
       },
       {
         "keyword": "fireworks",
@@ -774,17 +867,17 @@
         "corroborating_sources": 4
       },
       {
-        "keyword": "edge ai",
-        "recent_mentions": 14,
-        "prior_mentions": 4,
-        "change_ratio": 3.5,
+        "keyword": "openclaw",
+        "recent_mentions": 38,
+        "prior_mentions": 10,
+        "change_ratio": 3.8,
         "corroborating_sources": 4
       },
       {
         "keyword": "replicate",
-        "recent_mentions": 24,
+        "recent_mentions": 25,
         "prior_mentions": 7,
-        "change_ratio": 3.43,
+        "change_ratio": 3.57,
         "corroborating_sources": 4
       },
       {
@@ -795,11 +888,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "chain of thought",
-        "recent_mentions": 22,
-        "prior_mentions": 8,
-        "change_ratio": 2.75,
-        "corroborating_sources": 3
+        "keyword": "ai regulation",
+        "recent_mentions": 17,
+        "prior_mentions": 6,
+        "change_ratio": 2.83,
+        "corroborating_sources": 4
       }
     ]
   }
