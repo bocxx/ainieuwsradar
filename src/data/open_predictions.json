@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T05:44:01+00:00",
+  "generated_at": "2026-07-28T17:41:08+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -148,6 +148,15 @@
       "outlet": "Nature"
     },
     {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-10",
+      "lead_days": 3,
+      "outlet": "Techmeme"
+    },
+    {
       "keyword": "tokens",
       "signal_type": "emerging",
       "status": "hit",
@@ -155,15 +164,6 @@
       "resolved_on": "2026-04-10",
       "lead_days": 3,
       "outlet": "Business Insider"
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-03",
-      "resolved_on": "2026-04-10",
-      "lead_days": 7,
-      "outlet": "Techmeme"
     },
     {
       "keyword": "llama",
