@@ -1,94 +1,103 @@
 {
-  "generated_at": "2026-07-27T17:44:14+00:00",
+  "generated_at": "2026-07-28T05:44:01+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 84,
     "resolved": 32,
-    "hits": 23,
-    "misses": 9,
-    "hit_rate": 0.719
+    "hits": 22,
+    "misses": 10,
+    "hit_rate": 0.688
   },
   "open": [
     {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-13",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "crewai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-18",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "browser use",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-19",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "ttft",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-20",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "claude haiku",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-21",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "autogpt",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 10
+      "days_left": 9
     },
     {
       "keyword": "luma",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 10
+      "days_left": 9
     },
     {
       "keyword": "midjourney",
       "signal_type": "emerging",
       "flagged_on": "2026-06-22",
-      "days_left": 10
+      "days_left": 9
     },
     {
       "keyword": "trae",
       "signal_type": "emerging",
       "flagged_on": "2026-06-23",
-      "days_left": 11
+      "days_left": 10
     },
     {
       "keyword": "comet",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-24",
-      "days_left": 12
+      "days_left": 11
     }
   ],
   "recent_resolved": [
     {
+      "keyword": "lora",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-12",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
       "keyword": "moss-tts",
       "signal_type": "weak_signal",
       "status": "miss",
-      "flagged_on": "2026-06-11",
+      "flagged_on": "2026-06-12",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
@@ -139,15 +148,6 @@
       "outlet": "Nature"
     },
     {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-10",
-      "lead_days": 3,
-      "outlet": "Techmeme"
-    },
-    {
       "keyword": "tokens",
       "signal_type": "emerging",
       "status": "hit",
@@ -157,12 +157,21 @@
       "outlet": "Business Insider"
     },
     {
-      "keyword": "llama",
+      "keyword": "qwen",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-03",
+      "resolved_on": "2026-04-10",
+      "lead_days": 7,
+      "outlet": "Techmeme"
+    },
+    {
+      "keyword": "llama",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-04",
       "resolved_on": "2026-04-08",
-      "lead_days": 5,
+      "lead_days": 4,
       "outlet": "VentureBeat"
     },
     {
@@ -184,13 +193,13 @@
       "outlet": "Tweakers"
     },
     {
-      "keyword": "data center",
+      "keyword": "copilot",
       "signal_type": "emerging",
       "status": "hit",
       "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-07",
       "lead_days": 0,
-      "outlet": "Techmeme"
+      "outlet": "Tweakers"
     },
     {
       "keyword": "benchmark",
@@ -200,15 +209,6 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
-    },
-    {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-04-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
     }
   ]
 }
