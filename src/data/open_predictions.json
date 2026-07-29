@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T17:41:08+00:00",
+  "generated_at": "2026-07-29T05:36:19+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 84,
+    "open": 85,
     "resolved": 32,
     "hits": 22,
     "misses": 10,
@@ -11,91 +11,91 @@
   },
   "open": [
     {
-      "keyword": "moss-tts",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-13",
-      "days_left": 0
-    },
-    {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-15",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "deepseek v3",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-16",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "crewai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-18",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "browser use",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-19",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "ttft",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-20",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "claude haiku",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-21",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "autogpt",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "luma",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "midjourney",
       "signal_type": "emerging",
       "flagged_on": "2026-06-22",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "trae",
       "signal_type": "emerging",
       "flagged_on": "2026-06-23",
-      "days_left": 10
+      "days_left": 9
     },
     {
       "keyword": "comet",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-24",
-      "days_left": 11
+      "days_left": 10
+    },
+    {
+      "keyword": "voice synthesis",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-24",
+      "days_left": 10
     }
   ],
   "recent_resolved": [
     {
-      "keyword": "lora",
-      "signal_type": "emerging",
+      "keyword": "moss-tts",
+      "signal_type": "weak_signal",
       "status": "miss",
-      "flagged_on": "2026-06-12",
+      "flagged_on": "2026-06-13",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
     },
     {
-      "keyword": "moss-tts",
-      "signal_type": "weak_signal",
+      "keyword": "lora",
+      "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-12",
       "resolved_on": null,
@@ -142,18 +142,18 @@
       "keyword": "large language model",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-03-14",
+      "flagged_on": "2026-04-07",
       "resolved_on": "2026-04-22",
-      "lead_days": 39,
+      "lead_days": 15,
       "outlet": "Nature"
     },
     {
       "keyword": "qwen",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-07",
+      "flagged_on": "2026-04-03",
       "resolved_on": "2026-04-10",
-      "lead_days": 3,
+      "lead_days": 7,
       "outlet": "Techmeme"
     },
     {
@@ -169,10 +169,19 @@
       "keyword": "llama",
       "signal_type": "emerging",
       "status": "hit",
-      "flagged_on": "2026-04-04",
+      "flagged_on": "2026-04-03",
       "resolved_on": "2026-04-08",
-      "lead_days": 4,
+      "lead_days": 5,
       "outlet": "VentureBeat"
+    },
+    {
+      "keyword": "data center",
+      "signal_type": "emerging",
+      "status": "hit",
+      "flagged_on": "2026-04-07",
+      "resolved_on": "2026-04-07",
+      "lead_days": 0,
+      "outlet": "Techmeme"
     },
     {
       "keyword": "ai agent",
@@ -184,24 +193,6 @@
       "outlet": "The Register"
     },
     {
-      "keyword": "benchmarks",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
-    },
-    {
-      "keyword": "copilot",
-      "signal_type": "emerging",
-      "status": "hit",
-      "flagged_on": "2026-04-07",
-      "resolved_on": "2026-04-07",
-      "lead_days": 0,
-      "outlet": "Tweakers"
-    },
-    {
       "keyword": "benchmark",
       "signal_type": "emerging",
       "status": "hit",
@@ -209,6 +200,15 @@
       "resolved_on": "2026-04-07",
       "lead_days": 0,
       "outlet": "Tweakers"
+    },
+    {
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-04-07",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
     }
   ]
 }
