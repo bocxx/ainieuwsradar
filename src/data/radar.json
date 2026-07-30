@@ -1,12 +1,117 @@
 {
-  "generated_at": "2026-07-29T19:22:45.978695",
-  "total_tracked": 4159,
+  "generated_at": "2026-07-30T07:25:36.760376",
+  "total_tracked": 4167,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "fine-tuning",
+      "mentions": 156,
+      "velocity": 25.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Post-Training at the Edge of Detectability: A Game-Theoretic Approach to Fine-Tuning",
+      "articles": [
+        {
+          "title": "Post-Training at the Edge of Detectability: A Game-Theoretic Approach to Fine-Tuning",
+          "url": "https://arxiv.org/abs/2607.26358",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Why Does Grounding Hurt Medical VQA? Benchmarking, Diagnosis, and Fine-Tuning of Vision-Language Models",
+          "url": "https://arxiv.org/abs/2604.27720",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Retraction-Free Optimization over the Stiefel Manifold for the LoRA Fine-Tuning",
+          "url": "https://arxiv.org/abs/2607.25299",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 210,
+      "velocity": 23.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "Where Is the Cost of Third-Party API Routers in Agentic Software Development?",
+      "articles": [
+        {
+          "title": "Where Is the Cost of Third-Party API Routers in Agentic Software Development?",
+          "url": "https://arxiv.org/abs/2607.23624",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "The User Asks, Platforms Compete: How Agentic Recommendation Markets Take Shape",
+          "url": "https://arxiv.org/abs/2607.25253",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Agent-UCT: Upper Confidence Bounds Applied to Trees for Agentic Workflow Optimization with Cost-Awareness",
+          "url": "https://arxiv.org/abs/2607.24162",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 168,
+      "velocity": 23.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Adaptive Multi-Horizon Reinforcement Learning",
+      "articles": [
+        {
+          "title": "Adaptive Multi-Horizon Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.20656",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "REGEN: Replay-recycling for Expert-to-Generalist distillation with Offline Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.19450",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution",
+          "url": "https://arxiv.org/abs/2607.26784",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "llama",
-      "mentions": 57,
-      "velocity": 6.0,
+      "mentions": 59,
+      "velocity": 4.8,
       "sources": [
         "articles",
         "arxiv",
@@ -33,337 +138,47 @@
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 143,
-      "velocity": 5.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Agentic security doesn't need a whole new definition – you just need to reframe what you already know",
-      "articles": [
-        {
-          "title": "Agentic security doesn't need a whole new definition – you just need to reframe what you already know",
-          "url": "https://www.techradar.com/pro/security/agentic-security-doesnt-need-a-whole-new-definition-you-just-need-to-reframe-what-you-already-know",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Nvidia partner ChipAgents raises $60M for agentic chip design",
-          "url": "https://thenextweb.com/news/nvidia-partner-chipagents-raises-60m-for-agentic-chip-design",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Agentic AI has a price: it's called ERP migration",
-          "url": "https://www.techradar.com/pro/agentic-ai-has-a-price-its-called-erp-migration",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "simulation",
-      "mentions": 58,
-      "velocity": 4.9,
+      "keyword": "gpt-5",
+      "mentions": 64,
+      "velocity": 4.7,
       "sources": [
         "articles",
         "arxiv",
         "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Physics-Informed Neural Operator for Warm-Starting Background-Decomposed and Preconditioned PSFD: Enabling Scalable 3-D ",
-      "articles": [
-        {
-          "title": "Physics-Informed Neural Operator for Warm-Starting Background-Decomposed and Preconditioned PSFD: Enabling Scalable 3-D ",
-          "url": "https://arxiv.org/abs/2607.25330",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Lantern: Conflict-Aware Gradient Blending for Physics-Guided Diffusion Models in Calorimeter Simulation",
-          "url": "https://arxiv.org/abs/2607.25060",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Neural Network Learning of One-Bit Protocols for Qubit Measurement Simulation",
-          "url": "https://arxiv.org/abs/2607.23645",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "deepmind",
-      "mentions": 21,
-      "velocity": 3.9,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "DeepMind spiega perché gli LLM non possono fare scoperte da soli",
+      "expert_ratio": 0.86,
+      "headline": "I gave Gemini 3.6 Flash and GPT-5.6 access to my entire digital life — here’s which one actually helped me more",
       "articles": [
         {
-          "title": "DeepMind spiega perché gli LLM non possono fare scoperte da soli",
-          "url": "https://www.tomshw.it/scienze/deepmind-spiega-perche-gli-llm-non-possono-fare-scoperte-da-soli",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Sources: Google DeepMind has reassigned the majority of the original authors of the AlphaFold papers; about a quarter of",
-          "url": "https://www.techmeme.com/260729/p2#a260729p2",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Google DeepMind's Demis Hassabis calls for 'urgent action' during 'precious window before AGI arrives' — and it's all st",
-          "url": "https://www.techradar.com/ai-platforms-assistants/google-deepminds-demis-hassabis-calls-for-urgent-action-during-precious-window-before-agi-arrives-and-its-all-starting-to-feel-a-bit-skynet",
+          "title": "I gave Gemini 3.6 Flash and GPT-5.6 access to my entire digital life — here’s which one actually helped me more",
+          "url": "https://www.techradar.com/ai-platforms-assistants/i-gave-gemini-3-6-flash-and-gpt-5-6-access-to-my-entire-digital-life-heres-which-one-actually-helped-me-more",
           "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Embodied GPT-5.1: Evidence of a World Model?",
+          "url": "https://arxiv.org/abs/2607.23899",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "dify",
-      "mentions": 25,
-      "velocity": 3.4,
+      "keyword": "sonicwall",
+      "mentions": 4,
+      "velocity": 3.0,
       "sources": [
         "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
+        "hackernews"
       ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
+      "source_count": 2,
+      "confidence": 80,
+      "days_active": 2,
+      "expert_ratio": 0.6,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "gpt-4o",
-      "mentions": 16,
-      "velocity": 2.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-      "articles": [
-        {
-          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-          "url": "https://arxiv.org/abs/2607.15509",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "google deepmind",
-      "mentions": 15,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Sources: Google DeepMind has reassigned the majority of the original authors of the AlphaFold papers; about a quarter of",
-      "articles": [
-        {
-          "title": "Sources: Google DeepMind has reassigned the majority of the original authors of the AlphaFold papers; about a quarter of",
-          "url": "https://www.techmeme.com/260729/p2#a260729p2",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Google DeepMind's Demis Hassabis calls for 'urgent action' during 'precious window before AGI arrives' — and it's all st",
-          "url": "https://www.techradar.com/ai-platforms-assistants/google-deepminds-demis-hassabis-calls-for-urgent-action-during-precious-window-before-agi-arrives-and-its-all-starting-to-feel-a-bit-skynet",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
-          "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-          "source": "Hacker News"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "perplexity",
-      "mentions": 46,
-      "velocity": 4.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.58,
-      "headline": "Perplexity employee who worked on Comet launches an AI browser aimed at knowledge work",
-      "articles": [
-        {
-          "title": "Perplexity employee who worked on Comet launches an AI browser aimed at knowledge work",
-          "url": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Perplexity's tokenmaxxing Model Council gives you multiple bot perspectives",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/28/perplexitys-tokenmaxxing-model-council-gives-you-multiple-bot-perspectives/5279972",
-          "source": "The Register"
-        },
-        {
-          "title": "Perplexity trasforma i PC Windows in agenti AI personali",
-          "url": "https://www.tomshw.it/hardware/perplexity-trasforma-i-pc-windows-in-agenti-ai-personali",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "hallucinations",
-      "mentions": 23,
-      "velocity": 4.4,
-      "sources": [
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "GPTZero finds AI hallucinations in four PwC Middle East reports; GPTZero's earlier investigations led EY and KPMG to ret",
-      "articles": [
-        {
-          "title": "GPTZero finds AI hallucinations in four PwC Middle East reports; GPTZero's earlier investigations led EY and KPMG to ret",
-          "url": "https://www.techmeme.com/260729/p4#a260729p4",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Reliability Scales Inversely: Hallucinations Snowball Faster in Bigger Language Models",
-          "url": "https://arxiv.org/abs/2607.18292",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Directional Hallucinations: Ideological Drift in News-Grounded LLM Question Answering",
-          "url": "https://arxiv.org/abs/2607.20487",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 97,
-      "velocity": 3.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.59,
-      "headline": "UK MP asks High Court to force xAI to stop Grok making sexualised images of her",
-      "articles": [
-        {
-          "title": "UK MP asks High Court to force xAI to stop Grok making sexualised images of her",
-          "url": "https://thenextweb.com/news/uk-lawmaker-xai-grok-images",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Leading AI models (even Grok) are all a bunch of leftist punks",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/27/leading-ai-models-even-grok-are-all-a-bunch-of-leftist-punks/5279208",
-          "source": "The Register"
-        },
-        {
-          "title": "SpaceXAI has built a Microsoft Excel Grok plug-in, for some reason",
-          "url": "https://www.techradar.com/pro/spacexai-has-built-a-microsoft-excel-grok-plug-in-for-some-reason",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-4",
-      "mentions": 23,
-      "velocity": 3.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-      "articles": [
-        {
-          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-          "url": "https://arxiv.org/abs/2607.15509",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 20,
-      "velocity": 3.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "We’re running out of reasons to ignore AI safety",
-      "articles": [
-        {
-          "title": "We’re running out of reasons to ignore AI safety",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "MedFailBench: A Clinician-Built Open-Source Benchmark for Medical AI Safety Boundary Inspection",
-          "url": "https://arxiv.org/abs/2607.15166",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "On AI Safety and Security Technical Debt in Engineering AI-Enabled Systems",
-          "url": "https://arxiv.org/abs/2607.23365",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "weak_signals": [
@@ -398,61 +213,6 @@
       ]
     },
     {
-      "keyword": "controls",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export ",
-      "articles": [
-        {
-          "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export ",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Distributing Security Controls Through Harness Engineering",
-          "url": "https://arxiv.org/abs/2607.25890",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Anthropic rejects open-weight AI bans, calls for China chip controls and safety tests",
-          "url": "https://www.computerworld.com/article/4202178/anthropic-rejects-open-weight-ai-bans-calls-for-china-chip-controls-and-safety-tests.html",
-          "source": "Artificial Intelligence – Computerworld"
-        }
-      ]
-    },
-    {
-      "keyword": "mastercard",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Mastercard's Jill Kramer says AI can be an engine of human creativity and insight",
-      "articles": [
-        {
-          "title": "Mastercard's Jill Kramer says AI can be an engine of human creativity and insight",
-          "url": "https://www.businessinsider.com/mastercard-cmo-jill-kramer-ai-marketing-strategy-2026-6",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Mastercard's Jill Kramer says AI can be an engine of human creativity and insight",
-          "url": "https://www.businessinsider.com/mastercard-cmo-jill-cramer-ai-marketing-strategy-2026-6",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
       "keyword": "substantial",
       "mentions": 2,
       "velocity": 1.0,
@@ -483,55 +243,59 @@
       ]
     },
     {
-      "keyword": "tree",
+      "keyword": "controls",
       "mentions": 2,
       "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "auto",
-      "mentions": 3,
-      "velocity": 0.7,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 71,
-      "days_active": 4,
-      "expert_ratio": 0.75,
-      "headline": "Gedumpte auto Engelen is van inwoners die poster Vluchtelingenwerk voor raam hadden",
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Trump says he's looking at AI controls after OpenAI rogue agent",
       "articles": [
         {
-          "title": "Gedumpte auto Engelen is van inwoners die poster Vluchtelingenwerk voor raam hadden",
-          "url": "https://nos.nl/l/2624867",
-          "source": "NOS Nieuws - Algemeen"
+          "title": "Trump says he's looking at AI controls after OpenAI rogue agent",
+          "url": "https://www.youtube.com/watch?v=kTWO1DU-3ZA",
+          "source": "Reuters"
         },
         {
-          "title": "Auto te water in Engelen, politie onderzoekt verband met anti-azc-bekladdingen",
-          "url": "https://nos.nl/l/2624821",
-          "source": "NOS Nieuws - Algemeen"
+          "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export ",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Distributing Security Controls Through Harness Engineering",
+          "url": "https://arxiv.org/abs/2607.25890",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "uncensored",
+      "keyword": "auto",
       "mentions": 3,
       "velocity": 0.6,
       "sources": [
-        "hackernews"
+        "articles"
       ],
       "source_count": 1,
       "confidence": 69,
       "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.86,
+      "headline": "Auto Research for Materials: Auditable AI-Scientist Workflows with Held-Out Transfer",
+      "articles": [
+        {
+          "title": "Auto Research for Materials: Auditable AI-Scientist Workflows with Held-Out Transfer",
+          "url": "https://arxiv.org/abs/2607.17100",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Auto-AEG: Scalable Data Construction for Open-Vocabulary Audio Event Grounding",
+          "url": "https://arxiv.org/abs/2607.04383",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     },
     {
       "keyword": "skypilot",
@@ -554,40 +318,71 @@
       ]
     },
     {
-      "keyword": "email",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
-      "headline": "Costco's email marketing just turned into a $14 million problem",
+      "keyword": "nocode",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "devtools",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "vibecoding",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Curative CEO says company ditched a $600k-a-year Salesforce contract after vibecoding a CRM in 2 months",
       "articles": [
         {
-          "title": "Costco's email marketing just turned into a $14 million problem",
-          "url": "https://qz.com/costco-class-action-settlement-promotional-emails-washington-072726",
-          "source": "Quartz"
-        },
-        {
-          "title": "This Russian cybercrime campaign can infect a user just by viewing an email",
-          "url": "https://www.techradar.com/pro/security/this-russian-cybercrime-campaign-can-infect-a-user-just-by-viewing-an-email",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Curative CEO says company ditched a $600k-a-year Salesforce contract after vibecoding a CRM in 2 months",
+          "url": "https://www.businessinsider.com/curative-ceo-salesforce-vibecode-crm-2026-7?utm_source=flipboard&utm_content=user/BusinessInsider",
+          "source": "Artificial Intelligence"
         }
       ]
     },
     {
+      "keyword": "claude 4",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 7,
+      "expert_ratio": 0.69,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "toneup",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.3,
       "sources": [
         "linkedin"
       ],
       "source_count": 1,
       "confidence": 95,
-      "days_active": 12,
+      "days_active": 13,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
@@ -595,114 +390,43 @@
   ],
   "sustained": [
     {
-      "keyword": "data center",
-      "mentions": 70,
+      "keyword": "ai safety",
+      "mentions": 19,
       "velocity": 1.9,
       "sources": [
         "articles",
-        "hackernews",
-        "linkedin",
+        "arxiv",
+        "github",
         "reddit",
         "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.56,
-      "headline": "Willie Nelson is fighting data centers near his Texas hometown: 'The last thing we need'",
+      "expert_ratio": 0.73,
+      "headline": "Adversarial Pragmatics for AI Safety Evaluation: A Diagnostic Framework and Seed Benchmark for Language-Mediated Control",
       "articles": [
         {
-          "title": "Willie Nelson is fighting data centers near his Texas hometown: 'The last thing we need'",
-          "url": "https://www.businessinsider.com/willie-nelson-ai-data-center-opposition-texas-2026-7",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Brookfield and NextEra partner to develop a $100B, 1.2GW+ AI data center campus at a former DOE uranium-enrichment site ",
-          "url": "https://www.techmeme.com/260729/p23#a260729p23",
-          "source": "Techmeme"
-        },
-        {
-          "title": "‘We are the reason that data centers get built and expanded’: It’s not about whether we need them, but it’s about where ",
-          "url": "https://www.techradar.com/pro/we-are-the-reason-that-data-centers-get-built-and-expanded-its-not-about-whether-we-need-them-but-its-about-where-we-build-them-idca-founder-and-ceo-says",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "grpo",
-      "mentions": 16,
-      "velocity": 1.8,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "NormWorlds-CF: Solver-Verified Counterfactual Normative Reasoning with Metamorphic-Relation GRPO",
-      "articles": [
-        {
-          "title": "NormWorlds-CF: Solver-Verified Counterfactual Normative Reasoning with Metamorphic-Relation GRPO",
-          "url": "https://arxiv.org/abs/2607.03957",
+          "title": "Adversarial Pragmatics for AI Safety Evaluation: A Diagnostic Framework and Seed Benchmark for Language-Mediated Control",
+          "url": "https://arxiv.org/abs/2607.01153",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
-          "url": "https://arxiv.org/abs/2602.05547",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "We’re running out of reasons to ignore AI safety",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+          "source": "The Verge -  Artificial Intelligences"
         },
         {
-          "title": "Discrete Action Space as a Prerequisite for GRPO Convergence in Small-Model Continuous Control",
-          "url": "https://arxiv.org/abs/2607.21626",
+          "title": "MedFailBench: A Clinician-Built Open-Source Benchmark for Medical AI Safety Boundary Inspection",
+          "url": "https://arxiv.org/abs/2607.15166",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "llama.cpp",
-      "mentions": 16,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
-      "articles": [
-        {
-          "title": "v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
-          "source": "Ollama Releases"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 46,
+      "keyword": "quantization",
+      "mentions": 20,
       "velocity": 1.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "vram",
-      "mentions": 13,
-      "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
@@ -710,109 +434,205 @@
       ],
       "source_count": 3,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.44,
-      "headline": "GPU repair service will upgrade the 11GB of VRAM on your RTX 2080 Ti to 22GB — mod involves physically adjusting the str",
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "GoQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
       "articles": [
         {
-          "title": "GPU repair service will upgrade the 11GB of VRAM on your RTX 2080 Ti to 22GB — mod involves physically adjusting the str",
-          "url": "https://www.tomshardware.com/pc-components/gpus/gpu-repair-service-will-upgrade-the-11gb-of-vram-on-your-rtx-2080-ti-to-22gb-mod-involves-physically-adjusting-the-strap-resistors-on-the-pcb-to-support-a-new-bios",
-          "source": "Tom's Hardware"
+          "title": "GoQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
+          "url": "https://arxiv.org/abs/2605.26092",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Leaked Radeon RX 9050 hints at the return of 4GB VRAM GPUs in 2026 — new budget RDNA 4 card also spotted in 8GB config w",
-          "url": "https://www.tomshardware.com/pc-components/gpus/leaked-radeon-rx-9050-hints-at-the-return-of-4gb-vram-gpus-in-2026-new-budget-rdna-4-card-also-spotted-in-8gb-config-with-half-the-power-of-an-rx-9060",
-          "source": "Tom's Hardware"
+          "title": "Stable FP4 Training via Transposition-Invariant Block Quantization",
+          "url": "https://arxiv.org/abs/2607.24953",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "AI enthusiast adds Nvidia Tesla V100 as loud as a lawnmower to gaming PC for $266 — 32GB of VRAM rig can run 27 billion ",
-          "url": "https://www.tomshardware.com/pc-components/gpus/ai-enthusiast-adds-nvidia-tesla-v100-as-loud-as-a-lawnmower-to-gaming-pc-for-usd266-32gb-of-vram-rig-can-run-27-billion-parameter-model-at-32-tokens-per-second",
-          "source": "Tom's Hardware"
+          "title": "How Small Can You Go? A Controlled Study of LoRA Rank, Target Modules, and Quantization Trade-offs for Text-to-SQL on a ",
+          "url": "https://arxiv.org/abs/2607.25583",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "reinforcement learning",
-      "mentions": 95,
-      "velocity": 1.6,
+      "keyword": "ai act",
+      "mentions": 12,
+      "velocity": 1.5,
       "sources": [
+        "articles",
         "arxiv",
-        "hackernews",
         "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "AI Act, il rinvio è legge ma il lavoro non si ferma",
+      "articles": [
+        {
+          "title": "AI Act, il rinvio è legge ma il lavoro non si ferma",
+          "url": "https://www.tomshw.it/business/ai-act-il-rinvio-e-legge-ma-il-lavoro-non-si-ferma",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AI Act, l'Europa cede alle pressioni e rinvia l'Alto Rischio a sei giorni dalla scadenza",
+          "url": "https://www.tomshw.it/business/ai-act-l-europa-cede-alle-pressioni-e-rinvia-l-alto-rischio-a-sei-giorni-dalla-scadenza",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "From Obligation to Specification: A Survey on Validating EU AI Act Requirements in RE",
+          "url": "https://arxiv.org/abs/2607.21608",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "cuda",
+      "mentions": 14,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "EviBack: Search-Agent Reinforcement Learning via Evidence-Constrained Teacher Backoff",
+      "expert_ratio": 0.82,
+      "headline": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
       "articles": [
         {
-          "title": "EviBack: Search-Agent Reinforcement Learning via Evidence-Constrained Teacher Backoff",
-          "url": "https://arxiv.org/abs/2607.23955",
+          "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+          "url": "https://arxiv.org/abs/2607.24762",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Reinforcement Learning for Code Optimization",
-          "url": "https://arxiv.org/abs/2607.25970",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "AMD vibe codes its way past the CUDA moat with ROCm.AI",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/24/amd-vibe-codes-its-way-past-the-cuda-moat-with-rocmai/5278580",
+          "source": "The Register"
         },
         {
-          "title": "Calibrated Partial Resets: Preventing Policy Collapse in Continual Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.24996",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Geekbench 7 heeft vernieuwde multicoretest en ondersteuning voor CUDA",
+          "url": "https://tweakers.net/nieuws/250350/geekbench-7-heeft-vernieuwde-multicoretest-en-ondersteuning-voor-cuda.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "ai developer",
+      "mentions": 12,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "AI developer runs 28.9-million-parameter model on $10 ESP32-S3 microcontroller — uses Google's Per-Layer Embeddings tech",
+      "articles": [
+        {
+          "title": "AI developer runs 28.9-million-parameter model on $10 ESP32-S3 microcontroller — uses Google's Per-Layer Embeddings tech",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-developer-runs-28-9-million-parameter-model-on-usd10-esp32-s3-microcontroller-uses-googles-per-layer-embeddings-technique-stores-table-on-16mb-flash-memory",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "SK Group Chair Chey Tae Won says Anthropic has asked SK Hynix for supplies to make its own chips, calling it remarkable ",
+          "url": "https://www.techmeme.com/260725/p12#a260725p12",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 52,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.46,
+      "headline": "Cursor cut its India price to $7, and its own AI models are why",
+      "articles": [
+        {
+          "title": "Cursor cut its India price to $7, and its own AI models are why",
+          "url": "https://thenextweb.com/news/cursor-start-india-pricing-own-models-spacex",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Cursor Customers Fight Price Hikes in Contract Talks",
+          "url": "https://www.theinformation.com/articles/cursor-customers-fight-price-hikes-contract-talks",
+          "source": "The Information"
+        },
+        {
+          "title": "Cursor introduces Cursor Start, a ~$7 monthly subscription exclusive to India, its third-largest market, priced below it",
+          "url": "https://www.techmeme.com/260728/p2#a260728p2",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 50,
+    "scored_predictions": 53,
     "covered": 23,
-    "coverage_rate": 0.46,
+    "coverage_rate": 0.434,
     "early": 9,
-    "early_rate": 0.18,
+    "early_rate": 0.17,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.46,
+    "hit_rate": 0.434,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 23,
+        "scored": 24,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.87,
-        "early_rate": 0.304,
-        "hit_rate": 0.87
+        "coverage_rate": 0.833,
+        "early_rate": 0.292,
+        "hit_rate": 0.833
       },
       "weak_signal": {
-        "scored": 27,
+        "scored": 29,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.111,
-        "early_rate": 0.074,
-        "hit_rate": 0.111
+        "coverage_rate": 0.103,
+        "early_rate": 0.069,
+        "hit_rate": 0.103
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 50,
+    "n": 53,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.52,
-      "early_rate": 0.22
+      "coverage_rate": 0.509,
+      "early_rate": 0.226
     },
     "null_mean": {
-      "coverage_rate": 0.533,
-      "early_rate": 0.241
+      "coverage_rate": 0.521,
+      "early_rate": 0.237
     },
     "p_value": {
-      "coverage_rate": 0.892,
-      "early_rate": 0.786
+      "coverage_rate": 0.863,
+      "early_rate": 0.7
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -846,22 +666,34 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
       "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "gpt-4",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-30",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "hallucination",
+        "signal_type": "emerging",
+        "flagged_on": "2026-07-30",
+        "confidence": 0.6
+      },
       {
         "keyword": "grok",
         "signal_type": "emerging",
@@ -921,103 +753,91 @@
         "signal_type": "emerging",
         "flagged_on": "2026-07-26",
         "confidence": 0.2
-      },
-      {
-        "keyword": "ai energy",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-07-26",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "deepseek",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-25",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "stable diffusion",
-        "recent_mentions": 24,
-        "prior_mentions": 3,
+        "keyword": "ai alignment",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
         "change_ratio": 8.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "stable diffusion",
+        "recent_mentions": 30,
+        "prior_mentions": 5,
+        "change_ratio": 6.0,
         "corroborating_sources": 3
       },
       {
-        "keyword": "resemble",
+        "keyword": "conversational ai",
+        "recent_mentions": 18,
+        "prior_mentions": 3,
+        "change_ratio": 6.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "sdxl",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "leonardo",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "heygen",
+        "keyword": "grammarly",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "veo",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "keyword": "descript",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "replit",
-        "recent_mentions": 11,
+        "keyword": "luma",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "invideo",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "devin",
+        "recent_mentions": 14,
         "prior_mentions": 3,
-        "change_ratio": 3.67,
+        "change_ratio": 4.67,
         "corroborating_sources": 2
       },
       {
-        "keyword": "claude 4",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "voice mode",
-        "recent_mentions": 40,
-        "prior_mentions": 12,
-        "change_ratio": 3.33,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "udio",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "embodied ai",
-        "recent_mentions": 9,
+        "keyword": "fellow",
+        "recent_mentions": 14,
         "prior_mentions": 3,
-        "change_ratio": 3.0,
+        "change_ratio": 4.67,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "fathom",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "gpt-4o",
-        "recent_mentions": 35,
-        "prior_mentions": 12,
-        "change_ratio": 2.92,
-        "corroborating_sources": 3
       },
       {
         "keyword": "mcp tools",
-        "recent_mentions": 14,
-        "prior_mentions": 5,
-        "change_ratio": 2.8,
+        "recent_mentions": 18,
+        "prior_mentions": 4,
+        "change_ratio": 4.5,
         "corroborating_sources": 3
       }
     ]
