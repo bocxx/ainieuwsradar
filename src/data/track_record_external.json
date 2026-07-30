@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T05:55:41+00:00",
+  "generated_at": "2026-07-30T17:36:43+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -84,21 +84,21 @@
     "Nog geen nul-model/controlegroep: de dekking is nog niet tegen toeval afgezet."
   ],
   "null_model": {
-    "n": 50,
+    "n": 53,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.52,
-      "early_rate": 0.22
+      "coverage_rate": 0.509,
+      "early_rate": 0.226
     },
     "null_mean": {
-      "coverage_rate": 0.533,
-      "early_rate": 0.241
+      "coverage_rate": 0.521,
+      "early_rate": 0.237
     },
     "p_value": {
-      "coverage_rate": 0.892,
-      "early_rate": 0.786
+      "coverage_rate": 0.863,
+      "early_rate": 0.7
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
