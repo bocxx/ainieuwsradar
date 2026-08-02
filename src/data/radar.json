@@ -1,45 +1,48 @@
 {
-  "generated_at": "2026-08-02T07:16:54.150643",
-  "total_tracked": 4011,
+  "generated_at": "2026-08-02T19:14:25.455331",
+  "total_tracked": 4070,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "frontier model",
-      "mentions": 32,
-      "velocity": 5.2,
+      "keyword": "anthropic",
+      "mentions": 276,
+      "velocity": 9.7,
       "sources": [
         "articles",
         "arxiv",
+        "github",
+        "hackernews",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Amazon is winding down most of its Nova AI models to bet on one frontier model",
+      "expert_ratio": 0.82,
+      "headline": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet a",
       "articles": [
         {
-          "title": "Amazon is winding down most of its Nova AI models to bet on one frontier model",
-          "url": "https://thenextweb.com/news/amazon-winds-down-nova-ai-models-frontier-model-research",
-          "source": "The Next Web"
+          "title": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet a",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-hacked-three-real-life-companies-during-security-capabilities-test-test-environment-with-internet-access-and-unwitting-targets-lax-cybersecurity-practices-led-to-bots-running-rampant",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "A look at ByteDance's efforts to become China's leading company across all aspects of AI, from frontier models and video",
-          "url": "https://www.techmeme.com/260730/p3#a260730p3",
-          "source": "Techmeme"
+          "title": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
+          "url": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
+          "source": "Security Latest"
         },
         {
-          "title": "OpenAI launches ChatGPT for Academic Researchers, giving 100K scientists, mathematicians, and engineers free access to i",
-          "url": "https://www.techmeme.com/260729/p31#a260729p31",
+          "title": "Sources detail how OpenAI fell behind Anthropic in revenue growth and valuation after prioritizing consumer chatbots and",
+          "url": "https://www.techmeme.com/260801/p1#a260801p1",
           "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "lora",
-      "mentions": 95,
-      "velocity": 4.4,
+      "mentions": 99,
+      "velocity": 5.6,
       "sources": [
         "articles",
         "arxiv",
@@ -71,15 +74,49 @@
       ]
     },
     {
+      "keyword": "frontier model",
+      "mentions": 29,
+      "velocity": 4.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "Amazon is winding down most of its Nova AI models to bet on one frontier model",
+      "articles": [
+        {
+          "title": "Amazon is winding down most of its Nova AI models to bet on one frontier model",
+          "url": "https://thenextweb.com/news/amazon-winds-down-nova-ai-models-frontier-model-research",
+          "source": "The Next Web"
+        },
+        {
+          "title": "A look at ByteDance's efforts to become China's leading company across all aspects of AI, from frontier models and video",
+          "url": "https://www.techmeme.com/260730/p3#a260730p3",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI launches ChatGPT for Academic Researchers, giving 100K scientists, mathematicians, and engineers free access to i",
+          "url": "https://www.techmeme.com/260729/p31#a260729p31",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
       "keyword": "distillation",
       "mentions": 46,
       "velocity": 4.3,
       "sources": [
+        "articles",
         "arxiv",
         "hackernews",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.94,
@@ -104,14 +141,13 @@
     },
     {
       "keyword": "reinforcement learning",
-      "mentions": 106,
-      "velocity": 4.1,
+      "mentions": 102,
+      "velocity": 2.9,
       "sources": [
-        "articles",
         "arxiv",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.98,
@@ -135,35 +171,33 @@
       ]
     },
     {
-      "keyword": "huggingface",
-      "mentions": 32,
-      "velocity": 2.6,
+      "keyword": "ai act",
+      "mentions": 18,
+      "velocity": 2.4,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
-        "reddit"
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Kimi-K3 Releases on HuggingFace 7/27",
+      "expert_ratio": 0.66,
+      "headline": "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in ",
       "articles": [
         {
-          "title": "Kimi-K3 Releases on HuggingFace 7/27",
-          "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "source": "Hacker News"
+          "title": "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in ",
+          "url": "https://www.techmeme.com/260731/p19#a260731p19",
+          "source": "Techmeme"
         },
         {
-          "title": "OpenAI's HuggingFace breach heralds an unprecedented age of AI cyber warfare — contemporary LLMs have caused massive uph",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-huggingface-breach-heralds-an-unprecedented-age-of-ai-cyber-warfare-contemporary-llms-have-caused-massive-upheaval-in-cybersecurity-and-its-only-going-to-get-worse",
+          "title": "AI Act, il rinvio è legge ma il lavoro non si ferma",
+          "url": "https://www.tomshw.it/business/ai-act-il-rinvio-e-legge-ma-il-lavoro-non-si-ferma",
           "source": "Tom's Hardware"
         },
         {
-          "title": "OpenAI scored an own goal with HuggingFace attack, showing how open Chinese models are winning",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/23/openai-scored-an-own-goal-with-huggingface-attack-showing-how-open-chinese-models-are-winning/5276699",
-          "source": "The Register - Security"
+          "title": "AI Act, l'Europa cede alle pressioni e rinvia l'Alto Rischio a sei giorni dalla scadenza",
+          "url": "https://www.tomshw.it/business/ai-act-l-europa-cede-alle-pressioni-e-rinvia-l-alto-rischio-a-sei-giorni-dalla-scadenza",
+          "source": "Tom's Hardware"
         }
       ]
     }
@@ -171,16 +205,15 @@
   "emerging": [
     {
       "keyword": "deepseek",
-      "mentions": 98,
-      "velocity": 8.8,
+      "mentions": 109,
+      "velocity": 12.1,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
-        "reddit"
+        "hackernews"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.86,
@@ -204,37 +237,36 @@
       ]
     },
     {
-      "keyword": "anthropic",
-      "mentions": 264,
-      "velocity": 6.1,
+      "keyword": "cursor",
+      "mentions": 62,
+      "velocity": 2.8,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
-        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet a",
+      "expert_ratio": 0.42,
+      "headline": "Cursor cut its India price to $7, and its own AI models are why",
       "articles": [
         {
-          "title": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet a",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-hacked-three-real-life-companies-during-security-capabilities-test-test-environment-with-internet-access-and-unwitting-targets-lax-cybersecurity-practices-led-to-bots-running-rampant",
-          "source": "Tom's Hardware"
+          "title": "Cursor cut its India price to $7, and its own AI models are why",
+          "url": "https://thenextweb.com/news/cursor-start-india-pricing-own-models-spacex",
+          "source": "The Next Web"
         },
         {
-          "title": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
-          "url": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
-          "source": "Security Latest"
+          "title": "Cursor Customers Fight Price Hikes in Contract Talks",
+          "url": "https://www.theinformation.com/articles/cursor-customers-fight-price-hikes-contract-talks",
+          "source": "The Information"
         },
         {
-          "title": "Sources detail how OpenAI fell behind Anthropic in revenue growth and valuation after prioritizing consumer chatbots and",
-          "url": "https://www.techmeme.com/260801/p1#a260801p1",
+          "title": "Cursor introduces Cursor Start, a ~$7 monthly subscription exclusive to India, its third-largest market, priced below it",
+          "url": "https://www.techmeme.com/260728/p2#a260728p2",
           "source": "Techmeme"
         }
       ]
@@ -271,33 +303,83 @@
           "source": "Artificial intelligence (AI) | The Guardian"
         }
       ]
+    },
+    {
+      "keyword": "grpo",
+      "mentions": 26,
+      "velocity": 2.1,
+      "sources": [
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "ReCo: Reweighting GRPO Against Distributional Concentration",
+      "articles": [
+        {
+          "title": "ReCo: Reweighting GRPO Against Distributional Concentration",
+          "url": "https://arxiv.org/abs/2607.26862",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "NormWorlds-CF: Solver-Verified Counterfactual Normative Reasoning with Metamorphic-Relation GRPO",
+          "url": "https://arxiv.org/abs/2607.03957",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
+          "url": "https://arxiv.org/abs/2602.05547",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "auto",
-      "mentions": 3,
+      "keyword": "genesis mission",
+      "mentions": 2,
       "velocity": 1.0,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 65,
+      "confidence": 61,
       "days_active": 2,
-      "expert_ratio": 0.8,
-      "headline": "Geen gevaarlijke stof, maar drugs in auto die leidde tot ontruiming flat in Bilthoven",
+      "expert_ratio": 0.67,
+      "headline": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
       "articles": [
         {
-          "title": "Geen gevaarlijke stof, maar drugs in auto die leidde tot ontruiming flat in Bilthoven",
-          "url": "https://nos.nl/l/2625173",
-          "source": "NOS Nieuws - Algemeen"
+          "title": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
+          "url": "https://www.science.org/content/article/genesis-mission-department-energy-s-big-ai-push-unveils-first-grants",
+          "source": "Science: Current Issue"
         },
         {
-          "title": "I logged 250 miles testing Android Auto vs Apple CarPlay and there's one I'm going to stick with",
-          "url": "https://www.techradar.com/vehicle-tech/car-infotainment/i-logged-250-miles-testing-android-auto-vs-apple-carplay-and-theres-one-im-going-to-stick-with",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "US outlines its $5 billion Genesis Mission to boost science with AI",
+          "url": "https://www.engadget.com/2221309/us-outlines-its-5-billion-genesis-mission-to-boost-science-with-ai/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+          "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+          "source": "Google DeepMind News"
         }
       ]
+    },
+    {
+      "keyword": "vulncheck",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "substantial",
@@ -360,36 +442,6 @@
       ]
     },
     {
-      "keyword": "genesis mission",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-      "articles": [
-        {
-          "title": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-          "url": "https://www.science.org/content/article/genesis-mission-department-energy-s-big-ai-push-unveils-first-grants",
-          "source": "Science: Current Issue"
-        },
-        {
-          "title": "US outlines its $5 billion Genesis Mission to boost science with AI",
-          "url": "https://www.engadget.com/2221309/us-outlines-its-5-billion-genesis-mission-to-boost-science-with-ai/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-          "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-          "source": "Google DeepMind News"
-        }
-      ]
-    },
-    {
       "keyword": "containers",
       "mentions": 3,
       "velocity": 0.8,
@@ -430,6 +482,36 @@
       ]
     },
     {
+      "keyword": "nudify",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 7,
+      "expert_ratio": 0.77,
+      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "articles": [
+        {
+          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
+          "url": "https://www.techmeme.com/260801/p16#a260801p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
+          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
+          "source": "Engadget"
+        }
+      ]
+    },
+    {
       "keyword": "aitools",
       "mentions": 2,
       "velocity": 0.4,
@@ -440,47 +522,6 @@
       "expert_ratio": 0.8,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "productivity",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "12 top productivity tips for Microsoft Edge",
-      "articles": [
-        {
-          "title": "12 top productivity tips for Microsoft Edge",
-          "url": "https://www.computerworld.com/article/1613111/microsoft-edge-productivity-tips.html",
-          "source": "Computerworld"
-        },
-        {
-          "title": "Why an MMO mouse isn’t just for gaming — make use of the myriad of buttons for enhancing your productivity workflows in ",
-          "url": "https://www.tomshardware.com/peripherals/gaming-mice/why-an-mmo-mouse-isnt-just-for-gaming-make-use-of-the-myriad-of-buttons-for-enhancing-your-productivity-workflows-in-popular-software-applications",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "vibecoding",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "Curative CEO says company ditched a $600k-a-year Salesforce contract after vibecoding a CRM in 2 months",
-      "articles": [
-        {
-          "title": "Curative CEO says company ditched a $600k-a-year Salesforce contract after vibecoding a CRM in 2 months",
-          "url": "https://www.businessinsider.com/curative-ceo-salesforce-vibecode-crm-2026-7?utm_source=flipboard&utm_content=user/BusinessInsider",
-          "source": "Artificial Intelligence"
-        }
-      ]
     },
     {
       "keyword": "saas",
@@ -504,22 +545,158 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
+    },
+    {
+      "keyword": "vibecoding",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Curative CEO says company ditched a $600k-a-year Salesforce contract after vibecoding a CRM in 2 months",
+      "articles": [
+        {
+          "title": "Curative CEO says company ditched a $600k-a-year Salesforce contract after vibecoding a CRM in 2 months",
+          "url": "https://www.businessinsider.com/curative-ceo-salesforce-vibecode-crm-2026-7?utm_source=flipboard&utm_content=user/BusinessInsider",
+          "source": "Artificial Intelligence"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "quantization",
-      "mentions": 20,
-      "velocity": 1.5,
+      "keyword": "moonshot ai",
+      "mentions": 11,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export ",
+      "articles": [
+        {
+          "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export ",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Sources: Moonshot AI hit a $35B valuation after closing a $3.5B round, exceeding its initial target of $1B to $2B, and p",
+          "url": "https://www.techmeme.com/260729/p8#a260729p8",
+          "source": "Techmeme"
+        },
+        {
+          "title": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "macbook",
+      "mentions": 12,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.59,
+      "headline": "Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and ",
+      "articles": [
+        {
+          "title": "Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and ",
+          "url": "https://www.techmeme.com/260802/p7#a260802p7",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Apple Subscriptions; MacBook Air Shortages; Apple to Make Glasses Health Device",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-08-02/apple-subscriptions-macbook-air-shortages-apple-to-make-glasses-health-device-msbvajjp",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "How long is a new MacBook actually supposed to last?",
+          "url": "https://www.engadget.com/2224232/how-long-new-macbook-last-lifespan/",
+          "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "voice ai",
+      "mentions": 12,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+      "articles": [
+        {
+          "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Fish Audio gives its voice AI away, and charges for the latency",
+          "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "context window",
+      "mentions": 24,
+      "velocity": 1.0,
       "sources": [
         "articles",
         "arxiv",
+        "linkedin",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
+      "expert_ratio": 0.72,
+      "headline": "PANOPTICON: A PII-Based Assemblage of Naturalistic Output Tokens for Investigating Privacy Leakage Within LLM Context Wi",
+      "articles": [
+        {
+          "title": "PANOPTICON: A PII-Based Assemblage of Naturalistic Output Tokens for Investigating Privacy Leakage Within LLM Context Wi",
+          "url": "https://arxiv.org/abs/2607.22695",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "LSRM: High-Fidelity Object-Centric Reconstruction via Scaled Context Windows",
+          "url": "https://arxiv.org/abs/2604.05182",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "quantization",
+      "mentions": 18,
+      "velocity": 0.9,
+      "sources": [
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.95,
       "headline": "GoQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
       "articles": [
         {
@@ -540,40 +717,9 @@
       ]
     },
     {
-      "keyword": "grpo",
-      "mentions": 24,
-      "velocity": 1.5,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "ReCo: Reweighting GRPO Against Distributional Concentration",
-      "articles": [
-        {
-          "title": "ReCo: Reweighting GRPO Against Distributional Concentration",
-          "url": "https://arxiv.org/abs/2607.26862",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "NormWorlds-CF: Solver-Verified Counterfactual Normative Reasoning with Metamorphic-Relation GRPO",
-          "url": "https://arxiv.org/abs/2607.03957",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
-          "url": "https://arxiv.org/abs/2602.05547",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "gpt-5",
-      "mentions": 60,
-      "velocity": 1.5,
+      "mentions": 58,
+      "velocity": 0.9,
       "sources": [
         "articles",
         "arxiv",
@@ -594,103 +740,6 @@
         {
           "title": "OpenAI says it is cutting the price of GPT-5.6 Luna by ~80% and the price of GPT-5.6 Terra by 20% after improving the ef",
           "url": "https://www.techmeme.com/260730/p39#a260730p39",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI says using its Responses API harness with GPT-5.6 Sol tripled its ARC-AGI-3 score and used fewer tokens, after So",
-          "url": "https://www.techmeme.com/260730/p11#a260730p11",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "ai bubble",
-      "mentions": 18,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "When the AI bubble bursts, what will Australia do with the tools it built? One man thinks he has the answer",
-      "articles": [
-        {
-          "title": "When the AI bubble bursts, what will Australia do with the tools it built? One man thinks he has the answer",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/when-the-ai-bubble-bursts-what-will-australia-do-with-the-tools-it-built-one-man-thinks-he-has-the-answer",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "Adata boss says DRAM shortage to last another decade with no AI bubble bursting before 2030",
-          "url": "https://www.techradar.com/pro/adata-boss-says-dram-shortage-to-last-another-decade-with-no-ai-bubble-bursting-before-2030",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Adata chairman says DRAM shortage will last another 10 years — dismisses AI bubble talk until '2040 or 2050'",
-          "url": "https://www.tomshardware.com/tech-industry/adata-chairman-says-dram-shortage-will-last-another-10-years",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "llama",
-      "mentions": 56,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Pa",
-      "articles": [
-        {
-          "title": "Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Pa",
-          "url": "https://arxiv.org/abs/2607.22545",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 56,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.41,
-      "headline": "Cursor cut its India price to $7, and its own AI models are why",
-      "articles": [
-        {
-          "title": "Cursor cut its India price to $7, and its own AI models are why",
-          "url": "https://thenextweb.com/news/cursor-start-india-pricing-own-models-spacex",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Cursor Customers Fight Price Hikes in Contract Talks",
-          "url": "https://www.theinformation.com/articles/cursor-customers-fight-price-hikes-contract-talks",
-          "source": "The Information"
-        },
-        {
-          "title": "Cursor introduces Cursor Start, a ~$7 monthly subscription exclusive to India, its third-largest market, priced below it",
-          "url": "https://www.techmeme.com/260728/p2#a260728p2",
           "source": "Techmeme"
         }
       ]
@@ -777,22 +826,34 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
       "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "deepseek",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "together",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-02",
+        "confidence": 0.8
+      },
       {
         "keyword": "kling",
         "signal_type": "emerging",
@@ -806,19 +867,25 @@
         "confidence": 0.4
       },
       {
+        "keyword": "world models",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-02",
+        "confidence": 0.2
+      },
+      {
         "keyword": "anthropic",
         "signal_type": "emerging",
         "flagged_on": "2026-08-01",
         "confidence": 1.0
       },
       {
-        "keyword": "langchain",
+        "keyword": "huggingface",
         "signal_type": "emerging",
         "flagged_on": "2026-08-01",
         "confidence": 0.8
       },
       {
-        "keyword": "huggingface",
+        "keyword": "langchain",
         "signal_type": "emerging",
         "flagged_on": "2026-08-01",
         "confidence": 0.8
@@ -845,24 +912,6 @@
         "keyword": "google deepmind",
         "signal_type": "emerging",
         "flagged_on": "2026-07-31",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "dify",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-31",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "llama",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-30",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "gpt-5",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-30",
         "confidence": 0.8
       }
     ],
@@ -897,9 +946,9 @@
       },
       {
         "keyword": "mistral ai",
-        "recent_mentions": 14,
+        "recent_mentions": 15,
         "prior_mentions": 4,
-        "change_ratio": 3.5,
+        "change_ratio": 3.75,
         "corroborating_sources": 2
       },
       {
@@ -911,17 +960,17 @@
       },
       {
         "keyword": "deepmind",
-        "recent_mentions": 109,
+        "recent_mentions": 108,
         "prior_mentions": 42,
-        "change_ratio": 2.6,
+        "change_ratio": 2.57,
         "corroborating_sources": 7
       },
       {
         "keyword": "ai governance",
-        "recent_mentions": 35,
+        "recent_mentions": 36,
         "prior_mentions": 15,
-        "change_ratio": 2.33,
-        "corroborating_sources": 4
+        "change_ratio": 2.4,
+        "corroborating_sources": 5
       },
       {
         "keyword": "flowise",
@@ -931,6 +980,13 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "national ai",
+        "recent_mentions": 23,
+        "prior_mentions": 10,
+        "change_ratio": 2.3,
+        "corroborating_sources": 4
+      },
+      {
         "keyword": "text to speech",
         "recent_mentions": 9,
         "prior_mentions": 4,
@@ -938,18 +994,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "hallucination",
-        "recent_mentions": 97,
-        "prior_mentions": 44,
-        "change_ratio": 2.2,
+        "keyword": "moonshot ai",
+        "recent_mentions": 31,
+        "prior_mentions": 14,
+        "change_ratio": 2.21,
         "corroborating_sources": 6
-      },
-      {
-        "keyword": "google deepmind",
-        "recent_mentions": 77,
-        "prior_mentions": 35,
-        "change_ratio": 2.2,
-        "corroborating_sources": 7
       }
     ]
   }
