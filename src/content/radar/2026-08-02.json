@@ -1,0 +1,445 @@
+{
+  "title": "AI-radar 2 augustus 2026: reinforcement learning, frontier model, lora",
+  "date": "2026-08-02",
+  "description": "Op 2 augustus 2026 zag je vooral beweging rond gevestigde AI-technieken. Reinforcement learning steeg met 24 punten en werd 106 keer vermeld, verspreid…",
+  "analysis": "Op 2 augustus 2026 zag je vooral beweging rond gevestigde AI-technieken. Reinforcement learning steeg met 24 punten en werd 106 keer vermeld, verspreid over Reddit, nieuwsartikelen en ArXiv. Frontier model klom 16 punten bij 32 vermeldingen via Reddit, LinkedIn, nieuwsartikelen en ArXiv, terwijl lora 15 punten won met 95 vermeldingen op GitHub, Hacker News, Reddit, Bluesky, nieuwsartikelen en ArXiv. OpenAI bleef met 358 vermeldingen en een stijging van 11 punten breed aanwezig, van GitHub tot Product Hunt.\n\nBij de zwakke signalen springt embodied ai eruit: 4 punten stijging bij 8 vermeldingen, verdeeld over nieuwsartikelen en ArXiv. Die dubbele bronverspreiding suggereert zowel academische als publieke aandacht, wat het volgen waard maakt. Tokenizer laat een vergelijkbaar patroon zien met 4 punten bij 6 vermeldingen over nieuwsartikelen en ArXiv. In totaal werden die dag 948 onderwerpen gevolgd. Dit is meetdata van signaalsterkte, geen redactioneel geselecteerd nieuws.",
+  "data": {
+    "date": "2026-08-02",
+    "prev_date": "2026-08-01",
+    "accelerating": [
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 106,
+        "velocity": 24,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 101,
+        "headline": "Robot Walking"
+      },
+      {
+        "keyword": "frontier model",
+        "mentions": 32,
+        "velocity": 16,
+        "sources": [
+          "reddit",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 27,
+        "headline": "Researchers have just uncovered a strange obsession running through the veins of every major language model. Japan. Alwa"
+      },
+      {
+        "keyword": "lora",
+        "mentions": 95,
+        "velocity": 15,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 77,
+        "headline": "I ran SCAIL 2 through a bunch of scenarios it should not handle. It handled most of them."
+      },
+      {
+        "keyword": "distillation",
+        "mentions": 46,
+        "velocity": 12,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 45,
+        "headline": "Gemini Distillation Service"
+      },
+      {
+        "keyword": "openai",
+        "mentions": 358,
+        "velocity": 11,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 284,
+        "headline": "OpenAI is shutting down its AI video slop-making platform Sora. https://t.co/1yzebNdKgf"
+      },
+      {
+        "keyword": "huggingface",
+        "mentions": 32,
+        "velocity": 7,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 27,
+        "headline": "Microsoft did it .... again! (404 for their Mage-Flow models on HF)"
+      },
+      {
+        "keyword": "everyone has been sold a lie",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "🟠 \"Everyone Has Been Sold a Lie\" on AI"
+      },
+      {
+        "keyword": "prompt engineering",
+        "mentions": 13,
+        "velocity": 6,
+        "sources": [
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 11,
+        "headline": "📰 RAG is Only as Good as its Search: Why AI Search is the Real Differentiator"
+      },
+      {
+        "keyword": "data centers",
+        "mentions": 27,
+        "velocity": 5,
+        "sources": [
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 11,
+        "headline": "Mind you this is what ai is doing to peoples homes. Some cant even let fresh air in bc the smell from the data centers i"
+      },
+      {
+        "keyword": "foundation model",
+        "mentions": 37,
+        "velocity": 5,
+        "sources": [
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 33,
+        "headline": "📰 Sarvam’s AI Arsenal"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "costperprompt",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators"
+      },
+      {
+        "keyword": "s claimed disproof of connes",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]"
+      },
+      {
+        "keyword": "nudgeforme",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 NudgeForMe"
+      },
+      {
+        "keyword": "clipsonar",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 Clip Sonar"
+      },
+      {
+        "keyword": "increaseimages",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 IncreaseImages"
+      },
+      {
+        "keyword": "thefaithapp",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 TheFaithApp 3.0"
+      },
+      {
+        "keyword": "summonghost",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 SummonGhost"
+      },
+      {
+        "keyword": "musedial",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 MuseDial"
+      },
+      {
+        "keyword": "posthog",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 Prolytics OS"
+      },
+      {
+        "keyword": "should i shoot him",
+        "mentions": 1,
+        "velocity": 1,
+        "sources": [
+          "twitter"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "A 22-year-old student teacher in Illinois sent a private Snapchat message to her boyfriend and two roommates.\n\nA student"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "lightbox",
+        "mentions": 12,
+        "velocity": 10,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 12,
+        "headline": "📰 GPT-Image Monthly Theme Gallery: August 2026 Theme is ... Returning"
+      },
+      {
+        "keyword": "d7d7d8",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📰 Has the 5-hour usage session been removed from Codex CLI?"
+      },
+      {
+        "keyword": "embodied ai",
+        "mentions": 8,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 7,
+        "headline": "📰 Embodied AI Agent Architecture: Build Physical-World AI Without Treating Robots Like Chatbots"
+      },
+      {
+        "keyword": "webfeedsfeaturedvisual",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 FLUX 3 Multimodal AI: How Black Forest Labs’ Model Beats Seedance 2.0 and Grok"
+      },
+      {
+        "keyword": "tokenizer",
+        "mentions": 6,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 5,
+        "headline": "📰 Falco — a from-scratch browser engine in ~36k lines of Rust (v0.1.0 release)"
+      },
+      {
+        "keyword": "youtuber",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 YouTube star Hank Green says he's relied 'too heavily' on AI in an apology to fans"
+      },
+      {
+        "keyword": "world model",
+        "mentions": 16,
+        "velocity": 4,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 16,
+        "headline": "📄 CalTwin: Towards Calibrated, Shift-Robust Medical World Models via Fisher-Information Regularisation"
+      },
+      {
+        "keyword": "world models",
+        "mentions": 16,
+        "velocity": 4,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 16,
+        "headline": "📄 CalTwin: Towards Calibrated, Shift-Robust Medical World Models via Fisher-Information Regularisation"
+      },
+      {
+        "keyword": "programbench",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📄 MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Prog"
+      },
+      {
+        "keyword": "macos",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 \"Plan 9 — ระบบปฏิบัติการที่โลกลืม แต่เปลี่ยนวิธีคิดเรื่อง OS ไปตลอดกาล\""
+      }
+    ],
+    "total_tracked": 948
+  }
+}
