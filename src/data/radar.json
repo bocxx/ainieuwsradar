@@ -1,82 +1,46 @@
 {
-  "generated_at": "2026-08-02T19:14:25.455331",
-  "total_tracked": 4070,
+  "generated_at": "2026-08-03T07:16:34.279651",
+  "total_tracked": 4021,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "anthropic",
-      "mentions": 276,
-      "velocity": 9.7,
+      "keyword": "reinforcement learning",
+      "mentions": 206,
+      "velocity": 33.5,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet a",
-      "articles": [
-        {
-          "title": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet a",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-hacked-three-real-life-companies-during-security-capabilities-test-test-environment-with-internet-access-and-unwitting-targets-lax-cybersecurity-practices-led-to-bots-running-rampant",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "The OpenAI and Anthropic AI Hacking Sprees Are a Messy New Legal Frontier",
-          "url": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
-          "source": "Security Latest"
-        },
-        {
-          "title": "Sources detail how OpenAI fell behind Anthropic in revenue growth and valuation after prioritizing consumer chatbots and",
-          "url": "https://www.techmeme.com/260801/p1#a260801p1",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "lora",
-      "mentions": 99,
-      "velocity": 5.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
         "reddit"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Retraction-Free Optimization over the Stiefel Manifold for the LoRA Fine-Tuning",
+      "expert_ratio": 0.98,
+      "headline": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learnin",
       "articles": [
         {
-          "title": "Retraction-Free Optimization over the Stiefel Manifold for the LoRA Fine-Tuning",
-          "url": "https://arxiv.org/abs/2607.25299",
+          "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learnin",
+          "url": "https://arxiv.org/abs/2607.19345",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "How Small Can You Go? A Controlled Study of LoRA Rank, Target Modules, and Quantization Trade-offs for Text-to-SQL on a ",
-          "url": "https://arxiv.org/abs/2607.25583",
+          "title": "Maximum Entropy Behavior Exploration for Sim2Real Zero-Shot Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2603.25464",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Continual Knowledge Consolidation LORA for Domain Incremental Learning",
-          "url": "https://arxiv.org/abs/2510.16077",
+          "title": "Deconstructing Off-Policy Ratios: Entropy-Scaled Trust Regions for Asynchronous Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.22186",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
+    }
+  ],
+  "emerging": [
     {
       "keyword": "frontier model",
-      "mentions": 29,
-      "velocity": 4.3,
+      "mentions": 28,
+      "velocity": 2.7,
       "sources": [
         "articles",
         "arxiv",
@@ -86,7 +50,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
+      "expert_ratio": 0.84,
       "headline": "Amazon is winding down most of its Nova AI models to bet on one frontier model",
       "articles": [
         {
@@ -105,270 +69,11 @@
           "source": "Techmeme"
         }
       ]
-    },
-    {
-      "keyword": "distillation",
-      "mentions": 46,
-      "velocity": 4.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "REGEN: Replay-recycling for Expert-to-Generalist distillation with Offline Reinforcement Learning",
-      "articles": [
-        {
-          "title": "REGEN: Replay-recycling for Expert-to-Generalist distillation with Offline Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.19450",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ATOD: Annealed Turn-Aware On-Policy Distillation for Multi-Turn Agentic Tasks",
-          "url": "https://arxiv.org/abs/2606.27814",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "CoCaRS: Correlation Calibration-Based Redundancy Suppression for Heterogeneous Knowledge Distillation",
-          "url": "https://arxiv.org/abs/2607.27054",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "reinforcement learning",
-      "mentions": 102,
-      "velocity": 2.9,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Variance-Aware Baselines and Adaptive Learning Rates for Reinforcement Learning with Verifiable Rewards",
-      "articles": [
-        {
-          "title": "Variance-Aware Baselines and Adaptive Learning Rates for Reinforcement Learning with Verifiable Rewards",
-          "url": "https://arxiv.org/abs/2511.23310",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Adaptive Multi-Horizon Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.20656",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "REGEN: Replay-recycling for Expert-to-Generalist distillation with Offline Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.19450",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai act",
-      "mentions": 18,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in ",
-      "articles": [
-        {
-          "title": "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in ",
-          "url": "https://www.techmeme.com/260731/p19#a260731p19",
-          "source": "Techmeme"
-        },
-        {
-          "title": "AI Act, il rinvio è legge ma il lavoro non si ferma",
-          "url": "https://www.tomshw.it/business/ai-act-il-rinvio-e-legge-ma-il-lavoro-non-si-ferma",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "AI Act, l'Europa cede alle pressioni e rinvia l'Alto Rischio a sei giorni dalla scadenza",
-          "url": "https://www.tomshw.it/business/ai-act-l-europa-cede-alle-pressioni-e-rinvia-l-alto-rischio-a-sei-giorni-dalla-scadenza",
-          "source": "Tom's Hardware"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "deepseek",
-      "mentions": 109,
-      "velocity": 12.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "DeepSeek Makes a Splash with Small, Affordable V4-Flash Model",
-      "articles": [
-        {
-          "title": "DeepSeek Makes a Splash with Small, Affordable V4-Flash Model",
-          "url": "https://www.theinformation.com/briefings/deepseek-makes-splash-small-affordable-v4-flash-model",
-          "source": "The Information"
-        },
-        {
-          "title": "DeepSeek V4 Flash scores 50 on the Artificial Analysis Intelligence Index, matching Gemini 3.6 Flash and up 10 points fr",
-          "url": "https://www.techmeme.com/260731/p22#a260731p22",
-          "source": "Techmeme"
-        },
-        {
-          "title": "DeepSeek rolls out the official V4 Flash API in public beta, touting enhanced agent capabilities and benchmark scores \"f",
-          "url": "https://www.techmeme.com/260731/p11#a260731p11",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 62,
-      "velocity": 2.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.42,
-      "headline": "Cursor cut its India price to $7, and its own AI models are why",
-      "articles": [
-        {
-          "title": "Cursor cut its India price to $7, and its own AI models are why",
-          "url": "https://thenextweb.com/news/cursor-start-india-pricing-own-models-spacex",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Cursor Customers Fight Price Hikes in Contract Talks",
-          "url": "https://www.theinformation.com/articles/cursor-customers-fight-price-hikes-contract-talks",
-          "source": "The Information"
-        },
-        {
-          "title": "Cursor introduces Cursor Start, a ~$7 monthly subscription exclusive to India, its third-largest market, priced below it",
-          "url": "https://www.techmeme.com/260728/p2#a260728p2",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "together",
-      "mentions": 52,
-      "velocity": 2.1,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
-      "articles": [
-        {
-          "title": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
-          "url": "https://thenextweb.com/news/xsight-labs-300-million-2-8-billion-open-networking-chips-nvidia",
-          "source": "The Next Web"
-        },
-        {
-          "title": "A $2 sticker defeats the one feature holding Meta’s ‘pervert glasses’ together",
-          "url": "https://thenextweb.com/news/meta-pervert-glasses-crackdown-failing-led-sticker-bypass",
-          "source": "The Next Web"
-        },
-        {
-          "title": "The future of AI hinges on openness and cooperation. China and Britain can gain much by working together | Zheng Zeguang",
-          "url": "https://www.theguardian.com/commentisfree/2026/jul/30/ai-future-china-britain-healthcare-research",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        }
-      ]
-    },
-    {
-      "keyword": "grpo",
-      "mentions": 26,
-      "velocity": 2.1,
-      "sources": [
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "ReCo: Reweighting GRPO Against Distributional Concentration",
-      "articles": [
-        {
-          "title": "ReCo: Reweighting GRPO Against Distributional Concentration",
-          "url": "https://arxiv.org/abs/2607.26862",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "NormWorlds-CF: Solver-Verified Counterfactual Normative Reasoning with Metamorphic-Relation GRPO",
-          "url": "https://arxiv.org/abs/2607.03957",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
-          "url": "https://arxiv.org/abs/2602.05547",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "genesis mission",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-      "articles": [
-        {
-          "title": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-          "url": "https://www.science.org/content/article/genesis-mission-department-energy-s-big-ai-push-unveils-first-grants",
-          "source": "Science: Current Issue"
-        },
-        {
-          "title": "US outlines its $5 billion Genesis Mission to boost science with AI",
-          "url": "https://www.engadget.com/2221309/us-outlines-its-5-billion-genesis-mission-to-boost-science-with-ai/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-          "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-          "source": "Google DeepMind News"
-        }
-      ]
-    },
-    {
-      "keyword": "vulncheck",
+      "keyword": "wireimage",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -380,36 +85,6 @@
       "expert_ratio": 0.67,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "substantial",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
-      "articles": [
-        {
-          "title": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
-          "url": "https://www.techmeme.com/260727/p14#a260727p14",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia Makes ‘Substantial’ Investment in Sutskever’s Startup",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Dyson Supersonic Travel vs Supersonic Nural: I tested the two premium hair dryers to see what you get — and don't get — ",
-          "url": "https://www.techradar.com/home/hair-care/dyson-supersonic-travel-vs-supersonic-nural",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
     },
     {
       "keyword": "workspace",
@@ -442,6 +117,124 @@
       ]
     },
     {
+      "keyword": "vulncheck",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "summarization",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
+      "articles": [
+        {
+          "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.13316",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "daVinci-kernel: Co-Evolving Skill Selection, Summarization, and Utilization via RL for GPU Kernel Optimization",
+          "url": "https://arxiv.org/abs/2606.16497",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Reexamining zero-shot summarization: Empirical investigation of trustworthiness of LLM-summarizers",
+          "url": "https://arxiv.org/abs/2607.21010",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "substantial",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
+      "articles": [
+        {
+          "title": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
+          "url": "https://www.techmeme.com/260727/p14#a260727p14",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Nvidia Makes ‘Substantial’ Investment in Sutskever’s Startup",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Dyson Supersonic Travel vs Supersonic Nural: I tested the two premium hair dryers to see what you get — and don't get — ",
+          "url": "https://www.techradar.com/home/hair-care/dyson-supersonic-travel-vs-supersonic-nural",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "neuromorphic",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "genesis mission",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
+      "articles": [
+        {
+          "title": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
+          "url": "https://www.science.org/content/article/genesis-mission-department-energy-s-big-ai-push-unveils-first-grants",
+          "source": "Science: Current Issue"
+        },
+        {
+          "title": "US outlines its $5 billion Genesis Mission to boost science with AI",
+          "url": "https://www.engadget.com/2221309/us-outlines-its-5-billion-genesis-mission-to-boost-science-with-ai/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+          "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+          "source": "Google DeepMind News"
+        }
+      ]
+    },
+    {
       "keyword": "containers",
       "mentions": 3,
       "velocity": 0.8,
@@ -462,36 +255,46 @@
       ]
     },
     {
-      "keyword": "skypilot",
+      "keyword": "open ai",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.8,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
-      "headline": "Databricks co-founder Ion Stoica's GPU orchestration startup SkyPilot, which aims to be neutral across hardware and clou",
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Open AI security alliance #Vergecast",
       "articles": [
         {
-          "title": "Databricks co-founder Ion Stoica's GPU orchestration startup SkyPilot, which aims to be neutral across hardware and clou",
-          "url": "https://www.techmeme.com/260721/p17#a260721p17",
-          "source": "Techmeme"
+          "title": "Open AI security alliance #Vergecast",
+          "url": "https://www.youtube.com/shorts/WelY6Cy1Fko",
+          "source": "The Verge"
+        },
+        {
+          "title": "Tech giants link hands to praise open AI models after OpenAI - Hugging Face attack",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
+          "source": "The Register - Security"
+        },
+        {
+          "title": "Nvidia start coalitie voor open AI-beveiliging na Hugging Face-incident",
+          "url": "https://tweakers.net/nieuws/250430/nvidia-start-coalitie-voor-open-ai-beveiliging-na-hugging-face-incident.html",
+          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     },
     {
       "keyword": "nudify",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.5,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 7,
-      "expert_ratio": 0.77,
+      "confidence": 79,
+      "days_active": 6,
+      "expert_ratio": 0.83,
       "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
       "articles": [
         {
@@ -510,167 +313,49 @@
           "source": "Engadget"
         }
       ]
-    },
-    {
-      "keyword": "aitools",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "saas",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
-      "articles": [
-        {
-          "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
-          "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "A turning point for Saas: Not SaaSpocalypse, but an opportunity to differentiate",
-          "url": "https://www.techradar.com/pro/a-turning-point-for-saas-not-saaspocalypse-but-an-opportunity-to-differentiate",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "vibecoding",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "Curative CEO says company ditched a $600k-a-year Salesforce contract after vibecoding a CRM in 2 months",
-      "articles": [
-        {
-          "title": "Curative CEO says company ditched a $600k-a-year Salesforce contract after vibecoding a CRM in 2 months",
-          "url": "https://www.businessinsider.com/curative-ceo-salesforce-vibecode-crm-2026-7?utm_source=flipboard&utm_content=user/BusinessInsider",
-          "source": "Artificial Intelligence"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "moonshot ai",
-      "mentions": 11,
-      "velocity": 1.4,
+      "keyword": "ai safety",
+      "mentions": 17,
+      "velocity": 2.0,
       "sources": [
         "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
+        "arxiv",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export ",
+      "expert_ratio": 0.69,
+      "headline": "Anthropic Hack Adds To Fears Over AI Safety",
       "articles": [
         {
-          "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export ",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Sources: Moonshot AI hit a $35B valuation after closing a $3.5B round, exceeding its initial target of $1B to $2B, and p",
-          "url": "https://www.techmeme.com/260729/p8#a260729p8",
-          "source": "Techmeme"
-        },
-        {
-          "title": "China’s Moonshot AI Passes Funding Goal to Hit $35 Billion Value",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "macbook",
-      "mentions": 12,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.59,
-      "headline": "Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and ",
-      "articles": [
-        {
-          "title": "Thoughts on Apple Upgrade; sources: MacBook Air is now facing shortages too; Apple wants to turn its future glasses and ",
-          "url": "https://www.techmeme.com/260802/p7#a260802p7",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Apple Subscriptions; MacBook Air Shortages; Apple to Make Glasses Health Device",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-08-02/apple-subscriptions-macbook-air-shortages-apple-to-make-glasses-health-device-msbvajjp",
+          "title": "Anthropic Hack Adds To Fears Over AI Safety",
+          "url": "https://www.bloomberg.com/news/videos/2026-07-31/anthropic-hack-adds-to-fears-over-ai-safety-video",
           "source": "Bloomberg Technology"
         },
         {
-          "title": "How long is a new MacBook actually supposed to last?",
-          "url": "https://www.engadget.com/2224232/how-long-new-macbook-last-lifespan/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
-      "keyword": "voice ai",
-      "mentions": 12,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-      "articles": [
-        {
-          "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Fish Audio gives its voice AI away, and charges for the latency",
-          "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
-          "source": "The Next Web"
+          "title": "It’s time to panic about AI safety",
+          "url": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+          "source": "The Verge -  Artificial Intelligences"
         }
       ]
     },
     {
       "keyword": "context window",
-      "mentions": 24,
-      "velocity": 1.0,
+      "mentions": 28,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
-        "reddit"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
+      "expert_ratio": 0.73,
       "headline": "PANOPTICON: A PII-Based Assemblage of Naturalistic Output Tokens for Investigating Privacy Leakage Within LLM Context Wi",
       "articles": [
         {
@@ -686,113 +371,165 @@
       ]
     },
     {
-      "keyword": "quantization",
-      "mentions": 18,
-      "velocity": 0.9,
+      "keyword": "grpo",
+      "mentions": 27,
+      "velocity": 1.8,
       "sources": [
+        "articles",
         "arxiv",
-        "reddit"
+        "hackernews"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "GoQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
+      "expert_ratio": 0.99,
+      "headline": "ReCo: Reweighting GRPO Against Distributional Concentration",
       "articles": [
         {
-          "title": "GoQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
-          "url": "https://arxiv.org/abs/2605.26092",
+          "title": "ReCo: Reweighting GRPO Against Distributional Concentration",
+          "url": "https://arxiv.org/abs/2607.26862",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Stable FP4 Training via Transposition-Invariant Block Quantization",
-          "url": "https://arxiv.org/abs/2607.24953",
+          "title": "NormWorlds-CF: Solver-Verified Counterfactual Normative Reasoning with Metamorphic-Relation GRPO",
+          "url": "https://arxiv.org/abs/2607.03957",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "How Small Can You Go? A Controlled Study of LoRA Rank, Target Modules, and Quantization Trade-offs for Text-to-SQL on a ",
-          "url": "https://arxiv.org/abs/2607.25583",
+          "title": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
+          "url": "https://arxiv.org/abs/2602.05547",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "gpt-5",
-      "mentions": 58,
-      "velocity": 0.9,
+      "keyword": "ai governance",
+      "mentions": 12,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
-        "reddit"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "AI price wars: OpenAI cuts GPT-5.6 Luna prices by 80% as model competition shifts toward cost",
+      "expert_ratio": 0.8,
+      "headline": "The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem",
       "articles": [
         {
-          "title": "AI price wars: OpenAI cuts GPT-5.6 Luna prices by 80% as model competition shifts toward cost",
-          "url": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost?utm_source=flipboard&utm_content=user/venturebeat",
-          "source": "Artificial Intelligence"
+          "title": "The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem",
+          "url": "https://arxiv.org/abs/2607.26068",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "OpenAI says it is cutting the price of GPT-5.6 Luna by ~80% and the price of GPT-5.6 Terra by 20% after improving the ef",
-          "url": "https://www.techmeme.com/260730/p39#a260730p39",
+          "title": "Why Public Service AI Governance Frameworks Risk Failing in the Age of General-Purpose AI: Lessons from Policing",
+          "url": "https://arxiv.org/abs/2607.25648",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Stability of AI Governance Systems: A Coupled Dynamics Model of Public Trust and Social Disruptions",
+          "url": "https://arxiv.org/abs/2603.20248",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "cline",
+      "mentions": 14,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.24,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "ai act",
+      "mentions": 16,
+      "velocity": 1.1,
+      "sources": [
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.61,
+      "headline": "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in ",
+      "articles": [
+        {
+          "title": "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in ",
+          "url": "https://www.techmeme.com/260731/p19#a260731p19",
           "source": "Techmeme"
+        },
+        {
+          "title": "AI Act, il rinvio è legge ma il lavoro non si ferma",
+          "url": "https://www.tomshw.it/business/ai-act-il-rinvio-e-legge-ma-il-lavoro-non-si-ferma",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "AI Act, l'Europa cede alle pressioni e rinvia l'Alto Rischio a sei giorni dalla scadenza",
+          "url": "https://www.tomshw.it/business/ai-act-l-europa-cede-alle-pressioni-e-rinvia-l-alto-rischio-a-sei-giorni-dalla-scadenza",
+          "source": "Tom's Hardware"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 71,
+    "scored_predictions": 75,
     "covered": 23,
-    "coverage_rate": 0.324,
+    "coverage_rate": 0.307,
     "early": 9,
-    "early_rate": 0.127,
+    "early_rate": 0.12,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.324,
+    "hit_rate": 0.307,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 29,
+        "scored": 30,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.69,
-        "early_rate": 0.241,
-        "hit_rate": 0.69
+        "coverage_rate": 0.667,
+        "early_rate": 0.233,
+        "hit_rate": 0.667
       },
       "weak_signal": {
-        "scored": 42,
+        "scored": 45,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.071,
-        "early_rate": 0.048,
-        "hit_rate": 0.071
+        "coverage_rate": 0.067,
+        "early_rate": 0.044,
+        "hit_rate": 0.067
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 71,
+    "n": 75,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.451,
-      "early_rate": 0.197
+      "coverage_rate": 0.44,
+      "early_rate": 0.187
     },
     "null_mean": {
-      "coverage_rate": 0.473,
-      "early_rate": 0.21
+      "coverage_rate": 0.462,
+      "early_rate": 0.209
     },
     "p_value": {
-      "coverage_rate": 0.97,
-      "early_rate": 0.742
+      "coverage_rate": 0.966,
+      "early_rate": 0.823
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -843,6 +580,24 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "cursor",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-03",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "character ai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-03",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "voicebox",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-03",
+        "confidence": 0.2
+      },
+      {
         "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-08-02",
@@ -879,13 +634,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "huggingface",
+        "keyword": "langchain",
         "signal_type": "emerging",
         "flagged_on": "2026-08-01",
         "confidence": 0.8
       },
       {
-        "keyword": "langchain",
+        "keyword": "huggingface",
         "signal_type": "emerging",
         "flagged_on": "2026-08-01",
         "confidence": 0.8
@@ -895,110 +650,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-01",
         "confidence": 0.6
-      },
-      {
-        "keyword": "claude",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-31",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "deepmind",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-31",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "google deepmind",
-        "signal_type": "emerging",
-        "flagged_on": "2026-07-31",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
       {
-        "keyword": "deepl",
-        "recent_mentions": 12,
+        "keyword": "voicebox",
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 12.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "voice synthesis",
-        "recent_mentions": 12,
-        "prior_mentions": 1,
-        "change_ratio": 12.0,
+        "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "qwen 2",
+        "keyword": "ad creative",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "computer-use",
+        "recent_mentions": 22,
+        "prior_mentions": 4,
+        "change_ratio": 5.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "deepl",
+        "recent_mentions": 16,
+        "prior_mentions": 3,
+        "change_ratio": 5.33,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "speech to text",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "mcp client",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "qlora",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
+        "keyword": "fireworks",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "mistral ai",
-        "recent_mentions": 15,
-        "prior_mentions": 4,
-        "change_ratio": 3.75,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "computer-use",
+        "keyword": "ai alignment",
         "recent_mentions": 15,
         "prior_mentions": 5,
         "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "deepmind",
-        "recent_mentions": 108,
-        "prior_mentions": 42,
-        "change_ratio": 2.57,
-        "corroborating_sources": 7
-      },
-      {
-        "keyword": "ai governance",
-        "recent_mentions": 36,
-        "prior_mentions": 15,
-        "change_ratio": 2.4,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "flowise",
-        "recent_mentions": 7,
-        "prior_mentions": 3,
-        "change_ratio": 2.33,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "national ai",
-        "recent_mentions": 23,
-        "prior_mentions": 10,
-        "change_ratio": 2.3,
+        "keyword": "world models",
+        "recent_mentions": 56,
+        "prior_mentions": 22,
+        "change_ratio": 2.55,
         "corroborating_sources": 4
       },
       {
-        "keyword": "text to speech",
-        "recent_mentions": 9,
+        "keyword": "capcut",
+        "recent_mentions": 10,
         "prior_mentions": 4,
-        "change_ratio": 2.25,
+        "change_ratio": 2.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "mistral ai",
+        "recent_mentions": 17,
+        "prior_mentions": 7,
+        "change_ratio": 2.43,
         "corroborating_sources": 2
       },
       {
-        "keyword": "moonshot ai",
-        "recent_mentions": 31,
-        "prior_mentions": 14,
-        "change_ratio": 2.21,
-        "corroborating_sources": 6
+        "keyword": "whisper",
+        "recent_mentions": 53,
+        "prior_mentions": 22,
+        "change_ratio": 2.41,
+        "corroborating_sources": 5
       }
     ]
   }
