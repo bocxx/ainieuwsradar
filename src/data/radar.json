@@ -1,121 +1,107 @@
 {
-  "generated_at": "2026-08-03T07:16:34.279651",
-  "total_tracked": 4021,
+  "generated_at": "2026-08-03T19:21:42.220935",
+  "total_tracked": 4114,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 206,
-      "velocity": 33.5,
+      "keyword": "minimax",
+      "mentions": 19,
+      "velocity": 3.0,
       "sources": [
         "articles",
-        "arxiv",
-        "reddit"
+        "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learnin",
+      "expert_ratio": 0.89,
+      "headline": "Simple-regret rates and minimax optimality of fixed-prior expected improvement in Mat\\'ern and squared-exponential RKHSs",
       "articles": [
         {
-          "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learnin",
-          "url": "https://arxiv.org/abs/2607.19345",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Simple-regret rates and minimax optimality of fixed-prior expected improvement in Mat\\'ern and squared-exponential RKHSs",
+          "url": "https://arxiv.org/abs/2607.29245",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "Maximum Entropy Behavior Exploration for Sim2Real Zero-Shot Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2603.25464",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "China’s MiniMax Launches New Open-Source AI Video Model",
+          "url": "https://www.theinformation.com/briefings/chinas-minimax-launches-new-open-source-ai-video-model",
+          "source": "The Information"
         },
         {
-          "title": "Deconstructing Off-Policy Ratios: Entropy-Scaled Trust Regions for Asynchronous Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.22186",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "China’s MiniMax and ByteDance Release Dueling AI Video Models",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-31/china-s-minimax-and-bytedance-release-dueling-ai-video-models",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "frontier model",
-      "mentions": 28,
-      "velocity": 2.7,
+      "keyword": "deepseek",
+      "mentions": 120,
+      "velocity": 11.8,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
-        "reddit"
+        "github",
+        "hackernews"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Amazon is winding down most of its Nova AI models to bet on one frontier model",
+      "expert_ratio": 0.87,
+      "headline": "DeepSeek's latest AI model is by far the cheapest of major models to run",
       "articles": [
         {
-          "title": "Amazon is winding down most of its Nova AI models to bet on one frontier model",
-          "url": "https://thenextweb.com/news/amazon-winds-down-nova-ai-models-frontier-model-research",
-          "source": "The Next Web"
+          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
+          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
+          "source": "Quartz"
         },
         {
-          "title": "A look at ByteDance's efforts to become China's leading company across all aspects of AI, from frontier models and video",
-          "url": "https://www.techmeme.com/260730/p3#a260730p3",
-          "source": "Techmeme"
+          "title": "Verbeterde DeepSeek V4 Flash kost per taak 60 procent minder dan GPT-5.6 Luna",
+          "url": "https://tweakers.net/nieuws/250630/verbeterde-deepseek-v4-flash-kost-per-taak-60-procent-minder-dan-gpt-56-luna.html",
+          "source": "Tweakers Mixed RSS Feed"
         },
         {
-          "title": "OpenAI launches ChatGPT for Academic Researchers, giving 100K scientists, mathematicians, and engineers free access to i",
-          "url": "https://www.techmeme.com/260729/p31#a260729p31",
+          "title": "Artificial Analysis: DeepSeek's V4-Flash costs $0.14/1M input and $0.28/1M output tokens, or $0.03 per test, far below K",
+          "url": "https://www.techmeme.com/260803/p12#a260803p12",
           "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "distillation",
+      "mentions": 52,
+      "velocity": 4.8,
+      "sources": [
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "DRIFT: Difficulty Routing Self-DIstillation with Rhythm-Gated Exploration and Success BuFfer Training",
+      "articles": [
+        {
+          "title": "DRIFT: Difficulty Routing Self-DIstillation with Rhythm-Gated Exploration and Success BuFfer Training",
+          "url": "https://arxiv.org/abs/2606.30345",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "RAPiD: Reward-Guided Consistency Distillation of Diffusion Planners for Real-Time Autonomous Driving",
+          "url": "https://arxiv.org/abs/2602.07339",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2607.29209",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "wireimage",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "workspace",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Google Workspace Promo Codes: 14% Off for July",
-      "articles": [
-        {
-          "title": "Google Workspace Promo Codes: 14% Off for July",
-          "url": "https://www.wired.com/story/google-workspace-promo-code/",
-          "source": "WIRED"
-        },
-        {
-          "title": "Agent Team Work Zone: An Automated, Persistent Workspace for Long-Lived Coding Agent Teams",
-          "url": "https://arxiv.org/abs/2607.22917",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Experts warn ChatGPT's Workspace Agent Builder can be hijacked to create malicious AI workers",
-          "url": "https://www.techradar.com/pro/security/experts-warn-chatgpts-workspace-agent-builder-can-be-hijacked-to-create-malicious-ai-workers",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
     {
       "keyword": "vulncheck",
       "mentions": 2,
@@ -129,36 +115,6 @@
       "expert_ratio": 0.67,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "summarization",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
-      "articles": [
-        {
-          "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2606.13316",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "daVinci-kernel: Co-Evolving Skill Selection, Summarization, and Utilization via RL for GPU Kernel Optimization",
-          "url": "https://arxiv.org/abs/2606.16497",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Reexamining zero-shot summarization: Empirical investigation of trustworthiness of LLM-summarizers",
-          "url": "https://arxiv.org/abs/2607.21010",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     },
     {
       "keyword": "substantial",
@@ -191,20 +147,6 @@
       ]
     },
     {
-      "keyword": "neuromorphic",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "genesis mission",
       "mentions": 2,
       "velocity": 1.0,
@@ -233,6 +175,94 @@
           "source": "Google DeepMind News"
         }
       ]
+    },
+    {
+      "keyword": "summarization",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
+      "articles": [
+        {
+          "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.13316",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "daVinci-kernel: Co-Evolving Skill Selection, Summarization, and Utilization via RL for GPU Kernel Optimization",
+          "url": "https://arxiv.org/abs/2606.16497",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Reexamining zero-shot summarization: Empirical investigation of trustworthiness of LLM-summarizers",
+          "url": "https://arxiv.org/abs/2607.21010",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "workspace",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Google Workspace Promo Codes: 14% Off for July",
+      "articles": [
+        {
+          "title": "Google Workspace Promo Codes: 14% Off for July",
+          "url": "https://www.wired.com/story/google-workspace-promo-code/",
+          "source": "WIRED"
+        },
+        {
+          "title": "Agent Team Work Zone: An Automated, Persistent Workspace for Long-Lived Coding Agent Teams",
+          "url": "https://arxiv.org/abs/2607.22917",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Experts warn ChatGPT's Workspace Agent Builder can be hijacked to create malicious AI workers",
+          "url": "https://www.techradar.com/pro/security/experts-warn-chatgpts-workspace-agent-builder-can-be-hijacked-to-create-malicious-ai-workers",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "wireimage",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "neuromorphic",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "containers",
@@ -317,8 +347,8 @@
   ],
   "sustained": [
     {
-      "keyword": "ai safety",
-      "mentions": 17,
+      "keyword": "ai act",
+      "mentions": 19,
       "velocity": 2.0,
       "sources": [
         "articles",
@@ -328,156 +358,150 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "Anthropic Hack Adds To Fears Over AI Safety",
+      "expert_ratio": 0.61,
+      "headline": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market a",
       "articles": [
         {
-          "title": "Anthropic Hack Adds To Fears Over AI Safety",
-          "url": "https://www.bloomberg.com/news/videos/2026-07-31/anthropic-hack-adds-to-fears-over-ai-safety-video",
-          "source": "Bloomberg Technology"
+          "title": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market a",
+          "url": "https://www.techmeme.com/260803/p16#a260803p16",
+          "source": "Techmeme"
         },
         {
-          "title": "It’s time to panic about AI safety",
-          "url": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers",
+          "url": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html?link_source=ta_bluesky_link&utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Celebrating the AI Act delay? The EU AI Act’s chatbot and content rules apply this week",
+          "url": "https://www.techradar.com/pro/celebrating-the-ai-act-delay-the-eu-ai-acts-chatbot-and-content-rules-apply-this-week",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "context window",
-      "mentions": 28,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "PANOPTICON: A PII-Based Assemblage of Naturalistic Output Tokens for Investigating Privacy Leakage Within LLM Context Wi",
-      "articles": [
-        {
-          "title": "PANOPTICON: A PII-Based Assemblage of Naturalistic Output Tokens for Investigating Privacy Leakage Within LLM Context Wi",
-          "url": "https://arxiv.org/abs/2607.22695",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "LSRM: High-Fidelity Object-Centric Reconstruction via Scaled Context Windows",
-          "url": "https://arxiv.org/abs/2604.05182",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "grpo",
-      "mentions": 27,
+      "keyword": "quantization",
+      "mentions": 22,
       "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.95,
+      "headline": "When Bits Break Recourse: Counterfactual-Faithful Quantization",
+      "articles": [
+        {
+          "title": "When Bits Break Recourse: Counterfactual-Faithful Quantization",
+          "url": "https://arxiv.org/abs/2605.17160",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "WitCert: Sound Runtime Risk Observability and Gating for KV-Cache Quantization",
+          "url": "https://arxiv.org/abs/2607.28699",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "GoQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
+          "url": "https://arxiv.org/abs/2605.26092",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "openclaw",
+      "mentions": 11,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
         "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "ReCo: Reweighting GRPO Against Distributional Concentration",
-      "articles": [
-        {
-          "title": "ReCo: Reweighting GRPO Against Distributional Concentration",
-          "url": "https://arxiv.org/abs/2607.26862",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "NormWorlds-CF: Solver-Verified Counterfactual Normative Reasoning with Metamorphic-Relation GRPO",
-          "url": "https://arxiv.org/abs/2607.03957",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
-          "url": "https://arxiv.org/abs/2602.05547",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai governance",
-      "mentions": 12,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem",
-      "articles": [
-        {
-          "title": "The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem",
-          "url": "https://arxiv.org/abs/2607.26068",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Why Public Service AI Governance Frameworks Risk Failing in the Age of General-Purpose AI: Lessons from Policing",
-          "url": "https://arxiv.org/abs/2607.25648",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Stability of AI Governance Systems: A Coupled Dynamics Model of Public Trust and Social Disruptions",
-          "url": "https://arxiv.org/abs/2603.20248",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "cline",
-      "mentions": 14,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.24,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai act",
-      "mentions": 16,
-      "velocity": 1.1,
-      "sources": [
-        "arxiv",
-        "twitter"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.61,
-      "headline": "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in ",
+      "expert_ratio": 0.35,
+      "headline": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
       "articles": [
         {
-          "title": "AI-generated images, video, audio, and text on matters of public interest designed to look authentic must be labeled in ",
-          "url": "https://www.techmeme.com/260731/p19#a260731p19",
+          "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+          "url": "https://arxiv.org/abs/2607.28629",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/setting-up-openclaw-isnt-as-straightforward-as-the-internet-wants-you-to-think-running-local-ai-on-humble-hardware",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "open-source ai",
+      "mentions": 11,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.25,
+      "headline": "At the UN AI for Good summit, a big Chinese delegation argued Chinese open-source AI models are the future for most of t",
+      "articles": [
+        {
+          "title": "At the UN AI for Good summit, a big Chinese delegation argued Chinese open-source AI models are the future for most of t",
+          "url": "https://www.techmeme.com/260801/p9#a260801p9",
           "source": "Techmeme"
         },
         {
-          "title": "AI Act, il rinvio è legge ma il lavoro non si ferma",
-          "url": "https://www.tomshw.it/business/ai-act-il-rinvio-e-legge-ma-il-lavoro-non-si-ferma",
-          "source": "Tom's Hardware"
+          "title": "China’s MiniMax Launches New Open-Source AI Video Model",
+          "url": "https://www.theinformation.com/briefings/chinas-minimax-launches-new-open-source-ai-video-model",
+          "source": "The Information"
         },
         {
-          "title": "AI Act, l'Europa cede alle pressioni e rinvia l'Alto Rischio a sei giorni dalla scadenza",
-          "url": "https://www.tomshw.it/business/ai-act-l-europa-cede-alle-pressioni-e-rinvia-l-alto-rischio-a-sei-giorni-dalla-scadenza",
-          "source": "Tom's Hardware"
+          "title": "Nvidia Bet on Reflection for Open-Source AI. Now the Startup Is Playing Catch-Up.",
+          "url": "https://www.theinformation.com/articles/nvidia-bet-reflection-open-source-ai-now-startup-playing-catch",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "kling",
+      "mentions": 25,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 94,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "Show HN: Qwen Scribe – local transcription and dictation for Apple Silicon",
+      "articles": [
+        {
+          "title": "Show HN: Qwen Scribe – local transcription and dictation for Apple Silicon",
+          "url": "https://github.com/VladUZH/qwen-scribe",
+          "source": "Hacker News"
         }
       ]
     }
@@ -563,17 +587,17 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
+      "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
       "lead_days": 4
     }
   ],
@@ -586,10 +610,28 @@
         "confidence": 1.0
       },
       {
+        "keyword": "frontier model",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-03",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "sakana ai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-03",
+        "confidence": 0.4
+      },
+      {
         "keyword": "character ai",
         "signal_type": "emerging",
         "flagged_on": "2026-08-03",
         "confidence": 0.4
+      },
+      {
+        "keyword": "neuromorphic",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-03",
+        "confidence": 0.2
       },
       {
         "keyword": "voicebox",
@@ -632,24 +674,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-01",
         "confidence": 1.0
-      },
-      {
-        "keyword": "langchain",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-01",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "huggingface",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-01",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "qwen",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-01",
-        "confidence": 0.6
       }
     ],
     "heating_up": [
@@ -682,18 +706,18 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "speech to text",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "mcp client",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "speech to text",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "fireworks",
@@ -703,18 +727,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai alignment",
-        "recent_mentions": 15,
-        "prior_mentions": 5,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
+        "keyword": "national ai",
+        "recent_mentions": 29,
+        "prior_mentions": 10,
+        "change_ratio": 2.9,
+        "corroborating_sources": 4
       },
       {
-        "keyword": "world models",
-        "recent_mentions": 56,
-        "prior_mentions": 22,
-        "change_ratio": 2.55,
-        "corroborating_sources": 4
+        "keyword": "databricks",
+        "recent_mentions": 5,
+        "prior_mentions": 2,
+        "change_ratio": 2.5,
+        "corroborating_sources": 1
       },
       {
         "keyword": "capcut",
@@ -724,18 +748,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "mistral ai",
-        "recent_mentions": 17,
-        "prior_mentions": 7,
-        "change_ratio": 2.43,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "whisper",
         "recent_mentions": 53,
         "prior_mentions": 22,
         "change_ratio": 2.41,
         "corroborating_sources": 5
+      },
+      {
+        "keyword": "qlora",
+        "recent_mentions": 14,
+        "prior_mentions": 6,
+        "change_ratio": 2.33,
+        "corroborating_sources": 2
       }
     ]
   }
