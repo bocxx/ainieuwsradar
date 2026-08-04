@@ -1,86 +1,86 @@
 {
-  "generated_at": "2026-08-03T17:37:37+00:00",
+  "generated_at": "2026-08-04T05:34:16+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 95,
-    "resolved": 44,
+    "resolved": 45,
     "hits": 21,
-    "misses": 23,
-    "hit_rate": 0.477
+    "misses": 24,
+    "hit_rate": 0.467
   },
   "open": [
-    {
-      "keyword": "browser use",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-19",
-      "days_left": 0
-    },
     {
       "keyword": "ttft",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-20",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "claude haiku",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-21",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "autogpt",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "luma",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-22",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "midjourney",
       "signal_type": "emerging",
       "flagged_on": "2026-06-22",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "trae",
       "signal_type": "emerging",
       "flagged_on": "2026-06-23",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "comet",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-24",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "voice synthesis",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-24",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "character.ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-24",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "phi-4",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
-      "days_left": 7
+      "days_left": 6
+    },
+    {
+      "keyword": "seedance",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-29",
+      "days_left": 9
     }
   ],
   "recent_resolved": [
@@ -88,7 +88,7 @@
       "keyword": "browser use",
       "signal_type": "weak_signal",
       "status": "miss",
-      "flagged_on": "2026-06-18",
+      "flagged_on": "2026-06-19",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
@@ -97,16 +97,7 @@
       "keyword": "chatbox",
       "signal_type": "weak_signal",
       "status": "miss",
-      "flagged_on": "2026-06-18",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "crewai",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-18",
+      "flagged_on": "2026-06-19",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
@@ -115,7 +106,7 @@
       "keyword": "autogpt",
       "signal_type": "weak_signal",
       "status": "miss",
-      "flagged_on": "2026-06-18",
+      "flagged_on": "2026-06-19",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
@@ -123,6 +114,24 @@
     {
       "keyword": "cursor",
       "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-19",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "deepseek",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-19",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "crewai",
+      "signal_type": "weak_signal",
       "status": "miss",
       "flagged_on": "2026-06-18",
       "resolved_on": null,
@@ -197,15 +206,6 @@
       "signal_type": "weak_signal",
       "status": "miss",
       "flagged_on": "2026-06-15",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "moss-tts",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-13",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null

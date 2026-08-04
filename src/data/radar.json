@@ -1,36 +1,72 @@
 {
-  "generated_at": "2026-08-03T19:21:42.220935",
-  "total_tracked": 4114,
+  "generated_at": "2026-08-04T07:13:54.382410",
+  "total_tracked": 4089,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "minimax",
-      "mentions": 19,
-      "velocity": 3.0,
+      "keyword": "agentic",
+      "mentions": 379,
+      "velocity": 76.3,
       "sources": [
         "articles",
-        "hackernews"
+        "arxiv",
+        "github",
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Simple-regret rates and minimax optimality of fixed-prior expected improvement in Mat\\'ern and squared-exponential RKHSs",
+      "expert_ratio": 0.79,
+      "headline": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
       "articles": [
         {
-          "title": "Simple-regret rates and minimax optimality of fixed-prior expected improvement in Mat\\'ern and squared-exponential RKHSs",
-          "url": "https://arxiv.org/abs/2607.29245",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+          "url": "https://arxiv.org/abs/2608.00101",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "China’s MiniMax Launches New Open-Source AI Video Model",
-          "url": "https://www.theinformation.com/briefings/chinas-minimax-launches-new-open-source-ai-video-model",
-          "source": "The Information"
+          "title": "Mind the Sim2Real Gap in User Simulation for Agentic Tasks",
+          "url": "https://arxiv.org/abs/2603.11245",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "China’s MiniMax and ByteDance Release Dueling AI Video Models",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-31/china-s-minimax-and-bytedance-release-dueling-ai-video-models",
-          "source": "Bloomberg Technology"
+          "title": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
+          "url": "https://arxiv.org/abs/2608.00794",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 232,
+      "velocity": 44.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "RSRA: Training-Free Probing of Representation Sensitivity for Efficient LoRA Rank Allocation",
+      "articles": [
+        {
+          "title": "RSRA: Training-Free Probing of Representation Sensitivity for Efficient LoRA Rank Allocation",
+          "url": "https://arxiv.org/abs/2607.09757",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SPECTRA: Band-Routed Embedding and Stage-Wise LoRA for Cross-Sensor Fine-Tuning of Geospatial Foundation Models",
+          "url": "https://arxiv.org/abs/2608.01751",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "MineGrad: Gradient Inversion Attacks on LoRA Fine-Tuning",
+          "url": "https://arxiv.org/abs/2608.01521",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -38,8 +74,8 @@
   "emerging": [
     {
       "keyword": "deepseek",
-      "mentions": 120,
-      "velocity": 11.8,
+      "mentions": 119,
+      "velocity": 7.9,
       "sources": [
         "articles",
         "arxiv",
@@ -70,38 +106,83 @@
       ]
     },
     {
-      "keyword": "distillation",
-      "mentions": 52,
-      "velocity": 4.8,
+      "keyword": "openclaw",
+      "mentions": 14,
+      "velocity": 2.1,
       "sources": [
+        "articles",
         "arxiv",
         "hackernews"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "DRIFT: Difficulty Routing Self-DIstillation with Rhythm-Gated Exploration and Success BuFfer Training",
+      "expert_ratio": 0.38,
+      "headline": "Salami Attack: Stealthy Collusive Memory Poisoning against OpenClaw",
       "articles": [
         {
-          "title": "DRIFT: Difficulty Routing Self-DIstillation with Rhythm-Gated Exploration and Success BuFfer Training",
-          "url": "https://arxiv.org/abs/2606.30345",
+          "title": "Salami Attack: Stealthy Collusive Memory Poisoning against OpenClaw",
+          "url": "https://arxiv.org/abs/2608.01637",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "RAPiD: Reward-Guided Consistency Distillation of Diffusion Planners for Real-Time Autonomous Driving",
-          "url": "https://arxiv.org/abs/2602.07339",
+          "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+          "url": "https://arxiv.org/abs/2607.28629",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
-          "url": "https://arxiv.org/abs/2607.29209",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/setting-up-openclaw-isnt-as-straightforward-as-the-internet-wants-you-to-think-running-local-ai-on-humble-hardware",
+          "source": "Tom's Hardware"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "genesis mission",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
+      "articles": [
+        {
+          "title": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
+          "url": "https://www.science.org/content/article/genesis-mission-department-energy-s-big-ai-push-unveils-first-grants",
+          "source": "Science: Current Issue"
+        },
+        {
+          "title": "US outlines its $5 billion Genesis Mission to boost science with AI",
+          "url": "https://www.engadget.com/2221309/us-outlines-its-5-billion-genesis-mission-to-boost-science-with-ai/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+          "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+          "source": "Google DeepMind News"
+        }
+      ]
+    },
+    {
+      "keyword": "wireimage",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
     {
       "keyword": "vulncheck",
       "mentions": 2,
@@ -147,36 +228,6 @@
       ]
     },
     {
-      "keyword": "genesis mission",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-      "articles": [
-        {
-          "title": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-          "url": "https://www.science.org/content/article/genesis-mission-department-energy-s-big-ai-push-unveils-first-grants",
-          "source": "Science: Current Issue"
-        },
-        {
-          "title": "US outlines its $5 billion Genesis Mission to boost science with AI",
-          "url": "https://www.engadget.com/2221309/us-outlines-its-5-billion-genesis-mission-to-boost-science-with-ai/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-          "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-          "source": "Google DeepMind News"
-        }
-      ]
-    },
-    {
       "keyword": "summarization",
       "mentions": 2,
       "velocity": 1.0,
@@ -187,8 +238,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
+      "headline": "OpenDebateEvidence: A Massive-Scale Argument Mining and Summarization Dataset",
       "articles": [
+        {
+          "title": "OpenDebateEvidence: A Massive-Scale Argument Mining and Summarization Dataset",
+          "url": "https://arxiv.org/abs/2406.14657",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
           "url": "https://arxiv.org/abs/2606.13316",
@@ -198,71 +254,8 @@
           "title": "daVinci-kernel: Co-Evolving Skill Selection, Summarization, and Utilization via RL for GPU Kernel Optimization",
           "url": "https://arxiv.org/abs/2606.16497",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Reexamining zero-shot summarization: Empirical investigation of trustworthiness of LLM-summarizers",
-          "url": "https://arxiv.org/abs/2607.21010",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "workspace",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Google Workspace Promo Codes: 14% Off for July",
-      "articles": [
-        {
-          "title": "Google Workspace Promo Codes: 14% Off for July",
-          "url": "https://www.wired.com/story/google-workspace-promo-code/",
-          "source": "WIRED"
-        },
-        {
-          "title": "Agent Team Work Zone: An Automated, Persistent Workspace for Long-Lived Coding Agent Teams",
-          "url": "https://arxiv.org/abs/2607.22917",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Experts warn ChatGPT's Workspace Agent Builder can be hijacked to create malicious AI workers",
-          "url": "https://www.techradar.com/pro/security/experts-warn-chatgpts-workspace-agent-builder-can-be-hijacked-to-create-malicious-ai-workers",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "wireimage",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "neuromorphic",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "containers",
@@ -285,34 +278,18 @@
       ]
     },
     {
-      "keyword": "open ai",
+      "keyword": "browser-use",
       "mentions": 3,
-      "velocity": 0.8,
+      "velocity": 0.6,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "Open AI security alliance #Vergecast",
-      "articles": [
-        {
-          "title": "Open AI security alliance #Vergecast",
-          "url": "https://www.youtube.com/shorts/WelY6Cy1Fko",
-          "source": "The Verge"
-        },
-        {
-          "title": "Tech giants link hands to praise open AI models after OpenAI - Hugging Face attack",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
-          "source": "The Register - Security"
-        },
-        {
-          "title": "Nvidia start coalitie voor open AI-beveiliging na Hugging Face-incident",
-          "url": "https://tweakers.net/nieuws/250430/nvidia-start-coalitie-voor-open-ai-beveiliging-na-hugging-face-incident.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
+      "confidence": 73,
+      "days_active": 5,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "nudify",
@@ -343,22 +320,141 @@
           "source": "Engadget"
         }
       ]
+    },
+    {
+      "keyword": "open ai",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "Open AI security alliance #Vergecast",
+      "articles": [
+        {
+          "title": "Open AI security alliance #Vergecast",
+          "url": "https://www.youtube.com/shorts/WelY6Cy1Fko",
+          "source": "The Verge"
+        },
+        {
+          "title": "Tech giants link hands to praise open AI models after OpenAI - Hugging Face attack",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-giants-link-hands-to-praise-open-ai-models-after-openai-hugging-face-attack/5279061",
+          "source": "The Register - Security"
+        },
+        {
+          "title": "Nvidia start coalitie voor open AI-beveiliging na Hugging Face-incident",
+          "url": "https://tweakers.net/nieuws/250430/nvidia-start-coalitie-voor-open-ai-beveiliging-na-hugging-face-incident.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "skypilot",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "Databricks co-founder Ion Stoica's GPU orchestration startup SkyPilot, which aims to be neutral across hardware and clou",
+      "articles": [
+        {
+          "title": "Databricks co-founder Ion Stoica's GPU orchestration startup SkyPilot, which aims to be neutral across hardware and clou",
+          "url": "https://www.techmeme.com/260721/p17#a260721p17",
+          "source": "Techmeme"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "ai act",
-      "mentions": 19,
-      "velocity": 2.0,
+      "keyword": "computer use",
+      "mentions": 12,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
-        "twitter"
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.51,
+      "headline": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
+      "articles": [
+        {
+          "title": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
+          "url": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Understanding User Experiences of Computer Use Agents: Design Space and Opportunities for Building Agent UX Prototypes",
+          "url": "https://arxiv.org/abs/2510.04452",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Sources: Prentis, which develops computer use models and is co-founded by Reid Hoffman and Marc Pincus, is in talks to r",
+          "url": "https://www.techmeme.com/260724/p33#a260724p33",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "context length",
+      "mentions": 11,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.61,
+      "expert_ratio": 0.99,
+      "headline": "Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination ",
+      "articles": [
+        {
+          "title": "Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination ",
+          "url": "https://arxiv.org/abs/2607.19257",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "langchain",
+      "mentions": 16,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "github",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "ai act",
+      "mentions": 18,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.57,
       "headline": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market a",
       "articles": [
         {
@@ -379,41 +475,9 @@
       ]
     },
     {
-      "keyword": "quantization",
-      "mentions": 22,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "When Bits Break Recourse: Counterfactual-Faithful Quantization",
-      "articles": [
-        {
-          "title": "When Bits Break Recourse: Counterfactual-Faithful Quantization",
-          "url": "https://arxiv.org/abs/2605.17160",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "WitCert: Sound Runtime Risk Observability and Gating for KV-Cache Quantization",
-          "url": "https://arxiv.org/abs/2607.28699",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "GoQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization",
-          "url": "https://arxiv.org/abs/2605.26092",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "openclaw",
+      "keyword": "opencode",
       "mentions": 11,
-      "velocity": 1.7,
+      "velocity": 1.1,
       "sources": [
         "articles",
         "hackernews"
@@ -421,139 +485,96 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.35,
-      "headline": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "expert_ratio": 0.26,
+      "headline": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
       "articles": [
         {
-          "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-          "url": "https://arxiv.org/abs/2607.28629",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/setting-up-openclaw-isnt-as-straightforward-as-the-internet-wants-you-to-think-running-local-ai-on-humble-hardware",
-          "source": "Tom's Hardware"
+          "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
+          "url": "https://github.com/YoanWai/agent-manager",
+          "source": "Hacker News"
         }
       ]
     },
     {
-      "keyword": "open-source ai",
-      "mentions": 11,
-      "velocity": 1.6,
+      "keyword": "ai bubble",
+      "mentions": 18,
+      "velocity": 1.0,
       "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.25,
-      "headline": "At the UN AI for Good summit, a big Chinese delegation argued Chinese open-source AI models are the future for most of t",
-      "articles": [
-        {
-          "title": "At the UN AI for Good summit, a big Chinese delegation argued Chinese open-source AI models are the future for most of t",
-          "url": "https://www.techmeme.com/260801/p9#a260801p9",
-          "source": "Techmeme"
-        },
-        {
-          "title": "China’s MiniMax Launches New Open-Source AI Video Model",
-          "url": "https://www.theinformation.com/briefings/chinas-minimax-launches-new-open-source-ai-video-model",
-          "source": "The Information"
-        },
-        {
-          "title": "Nvidia Bet on Reflection for Open-Source AI. Now the Startup Is Playing Catch-Up.",
-          "url": "https://www.theinformation.com/articles/nvidia-bet-reflection-open-source-ai-now-startup-playing-catch",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "kling",
-      "mentions": 25,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "hackernews"
+        "hackernews",
+        "twitter"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.82,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 94,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "Show HN: Qwen Scribe – local transcription and dictation for Apple Silicon",
+      "headline": "The AI bubble is popping; we just don't know it yet",
       "articles": [
         {
-          "title": "Show HN: Qwen Scribe – local transcription and dictation for Apple Silicon",
-          "url": "https://github.com/VladUZH/qwen-scribe",
+          "title": "The AI bubble is popping; we just don't know it yet",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
           "source": "Hacker News"
+        },
+        {
+          "title": "When the AI bubble bursts, what will Australia do with the tools it built? One man thinks he has the answer",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/when-the-ai-bubble-bursts-what-will-australia-do-with-the-tools-it-built-one-man-thinks-he-has-the-answer",
+          "source": "Artificial intelligence (AI) | The Guardian"
+        },
+        {
+          "title": "Adata boss says DRAM shortage to last another decade with no AI bubble bursting before 2030",
+          "url": "https://www.techradar.com/pro/adata-boss-says-dram-shortage-to-last-another-decade-with-no-ai-bubble-bursting-before-2030",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 75,
+    "scored_predictions": 79,
     "covered": 23,
-    "coverage_rate": 0.307,
+    "coverage_rate": 0.291,
     "early": 9,
-    "early_rate": 0.12,
+    "early_rate": 0.114,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.307,
+    "hit_rate": 0.291,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 30,
+        "scored": 31,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.667,
-        "early_rate": 0.233,
-        "hit_rate": 0.667
+        "coverage_rate": 0.645,
+        "early_rate": 0.226,
+        "hit_rate": 0.645
       },
       "weak_signal": {
-        "scored": 45,
+        "scored": 48,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.067,
-        "early_rate": 0.044,
-        "hit_rate": 0.067
+        "coverage_rate": 0.062,
+        "early_rate": 0.042,
+        "hit_rate": 0.062
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 75,
+    "n": 79,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.44,
-      "early_rate": 0.187
+      "coverage_rate": 0.43,
+      "early_rate": 0.19
     },
     "null_mean": {
-      "coverage_rate": 0.462,
-      "early_rate": 0.209
+      "coverage_rate": 0.449,
+      "early_rate": 0.203
     },
     "p_value": {
-      "coverage_rate": 0.966,
-      "early_rate": 0.823
+      "coverage_rate": 0.952,
+      "early_rate": 0.748
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -587,22 +608,34 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
       "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "cohere",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-04",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "browser-use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-04",
+        "confidence": 0.2
+      },
       {
         "keyword": "cursor",
         "signal_type": "emerging",
@@ -628,13 +661,13 @@
         "confidence": 0.4
       },
       {
-        "keyword": "neuromorphic",
+        "keyword": "voicebox",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-03",
         "confidence": 0.2
       },
       {
-        "keyword": "voicebox",
+        "keyword": "neuromorphic",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-03",
         "confidence": 0.2
@@ -662,48 +695,36 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-02",
         "confidence": 0.4
-      },
-      {
-        "keyword": "world models",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-02",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-01",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "voicebox",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "ad creative",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "neuromorphic",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "computer-use",
-        "recent_mentions": 22,
-        "prior_mentions": 4,
-        "change_ratio": 5.5,
-        "corroborating_sources": 1
+        "keyword": "world models",
+        "recent_mentions": 83,
+        "prior_mentions": 14,
+        "change_ratio": 5.93,
+        "corroborating_sources": 3
       },
       {
-        "keyword": "deepl",
-        "recent_mentions": 16,
-        "prior_mentions": 3,
-        "change_ratio": 5.33,
-        "corroborating_sources": 2
+        "keyword": "mixture of experts",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "mcp client",
@@ -713,53 +734,53 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "speech to text",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "fireworks",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
+        "keyword": "hermes-agent",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "national ai",
-        "recent_mentions": 29,
-        "prior_mentions": 10,
-        "change_ratio": 2.9,
-        "corroborating_sources": 4
+        "keyword": "cohere",
+        "recent_mentions": 167,
+        "prior_mentions": 46,
+        "change_ratio": 3.63,
+        "corroborating_sources": 3
       },
       {
-        "keyword": "databricks",
-        "recent_mentions": 5,
-        "prior_mentions": 2,
-        "change_ratio": 2.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "capcut",
-        "recent_mentions": 10,
-        "prior_mentions": 4,
-        "change_ratio": 2.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "whisper",
-        "recent_mentions": 53,
-        "prior_mentions": 22,
-        "change_ratio": 2.41,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "qlora",
-        "recent_mentions": 14,
-        "prior_mentions": 6,
-        "change_ratio": 2.33,
+        "keyword": "deepl",
+        "recent_mentions": 18,
+        "prior_mentions": 5,
+        "change_ratio": 3.6,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "fireworks",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "chroma",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "digital twin",
+        "recent_mentions": 26,
+        "prior_mentions": 8,
+        "change_ratio": 3.25,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "openclaw",
+        "recent_mentions": 38,
+        "prior_mentions": 13,
+        "change_ratio": 2.92,
+        "corroborating_sources": 4
       }
     ]
   }
