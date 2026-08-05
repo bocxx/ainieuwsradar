@@ -1,46 +1,12 @@
 {
-  "generated_at": "2026-08-05T07:11:34.119169",
-  "total_tracked": 4086,
+  "generated_at": "2026-08-05T19:20:20.229070",
+  "total_tracked": 4179,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 292,
-      "velocity": 48.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
-      "articles": [
-        {
-          "title": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
-          "url": "https://arxiv.org/abs/2608.00794",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Autoreflection: How Agentic Strange Loops Turn Human Culture into AI Infrastructure",
-          "url": "https://arxiv.org/abs/2608.03800",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
-          "url": "https://arxiv.org/abs/2608.02613",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "reinforcement learning",
-      "mentions": 252,
-      "velocity": 45.4,
+      "mentions": 137,
+      "velocity": 10.6,
       "sources": [
         "articles",
         "arxiv",
@@ -68,45 +34,133 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
-      "keyword": "deepseek",
-      "mentions": 117,
-      "velocity": 4.9,
+      "keyword": "fine-tuning",
+      "mentions": 93,
+      "velocity": 5.0,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews"
+        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "DeepSeek V4 Flash on a Single AMD MI300X",
+      "expert_ratio": 0.98,
+      "headline": "Enhancing VLM Reward Models Through Structure-Aware Fine-Tuning",
       "articles": [
         {
-          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-          "source": "Hacker News"
+          "title": "Enhancing VLM Reward Models Through Structure-Aware Fine-Tuning",
+          "url": "https://arxiv.org/abs/2608.03875",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
-          "source": "Quartz"
+          "title": "Structure-Aware Robust Fine-Tuning: Defending Vision-Language-Action Robots Against Physical Attention Hijacking",
+          "url": "https://arxiv.org/abs/2608.03231",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Verbeterde DeepSeek V4 Flash kost per taak 60 procent minder dan GPT-5.6 Luna",
-          "url": "https://tweakers.net/nieuws/250630/verbeterde-deepseek-v4-flash-kost-per-taak-60-procent-minder-dan-gpt-56-luna.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "Taming the Implicit: Dual-Channel Risk-Aware Reinforcement Fine-Tuning for Continual Multimodal Post-Training",
+          "url": "https://arxiv.org/abs/2608.03660",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 98,
+      "velocity": 4.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Pin Once, Swap Light: Subspace-Aligned Centroid-Residual Training for Efficient Ultra-LoRA Serving",
+      "articles": [
+        {
+          "title": "Pin Once, Swap Light: Subspace-Aligned Centroid-Residual Training for Efficient Ultra-LoRA Serving",
+          "url": "https://arxiv.org/abs/2608.03579",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "RSRA: Training-Free Probing of Representation Sensitivity for Efficient LoRA Rank Allocation",
+          "url": "https://arxiv.org/abs/2607.09757",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 210,
+      "velocity": 3.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.47,
+      "headline": "ChatGPT vince sui racconti, ma l'umano resta preferito",
+      "articles": [
+        {
+          "title": "ChatGPT vince sui racconti, ma l'umano resta preferito",
+          "url": "https://www.tomshw.it/hardware/chatgpt-batte-i-racconti-umani-ma-l-etichetta-umana-alza-i-voti",
+          "source": "Tom's Hardware"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "agentic",
+      "mentions": 162,
+      "velocity": 8.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Autoreflection: How Agentic Strange Loops Turn Human Culture into AI Infrastructure",
+      "articles": [
+        {
+          "title": "Autoreflection: How Agentic Strange Loops Turn Human Culture into AI Infrastructure",
+          "url": "https://arxiv.org/abs/2608.03800",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "VeriTrace: Human-Like Temporal Exploration Completes Agentic Action Space",
+          "url": "https://arxiv.org/abs/2608.02878",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "The Agent Operating System (AOS): A Reference Operating Architecture for Distributed Agentic Systems",
+          "url": "https://arxiv.org/abs/2608.03214",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "mcp server",
-      "mentions": 22,
-      "velocity": 2.5,
+      "mentions": 31,
+      "velocity": 5.2,
       "sources": [
         "articles",
         "hackernews"
@@ -126,8 +180,8 @@
     },
     {
       "keyword": "claude code",
-      "mentions": 37,
-      "velocity": 2.5,
+      "mentions": 40,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "hackernews",
@@ -144,16 +198,6 @@
           "title": "Agent skills that bring team coding standards to Claude Code and Codex",
           "url": "https://github.com/tikalk/adlc-team-skills",
           "source": "Hacker News"
-        },
-        {
-          "title": "Un modder sblocca 55 opzioni nascoste nel BIOS HP con Claude Code",
-          "url": "https://www.tomshw.it/hardware/un-modder-sblocca-55-opzioni-nascoste-nel-bios-hp-con-claude-code",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "AI enthusiast unlocks and mods BIOS with Claude Code — AI defeats RSA-2048 signature checks and unlocks 55 hidden settin",
-          "url": "https://www.tomshardware.com/laptops/ai-enthusiast-mods-bios-with-claude-code-ai-defeats-rsa-2048-signature-checks-and-unlocks-55-hidden-settings",
-          "source": "Tom's Hardware"
         }
       ]
     }
@@ -190,7 +234,7 @@
       ]
     },
     {
-      "keyword": "vulncheck",
+      "keyword": "wireimage",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -204,37 +248,7 @@
       "articles": []
     },
     {
-      "keyword": "substantial",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
-      "articles": [
-        {
-          "title": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
-          "url": "https://www.techmeme.com/260727/p14#a260727p14",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia Makes ‘Substantial’ Investment in Sutskever’s Startup",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Dyson Supersonic Travel vs Supersonic Nural: I tested the two premium hair dryers to see what you get — and don't get — ",
-          "url": "https://www.techradar.com/home/hair-care/dyson-supersonic-travel-vs-supersonic-nural",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "wireimage",
+      "keyword": "vulncheck",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -292,6 +306,36 @@
       ]
     },
     {
+      "keyword": "substantial",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
+      "articles": [
+        {
+          "title": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
+          "url": "https://www.techmeme.com/260727/p14#a260727p14",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Nvidia Makes ‘Substantial’ Investment in Sutskever’s Startup",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Dyson Supersonic Travel vs Supersonic Nural: I tested the two premium hair dryers to see what you get — and don't get — ",
+          "url": "https://www.techradar.com/home/hair-care/dyson-supersonic-travel-vs-supersonic-nural",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
       "keyword": "containers",
       "mentions": 3,
       "velocity": 0.8,
@@ -310,6 +354,20 @@
           "source": "Hacker News"
         }
       ]
+    },
+    {
+      "keyword": "yolo",
+      "mentions": 3,
+      "velocity": 0.6,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "alignment",
@@ -352,154 +410,148 @@
       "expert_ratio": 0.8,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "saas",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
-      "articles": [
-        {
-          "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
-          "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
-          "source": "TechCrunch"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "vibe coding",
-      "mentions": 24,
-      "velocity": 2.0,
+      "keyword": "langchain",
+      "mentions": 15,
+      "velocity": 1.9,
       "sources": [
         "articles",
-        "arxiv",
+        "github",
         "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "Inside our 353,000-person vibe coding course",
-      "articles": [
-        {
-          "title": "Inside our 353,000-person vibe coding course",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-          "source": "AI"
-        },
-        {
-          "title": "From Idea to Classroom in Days: Using \"Vibe Coding\" to Create a Programming Process Visualizer from IDE Activity Logs",
-          "url": "https://arxiv.org/abs/2607.24757",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "cuda",
-      "mentions": 12,
-      "velocity": 1.5,
+      "keyword": "ai coding",
+      "mentions": 26,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "arxiv",
-        "github"
+        "github",
+        "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "AgentCompile: An LLM-Guided Compiler for Direct CUDA Inference",
+      "expert_ratio": 0.46,
+      "headline": "Sources: Google is in talks with AI coding agent startup Mechanize on a possible deal, potentially worth $1.5B+, to hire",
       "articles": [
         {
-          "title": "AgentCompile: An LLM-Guided Compiler for Direct CUDA Inference",
-          "url": "https://arxiv.org/abs/2606.07665",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Sources: Google is in talks with AI coding agent startup Mechanize on a possible deal, potentially worth $1.5B+, to hire",
+          "url": "https://www.techmeme.com/260805/p18#a260805p18",
+          "source": "Techmeme"
         },
         {
-          "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-          "url": "https://arxiv.org/abs/2607.24762",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Google is in talks for a $1.5 billion-plus deal with AI coding agent startup Mechanize",
+          "url": "https://www.businessinsider.com/google-mechanize-deal-talent-tech-ai-coding-2026-8",
+          "source": "Business Insider"
         },
         {
-          "title": "AMD vibe codes its way past the CUDA moat with ROCm.AI",
-          "url": "https://www.theregister.com/ai-and-ml/2026/07/24/amd-vibe-codes-its-way-past-the-cuda-moat-with-rocmai/5278580",
-          "source": "The Register"
+          "title": "AI coding agents are blowing through budgets — Replit, Kilo Code, and Symbotic explain how they're managing it",
+          "url": "https://venturebeat.com/orchestration/ai-coding-agents-are-blowing-through-budgets-replit-kilo-code-and-symbotic-explain-how-theyre-managing-it",
+          "source": "VentureBeat"
         }
       ]
     },
     {
-      "keyword": "ai act",
-      "mentions": 19,
+      "keyword": "qwen",
+      "mentions": 96,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "articles": [
+        {
+          "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+          "url": "https://github.com/leonickson1/Swiftlet",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "reasoning model",
+      "mentions": 12,
+      "velocity": 1.4,
+      "sources": [
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.85,
+      "headline": "Self-Guided Adaptive Safety Alignment: Synthesizing and Internalizing Guidelines in Reasoning Models",
+      "articles": [
+        {
+          "title": "Self-Guided Adaptive Safety Alignment: Synthesizing and Internalizing Guidelines in Reasoning Models",
+          "url": "https://arxiv.org/abs/2511.21214",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Nvidia makes Alpamayo 2 Super, its frontier open reasoning model for robotaxis and AVs, available for commercial use und",
+          "url": "https://www.techmeme.com/260804/p27#a260804p27",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation",
+          "url": "https://arxiv.org/abs/2606.26502",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "code generation",
+      "mentions": 18,
       "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.56,
-      "headline": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market a",
-      "articles": [
-        {
-          "title": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market a",
-          "url": "https://www.techmeme.com/260803/p16#a260803p16",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers",
-          "url": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html?link_source=ta_bluesky_link&utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Celebrating the AI Act delay? The EU AI Act’s chatbot and content rules apply this week",
-          "url": "https://www.techradar.com/pro/celebrating-the-ai-act-delay-the-eu-ai-acts-chatbot-and-content-rules-apply-this-week",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "context window",
-      "mentions": 19,
-      "velocity": 0.5,
-      "sources": [
-        "articles",
-        "arxiv",
         "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "Cross-Lingual Token Arbitrage: Optimizing Code Agent Context Windows via Local LLM Preprocessing",
+      "expert_ratio": 0.95,
+      "headline": "Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation",
       "articles": [
         {
-          "title": "Cross-Lingual Token Arbitrage: Optimizing Code Agent Context Windows via Local LLM Preprocessing",
-          "url": "https://arxiv.org/abs/2606.03618",
+          "title": "Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation",
+          "url": "https://arxiv.org/abs/2608.03691",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "PANOPTICON: A PII-Based Assemblage of Naturalistic Output Tokens for Investigating Privacy Leakage Within LLM Context Wi",
-          "url": "https://arxiv.org/abs/2607.22695",
+          "title": "GenOS: Compositional Certificates for Semantic Robustness in AI Code Generation",
+          "url": "https://arxiv.org/abs/2608.03588",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "LSRM: High-Fidelity Object-Centric Reconstruction via Scaled Context Windows",
-          "url": "https://arxiv.org/abs/2604.05182",
+          "title": "Route-Align-Verify for Functional Correctness in Code Generation",
+          "url": "https://arxiv.org/abs/2608.03341",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "cursor",
-      "mentions": 58,
-      "velocity": 0.3,
+      "mentions": 60,
+      "velocity": 0.9,
       "sources": [
         "articles",
         "github",
@@ -509,7 +561,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.42,
+      "expert_ratio": 0.41,
       "headline": "Cursor cut its India price to $7, and its own AI models are why",
       "articles": [
         {
@@ -526,37 +578,6 @@
           "title": "Cursor introduces Cursor Start, a ~$7 monthly subscription exclusive to India, its third-largest market, priced below it",
           "url": "https://www.techmeme.com/260728/p2#a260728p2",
           "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "ai bubble",
-      "mentions": 16,
-      "velocity": 0.3,
-      "sources": [
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "The AI bubble is popping; we just don't know it yet",
-      "articles": [
-        {
-          "title": "The AI bubble is popping; we just don't know it yet",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
-          "source": "Hacker News"
-        },
-        {
-          "title": "When the AI bubble bursts, what will Australia do with the tools it built? One man thinks he has the answer",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/when-the-ai-bubble-bursts-what-will-australia-do-with-the-tools-it-built-one-man-thinks-he-has-the-answer",
-          "source": "Technology | The Guardian"
-        },
-        {
-          "title": "Adata boss says DRAM shortage to last another decade with no AI bubble bursting before 2030",
-          "url": "https://www.techradar.com/pro/adata-boss-says-dram-shortage-to-last-another-decade-with-no-ai-bubble-bursting-before-2030",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
@@ -603,12 +624,12 @@
       "early_rate": 0.179
     },
     "null_mean": {
-      "coverage_rate": 0.428,
-      "early_rate": 0.198
+      "coverage_rate": 0.431,
+      "early_rate": 0.201
     },
     "p_value": {
-      "coverage_rate": 0.979,
-      "early_rate": 0.82
+      "coverage_rate": 0.983,
+      "early_rate": 0.849
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -659,20 +680,50 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "claude code",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-05",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "mcp server",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-05",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "higgsfield",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-05",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "dreamina",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-05",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "seedance",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-05",
+        "confidence": 0.2
+      },
+      {
         "keyword": "openclaw",
         "signal_type": "emerging",
         "flagged_on": "2026-08-04",
         "confidence": 0.6
       },
       {
-        "keyword": "cohere",
-        "signal_type": "emerging",
+        "keyword": "browser-use",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-08-04",
         "confidence": 0.2
       },
       {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
+        "keyword": "cohere",
+        "signal_type": "emerging",
         "flagged_on": "2026-08-04",
         "confidence": 0.2
       },
@@ -699,36 +750,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-03",
         "confidence": 0.4
-      },
-      {
-        "keyword": "character ai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-03",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "neuromorphic",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-03",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "voicebox",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-03",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "deepseek",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-02",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "together",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-02",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
@@ -762,31 +783,17 @@
       },
       {
         "keyword": "digital twin",
-        "recent_mentions": 13,
+        "recent_mentions": 14,
         "prior_mentions": 3,
-        "change_ratio": 4.33,
+        "change_ratio": 4.67,
         "corroborating_sources": 2
       },
       {
         "keyword": "framer",
-        "recent_mentions": 7,
+        "recent_mentions": 8,
         "prior_mentions": 2,
-        "change_ratio": 3.5,
+        "change_ratio": 4.0,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "puppeteer",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai alignment",
-        "recent_mentions": 20,
-        "prior_mentions": 6,
-        "change_ratio": 3.33,
-        "corroborating_sources": 1
       },
       {
         "keyword": "leonardo",
@@ -796,24 +803,38 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "cohere",
-        "recent_mentions": 128,
-        "prior_mentions": 45,
-        "change_ratio": 2.84,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "relevance",
-        "recent_mentions": 8,
-        "prior_mentions": 3,
-        "change_ratio": 2.67,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "ad creative",
         "recent_mentions": 8,
         "prior_mentions": 3,
         "change_ratio": 2.67,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "chroma",
+        "recent_mentions": 8,
+        "prior_mentions": 3,
+        "change_ratio": 2.67,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "penpot",
+        "recent_mentions": 5,
+        "prior_mentions": 2,
+        "change_ratio": 2.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "deepl",
+        "recent_mentions": 20,
+        "prior_mentions": 8,
+        "change_ratio": 2.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "relevance",
+        "recent_mentions": 7,
+        "prior_mentions": 3,
+        "change_ratio": 2.33,
         "corroborating_sources": 1
       }
     ]
