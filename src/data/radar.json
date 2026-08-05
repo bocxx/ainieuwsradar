@@ -1,45 +1,112 @@
 {
-  "generated_at": "2026-08-04T19:23:30.292618",
-  "total_tracked": 4179,
+  "generated_at": "2026-08-05T07:11:34.119169",
+  "total_tracked": 4086,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "agentic",
-      "mentions": 148,
-      "velocity": 6.5,
+      "mentions": 292,
+      "velocity": 48.1,
       "sources": [
         "articles",
         "arxiv",
+        "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "1015: Mathematical Optimization in the Agentic AI Era, with Gurobi's Jerry Yurchisin",
+      "expert_ratio": 0.79,
+      "headline": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
       "articles": [
         {
-          "title": "1015: Mathematical Optimization in the Agentic AI Era, with Gurobi's Jerry Yurchisin",
-          "url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/E581B9/arttrk.com/p/VI4CS/pscrb.fm/rss/p/traffic.megaphone.fm/SUPERDATASCIENCEPTYLTD6955227320.mp3",
-          "source": "Super Data Science: ML ＆ AI Podcast with Jon Krohn"
+          "title": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
+          "url": "https://arxiv.org/abs/2608.00794",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "The agentic AI naming trap: Why you must move from red oceans to blue",
-          "url": "https://www.fastcompany.com/91576093/the-agentic-ai-naming-trap-why-you-must-move-from-red-oceans-to-blue-ai-stratgey-brands-naming",
-          "source": "Fast Company"
+          "title": "Autoreflection: How Agentic Strange Loops Turn Human Culture into AI Infrastructure",
+          "url": "https://arxiv.org/abs/2608.03800",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Can AI Agents Simulate A/B Test Outcomes? A Validation Framework for Agentic Experimentation",
-          "url": "https://arxiv.org/abs/2608.02345",
+          "title": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
+          "url": "https://arxiv.org/abs/2608.02613",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
+      "keyword": "reinforcement learning",
+      "mentions": 252,
+      "velocity": 45.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "Adversarial observations in probabilistic State-Space Models for robust Reinforcement Learning",
+      "articles": [
+        {
+          "title": "Adversarial observations in probabilistic State-Space Models for robust Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2606.20880",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Improved Quantum Algorithms for Reinforcement Learning Under a Generative Model",
+          "url": "https://arxiv.org/abs/2608.02826",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Agentic Reinforcement Learning with Self-Distilled Reward Shaping",
+          "url": "https://arxiv.org/abs/2608.03223",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "deepseek",
+      "mentions": 117,
+      "velocity": 4.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.88,
+      "headline": "DeepSeek V4 Flash on a Single AMD MI300X",
+      "articles": [
+        {
+          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+          "source": "Hacker News"
+        },
+        {
+          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
+          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
+          "source": "Quartz"
+        },
+        {
+          "title": "Verbeterde DeepSeek V4 Flash kost per taak 60 procent minder dan GPT-5.6 Luna",
+          "url": "https://tweakers.net/nieuws/250630/verbeterde-deepseek-v4-flash-kost-per-taak-60-procent-minder-dan-gpt-56-luna.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
       "keyword": "mcp server",
-      "mentions": 21,
-      "velocity": 3.2,
+      "mentions": 22,
+      "velocity": 2.5,
       "sources": [
         "articles",
         "hackernews"
@@ -47,7 +114,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.28,
+      "expert_ratio": 0.29,
       "headline": "Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale",
       "articles": [
         {
@@ -58,46 +125,16 @@
       ]
     },
     {
-      "keyword": "code generation",
-      "mentions": 19,
-      "velocity": 2.4,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.96,
-      "headline": "Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation",
-      "articles": [
-        {
-          "title": "Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation",
-          "url": "https://arxiv.org/abs/2608.01927",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "TaPR: Test-Aware Policy Refinement for Feedback-Conditioned Code Generation",
-          "url": "https://arxiv.org/abs/2608.00494",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Compiled AI: Deterministic Code Generation for LLM-Based Workflow Automation",
-          "url": "https://arxiv.org/abs/2604.05150",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "claude code",
-      "mentions": 34,
-      "velocity": 2.2,
+      "mentions": 37,
+      "velocity": 2.5,
       "sources": [
         "articles",
         "hackernews",
+        "linkedin",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
@@ -117,104 +154,6 @@
           "title": "AI enthusiast unlocks and mods BIOS with Claude Code — AI defeats RSA-2048 signature checks and unlocks 55 hidden settin",
           "url": "https://www.tomshardware.com/laptops/ai-enthusiast-mods-bios-with-claude-code-ai-defeats-rsa-2048-signature-checks-and-unlocks-55-hidden-settings",
           "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "data centers",
-      "mentions": 33,
-      "velocity": 2.1,
-      "sources": [
-        "articles",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "Texas halts new data centers as governor calls for audits",
-      "articles": [
-        {
-          "title": "Texas halts new data centers as governor calls for audits",
-          "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Texas says data centers must pass an audit before connecting to the grid",
-          "url": "https://www.theverge.com/policy/975071/texas-data-center-audit?utm_source=flipboard&utm_content=other",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Texas slams on the breaks for 1,800 data centers, power grid requirements are five times higher than peak record demand ",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/texas-slams-on-the-breaks-for-1-800-data-centers-power-grid-requirements-are-five-times-higher-than-peak-record-demand-474-gigawatts-of-power-requests-are-now-subject-to-new-moratorium",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "conversational ai",
-      "mentions": 9,
-      "velocity": 2.0,
-      "sources": [
-        "arxiv",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 12,
-      "expert_ratio": 0.79,
-      "headline": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
-      "articles": [
-        {
-          "title": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
-          "url": "https://arxiv.org/abs/2608.00009",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Graph-Native Bitemporal Memory Store for Conversational AI Agents",
-          "url": "https://arxiv.org/abs/2607.26520",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Psychological Influences of Conversational AI: Research and Design Directions for Reducing Harm and Promoting Well-Being",
-          "url": "https://arxiv.org/abs/2607.25057",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "deepseek",
-      "mentions": 120,
-      "velocity": 8.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "DeepSeek V4 Flash on a Single AMD MI300X",
-      "articles": [
-        {
-          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-          "source": "Hacker News"
-        },
-        {
-          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
-          "source": "Quartz"
-        },
-        {
-          "title": "Verbeterde DeepSeek V4 Flash kost per taak 60 procent minder dan GPT-5.6 Luna",
-          "url": "https://tweakers.net/nieuws/250630/verbeterde-deepseek-v4-flash-kost-per-taak-60-procent-minder-dan-gpt-56-luna.html",
-          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     }
@@ -265,40 +204,6 @@
       "articles": []
     },
     {
-      "keyword": "powershell",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Software-update - PowerShell 7.6.4",
-      "articles": [
-        {
-          "title": "Software-update - PowerShell 7.6.4",
-          "url": "https://tweakers.net/downloads/77636/powershell-764.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
-      "keyword": "wireimage",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "substantial",
       "mentions": 2,
       "velocity": 1.0,
@@ -329,6 +234,34 @@
       ]
     },
     {
+      "keyword": "wireimage",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "powershell",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "summarization",
       "mentions": 2,
       "velocity": 1.0,
@@ -339,8 +272,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "OpenDebateEvidence: A Massive-Scale Argument Mining and Summarization Dataset",
+      "headline": "Decoupling Generation and Selection for Budget-Constrained Faithful Summarization",
       "articles": [
+        {
+          "title": "Decoupling Generation and Selection for Budget-Constrained Faithful Summarization",
+          "url": "https://arxiv.org/abs/2608.03655",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "OpenDebateEvidence: A Massive-Scale Argument Mining and Summarization Dataset",
           "url": "https://arxiv.org/abs/2406.14657",
@@ -349,11 +287,6 @@
         {
           "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
           "url": "https://arxiv.org/abs/2606.13316",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "daVinci-kernel: Co-Evolving Skill Selection, Summarization, and Utilization via RL for GPU Kernel Optimization",
-          "url": "https://arxiv.org/abs/2606.16497",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -381,83 +314,192 @@
     {
       "keyword": "alignment",
       "mentions": 3,
-      "velocity": 0.6,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 4,
-      "expert_ratio": 0.88,
-      "headline": "Tail-Aware Information-Theoretic Bounds for LLM Alignment under Heavy-Tailed Rewards",
-      "articles": [
-        {
-          "title": "Tail-Aware Information-Theoretic Bounds for LLM Alignment under Heavy-Tailed Rewards",
-          "url": "https://arxiv.org/abs/2604.10727",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "DeepDefense: Robust Learning via Layer-Wise Gradient-Feature Alignment",
-          "url": "https://arxiv.org/abs/2511.13749",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Behavioural Analysis of Alignment Faking",
-          "url": "https://arxiv.org/abs/2605.27681",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "browser-use",
-      "mentions": 3,
-      "velocity": 0.6,
+      "velocity": 0.4,
       "sources": [
         "github"
       ],
       "source_count": 1,
       "confidence": 73,
-      "days_active": 5,
-      "expert_ratio": 0.67,
+      "days_active": 4,
+      "expert_ratio": 0.89,
+      "headline": "VLAFlow: A Unified Training Framework for Vision-Language-Action Models via Co-training and Future Latent Alignment",
+      "articles": [
+        {
+          "title": "VLAFlow: A Unified Training Framework for Vision-Language-Action Models via Co-training and Future Latent Alignment",
+          "url": "https://arxiv.org/abs/2607.01586",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Self-Guided Adaptive Safety Alignment: Synthesizing and Internalizing Guidelines in Reasoning Models",
+          "url": "https://arxiv.org/abs/2511.21214",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Efficient unsupervised domain adaptation via self-supervised vision transformer and synergistic cross-domain alignment",
+          "url": "https://arxiv.org/abs/2407.21311",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "aitools",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "nudify",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 79,
-      "days_active": 6,
-      "expert_ratio": 0.83,
-      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "keyword": "saas",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
       "articles": [
         {
-          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+          "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
           "source": "TechCrunch"
-        },
-        {
-          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
-          "url": "https://www.techmeme.com/260801/p16#a260801p16",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
-          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
-          "source": "Engadget"
         }
       ]
     }
   ],
   "sustained": [
     {
+      "keyword": "vibe coding",
+      "mentions": 24,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.69,
+      "headline": "Inside our 353,000-person vibe coding course",
+      "articles": [
+        {
+          "title": "Inside our 353,000-person vibe coding course",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+          "source": "AI"
+        },
+        {
+          "title": "From Idea to Classroom in Days: Using \"Vibe Coding\" to Create a Programming Process Visualizer from IDE Activity Logs",
+          "url": "https://arxiv.org/abs/2607.24757",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "cuda",
+      "mentions": 12,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "AgentCompile: An LLM-Guided Compiler for Direct CUDA Inference",
+      "articles": [
+        {
+          "title": "AgentCompile: An LLM-Guided Compiler for Direct CUDA Inference",
+          "url": "https://arxiv.org/abs/2606.07665",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+          "url": "https://arxiv.org/abs/2607.24762",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "AMD vibe codes its way past the CUDA moat with ROCm.AI",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/24/amd-vibe-codes-its-way-past-the-cuda-moat-with-rocmai/5278580",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "keyword": "ai act",
+      "mentions": 19,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.56,
+      "headline": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market a",
+      "articles": [
+        {
+          "title": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market a",
+          "url": "https://www.techmeme.com/260803/p16#a260803p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers",
+          "url": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html?link_source=ta_bluesky_link&utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Celebrating the AI Act delay? The EU AI Act’s chatbot and content rules apply this week",
+          "url": "https://www.techradar.com/pro/celebrating-the-ai-act-delay-the-eu-ai-acts-chatbot-and-content-rules-apply-this-week",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "context window",
+      "mentions": 19,
+      "velocity": 0.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.72,
+      "headline": "Cross-Lingual Token Arbitrage: Optimizing Code Agent Context Windows via Local LLM Preprocessing",
+      "articles": [
+        {
+          "title": "Cross-Lingual Token Arbitrage: Optimizing Code Agent Context Windows via Local LLM Preprocessing",
+          "url": "https://arxiv.org/abs/2606.03618",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "PANOPTICON: A PII-Based Assemblage of Naturalistic Output Tokens for Investigating Privacy Leakage Within LLM Context Wi",
+          "url": "https://arxiv.org/abs/2607.22695",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "LSRM: High-Fidelity Object-Centric Reconstruction via Scaled Context Windows",
+          "url": "https://arxiv.org/abs/2604.05182",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "cursor",
-      "mentions": 61,
-      "velocity": 1.8,
+      "mentions": 58,
+      "velocity": 0.3,
       "sources": [
         "articles",
         "github",
@@ -488,87 +530,9 @@
       ]
     },
     {
-      "keyword": "voice ai",
-      "mentions": 15,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "How we built a realtime system for responsive voice AI in six months",
-      "articles": [
-        {
-          "title": "How we built a realtime system for responsive voice AI in six months",
-          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-          "source": "OpenAI News"
-        },
-        {
-          "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Fish Audio gives its voice AI away, and charges for the latency",
-          "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "together",
-      "mentions": 50,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
-      "articles": [
-        {
-          "title": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
-          "url": "https://thenextweb.com/news/xsight-labs-300-million-2-8-billion-open-networking-chips-nvidia",
-          "source": "The Next Web"
-        },
-        {
-          "title": "A $2 sticker defeats the one feature holding Meta’s ‘pervert glasses’ together",
-          "url": "https://thenextweb.com/news/meta-pervert-glasses-crackdown-failing-led-sticker-bypass",
-          "source": "The Next Web"
-        },
-        {
-          "title": "The future of AI hinges on openness and cooperation. China and Britain can gain much by working together | Zheng Zeguang",
-          "url": "https://www.theguardian.com/commentisfree/2026/jul/30/ai-future-china-britain-healthcare-research",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        }
-      ]
-    },
-    {
-      "keyword": "kling",
-      "mentions": 25,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "ai bubble",
       "mentions": 16,
-      "velocity": 0.4,
+      "velocity": 0.3,
       "sources": [
         "hackernews",
         "twitter"
@@ -576,7 +540,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
+      "expert_ratio": 0.82,
       "headline": "The AI bubble is popping; we just don't know it yet",
       "articles": [
         {
@@ -598,15 +562,15 @@
     }
   ],
   "track_record": {
-    "scored_predictions": 79,
+    "scored_predictions": 84,
     "covered": 23,
-    "coverage_rate": 0.291,
+    "coverage_rate": 0.274,
     "early": 9,
-    "early_rate": 0.114,
+    "early_rate": 0.107,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.291,
+    "hit_rate": 0.274,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
@@ -618,33 +582,33 @@
         "hit_rate": 0.645
       },
       "weak_signal": {
-        "scored": 48,
+        "scored": 53,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.062,
-        "early_rate": 0.042,
-        "hit_rate": 0.062
+        "coverage_rate": 0.057,
+        "early_rate": 0.038,
+        "hit_rate": 0.057
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 79,
+    "n": 84,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.43,
-      "early_rate": 0.19
+      "coverage_rate": 0.405,
+      "early_rate": 0.179
     },
     "null_mean": {
-      "coverage_rate": 0.449,
-      "early_rate": 0.203
+      "coverage_rate": 0.428,
+      "early_rate": 0.198
     },
     "p_value": {
-      "coverage_rate": 0.952,
-      "early_rate": 0.748
+      "coverage_rate": 0.979,
+      "early_rate": 0.82
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -678,17 +642,17 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
+      "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
       "lead_days": 4
     }
   ],
@@ -701,14 +665,14 @@
         "confidence": 0.6
       },
       {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
+        "keyword": "cohere",
+        "signal_type": "emerging",
         "flagged_on": "2026-08-04",
         "confidence": 0.2
       },
       {
-        "keyword": "cohere",
-        "signal_type": "emerging",
+        "keyword": "browser-use",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-08-04",
         "confidence": 0.2
       },
@@ -731,25 +695,25 @@
         "confidence": 0.8
       },
       {
-        "keyword": "character ai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-03",
-        "confidence": 0.4
-      },
-      {
         "keyword": "sakana ai",
         "signal_type": "emerging",
         "flagged_on": "2026-08-03",
         "confidence": 0.4
       },
       {
-        "keyword": "voicebox",
+        "keyword": "character ai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-03",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "neuromorphic",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-03",
         "confidence": 0.2
       },
       {
-        "keyword": "neuromorphic",
+        "keyword": "voicebox",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-03",
         "confidence": 0.2
@@ -769,11 +733,18 @@
     ],
     "heating_up": [
       {
-        "keyword": "ad creative",
+        "keyword": "dreamina",
+        "recent_mentions": 14,
+        "prior_mentions": 1,
+        "change_ratio": 14.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "fathom",
         "recent_mentions": 7,
         "prior_mentions": 1,
         "change_ratio": 7.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
         "keyword": "neuromorphic",
@@ -783,73 +754,66 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "mcp client",
+        "keyword": "firefly",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "mixture of experts",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "hermes-agent",
-        "recent_mentions": 12,
+        "keyword": "digital twin",
+        "recent_mentions": 13,
         "prior_mentions": 3,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "world models",
-        "recent_mentions": 51,
-        "prior_mentions": 14,
-        "change_ratio": 3.64,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "deepl",
-        "recent_mentions": 18,
-        "prior_mentions": 5,
-        "change_ratio": 3.6,
+        "change_ratio": 4.33,
         "corroborating_sources": 2
       },
       {
-        "keyword": "chroma",
+        "keyword": "framer",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "puppeteer",
         "recent_mentions": 7,
         "prior_mentions": 2,
         "change_ratio": 3.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "fireworks",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
+        "keyword": "ai alignment",
+        "recent_mentions": 20,
+        "prior_mentions": 6,
+        "change_ratio": 3.33,
         "corroborating_sources": 1
       },
       {
-        "keyword": "openclaw",
-        "recent_mentions": 34,
-        "prior_mentions": 13,
-        "change_ratio": 2.62,
-        "corroborating_sources": 4
+        "keyword": "leonardo",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "glm 5",
-        "recent_mentions": 15,
-        "prior_mentions": 7,
-        "change_ratio": 2.14,
+        "keyword": "cohere",
+        "recent_mentions": 128,
+        "prior_mentions": 45,
+        "change_ratio": 2.84,
         "corroborating_sources": 3
       },
       {
-        "keyword": "computer-use",
-        "recent_mentions": 19,
-        "prior_mentions": 9,
-        "change_ratio": 2.11,
+        "keyword": "relevance",
+        "recent_mentions": 8,
+        "prior_mentions": 3,
+        "change_ratio": 2.67,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ad creative",
+        "recent_mentions": 8,
+        "prior_mentions": 3,
+        "change_ratio": 2.67,
         "corroborating_sources": 1
       }
     ]
