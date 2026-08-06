@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-05T17:36:20+00:00",
+  "generated_at": "2026-08-06T05:32:06+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 84,
+    "scored_predictions": 92,
     "covered": 23,
-    "coverage_rate": 0.274,
+    "coverage_rate": 0.25,
     "early": 9,
-    "early_rate": 0.107,
+    "early_rate": 0.098,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.274,
+    "hit_rate": 0.25,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 31,
+        "scored": 35,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.645,
-        "early_rate": 0.226,
-        "hit_rate": 0.645
+        "coverage_rate": 0.571,
+        "early_rate": 0.2,
+        "hit_rate": 0.571
       },
       "weak_signal": {
-        "scored": 53,
+        "scored": 57,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.057,
-        "early_rate": 0.038,
-        "hit_rate": 0.057
+        "coverage_rate": 0.053,
+        "early_rate": 0.035,
+        "hit_rate": 0.053
       }
     }
   },
@@ -93,12 +93,12 @@
       "early_rate": 0.179
     },
     "null_mean": {
-      "coverage_rate": 0.428,
-      "early_rate": 0.198
+      "coverage_rate": 0.431,
+      "early_rate": 0.201
     },
     "p_value": {
-      "coverage_rate": 0.979,
-      "early_rate": 0.82
+      "coverage_rate": 0.983,
+      "early_rate": 0.849
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
