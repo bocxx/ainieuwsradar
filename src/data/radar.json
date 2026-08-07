@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-08-06T19:17:12.584635",
-  "total_tracked": 4125,
+  "generated_at": "2026-08-07T07:15:54.160342",
+  "total_tracked": 4052,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 237,
-      "velocity": 37.7,
+      "keyword": "gpt-5",
+      "mentions": 64,
+      "velocity": 5.6,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin"
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "A Systematic Review and Taxonomy of Reinforcement Learning-Model Predictive Control Integration for Linear Systems",
+      "expert_ratio": 0.84,
+      "headline": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus",
       "articles": [
         {
-          "title": "A Systematic Review and Taxonomy of Reinforcement Learning-Model Predictive Control Integration for Linear Systems",
-          "url": "https://arxiv.org/abs/2604.21030",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus",
+          "url": "https://www.techmeme.com/260805/p30#a260805p30",
+          "source": "Techmeme"
         },
         {
-          "title": "Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks",
-          "url": "https://arxiv.org/abs/2608.04590",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "The UK AISI says it observed a total of 19 instances where Mythos and GPT-5.6 Sol tried to hack people and companies dur",
+          "url": "https://www.techmeme.com/260804/p48#a260804p48",
+          "source": "Techmeme"
         },
         {
-          "title": "Reinforcement Learning and Consumption-Savings Behavior",
-          "url": "https://arxiv.org/abs/2510.20748",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
+          "url": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use?utm_source=flipboard&utm_content=thekenyeung/magazine/The+AI+Economy",
+          "source": "Artificial Intelligence"
         }
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 250,
-      "velocity": 32.8,
+      "keyword": "chatgpt",
+      "mentions": 216,
+      "velocity": 4.1,
       "sources": [
         "articles",
         "arxiv",
@@ -50,7 +50,72 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
+      "expert_ratio": 0.47,
+      "headline": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+      "articles": [
+        {
+          "title": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+          "url": "https://www.techradar.com/pro/fbi-agent-accused-of-stealing-usd1-million-in-crypto-and-he-even-consulted-chatgpt-on-how-to-leave-the-country",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 30,
+      "velocity": 2.5,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.26,
+      "headline": "Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale",
+      "articles": [
+        {
+          "title": "Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale",
+          "url": "https://arxiv.org/abs/2608.00150",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "vllm",
+      "mentions": 14,
+      "velocity": 2.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "agentic",
+      "mentions": 266,
+      "velocity": 27.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
       "headline": "Governing Execution Risk in Agentic AI Systems: A Trajectory-Guided Framework for Red Teaming",
       "articles": [
         {
@@ -71,9 +136,41 @@
       ]
     },
     {
+      "keyword": "reinforcement learning",
+      "mentions": 236,
+      "velocity": 26.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "A Systematic Review and Taxonomy of Reinforcement Learning-Model Predictive Control Integration for Linear Systems",
+      "articles": [
+        {
+          "title": "A Systematic Review and Taxonomy of Reinforcement Learning-Model Predictive Control Integration for Linear Systems",
+          "url": "https://arxiv.org/abs/2604.21030",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks",
+          "url": "https://arxiv.org/abs/2608.04590",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Reinforcement Learning and Consumption-Savings Behavior",
+          "url": "https://arxiv.org/abs/2510.20748",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "fine-tuning",
-      "mentions": 177,
-      "velocity": 28.8,
+      "mentions": 194,
+      "velocity": 25.3,
       "sources": [
         "articles",
         "arxiv",
@@ -103,203 +200,20 @@
       ]
     }
   ],
-  "emerging": [
-    {
-      "keyword": "openai",
-      "mentions": 375,
-      "velocity": 5.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "OpenAI reveals its rogue agent swarm went a little bit Borg ahead of Hugging Face hack",
-      "articles": [
-        {
-          "title": "OpenAI reveals its rogue agent swarm went a little bit Borg ahead of Hugging Face hack",
-          "url": "https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741",
-          "source": "The Register"
-        },
-        {
-          "title": "OpenAI says the Hugging Face breach involved AI agents creating an internal message board, unnoticed by humans, where th",
-          "url": "https://www.techmeme.com/260805/p51#a260805p51",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI Models Joined Forces Months Ahead of Hugging Face Hack",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/openai-models-joined-forces-months-ahead-of-hugging-face-hack",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "langchain",
-      "mentions": 22,
-      "velocity": 3.4,
-      "sources": [
-        "github",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "github",
-      "mentions": 103,
-      "velocity": 3.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.23,
-      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-      "articles": [
-        {
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "AI - Ars Technica"
-        },
-        {
-          "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
-          "url": "https://github.com/MariaDB/server/pull/4262",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-          "url": "https://arxiv.org/abs/2608.00101",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 53,
-      "velocity": 3.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus",
-      "articles": [
-        {
-          "title": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus",
-          "url": "https://www.techmeme.com/260805/p30#a260805p30",
-          "source": "Techmeme"
-        },
-        {
-          "title": "The UK AISI says it observed a total of 19 instances where Mythos and GPT-5.6 Sol tried to hack people and companies dur",
-          "url": "https://www.techmeme.com/260804/p48#a260804p48",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
-          "url": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use?utm_source=flipboard&utm_content=thekenyeung/magazine/The+AI+Economy",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "vibe coding",
-      "mentions": 31,
-      "velocity": 3.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "Are we vibe coding our way to a new legacy crisis?",
-      "articles": [
-        {
-          "title": "Are we vibe coding our way to a new legacy crisis?",
-          "url": "https://www.techradar.com/pro/are-we-vibe-coding-our-way-to-a-new-legacy-crisis",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Inside our 353,000-person vibe coding course",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-          "source": "AI"
-        }
-      ]
-    }
-  ],
   "weak_signals": [
     {
-      "keyword": "powershell",
-      "mentions": 3,
+      "keyword": "wireimage",
+      "mentions": 2,
       "velocity": 1.0,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 67,
-      "days_active": 3,
+      "confidence": 61,
+      "days_active": 2,
       "expert_ratio": 0.67,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "genesis mission",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-      "articles": [
-        {
-          "title": "The Genesis Mission, the Department of Energy’s big AI push, unveils first grants",
-          "url": "https://www.science.org/content/article/genesis-mission-department-energy-s-big-ai-push-unveils-first-grants",
-          "source": "Science: Current Issue"
-        }
-      ]
-    },
-    {
-      "keyword": "safe",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Toward Integrating Adaptive Experience Replay and Online Uncertainty Estimation in Safe Actor-Critic Optimal Control",
-      "articles": [
-        {
-          "title": "Toward Integrating Adaptive Experience Replay and Online Uncertainty Estimation in Safe Actor-Critic Optimal Control",
-          "url": "https://arxiv.org/abs/2608.04732",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     },
     {
       "keyword": "substantial",
@@ -328,40 +242,6 @@
           "title": "Dyson Supersonic Travel vs Supersonic Nural: I tested the two premium hair dryers to see what you get — and don't get — ",
           "url": "https://www.techradar.com/home/hair-care/dyson-supersonic-travel-vs-supersonic-nural",
           "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "wireimage",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "psiquantum",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "PsiQuantum CEO on Quantum Computing Progress, Chip Space",
-      "articles": [
-        {
-          "title": "PsiQuantum CEO on Quantum Computing Progress, Chip Space",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-05/psiquantum-ceo-on-quantum-computing-progress-chip-space-video",
-          "source": "Bloomberg Technology"
         }
       ]
     },
@@ -406,177 +286,172 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "You can now run same OCI images as containers or Firecracker microVMs",
-      "articles": [
-        {
-          "title": "You can now run same OCI images as containers or Firecracker microVMs",
-          "url": "https://github.com/pullrun/pullrun",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "densenet",
-      "mentions": 3,
-      "velocity": 0.6,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 4,
-      "expert_ratio": 0.75,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "none",
+      "keyword": "powershell",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 73,
+      "days_active": 4,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "claude 4",
       "mentions": 3,
       "velocity": 0.5,
       "sources": [
         "arxiv"
       ],
       "source_count": 1,
-      "confidence": 79,
-      "days_active": 7,
-      "expert_ratio": 0.75,
-      "headline": "Every tech IPO cycle promised to spread wealth around. None of them ever did",
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "aitools",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "safe",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Toward Integrating Adaptive Experience Replay and Online Uncertainty Estimation in Safe Actor-Critic Optimal Control",
       "articles": [
         {
-          "title": "Every tech IPO cycle promised to spread wealth around. None of them ever did",
-          "url": "https://qz.com/tech-ipo-wealth-geographic-concentration-bay-area-071626",
-          "source": "Quartz"
-        },
+          "title": "Toward Integrating Adaptive Experience Replay and Online Uncertainty Estimation in Safe Actor-Critic Optimal Control",
+          "url": "https://arxiv.org/abs/2608.04732",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "saas",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Tre tool SaaS sostituiti con n8n, mille euro al mese risparmiati",
+      "articles": [
         {
-          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
-          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
+          "title": "Tre tool SaaS sostituiti con n8n, mille euro al mese risparmiati",
+          "url": "https://www.tomshw.it/aioperator/tre-tool-saas-sostituiti-con-n8n-mille-euro-al-mese-risparmiati",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "psiquantum",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "PsiQuantum CEO on Quantum Computing Progress, Chip Space",
+      "articles": [
         {
-          "title": "Sources: OpenAI has discovered other instances where AI agents escaped containment; none of the agents were thought to h",
-          "url": "https://www.techmeme.com/260731/p36#a260731p36",
-          "source": "Techmeme"
+          "title": "PsiQuantum CEO on Quantum Computing Progress, Chip Space",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-05/psiquantum-ceo-on-quantum-computing-progress-chip-space-video",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "cursor",
-      "mentions": 64,
-      "velocity": 1.8,
+      "keyword": "deepmind",
+      "mentions": 22,
+      "velocity": 1.7,
       "sources": [
         "articles",
-        "github",
         "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.41,
-      "headline": "Cursor cut its India price to $7, and its own AI models are why",
-      "articles": [
-        {
-          "title": "Cursor cut its India price to $7, and its own AI models are why",
-          "url": "https://thenextweb.com/news/cursor-start-india-pricing-own-models-spacex",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Cursor Customers Fight Price Hikes in Contract Talks",
-          "url": "https://www.theinformation.com/articles/cursor-customers-fight-price-hikes-contract-talks",
-          "source": "The Information"
-        },
-        {
-          "title": "Cursor introduces Cursor Start, a ~$7 monthly subscription exclusive to India, its third-largest market, priced below it",
-          "url": "https://www.techmeme.com/260728/p2#a260728p2",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "openrouter",
-      "mentions": 11,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
         "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.34,
-      "headline": "Source: OpenRouter was recently generating ~$140M in annualized revenue, or ~$12M per month, up nearly 3x since April, m",
+      "expert_ratio": 0.63,
+      "headline": "Sources: Demis Hassabis had been drifting away from day-to-day duties as Google DeepMind CEO for at least a year and str",
       "articles": [
         {
-          "title": "Source: OpenRouter was recently generating ~$140M in annualized revenue, or ~$12M per month, up nearly 3x since April, m",
-          "url": "https://www.techmeme.com/260729/p18#a260729p18",
+          "title": "Sources: Demis Hassabis had been drifting away from day-to-day duties as Google DeepMind CEO for at least a year and str",
+          "url": "https://www.techmeme.com/260805/p47#a260805p47",
           "source": "Techmeme"
         },
         {
-          "title": "OpenRouter Financials Suggest Steep Price For Possible Acquirer Stripe",
-          "url": "https://www.theinformation.com/articles/openrouter-financials-suggest-steep-price-possible-acquirer-stripe",
-          "source": "The Information"
+          "title": "Big shake-up in Google’s AI team as DeepMind chief executive steps down",
+          "url": "https://www.theguardian.com/technology/2026/aug/05/big-shake-up-in-googles-ai-team-as-deepmind-chief-executive-steps-down",
+          "source": "Artificial intelligence (AI) | The Guardian"
         },
         {
-          "title": "Stripe punta OpenRouter: l'acquisizione potrebbe valere 10 miliardi",
-          "url": "https://www.tomshw.it/business/stripe-punta-openrouter-l-acquisizione-potrebbe-valere-10-miliardi",
-          "source": "Tom's Hardware"
+          "title": "Google's AI shake-up: DeepMind's Hassabis steps aside, senior scientists depart",
+          "url": "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/?utm_source=flipboard&utm_content=ArsTechnica/magazine/Ars+Technica",
+          "source": "Artificial Intelligence"
         }
       ]
     },
     {
-      "keyword": "data centers",
-      "mentions": 35,
-      "velocity": 1.2,
+      "keyword": "vibe coding",
+      "mentions": 29,
+      "velocity": 1.6,
       "sources": [
         "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
+        "arxiv",
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.5,
-      "headline": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
+      "expert_ratio": 0.67,
+      "headline": "Are we vibe coding our way to a new legacy crisis?",
       "articles": [
         {
-          "title": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
-          "url": "https://www.techradar.com/pro/our-corrupt-ai-addicted-president-cannot-be-allowed-to-sacrifice-our-federal-lands-a-bill-to-permanently-ban-ai-data-centers-from-federal-lands-has-been-introduced-to-congress",
+          "title": "Are we vibe coding our way to a new legacy crisis?",
+          "url": "https://www.techradar.com/pro/are-we-vibe-coding-our-way-to-a-new-legacy-crisis",
           "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Trump’s Push for More A.I. Data Centers Will Mean Major Air Pollution",
-          "url": "https://www.nytimes.com/2026/08/05/climate/data-centers-pollution-trump-ai-energy.html",
-          "source": "The New York Times"
-        },
-        {
-          "title": "Australia Doubles Down on Data Centers Using Renewable Power",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-05/australia-doubles-down-on-data-centers-using-renewable-power",
-          "source": "Bloomberg Technology"
+          "title": "Inside our 353,000-person vibe coding course",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+          "source": "AI"
         }
       ]
     },
     {
-      "keyword": "cline",
-      "mentions": 12,
-      "velocity": 0.5,
-      "sources": [
-        "articles",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.16,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai act",
-      "mentions": 17,
-      "velocity": 0.4,
+      "keyword": "ai safety",
+      "mentions": 16,
+      "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
@@ -585,75 +460,155 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "Short-term load forecasting under EU-AI Act Requirements in Safety-Critical Environments: Results from a 41-day live cha",
+      "expert_ratio": 0.61,
+      "headline": "Item Response Theory for AI Safety",
       "articles": [
         {
-          "title": "Short-term load forecasting under EU-AI Act Requirements in Safety-Critical Environments: Results from a 41-day live cha",
-          "url": "https://arxiv.org/abs/2608.05018",
+          "title": "Item Response Theory for AI Safety",
+          "url": "https://arxiv.org/abs/2608.05086",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "The EU's AI Act enforcement powers take effect, letting it evaluate AI models before regional release, restrict market a",
-          "url": "https://www.techmeme.com/260803/p16#a260803p16",
+          "title": "Anthropic Hack Adds To Fears Over AI Safety",
+          "url": "https://www.bloomberg.com/news/videos/2026-07-31/anthropic-hack-adds-to-fears-over-ai-safety-video",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "google deepmind",
+      "mentions": 19,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.61,
+      "headline": "Sources: Demis Hassabis had been drifting away from day-to-day duties as Google DeepMind CEO for at least a year and str",
+      "articles": [
+        {
+          "title": "Sources: Demis Hassabis had been drifting away from day-to-day duties as Google DeepMind CEO for at least a year and str",
+          "url": "https://www.techmeme.com/260805/p47#a260805p47",
           "source": "Techmeme"
         },
         {
-          "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers",
-          "url": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html?link_source=ta_bluesky_link&utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "title": "Google DeepMind CEO Demis Hassabis is stepping down, but will remain with the company",
+          "url": "https://www.engadget.com/2231124/google-deepmind-ceo-demis-hassabis-is-stepping-down-but-will-remain-with-the-company/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Jeff Dean Leaves Google as Demis Hassabis Steps Aside as Google DeepMind CEO",
+          "url": "https://www.theinformation.com/briefings/jeff-dean-leaves-google-demis-hassabis-steps-aside-google-deepmind-ceo",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "opencode",
+      "mentions": 12,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.27,
+      "headline": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
+      "articles": [
+        {
+          "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
+          "url": "https://github.com/YoanWai/agent-manager",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "together",
+      "mentions": 51,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
+      "articles": [
+        {
+          "title": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
+          "url": "https://thenextweb.com/news/xsight-labs-300-million-2-8-billion-open-networking-chips-nvidia",
+          "source": "The Next Web"
+        },
+        {
+          "title": "A $2 sticker defeats the one feature holding Meta’s ‘pervert glasses’ together",
+          "url": "https://thenextweb.com/news/meta-pervert-glasses-crackdown-failing-led-sticker-bypass",
+          "source": "The Next Web"
+        },
+        {
+          "title": "The future of AI hinges on openness and cooperation. China and Britain can gain much by working together | Zheng Zeguang",
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/30/ai-future-china-britain-healthcare-research",
+          "source": "Artificial intelligence (AI) | The Guardian"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 92,
+    "scored_predictions": 97,
     "covered": 23,
-    "coverage_rate": 0.25,
+    "coverage_rate": 0.237,
     "early": 9,
-    "early_rate": 0.098,
+    "early_rate": 0.093,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.25,
+    "hit_rate": 0.237,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 35,
+        "scored": 36,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.571,
-        "early_rate": 0.2,
-        "hit_rate": 0.571
+        "coverage_rate": 0.556,
+        "early_rate": 0.194,
+        "hit_rate": 0.556
       },
       "weak_signal": {
-        "scored": 57,
+        "scored": 61,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.053,
-        "early_rate": 0.035,
-        "hit_rate": 0.053
+        "coverage_rate": 0.049,
+        "early_rate": 0.033,
+        "hit_rate": 0.049
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 92,
+    "n": 97,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.413,
-      "early_rate": 0.185
+      "coverage_rate": 0.412,
+      "early_rate": 0.186
     },
     "null_mean": {
-      "coverage_rate": 0.443,
-      "early_rate": 0.218
+      "coverage_rate": 0.444,
+      "early_rate": 0.228
     },
     "p_value": {
-      "coverage_rate": 0.985,
-      "early_rate": 0.911
+      "coverage_rate": 0.99,
+      "early_rate": 0.964
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -704,6 +659,24 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "vibe coding",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-07",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "gpt-5",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-07",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "claude 4",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-07",
+        "confidence": 0.2
+      },
+      {
         "keyword": "openai",
         "signal_type": "emerging",
         "flagged_on": "2026-08-06",
@@ -734,13 +707,13 @@
         "confidence": 0.4
       },
       {
-        "keyword": "higgsfield",
+        "keyword": "dreamina",
         "signal_type": "emerging",
         "flagged_on": "2026-08-05",
         "confidence": 0.2
       },
       {
-        "keyword": "dreamina",
+        "keyword": "higgsfield",
         "signal_type": "emerging",
         "flagged_on": "2026-08-05",
         "confidence": 0.2
@@ -756,110 +729,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-04",
         "confidence": 0.6
-      },
-      {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-04",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "cohere",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-04",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "minimax",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-04",
-        "confidence": 0
       }
     ],
     "heating_up": [
       {
-        "keyword": "digital twin",
-        "recent_mentions": 16,
-        "prior_mentions": 2,
-        "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "dreamina",
-        "recent_mentions": 29,
-        "prior_mentions": 4,
-        "change_ratio": 7.25,
+        "keyword": "mixture of experts",
+        "recent_mentions": 13,
+        "prior_mentions": 1,
+        "change_ratio": 13.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "rlhf",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
+        "keyword": "dreamina",
+        "recent_mentions": 46,
+        "prior_mentions": 5,
+        "change_ratio": 9.2,
         "corroborating_sources": 1
       },
       {
         "keyword": "dall-e",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "framer",
         "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "langflow",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "cohere",
-        "recent_mentions": 141,
-        "prior_mentions": 42,
-        "change_ratio": 3.36,
-        "corroborating_sources": 3
+        "keyword": "hailuo",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "edge ai",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "relevance",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai alignment",
-        "recent_mentions": 14,
-        "prior_mentions": 5,
-        "change_ratio": 2.8,
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "browser use",
-        "recent_mentions": 11,
-        "prior_mentions": 4,
-        "change_ratio": 2.75,
+        "recent_mentions": 14,
+        "prior_mentions": 2,
+        "change_ratio": 7.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "groq",
+        "keyword": "llama 3",
+        "recent_mentions": 21,
+        "prior_mentions": 4,
+        "change_ratio": 5.25,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "langflow",
         "recent_mentions": 8,
-        "prior_mentions": 3,
-        "change_ratio": 2.67,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "stability ai",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "sdxl",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "cohere",
+        "recent_mentions": 211,
+        "prior_mentions": 53,
+        "change_ratio": 3.98,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "stable diffusion",
+        "recent_mentions": 35,
+        "prior_mentions": 10,
+        "change_ratio": 3.5,
+        "corroborating_sources": 3
       }
     ]
   }
