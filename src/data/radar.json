@@ -1,69 +1,12 @@
 {
-  "generated_at": "2026-08-07T07:15:54.160342",
-  "total_tracked": 4052,
+  "generated_at": "2026-08-07T19:16:19.811201",
+  "total_tracked": 4067,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "gpt-5",
-      "mentions": 64,
-      "velocity": 5.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus",
-      "articles": [
-        {
-          "title": "Hark, founded by Figure AI CEO Brett Adcock, previews Handoff, a computer use agent it says outperforms GPT-5.4 and Opus",
-          "url": "https://www.techmeme.com/260805/p30#a260805p30",
-          "source": "Techmeme"
-        },
-        {
-          "title": "The UK AISI says it observed a total of 19 instances where Mythos and GPT-5.6 Sol tried to hack people and companies dur",
-          "url": "https://www.techmeme.com/260804/p48#a260804p48",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Qwen3.8-Max arrives with a bold claim: it outperforms GPT-5.6 Sol Max and Fable 5 on agentic computer use",
-          "url": "https://venturebeat.com/technology/qwen3-8-max-arrives-with-a-bold-claim-it-outperforms-gpt-5-6-sol-max-and-fable-5-on-agentic-computer-use?utm_source=flipboard&utm_content=thekenyeung/magazine/The+AI+Economy",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 216,
-      "velocity": 4.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
-      "articles": [
-        {
-          "title": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
-          "url": "https://www.techradar.com/pro/fbi-agent-accused-of-stealing-usd1-million-in-crypto-and-he-even-consulted-chatgpt-on-how-to-leave-the-country",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
       "keyword": "mcp server",
-      "mentions": 30,
-      "velocity": 2.5,
+      "mentions": 33,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "hackernews"
@@ -97,13 +40,38 @@
       "expert_ratio": 0.81,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 210,
+      "velocity": 2.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.47,
+      "headline": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+      "articles": [
+        {
+          "title": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+          "url": "https://www.techradar.com/pro/fbi-agent-accused-of-stealing-usd1-million-in-crypto-and-he-even-consulted-chatgpt-on-how-to-leave-the-country",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
     }
   ],
   "emerging": [
     {
       "keyword": "agentic",
-      "mentions": 266,
-      "velocity": 27.8,
+      "mentions": 272,
+      "velocity": 29.6,
       "sources": [
         "articles",
         "arxiv",
@@ -201,6 +169,36 @@
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "explainable ai",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+      "articles": [
+        {
+          "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+          "url": "https://arxiv.org/abs/2608.02699",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors",
+          "url": "https://arxiv.org/abs/2608.00566",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Explainable AI for Chronic Kidney Disease Prediction Using Simulated Federated Learning",
+          "url": "https://arxiv.org/abs/2607.25348",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
     {
       "keyword": "wireimage",
       "mentions": 2,
@@ -366,33 +364,13 @@
           "source": "Tom's Hardware"
         }
       ]
-    },
-    {
-      "keyword": "psiquantum",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "PsiQuantum CEO on Quantum Computing Progress, Chip Space",
-      "articles": [
-        {
-          "title": "PsiQuantum CEO on Quantum Computing Progress, Chip Space",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-05/psiquantum-ceo-on-quantum-computing-progress-chip-space-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
     }
   ],
   "sustained": [
     {
       "keyword": "deepmind",
-      "mentions": 22,
-      "velocity": 1.7,
+      "mentions": 23,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "hackernews",
@@ -518,7 +496,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.27,
+      "expert_ratio": 0.3,
       "headline": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
       "articles": [
         {
@@ -529,34 +507,37 @@
       ]
     },
     {
-      "keyword": "together",
-      "mentions": 51,
-      "velocity": 1.3,
+      "keyword": "claude",
+      "mentions": 550,
+      "velocity": 1.4,
       "sources": [
         "articles",
+        "arxiv",
+        "github",
+        "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
+      "expert_ratio": 0.75,
+      "headline": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
       "articles": [
         {
-          "title": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
-          "url": "https://thenextweb.com/news/xsight-labs-300-million-2-8-billion-open-networking-chips-nvidia",
-          "source": "The Next Web"
+          "title": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260804034634.htm",
+          "source": "ScienceDaily"
         },
         {
-          "title": "A $2 sticker defeats the one feature holding Meta’s ‘pervert glasses’ together",
-          "url": "https://thenextweb.com/news/meta-pervert-glasses-crackdown-failing-led-sticker-bypass",
-          "source": "The Next Web"
+          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
+          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
+          "source": "Business Insider"
         },
         {
-          "title": "The future of AI hinges on openness and cooperation. China and Britain can gain much by working together | Zheng Zeguang",
-          "url": "https://www.theguardian.com/commentisfree/2026/jul/30/ai-future-china-britain-healthcare-research",
-          "source": "Artificial intelligence (AI) | The Guardian"
+          "title": "Anthropic confirmed it is designing custom chips for Claude. It wants engineers who have “shipped silicon.”",
+          "url": "https://thenextweb.com/news/anthropic-in-house-chip-team-custom-silicon-claude",
+          "source": "The Next Web"
         }
       ]
     }
@@ -747,14 +728,14 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "dall-e",
+        "keyword": "hailuo",
         "recent_mentions": 8,
         "prior_mentions": 1,
         "change_ratio": 8.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "hailuo",
+        "keyword": "dall-e",
         "recent_mentions": 8,
         "prior_mentions": 1,
         "change_ratio": 8.0,
@@ -769,9 +750,9 @@
       },
       {
         "keyword": "browser use",
-        "recent_mentions": 14,
+        "recent_mentions": 12,
         "prior_mentions": 2,
-        "change_ratio": 7.0,
+        "change_ratio": 6.0,
         "corroborating_sources": 2
       },
       {
@@ -780,6 +761,13 @@
         "prior_mentions": 4,
         "change_ratio": 5.25,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "sdxl",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "langflow",
@@ -796,13 +784,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "sdxl",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "cohere",
         "recent_mentions": 211,
         "prior_mentions": 53,
@@ -811,9 +792,9 @@
       },
       {
         "keyword": "stable diffusion",
-        "recent_mentions": 35,
+        "recent_mentions": 32,
         "prior_mentions": 10,
-        "change_ratio": 3.5,
+        "change_ratio": 3.2,
         "corroborating_sources": 3
       }
     ]
