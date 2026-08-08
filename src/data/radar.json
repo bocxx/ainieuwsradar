@@ -1,40 +1,8 @@
 {
-  "generated_at": "2026-08-08T07:15:40.786542",
-  "total_tracked": 3888,
+  "generated_at": "2026-08-08T19:15:51.460660",
+  "total_tracked": 3903,
   "window_days": 14,
   "accelerating": [
-    {
-      "keyword": "quantization",
-      "mentions": 35,
-      "velocity": 3.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
-      "articles": [
-        {
-          "title": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
-          "url": "https://arxiv.org/abs/2608.05127",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "When Bits Break Recourse: Counterfactual-Faithful Quantization",
-          "url": "https://arxiv.org/abs/2605.17160",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
-          "url": "https://arxiv.org/abs/2608.04074",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
     {
       "keyword": "reasoning model",
       "mentions": 30,
@@ -68,6 +36,34 @@
       ]
     },
     {
+      "keyword": "ai safety",
+      "mentions": 23,
+      "velocity": 3.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.63,
+      "headline": "Item Response Theory for AI Safety",
+      "articles": [
+        {
+          "title": "Item Response Theory for AI Safety",
+          "url": "https://arxiv.org/abs/2608.05086",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Anthropic Hack Adds To Fears Over AI Safety",
+          "url": "https://www.bloomberg.com/news/videos/2026-07-31/anthropic-hack-adds-to-fears-over-ai-safety-video",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
       "keyword": "model context protocol",
       "mentions": 27,
       "velocity": 2.9,
@@ -87,8 +83,8 @@
   "emerging": [
     {
       "keyword": "agentic",
-      "mentions": 252,
-      "velocity": 14.7,
+      "mentions": 247,
+      "velocity": 13.2,
       "sources": [
         "articles",
         "arxiv",
@@ -122,14 +118,15 @@
     },
     {
       "keyword": "lora",
-      "mentions": 153,
-      "velocity": 8.3,
+      "mentions": 154,
+      "velocity": 8.6,
       "sources": [
         "articles",
         "arxiv",
-        "github"
+        "github",
+        "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.85,
@@ -210,9 +207,66 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "hallucination",
+      "mentions": 51,
+      "velocity": 5.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "UHP Detection: LVLMs have their Unique Hallucination Pattern in the Consistency Space",
+      "articles": [
+        {
+          "title": "UHP Detection: LVLMs have their Unique Hallucination Pattern in the Consistency Space",
+          "url": "https://arxiv.org/abs/2608.03817",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "StuPASE: Towards Low-Hallucination Studio-Quality Generative Speech Enhancement",
+          "url": "https://arxiv.org/abs/2603.09234",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "PASE: Leveraging the Phonological Prior of WavLM for Low-Hallucination Generative Speech Enhancement",
+          "url": "https://arxiv.org/abs/2511.13300",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "clip",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "articles": [
+        {
+          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "url": "https://arxiv.org/abs/2403.09281",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
+          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
     {
       "keyword": "substantial",
       "mentions": 2,
@@ -399,61 +453,39 @@
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "nudify",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 5,
-      "expert_ratio": 0.91,
-      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-      "articles": [
-        {
-          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
-          "url": "https://www.techmeme.com/260801/p16#a260801p16",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
-          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
-          "source": "Engadget"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "chatgpt",
-      "mentions": 211,
+      "keyword": "ai coding",
+      "mentions": 37,
       "velocity": 1.9,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
-        "linkedin",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 6,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+      "expert_ratio": 0.43,
+      "headline": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
       "articles": [
         {
-          "title": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
-          "url": "https://www.techradar.com/pro/fbi-agent-accused-of-stealing-usd1-million-in-crypto-and-he-even-consulted-chatgpt-on-how-to-leave-the-country",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
+          "url": "https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Meta Debuts AI Coding Agent in Race With OpenAI and Anthropic",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Meta Debuts New AI Coding Tools",
+          "url": "https://www.theinformation.com/briefings/meta-debuts-new-ai-coding-tools",
+          "source": "The Information"
         }
       ]
     },
@@ -481,6 +513,38 @@
       ]
     },
     {
+      "keyword": "frontier model",
+      "mentions": 29,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.85,
+      "headline": "Sources: the US' AI framework excludes open models and defines a covered frontier model as closed source with SOTA capab",
+      "articles": [
+        {
+          "title": "Sources: the US' AI framework excludes open models and defines a covered frontier model as closed source with SOTA capab",
+          "url": "https://www.techmeme.com/260804/p47#a260804p47",
+          "source": "Techmeme"
+        },
+        {
+          "title": "The next step in AI cost saving: treating frontier models like expensive consultants",
+          "url": "https://www.businessinsider.com/ai-frontier-models-expensive-consultants-2026-8",
+          "source": "Business Insider"
+        },
+        {
+          "title": "White House is meeting with AI companies to roll out its new frontier model review framework",
+          "url": "https://qz.com/white-house-ai-companies-frontier-model-framework-080326",
+          "source": "Quartz"
+        }
+      ]
+    },
+    {
       "keyword": "gpt-4",
       "mentions": 18,
       "velocity": 1.6,
@@ -497,67 +561,68 @@
       "articles": []
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 19,
-      "velocity": 1.5,
-      "sources": [
-        "arxiv",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "Scaffolding Critical Engagement with GenAI: Transforming Ethnic Minority Preparatory Students' Collaborative Discourse i",
-      "articles": [
-        {
-          "title": "Scaffolding Critical Engagement with GenAI: Transforming Ethnic Minority Preparatory Students' Collaborative Discourse i",
-          "url": "https://arxiv.org/abs/2607.28630",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Visual prompt engineering for video models",
-          "url": "https://arxiv.org/abs/2607.25537",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 30,
-      "velocity": 1.5,
+      "keyword": "google deepmind",
+      "mentions": 18,
+      "velocity": 0.8,
       "sources": [
         "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.24,
-      "headline": "Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale",
-      "articles": [
-        {
-          "title": "Exposed by Design: A Dynamic Security Assessment of Internet-Facing MCP Servers at Scale",
-          "url": "https://arxiv.org/abs/2608.00150",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "vllm",
-      "mentions": 13,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
+        "hackernews",
+        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.6,
+      "headline": "Sources: Demis Hassabis had been drifting away from day-to-day duties as Google DeepMind CEO for at least a year and str",
+      "articles": [
+        {
+          "title": "Sources: Demis Hassabis had been drifting away from day-to-day duties as Google DeepMind CEO for at least a year and str",
+          "url": "https://www.techmeme.com/260805/p47#a260805p47",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Google DeepMind CEO Demis Hassabis is stepping down, but will remain with the company",
+          "url": "https://www.engadget.com/2231124/google-deepmind-ceo-demis-hassabis-is-stepping-down-but-will-remain-with-the-company/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Jeff Dean Leaves Google as Demis Hassabis Steps Aside as Google DeepMind CEO",
+          "url": "https://www.theinformation.com/briefings/jeff-dean-leaves-google-demis-hassabis-steps-aside-google-deepmind-ceo",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 57,
+      "velocity": 0.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.51,
+      "headline": "Chinese Renewable Energy Giant Envision Launches Data Center",
+      "articles": [
+        {
+          "title": "Chinese Renewable Energy Giant Envision Launches Data Center",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/chinese-renewable-energy-giant-envision-launches-data-center",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
+          "url": "https://www.techradar.com/pro/our-corrupt-ai-addicted-president-cannot-be-allowed-to-sacrifice-our-federal-lands-a-bill-to-permanently-ban-ai-data-centers-from-federal-lands-has-been-introduced-to-congress",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "AMD, ricavi record a 11,5 miliardi: bene Data Center, meno Gaming",
+          "url": "https://www.tomshw.it/business/amd-ricavi-record-a-11-5-miliardi-data-center-107-gaming-31",
+          "source": "Tom's Hardware"
+        }
+      ]
     }
   ],
   "track_record": {
@@ -641,22 +706,28 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
       "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "lora",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-08",
+        "confidence": 0.6
+      },
       {
         "keyword": "vibe coding",
         "signal_type": "emerging",
@@ -706,13 +777,13 @@
         "confidence": 0.4
       },
       {
-        "keyword": "higgsfield",
+        "keyword": "dreamina",
         "signal_type": "emerging",
         "flagged_on": "2026-08-05",
         "confidence": 0.2
       },
       {
-        "keyword": "dreamina",
+        "keyword": "higgsfield",
         "signal_type": "emerging",
         "flagged_on": "2026-08-05",
         "confidence": 0.2
@@ -722,12 +793,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-05",
         "confidence": 0.2
-      },
-      {
-        "keyword": "openclaw",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-04",
-        "confidence": 0.6
       }
     ],
     "heating_up": [
@@ -775,9 +840,9 @@
       },
       {
         "keyword": "vllm",
-        "recent_mentions": 44,
+        "recent_mentions": 47,
         "prior_mentions": 12,
-        "change_ratio": 3.67,
+        "change_ratio": 3.92,
         "corroborating_sources": 4
       },
       {
@@ -809,11 +874,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "stability ai",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
+        "keyword": "flowise",
+        "recent_mentions": 15,
+        "prior_mentions": 5,
         "change_ratio": 3.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       }
     ]
   }
