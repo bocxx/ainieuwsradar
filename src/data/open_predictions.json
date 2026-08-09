@@ -1,89 +1,152 @@
 {
-  "generated_at": "2026-08-08T17:31:31+00:00",
+  "generated_at": "2026-08-09T05:31:35+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 95,
-    "resolved": 54,
-    "hits": 20,
-    "misses": 34,
-    "hit_rate": 0.37
+    "open": 92,
+    "resolved": 56,
+    "hits": 19,
+    "misses": 37,
+    "hit_rate": 0.339
   },
   "open": [
-    {
-      "keyword": "voice synthesis",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-24",
-      "days_left": 0
-    },
-    {
-      "keyword": "comet",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-24",
-      "days_left": 0
-    },
-    {
-      "keyword": "character.ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-24",
-      "days_left": 0
-    },
     {
       "keyword": "phi-4",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "maestro",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-29",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "voice mode",
       "signal_type": "emerging",
       "flagged_on": "2026-06-29",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "ai winter",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-30",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "tflops",
       "signal_type": "emerging",
       "flagged_on": "2026-07-01",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "synthetic data",
       "signal_type": "emerging",
       "flagged_on": "2026-07-01",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "deepseek r1",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "ai regulation",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 8
+      "days_left": 7
+    },
+    {
+      "keyword": "mistral ai",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-07-02",
+      "days_left": 7
+    },
+    {
+      "keyword": "claude sonnet",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-02",
+      "days_left": 7
+    },
+    {
+      "keyword": "langflow",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-07-04",
+      "days_left": 9
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "gpt-5",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "hermes-agent",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-06-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "comet",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-06-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "voice synthesis",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-06-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "character.ai",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "claude opus",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "voicebox",
       "signal_type": "weak_signal",
@@ -94,35 +157,8 @@
       "outlet": null
     },
     {
-      "keyword": "hermes-agent",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-23",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
       "keyword": "trae",
       "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-06-23",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "comet",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-23",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "voice synthesis",
-      "signal_type": "weak_signal",
       "status": "miss",
       "flagged_on": "2026-06-23",
       "resolved_on": null,
@@ -170,42 +206,6 @@
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-22",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "chatbox",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-21",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "claude haiku",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-21",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "ttft",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-20",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "cursor",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-06-20",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null

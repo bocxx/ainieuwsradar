@@ -1,90 +1,12 @@
 {
-  "generated_at": "2026-08-08T19:15:51.460660",
-  "total_tracked": 3903,
+  "generated_at": "2026-08-09T07:15:52.202118",
+  "total_tracked": 3783,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reasoning model",
-      "mentions": 30,
-      "velocity": 3.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "Self-Guided Adaptive Safety Alignment: Synthesizing and Internalizing Guidelines in Reasoning Models",
-      "articles": [
-        {
-          "title": "Self-Guided Adaptive Safety Alignment: Synthesizing and Internalizing Guidelines in Reasoning Models",
-          "url": "https://arxiv.org/abs/2511.21214",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Nvidia makes Alpamayo 2 Super, its frontier open reasoning model for robotaxis and AVs, available for commercial use und",
-          "url": "https://www.techmeme.com/260804/p27#a260804p27",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation",
-          "url": "https://arxiv.org/abs/2606.26502",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 23,
-      "velocity": 3.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.63,
-      "headline": "Item Response Theory for AI Safety",
-      "articles": [
-        {
-          "title": "Item Response Theory for AI Safety",
-          "url": "https://arxiv.org/abs/2608.05086",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Anthropic Hack Adds To Fears Over AI Safety",
-          "url": "https://www.bloomberg.com/news/videos/2026-07-31/anthropic-hack-adds-to-fears-over-ai-safety-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "model context protocol",
-      "mentions": 27,
-      "velocity": 2.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "",
-      "articles": []
-    }
-  ],
-  "emerging": [
-    {
       "keyword": "agentic",
-      "mentions": 247,
-      "velocity": 13.2,
+      "mentions": 258,
+      "velocity": 12.5,
       "sources": [
         "articles",
         "arxiv",
@@ -117,36 +39,8 @@
       ]
     },
     {
-      "keyword": "lora",
-      "mentions": 154,
-      "velocity": 8.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Achtergrond - Zo bouwen Amsterdammers met LoRa-technologie een eigen noodinternet",
-      "articles": [
-        {
-          "title": "Achtergrond - Zo bouwen Amsterdammers met LoRa-technologie een eigen noodinternet",
-          "url": "https://tweakers.net/reviews/14378/zo-bouwen-amsterdammers-met-lora-technologie-een-eigen-noodinternet.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Pin Once, Swap Light: Subspace-Aligned Centroid-Residual Training for Efficient Ultra-LoRA Serving",
-          "url": "https://arxiv.org/abs/2608.03579",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "simulation",
-      "mentions": 73,
+      "mentions": 80,
       "velocity": 6.8,
       "sources": [
         "articles",
@@ -175,97 +69,52 @@
           "source": "stat.ML updates on arXiv.org"
         }
       ]
-    },
+    }
+  ],
+  "emerging": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 198,
-      "velocity": 6.8,
+      "keyword": "ai safety",
+      "mentions": 26,
+      "velocity": 3.2,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin"
+        "github",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "A Systematic Review and Taxonomy of Reinforcement Learning-Model Predictive Control Integration for Linear Systems",
+      "expert_ratio": 0.65,
+      "headline": "Item Response Theory for AI Safety",
       "articles": [
         {
-          "title": "A Systematic Review and Taxonomy of Reinforcement Learning-Model Predictive Control Integration for Linear Systems",
-          "url": "https://arxiv.org/abs/2604.21030",
+          "title": "Item Response Theory for AI Safety",
+          "url": "https://arxiv.org/abs/2608.05086",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks",
-          "url": "https://arxiv.org/abs/2608.04590",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Reinforcement Learning and Consumption-Savings Behavior",
-          "url": "https://arxiv.org/abs/2510.20748",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "hallucination",
-      "mentions": 51,
-      "velocity": 5.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "UHP Detection: LVLMs have their Unique Hallucination Pattern in the Consistency Space",
-      "articles": [
-        {
-          "title": "UHP Detection: LVLMs have their Unique Hallucination Pattern in the Consistency Space",
-          "url": "https://arxiv.org/abs/2608.03817",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "StuPASE: Towards Low-Hallucination Studio-Quality Generative Speech Enhancement",
-          "url": "https://arxiv.org/abs/2603.09234",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "PASE: Leveraging the Phonological Prior of WavLM for Low-Hallucination Generative Speech Enhancement",
-          "url": "https://arxiv.org/abs/2511.13300",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic Hack Adds To Fears Over AI Safety",
+          "url": "https://www.bloomberg.com/news/videos/2026-07-31/anthropic-hack-adds-to-fears-over-ai-safety-video",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "clip",
-      "mentions": 3,
-      "velocity": 2.0,
+      "keyword": "webarena",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "arxiv"
       ],
       "source_count": 1,
-      "confidence": 63,
+      "confidence": 61,
       "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-      "articles": [
-        {
-          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-          "url": "https://arxiv.org/abs/2403.09281",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
-          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "substantial",
@@ -289,57 +138,38 @@
           "title": "Nvidia Makes ‘Substantial’ Investment in Sutskever’s Startup",
           "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup",
           "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Dyson Supersonic Travel vs Supersonic Nural: I tested the two premium hair dryers to see what you get — and don't get — ",
-          "url": "https://www.techradar.com/home/hair-care/dyson-supersonic-travel-vs-supersonic-nural",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "explainable ai",
-      "mentions": 3,
-      "velocity": 0.8,
+      "keyword": "pretraining",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "arxiv"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
       "articles": [
         {
-          "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
-          "url": "https://arxiv.org/abs/2608.02699",
+          "title": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+          "url": "https://arxiv.org/abs/2608.03930",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors",
-          "url": "https://arxiv.org/abs/2608.00566",
+          "title": "Speech LLMs in Low-Resource Scenarios: Data Volume Requirements and the Impact of Pretraining on High-Resource Languages",
+          "url": "https://arxiv.org/abs/2508.05149",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Explainable AI for Chronic Kidney Disease Prediction Using Simulated Federated Learning",
-          "url": "https://arxiv.org/abs/2607.25348",
+          "title": "Logographic Character Visual Pretraining via Semantic-based Contrastive Learning",
+          "url": "https://arxiv.org/abs/2608.00096",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "containers",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "alignment",
@@ -372,52 +202,84 @@
       ]
     },
     {
-      "keyword": "claudecode",
+      "keyword": "containers",
       "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 73,
-      "days_active": 4,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "paperless-ngx",
-      "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.8,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 71,
+      "confidence": 69,
       "days_active": 3,
-      "expert_ratio": 0.75,
-      "headline": "Software-update - Paperless-ngx 3.0.5",
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "explainable ai",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
       "articles": [
         {
-          "title": "Software-update - Paperless-ngx 3.0.5",
-          "url": "https://tweakers.net/downloads/77776/paperless-ngx-305.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+          "url": "https://arxiv.org/abs/2608.02699",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Software-update - Paperless-ngx 3.0.2",
-          "url": "https://tweakers.net/downloads/77686/paperless-ngx-302.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors",
+          "url": "https://arxiv.org/abs/2608.00566",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Explainable AI for Chronic Kidney Disease Prediction Using Simulated Federated Learning",
+          "url": "https://arxiv.org/abs/2607.25348",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "aitools",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
+      "keyword": "clip",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
       "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "articles": [
+        {
+          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "url": "https://arxiv.org/abs/2403.09281",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
+          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "cybergym",
+      "mentions": 2,
+      "velocity": 0.5,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 4,
       "expert_ratio": 0.8,
       "headline": "",
       "articles": []
@@ -441,57 +303,38 @@
       ]
     },
     {
-      "keyword": "machinelearning",
-      "mentions": 3,
+      "keyword": "aitools",
+      "mentions": 2,
       "velocity": 0.4,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 13,
-      "expert_ratio": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
       "headline": "",
       "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "ai coding",
-      "mentions": 37,
-      "velocity": 1.9,
+      "keyword": "model context protocol",
+      "mentions": 26,
+      "velocity": 1.7,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
+        "arxiv",
         "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.43,
-      "headline": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
-      "articles": [
-        {
-          "title": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
-          "url": "https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "Meta Debuts AI Coding Agent in Race With OpenAI and Anthropic",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Meta Debuts New AI Coding Tools",
-          "url": "https://www.theinformation.com/briefings/meta-debuts-new-ai-coding-tools",
-          "source": "The Information"
-        }
-      ]
+      "expert_ratio": 0.81,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "qwen",
-      "mentions": 118,
+      "keyword": "github",
+      "mentions": 108,
       "velocity": 1.7,
       "sources": [
         "articles",
@@ -502,20 +345,30 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "expert_ratio": 0.24,
+      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
       "articles": [
         {
-          "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
-          "url": "https://github.com/leonickson1/Swiftlet",
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "AI - Ars Technica"
+        },
+        {
+          "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
+          "url": "https://github.com/MariaDB/server/pull/4262",
           "source": "Hacker News"
+        },
+        {
+          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+          "url": "https://arxiv.org/abs/2608.00101",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "frontier model",
-      "mentions": 29,
-      "velocity": 1.6,
+      "mentions": 31,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "arxiv",
@@ -524,7 +377,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
+      "expert_ratio": 0.86,
       "headline": "Sources: the US' AI framework excludes open models and defines a covered frontier model as closed source with SOTA capab",
       "articles": [
         {
@@ -545,15 +398,16 @@
       ]
     },
     {
-      "keyword": "gpt-4",
-      "mentions": 18,
+      "keyword": "vllm",
+      "mentions": 16,
       "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
-        "twitter"
+        "github",
+        "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.85,
@@ -561,9 +415,44 @@
       "articles": []
     },
     {
-      "keyword": "google deepmind",
-      "mentions": 18,
-      "velocity": 0.8,
+      "keyword": "gemini",
+      "mentions": 176,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.67,
+      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "articles": [
+        {
+          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
+          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "deepmind",
+      "mentions": 25,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "hackernews",
@@ -581,69 +470,37 @@
           "source": "Techmeme"
         },
         {
-          "title": "Google DeepMind CEO Demis Hassabis is stepping down, but will remain with the company",
-          "url": "https://www.engadget.com/2231124/google-deepmind-ceo-demis-hassabis-is-stepping-down-but-will-remain-with-the-company/",
-          "source": "Engadget"
+          "title": "Big shake-up in Google’s AI team as DeepMind chief executive steps down",
+          "url": "https://www.theguardian.com/technology/2026/aug/05/big-shake-up-in-googles-ai-team-as-deepmind-chief-executive-steps-down",
+          "source": "Artificial intelligence (AI) | The Guardian"
         },
         {
-          "title": "Jeff Dean Leaves Google as Demis Hassabis Steps Aside as Google DeepMind CEO",
-          "url": "https://www.theinformation.com/briefings/jeff-dean-leaves-google-demis-hassabis-steps-aside-google-deepmind-ceo",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 57,
-      "velocity": 0.6,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "Chinese Renewable Energy Giant Envision Launches Data Center",
-      "articles": [
-        {
-          "title": "Chinese Renewable Energy Giant Envision Launches Data Center",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/chinese-renewable-energy-giant-envision-launches-data-center",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
-          "url": "https://www.techradar.com/pro/our-corrupt-ai-addicted-president-cannot-be-allowed-to-sacrifice-our-federal-lands-a-bill-to-permanently-ban-ai-data-centers-from-federal-lands-has-been-introduced-to-congress",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "AMD, ricavi record a 11,5 miliardi: bene Data Center, meno Gaming",
-          "url": "https://www.tomshw.it/business/amd-ricavi-record-a-11-5-miliardi-data-center-107-gaming-31",
-          "source": "Tom's Hardware"
+          "title": "Google's AI shake-up: DeepMind's Hassabis steps aside, senior scientists depart",
+          "url": "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/?utm_source=flipboard&utm_content=ArsTechnica/magazine/Ars+Technica",
+          "source": "Artificial Intelligence"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 104,
+    "scored_predictions": 107,
     "covered": 23,
-    "coverage_rate": 0.221,
+    "coverage_rate": 0.215,
     "early": 9,
-    "early_rate": 0.087,
+    "early_rate": 0.084,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.221,
+    "hit_rate": 0.215,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 40,
+        "scored": 43,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.5,
-        "early_rate": 0.175,
-        "hit_rate": 0.5
+        "coverage_rate": 0.465,
+        "early_rate": 0.163,
+        "hit_rate": 0.465
       },
       "weak_signal": {
         "scored": 64,
@@ -658,21 +515,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 104,
+    "n": 107,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.433,
-      "early_rate": 0.202
+      "coverage_rate": 0.449,
+      "early_rate": 0.206
     },
     "null_mean": {
-      "coverage_rate": 0.464,
-      "early_rate": 0.246
+      "coverage_rate": 0.48,
+      "early_rate": 0.248
     },
     "p_value": {
-      "coverage_rate": 0.99,
-      "early_rate": 0.97
+      "coverage_rate": 0.991,
+      "early_rate": 0.954
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -706,22 +563,28 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
       "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "hallucination",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-09",
+        "confidence": 0.6
+      },
       {
         "keyword": "lora",
         "signal_type": "emerging",
@@ -787,98 +650,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-05",
         "confidence": 0.2
-      },
-      {
-        "keyword": "seedance",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-05",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "ai chips",
-        "recent_mentions": 11,
-        "prior_mentions": 1,
-        "change_ratio": 11.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "dreamina",
-        "recent_mentions": 48,
-        "prior_mentions": 6,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "model context protocol",
-        "recent_mentions": 92,
+        "recent_mentions": 109,
         "prior_mentions": 16,
-        "change_ratio": 5.75,
+        "change_ratio": 6.81,
         "corroborating_sources": 4
       },
       {
-        "keyword": "slm",
-        "recent_mentions": 65,
+        "keyword": "prompt injection",
+        "recent_mentions": 90,
         "prior_mentions": 14,
-        "change_ratio": 4.64,
+        "change_ratio": 6.43,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "small language model",
+        "recent_mentions": 72,
+        "prior_mentions": 13,
+        "change_ratio": 5.54,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "hallucination",
+        "recent_mentions": 150,
+        "prior_mentions": 31,
+        "change_ratio": 4.84,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "slm",
+        "recent_mentions": 75,
+        "prior_mentions": 17,
+        "change_ratio": 4.41,
         "corroborating_sources": 2
       },
       {
-        "keyword": "prompt injection",
-        "recent_mentions": 72,
-        "prior_mentions": 16,
-        "change_ratio": 4.5,
-        "corroborating_sources": 3
-      },
-      {
         "keyword": "cohere",
-        "recent_mentions": 275,
-        "prior_mentions": 67,
-        "change_ratio": 4.1,
-        "corroborating_sources": 3
+        "recent_mentions": 334,
+        "prior_mentions": 76,
+        "change_ratio": 4.39,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "vllm",
+        "keyword": "mcp client",
+        "recent_mentions": 17,
+        "prior_mentions": 4,
+        "change_ratio": 4.25,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ollama",
         "recent_mentions": 47,
         "prior_mentions": 12,
         "change_ratio": 3.92,
         "corroborating_sources": 4
       },
       {
-        "keyword": "litellm",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "open webui",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "small language model",
-        "recent_mentions": 55,
-        "prior_mentions": 16,
-        "change_ratio": 3.44,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "autogpt",
-        "recent_mentions": 12,
+        "recent_mentions": 14,
         "prior_mentions": 4,
-        "change_ratio": 3.0,
+        "change_ratio": 3.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "flowise",
-        "recent_mentions": 15,
-        "prior_mentions": 5,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
+        "keyword": "vllm",
+        "recent_mentions": 54,
+        "prior_mentions": 16,
+        "change_ratio": 3.38,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "ai safety",
+        "recent_mentions": 81,
+        "prior_mentions": 25,
+        "change_ratio": 3.24,
+        "corroborating_sources": 6
+      },
+      {
+        "keyword": "dreamina",
+        "recent_mentions": 44,
+        "prior_mentions": 14,
+        "change_ratio": 3.14,
+        "corroborating_sources": 1
       }
     ]
   }
