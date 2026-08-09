@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-09T07:15:52.202118",
-  "total_tracked": 3783,
+  "generated_at": "2026-08-09T19:15:47.188042",
+  "total_tracked": 3819,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "agentic",
-      "mentions": 258,
-      "velocity": 12.5,
+      "mentions": 257,
+      "velocity": 12.2,
       "sources": [
         "articles",
         "arxiv",
@@ -18,7 +18,7 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
+      "expert_ratio": 0.81,
       "headline": "Governing Execution Risk in Agentic AI Systems: A Trajectory-Guided Framework for Red Teaming",
       "articles": [
         {
@@ -39,9 +39,42 @@
       ]
     },
     {
+      "keyword": "github",
+      "mentions": 125,
+      "velocity": 6.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.24,
+      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "articles": [
+        {
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "AI - Ars Technica"
+        },
+        {
+          "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
+          "url": "https://github.com/MariaDB/server/pull/4262",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+          "url": "https://arxiv.org/abs/2608.00101",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "simulation",
-      "mentions": 80,
-      "velocity": 6.8,
+      "mentions": 77,
+      "velocity": 5.9,
       "sources": [
         "articles",
         "arxiv",
@@ -50,7 +83,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
+      "expert_ratio": 0.89,
       "headline": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
       "articles": [
         {
@@ -69,20 +102,102 @@
           "source": "stat.ML updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "model context protocol",
+      "mentions": 31,
+      "velocity": 3.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "data center",
+      "mentions": 65,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "Chinese Renewable Energy Giant Envision Launches Data Center",
+      "articles": [
+        {
+          "title": "Chinese Renewable Energy Giant Envision Launches Data Center",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/chinese-renewable-energy-giant-envision-launches-data-center",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
+          "url": "https://www.techradar.com/pro/our-corrupt-ai-addicted-president-cannot-be-allowed-to-sacrifice-our-federal-lands-a-bill-to-permanently-ban-ai-data-centers-from-federal-lands-has-been-introduced-to-congress",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "AMD, ricavi record a 11,5 miliardi: bene Data Center, meno Gaming",
+          "url": "https://www.tomshw.it/business/amd-ricavi-record-a-11-5-miliardi-data-center-107-gaming-31",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 180,
+      "velocity": 2.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.67,
+      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "articles": [
+        {
+          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
+          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "source": "The Next Web"
+        }
+      ]
     }
   ],
   "emerging": [
     {
       "keyword": "ai safety",
-      "mentions": 26,
-      "velocity": 3.2,
+      "mentions": 28,
+      "velocity": 3.8,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.65,
@@ -102,20 +217,6 @@
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "webarena",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
     {
       "keyword": "substantial",
       "mentions": 2,
@@ -172,6 +273,50 @@
       ]
     },
     {
+      "keyword": "webarena",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "explainable ai",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+      "articles": [
+        {
+          "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+          "url": "https://arxiv.org/abs/2608.02699",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors",
+          "url": "https://arxiv.org/abs/2608.00566",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Explainable AI for Chronic Kidney Disease Prediction Using Simulated Federated Learning",
+          "url": "https://arxiv.org/abs/2607.25348",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "alignment",
       "mentions": 3,
       "velocity": 0.8,
@@ -216,36 +361,6 @@
       "articles": []
     },
     {
-      "keyword": "explainable ai",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
-      "articles": [
-        {
-          "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
-          "url": "https://arxiv.org/abs/2608.02699",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors",
-          "url": "https://arxiv.org/abs/2608.00566",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Explainable AI for Chronic Kidney Disease Prediction Using Simulated Federated Learning",
-          "url": "https://arxiv.org/abs/2607.25348",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "clip",
       "mentions": 3,
       "velocity": 0.8,
@@ -285,6 +400,18 @@
       "articles": []
     },
     {
+      "keyword": "aitools",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "saas",
       "mentions": 2,
       "velocity": 0.4,
@@ -301,74 +428,13 @@
           "source": "Tom's Hardware"
         }
       ]
-    },
-    {
-      "keyword": "aitools",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "",
-      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "model context protocol",
-      "mentions": 26,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "github",
-      "mentions": 108,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.24,
-      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-      "articles": [
-        {
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "AI - Ars Technica"
-        },
-        {
-          "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
-          "url": "https://github.com/MariaDB/server/pull/4262",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-          "url": "https://arxiv.org/abs/2608.00101",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "frontier model",
-      "mentions": 31,
-      "velocity": 1.7,
+      "mentions": 30,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
@@ -377,7 +443,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
+      "expert_ratio": 0.87,
       "headline": "Sources: the US' AI framework excludes open models and defines a covered frontier model as closed source with SOTA capab",
       "articles": [
         {
@@ -398,61 +464,41 @@
       ]
     },
     {
-      "keyword": "vllm",
-      "mentions": 16,
-      "velocity": 1.6,
+      "keyword": "reasoning model",
+      "mentions": 26,
+      "velocity": 1.2,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 176,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "expert_ratio": 0.93,
+      "headline": "Self-Guided Adaptive Safety Alignment: Synthesizing and Internalizing Guidelines in Reasoning Models",
       "articles": [
         {
-          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
-          "source": "The Next Web"
+          "title": "Self-Guided Adaptive Safety Alignment: Synthesizing and Internalizing Guidelines in Reasoning Models",
+          "url": "https://arxiv.org/abs/2511.21214",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
+          "title": "Nvidia makes Alpamayo 2 Super, its frontier open reasoning model for robotaxis and AVs, available for commercial use und",
+          "url": "https://www.techmeme.com/260804/p27#a260804p27",
+          "source": "Techmeme"
         },
         {
-          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
-          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
-          "source": "The Next Web"
+          "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation",
+          "url": "https://arxiv.org/abs/2606.26502",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "deepmind",
-      "mentions": 25,
-      "velocity": 1.4,
+      "mentions": 24,
+      "velocity": 1.1,
       "sources": [
         "articles",
         "hackernews",
@@ -461,7 +507,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.6,
+      "expert_ratio": 0.61,
       "headline": "Sources: Demis Hassabis had been drifting away from day-to-day duties as Google DeepMind CEO for at least a year and str",
       "articles": [
         {
@@ -478,6 +524,39 @@
           "title": "Google's AI shake-up: DeepMind's Hassabis steps aside, senior scientists depart",
           "url": "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/?utm_source=flipboard&utm_content=ArsTechnica/magazine/Ars+Technica",
           "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 36,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.41,
+      "headline": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
+      "articles": [
+        {
+          "title": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
+          "url": "https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Meta Debuts AI Coding Agent in Race With OpenAI and Anthropic",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Meta Debuts New AI Coding Tools",
+          "url": "https://www.theinformation.com/briefings/meta-debuts-new-ai-coding-tools",
+          "source": "The Information"
         }
       ]
     }
@@ -580,6 +659,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "ai safety",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-09",
+        "confidence": 0.8
+      },
+      {
         "keyword": "hallucination",
         "signal_type": "emerging",
         "flagged_on": "2026-08-09",
@@ -644,20 +729,14 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-05",
         "confidence": 0.2
-      },
-      {
-        "keyword": "higgsfield",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-05",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "model context protocol",
-        "recent_mentions": 109,
+        "recent_mentions": 114,
         "prior_mentions": 16,
-        "change_ratio": 6.81,
+        "change_ratio": 7.12,
         "corroborating_sources": 4
       },
       {
@@ -682,17 +761,17 @@
         "corroborating_sources": 3
       },
       {
+        "keyword": "cohere",
+        "recent_mentions": 336,
+        "prior_mentions": 76,
+        "change_ratio": 4.42,
+        "corroborating_sources": 3
+      },
+      {
         "keyword": "slm",
         "recent_mentions": 75,
         "prior_mentions": 17,
         "change_ratio": 4.41,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "cohere",
-        "recent_mentions": 334,
-        "prior_mentions": 76,
-        "change_ratio": 4.39,
         "corroborating_sources": 2
       },
       {
@@ -717,18 +796,18 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "vllm",
-        "recent_mentions": 54,
-        "prior_mentions": 16,
-        "change_ratio": 3.38,
-        "corroborating_sources": 4
+        "keyword": "ai safety",
+        "recent_mentions": 83,
+        "prior_mentions": 25,
+        "change_ratio": 3.32,
+        "corroborating_sources": 6
       },
       {
-        "keyword": "ai safety",
-        "recent_mentions": 81,
-        "prior_mentions": 25,
-        "change_ratio": 3.24,
-        "corroborating_sources": 6
+        "keyword": "vllm",
+        "recent_mentions": 51,
+        "prior_mentions": 16,
+        "change_ratio": 3.19,
+        "corroborating_sources": 4
       },
       {
         "keyword": "dreamina",
