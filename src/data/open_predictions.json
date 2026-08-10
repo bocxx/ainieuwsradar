@@ -1,100 +1,118 @@
 {
-  "generated_at": "2026-08-09T17:41:07+00:00",
+  "generated_at": "2026-08-10T05:39:46+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 92,
-    "resolved": 56,
+    "resolved": 57,
     "hits": 19,
-    "misses": 37,
-    "hit_rate": 0.339
+    "misses": 38,
+    "hit_rate": 0.333
   },
   "open": [
     {
       "keyword": "phi-4",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "maestro",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-29",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "voice mode",
       "signal_type": "emerging",
       "flagged_on": "2026-06-29",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "ai winter",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-30",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "tflops",
       "signal_type": "emerging",
       "flagged_on": "2026-07-01",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "synthetic data",
       "signal_type": "emerging",
       "flagged_on": "2026-07-01",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "deepseek r1",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "ai regulation",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "mistral ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "claude sonnet",
       "signal_type": "emerging",
       "flagged_on": "2026-07-02",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "langflow",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-04",
-      "days_left": 9
+      "days_left": 8
     }
   ],
   "recent_resolved": [
     {
-      "keyword": "qwen",
+      "keyword": "gpt-5",
       "signal_type": "emerging",
       "status": "miss",
-      "flagged_on": "2026-06-24",
+      "flagged_on": "2026-06-25",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
     },
     {
-      "keyword": "gpt-5",
+      "keyword": "hallucination",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-25",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "claude code",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-25",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "qwen",
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-24",
@@ -186,24 +204,6 @@
     {
       "keyword": "luma",
       "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-22",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "together",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-06-22",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "midjourney",
-      "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-22",
       "resolved_on": null,
