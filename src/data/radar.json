@@ -1,106 +1,12 @@
 {
-  "generated_at": "2026-08-10T19:20:37.329847",
-  "total_tracked": 3726,
+  "generated_at": "2026-08-11T07:13:32.823209",
+  "total_tracked": 3547,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "deepseek",
-      "mentions": 120,
-      "velocity": 6.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
-      "articles": [
-        {
-          "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-          "source": "Hacker News"
-        },
-        {
-          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
-          "source": "Quartz"
-        }
-      ]
-    },
-    {
-      "keyword": "simulation",
-      "mentions": 82,
-      "velocity": 5.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
-      "articles": [
-        {
-          "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
-          "url": "https://arxiv.org/abs/2607.13028",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
-          "url": "https://arxiv.org/abs/2608.05030",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Efficient quantum-enhanced classical simulation for patches of quantum landscapes",
-          "url": "https://arxiv.org/abs/2411.19896",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "ai safety",
-      "mentions": 33,
-      "velocity": 4.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "Item Response Theory for AI Safety",
-      "articles": [
-        {
-          "title": "Item Response Theory for AI Safety",
-          "url": "https://arxiv.org/abs/2608.05086",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Anthropic Hack Adds To Fears Over AI Safety",
-          "url": "https://www.bloomberg.com/news/videos/2026-07-31/anthropic-hack-adds-to-fears-over-ai-safety-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 68,
-      "velocity": 2.9,
+      "keyword": "claude code",
+      "mentions": 36,
+      "velocity": 9.0,
       "sources": [
         "articles",
         "hackernews",
@@ -109,87 +15,35 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "Chinese Renewable Energy Giant Envision Launches Data Center",
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "hashicorp",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 78,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "Dev who gave HashiCorp its name returns with a faster terminal multiplexer",
       "articles": [
         {
-          "title": "Chinese Renewable Energy Giant Envision Launches Data Center",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/chinese-renewable-energy-giant-envision-launches-data-center",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
-          "url": "https://www.techradar.com/pro/our-corrupt-ai-addicted-president-cannot-be-allowed-to-sacrifice-our-federal-lands-a-bill-to-permanently-ban-ai-data-centers-from-federal-lands-has-been-introduced-to-congress",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "AMD, ricavi record a 11,5 miliardi: bene Data Center, meno Gaming",
-          "url": "https://www.tomshw.it/business/amd-ricavi-record-a-11-5-miliardi-data-center-107-gaming-31",
-          "source": "Tom's Hardware"
+          "title": "Dev who gave HashiCorp its name returns with a faster terminal multiplexer",
+          "url": "https://www.theregister.com/devops/2026/07/31/dev-who-gave-hashicorp-its-name-returns-with-a-faster-terminal-multiplexer/5281970",
+          "source": "The Register"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "nemo",
-      "mentions": 3,
-      "velocity": 1.2,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
-      "articles": [
-        {
-          "title": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
-          "url": "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/",
-          "source": "NVIDIA Developer Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "moveit",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "substantial",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
-      "articles": [
-        {
-          "title": "Nvidia says it made a \"substantial\" investment in Safe Superintelligence, which will get access to Nvidia GPUs to up com",
-          "url": "https://www.techmeme.com/260727/p14#a260727p14",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia Makes ‘Substantial’ Investment in Sutskever’s Startup",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
     {
       "keyword": "webarena",
       "mentions": 2,
@@ -205,14 +59,75 @@
       "articles": []
     },
     {
-      "keyword": "machine consciousness",
+      "keyword": "cybergym",
       "mentions": 2,
       "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "nemo",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
+      "articles": [
+        {
+          "title": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
+          "url": "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/",
+          "source": "NVIDIA Developer Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "clip",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "articles": [
+        {
+          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "url": "https://arxiv.org/abs/2403.09281",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
+          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "containers",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
       "headline": "",
       "articles": []
     },
@@ -247,158 +162,191 @@
       ]
     },
     {
-      "keyword": "containers",
-      "mentions": 3,
-      "velocity": 0.8,
+      "keyword": "pretraining",
+      "mentions": 2,
+      "velocity": 0.4,
       "sources": [
-        "github"
+        "arxiv"
       ],
       "source_count": 1,
-      "confidence": 69,
+      "confidence": 65,
       "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "clip",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "expert_ratio": 0.8,
+      "headline": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
       "articles": [
         {
-          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-          "url": "https://arxiv.org/abs/2403.09281",
+          "title": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+          "url": "https://arxiv.org/abs/2608.03930",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
-          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Speech LLMs in Low-Resource Scenarios: Data Volume Requirements and the Impact of Pretraining on High-Resource Languages",
+          "url": "https://arxiv.org/abs/2508.05149",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Logographic Character Visual Pretraining via Semantic-based Contrastive Learning",
+          "url": "https://arxiv.org/abs/2608.00096",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "cybergym",
+      "keyword": "machine consciousness",
       "mentions": 2,
-      "velocity": 0.6,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "nudify",
+      "mentions": 3,
+      "velocity": 0.4,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 63,
-      "days_active": 3,
-      "expert_ratio": 0.75,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "explainable ai",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
-      "headline": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+      "confidence": 77,
+      "days_active": 5,
+      "expert_ratio": 0.91,
+      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
       "articles": [
         {
-          "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
-          "url": "https://arxiv.org/abs/2608.02699",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Crushing the Evidence: A Dual-Penalty Evasion Framework for Fooling White-Box Explainable AI Auditors",
-          "url": "https://arxiv.org/abs/2608.00566",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
+          "url": "https://www.techmeme.com/260801/p16#a260801p16",
+          "source": "Techmeme"
         },
         {
-          "title": "Explainable AI for Chronic Kidney Disease Prediction Using Simulated Federated Learning",
-          "url": "https://arxiv.org/abs/2607.25348",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
+          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
+          "source": "Engadget"
         }
       ]
+    },
+    {
+      "keyword": "densenet",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "github",
-      "mentions": 112,
-      "velocity": 0.9,
+      "keyword": "gpt-4",
+      "mentions": 20,
+      "velocity": 1.5,
       "sources": [
-        "articles",
         "arxiv",
-        "linkedin"
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 109,
+      "velocity": 1.1,
+      "sources": [
+        "arxiv",
+        "github",
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.25,
-      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "expert_ratio": 0.89,
+      "headline": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
       "articles": [
         {
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "AI - Ars Technica"
+          "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
-          "url": "https://github.com/MariaDB/server/pull/4262",
+          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
           "source": "Hacker News"
         },
         {
-          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-          "url": "https://arxiv.org/abs/2608.00101",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
+          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
+          "source": "Quartz"
         }
       ]
     },
     {
-      "keyword": "model context protocol",
-      "mentions": 26,
-      "velocity": 0.8,
+      "keyword": "mistral",
+      "mentions": 18,
+      "velocity": 0.1,
       "sources": [
-        "articles",
         "arxiv",
-        "linkedin"
+        "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.87,
+      "headline": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
+      "articles": [
+        {
+          "title": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
+          "url": "https://www.techmeme.com/260804/p36#a260804p36",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+          "url": "https://mistral.ai/news/shieldstral/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Mistral Is in the Right Place at the Right Time",
+          "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
+          "source": "Feed: Artificial Intelligence Latest"
+        }
+      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 112,
+    "scored_predictions": 113,
     "covered": 23,
-    "coverage_rate": 0.205,
+    "coverage_rate": 0.204,
     "early": 9,
     "early_rate": 0.08,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.205,
+    "hit_rate": 0.204,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 48,
+        "scored": 49,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.417,
-        "early_rate": 0.146,
-        "hit_rate": 0.417
+        "coverage_rate": 0.408,
+        "early_rate": 0.143,
+        "hit_rate": 0.408
       },
       "weak_signal": {
         "scored": 64,
@@ -413,21 +361,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 112,
+    "n": 113,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.464,
-      "early_rate": 0.205
+      "coverage_rate": 0.469,
+      "early_rate": 0.204
     },
     "null_mean": {
-      "coverage_rate": 0.496,
-      "early_rate": 0.251
+      "coverage_rate": 0.5,
+      "early_rate": 0.249
     },
     "p_value": {
-      "coverage_rate": 0.997,
-      "early_rate": 0.958
+      "coverage_rate": 0.995,
+      "early_rate": 0.971
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -461,22 +409,34 @@
       "lead_days": 5
     },
     {
-      "keyword": "notion",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
-    },
-    {
       "keyword": "litellm",
       "signal_type": "emerging",
       "flagged_on": "2026-03-27",
       "materialized_on": "2026-03-31",
       "lead_days": 4
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-03-19",
+      "materialized_on": "2026-03-23",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "data center",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-11",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "code completion",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-11",
+        "confidence": 0.2
+      },
       {
         "keyword": "world models",
         "signal_type": "emerging",
@@ -536,104 +496,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-06",
         "confidence": 1.0
-      },
-      {
-        "keyword": "flair",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-06",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "dall-e",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-06",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
+        "keyword": "databricks",
+        "recent_mentions": 16,
+        "prior_mentions": 3,
+        "change_ratio": 5.33,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "deepseek v3",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "mcp client",
-        "recent_mentions": 20,
-        "prior_mentions": 4,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "tabby",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "sdxl",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "tgi",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "small language model",
-        "recent_mentions": 77,
-        "prior_mentions": 23,
-        "change_ratio": 3.35,
+        "keyword": "mcp client",
+        "recent_mentions": 20,
+        "prior_mentions": 7,
+        "change_ratio": 2.86,
         "corroborating_sources": 1
       },
       {
-        "keyword": "databricks",
-        "recent_mentions": 13,
-        "prior_mentions": 4,
-        "change_ratio": 3.25,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "prompt injection",
-        "recent_mentions": 88,
-        "prior_mentions": 29,
-        "change_ratio": 3.03,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "vllm",
-        "recent_mentions": 54,
-        "prior_mentions": 19,
-        "change_ratio": 2.84,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "hallucination",
-        "recent_mentions": 145,
-        "prior_mentions": 52,
-        "change_ratio": 2.79,
-        "corroborating_sources": 3
+        "keyword": "tgi",
+        "recent_mentions": 8,
+        "prior_mentions": 3,
+        "change_ratio": 2.67,
+        "corroborating_sources": 1
       },
       {
         "keyword": "ai safety",
-        "recent_mentions": 100,
-        "prior_mentions": 36,
-        "change_ratio": 2.78,
+        "recent_mentions": 104,
+        "prior_mentions": 48,
+        "change_ratio": 2.17,
         "corroborating_sources": 6
       },
       {
-        "keyword": "model context protocol",
-        "recent_mentions": 111,
-        "prior_mentions": 42,
-        "change_ratio": 2.64,
+        "keyword": "voice agent",
+        "recent_mentions": 23,
+        "prior_mentions": 13,
+        "change_ratio": 1.77,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "small language model",
+        "recent_mentions": 67,
+        "prior_mentions": 38,
+        "change_ratio": 1.76,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "embodied ai",
+        "recent_mentions": 14,
+        "prior_mentions": 8,
+        "change_ratio": 1.75,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "opencode",
+        "recent_mentions": 52,
+        "prior_mentions": 31,
+        "change_ratio": 1.68,
         "corroborating_sources": 4
+      },
+      {
+        "keyword": "minimax",
+        "recent_mentions": 208,
+        "prior_mentions": 127,
+        "change_ratio": 1.64,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "vision language model",
+        "recent_mentions": 31,
+        "prior_mentions": 19,
+        "change_ratio": 1.63,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "world models",
+        "recent_mentions": 68,
+        "prior_mentions": 42,
+        "change_ratio": 1.62,
+        "corroborating_sources": 2
       }
     ]
   }
