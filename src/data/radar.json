@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-11T07:13:32.823209",
-  "total_tracked": 3547,
+  "generated_at": "2026-08-11T19:13:33.765759",
+  "total_tracked": 3585,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "claude code",
-      "mentions": 36,
-      "velocity": 9.0,
+      "mentions": 39,
+      "velocity": 9.9,
       "sources": [
         "articles",
         "hackernews",
@@ -44,6 +44,36 @@
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "skills",
+      "mentions": 3,
+      "velocity": 1.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
+      "articles": [
+        {
+          "title": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
+          "url": "https://arxiv.org/abs/2603.00195",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills",
+          "url": "https://arxiv.org/abs/2608.04192",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills",
+          "url": "https://arxiv.org/abs/2608.04562",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
     {
       "keyword": "webarena",
       "mentions": 2,
@@ -93,45 +123,6 @@
       ]
     },
     {
-      "keyword": "clip",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-      "articles": [
-        {
-          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-          "url": "https://arxiv.org/abs/2403.09281",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
-          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "containers",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "alignment",
       "mentions": 3,
       "velocity": 0.8,
@@ -158,6 +149,45 @@
           "title": "Best-of-$N$ TTS Evaluation is Confounded by ASR Family Alignment",
           "url": "https://arxiv.org/abs/2607.08256",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "containers",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "clip",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "articles": [
+        {
+          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "url": "https://arxiv.org/abs/2403.09281",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
+          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
@@ -204,46 +234,16 @@
       "articles": []
     },
     {
-      "keyword": "nudify",
+      "keyword": "openmontage",
       "mentions": 3,
       "velocity": 0.4,
       "sources": [
-        "articles"
+        "github"
       ],
       "source_count": 1,
       "confidence": 77,
       "days_active": 5,
-      "expert_ratio": 0.91,
-      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-      "articles": [
-        {
-          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
-          "url": "https://www.techmeme.com/260801/p16#a260801p16",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
-          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
-      "keyword": "densenet",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
+      "expert_ratio": 0.82,
       "headline": "",
       "articles": []
     }
@@ -265,9 +265,72 @@
       "articles": []
     },
     {
+      "keyword": "mistral",
+      "mentions": 19,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
+      "headline": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
+      "articles": [
+        {
+          "title": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
+          "url": "https://www.techmeme.com/260804/p36#a260804p36",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+          "url": "https://mistral.ai/news/shieldstral/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Mistral Is in the Right Place at the Right Time",
+          "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
+          "source": "Feed: Artificial Intelligence Latest"
+        }
+      ]
+    },
+    {
+      "keyword": "github",
+      "mentions": 107,
+      "velocity": -0.9,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.25,
+      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "articles": [
+        {
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "AI - Ars Technica"
+        },
+        {
+          "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
+          "url": "https://github.com/MariaDB/server/pull/4262",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+          "url": "https://arxiv.org/abs/2608.00101",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "deepseek",
-      "mentions": 109,
-      "velocity": 1.1,
+      "mentions": 102,
+      "velocity": -1.1,
       "sources": [
         "arxiv",
         "github",
@@ -297,33 +360,34 @@
       ]
     },
     {
-      "keyword": "mistral",
-      "mentions": 18,
-      "velocity": 0.1,
+      "keyword": "ai coding",
+      "mentions": 32,
+      "velocity": -1.1,
       "sources": [
-        "arxiv",
-        "hackernews"
+        "github",
+        "hackernews",
+        "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
+      "expert_ratio": 0.4,
+      "headline": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
       "articles": [
         {
-          "title": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
-          "url": "https://www.techmeme.com/260804/p36#a260804p36",
-          "source": "Techmeme"
+          "title": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
+          "url": "https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents",
+          "source": "VentureBeat"
         },
         {
-          "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-          "url": "https://mistral.ai/news/shieldstral/",
-          "source": "Hacker News"
+          "title": "Meta Debuts AI Coding Agent in Race With OpenAI and Anthropic",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Mistral Is in the Right Place at the Right Time",
-          "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
-          "source": "Feed: Artificial Intelligence Latest"
+          "title": "Meta Debuts New AI Coding Tools",
+          "url": "https://www.theinformation.com/briefings/meta-debuts-new-ai-coding-tools",
+          "source": "The Information"
         }
       ]
     }
@@ -432,6 +496,12 @@
         "confidence": 0.6
       },
       {
+        "keyword": "crewai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-11",
+        "confidence": 0.2
+      },
+      {
         "keyword": "code completion",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-11",
@@ -490,12 +560,6 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-07",
         "confidence": 0.2
-      },
-      {
-        "keyword": "openai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-06",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
@@ -508,9 +572,9 @@
       },
       {
         "keyword": "deepseek v3",
-        "recent_mentions": 8,
+        "recent_mentions": 7,
         "prior_mentions": 2,
-        "change_ratio": 4.0,
+        "change_ratio": 3.5,
         "corroborating_sources": 1
       },
       {
@@ -536,9 +600,9 @@
       },
       {
         "keyword": "voice agent",
-        "recent_mentions": 23,
+        "recent_mentions": 26,
         "prior_mentions": 13,
-        "change_ratio": 1.77,
+        "change_ratio": 2.0,
         "corroborating_sources": 3
       },
       {
@@ -564,9 +628,9 @@
       },
       {
         "keyword": "minimax",
-        "recent_mentions": 208,
+        "recent_mentions": 209,
         "prior_mentions": 127,
-        "change_ratio": 1.64,
+        "change_ratio": 1.65,
         "corroborating_sources": 4
       },
       {
