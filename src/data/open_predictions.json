@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T17:30:39+00:00",
+  "generated_at": "2026-08-12T05:30:44+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -14,78 +14,87 @@
       "keyword": "maestro",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-29",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "voice mode",
       "signal_type": "emerging",
       "flagged_on": "2026-06-29",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "ai winter",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-30",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "tflops",
       "signal_type": "emerging",
       "flagged_on": "2026-07-01",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "synthetic data",
       "signal_type": "emerging",
       "flagged_on": "2026-07-01",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "deepseek r1",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "ai regulation",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "mistral ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "claude sonnet",
       "signal_type": "emerging",
       "flagged_on": "2026-07-02",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "langflow",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-04",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "ai coding",
       "signal_type": "emerging",
       "flagged_on": "2026-07-05",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "liquid neural network",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-05",
-      "days_left": 8
+      "days_left": 7
     }
   ],
   "recent_resolved": [
     {
-      "keyword": "gpt-5",
+      "keyword": "lora",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-06-27",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "data center",
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-26",
@@ -94,7 +103,7 @@
       "outlet": null
     },
     {
-      "keyword": "data center",
+      "keyword": "gpt-5",
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-26",
@@ -195,15 +204,6 @@
     {
       "keyword": "voicebox",
       "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-23",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "trae",
-      "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-23",
       "resolved_on": null,

@@ -1,12 +1,97 @@
 {
-  "generated_at": "2026-08-11T19:13:33.765759",
-  "total_tracked": 3585,
+  "generated_at": "2026-08-12T07:14:10.834013",
+  "total_tracked": 3449,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "nvidia",
+      "mentions": 57,
+      "velocity": 3.7,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Elon pledges to give Nvidia a virtual monopoly over the stars",
+      "articles": [
+        {
+          "title": "Elon pledges to give Nvidia a virtual monopoly over the stars",
+          "url": "https://www.theregister.com/systems/2026/08/05/elon-pledges-to-give-nvidia-a-virtual-monopoly-over-the-stars/5283605",
+          "source": "The Register"
+        },
+        {
+          "title": "Elon Musk says SpaceX has decided to \"build exclusively on Nvidia because we think the Vera Rubin architecture is the be",
+          "url": "https://www.techmeme.com/260805/p25#a260805p25",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Operationalize AI at scale with HPE and NVIDIA",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/05/sponsored-operational-ai-at-scale-with-hpe-and-nvidia/5282929",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "keyword": "seedance",
+      "mentions": 28,
+      "velocity": 3.6,
+      "sources": [
+        "articles",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "Seedance is making a fresh push into education with study app Gauth — starting with AI animated lessons",
+      "articles": [
+        {
+          "title": "Seedance is making a fresh push into education with study app Gauth — starting with AI animated lessons",
+          "url": "https://www.businessinsider.com/seedance-bytedance-education-push-study-app-gauth-ai-animations-2026-7",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 58,
+      "velocity": 2.1,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.46,
+      "headline": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
+      "articles": [
+        {
+          "title": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
+          "url": "https://www.tomshw.it/automotive/tesla-affida-a-grok-i-comandi-dellauto-ma-serve-un-chip-ryzen",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Elon Musk’s xAI is trying to sue its way out of a Grok reckoning",
+          "url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "claude code",
-      "mentions": 39,
-      "velocity": 9.9,
+      "mentions": 34,
+      "velocity": 5.4,
       "sources": [
         "articles",
         "hackernews",
@@ -16,11 +101,15 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
-    }
-  ],
-  "emerging": [
+      "headline": "How Firms Like Coinbase Are Building Coding Agents to Complement Anthropic's Claude Code",
+      "articles": [
+        {
+          "title": "How Firms Like Coinbase Are Building Coding Agents to Complement Anthropic's Claude Code",
+          "url": "https://www.theinformation.com/articles/firms-like-coinbase-building-coding-agents-complement-anthropics-claude-code",
+          "source": "The Information"
+        }
+      ]
+    },
     {
       "keyword": "hashicorp",
       "mentions": 3,
@@ -41,38 +130,56 @@
           "source": "The Register"
         }
       ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 188,
+      "velocity": 1.9,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.87,
+      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+      "articles": [
+        {
+          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
+          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "AI - Ars Technica"
+        }
+      ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "skills",
+      "keyword": "worldclaw",
       "mentions": 3,
       "velocity": 1.0,
       "sources": [
-        "github"
+        "hackernews"
       ],
       "source_count": 1,
       "confidence": 65,
       "days_active": 2,
       "expert_ratio": 1.0,
-      "headline": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
-      "articles": [
-        {
-          "title": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
-          "url": "https://arxiv.org/abs/2603.00195",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills",
-          "url": "https://arxiv.org/abs/2608.04192",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills",
-          "url": "https://arxiv.org/abs/2608.04562",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "webarena",
@@ -89,18 +196,59 @@
       "articles": []
     },
     {
-      "keyword": "cybergym",
+      "keyword": "easy",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
-        "articles"
+        "arxiv"
       ],
       "source_count": 1,
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
+      "headline": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
+      "articles": [
+        {
+          "title": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
+          "url": "https://arxiv.org/abs/2511.21692",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Easy to Complete, Hard to Choose: Investigating LLM Performance on the ProverbIT Benchmark",
+          "url": "https://arxiv.org/abs/2608.04670",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "EASy: Towards Efficient LLM-Based Agentic System",
+          "url": "https://arxiv.org/abs/2608.04588",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "clip",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "articles": [
+        {
+          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "url": "https://arxiv.org/abs/2403.09281",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
+          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
     },
     {
       "keyword": "nemo",
@@ -133,8 +281,13 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "Multimodal Alignment Through Joint Kernel Entropic Gromov--Wasserstein Optimal Transport",
+      "headline": "The White House’s Secret A.I. Rules + The State of Model Alignment With METR’s Chris Painter + The Final Hot Mess Expres",
       "articles": [
+        {
+          "title": "The White House’s Secret A.I. Rules + The State of Model Alignment With METR’s Chris Painter + The Final Hot Mess Expres",
+          "url": "https://www.nytimes.com/column/hard-fork",
+          "source": "Hard Fork"
+        },
         {
           "title": "Multimodal Alignment Through Joint Kernel Entropic Gromov--Wasserstein Optimal Transport",
           "url": "https://arxiv.org/abs/2608.04234",
@@ -144,50 +297,36 @@
           "title": "A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models",
           "url": "https://arxiv.org/abs/2608.02684",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Best-of-$N$ TTS Evaluation is Confounded by ASR Family Alignment",
-          "url": "https://arxiv.org/abs/2607.08256",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "containers",
+      "keyword": "skills",
       "mentions": 3,
-      "velocity": 0.8,
+      "velocity": 0.4,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 69,
+      "confidence": 71,
       "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "clip",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "expert_ratio": 1.0,
+      "headline": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
       "articles": [
         {
-          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-          "url": "https://arxiv.org/abs/2403.09281",
+          "title": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
+          "url": "https://arxiv.org/abs/2603.00195",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
-          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills",
+          "url": "https://arxiv.org/abs/2608.04192",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills",
+          "url": "https://arxiv.org/abs/2608.04562",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -222,156 +361,94 @@
       ]
     },
     {
-      "keyword": "machine consciousness",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "openmontage",
+      "keyword": "nudify",
       "mentions": 3,
       "velocity": 0.4,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
       "confidence": 77,
       "days_active": 5,
-      "expert_ratio": 0.82,
+      "expert_ratio": 0.91,
+      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "articles": [
+        {
+          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
+          "url": "https://www.techmeme.com/260801/p16#a260801p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
+          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
+          "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "deepinfra",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 54,
+      "days_active": 5,
+      "expert_ratio": 1.0,
       "headline": "",
       "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "gpt-4",
-      "mentions": 20,
-      "velocity": 1.5,
+      "keyword": "voice ai",
+      "mentions": 14,
+      "velocity": 1.9,
       "sources": [
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 19,
-      "velocity": 0.4,
-      "sources": [
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
-      "articles": [
-        {
-          "title": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
-          "url": "https://www.techmeme.com/260804/p36#a260804p36",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-          "url": "https://mistral.ai/news/shieldstral/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Mistral Is in the Right Place at the Right Time",
-          "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
-          "source": "Feed: Artificial Intelligence Latest"
-        }
-      ]
-    },
-    {
-      "keyword": "github",
-      "mentions": 107,
-      "velocity": -0.9,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.25,
-      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-      "articles": [
-        {
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "AI - Ars Technica"
-        },
-        {
-          "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
-          "url": "https://github.com/MariaDB/server/pull/4262",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-          "url": "https://arxiv.org/abs/2608.00101",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "deepseek",
-      "mentions": 102,
-      "velocity": -1.1,
-      "sources": [
-        "arxiv",
         "github",
         "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
+      "expert_ratio": 0.83,
+      "headline": "How we built a realtime system for responsive voice AI in six months",
       "articles": [
         {
-          "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
-          "source": "Bloomberg Technology"
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "source": "OpenAI News"
         },
         {
-          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-          "source": "Hacker News"
+          "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+          "source": "TechCrunch"
         },
         {
-          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
-          "source": "Quartz"
+          "title": "Fish Audio gives its voice AI away, and charges for the latency",
+          "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+          "source": "The Next Web"
         }
       ]
     },
     {
       "keyword": "ai coding",
-      "mentions": 32,
-      "velocity": -1.1,
+      "mentions": 39,
+      "velocity": 1.3,
       "sources": [
+        "arxiv",
         "github",
         "hackernews",
         "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.4,
+      "expert_ratio": 0.42,
       "headline": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
       "articles": [
         {
@@ -390,55 +467,152 @@
           "source": "The Information"
         }
       ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 28,
+      "velocity": -0.3,
+      "sources": [
+        "articles",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.56,
+      "headline": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
+      "articles": [
+        {
+          "title": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
+          "url": "https://www.techradar.com/pro/our-corrupt-ai-addicted-president-cannot-be-allowed-to-sacrifice-our-federal-lands-a-bill-to-permanently-ban-ai-data-centers-from-federal-lands-has-been-introduced-to-congress",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Trump’s Push for More A.I. Data Centers Will Mean Major Air Pollution",
+          "url": "https://www.nytimes.com/2026/08/05/climate/data-centers-pollution-trump-ai-energy.html",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Australia Doubles Down on Data Centers Using Renewable Power",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/australia-doubles-down-on-data-centers-using-renewable-power",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "together",
+      "mentions": 43,
+      "velocity": -0.4,
+      "sources": [
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
+      "articles": [
+        {
+          "title": "The chips that wire GPUs together are the new prize. Xsight raised $300m to sell an open one.",
+          "url": "https://thenextweb.com/news/xsight-labs-300-million-2-8-billion-open-networking-chips-nvidia",
+          "source": "The Next Web"
+        },
+        {
+          "title": "A $2 sticker defeats the one feature holding Meta’s ‘pervert glasses’ together",
+          "url": "https://thenextweb.com/news/meta-pervert-glasses-crackdown-failing-led-sticker-bypass",
+          "source": "The Next Web"
+        },
+        {
+          "title": "The future of AI hinges on openness and cooperation. China and Britain can gain much by working together | Zheng Zeguang",
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/30/ai-future-china-britain-healthcare-research",
+          "source": "Artificial intelligence (AI) | The Guardian"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 496,
+      "velocity": -2.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
+      "articles": [
+        {
+          "title": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260804034634.htm",
+          "source": "ScienceDaily"
+        },
+        {
+          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
+          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Anthropic confirmed it is designing custom chips for Claude. It wants engineers who have “shipped silicon.”",
+          "url": "https://thenextweb.com/news/anthropic-in-house-chip-team-custom-silicon-claude",
+          "source": "The Next Web"
+        }
+      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 113,
+    "scored_predictions": 116,
     "covered": 23,
-    "coverage_rate": 0.204,
+    "coverage_rate": 0.198,
     "early": 9,
-    "early_rate": 0.08,
+    "early_rate": 0.078,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.204,
+    "hit_rate": 0.198,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 49,
+        "scored": 51,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.408,
-        "early_rate": 0.143,
-        "hit_rate": 0.408
+        "coverage_rate": 0.392,
+        "early_rate": 0.137,
+        "hit_rate": 0.392
       },
       "weak_signal": {
-        "scored": 64,
+        "scored": 65,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.047,
+        "coverage_rate": 0.046,
         "early_rate": 0.031,
-        "hit_rate": 0.047
+        "hit_rate": 0.046
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 113,
+    "n": 116,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.469,
-      "early_rate": 0.204
+      "coverage_rate": 0.474,
+      "early_rate": 0.207
     },
     "null_mean": {
-      "coverage_rate": 0.5,
-      "early_rate": 0.249
+      "coverage_rate": 0.505,
+      "early_rate": 0.251
     },
     "p_value": {
-      "coverage_rate": 0.995,
+      "coverage_rate": 0.991,
       "early_rate": 0.971
     },
     "verdict_early": "niet onderscheidbaar van toeval"
@@ -490,6 +664,30 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "nvidia",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-12",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "neuromorphic",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-12",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "minimax",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-12",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "openmontage",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-12",
+        "confidence": 0.2
+      },
+      {
         "keyword": "data center",
         "signal_type": "emerging",
         "flagged_on": "2026-08-11",
@@ -536,116 +734,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-09",
         "confidence": 0.6
-      },
-      {
-        "keyword": "lora",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-08",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "vibe coding",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-07",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "gpt-5",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-07",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "claude 4",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-07",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "databricks",
-        "recent_mentions": 16,
-        "prior_mentions": 3,
-        "change_ratio": 5.33,
-        "corroborating_sources": 2
+        "keyword": "cody",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "deepseek v3",
-        "recent_mentions": 7,
+        "keyword": "genspark",
+        "recent_mentions": 6,
         "prior_mentions": 2,
-        "change_ratio": 3.5,
+        "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "mcp client",
-        "recent_mentions": 20,
-        "prior_mentions": 7,
-        "change_ratio": 2.86,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "tgi",
+        "keyword": "rlhf",
         "recent_mentions": 8,
         "prior_mentions": 3,
         "change_ratio": 2.67,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai safety",
-        "recent_mentions": 104,
-        "prior_mentions": 48,
-        "change_ratio": 2.17,
-        "corroborating_sources": 6
+        "keyword": "databricks",
+        "recent_mentions": 16,
+        "prior_mentions": 7,
+        "change_ratio": 2.29,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "voice agent",
-        "recent_mentions": 26,
-        "prior_mentions": 13,
-        "change_ratio": 2.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "small language model",
-        "recent_mentions": 67,
-        "prior_mentions": 38,
-        "change_ratio": 1.76,
-        "corroborating_sources": 1
+        "keyword": "reward hacking",
+        "recent_mentions": 9,
+        "prior_mentions": 4,
+        "change_ratio": 2.25,
+        "corroborating_sources": 2
       },
       {
         "keyword": "embodied ai",
-        "recent_mentions": 14,
-        "prior_mentions": 8,
-        "change_ratio": 1.75,
+        "recent_mentions": 15,
+        "prior_mentions": 7,
+        "change_ratio": 2.14,
         "corroborating_sources": 2
       },
       {
-        "keyword": "opencode",
-        "recent_mentions": 52,
-        "prior_mentions": 31,
-        "change_ratio": 1.68,
-        "corroborating_sources": 4
+        "keyword": "digital twin",
+        "recent_mentions": 14,
+        "prior_mentions": 7,
+        "change_ratio": 2.0,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "minimax",
-        "recent_mentions": 209,
-        "prior_mentions": 127,
-        "change_ratio": 1.65,
-        "corroborating_sources": 4
+        "keyword": "claude code",
+        "recent_mentions": 75,
+        "prior_mentions": 43,
+        "change_ratio": 1.74,
+        "corroborating_sources": 5
       },
       {
-        "keyword": "vision language model",
-        "recent_mentions": 31,
-        "prior_mentions": 19,
-        "change_ratio": 1.63,
+        "keyword": "replicate",
+        "recent_mentions": 10,
+        "prior_mentions": 6,
+        "change_ratio": 1.67,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "tgi",
+        "recent_mentions": 8,
+        "prior_mentions": 5,
+        "change_ratio": 1.6,
         "corroborating_sources": 1
       },
       {
-        "keyword": "world models",
-        "recent_mentions": 68,
-        "prior_mentions": 42,
-        "change_ratio": 1.62,
-        "corroborating_sources": 2
+        "keyword": "opencode",
+        "recent_mentions": 57,
+        "prior_mentions": 36,
+        "change_ratio": 1.58,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "ai safety",
+        "recent_mentions": 98,
+        "prior_mentions": 63,
+        "change_ratio": 1.56,
+        "corroborating_sources": 6
       }
     ]
   }
