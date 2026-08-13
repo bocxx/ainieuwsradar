@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-08-13T07:13:22.091307",
-  "total_tracked": 3322,
+  "generated_at": "2026-08-13T19:13:22.420791",
+  "total_tracked": 3340,
   "window_days": 14,
   "accelerating": [
+    {
+      "keyword": "deepseek",
+      "mentions": 125,
+      "velocity": 6.1,
+      "sources": [
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
+      "articles": [
+        {
+          "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+          "source": "Hacker News"
+        },
+        {
+          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
+          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
+          "source": "Quartz"
+        }
+      ]
+    },
     {
       "keyword": "gpt-4",
       "mentions": 24,
@@ -21,27 +53,26 @@
   ],
   "emerging": [
     {
-      "keyword": "claude",
-      "mentions": 557,
-      "velocity": 12.3,
+      "keyword": "anthropic",
+      "mentions": 213,
+      "velocity": 7.9,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
+      "expert_ratio": 0.88,
+      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
       "articles": [
         {
-          "title": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260804034634.htm",
-          "source": "ScienceDaily"
+          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+          "source": "Bloomberg Technology"
         },
         {
           "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
@@ -49,16 +80,16 @@
           "source": "Business Insider"
         },
         {
-          "title": "Anthropic confirmed it is designing custom chips for Claude. It wants engineers who have “shipped silicon.”",
-          "url": "https://thenextweb.com/news/anthropic-in-house-chip-team-custom-silicon-claude",
-          "source": "The Next Web"
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "AI - Ars Technica"
         }
       ]
     },
     {
       "keyword": "grok",
-      "mentions": 74,
-      "velocity": 5.6,
+      "mentions": 80,
+      "velocity": 7.4,
       "sources": [
         "arxiv",
         "hackernews",
@@ -80,8 +111,8 @@
     },
     {
       "keyword": "nvidia",
-      "mentions": 68,
-      "velocity": 5.0,
+      "mentions": 74,
+      "velocity": 6.8,
       "sources": [
         "articles",
         "arxiv",
@@ -114,43 +145,9 @@
       ]
     },
     {
-      "keyword": "anthropic",
-      "mentions": 200,
-      "velocity": 4.0,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
-      "articles": [
-        {
-          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
-          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "AI - Ars Technica"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 156,
-      "velocity": 2.0,
+      "keyword": "claude",
+      "mentions": 536,
+      "velocity": 5.9,
       "sources": [
         "articles",
         "arxiv",
@@ -162,23 +159,49 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "expert_ratio": 0.77,
+      "headline": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
       "articles": [
         {
-          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
-          "source": "The Next Web"
+          "title": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260804034634.htm",
+          "source": "ScienceDaily"
         },
         {
-          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
+          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
+          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
+          "source": "Business Insider"
         },
         {
-          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
-          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "title": "Anthropic confirmed it is designing custom chips for Claude. It wants engineers who have “shipped silicon.”",
+          "url": "https://thenextweb.com/news/anthropic-in-house-chip-team-custom-silicon-claude",
           "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "voice ai",
+      "mentions": 17,
+      "velocity": 2.2,
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.85,
+      "headline": "How we built a realtime system for responsive voice AI in six months",
+      "articles": [
+        {
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "source": "OpenAI News"
+        },
+        {
+          "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+          "source": "TechCrunch"
         }
       ]
     }
@@ -445,35 +468,40 @@
       ]
     },
     {
-      "keyword": "voice ai",
-      "mentions": 14,
-      "velocity": 1.3,
+      "keyword": "github",
+      "mentions": 110,
+      "velocity": 1.6,
       "sources": [
-        "github",
-        "hackernews"
+        "hackernews",
+        "linkedin"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "How we built a realtime system for responsive voice AI in six months",
+      "expert_ratio": 0.26,
+      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
       "articles": [
         {
-          "title": "How we built a realtime system for responsive voice AI in six months",
-          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-          "source": "OpenAI News"
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "AI - Ars Technica"
         },
         {
-          "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-          "source": "TechCrunch"
+          "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
+          "url": "https://github.com/MariaDB/server/pull/4262",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+          "url": "https://arxiv.org/abs/2608.00101",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "deepseek",
-      "mentions": 108,
-      "velocity": 1.0,
+      "keyword": "mistral",
+      "mentions": 18,
+      "velocity": 0.1,
       "sources": [
         "arxiv",
         "github",
@@ -482,23 +510,54 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
+      "expert_ratio": 0.86,
+      "headline": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
       "articles": [
         {
-          "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
-          "source": "Bloomberg Technology"
+          "title": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
+          "url": "https://www.techmeme.com/260804/p36#a260804p36",
+          "source": "Techmeme"
         },
         {
-          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+          "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+          "url": "https://mistral.ai/news/shieldstral/",
           "source": "Hacker News"
         },
         {
-          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
-          "source": "Quartz"
+          "title": "Mistral Is in the Right Place at the Right Time",
+          "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
+          "source": "Feed: Artificial Intelligence Latest"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 27,
+      "velocity": -0.5,
+      "sources": [
+        "articles",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.58,
+      "headline": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
+      "articles": [
+        {
+          "title": "‘Our corrupt, AI-addicted President cannot be allowed to sacrifice our federal lands’: A bill to permanently ban AI data",
+          "url": "https://www.techradar.com/pro/our-corrupt-ai-addicted-president-cannot-be-allowed-to-sacrifice-our-federal-lands-a-bill-to-permanently-ban-ai-data-centers-from-federal-lands-has-been-introduced-to-congress",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Trump’s Push for More A.I. Data Centers Will Mean Major Air Pollution",
+          "url": "https://www.nytimes.com/2026/08/05/climate/data-centers-pollution-trump-ai-energy.html",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Australia Doubles Down on Data Centers Using Renewable Power",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/australia-doubles-down-on-data-centers-using-renewable-power",
+          "source": "Bloomberg Technology"
         }
       ]
     }
@@ -584,22 +643,40 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
       "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-13",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "claude",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-13",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "grok",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-13",
+        "confidence": 0.8
+      },
       {
         "keyword": "claude code",
         "signal_type": "emerging",
@@ -611,6 +688,12 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-13",
         "confidence": 0.4
+      },
+      {
+        "keyword": "inflection",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-13",
+        "confidence": 0.2
       },
       {
         "keyword": "anthropic",
@@ -647,30 +730,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-11",
         "confidence": 0.6
-      },
-      {
-        "keyword": "crewai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-11",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "code completion",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-11",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "world models",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-10",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "ai energy",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-10",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
@@ -703,6 +762,13 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "ai code",
+        "recent_mentions": 19,
+        "prior_mentions": 6,
+        "change_ratio": 3.17,
+        "corroborating_sources": 3
+      },
+      {
         "keyword": "digital twin",
         "recent_mentions": 16,
         "prior_mentions": 6,
@@ -724,11 +790,11 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai code",
-        "recent_mentions": 14,
-        "prior_mentions": 6,
-        "change_ratio": 2.33,
-        "corroborating_sources": 3
+        "keyword": "voice ai",
+        "recent_mentions": 49,
+        "prior_mentions": 23,
+        "change_ratio": 2.13,
+        "corroborating_sources": 5
       },
       {
         "keyword": "ai regulation",
@@ -736,13 +802,6 @@
         "prior_mentions": 4,
         "change_ratio": 2.0,
         "corroborating_sources": 3
-      },
-      {
-        "keyword": "voice ai",
-        "recent_mentions": 46,
-        "prior_mentions": 23,
-        "change_ratio": 2.0,
-        "corroborating_sources": 5
       },
       {
         "keyword": "retrieval augmented generation",
