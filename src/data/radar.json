@@ -1,12 +1,29 @@
 {
-  "generated_at": "2026-08-12T19:14:12.875923",
-  "total_tracked": 3520,
+  "generated_at": "2026-08-13T07:13:22.091307",
+  "total_tracked": 3322,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "gpt-4",
+      "mentions": 24,
+      "velocity": 2.2,
+      "sources": [
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.88,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "claude",
-      "mentions": 548,
-      "velocity": 13.7,
+      "mentions": 557,
+      "velocity": 12.3,
       "sources": [
         "articles",
         "arxiv",
@@ -18,7 +35,7 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
+      "expert_ratio": 0.77,
       "headline": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
       "articles": [
         {
@@ -39,9 +56,32 @@
       ]
     },
     {
+      "keyword": "grok",
+      "mentions": 74,
+      "velocity": 5.6,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.46,
+      "headline": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
+      "articles": [
+        {
+          "title": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
+          "url": "https://www.tomshw.it/automotive/tesla-affida-a-grok-i-comandi-dellauto-ma-serve-un-chip-ryzen",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
       "keyword": "nvidia",
-      "mentions": 67,
-      "velocity": 6.8,
+      "mentions": 68,
+      "velocity": 5.0,
       "sources": [
         "articles",
         "arxiv",
@@ -53,7 +93,7 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
+      "expert_ratio": 0.78,
       "headline": "Elon pledges to give Nvidia a virtual monopoly over the stars",
       "articles": [
         {
@@ -75,8 +115,8 @@
     },
     {
       "keyword": "anthropic",
-      "mentions": 199,
-      "velocity": 5.2,
+      "mentions": 200,
+      "velocity": 4.0,
       "sources": [
         "articles",
         "github",
@@ -87,7 +127,7 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
+      "expert_ratio": 0.88,
       "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
       "articles": [
         {
@@ -108,115 +148,42 @@
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 66,
-      "velocity": 4.5,
+      "keyword": "gemini",
+      "mentions": 156,
+      "velocity": 2.0,
       "sources": [
+        "articles",
         "arxiv",
+        "github",
         "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
+      "expert_ratio": 0.72,
+      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
       "articles": [
         {
-          "title": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
-          "url": "https://www.tomshw.it/automotive/tesla-affida-a-grok-i-comandi-dellauto-ma-serve-un-chip-ryzen",
-          "source": "Tom's Hardware"
+          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+          "source": "The Next Web"
         },
         {
-          "title": "Elon Musk’s xAI is trying to sue its way out of a Grok reckoning",
-          "url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
           "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "seedance",
-      "mentions": 28,
-      "velocity": 3.6,
-      "sources": [
-        "articles",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Seedance is making a fresh push into education with study app Gauth — starting with AI animated lessons",
-      "articles": [
+        },
         {
-          "title": "Seedance is making a fresh push into education with study app Gauth — starting with AI animated lessons",
-          "url": "https://www.businessinsider.com/seedance-bytedance-education-push-study-app-gauth-ai-animations-2026-7",
-          "source": "Business Insider"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "claude code",
-      "mentions": 34,
-      "velocity": 5.4,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "How Firms Like Coinbase Are Building Coding Agents to Complement Anthropic's Claude Code",
-      "articles": [
-        {
-          "title": "How Firms Like Coinbase Are Building Coding Agents to Complement Anthropic's Claude Code",
-          "url": "https://www.theinformation.com/articles/firms-like-coinbase-building-coding-agents-complement-anthropics-claude-code",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "hashicorp",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 78,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "Dev who gave HashiCorp its name returns with a faster terminal multiplexer",
-      "articles": [
-        {
-          "title": "Dev who gave HashiCorp its name returns with a faster terminal multiplexer",
-          "url": "https://www.theregister.com/devops/2026/07/31/dev-who-gave-hashicorp-its-name-returns-with-a-faster-terminal-multiplexer/5281970",
-          "source": "The Register"
+          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
+          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "source": "The Next Web"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "worldclaw",
-      "mentions": 3,
-      "velocity": 1.0,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
     {
       "keyword": "easy",
       "mentions": 2,
@@ -272,14 +239,8 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
-      "articles": [
-        {
-          "title": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
-          "url": "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/",
-          "source": "NVIDIA Developer Blog"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "alignment",
@@ -337,78 +298,48 @@
       ]
     },
     {
-      "keyword": "task",
+      "keyword": "nudify",
       "mentions": 3,
-      "velocity": 0.7,
+      "velocity": 0.5,
       "sources": [
-        "linkedin"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 75,
-      "days_active": 8,
-      "expert_ratio": 0.8,
-      "headline": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
+      "confidence": 73,
+      "days_active": 4,
+      "expert_ratio": 0.89,
+      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
       "articles": [
         {
-          "title": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks",
-          "url": "https://arxiv.org/abs/2602.05547",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Arnold: A multi-task, multi-embodiment muscle transformer policy",
-          "url": "https://arxiv.org/abs/2508.18066",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
+          "url": "https://www.techmeme.com/260801/p16#a260801p16",
+          "source": "Techmeme"
         },
         {
-          "title": "Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings for CLEF JO",
-          "url": "https://arxiv.org/abs/2507.06506",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
+          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
+          "source": "Engadget"
         }
       ]
     },
     {
-      "keyword": "ai glasses",
+      "keyword": "worldclaw",
       "mentions": 3,
       "velocity": 0.4,
       "sources": [
         "hackernews"
       ],
       "source_count": 1,
-      "confidence": 83,
-      "days_active": 6,
-      "expert_ratio": 0.64,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "skills",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
       "confidence": 71,
       "days_active": 3,
       "expert_ratio": 1.0,
-      "headline": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
-      "articles": [
-        {
-          "title": "Formal Analysis and Supply Chain Security for Agentic AI Skills",
-          "url": "https://arxiv.org/abs/2603.00195",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Behavioral Skill Reconstruction: Reconstructing Hidden Functionality from LLM Agent Skills",
-          "url": "https://arxiv.org/abs/2608.04192",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills",
-          "url": "https://arxiv.org/abs/2608.04562",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "pretraining",
@@ -439,13 +370,84 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "deepinfra",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 52,
+      "days_active": 4,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "coreweave",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 68,
+      "days_active": 6,
+      "expert_ratio": 0.71,
+      "headline": "CoreWeave to Enter Asian Market With Indonesian Data Centers",
+      "articles": [
+        {
+          "title": "CoreWeave to Enter Asian Market With Indonesian Data Centers",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-04/coreweave-to-enter-asian-market-with-indonesian-data-centers",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "CoreWeave’s Wild Stock Ride Takes Toll on Its Cost to Finance AI",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-30/coreweave-s-wild-stock-ride-takes-toll-on-its-cost-to-finance-ai",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "The AI cloud is heading into the vault. CoreWeave is taking it to the spies.",
+          "url": "https://thenextweb.com/news/coreweave-leidos-classified-ai-cloud-intelligence-defence",
+          "source": "The Next Web"
+        }
+      ]
     }
   ],
   "sustained": [
     {
+      "keyword": "code generation",
+      "mentions": 22,
+      "velocity": 1.8,
+      "sources": [
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "COMPAS: Difficulty-Aware Joint Search for Optimizing Code Generation",
+      "articles": [
+        {
+          "title": "COMPAS: Difficulty-Aware Joint Search for Optimizing Code Generation",
+          "url": "https://arxiv.org/abs/2608.04336",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ExeCRE: Execution-Consistency Guided Reliability Estimation for Self-Correcting Code Generation",
+          "url": "https://arxiv.org/abs/2608.04439",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Route-Align-Verify for Functional Correctness in Code Generation",
+          "url": "https://arxiv.org/abs/2608.03341",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "voice ai",
       "mentions": 14,
-      "velocity": 1.9,
+      "velocity": 1.3,
       "sources": [
         "github",
         "hackernews"
@@ -453,7 +455,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
+      "expert_ratio": 0.85,
       "headline": "How we built a realtime system for responsive voice AI in six months",
       "articles": [
         {
@@ -465,18 +467,13 @@
           "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
           "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
           "source": "TechCrunch"
-        },
-        {
-          "title": "Fish Audio gives its voice AI away, and charges for the latency",
-          "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
-          "source": "The Next Web"
         }
       ]
     },
     {
       "keyword": "deepseek",
-      "mentions": 106,
-      "velocity": 0.5,
+      "mentions": 108,
+      "velocity": 1.0,
       "sources": [
         "arxiv",
         "github",
@@ -504,71 +501,56 @@
           "source": "Quartz"
         }
       ]
-    },
-    {
-      "keyword": "gpt-4",
-      "mentions": 17,
-      "velocity": 0.1,
-      "sources": [
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "",
-      "articles": []
     }
   ],
   "track_record": {
-    "scored_predictions": 116,
+    "scored_predictions": 121,
     "covered": 23,
-    "coverage_rate": 0.198,
+    "coverage_rate": 0.19,
     "early": 9,
-    "early_rate": 0.078,
+    "early_rate": 0.074,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.198,
+    "hit_rate": 0.19,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 51,
+        "scored": 54,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.392,
-        "early_rate": 0.137,
-        "hit_rate": 0.392
+        "coverage_rate": 0.37,
+        "early_rate": 0.13,
+        "hit_rate": 0.37
       },
       "weak_signal": {
-        "scored": 65,
+        "scored": 67,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.046,
-        "early_rate": 0.031,
-        "hit_rate": 0.046
+        "coverage_rate": 0.045,
+        "early_rate": 0.03,
+        "hit_rate": 0.045
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 116,
+    "n": 121,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.474,
-      "early_rate": 0.207
+      "coverage_rate": 0.479,
+      "early_rate": 0.223
     },
     "null_mean": {
-      "coverage_rate": 0.505,
-      "early_rate": 0.251
+      "coverage_rate": 0.514,
+      "early_rate": 0.262
     },
     "p_value": {
-      "coverage_rate": 0.991,
-      "early_rate": 0.971
+      "coverage_rate": 0.999,
+      "early_rate": 0.939
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -618,6 +600,18 @@
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "claude code",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-13",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "ai bubble",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-13",
+        "confidence": 0.4
+      },
       {
         "keyword": "anthropic",
         "signal_type": "emerging",
@@ -677,23 +671,25 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-10",
         "confidence": 0.2
-      },
-      {
-        "keyword": "machine consciousness",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-10",
-        "confidence": 0
-      },
-      {
-        "keyword": "ai safety",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-09",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
       {
-        "keyword": "cody",
+        "keyword": "claude code",
+        "recent_mentions": 102,
+        "prior_mentions": 4,
+        "change_ratio": 25.5,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "genspark",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "invideo",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
@@ -701,80 +697,66 @@
       },
       {
         "keyword": "rlhf",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
-        "change_ratio": 3.67,
+        "recent_mentions": 14,
+        "prior_mentions": 4,
+        "change_ratio": 3.5,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "genspark",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "databricks",
-        "recent_mentions": 16,
-        "prior_mentions": 7,
-        "change_ratio": 2.29,
-        "corroborating_sources": 2
       },
       {
         "keyword": "digital twin",
         "recent_mentions": 16,
-        "prior_mentions": 7,
-        "change_ratio": 2.29,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "reward hacking",
-        "recent_mentions": 9,
-        "prior_mentions": 4,
-        "change_ratio": 2.25,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "embodied ai",
-        "recent_mentions": 15,
-        "prior_mentions": 7,
-        "change_ratio": 2.14,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "ai regulation",
-        "recent_mentions": 7,
-        "prior_mentions": 4,
-        "change_ratio": 1.75,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "claude code",
-        "recent_mentions": 75,
-        "prior_mentions": 43,
-        "change_ratio": 1.74,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "replicate",
-        "recent_mentions": 10,
         "prior_mentions": 6,
-        "change_ratio": 1.67,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 13,
-        "prior_mentions": 8,
-        "change_ratio": 1.62,
+        "change_ratio": 2.67,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai safety",
-        "recent_mentions": 101,
-        "prior_mentions": 63,
-        "change_ratio": 1.6,
-        "corroborating_sources": 6
+        "keyword": "synthesia",
+        "recent_mentions": 5,
+        "prior_mentions": 2,
+        "change_ratio": 2.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "capcut",
+        "recent_mentions": 14,
+        "prior_mentions": 6,
+        "change_ratio": 2.33,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai code",
+        "recent_mentions": 14,
+        "prior_mentions": 6,
+        "change_ratio": 2.33,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "ai regulation",
+        "recent_mentions": 8,
+        "prior_mentions": 4,
+        "change_ratio": 2.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "voice ai",
+        "recent_mentions": 46,
+        "prior_mentions": 23,
+        "change_ratio": 2.0,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 16,
+        "prior_mentions": 9,
+        "change_ratio": 1.78,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "h100",
+        "recent_mentions": 13,
+        "prior_mentions": 8,
+        "change_ratio": 1.62,
+        "corroborating_sources": 2
       }
     ]
   }
