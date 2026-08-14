@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T07:14:40.089278",
-  "total_tracked": 3175,
+  "generated_at": "2026-08-14T19:16:25.543220",
+  "total_tracked": 3197,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "claude",
-      "mentions": 541,
-      "velocity": 5.7,
+      "mentions": 567,
+      "velocity": 13.5,
       "sources": [
         "articles",
         "arxiv",
@@ -37,13 +37,126 @@
           "source": "The Next Web"
         }
       ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 168,
+      "velocity": 6.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.72,
+      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "articles": [
+        {
+          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
+          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 102,
+      "velocity": 3.4,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "articles": [
+        {
+          "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+          "url": "https://github.com/leonickson1/Swiftlet",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 38,
+      "velocity": 2.2,
+      "sources": [
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.67,
+      "headline": "Microsoft lanceert binnenkort nieuwe ‘super-app’ voor Copilot",
+      "articles": [
+        {
+          "title": "Microsoft lanceert binnenkort nieuwe ‘super-app’ voor Copilot",
+          "url": "https://www.emerce.nl/nieuws/microsoft-lanceert-binnenkort-nieuwe-superapp-copilot",
+          "source": "Nieuws - Emerce"
+        },
+        {
+          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+          "url": "https://arxiv.org/abs/2608.00101",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "How to keep your conversations with ChatGPT, Gemini, Copilot or Claude as private as possible",
+          "url": "https://www.zdnet.com/article/how-to-keep-ai-conversations-private-chatgpt-gemini-copilot-claude/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
+          "source": "Artificial Intelligence"
+        }
+      ]
     }
   ],
   "emerging": [
     {
+      "keyword": "grok",
+      "mentions": 78,
+      "velocity": 4.6,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.46,
+      "headline": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
+      "articles": [
+        {
+          "title": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
+          "url": "https://www.tomshw.it/automotive/tesla-affida-a-grok-i-comandi-dellauto-ma-serve-un-chip-ryzen",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
       "keyword": "anthropic",
-      "mentions": 212,
-      "velocity": 5.1,
+      "mentions": 206,
+      "velocity": 3.3,
       "sources": [
         "articles",
         "github",
@@ -76,8 +189,8 @@
     },
     {
       "keyword": "nvidia",
-      "mentions": 74,
-      "velocity": 4.8,
+      "mentions": 69,
+      "velocity": 3.3,
       "sources": [
         "articles",
         "arxiv",
@@ -106,29 +219,6 @@
           "title": "Operationalize AI at scale with HPE and NVIDIA",
           "url": "https://www.theregister.com/ai-and-ml/2026/08/05/sponsored-operational-ai-at-scale-with-hpe-and-nvidia/5282929",
           "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 78,
-      "velocity": 4.6,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
-      "articles": [
-        {
-          "title": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
-          "url": "https://www.tomshw.it/automotive/tesla-affida-a-grok-i-comandi-dellauto-ma-serve-un-chip-ryzen",
-          "source": "Tom's Hardware"
         }
       ]
     }
@@ -165,6 +255,20 @@
       ]
     },
     {
+      "keyword": "pagedattention",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "inflection",
       "mentions": 2,
       "velocity": 1.0,
@@ -186,20 +290,6 @@
     },
     {
       "keyword": "webarena",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "pagedattention",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -326,16 +416,34 @@
       ]
     },
     {
-      "keyword": "deepinfra",
+      "keyword": "pretraining",
       "mentions": 2,
       "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
       "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.8,
+      "headline": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+      "articles": [
+        {
+          "title": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+          "url": "https://arxiv.org/abs/2608.03930",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Speech LLMs in Low-Resource Scenarios: Data Volume Requirements and the Impact of Pretraining on High-Resource Languages",
+          "url": "https://arxiv.org/abs/2508.05149",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Logographic Character Visual Pretraining via Semantic-based Contrastive Learning",
+          "url": "https://arxiv.org/abs/2608.00096",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "sustained": [
@@ -371,30 +479,20 @@
       ]
     },
     {
-      "keyword": "voice ai",
-      "mentions": 17,
-      "velocity": 1.5,
+      "keyword": "cursor",
+      "mentions": 46,
+      "velocity": 1.3,
       "sources": [
         "github",
-        "hackernews"
+        "hackernews",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "How we built a realtime system for responsive voice AI in six months",
-      "articles": [
-        {
-          "title": "How we built a realtime system for responsive voice AI in six months",
-          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-          "source": "OpenAI News"
-        },
-        {
-          "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-          "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-          "source": "TechCrunch"
-        }
-      ]
+      "expert_ratio": 0.37,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "mistral",
@@ -441,72 +539,6 @@
       "expert_ratio": 0.88,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 148,
-      "velocity": 0.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-      "articles": [
-        {
-          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
-          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "deepseek",
-      "mentions": 112,
-      "velocity": 0.3,
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
-      "articles": [
-        {
-          "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-          "source": "Hacker News"
-        },
-        {
-          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
-          "source": "Quartz"
-        }
-      ]
     }
   ],
   "track_record": {
@@ -613,6 +645,24 @@
         "confidence": 0.4
       },
       {
+        "keyword": "test-time compute",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-14",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "browser use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-14",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "constitutional ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-14",
+        "confidence": 0.2
+      },
+      {
         "keyword": "ai glasses",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-14",
@@ -659,32 +709,14 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-12",
         "confidence": 1.0
-      },
-      {
-        "keyword": "nvidia",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-12",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "neuromorphic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-12",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "minimax",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-12",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "claude code",
-        "recent_mentions": 129,
+        "recent_mentions": 130,
         "prior_mentions": 4,
-        "change_ratio": 32.25,
+        "change_ratio": 32.5,
         "corroborating_sources": 4
       },
       {
@@ -758,7 +790,7 @@
         "corroborating_sources": 3
       },
       {
-        "keyword": "luma",
+        "keyword": "notebooklm",
         "recent_mentions": 5,
         "prior_mentions": 2,
         "change_ratio": 2.5,
