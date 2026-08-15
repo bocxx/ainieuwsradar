@@ -1,41 +1,8 @@
 {
-  "generated_at": "2026-08-15T07:09:46.346736",
-  "total_tracked": 3026,
+  "generated_at": "2026-08-15T19:12:35.244210",
+  "total_tracked": 3050,
   "window_days": 14,
   "accelerating": [
-    {
-      "keyword": "anthropic",
-      "mentions": 216,
-      "velocity": 5.3,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
-      "articles": [
-        {
-          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
-          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "AI - Ars Technica"
-        }
-      ]
-    },
     {
       "keyword": "claude code",
       "mentions": 36,
@@ -51,13 +18,83 @@
       "expert_ratio": 0.0,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "grok",
+      "mentions": 77,
+      "velocity": 3.0,
+      "sources": [
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.47,
+      "headline": "",
+      "articles": []
     }
   ],
   "emerging": [
     {
+      "keyword": "gemini",
+      "mentions": 185,
+      "velocity": 9.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.73,
+      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "articles": [
+        {
+          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
+          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 111,
+      "velocity": 5.1,
+      "sources": [
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.95,
+      "headline": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "articles": [
+        {
+          "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+          "url": "https://github.com/leonickson1/Swiftlet",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
       "keyword": "claude",
-      "mentions": 568,
-      "velocity": 9.8,
+      "mentions": 549,
+      "velocity": 4.0,
       "sources": [
         "articles",
         "arxiv",
@@ -87,76 +124,6 @@
           "source": "The Next Web"
         }
       ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 175,
-      "velocity": 6.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-      "articles": [
-        {
-          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
-          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 105,
-      "velocity": 3.3,
-      "sources": [
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
-      "articles": [
-        {
-          "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
-          "url": "https://github.com/leonickson1/Swiftlet",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 74,
-      "velocity": 2.0,
-      "sources": [
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "hashicorp",
@@ -308,6 +275,31 @@
       "articles": []
     },
     {
+      "keyword": "clip",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "articles": [
+        {
+          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+          "url": "https://arxiv.org/abs/2403.09281",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
+          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
       "keyword": "alignment",
       "mentions": 3,
       "velocity": 0.8,
@@ -338,45 +330,6 @@
       ]
     },
     {
-      "keyword": "clip",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-      "articles": [
-        {
-          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-          "url": "https://arxiv.org/abs/2403.09281",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
-          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "constitutional ai",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "pretraining",
       "mentions": 2,
       "velocity": 0.4,
@@ -405,72 +358,70 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "constitutional ai",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "mistral",
-      "mentions": 23,
-      "velocity": 1.2,
+      "keyword": "anthropic",
+      "mentions": 203,
+      "velocity": 1.4,
       "sources": [
-        "arxiv",
+        "articles",
         "github",
-        "hackernews"
+        "hackernews",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
+      "expert_ratio": 0.89,
+      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
       "articles": [
         {
-          "title": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
-          "url": "https://www.techmeme.com/260804/p36#a260804p36",
-          "source": "Techmeme"
+          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-          "url": "https://mistral.ai/news/shieldstral/",
-          "source": "Hacker News"
+          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
+          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
+          "source": "Business Insider"
         },
         {
-          "title": "Mistral Is in the Right Place at the Right Time",
-          "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time/",
-          "source": "Feed: Artificial Intelligence Latest"
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "AI - Ars Technica"
         }
       ]
     },
     {
-      "keyword": "cursor",
-      "mentions": 46,
-      "velocity": 0.9,
-      "sources": [
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.37,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "nvidia",
-      "mentions": 60,
-      "velocity": -0.3,
+      "mentions": 55,
+      "velocity": -1.8,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
+      "expert_ratio": 0.76,
       "headline": "Elon pledges to give Nvidia a virtual monopoly over the stars",
       "articles": [
         {
@@ -589,6 +540,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "qwen",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-15",
+        "confidence": 0.4
+      },
+      {
         "keyword": "command r",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-15",
@@ -653,12 +610,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-13",
         "confidence": 0.6
-      },
-      {
-        "keyword": "ai bubble",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-13",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
@@ -684,17 +635,17 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "deepseek r1",
-        "recent_mentions": 14,
-        "prior_mentions": 2,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "veo",
         "recent_mentions": 7,
         "prior_mentions": 1,
         "change_ratio": 7.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "browser-use",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
@@ -705,10 +656,10 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "browser-use",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
+        "keyword": "deepseek r1",
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
         "corroborating_sources": 1
       },
       {
@@ -726,13 +677,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "blackwell",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "real-time voice",
         "recent_mentions": 8,
         "prior_mentions": 2,
@@ -740,10 +684,17 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai regulation",
-        "recent_mentions": 14,
+        "keyword": "blackwell",
+        "recent_mentions": 16,
         "prior_mentions": 4,
-        "change_ratio": 3.5,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai code",
+        "recent_mentions": 30,
+        "prior_mentions": 9,
+        "change_ratio": 3.33,
         "corroborating_sources": 3
       }
     ]
