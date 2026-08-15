@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-14T17:28:30+00:00",
+  "generated_at": "2026-08-15T05:21:23+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 124,
+    "scored_predictions": 130,
     "covered": 23,
-    "coverage_rate": 0.185,
+    "coverage_rate": 0.177,
     "early": 9,
-    "early_rate": 0.073,
+    "early_rate": 0.069,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.185,
+    "hit_rate": 0.177,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 54,
+        "scored": 59,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.37,
-        "early_rate": 0.13,
-        "hit_rate": 0.37
+        "coverage_rate": 0.339,
+        "early_rate": 0.119,
+        "hit_rate": 0.339
       },
       "weak_signal": {
-        "scored": 70,
+        "scored": 71,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.043,
-        "early_rate": 0.029,
-        "hit_rate": 0.043
+        "coverage_rate": 0.042,
+        "early_rate": 0.028,
+        "hit_rate": 0.042
       }
     }
   },

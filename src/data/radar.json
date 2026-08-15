@@ -1,21 +1,71 @@
 {
-  "generated_at": "2026-08-14T19:16:25.543220",
-  "total_tracked": 3197,
+  "generated_at": "2026-08-15T07:09:46.346736",
+  "total_tracked": 3026,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "anthropic",
+      "mentions": 216,
+      "velocity": 5.3,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.89,
+      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+      "articles": [
+        {
+          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
+          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "AI - Ars Technica"
+        }
+      ]
+    },
+    {
+      "keyword": "claude code",
+      "mentions": 36,
+      "velocity": 3.3,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "claude",
-      "mentions": 567,
-      "velocity": 13.5,
+      "mentions": 568,
+      "velocity": 9.8,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
-        "linkedin",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.77,
@@ -40,20 +90,19 @@
     },
     {
       "keyword": "gemini",
-      "mentions": 168,
-      "velocity": 6.4,
+      "mentions": 175,
+      "velocity": 6.6,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
-        "linkedin",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
+      "expert_ratio": 0.74,
       "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
       "articles": [
         {
@@ -75,17 +124,16 @@
     },
     {
       "keyword": "qwen",
-      "mentions": 102,
-      "velocity": 3.4,
+      "mentions": 105,
+      "velocity": 3.3,
       "sources": [
         "arxiv",
-        "hackernews",
-        "linkedin"
+        "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
+      "expert_ratio": 0.95,
       "headline": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
       "articles": [
         {
@@ -96,134 +144,67 @@
       ]
     },
     {
-      "keyword": "copilot",
-      "mentions": 38,
-      "velocity": 2.2,
-      "sources": [
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "Microsoft lanceert binnenkort nieuwe ‘super-app’ voor Copilot",
-      "articles": [
-        {
-          "title": "Microsoft lanceert binnenkort nieuwe ‘super-app’ voor Copilot",
-          "url": "https://www.emerce.nl/nieuws/microsoft-lanceert-binnenkort-nieuwe-superapp-copilot",
-          "source": "Nieuws - Emerce"
-        },
-        {
-          "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-          "url": "https://arxiv.org/abs/2608.00101",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "How to keep your conversations with ChatGPT, Gemini, Copilot or Claude as private as possible",
-          "url": "https://www.zdnet.com/article/how-to-keep-ai-conversations-private-chatgpt-gemini-copilot-claude/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
       "keyword": "grok",
-      "mentions": 78,
-      "velocity": 4.6,
+      "mentions": 74,
+      "velocity": 2.0,
       "sources": [
-        "arxiv",
         "hackernews",
-        "linkedin",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.46,
-      "headline": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
-      "articles": [
-        {
-          "title": "Tesla affida a Grok i comandi dell'auto, ma serve un chip Ryzen",
-          "url": "https://www.tomshw.it/automotive/tesla-affida-a-grok-i-comandi-dellauto-ma-serve-un-chip-ryzen",
-          "source": "Tom's Hardware"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "anthropic",
-      "mentions": 206,
-      "velocity": 3.3,
+      "keyword": "hashicorp",
+      "mentions": 3,
+      "velocity": 2.0,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
+        "hackernews"
       ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
-      "articles": [
-        {
-          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
-          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "AI - Ars Technica"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 69,
-      "velocity": 3.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Elon pledges to give Nvidia a virtual monopoly over the stars",
-      "articles": [
-        {
-          "title": "Elon pledges to give Nvidia a virtual monopoly over the stars",
-          "url": "https://www.theregister.com/systems/2026/08/05/elon-pledges-to-give-nvidia-a-virtual-monopoly-over-the-stars/5283605",
-          "source": "The Register"
-        },
-        {
-          "title": "Elon Musk says SpaceX has decided to \"build exclusively on Nvidia because we think the Vera Rubin architecture is the be",
-          "url": "https://www.techmeme.com/260805/p25#a260805p25",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Operationalize AI at scale with HPE and NVIDIA",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/05/sponsored-operational-ai-at-scale-with-hpe-and-nvidia/5282929",
-          "source": "The Register"
-        }
-      ]
+      "source_count": 2,
+      "confidence": 78,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "",
+      "articles": []
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "nudify",
+      "mentions": 3,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 2,
+      "expert_ratio": 0.8,
+      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "articles": [
+        {
+          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
+          "url": "https://www.techmeme.com/260801/p16#a260801p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
+          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
+          "source": "Engadget"
+        }
+      ]
+    },
     {
       "keyword": "easy",
       "mentions": 2,
@@ -255,7 +236,7 @@
       ]
     },
     {
-      "keyword": "pagedattention",
+      "keyword": "inflection",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -267,26 +248,6 @@
       "expert_ratio": 0.67,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "inflection",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "AI Has Reached an Inflection Point",
-      "articles": [
-        {
-          "title": "AI Has Reached an Inflection Point",
-          "url": "https://www.bloomberg.com/news/videos/2026-07-31/ai-has-reached-an-inflection-point-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
     },
     {
       "keyword": "webarena",
@@ -303,18 +264,34 @@
       "articles": []
     },
     {
-      "keyword": "constitutional ai",
+      "keyword": "controls",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
-        "arxiv"
+        "articles"
       ],
       "source_count": 1,
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
+      "headline": "Amazon’s Zoox to Levy Fares, in US First for Controls-Free Taxis",
+      "articles": [
+        {
+          "title": "Amazon’s Zoox to Levy Fares, in US First for Controls-Free Taxis",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/amazon-s-zoox-to-levy-fares-in-us-first-for-controls-free-taxis",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Warren is demanding Commerce explain UAE export controls after Trump crypto deal",
+          "url": "https://qz.com/warren-commerce-uae-export-controls-trump-crypto-080526",
+          "source": "Quartz"
+        },
+        {
+          "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
+          "url": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
+          "source": "The Next Web"
+        }
+      ]
     },
     {
       "keyword": "nemo",
@@ -386,34 +363,18 @@
       ]
     },
     {
-      "keyword": "nudify",
-      "mentions": 3,
-      "velocity": 0.6,
+      "keyword": "constitutional ai",
+      "mentions": 2,
+      "velocity": 0.4,
       "sources": [
-        "articles"
+        "arxiv"
       ],
       "source_count": 1,
-      "confidence": 69,
+      "confidence": 65,
       "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-      "articles": [
-        {
-          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
-          "url": "https://www.techmeme.com/260801/p16#a260801p16",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
-          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
-          "source": "Engadget"
-        }
-      ]
+      "expert_ratio": 0.8,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "pretraining",
@@ -448,64 +409,18 @@
   ],
   "sustained": [
     {
-      "keyword": "code generation",
-      "mentions": 24,
-      "velocity": 1.8,
+      "keyword": "mistral",
+      "mentions": 23,
+      "velocity": 1.2,
       "sources": [
         "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "COMPAS: Difficulty-Aware Joint Search for Optimizing Code Generation",
-      "articles": [
-        {
-          "title": "COMPAS: Difficulty-Aware Joint Search for Optimizing Code Generation",
-          "url": "https://arxiv.org/abs/2608.04336",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ExeCRE: Execution-Consistency Guided Reliability Estimation for Self-Correcting Code Generation",
-          "url": "https://arxiv.org/abs/2608.04439",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Route-Align-Verify for Functional Correctness in Code Generation",
-          "url": "https://arxiv.org/abs/2608.03341",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 46,
-      "velocity": 1.3,
-      "sources": [
         "github",
-        "hackernews",
-        "twitter"
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.37,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 22,
-      "velocity": 1.2,
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.86,
+      "expert_ratio": 0.87,
       "headline": "Mistral releases Shieldstral, a 3B multimodal safety classifier that it says matches models up to 7x its size on text sa",
       "articles": [
         {
@@ -526,69 +441,104 @@
       ]
     },
     {
-      "keyword": "gpt-4",
-      "mentions": 21,
-      "velocity": 0.6,
+      "keyword": "cursor",
+      "mentions": 46,
+      "velocity": 0.9,
       "sources": [
-        "arxiv",
+        "github",
+        "hackernews",
         "twitter"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
+      "expert_ratio": 0.37,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "nvidia",
+      "mentions": 60,
+      "velocity": -0.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Elon pledges to give Nvidia a virtual monopoly over the stars",
+      "articles": [
+        {
+          "title": "Elon pledges to give Nvidia a virtual monopoly over the stars",
+          "url": "https://www.theregister.com/systems/2026/08/05/elon-pledges-to-give-nvidia-a-virtual-monopoly-over-the-stars/5283605",
+          "source": "The Register"
+        },
+        {
+          "title": "Elon Musk says SpaceX has decided to \"build exclusively on Nvidia because we think the Vera Rubin architecture is the be",
+          "url": "https://www.techmeme.com/260805/p25#a260805p25",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Operationalize AI at scale with HPE and NVIDIA",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/05/sponsored-operational-ai-at-scale-with-hpe-and-nvidia/5282929",
+          "source": "The Register"
+        }
+      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 124,
+    "scored_predictions": 130,
     "covered": 23,
-    "coverage_rate": 0.185,
+    "coverage_rate": 0.177,
     "early": 9,
-    "early_rate": 0.073,
+    "early_rate": 0.069,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.185,
+    "hit_rate": 0.177,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 54,
+        "scored": 59,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.37,
-        "early_rate": 0.13,
-        "hit_rate": 0.37
+        "coverage_rate": 0.339,
+        "early_rate": 0.119,
+        "hit_rate": 0.339
       },
       "weak_signal": {
-        "scored": 70,
+        "scored": 71,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.043,
-        "early_rate": 0.029,
-        "hit_rate": 0.043
+        "coverage_rate": 0.042,
+        "early_rate": 0.028,
+        "hit_rate": 0.042
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 124,
+    "n": 130,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.468,
-      "early_rate": 0.218
+      "coverage_rate": 0.462,
+      "early_rate": 0.208
     },
     "null_mean": {
-      "coverage_rate": 0.503,
-      "early_rate": 0.255
+      "coverage_rate": 0.497,
+      "early_rate": 0.252
     },
     "p_value": {
-      "coverage_rate": 0.997,
-      "early_rate": 0.947
+      "coverage_rate": 0.998,
+      "early_rate": 0.968
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -638,6 +588,18 @@
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "command r",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-15",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "cerebras",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-15",
+        "confidence": 0
+      },
       {
         "keyword": "voice ai",
         "signal_type": "emerging",
@@ -697,104 +659,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-13",
         "confidence": 0.4
-      },
-      {
-        "keyword": "inflection",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-13",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-12",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "claude code",
-        "recent_mentions": 130,
-        "prior_mentions": 4,
-        "change_ratio": 32.5,
-        "corroborating_sources": 4
+        "keyword": "test-time compute",
+        "recent_mentions": 27,
+        "prior_mentions": 2,
+        "change_ratio": 13.5,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "invideo",
+        "keyword": "windsurf",
         "recent_mentions": 7,
         "prior_mentions": 1,
         "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "blackwell",
-        "recent_mentions": 13,
+        "keyword": "groq",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "deepseek r1",
+        "recent_mentions": 14,
         "prior_mentions": 2,
-        "change_ratio": 6.5,
-        "corroborating_sources": 2
+        "change_ratio": 7.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "veo",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "firefly",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "browser-use",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "heygen",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "cody",
+        "keyword": "adobe firefly",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "blackwell",
+        "recent_mentions": 16,
+        "prior_mentions": 4,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "real-time voice",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "machine consciousness",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "genspark",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai code",
-        "recent_mentions": 26,
-        "prior_mentions": 7,
-        "change_ratio": 3.71,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "rlhf",
-        "recent_mentions": 19,
-        "prior_mentions": 6,
-        "change_ratio": 3.17,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "grammarly",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "ai regulation",
-        "recent_mentions": 11,
+        "recent_mentions": 14,
         "prior_mentions": 4,
-        "change_ratio": 2.75,
+        "change_ratio": 3.5,
         "corroborating_sources": 3
-      },
-      {
-        "keyword": "notebooklm",
-        "recent_mentions": 5,
-        "prior_mentions": 2,
-        "change_ratio": 2.5,
-        "corroborating_sources": 1
       }
     ]
   }

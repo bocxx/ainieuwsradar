@@ -1,101 +1,119 @@
 {
-  "generated_at": "2026-08-14T17:28:44+00:00",
+  "generated_at": "2026-08-15T05:21:38+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 97,
-    "resolved": 63,
+    "resolved": 65,
     "hits": 18,
-    "misses": 45,
-    "hit_rate": 0.286
+    "misses": 47,
+    "hit_rate": 0.277
   },
   "open": [
-    {
-      "keyword": "ai winter",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-30",
-      "days_left": 0
-    },
     {
       "keyword": "tflops",
       "signal_type": "emerging",
       "flagged_on": "2026-07-01",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "synthetic data",
       "signal_type": "emerging",
       "flagged_on": "2026-07-01",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "deepseek r1",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "ai regulation",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "mistral ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-02",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "claude sonnet",
       "signal_type": "emerging",
       "flagged_on": "2026-07-02",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "langflow",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-04",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "ai coding",
       "signal_type": "emerging",
       "flagged_on": "2026-07-05",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "liquid neural network",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-05",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "b200",
       "signal_type": "emerging",
       "flagged_on": "2026-07-07",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "h100",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-08",
+      "days_left": 7
+    },
+    {
+      "keyword": "openai sdk",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-07-09",
       "days_left": 8
     }
   ],
   "recent_resolved": [
     {
-      "keyword": "voice mode",
-      "signal_type": "emerging",
+      "keyword": "browser-use",
+      "signal_type": "weak_signal",
       "status": "miss",
-      "flagged_on": "2026-06-29",
+      "flagged_on": "2026-06-30",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
     },
     {
-      "keyword": "browser-use",
+      "keyword": "thinking model",
       "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-06-30",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "ai winter",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-06-30",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "voice mode",
+      "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-29",
       "resolved_on": null,
@@ -188,24 +206,6 @@
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-06-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-06-24",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "hermes-agent",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-06-24",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
