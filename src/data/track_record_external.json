@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-08-15T17:25:11+00:00",
+  "generated_at": "2026-08-16T05:26:08+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 130,
+    "scored_predictions": 135,
     "covered": 23,
-    "coverage_rate": 0.177,
+    "coverage_rate": 0.17,
     "early": 9,
-    "early_rate": 0.069,
+    "early_rate": 0.067,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.177,
+    "hit_rate": 0.17,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 59,
+        "scored": 61,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.339,
-        "early_rate": 0.119,
-        "hit_rate": 0.339
+        "coverage_rate": 0.328,
+        "early_rate": 0.115,
+        "hit_rate": 0.328
       },
       "weak_signal": {
-        "scored": 71,
+        "scored": 74,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.042,
-        "early_rate": 0.028,
-        "hit_rate": 0.042
+        "coverage_rate": 0.041,
+        "early_rate": 0.027,
+        "hit_rate": 0.041
       }
     }
   },
@@ -64,17 +64,17 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
+      "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
       "lead_days": 4
     }
   ],

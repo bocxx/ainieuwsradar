@@ -1,79 +1,12 @@
 {
-  "generated_at": "2026-08-15T19:12:35.244210",
-  "total_tracked": 3050,
+  "generated_at": "2026-08-16T07:12:39.127215",
+  "total_tracked": 2905,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "claude code",
-      "mentions": 36,
-      "velocity": 3.3,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "grok",
-      "mentions": 77,
-      "velocity": 3.0,
-      "sources": [
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "",
-      "articles": []
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "gemini",
-      "mentions": 185,
-      "velocity": 9.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-      "articles": [
-        {
-          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
-          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
       "keyword": "qwen",
-      "mentions": 111,
-      "velocity": 5.1,
+      "mentions": 121,
+      "velocity": 6.6,
       "sources": [
         "arxiv",
         "hackernews"
@@ -92,58 +25,41 @@
       ]
     },
     {
-      "keyword": "claude",
-      "mentions": 549,
-      "velocity": 4.0,
+      "keyword": "grok",
+      "mentions": 79,
+      "velocity": 2.7,
       "sources": [
-        "articles",
-        "arxiv",
-        "github",
         "hackernews",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
-      "articles": [
-        {
-          "title": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260804034634.htm",
-          "source": "ScienceDaily"
-        },
-        {
-          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
-          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Anthropic confirmed it is designing custom chips for Claude. It wants engineers who have “shipped silicon.”",
-          "url": "https://thenextweb.com/news/anthropic-in-house-chip-team-custom-silicon-claude",
-          "source": "The Next Web"
-        }
-      ]
-    },
+      "expert_ratio": 0.47,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "emerging": [
     {
-      "keyword": "hashicorp",
-      "mentions": 3,
+      "keyword": "claude code",
+      "mentions": 35,
       "velocity": 2.0,
       "sources": [
-        "articles",
-        "hackernews"
+        "hackernews",
+        "twitter"
       ],
       "source_count": 2,
-      "confidence": 78,
-      "days_active": 2,
-      "expert_ratio": 0.75,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
       "headline": "",
       "articles": []
     }
   ],
   "weak_signals": [
     {
-      "keyword": "nudify",
+      "keyword": "title",
       "mentions": 3,
       "velocity": 1.0,
       "sources": [
@@ -153,52 +69,12 @@
       "confidence": 65,
       "days_active": 2,
       "expert_ratio": 0.8,
-      "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "headline": "Salesforce appoints Miguel Milano, its chief revenue officer, as COO; Chief Operating and Financial Officer Robin Washin",
       "articles": [
         {
-          "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "US judge refuses xAI's request to stop a Minnesota law banning \"nudify\" apps, noting the request came only three days be",
-          "url": "https://www.techmeme.com/260801/p16#a260801p16",
+          "title": "Salesforce appoints Miguel Milano, its chief revenue officer, as COO; Chief Operating and Financial Officer Robin Washin",
+          "url": "https://www.techmeme.com/260805/p40#a260805p40",
           "source": "Techmeme"
-        },
-        {
-          "title": "Judge refuses xAI's request to stop a Minnesota law banning 'nudify' apps",
-          "url": "https://www.engadget.com/2228460/judge-refuses-xai-request-to-stop-minnesota-law-banning-nudify-apps/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
-      "keyword": "easy",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
-      "articles": [
-        {
-          "title": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
-          "url": "https://arxiv.org/abs/2511.21692",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Easy to Complete, Hard to Choose: Investigating LLM Performance on the ProverbIT Benchmark",
-          "url": "https://arxiv.org/abs/2608.04670",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "EASy: Towards Efficient LLM-Based Agentic System",
-          "url": "https://arxiv.org/abs/2608.04588",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -231,48 +107,34 @@
       "articles": []
     },
     {
-      "keyword": "controls",
+      "keyword": "easy",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
-        "articles"
+        "arxiv"
       ],
       "source_count": 1,
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Amazon’s Zoox to Levy Fares, in US First for Controls-Free Taxis",
+      "headline": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
       "articles": [
         {
-          "title": "Amazon’s Zoox to Levy Fares, in US First for Controls-Free Taxis",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-05/amazon-s-zoox-to-levy-fares-in-us-first-for-controls-free-taxis",
-          "source": "Bloomberg Technology"
+          "title": "Revisiting Generalization Across Difficulty Levels: It's Not So Easy",
+          "url": "https://arxiv.org/abs/2511.21692",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Warren is demanding Commerce explain UAE export controls after Trump crypto deal",
-          "url": "https://qz.com/warren-commerce-uae-export-controls-trump-crypto-080526",
-          "source": "Quartz"
+          "title": "Easy to Complete, Hard to Choose: Investigating LLM Performance on the ProverbIT Benchmark",
+          "url": "https://arxiv.org/abs/2608.04670",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "15 states want every record of the OpenAI agent that left itself notes on escaping its own controls",
-          "url": "https://thenextweb.com/news/openai-15-attorneys-general-preserve-evidence-hugging-face-hack",
-          "source": "The Next Web"
+          "title": "EASy: Towards Efficient LLM-Based Agentic System",
+          "url": "https://arxiv.org/abs/2608.04588",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "nemo",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "clip",
@@ -300,34 +162,18 @@
       ]
     },
     {
-      "keyword": "alignment",
+      "keyword": "nemo",
       "mentions": 3,
       "velocity": 0.8,
       "sources": [
-        "github"
+        "arxiv"
       ],
       "source_count": 1,
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "The White House’s Secret A.I. Rules + The State of Model Alignment With METR’s Chris Painter + The Final Hot Mess Expres",
-      "articles": [
-        {
-          "title": "The White House’s Secret A.I. Rules + The State of Model Alignment With METR’s Chris Painter + The Final Hot Mess Expres",
-          "url": "https://www.nytimes.com/column/hard-fork",
-          "source": "Hard Fork"
-        },
-        {
-          "title": "Multimodal Alignment Through Joint Kernel Entropic Gromov--Wasserstein Optimal Transport",
-          "url": "https://arxiv.org/abs/2608.04234",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models",
-          "url": "https://arxiv.org/abs/2608.02684",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "pretraining",
@@ -360,7 +206,7 @@
       ]
     },
     {
-      "keyword": "constitutional ai",
+      "keyword": "code completion",
       "mentions": 2,
       "velocity": 0.4,
       "sources": [
@@ -372,13 +218,55 @@
       "expert_ratio": 0.8,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "openmontage",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 5,
+      "expert_ratio": 0.82,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "terminal",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 52,
+      "days_active": 4,
+      "expert_ratio": 0.67,
+      "headline": "Terminal Agents Suffice for Enterprise Automation",
+      "articles": [
+        {
+          "title": "Terminal Agents Suffice for Enterprise Automation",
+          "url": "https://arxiv.org/abs/2604.00073",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Meta wants to get inside your terminal with its new coding agent",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-wants-to-get-inside-your-terminal-with-its-new-coding-agent/5283717",
+          "source": "The Register"
+        },
+        {
+          "title": "Meta releases Muse Code in beta, a terminal coding agent powered by Muse Spark 1.2, a coding-focused model priced at $1.",
+          "url": "https://www.techmeme.com/260805/p34#a260805p34",
+          "source": "Techmeme"
+        }
+      ]
     }
   ],
   "sustained": [
     {
       "keyword": "anthropic",
-      "mentions": 203,
-      "velocity": 1.4,
+      "mentions": 204,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "github",
@@ -404,14 +292,48 @@
         {
           "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
           "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "AI - Ars Technica"
+          "source": "Ars Technica"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 165,
+      "velocity": 0.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.74,
+      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "articles": [
+        {
+          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
+          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "source": "The Next Web"
         }
       ]
     },
     {
       "keyword": "nvidia",
-      "mentions": 55,
-      "velocity": -1.8,
+      "mentions": 56,
+      "velocity": -0.9,
       "sources": [
         "articles",
         "arxiv",
@@ -421,7 +343,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
+      "expert_ratio": 0.75,
       "headline": "Elon pledges to give Nvidia a virtual monopoly over the stars",
       "articles": [
         {
@@ -443,53 +365,53 @@
     }
   ],
   "track_record": {
-    "scored_predictions": 130,
+    "scored_predictions": 135,
     "covered": 23,
-    "coverage_rate": 0.177,
+    "coverage_rate": 0.17,
     "early": 9,
-    "early_rate": 0.069,
+    "early_rate": 0.067,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.177,
+    "hit_rate": 0.17,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 59,
+        "scored": 61,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.339,
-        "early_rate": 0.119,
-        "hit_rate": 0.339
+        "coverage_rate": 0.328,
+        "early_rate": 0.115,
+        "hit_rate": 0.328
       },
       "weak_signal": {
-        "scored": 71,
+        "scored": 74,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.042,
-        "early_rate": 0.028,
-        "hit_rate": 0.042
+        "coverage_rate": 0.041,
+        "early_rate": 0.027,
+        "hit_rate": 0.041
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 130,
+    "n": 135,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.462,
-      "early_rate": 0.208
+      "coverage_rate": 0.474,
+      "early_rate": 0.207
     },
     "null_mean": {
-      "coverage_rate": 0.497,
-      "early_rate": 0.252
+      "coverage_rate": 0.509,
+      "early_rate": 0.26
     },
     "p_value": {
       "coverage_rate": 0.998,
-      "early_rate": 0.968
+      "early_rate": 0.993
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -523,22 +445,34 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
       "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
+      "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "cuda",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-16",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "higgsfield",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-16",
+        "confidence": 0.2
+      },
       {
         "keyword": "qwen",
         "signal_type": "emerging",
@@ -588,79 +522,53 @@
         "confidence": 0.2
       },
       {
-        "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-13",
-        "confidence": 1.0
-      },
-      {
         "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-08-13",
         "confidence": 1.0
       },
       {
-        "keyword": "grok",
+        "keyword": "gemini",
         "signal_type": "emerging",
         "flagged_on": "2026-08-13",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "claude code",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-13",
-        "confidence": 0.6
+        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
         "keyword": "test-time compute",
-        "recent_mentions": 27,
-        "prior_mentions": 2,
-        "change_ratio": 13.5,
+        "recent_mentions": 35,
+        "prior_mentions": 4,
+        "change_ratio": 8.75,
         "corroborating_sources": 1
       },
       {
-        "keyword": "windsurf",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
+        "keyword": "cuda",
+        "recent_mentions": 21,
+        "prior_mentions": 3,
         "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "groq",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
         "keyword": "veo",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "browser-use",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "firefly",
+        "keyword": "devin",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "deepseek r1",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 1
+        "keyword": "lindy",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "heygen",
@@ -670,32 +578,46 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "adobe firefly",
+        "keyword": "grammarly",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "real-time voice",
+        "keyword": "groq",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "blackwell",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
+        "keyword": "ai sdk",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
         "change_ratio": 4.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
-        "keyword": "ai code",
-        "recent_mentions": 30,
-        "prior_mentions": 9,
-        "change_ratio": 3.33,
-        "corroborating_sources": 3
+        "keyword": "ai glasses",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "glean",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "windsurf",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
       }
     ]
   }
