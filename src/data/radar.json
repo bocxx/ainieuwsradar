@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-16T07:12:39.127215",
-  "total_tracked": 2905,
+  "generated_at": "2026-08-16T19:34:59.744921",
+  "total_tracked": 2924,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "qwen",
-      "mentions": 121,
-      "velocity": 6.6,
+      "mentions": 127,
+      "velocity": 8.4,
       "sources": [
         "arxiv",
         "hackernews"
@@ -23,24 +23,43 @@
           "source": "Hacker News"
         }
       ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 79,
-      "velocity": 2.7,
-      "sources": [
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "",
-      "articles": []
     }
   ],
   "emerging": [
+    {
+      "keyword": "gemini",
+      "mentions": 171,
+      "velocity": 2.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.74,
+      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "articles": [
+        {
+          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
+          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "source": "The Next Web"
+        }
+      ]
+    },
     {
       "keyword": "claude code",
       "mentions": 35,
@@ -55,6 +74,37 @@
       "expert_ratio": 0.0,
       "headline": "",
       "articles": []
+    },
+    {
+      "keyword": "kimi",
+      "mentions": 9,
+      "velocity": 1.9,
+      "sources": [
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.07,
+      "headline": "Alibaba prices Qwen3.8-Max at $2 per 1M input tokens and $6 per 1M output tokens via its API, below Kimi K3's $3/1M inpu",
+      "articles": [
+        {
+          "title": "Alibaba prices Qwen3.8-Max at $2 per 1M input tokens and $6 per 1M output tokens via its API, below Kimi K3's $3/1M inpu",
+          "url": "https://www.techmeme.com/260803/p13#a260803p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Artificial Analysis: DeepSeek's V4-Flash costs $0.14/1M input and $0.28/1M output tokens, or $0.03 per test, far below K",
+          "url": "https://www.techmeme.com/260803/p12#a260803p12",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Alibaba Offers New Flagship Model at Lower Prices Than Kimi K3",
+          "url": "https://www.theinformation.com/briefings/alibaba-offers-new-flagship-model-lower-prices-kimi-k3",
+          "source": "The Information"
+        }
+      ]
     }
   ],
   "weak_signals": [
@@ -77,34 +127,6 @@
           "source": "Techmeme"
         }
       ]
-    },
-    {
-      "keyword": "inflection",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "webarena",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "easy",
@@ -137,16 +159,58 @@
       ]
     },
     {
-      "keyword": "clip",
+      "keyword": "inflection",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "webarena",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "nemo",
       "mentions": 3,
       "velocity": 0.8,
       "sources": [
-        "github"
+        "arxiv"
       ],
       "source_count": 1,
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "clip",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
       "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
       "articles": [
         {
@@ -162,16 +226,16 @@
       ]
     },
     {
-      "keyword": "nemo",
-      "mentions": 3,
-      "velocity": 0.8,
+      "keyword": "code completion",
+      "mentions": 2,
+      "velocity": 0.4,
       "sources": [
         "arxiv"
       ],
       "source_count": 1,
-      "confidence": 69,
+      "confidence": 65,
       "days_active": 3,
-      "expert_ratio": 0.86,
+      "expert_ratio": 0.8,
       "headline": "",
       "articles": []
     },
@@ -204,20 +268,6 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "code completion",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "",
-      "articles": []
     },
     {
       "keyword": "openmontage",
@@ -264,11 +314,26 @@
   ],
   "sustained": [
     {
-      "keyword": "anthropic",
-      "mentions": 204,
-      "velocity": 1.3,
+      "keyword": "grok",
+      "mentions": 73,
+      "velocity": 0.9,
       "sources": [
-        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.47,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 45,
+      "velocity": 0.6,
+      "sources": [
+        "arxiv",
         "github",
         "hackernews",
         "twitter"
@@ -276,90 +341,61 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+      "expert_ratio": 0.37,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 160,
+      "velocity": -1.5,
+      "sources": [
+        "arxiv",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.51,
+      "headline": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
       "articles": [
         {
-          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+          "title": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+          "url": "https://www.techradar.com/pro/fbi-agent-accused-of-stealing-usd1-million-in-crypto-and-he-even-consulted-chatgpt-on-how-to-leave-the-country",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 100,
+      "velocity": -1.6,
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
+      "articles": [
+        {
+          "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
           "source": "Bloomberg Technology"
         },
         {
-          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
-          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
-          "source": "Business Insider"
+          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+          "source": "Hacker News"
         },
         {
-          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "source": "Ars Technica"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 165,
-      "velocity": 0.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-      "articles": [
-        {
-          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
-          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 56,
-      "velocity": -0.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Elon pledges to give Nvidia a virtual monopoly over the stars",
-      "articles": [
-        {
-          "title": "Elon pledges to give Nvidia a virtual monopoly over the stars",
-          "url": "https://www.theregister.com/systems/2026/08/05/elon-pledges-to-give-nvidia-a-virtual-monopoly-over-the-stars/5283605",
-          "source": "The Register"
-        },
-        {
-          "title": "Elon Musk says SpaceX has decided to \"build exclusively on Nvidia because we think the Vera Rubin architecture is the be",
-          "url": "https://www.techmeme.com/260805/p25#a260805p25",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Operationalize AI at scale with HPE and NVIDIA",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/05/sponsored-operational-ai-at-scale-with-hpe-and-nvidia/5282929",
-          "source": "The Register"
+          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
+          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
+          "source": "Quartz"
         }
       ]
     }
@@ -468,6 +504,12 @@
         "confidence": 0.4
       },
       {
+        "keyword": "kimi",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-16",
+        "confidence": 0.2
+      },
+      {
         "keyword": "higgsfield",
         "signal_type": "emerging",
         "flagged_on": "2026-08-16",
@@ -498,8 +540,8 @@
         "confidence": 0.4
       },
       {
-        "keyword": "test-time compute",
-        "signal_type": "emerging",
+        "keyword": "constitutional ai",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-08-14",
         "confidence": 0.2
       },
@@ -510,8 +552,8 @@
         "confidence": 0.2
       },
       {
-        "keyword": "constitutional ai",
-        "signal_type": "weak_signal",
+        "keyword": "test-time compute",
+        "signal_type": "emerging",
         "flagged_on": "2026-08-14",
         "confidence": 0.2
       },
@@ -520,12 +562,6 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-14",
         "confidence": 0.2
-      },
-      {
-        "keyword": "claude",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-13",
-        "confidence": 1.0
       },
       {
         "keyword": "gemini",
@@ -544,10 +580,17 @@
       },
       {
         "keyword": "cuda",
-        "recent_mentions": 21,
+        "recent_mentions": 18,
         "prior_mentions": 3,
-        "change_ratio": 7.0,
+        "change_ratio": 6.0,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "devin",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "veo",
@@ -557,10 +600,10 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "devin",
-        "recent_mentions": 6,
+        "keyword": "heygen",
+        "recent_mentions": 5,
         "prior_mentions": 1,
-        "change_ratio": 6.0,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
@@ -571,13 +614,6 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "heygen",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "grammarly",
         "recent_mentions": 5,
         "prior_mentions": 1,
@@ -585,14 +621,14 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "groq",
+        "keyword": "ai sdk",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai sdk",
+        "keyword": "glean",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
@@ -606,14 +642,14 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "glean",
+        "keyword": "windsurf",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "windsurf",
+        "keyword": "groq",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
