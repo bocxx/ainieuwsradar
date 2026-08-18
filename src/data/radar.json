@@ -1,133 +1,130 @@
 {
-  "generated_at": "2026-08-16T19:34:59.744921",
-  "total_tracked": 2924,
+  "generated_at": "2026-08-18T19:12:07.114260",
+  "total_tracked": 2639,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "qwen",
-      "mentions": 127,
-      "velocity": 8.4,
+      "mentions": 178,
+      "velocity": 21.4,
       "sources": [
         "arxiv",
         "hackernews"
       ],
       "source_count": 2,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "days_active": 14,
+      "expert_ratio": 0.96,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 57,
+      "velocity": 4.0,
+      "sources": [
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.37,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 34,
+      "velocity": 2.9,
+      "sources": [
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.47,
+      "headline": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
       "articles": [
         {
-          "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
-          "url": "https://github.com/leonickson1/Swiftlet",
-          "source": "Hacker News"
+          "title": "Meta enters the AI coding wars with Muse Spark 1.2 and Muse Code with persistent async background agents",
+          "url": "https://venturebeat.com/orchestration/meta-enters-the-ai-coding-wars-with-muse-spark-1-2-and-muse-code-with-persistent-async-background-agents",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Meta Debuts AI Coding Agent in Race With OpenAI and Anthropic",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/meta-debuts-ai-coding-agent-in-race-with-openai-and-anthropic",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Meta Debuts New AI Coding Tools",
+          "url": "https://www.theinformation.com/briefings/meta-debuts-new-ai-coding-tools",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 171,
+      "velocity": 2.3,
+      "sources": [
+        "arxiv",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.51,
+      "headline": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+      "articles": [
+        {
+          "title": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+          "url": "https://www.techradar.com/pro/fbi-agent-accused-of-stealing-usd1-million-in-crypto-and-he-even-consulted-chatgpt-on-how-to-leave-the-country",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "gemini",
-      "mentions": 171,
-      "velocity": 2.5,
+      "keyword": "simulation",
+      "mentions": 43,
+      "velocity": 2.8,
       "sources": [
-        "articles",
         "arxiv",
-        "github",
         "hackernews",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+      "days_active": 14,
+      "expert_ratio": 0.93,
+      "headline": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
       "articles": [
         {
-          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
-          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
-          "source": "The Next Web"
+          "title": "TerraZero: Procedural Driving Simulation for Zero-Demonstration Self-Play at Scale",
+          "url": "https://arxiv.org/abs/2607.13028",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
-          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
+          "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
+          "url": "https://arxiv.org/abs/2608.05030",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
-          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 35,
-      "velocity": 2.0,
-      "sources": [
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "kimi",
-      "mentions": 9,
-      "velocity": 1.9,
-      "sources": [
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.07,
-      "headline": "Alibaba prices Qwen3.8-Max at $2 per 1M input tokens and $6 per 1M output tokens via its API, below Kimi K3's $3/1M inpu",
-      "articles": [
-        {
-          "title": "Alibaba prices Qwen3.8-Max at $2 per 1M input tokens and $6 per 1M output tokens via its API, below Kimi K3's $3/1M inpu",
-          "url": "https://www.techmeme.com/260803/p13#a260803p13",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Artificial Analysis: DeepSeek's V4-Flash costs $0.14/1M input and $0.28/1M output tokens, or $0.03 per test, far below K",
-          "url": "https://www.techmeme.com/260803/p12#a260803p12",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Alibaba Offers New Flagship Model at Lower Prices Than Kimi K3",
-          "url": "https://www.theinformation.com/briefings/alibaba-offers-new-flagship-model-lower-prices-kimi-k3",
-          "source": "The Information"
+          "title": "Emulate or Estimate? The Divergent Strengths of Base and Post-Trained Language Models for Opinion Simulation",
+          "url": "https://arxiv.org/abs/2608.03044",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "title",
-      "mentions": 3,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 2,
-      "expert_ratio": 0.8,
-      "headline": "Salesforce appoints Miguel Milano, its chief revenue officer, as COO; Chief Operating and Financial Officer Robin Washin",
-      "articles": [
-        {
-          "title": "Salesforce appoints Miguel Milano, its chief revenue officer, as COO; Chief Operating and Financial Officer Robin Washin",
-          "url": "https://www.techmeme.com/260805/p40#a260805p40",
-          "source": "Techmeme"
-        }
-      ]
-    },
     {
       "keyword": "easy",
       "mentions": 2,
@@ -159,7 +156,7 @@
       ]
     },
     {
-      "keyword": "inflection",
+      "keyword": "duckduckgo",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -173,69 +170,42 @@
       "articles": []
     },
     {
-      "keyword": "webarena",
+      "keyword": "coding",
       "mentions": 2,
       "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "nemo",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "clip",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
-      "headline": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
+      "headline": "SciCode-Verified: How Benchmark Defects Underestimated the Scientific-Coding Ability of Language Models",
       "articles": [
         {
-          "title": "CLIP-EBC: CLIP Can Count Accurately through Enhanced Blockwise Classification",
-          "url": "https://arxiv.org/abs/2403.09281",
+          "title": "SciCode-Verified: How Benchmark Defects Underestimated the Scientific-Coding Ability of Language Models",
+          "url": "https://arxiv.org/abs/2608.04975",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "CMF's first clip-style open earbuds are here with a tempting price tag and, thankfully, none of Nothing's flagship surve",
-          "url": "https://www.techradar.com/audio/earbuds-airpods/cmfs-first-clip-style-open-earbuds-are-here-with-a-tempting-price-tag-and-thankfully-none-of-nothings-flagship-surveillance-tech",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First",
+          "url": "https://arxiv.org/abs/2608.04804",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Active-SWE: Benchmarking Coding Agents for Proactive Bug Fixing without Issue Reports",
+          "url": "https://arxiv.org/abs/2608.04682",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "code completion",
+      "keyword": "opensource",
       "mentions": 2,
-      "velocity": 0.4,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
       "headline": "",
       "articles": []
     },
@@ -270,68 +240,98 @@
       ]
     },
     {
-      "keyword": "openmontage",
-      "mentions": 3,
+      "keyword": "buildinpublic",
+      "mentions": 2,
       "velocity": 0.4,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 77,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 52,
       "days_active": 5,
-      "expert_ratio": 0.82,
+      "expert_ratio": 1.0,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "terminal",
+      "keyword": "cloudcomputing",
       "mentions": 2,
       "velocity": 0.3,
       "sources": [],
       "source_count": 0,
-      "confidence": 52,
-      "days_active": 4,
-      "expert_ratio": 0.67,
-      "headline": "Terminal Agents Suffice for Enterprise Automation",
+      "confidence": 64,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "education",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 64,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "Rethinking Generative AI Literacy: An Integrative, Developmental, and Dialectical Framework for K-12 Teacher Education",
       "articles": [
         {
-          "title": "Terminal Agents Suffice for Enterprise Automation",
-          "url": "https://arxiv.org/abs/2604.00073",
+          "title": "Rethinking Generative AI Literacy: An Integrative, Developmental, and Dialectical Framework for K-12 Teacher Education",
+          "url": "https://arxiv.org/abs/2608.01705",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Meta wants to get inside your terminal with its new coding agent",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-wants-to-get-inside-your-terminal-with-its-new-coding-agent/5283717",
-          "source": "The Register"
+          "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+          "url": "https://arxiv.org/abs/2608.02599",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "tensorflow",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 72,
+      "days_active": 12,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "developers",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 72,
+      "days_active": 12,
+      "expert_ratio": 1.0,
+      "headline": "Microsoft AI exec tells developers to default to OpenAI's top model as part of efficiency push",
+      "articles": [
+        {
+          "title": "Microsoft AI exec tells developers to default to OpenAI's top model as part of efficiency push",
+          "url": "https://www.cnbc.com/2026/08/05/microsoft-makes-openai-gpt-5point6-sol-default-in-github-copilot-for-staff.html?__source=iosappshare%7Ccom.flipboard.flipboard-ipad.ShareExtension",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Meta releases Muse Code in beta, a terminal coding agent powered by Muse Spark 1.2, a coding-focused model priced at $1.",
-          "url": "https://www.techmeme.com/260805/p34#a260805p34",
-          "source": "Techmeme"
+          "title": "Are your Android apps secretly sharing your location with advertisers? Some developers are accidentally leaving on this ",
+          "url": "https://www.techradar.com/pro/security/are-your-android-apps-secretly-sharing-your-location-with-advertisers-some-developers-are-accidentally-leaving-on-this-critical-data-invading-setting-when-using-third-party-sdks",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Claude Mythos 5 made sock puppet accounts to socially engineer developers: here's what enterprises should know",
+          "url": "https://venturebeat.com/security/claude-mythos-5-made-sock-puppet-accounts-to-socially-engineer-developers-heres-what-enterprises-should-know",
+          "source": "VentureBeat"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "grok",
-      "mentions": 73,
-      "velocity": 0.9,
-      "sources": [
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 45,
-      "velocity": 0.6,
+      "keyword": "anthropic",
+      "mentions": 196,
+      "velocity": -0.3,
       "sources": [
         "arxiv",
         "github",
@@ -340,114 +340,109 @@
       ],
       "source_count": 4,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.37,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 160,
-      "velocity": -1.5,
-      "sources": [
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
+      "days_active": 14,
+      "expert_ratio": 0.89,
+      "headline": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
       "articles": [
         {
-          "title": "FBI agent accused of stealing $1 million in crypto — and he even consulted ChatGPT on how to leave the country",
-          "url": "https://www.techradar.com/pro/fbi-agent-accused-of-stealing-usd1-million-in-crypto-and-he-even-consulted-chatgpt-on-how-to-leave-the-country",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Meta to take on Anthropic's Claude and OpenAI's Codex with new coding agent",
+          "url": "https://www.businessinsider.com/meta-muse-coding-agent-race-openai-codex-anthropic-claude-2026-8",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "source": "Ars Technica"
         }
       ]
     },
     {
-      "keyword": "deepseek",
-      "mentions": 100,
-      "velocity": -1.6,
+      "keyword": "gemini",
+      "mentions": 159,
+      "velocity": -1.9,
       "sources": [
+        "arxiv",
         "github",
-        "hackernews"
+        "hackernews",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
+      "days_active": 14,
+      "expert_ratio": 0.75,
+      "headline": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
       "articles": [
         {
-          "title": "DeepSeek Plans ‘Significant’ Price Increase for Its AI Services",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/deepseek-plans-significant-price-increase-for-its-ai-services",
-          "source": "Bloomberg Technology"
+          "title": "Yann LeCun’s second attempt at a VC fund lands with $100M and Gemini’s co-lead as a partner",
+          "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+          "source": "The Next Web"
         },
         {
-          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
-          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
-          "source": "Hacker News"
+          "title": "Google named the new boss of Gemini 4. Both of Gemini’s co-leads quit the same day",
+          "url": "https://thenextweb.com/news/google-deepmind-shakeup-hassabis-jeff-dean-vinyals-discovery-loop?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "DeepSeek's latest AI model is by far the cheapest of major models to run",
-          "url": "https://qz.com/deepseek-v4-flash-cheapest-ai-model-benchmark-080326",
-          "source": "Quartz"
+          "title": "Google is killing Assistant on phones September 4. Gemini is the only option left.",
+          "url": "https://thenextweb.com/news/google-assistant-shutdown-september-4-gemini-replacement",
+          "source": "The Next Web"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 135,
+    "scored_predictions": 140,
     "covered": 23,
-    "coverage_rate": 0.17,
+    "coverage_rate": 0.164,
     "early": 9,
-    "early_rate": 0.067,
+    "early_rate": 0.064,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.17,
+    "hit_rate": 0.164,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 61,
+        "scored": 64,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.328,
-        "early_rate": 0.115,
-        "hit_rate": 0.328
+        "coverage_rate": 0.312,
+        "early_rate": 0.109,
+        "hit_rate": 0.312
       },
       "weak_signal": {
-        "scored": 74,
+        "scored": 76,
         "covered": 3,
         "early": 2,
-        "coverage_rate": 0.041,
-        "early_rate": 0.027,
-        "hit_rate": 0.041
+        "coverage_rate": 0.039,
+        "early_rate": 0.026,
+        "hit_rate": 0.039
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 135,
+    "n": 140,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.474,
+      "coverage_rate": 0.479,
       "early_rate": 0.207
     },
     "null_mean": {
-      "coverage_rate": 0.509,
-      "early_rate": 0.26
+      "coverage_rate": 0.515,
+      "early_rate": 0.259
     },
     "p_value": {
-      "coverage_rate": 0.998,
-      "early_rate": 0.993
+      "coverage_rate": 0.997,
+      "early_rate": 0.985
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -498,6 +493,36 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "cline",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-18",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "ad creative",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-18",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "frontier model",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-18",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "qlora",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-18",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "dora",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-18",
+        "confidence": 0.2
+      },
+      {
         "keyword": "cuda",
         "signal_type": "emerging",
         "flagged_on": "2026-08-16",
@@ -538,121 +563,91 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-14",
         "confidence": 0.4
-      },
-      {
-        "keyword": "constitutional ai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-14",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "browser use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-14",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "test-time compute",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-14",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "ai glasses",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-14",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-13",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "test-time compute",
-        "recent_mentions": 35,
+        "keyword": "synthetic data",
+        "recent_mentions": 18,
+        "prior_mentions": 2,
+        "change_ratio": 9.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "simplified",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "mlx",
+        "recent_mentions": 15,
         "prior_mentions": 4,
-        "change_ratio": 8.75,
+        "change_ratio": 3.75,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "kimi",
+        "recent_mentions": 22,
+        "prior_mentions": 6,
+        "change_ratio": 3.67,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "cowork",
+        "recent_mentions": 13,
+        "prior_mentions": 4,
+        "change_ratio": 3.25,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "bolt",
+        "recent_mentions": 24,
+        "prior_mentions": 8,
+        "change_ratio": 3.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "openrouter",
+        "recent_mentions": 21,
+        "prior_mentions": 7,
+        "change_ratio": 3.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "artificial general intelligence",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "browser use",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "aider",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "cuda",
-        "recent_mentions": 18,
-        "prior_mentions": 3,
-        "change_ratio": 6.0,
+        "recent_mentions": 13,
+        "prior_mentions": 5,
+        "change_ratio": 2.6,
         "corroborating_sources": 2
       },
       {
-        "keyword": "devin",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "veo",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "heygen",
+        "keyword": "dalle",
         "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "lindy",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "grammarly",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai sdk",
-        "recent_mentions": 8,
         "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "glean",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai glasses",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "windsurf",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "groq",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
+        "change_ratio": 2.5,
         "corroborating_sources": 1
       }
     ]
