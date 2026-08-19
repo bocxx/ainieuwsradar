@@ -1,12 +1,81 @@
 {
-  "generated_at": "2026-08-18T22:54:42.133053",
-  "total_tracked": 2733,
+  "generated_at": "2026-08-19T07:14:54.474340",
+  "total_tracked": 2520,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "qwen",
+      "keyword": "fine-tuning",
       "mentions": 175,
-      "velocity": 20.4,
+      "velocity": 31.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.99,
+      "headline": "Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",
+      "articles": [
+        {
+          "title": "Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",
+          "url": "https://arxiv.org/abs/2608.16620",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Task Specialization Fine-Tuning for Contextual Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.17180",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Multimodal Language Models Benchmarked Against the NRC Reactor Operator Licensing Examination: Fine-Tuning and Retrieval",
+          "url": "https://arxiv.org/abs/2607.22067",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 186,
+      "velocity": 19.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.83,
+      "headline": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+      "articles": [
+        {
+          "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+          "url": "https://arxiv.org/abs/2608.18058",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "PlanPO: Group Planning-Aware Policy Optimization for Multi-Turn Agentic LLMs",
+          "url": "https://arxiv.org/abs/2608.17289",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",
+          "url": "https://arxiv.org/abs/2608.16620",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "qwen",
+      "mentions": 205,
+      "velocity": 23.4,
       "sources": [
         "articles",
         "arxiv",
@@ -15,27 +84,103 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.96,
+      "expert_ratio": 0.97,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "chatgpt",
-      "mentions": 229,
-      "velocity": 19.9,
+      "keyword": "openai",
+      "mentions": 316,
+      "velocity": 15.3,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
+        "linkedin",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.81,
+      "headline": "OpenAI says the changes to its model training will increase compute overhead by 20% of observed inference workload; the ",
+      "articles": [
+        {
+          "title": "OpenAI says the changes to its model training will increase compute overhead by 20% of observed inference workload; the ",
+          "url": "https://www.techmeme.com/260818/p46#a260818p46",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI's overhead will rise 20 percent for some workloads as it hardens security",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
+          "source": "The Register - Security"
+        },
+        {
+          "title": "Sources: OpenAI's Q2 revenue grew 18% QoQ to $6.7B, while its losses deepened; Anthropic's Q2 revenue more than doubled ",
+          "url": "https://www.techmeme.com/260818/p38#a260818p38",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 243,
+      "velocity": 10.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.89,
+      "headline": "Anthropic details two experiments showing how Claude can accelerate protein design and analytical chemistry, and says it",
+      "articles": [
+        {
+          "title": "Anthropic details two experiments showing how Claude can accelerate protein design and analytical chemistry, and says it",
+          "url": "https://www.techmeme.com/260818/p39#a260818p39",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Sources: OpenAI's Q2 revenue grew 18% QoQ to $6.7B, while its losses deepened; Anthropic's Q2 revenue more than doubled ",
+          "url": "https://www.techmeme.com/260818/p38#a260818p38",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Anthropic Plans to Give CEO Extra Voting Power, Information Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-18/anthropic-plans-to-give-ceo-extra-voting-power-information-says",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 216,
+      "velocity": 9.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.51,
-      "headline": "ChatGPT's stricter teen mode starts rolling out today",
+      "headline": "Potential of ChatGPT in predicting stock market trends based on Twitter Sentiment Analysis",
       "articles": [
+        {
+          "title": "Potential of ChatGPT in predicting stock market trends based on Twitter Sentiment Analysis",
+          "url": "https://arxiv.org/abs/2311.06273",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "ChatGPT's stricter teen mode starts rolling out today",
           "url": "https://www.engadget.com/2238773/chatgpt-stricter-teen-mode-starts-rolling-out-today/?utm_source=flipboard&utm_content=user/Engadget",
@@ -45,85 +190,13 @@
           "title": "ChatGPT Shouldn’t Be a ‘Friend’ to Teens, Says OpenAI",
           "url": "https://www.bloomberg.com/news/videos/2026-08-18/openai-s-new-chatgpt-for-teens-video",
           "source": "Bloomberg Technology"
-        },
-        {
-          "title": "I tried ChatGPT's new interactive quizzes on 5 subjects I thought I knew well — it quickly found the gaps in my knowledg",
-          "url": "https://www.techradar.com/ai-platforms-assistants/i-tried-chatgpts-new-interactive-quizzes-on-5-subjects-i-thought-i-knew-well-it-quickly-found-the-gaps-in-my-knowledge",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "openai",
-      "mentions": 303,
-      "velocity": 16.4,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.81,
-      "headline": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "articles": [
-        {
-          "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "Anthropic’s $65 Billion Surge, OpenAI’s Teen Push | Bloomberg Tech 8/18/2026",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-18/bloomberg-tech-8-18-2026-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "ChatGPT Shouldn’t Be a ‘Friend’ to Teens, Says OpenAI",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-18/openai-s-new-chatgpt-for-teens-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 233,
-      "velocity": 10.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.89,
-      "headline": "Anthropic’s $65 Billion Surge, OpenAI’s Teen Push | Bloomberg Tech 8/18/2026",
-      "articles": [
-        {
-          "title": "Anthropic’s $65 Billion Surge, OpenAI’s Teen Push | Bloomberg Tech 8/18/2026",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-18/bloomberg-tech-8-18-2026-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Anthropic’s Revenue Boom Builds Ahead of IPO",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-18/anthropic-s-revenue-boom-builds-ahead-of-ipo-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Sources: Anthropic's revolving credit facility is set to surpass its ~$10B target as banks compete for roles on the upco",
-          "url": "https://www.techmeme.com/260818/p27#a260818p27",
-          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "cursor",
-      "mentions": 63,
-      "velocity": 5.9,
+      "mentions": 67,
+      "velocity": 5.3,
       "sources": [
         "articles",
         "github",
@@ -134,8 +207,13 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.37,
-      "headline": "Cursor launches Origin code hosting platform as GitHub outage exposes opening in AI coding race",
+      "headline": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
       "articles": [
+        {
+          "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+          "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+          "source": "TechCrunch"
+        },
         {
           "title": "Cursor launches Origin code hosting platform as GitHub outage exposes opening in AI coding race",
           "url": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
@@ -144,203 +222,99 @@
         {
           "title": "Devs to Anthropic, OpenAI, Cursor, and friends: Make security and privacy the default",
           "url": "https://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107",
-          "source": "The Register - Security"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 43,
-      "velocity": 3.7,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.6,
-      "headline": "Pennsylvania Governor Josh Shapiro to Limit New Data Centers",
-      "articles": [
-        {
-          "title": "Pennsylvania Governor Josh Shapiro to Limit New Data Centers",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-18/pennsylvania-governor-shapiro-puts-guardrails-on-data-centers",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Pennsylvania Gov. Josh Shapiro cracks down on data centers, says speculators are 'scaring our communities'",
-          "url": "https://www.businessinsider.com/pennsylvania-josh-shapiro-data-centers-views-order-2026-8",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Cherokee Nation joins list of tribes banning data centers on tribal lands due to water, energy, noise, and cultural reso",
-          "url": "https://www.techradar.com/pro/cherokee-nation-joins-list-of-tribes-banning-data-centers-on-tribal-lands-due-to-water-energy-noise-and-cultural-resource-protection-concerns-and-all-new-projects-require-early-consultation",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 69,
-      "velocity": 3.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.74,
-      "headline": "NVIDIA GeForce Now adds Firefox support on Windows",
-      "articles": [
-        {
-          "title": "NVIDIA GeForce Now adds Firefox support on Windows",
-          "url": "https://www.engadget.com/2239392/nvidia-geforce-now-adds-firefox-support-on-windows/",
-          "source": "Engadget"
-        },
-        {
-          "title": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
-          "url": "https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
-          "source": "NVIDIA Developer Blog"
-        },
-        {
-          "title": "Nvidia's OpenAI data center deal raises 'circular financing' questions",
-          "url": "https://www.youtube.com/watch?v=ywhxvXbkNLg",
-          "source": "Reuters"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "simulation",
-      "mentions": 46,
-      "velocity": 3.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.93,
-      "headline": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
-      "articles": [
-        {
-          "title": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
-          "url": "https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
-          "source": "NVIDIA Developer Blog"
-        },
-        {
-          "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
-          "url": "https://arxiv.org/abs/2604.09860",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Pre-training Visual Dexterity in Simulation",
-          "url": "https://arxiv.org/abs/2608.15917",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "together",
-      "mentions": 43,
-      "velocity": 2.7,
-      "sources": [
-        "articles",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.0,
-      "headline": "How the story of life and our planet unfolded — together",
-      "articles": [
-        {
-          "title": "How the story of life and our planet unfolded — together",
-          "url": "https://www.nature.com/articles/d41586-026-02530-4",
-          "source": "Nature - Issue - nature.com science feeds"
-        },
-        {
-          "title": "Microsoft brings Copilot apps together ahead of ‘super app’ overhaul",
-          "url": "https://www.computerworld.com/article/4209764/microsoft-brings-copilot-apps-together-ahead-of-super-app-overhaul.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "Together AI embraces the competition with $240M IBM Cloud deal",
-          "url": "https://www.theregister.com/off-prem/2026/08/11/together-ai-embraces-the-competition-with-240m-ibm-cloud-deal/5286400",
           "source": "The Register"
         }
       ]
     },
     {
-      "keyword": "kimi",
-      "mentions": 11,
-      "velocity": 2.0,
+      "keyword": "bolt",
+      "mentions": 21,
+      "velocity": 4.1,
       "sources": [
         "articles",
-        "hackernews",
-        "twitter"
+        "arxiv",
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.17,
-      "headline": "",
-      "articles": []
-    }
-  ],
-  "weak_signals": [
-    {
-      "keyword": "easy",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "TP-Link BE6300 Dual-Band Wi-Fi 7 Range Extender (RE403BE): a fast and easy-to-use device for boosting your Wi-Fi range",
+      "days_active": 13,
+      "expert_ratio": 0.37,
+      "headline": "Unitree unveils a robot it says can run faster than Usain Bolt ahead of its IPO",
       "articles": [
         {
-          "title": "TP-Link BE6300 Dual-Band Wi-Fi 7 Range Extender (RE403BE): a fast and easy-to-use device for boosting your Wi-Fi range",
-          "url": "https://www.techradar.com/computing/wi-fi-broadband/tp-link-be6300-dual-band-wi-fi-7-range-extender-re403be",
-          "source": "TechRadar: Technology reviews"
-        },
-        {
-          "title": "Skylight Buddy Review (2026): Kid Routines Just Got Easy",
-          "url": "https://www.wired.com/review/skylight-buddy/",
-          "source": "WIRED"
-        },
-        {
-          "title": "3D-printing enthusiast creates ‘Flock Sock’ to blind controversial cameras, shares design — slip-on cover attaches to br",
-          "url": "https://www.tomshardware.com/3d-printing/3d-printing-enthusiast-creates-flock-sock-camera-blind-slip-on-cover-attaches-to-broom-handle-to-make-it-easy-to-put-on-devices-placed-on-traffic-and-streetlights",
-          "source": "Tom's Hardware"
+          "title": "Unitree unveils a robot it says can run faster than Usain Bolt ahead of its IPO",
+          "url": "https://www.businessinsider.com/unitree-robot-run-faster-usain-bolt-superman-china-ipo-2026-8",
+          "source": "Business Insider"
         }
       ]
     },
     {
-      "keyword": "ai wearable",
-      "mentions": 2,
-      "velocity": 1.0,
+      "keyword": "claude",
+      "mentions": 536,
+      "velocity": 4.1,
       "sources": [
-        "articles"
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.78,
+      "headline": "Anthropic details two experiments showing how Claude can accelerate protein design and analytical chemistry, and says it",
+      "articles": [
+        {
+          "title": "Anthropic details two experiments showing how Claude can accelerate protein design and analytical chemistry, and says it",
+          "url": "https://www.techmeme.com/260818/p39#a260818p39",
+          "source": "Techmeme"
+        },
+        {
+          "title": "How to avoid Claude watermarking your content",
+          "url": "https://www.zdnet.com/article/how-to-avoid-claude-watermarking-your-content/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
+          "source": "Artificial Intelligence"
+        }
+      ]
     },
+    {
+      "keyword": "copilot",
+      "mentions": 39,
+      "velocity": 3.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.67,
+      "headline": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+      "articles": [
+        {
+          "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+          "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+          "source": "AI - Ars Technica"
+        },
+        {
+          "title": "Copilot tricked into telling reseachers how to hack itself",
+          "url": "https://www.theregister.com/research/2026/08/18/copilot-tricked-into-telling-reseachers-how-to-hack-itself/5288857",
+          "source": "The Register"
+        },
+        {
+          "title": "GitHub restores services after nearly 8-hour outage disrupts Actions, APIs, PRs and Copilot",
+          "url": "https://www.computerworld.com/article/4210869/github-restores-services-after-nearly-8-hour-outage-disrupts-actions-apis-prs-and-copilot-2.html",
+          "source": "Artificial Intelligence – Computerworld"
+        }
+      ]
+    }
+  ],
+  "weak_signals": [
     {
       "keyword": "coding",
       "mentions": 2,
@@ -350,22 +324,22 @@
       "confidence": 46,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Show HN: Argus, agentic QA for teams whose coding agents move faster than QA",
+      "headline": "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks",
       "articles": [
+        {
+          "title": "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks",
+          "url": "https://arxiv.org/abs/2608.16630",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+          "url": "https://arxiv.org/abs/2608.17393",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "Show HN: Argus, agentic QA for teams whose coding agents move faster than QA",
           "url": "https://github.com/argus-testing/argus",
           "source": "Hacker News"
-        },
-        {
-          "title": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
-          "url": "https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
-          "source": "NVIDIA Developer Blog"
-        },
-        {
-          "title": "AI coding tools unlock small software",
-          "url": "https://www.fastcompany.com/91590966/ai-coding-tools-unlock-small-software?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08182026",
-          "source": "Fast Company"
         }
       ]
     },
@@ -384,29 +358,58 @@
       "articles": []
     },
     {
-      "keyword": "astra",
-      "mentions": 2,
-      "velocity": 1.0,
+      "keyword": "azureai",
+      "mentions": 3,
+      "velocity": 0.6,
       "sources": [
-        "articles"
+        "linkedin"
       ],
       "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "OpenAI changed safety practices and paused RL training for two weeks after the Hugging Face breach and evidence Astra ma",
-      "articles": [
-        {
-          "title": "OpenAI changed safety practices and paused RL training for two weeks after the Hugging Face breach and evidence Astra ma",
-          "url": "https://www.techmeme.com/260818/p29#a260818p29",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI pledges to add Astra security as Anthropic loosens Fable's leash",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161",
-          "source": "The Register - Security"
-        }
-      ]
+      "confidence": 81,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "mvpbuzz",
+      "mentions": 3,
+      "velocity": 0.6,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "buildinpublic",
+      "mentions": 2,
+      "velocity": 0.5,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 4,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "machinelearning",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "pretraining",
@@ -439,65 +442,43 @@
       ]
     },
     {
-      "keyword": "buildinpublic",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 52,
-      "days_active": 5,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "cloudcomputing",
+      "keyword": "microsoftaifoundry",
       "mentions": 2,
       "velocity": 0.3,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 64,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 79,
       "days_active": 11,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "education",
+      "keyword": "aievents",
       "mentions": 2,
       "velocity": 0.3,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 64,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 79,
       "days_active": 11,
       "expert_ratio": 1.0,
-      "headline": "Not every AI-in-education tale is a horror story. How the world’s leading education company makes AI that’s actually use",
-      "articles": [
-        {
-          "title": "Not every AI-in-education tale is a horror story. How the world’s leading education company makes AI that’s actually use",
-          "url": "https://www.fastcompany.com/91589122/how-pearson-is-trying-to-make-ai-actually-useful-for-students?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=10&partner=newsletter&campaign_date=08182026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
-          "url": "https://arxiv.org/abs/2608.02599",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Rethinking Generative AI Literacy: An Integrative, Developmental, and Dialectical Framework for K-12 Teacher Education",
-          "url": "https://arxiv.org/abs/2608.01705",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "tensorflow",
+      "keyword": "aiengineering",
       "mentions": 2,
       "velocity": 0.3,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 72,
-      "days_active": 12,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 79,
+      "days_active": 11,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
@@ -505,61 +486,74 @@
   ],
   "sustained": [
     {
-      "keyword": "prompt engineering",
-      "mentions": 18,
-      "velocity": 2.0,
+      "keyword": "together",
+      "mentions": 43,
+      "velocity": 1.9,
       "sources": [
         "articles",
-        "github"
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.9,
-      "headline": "Prompt Engineering in Segment Anything Model: Methodologies, Applications, and Emerging Challenges",
+      "expert_ratio": 0.0,
+      "headline": "How the story of life and our planet unfolded — together",
       "articles": [
         {
-          "title": "Prompt Engineering in Segment Anything Model: Methodologies, Applications, and Emerging Challenges",
-          "url": "https://arxiv.org/abs/2507.09562",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "github",
-      "mentions": 97,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.27,
-      "headline": "GitHub restores services after nearly 8-hour outage disrupts Actions, APIs, PRs and Copilot",
-      "articles": [
+          "title": "How the story of life and our planet unfolded — together",
+          "url": "https://www.nature.com/articles/d41586-026-02530-4",
+          "source": "Nature - Issue - nature.com science feeds"
+        },
         {
-          "title": "GitHub restores services after nearly 8-hour outage disrupts Actions, APIs, PRs and Copilot",
-          "url": "https://www.computerworld.com/article/4210869/github-restores-services-after-nearly-8-hour-outage-disrupts-actions-apis-prs-and-copilot-2.html",
+          "title": "Microsoft brings Copilot apps together ahead of ‘super app’ overhaul",
+          "url": "https://www.computerworld.com/article/4209764/microsoft-brings-copilot-apps-together-ahead-of-super-app-overhaul.html",
           "source": "Artificial Intelligence – Computerworld"
         },
         {
-          "title": "Cursor launches Origin code hosting platform as GitHub outage exposes opening in AI coding race",
-          "url": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "GitHub heeft te maken met storingen",
-          "url": "https://tweakers.net/nieuws/251070/github-heeft-te-maken-met-storingen.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "Together AI embraces the competition with $240M IBM Cloud deal",
+          "url": "https://www.theregister.com/off-prem/2026/08/11/together-ai-embraces-the-competition-with-240m-ibm-cloud-deal/5286400",
+          "source": "The Register"
         }
       ]
     },
     {
-      "keyword": "claude code",
-      "mentions": 31,
-      "velocity": 0.2,
+      "keyword": "ai coding",
+      "mentions": 34,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.47,
+      "headline": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
+      "articles": [
+        {
+          "title": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
+          "url": "https://developer.nvidia.com/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
+          "source": "NVIDIA Developer Blog"
+        },
+        {
+          "title": "AI coding tools unlock small software",
+          "url": "https://www.fastcompany.com/91590966/ai-coding-tools-unlock-small-software?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08192026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "AI coding tools unlock small software",
+          "url": "https://www.fastcompany.com/91590966/ai-coding-tools-unlock-small-software?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=08182026",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
+      "keyword": "cline",
+      "mentions": 12,
+      "velocity": 1.5,
       "sources": [
         "articles",
         "hackernews",
@@ -568,105 +562,51 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.0,
-      "headline": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
-      "articles": [
-        {
-          "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
-          "url": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
-        },
-        {
-          "title": "Claude Code returns blank thinking blocks, but reasoning still costs you",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/14/claude-code-returns-blank-thinking-blocks-but-reasoning-still-costs-you/5287557",
-          "source": "The Register"
-        },
-        {
-          "title": "Playwright MCP in Claude Code: laat AI eigen werk controleren",
-          "url": "https://datasciencepartners.nl/playwright-mcp-claude-code/",
-          "source": "Data Science Partners | Trainingen Data Science in Python， SQL ＆ R"
-        }
-      ]
+      "expert_ratio": 0.24,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "gemini",
-      "mentions": 164,
-      "velocity": -0.3,
+      "keyword": "vibe coding",
+      "mentions": 23,
+      "velocity": 1.1,
       "sources": [
         "articles",
-        "arxiv",
         "github",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.75,
-      "headline": "How to Prepare for Trademark Filing Using Google Gemini",
+      "expert_ratio": 0.67,
+      "headline": "Warning to enterprises: Vibe coding can be a threat",
       "articles": [
         {
-          "title": "How to Prepare for Trademark Filing Using Google Gemini",
-          "url": "https://www.theinformation.com/articles/prepare-trademark-filing-using-google-gemini",
-          "source": "The Information"
+          "title": "Warning to enterprises: Vibe coding can be a threat",
+          "url": "https://www.computerworld.com/article/4210633/warning-to-enterprises-vibe-coding-can-be-a-threat.html",
+          "source": "Computerworld"
         },
         {
-          "title": "Tap into the power of Gemini in Chrome on Android.",
-          "url": "https://blog.google/products-and-platforms/products/chrome/gemini-in-chrome-android-auto-browse/",
-          "source": "The Keyword"
-        },
-        {
-          "title": "The Granularity Gap: A Multi-Dimensional Cross-Generational Audit of Sycophancy in Gemini Models",
-          "url": "https://arxiv.org/abs/2606.05183",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 520,
-      "velocity": -1.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.78,
-      "headline": "How to avoid Claude watermarking your content",
-      "articles": [
-        {
-          "title": "How to avoid Claude watermarking your content",
-          "url": "https://www.zdnet.com/article/how-to-avoid-claude-watermarking-your-content/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
+          "title": "Are we vibe coding our way to a new legacy crisis?",
+          "url": "https://www.techradar.com/pro/are-we-vibe-coding-our-way-to-a-new-legacy-crisis?utm_source=flipboard&utm_content=topic/technology",
           "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Does a Tool Result Carry More Authority Than Plain Text? Three Prospective Studies of False-Claim Adoption in a Syntheti",
-          "url": "https://arxiv.org/abs/2608.14992",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "The Quality of Claude AI-authored Python Tests Is Not Weaker Than Human-authored Tests",
-          "url": "https://arxiv.org/abs/2608.15188",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "grok",
-      "mentions": 65,
-      "velocity": -1.8,
+      "mentions": 70,
+      "velocity": 0.3,
       "sources": [
         "articles",
+        "arxiv",
+        "linkedin",
         "twitter"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.46,
+      "expert_ratio": 0.47,
       "headline": "Grok Bot Masterclass",
       "articles": [
         {
@@ -678,27 +618,27 @@
     }
   ],
   "track_record": {
-    "scored_predictions": 140,
+    "scored_predictions": 143,
     "covered": 23,
-    "coverage_rate": 0.164,
+    "coverage_rate": 0.161,
     "early": 9,
-    "early_rate": 0.064,
+    "early_rate": 0.063,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.164,
+    "hit_rate": 0.161,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 64,
+        "scored": 66,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.312,
-        "early_rate": 0.109,
-        "hit_rate": 0.312
+        "coverage_rate": 0.303,
+        "early_rate": 0.106,
+        "hit_rate": 0.303
       },
       "weak_signal": {
-        "scored": 76,
+        "scored": 77,
         "covered": 3,
         "early": 2,
         "coverage_rate": 0.039,
@@ -710,21 +650,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 140,
+    "n": 143,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.479,
-      "early_rate": 0.207
+      "coverage_rate": 0.483,
+      "early_rate": 0.21
     },
     "null_mean": {
       "coverage_rate": 0.519,
-      "early_rate": 0.263
+      "early_rate": 0.264
     },
     "p_value": {
-      "coverage_rate": 0.998,
-      "early_rate": 0.988
+      "coverage_rate": 0.997,
+      "early_rate": 0.989
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -758,27 +698,45 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
+      "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
       "lead_days": 4
     }
   ],
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "ai chips",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-19",
+        "confidence": 0.2
+      },
+      {
         "keyword": "cline",
         "signal_type": "emerging",
         "flagged_on": "2026-08-18",
         "confidence": 0.4
+      },
+      {
+        "keyword": "frontier model",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-18",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "openrouter",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-18",
+        "confidence": 0.2
       },
       {
         "keyword": "prompt engineering",
@@ -793,20 +751,8 @@
         "confidence": 0.2
       },
       {
-        "keyword": "ad creative",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-18",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "openrouter",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-18",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "frontier model",
-        "signal_type": "emerging",
+        "keyword": "dora",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-08-18",
         "confidence": 0.2
       },
@@ -817,19 +763,19 @@
         "confidence": 0.2
       },
       {
-        "keyword": "dora",
-        "signal_type": "weak_signal",
+        "keyword": "ad creative",
+        "signal_type": "emerging",
         "flagged_on": "2026-08-18",
         "confidence": 0.2
       },
       {
-        "keyword": "mistral ai",
+        "keyword": "bolt",
         "signal_type": "emerging",
         "flagged_on": "2026-08-18",
         "confidence": 0
       },
       {
-        "keyword": "bolt",
+        "keyword": "mistral ai",
         "signal_type": "emerging",
         "flagged_on": "2026-08-18",
         "confidence": 0
@@ -839,98 +785,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-16",
         "confidence": 0.4
-      },
-      {
-        "keyword": "kimi",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-16",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "synthetic data",
-        "recent_mentions": 18,
-        "prior_mentions": 2,
-        "change_ratio": 9.0,
-        "corroborating_sources": 1
+        "keyword": "mlx",
+        "recent_mentions": 27,
+        "prior_mentions": 4,
+        "change_ratio": 6.75,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "simplified",
-        "recent_mentions": 5,
+        "keyword": "dora",
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "kimi",
-        "recent_mentions": 23,
+        "recent_mentions": 30,
         "prior_mentions": 6,
-        "change_ratio": 3.83,
+        "change_ratio": 5.0,
         "corroborating_sources": 4
       },
       {
-        "keyword": "mlx",
-        "recent_mentions": 15,
-        "prior_mentions": 4,
-        "change_ratio": 3.75,
+        "keyword": "glm-5",
+        "recent_mentions": 28,
+        "prior_mentions": 7,
+        "change_ratio": 4.0,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "mcp client",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "cowork",
-        "recent_mentions": 14,
-        "prior_mentions": 4,
+        "keyword": "national ai",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
         "change_ratio": 3.5,
         "corroborating_sources": 2
       },
       {
         "keyword": "openrouter",
-        "recent_mentions": 24,
-        "prior_mentions": 7,
-        "change_ratio": 3.43,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "bolt",
-        "recent_mentions": 27,
-        "prior_mentions": 8,
-        "change_ratio": 3.38,
+        "recent_mentions": 34,
+        "prior_mentions": 10,
+        "change_ratio": 3.4,
         "corroborating_sources": 4
       },
       {
-        "keyword": "aider",
+        "keyword": "llama 3",
         "recent_mentions": 10,
         "prior_mentions": 3,
         "change_ratio": 3.33,
         "corroborating_sources": 2
       },
       {
-        "keyword": "artificial general intelligence",
+        "keyword": "simplified",
         "recent_mentions": 6,
         "prior_mentions": 2,
         "change_ratio": 3.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "bolt",
+        "recent_mentions": 41,
+        "prior_mentions": 15,
+        "change_ratio": 2.73,
+        "corroborating_sources": 6
+      },
+      {
+        "keyword": "synthetic data",
+        "recent_mentions": 24,
+        "prior_mentions": 9,
+        "change_ratio": 2.67,
         "corroborating_sources": 1
       },
       {
-        "keyword": "browser use",
-        "recent_mentions": 9,
-        "prior_mentions": 3,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "cuda",
+        "keyword": "reward hacking",
         "recent_mentions": 13,
         "prior_mentions": 5,
         "change_ratio": 2.6,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "dalle",
-        "recent_mentions": 5,
-        "prior_mentions": 2,
-        "change_ratio": 2.5,
-        "corroborating_sources": 1
       }
     ]
   }

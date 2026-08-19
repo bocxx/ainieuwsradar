@@ -1,89 +1,116 @@
 {
-  "generated_at": "2026-08-18T21:09:46+00:00",
+  "generated_at": "2026-08-19T05:28:28+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 99,
-    "resolved": 72,
+    "resolved": 74,
     "hits": 17,
-    "misses": 55,
-    "hit_rate": 0.236
+    "misses": 57,
+    "hit_rate": 0.23
   },
   "open": [
-    {
-      "keyword": "langflow",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-07-04",
-      "days_left": 0
-    },
     {
       "keyword": "ai coding",
       "signal_type": "emerging",
       "flagged_on": "2026-07-05",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "liquid neural network",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-05",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "b200",
       "signal_type": "emerging",
       "flagged_on": "2026-07-07",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "h100",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-08",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "openai sdk",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-09",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "tavily",
       "signal_type": "emerging",
       "flagged_on": "2026-07-09",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "ai copyright",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-10",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "stability ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-11",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "multi-modal",
       "signal_type": "emerging",
       "flagged_on": "2026-07-12",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "glean",
       "signal_type": "emerging",
       "flagged_on": "2026-07-15",
-      "days_left": 11
+      "days_left": 10
     },
     {
       "keyword": "copilot",
       "signal_type": "emerging",
       "flagged_on": "2026-07-16",
-      "days_left": 12
+      "days_left": 11
+    },
+    {
+      "keyword": "context length",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-16",
+      "days_left": 11
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "data center",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-04",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "grpo",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-04",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "langflow",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-07-04",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "gpt-5",
       "signal_type": "emerging",
@@ -177,33 +204,6 @@
     {
       "keyword": "thinking model",
       "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-07-01",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "tflops",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-01",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "synthetic data",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-01",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "yolo",
-      "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-07-01",
       "resolved_on": null,

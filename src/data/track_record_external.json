@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-08-18T21:09:30+00:00",
+  "generated_at": "2026-08-19T05:28:12+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 140,
+    "scored_predictions": 143,
     "covered": 23,
-    "coverage_rate": 0.164,
+    "coverage_rate": 0.161,
     "early": 9,
-    "early_rate": 0.064,
+    "early_rate": 0.063,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.164,
+    "hit_rate": 0.161,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 64,
+        "scored": 66,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.312,
-        "early_rate": 0.109,
-        "hit_rate": 0.312
+        "coverage_rate": 0.303,
+        "early_rate": 0.106,
+        "hit_rate": 0.303
       },
       "weak_signal": {
-        "scored": 76,
+        "scored": 77,
         "covered": 3,
         "early": 2,
         "coverage_rate": 0.039,
@@ -64,17 +64,17 @@
       "lead_days": 5
     },
     {
-      "keyword": "litellm",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
-    },
-    {
       "keyword": "notion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-03-19",
       "materialized_on": "2026-03-23",
+      "lead_days": 4
+    },
+    {
+      "keyword": "litellm",
+      "signal_type": "emerging",
+      "flagged_on": "2026-03-27",
+      "materialized_on": "2026-03-31",
       "lead_days": 4
     }
   ],
@@ -93,12 +93,12 @@
       "early_rate": 0.207
     },
     "null_mean": {
-      "coverage_rate": 0.515,
-      "early_rate": 0.259
+      "coverage_rate": 0.519,
+      "early_rate": 0.263
     },
     "p_value": {
-      "coverage_rate": 0.997,
-      "early_rate": 0.985
+      "coverage_rate": 0.998,
+      "early_rate": 0.988
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
