@@ -1,46 +1,149 @@
 {
-  "generated_at": "2026-08-20T07:15:57.007828",
-  "total_tracked": 2538,
+  "generated_at": "2026-08-20T19:21:04.113734",
+  "total_tracked": 2635,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 198,
-      "velocity": 24.3,
+      "keyword": "vibe coding",
+      "mentions": 33,
+      "velocity": 3.6,
+      "sources": [
+        "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.64,
+      "headline": "Il vibe coding arriva sui chip quantistici, ma nasconde un'insidia",
+      "articles": [
+        {
+          "title": "Il vibe coding arriva sui chip quantistici, ma nasconde un'insidia",
+          "url": "https://www.tomshw.it/scienze/il-vibe-coding-arriva-sui-chip-quantistici-ma-nasconde-uninsidia",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Warning to enterprises: Vibe coding can be a threat",
+          "url": "https://www.computerworld.com/article/4210633/warning-to-enterprises-vibe-coding-can-be-a-threat.html",
+          "source": "Computerworld"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 41,
+      "velocity": 2.9,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "linkedin",
-        "twitter"
+        "hackernews"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.83,
-      "headline": "Adversarial Review: Structured Disagreement for Grounded Agentic Code Review",
+      "expert_ratio": 0.96,
+      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
       "articles": [
         {
-          "title": "Adversarial Review: Structured Disagreement for Grounded Agentic Code Review",
-          "url": "https://arxiv.org/abs/2608.18167",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
-          "url": "https://arxiv.org/abs/2608.18682",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ORBITER: Conflict-Aware Decision-Making for Agentic Last-Mile Delivery",
-          "url": "https://arxiv.org/abs/2608.18846",
+          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+          "url": "https://arxiv.org/abs/2607.15509",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
+      "keyword": "cline",
+      "mentions": 17,
+      "velocity": 2.9,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.28,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "openai",
+      "mentions": 302,
+      "velocity": 6.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.81,
+      "headline": "It’s Greg Brockman’s OpenAI now",
+      "articles": [
+        {
+          "title": "It’s Greg Brockman’s OpenAI now",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "OpenAI previews Private Safety Processing to keep zero data retention",
+          "url": "https://thenextweb.com/news/openai-zero-data-retention-private-safety-processing",
+          "source": "The Next Web"
+        },
+        {
+          "title": "OpenAI's CFO told employees the company is targeting an IPO in 2027 — or sooner",
+          "url": "https://qz.com/openai-ipo-2027-cfo-sarah-friar-082026",
+          "source": "Quartz"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 211,
+      "velocity": 5.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.51,
+      "headline": "Claude hit me with a usage limit, so I moved the entire conversation to ChatGPT — this free browser extension made it ri",
+      "articles": [
+        {
+          "title": "Claude hit me with a usage limit, so I moved the entire conversation to ChatGPT — this free browser extension made it ri",
+          "url": "https://www.techradar.com/ai-platforms-assistants/claude-hit-me-with-a-usage-limit-so-i-moved-the-entire-conversation-to-chatgpt-this-free-browser-extension-made-it-ridiculously-easy",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "OpenAI is bringing ChatGPT ads to 31 European countries",
+          "url": "https://thenextweb.com/news/chatgpt-ads-expand-31-european-markets",
+          "source": "The Next Web"
+        },
+        {
+          "title": "The case for ChatGPT for seniors",
+          "url": "https://www.fastcompany.com/91592012/the-case-for-chatgpt-for-seniors?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=08202026",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
       "keyword": "fine-tuning",
-      "mentions": 153,
-      "velocity": 22.8,
+      "mentions": 94,
+      "velocity": 4.9,
       "sources": [
         "articles",
         "arxiv",
@@ -49,7 +152,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 1.0,
+      "expert_ratio": 0.99,
       "headline": "Impact of Iterative Fine-Tuning on Transcription Accuracy in Complex Historical Sanskrit Manuscripts",
       "articles": [
         {
@@ -68,13 +171,11 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
       "keyword": "claude",
-      "mentions": 577,
-      "velocity": 13.2,
+      "mentions": 546,
+      "velocity": 3.8,
       "sources": [
         "articles",
         "arxiv",
@@ -87,116 +188,24 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.78,
-      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+      "headline": "Clean up Claude 5's token vomit with a separate LLM",
       "articles": [
         {
-          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-          "url": "https://arxiv.org/abs/2607.15509",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Clean up Claude 5's token vomit with a separate LLM",
+          "url": "https://github.com/zachahn/vomit",
+          "source": "Hacker News"
         },
         {
-          "title": "TrueFoundry's open source AI agent harness TrueForge boasts 30%-75% cheaper task completion than Claude Managed Agents",
-          "url": "https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "Dev taps Claude Code to craft custom printer driver for macOS",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/19/dev-taps-claude-code-to-craft-custom-printer-driver-for-macos/5289875",
-          "source": "The Register"
+          "title": "Claude hit me with a usage limit, so I moved the entire conversation to ChatGPT — this free browser extension made it ri",
+          "url": "https://www.techradar.com/ai-platforms-assistants/claude-hit-me-with-a-usage-limit-so-i-moved-the-entire-conversation-to-chatgpt-this-free-browser-extension-made-it-ridiculously-easy",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "anthropic",
-      "mentions": 236,
-      "velocity": 3.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.89,
-      "headline": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "articles": [
-        {
-          "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-          "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "A British AI-chip startup is raising at $6.5bn after an Anthropic deal",
-          "url": "https://thenextweb.com/news/fractile-6-5bn-valuation-anthropic-chip-deal",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 28,
-      "velocity": 3.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.52,
-      "headline": "Perplexity’s free AI offer left it with millions more users in India",
-      "articles": [
-        {
-          "title": "Perplexity’s free AI offer left it with millions more users in India",
-          "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "keyword": "openai",
-      "mentions": 290,
-      "velocity": 2.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.8,
-      "headline": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "articles": [
-        {
-          "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-          "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Sources: OpenAI CFO Sarah Friar told employees at an all-hands that OpenAI \"will be a public company in 2027\", or sooner",
-          "url": "https://www.techmeme.com/260819/p42#a260819p42",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Researchers say OpenAI revoked their access to limited cyber program",
-          "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 39,
-      "velocity": 2.3,
+      "keyword": "qwen",
+      "mentions": 153,
+      "velocity": 2.9,
       "sources": [
         "articles",
         "arxiv",
@@ -205,25 +214,9 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.96,
-      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-      "articles": [
-        {
-          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
-          "url": "https://arxiv.org/abs/2607.15509",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Replit expands access to software creation with GPT-5.6 Luna",
-          "url": "https://openai.com/index/replit",
-          "source": "OpenAI News"
-        },
-        {
-          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-          "url": "https://openai.com/index/previewing-ultrafast",
-          "source": "OpenAI News"
-        }
-      ]
+      "expert_ratio": 0.97,
+      "headline": "",
+      "articles": []
     }
   ],
   "weak_signals": [
@@ -240,36 +233,6 @@
       "expert_ratio": 0.86,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "watermark",
-      "mentions": 3,
-      "velocity": 0.6,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text",
-      "articles": [
-        {
-          "title": "Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text",
-          "url": "https://arxiv.org/abs/2608.18102",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Anthropic’s AI watermark has already spawned tools to remove it",
-          "url": "https://thenextweb.com/news/anthropic-watermark-remover-tools-backlash",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Optimal Watermark Localization in Mixed-Source Large Language Model Texts",
-          "url": "https://arxiv.org/abs/2608.14906",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
     },
     {
       "keyword": "azureai",
@@ -328,21 +291,35 @@
       "articles": []
     },
     {
-      "keyword": "browser-use",
+      "keyword": "browser use",
       "mentions": 3,
       "velocity": 0.2,
       "sources": [
-        "hackernews"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 83,
-      "days_active": 6,
-      "expert_ratio": 0.64,
+      "confidence": 95,
+      "days_active": 9,
+      "expert_ratio": 0.82,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "aievents",
+      "keyword": "aiengineering",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "agentconlondon",
       "mentions": 2,
       "velocity": 0.2,
       "sources": [
@@ -370,7 +347,7 @@
       "articles": []
     },
     {
-      "keyword": "buildagents",
+      "keyword": "microsoftaifoundry",
       "mentions": 2,
       "velocity": 0.2,
       "sources": [
@@ -386,6 +363,37 @@
   ],
   "sustained": [
     {
+      "keyword": "openrouter",
+      "mentions": 15,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.52,
+      "headline": "Stripe's OpenRouter deal, its largest-ever acquisition, is a bet on a future where users turn to a mix of AI models and ",
+      "articles": [
+        {
+          "title": "Stripe's OpenRouter deal, its largest-ever acquisition, is a bet on a future where users turn to a mix of AI models and ",
+          "url": "https://www.techmeme.com/260820/p12#a260820p12",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Stripe Takes OpenRouter",
+          "url": "https://www.theinformation.com/articles/stripe-takes-openrouter",
+          "source": "The Information"
+        },
+        {
+          "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+          "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
       "keyword": "together",
       "mentions": 43,
       "velocity": 1.4,
@@ -398,8 +406,13 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.0,
-      "headline": "I turned my Manhattan stoop into an art project. It brought my neighborhood together.",
+      "headline": "Slack launches Slack Code, where teams and AI agents build together",
       "articles": [
+        {
+          "title": "Slack launches Slack Code, where teams and AI agents build together",
+          "url": "https://thenextweb.com/news/slack-code-ai-coding-channels-launch",
+          "source": "The Next Web"
+        },
         {
           "title": "I turned my Manhattan stoop into an art project. It brought my neighborhood together.",
           "url": "https://www.businessinsider.com/manhattan-stoop-neighborhood-attraction-2026-8",
@@ -409,106 +422,29 @@
           "title": "How the story of life and our planet unfolded — together",
           "url": "https://www.nature.com/articles/d41586-026-02530-4",
           "source": "Nature - Issue - nature.com science feeds"
-        },
-        {
-          "title": "Microsoft brings Copilot apps together ahead of ‘super app’ overhaul",
-          "url": "https://www.computerworld.com/article/4209764/microsoft-brings-copilot-apps-together-ahead-of-super-app-overhaul.html",
-          "source": "Artificial Intelligence – Computerworld"
         }
       ]
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 19,
-      "velocity": 1.3,
+      "keyword": "gemma",
+      "mentions": 16,
+      "velocity": 1.0,
       "sources": [
         "articles",
         "arxiv",
-        "github"
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.89,
-      "headline": "LLM Enhancement with Domain Expert Mental Model to Reduce LLM Hallucination with Causal Prompt Engineering",
-      "articles": [
-        {
-          "title": "LLM Enhancement with Domain Expert Mental Model to Reduce LLM Hallucination with Causal Prompt Engineering",
-          "url": "https://arxiv.org/abs/2509.10818",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Prompt Engineering in Segment Anything Model: Methodologies, Applications, and Emerging Challenges",
-          "url": "https://arxiv.org/abs/2507.09562",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "github",
-      "mentions": 99,
-      "velocity": 0.7,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.29,
-      "headline": "GitHub blames 8-hour outage on autoscaling fail and VS Code retry storm",
-      "articles": [
-        {
-          "title": "GitHub blames 8-hour outage on autoscaling fail and VS Code retry storm",
-          "url": "https://www.theregister.com/saas/2026/08/19/github-blames-8-hour-outage-on-autoscaling-fail-and-vs-code-retry-storm/5289547",
-          "source": "The Register"
-        },
-        {
-          "title": "AI-bedrijf Cursor brengt GitHub-concurrent Origin uit",
-          "url": "https://tweakers.net/nieuws/251132/ai-bedrijf-cursor-brengt-github-concurrent-origin-uit.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 65,
-      "velocity": -0.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.72,
-      "headline": "Source: Nvidia has discussed an investment in Mercor as part of a round valuing the startup at $20B; Nvidia paid Mercor ",
-      "articles": [
-        {
-          "title": "Source: Nvidia has discussed an investment in Mercor as part of a round valuing the startup at $20B; Nvidia paid Mercor ",
-          "url": "https://www.techmeme.com/260819/p40#a260819p40",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia Discusses Funding Its AI Data Supplier Mercor at a $20 Billion Valuation",
-          "url": "https://www.theinformation.com/articles/nvidia-discusses-funding-ai-data-supplier-mercor-20-billion-valuation",
-          "source": "The Information"
-        },
-        {
-          "title": "'Big Short' investor Michael Burry unpacks 'serious competition' for Nvidia that he thinks could shake up the AI trade",
-          "url": "https://www.businessinsider.com/big-short-michael-burry-nvidia-ai-stocks-etched-competition-2026-8",
-          "source": "Business Insider"
-        }
-      ]
+      "expert_ratio": 0.93,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "claude code",
-      "mentions": 29,
-      "velocity": -1.0,
+      "mentions": 33,
+      "velocity": 0.2,
       "sources": [
         "articles",
         "hackernews",
@@ -525,33 +461,68 @@
           "title": "Dev taps Claude Code to craft custom printer driver for macOS",
           "url": "https://www.theregister.com/ai-and-ml/2026/08/19/dev-taps-claude-code-to-craft-custom-printer-driver-for-macos/5289875",
           "source": "The Register"
-        },
-        {
-          "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
-          "url": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
         }
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 60,
-      "velocity": -1.9,
+      "keyword": "nvidia",
+      "mentions": 67,
+      "velocity": 0.2,
       "sources": [
         "articles",
+        "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.47,
-      "headline": "Grok Bot Masterclass",
+      "expert_ratio": 0.71,
+      "headline": "La Cina dà il via libera ai chip NVIDIA H200 per i colossi AI",
       "articles": [
         {
-          "title": "Grok Bot Masterclass",
-          "url": "https://www.dailydoseofds.com/p/grok-bot-masterclass/",
-          "source": "Daily Dose of Data Science"
+          "title": "La Cina dà il via libera ai chip NVIDIA H200 per i colossi AI",
+          "url": "https://www.tomshw.it/hardware/la-cina-da-il-via-libera-ai-chip-nvidia-h200-per-i-colossi-ai",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
+          "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents/",
+          "source": "NVIDIA Developer Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 162,
+      "velocity": -1.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.76,
+      "headline": "Google geeft studenten een jaar gratis Gemini",
+      "articles": [
+        {
+          "title": "Google geeft studenten een jaar gratis Gemini",
+          "url": "https://tweakers.net/nieuws/251158/google-geeft-studenten-een-jaar-gratis-gemini.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Google announces new study tools, including a student hub, notebooks, and interactive 3D visualizations in Gemini, plus ",
+          "url": "https://www.techmeme.com/260819/p45#a260819p45",
+          "source": "Techmeme"
+        },
+        {
+          "title": "US vs China AI Race: How ChatGPT, Gemini, Deepseek, Kimi Agents Compare",
+          "url": "https://www.bloomberg.com/graphics/2026-us-china-ai-race/",
+          "source": "Bloomberg Technology"
         }
       ]
     }
@@ -568,14 +539,6 @@
     "hit_rate": 0.161,
     "materialized": 23,
     "by_signal_type": {
-      "emerging": {
-        "scored": 66,
-        "covered": 20,
-        "early": 7,
-        "coverage_rate": 0.303,
-        "early_rate": 0.106,
-        "hit_rate": 0.303
-      },
       "weak_signal": {
         "scored": 77,
         "covered": 3,
@@ -583,6 +546,14 @@
         "coverage_rate": 0.039,
         "early_rate": 0.026,
         "hit_rate": 0.039
+      },
+      "emerging": {
+        "scored": 66,
+        "covered": 20,
+        "early": 7,
+        "coverage_rate": 0.303,
+        "early_rate": 0.106,
+        "hit_rate": 0.303
       }
     }
   },
@@ -666,6 +637,36 @@
         "confidence": 1.0
       },
       {
+        "keyword": "gpt-5",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-20",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "perplexity",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-20",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "dify",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-20",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "gemini 2",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-20",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "browser-use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-20",
+        "confidence": 0.2
+      },
+      {
         "keyword": "openai",
         "signal_type": "emerging",
         "flagged_on": "2026-08-19",
@@ -694,59 +695,22 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-19",
         "confidence": 0.4
-      },
-      {
-        "keyword": "ai chips",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-19",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "cline",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-18",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "qlora",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-18",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "prompt engineering",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-18",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "openrouter",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-18",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "llama 3",
-        "recent_mentions": 14,
-        "prior_mentions": 1,
-        "change_ratio": 14.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "mlx",
-        "recent_mentions": 33,
+        "recent_mentions": 34,
         "prior_mentions": 5,
-        "change_ratio": 6.6,
-        "corroborating_sources": 2
+        "change_ratio": 6.8,
+        "corroborating_sources": 3
       },
       {
-        "keyword": "microsoft copilot",
+        "keyword": "llama 3",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
         "keyword": "zapier",
@@ -756,13 +720,6 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "openrouter",
-        "recent_mentions": 48,
-        "prior_mentions": 14,
-        "change_ratio": 3.43,
-        "corroborating_sources": 3
-      },
-      {
         "keyword": "gemini 2",
         "recent_mentions": 28,
         "prior_mentions": 9,
@@ -770,11 +727,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "world models",
-        "recent_mentions": 33,
-        "prior_mentions": 11,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
+        "keyword": "openrouter",
+        "recent_mentions": 43,
+        "prior_mentions": 14,
+        "change_ratio": 3.07,
+        "corroborating_sources": 3
       },
       {
         "keyword": "comet",
@@ -792,16 +749,9 @@
       },
       {
         "keyword": "whisper",
-        "recent_mentions": 20,
+        "recent_mentions": 19,
         "prior_mentions": 8,
-        "change_ratio": 2.5,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "kling",
-        "recent_mentions": 27,
-        "prior_mentions": 12,
-        "change_ratio": 2.25,
+        "change_ratio": 2.38,
         "corroborating_sources": 3
       },
       {
@@ -809,6 +759,27 @@
         "recent_mentions": 31,
         "prior_mentions": 14,
         "change_ratio": 2.21,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "kling",
+        "recent_mentions": 25,
+        "prior_mentions": 12,
+        "change_ratio": 2.08,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "context length",
+        "recent_mentions": 12,
+        "prior_mentions": 6,
+        "change_ratio": 2.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "claude cowork",
+        "recent_mentions": 11,
+        "prior_mentions": 6,
+        "change_ratio": 1.83,
         "corroborating_sources": 4
       }
     ]
