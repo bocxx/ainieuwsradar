@@ -1,39 +1,186 @@
 {
-  "generated_at": "2026-08-21T07:16:19.713533",
-  "total_tracked": 2668,
+  "generated_at": "2026-08-21T19:20:13.061439",
+  "total_tracked": 2732,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 177,
-      "velocity": 17.5,
+      "keyword": "chatgpt",
+      "mentions": 221,
+      "velocity": 6.5,
       "sources": [
         "articles",
         "arxiv",
         "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.51,
+      "headline": "Child safety experts are skeptical of OpenAI's ChatGPT for Teens",
+      "articles": [
+        {
+          "title": "Child safety experts are skeptical of OpenAI's ChatGPT for Teens",
+          "url": "https://www.engadget.com/2241179/child-safety-experts-skeptical-of-openai-chatgpt-for-teens/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Web post-ChatGPT: il 35% delle pagine ha tracce di IA",
+          "url": "https://www.tomshw.it/hardware/pagine-post-chatgpt-il-35-ha-segnali-di-scrittura-o-modifica-ia",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "ChatGPT on Mac can now read and respond to Apple iMessages",
+          "url": "https://www.engadget.com/2241390/openai-chatgpt-imessage-integration/",
+          "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 163,
+      "velocity": 5.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.97,
+      "headline": "Verlies Alibaba’s AI-tak verviervoudigt, Qwen omarmd",
+      "articles": [
+        {
+          "title": "Verlies Alibaba’s AI-tak verviervoudigt, Qwen omarmd",
+          "url": "https://www.emerce.nl/nieuws/verlies-alibabas-ai-tak-verviervoudigt-qwen-omarmd",
+          "source": "Nieuws - Emerce"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 552,
+      "velocity": 4.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.79,
+      "headline": "Claudette: Make Claude Stop Talking Like a BuzzFeed Article",
+      "articles": [
+        {
+          "title": "Claudette: Make Claude Stop Talking Like a BuzzFeed Article",
+          "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 52,
+      "velocity": 4.2,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.58,
+      "headline": "Tech tries a new message: You'd love data centers if China wasn't making you hate data centers",
+      "articles": [
+        {
+          "title": "Tech tries a new message: You'd love data centers if China wasn't making you hate data centers",
+          "url": "https://www.businessinsider.com/china-data-center-ai-backlash-tech-messaging-2026-8",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "Space data center startup Starcloud raised a $250M extension, at a $2.3B valuation, to its March $170M Series A; source:",
+          "url": "https://www.techmeme.com/260821/p12#a260821p12",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+          "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "nvidia",
+      "mentions": 74,
+      "velocity": 2.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
         "linkedin",
         "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.82,
-      "headline": "A knowledge-guided agentic framework for mitigating patient-context ambiguity in health queries",
+      "expert_ratio": 0.69,
+      "headline": "Space data center startup Starcloud raised a $250M extension, at a $2.3B valuation, to its March $170M Series A; source:",
       "articles": [
         {
-          "title": "A knowledge-guided agentic framework for mitigating patient-context ambiguity in health queries",
-          "url": "https://arxiv.org/abs/2608.19875",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Space data center startup Starcloud raised a $250M extension, at a $2.3B valuation, to its March $170M Series A; source:",
+          "url": "https://www.techmeme.com/260821/p12#a260821p12",
+          "source": "Techmeme"
         },
         {
-          "title": "Accelerated Genetic Programming Hyper-Heuristics for Simulation-Based Scheduling via Agentic AI",
-          "url": "https://arxiv.org/abs/2608.19487",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Nvidia is in talks with the Korean inference chip designer Rebellions",
+          "url": "https://thenextweb.com/news/nvidia-rebellions-talks-korea-inference-chips",
+          "source": "The Next Web"
         },
         {
-          "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
-          "url": "https://arxiv.org/abs/2608.20320",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Nvidia is in talks to invest in clean-energy data center power developer Cloverleaf Infrastructure",
+          "url": "https://qz.com/nvidia-cloverleaf-infrastructure-investment-data-center-power-082126",
+          "source": "Quartz"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 64,
+      "velocity": 2.1,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.38,
+      "headline": "Five days after buying Cursor for $60bn, SpaceX tried to buy Cognition",
+      "articles": [
+        {
+          "title": "Five days after buying Cursor for $60bn, SpaceX tried to buy Cognition",
+          "url": "https://thenextweb.com/news/spacex-cognition-acquisition-approach-denial",
+          "source": "The Next Web"
+        },
+        {
+          "title": "AI-bedrijf Cursor brengt GitHub-concurrent Origin uit",
+          "url": "https://tweakers.net/nieuws/251132/ai-bedrijf-cursor-brengt-github-concurrent-origin-uit.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+          "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+          "source": "TechCrunch"
         }
       ]
     }
@@ -45,47 +192,49 @@
       "velocity": 2.3,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.35,
+      "expert_ratio": 0.34,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "data center",
-      "mentions": 44,
-      "velocity": 1.7,
+      "keyword": "gpt-5",
+      "mentions": 42,
+      "velocity": 2.3,
       "sources": [
         "articles",
-        "hackernews",
-        "twitter"
+        "arxiv",
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.59,
-      "headline": "Ok, can we actually cool data centers with our pee?",
-      "articles": [
-        {
-          "title": "Ok, can we actually cool data centers with our pee?",
-          "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "OpenAI, Meta Seek Help to Combat Data Center PR Problem",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-08-20/openai-meta-seek-help-to-combat-data-center-pr-problem",
-          "source": "Bloomberg Technology"
-        }
-      ]
+      "expert_ratio": 0.97,
+      "headline": "",
+      "articles": []
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "b200",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "",
+      "articles": []
+    },
     {
       "keyword": "azureai",
       "mentions": 3,
@@ -171,21 +320,7 @@
       "articles": []
     },
     {
-      "keyword": "microsoftaifoundry",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 83,
-      "days_active": 11,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "aievents",
+      "keyword": "sgtech",
       "mentions": 2,
       "velocity": 0.1,
       "sources": [
@@ -229,32 +364,6 @@
   ],
   "sustained": [
     {
-      "keyword": "vibe coding",
-      "mentions": 31,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.63,
-      "headline": "Il vibe coding arriva sui chip quantistici, ma nasconde un'insidia",
-      "articles": [
-        {
-          "title": "Il vibe coding arriva sui chip quantistici, ma nasconde un'insidia",
-          "url": "https://www.tomshw.it/scienze/il-vibe-coding-arriva-sui-chip-quantistici-ma-nasconde-uninsidia",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Warning to enterprises: Vibe coding can be a threat",
-          "url": "https://www.computerworld.com/article/4210633/warning-to-enterprises-vibe-coding-can-be-a-threat.html",
-          "source": "Artificial Intelligence – Computerworld"
-        }
-      ]
-    },
-    {
       "keyword": "together",
       "mentions": 46,
       "velocity": 1.8,
@@ -266,8 +375,13 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.0,
-      "headline": "Designing Human-mediated AI Guidance: Ready Together for Personalized Family Emergency Preparedness",
+      "headline": "A strange new quantum droplet can hold itself together",
       "articles": [
+        {
+          "title": "A strange new quantum droplet can hold itself together",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202846.htm",
+          "source": "Latest Science News -- ScienceDaily"
+        },
         {
           "title": "Designing Human-mediated AI Guidance: Ready Together for Personalized Family Emergency Preparedness",
           "url": "https://arxiv.org/abs/2608.19950",
@@ -277,77 +391,21 @@
           "title": "Slack launches Slack Code, where teams and AI agents build together",
           "url": "https://thenextweb.com/news/slack-code-ai-coding-channels-launch",
           "source": "The Next Web"
-        },
-        {
-          "title": "The App Bringing Disabled Daters Together",
-          "url": "https://www.nytimes.com/2026/08/20/well/dating-app-disabilities.html",
-          "source": "The New York Times"
         }
       ]
     },
     {
-      "keyword": "anthropic",
-      "mentions": 233,
-      "velocity": 1.8,
+      "keyword": "perplexity",
+      "mentions": 21,
+      "velocity": 1.2,
       "sources": [
-        "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.89,
-      "headline": "OpenAI is gaining on Anthropic with business users, new data indicates",
-      "articles": [
-        {
-          "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
-          "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Open Machine CEO on Anthropic, OpenAI IPO Potential",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-20/open-machine-ceo-on-anthropic-openai-ipo-potential-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Sources: Broadcom is in talks with a group of lenders to raise $60B+ in debt for an AI chip financing deal that will ben",
-          "url": "https://www.techmeme.com/260820/p39#a260820p39",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "langchain",
-      "mentions": 15,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "github"
+        "linkedin"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.83,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 20,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.5,
+      "expert_ratio": 0.51,
       "headline": "Perplexity’s free AI offer left it with millions more users in India",
       "articles": [
         {
@@ -356,6 +414,21 @@
           "source": "TechCrunch"
         }
       ]
+    },
+    {
+      "keyword": "langchain",
+      "mentions": 14,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.84,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -462,6 +535,24 @@
         "confidence": 1.0
       },
       {
+        "keyword": "data center",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-21",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "llama.cpp",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-21",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "voice mode",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-21",
+        "confidence": 0.2
+      },
+      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-08-20",
@@ -504,28 +595,10 @@
         "confidence": 0.2
       },
       {
-        "keyword": "openai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-19",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "copilot",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-19",
-        "confidence": 1.0
-      },
-      {
         "keyword": "chatgpt",
         "signal_type": "emerging",
         "flagged_on": "2026-08-19",
         "confidence": 1.0
-      },
-      {
-        "keyword": "cursor",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-19",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
@@ -538,10 +611,10 @@
       },
       {
         "keyword": "llama 3",
-        "recent_mentions": 10,
+        "recent_mentions": 9,
         "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 2
+        "change_ratio": 9.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "comet",
@@ -551,24 +624,10 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "world models",
-        "recent_mentions": 45,
-        "prior_mentions": 6,
-        "change_ratio": 7.5,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "whisper",
         "recent_mentions": 28,
         "prior_mentions": 5,
         "change_ratio": 5.6,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "openrouter",
-        "recent_mentions": 62,
-        "prior_mentions": 12,
-        "change_ratio": 5.17,
         "corroborating_sources": 3
       },
       {
@@ -579,11 +638,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "digital twin",
-        "recent_mentions": 19,
-        "prior_mentions": 4,
-        "change_ratio": 4.75,
-        "corroborating_sources": 4
+        "keyword": "openrouter",
+        "recent_mentions": 60,
+        "prior_mentions": 12,
+        "change_ratio": 5.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "world models",
+        "recent_mentions": 29,
+        "prior_mentions": 6,
+        "change_ratio": 4.83,
+        "corroborating_sources": 2
       },
       {
         "keyword": "gemini 2",
@@ -593,11 +659,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "reward hacking",
-        "recent_mentions": 23,
-        "prior_mentions": 5,
-        "change_ratio": 4.6,
-        "corroborating_sources": 2
+        "keyword": "digital twin",
+        "recent_mentions": 18,
+        "prior_mentions": 4,
+        "change_ratio": 4.5,
+        "corroborating_sources": 3
       },
       {
         "keyword": "kling",
@@ -607,11 +673,18 @@
         "corroborating_sources": 4
       },
       {
-        "keyword": "context length",
-        "recent_mentions": 22,
-        "prior_mentions": 6,
-        "change_ratio": 3.67,
+        "keyword": "reward hacking",
+        "recent_mentions": 18,
+        "prior_mentions": 5,
+        "change_ratio": 3.6,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "glm-5",
+        "recent_mentions": 38,
+        "prior_mentions": 11,
+        "change_ratio": 3.45,
+        "corroborating_sources": 4
       }
     ]
   }
