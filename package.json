@@ -7,8 +7,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "deploy": "npm run build && npm run audit:html && wrangler deploy",
-    "audit:html": "node scripts/check-html-complete.mjs"
+    "deploy": "npm run build && wrangler deploy",
+    "audit:html": "node scripts/check-html-complete.mjs",
+    "postbuild": "node scripts/check-html-complete.mjs"
   },
   "dependencies": {
     "astro": "^7.2.3"
