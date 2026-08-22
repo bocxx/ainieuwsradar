@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T07:18:10.061983",
-  "total_tracked": 2741,
+  "generated_at": "2026-08-22T19:19:57.507375",
+  "total_tracked": 2829,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "chatgpt",
-      "mentions": 272,
-      "velocity": 20.0,
+      "mentions": 278,
+      "velocity": 21.9,
       "sources": [
         "articles",
         "github",
@@ -23,9 +23,43 @@
       "articles": []
     },
     {
+      "keyword": "cursor",
+      "mentions": 89,
+      "velocity": 9.1,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.39,
+      "headline": "Five days after buying Cursor for $60bn, SpaceX tried to buy Cognition",
+      "articles": [
+        {
+          "title": "Five days after buying Cursor for $60bn, SpaceX tried to buy Cognition",
+          "url": "https://thenextweb.com/news/spacex-cognition-acquisition-approach-denial",
+          "source": "The Next Web"
+        },
+        {
+          "title": "AI-bedrijf Cursor brengt GitHub-concurrent Origin uit",
+          "url": "https://tweakers.net/nieuws/251132/ai-bedrijf-cursor-brengt-github-concurrent-origin-uit.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+          "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
       "keyword": "claude",
-      "mentions": 590,
-      "velocity": 14.7,
+      "mentions": 571,
+      "velocity": 8.9,
       "sources": [
         "articles",
         "arxiv",
@@ -50,18 +84,13 @@
           "title": "Anthropic says Mythos 5 is now in public beta in Claude Security for Enterprise users, and it is working with providers ",
           "url": "https://www.techmeme.com/260821/p18#a260821p18",
           "source": "Techmeme"
-        },
-        {
-          "title": "Claudette: Make Claude Stop Talking Like a BuzzFeed Article",
-          "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-          "source": "Hacker News"
         }
       ]
     },
     {
       "keyword": "qwen",
-      "mentions": 181,
-      "velocity": 9.0,
+      "mentions": 178,
+      "velocity": 8.1,
       "sources": [
         "articles",
         "arxiv",
@@ -82,43 +111,9 @@
       ]
     },
     {
-      "keyword": "data center",
-      "mentions": 67,
-      "velocity": 7.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.58,
-      "headline": "How politicians who once championed data centers, including Greg Abbott and Josh Shapiro, are now slowing their developm",
-      "articles": [
-        {
-          "title": "How politicians who once championed data centers, including Greg Abbott and Josh Shapiro, are now slowing their developm",
-          "url": "https://www.techmeme.com/260821/p33#a260821p33",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia partners with data center developer Cloverleaf",
-          "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Nvidia makes a minority investment in Cloverleaf, which works with utilities and energy providers to secure infrastructu",
-          "url": "https://www.techmeme.com/260821/p27#a260821p27",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
       "keyword": "llama",
-      "mentions": 44,
-      "velocity": 6.0,
+      "mentions": 50,
+      "velocity": 7.8,
       "sources": [
         "articles",
         "arxiv",
@@ -128,7 +123,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.83,
+      "expert_ratio": 0.84,
       "headline": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
       "articles": [
         {
@@ -165,56 +160,22 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.81,
-      "headline": "Exclusive: OpenAI Explored Stake in Stargate Power Developer Lancium",
+      "headline": "OpenAI's chief economist says this is what it takes to work on his team at the ChatGPT maker",
       "articles": [
+        {
+          "title": "OpenAI's chief economist says this is what it takes to work on his team at the ChatGPT maker",
+          "url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
+          "source": "Business Insider"
+        },
+        {
+          "title": "OpenAI President Greg Brockman's role has expanded significantly, giving him control over its product and scaling teams ",
+          "url": "https://www.techmeme.com/260822/p2#a260822p2",
+          "source": "Techmeme"
+        },
         {
           "title": "Exclusive: OpenAI Explored Stake in Stargate Power Developer Lancium",
           "url": "https://www.theinformation.com/briefings/exclusive-openai-explored-stake-stargate-power-developer-lancium",
           "source": "The Information"
-        },
-        {
-          "title": "OpenAI says California should amend SB 53 to expand safeguards, including requiring monitoring of frontier models under ",
-          "url": "https://www.techmeme.com/260821/p29#a260821p29",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI cuts GPT-5.6 Sol's API and credit prices by over 20% for the next three months, to $4/1M input tokens and $20/1M ",
-          "url": "https://www.techmeme.com/260821/p26#a260821p26",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 78,
-      "velocity": 5.8,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.39,
-      "headline": "Five days after buying Cursor for $60bn, SpaceX tried to buy Cognition",
-      "articles": [
-        {
-          "title": "Five days after buying Cursor for $60bn, SpaceX tried to buy Cognition",
-          "url": "https://thenextweb.com/news/spacex-cognition-acquisition-approach-denial",
-          "source": "The Next Web"
-        },
-        {
-          "title": "AI-bedrijf Cursor brengt GitHub-concurrent Origin uit",
-          "url": "https://tweakers.net/nieuws/251132/ai-bedrijf-cursor-brengt-github-concurrent-origin-uit.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-          "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-          "source": "TechCrunch"
         }
       ]
     },
@@ -244,74 +205,96 @@
         },
         {
           "title": "Slack launches Slack Code, where teams and AI agents build together",
-          "url": "https://thenextweb.com/news/slack-code-ai-coding-channels-launch",
-          "source": "The Next Web"
+          "url": "https://thenextweb.com/news/slack-code-ai-coding-channels-launch?utm_source=flipboard&utm_content=other",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "github",
+      "mentions": 103,
+      "velocity": 4.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.3,
+      "headline": "Guerra agli emulatori: Nintendo fa chiudere 400 repo GitHub",
+      "articles": [
+        {
+          "title": "Guerra agli emulatori: Nintendo fa chiudere 400 repo GitHub",
+          "url": "https://www.tomshw.it/videogioco/nintendo-github-disabilita-oltre-400-repository-di-emulatori-switch",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "'We let you down': GitHub pledges to scale up before developers give up",
+          "url": "https://www.theregister.com/devops/2026/08/21/we-let-you-down-github-pledges-to-scale-up-before-developers-give-up/5291031",
+          "source": "The Register"
+        },
+        {
+          "title": "GitHub says commits have doubled in the last four months",
+          "url": "https://www.engadget.com/2241272/github-says-commits-have-doubled-in-the-last-four-months/",
+          "source": "Engadget"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "nvidia",
-      "mentions": 76,
-      "velocity": 2.2,
+      "keyword": "data center",
+      "mentions": 58,
+      "velocity": 4.8,
       "sources": [
         "articles",
         "arxiv",
         "hackernews",
-        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.67,
-      "headline": "Cloverleaf deal is latest example of Nvidia using its war chest to patch cracks in the AI bubble",
+      "expert_ratio": 0.57,
+      "headline": "America Really, Really Hates Data Centers",
       "articles": [
         {
-          "title": "Cloverleaf deal is latest example of Nvidia using its war chest to patch cracks in the AI bubble",
-          "url": "https://www.theregister.com/systems/2026/08/22/cloverleaf-deal-is-latest-example-of-nvidia-using-its-war-chest-to-patch-cracks-in-the-ai-bubble/5291369",
-          "source": "The Register"
+          "title": "America Really, Really Hates Data Centers",
+          "url": "https://www.theinformation.com/articles/america-hates-data-centers",
+          "source": "The Information"
         },
         {
-          "title": "Nvidia partners with data center developer Cloverleaf",
-          "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Nvidia makes a minority investment in Cloverleaf, which works with utilities and energy providers to secure infrastructu",
-          "url": "https://www.techmeme.com/260821/p27#a260821p27",
+          "title": "Cheap energy, abundant land, and proximity to Beijing have made Ulanqab, Inner Mongolia, a data center hub, with ~100 da",
+          "url": "https://www.techmeme.com/260822/p6#a260822p6",
           "source": "Techmeme"
+        },
+        {
+          "title": "Data centers are using more electricity than anyone predicted. What happens next?",
+          "url": "https://qz.com/data-center-electricity-demand-growth-us-081726",
+          "source": "Quartz"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "hoverair",
-      "mentions": 2,
-      "velocity": 1.0,
+      "keyword": "openai codex",
+      "mentions": 3,
+      "velocity": 2.0,
       "sources": [
-        "articles"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 61,
+      "confidence": 63,
       "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "HoverAir’s transforming modular drone has already been halted in the US",
-      "articles": [
-        {
-          "title": "HoverAir’s transforming modular drone has already been halted in the US",
-          "url": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "HoverAir’s ingenious self-flying drone can transform into a pocket gimbal camera — and unlike DJI drones, it just got FC",
-          "url": "https://www.techradar.com/cameras/drones/hoverairs-ingenious-self-flying-drone-can-transform-into-a-pocket-gimbal-camera-and-unlike-dji-it-just-got-fcc-approval",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
+      "expert_ratio": 0.75,
+      "headline": "",
+      "articles": []
     },
     {
       "keyword": "inflection",
@@ -344,26 +327,12 @@
       "confidence": 73,
       "days_active": 5,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai assistant",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 87,
-      "days_active": 7,
-      "expert_ratio": 0.75,
-      "headline": "Amazon's Alexa+ AI assistant is now free for anyone with a Fire TV device",
+      "headline": "I made the easy sausage and tortellini soup I've been seeing online. It's perfect for busy weeknights.",
       "articles": [
         {
-          "title": "Amazon's Alexa+ AI assistant is now free for anyone with a Fire TV device",
-          "url": "https://www.engadget.com/2239785/amazons-alexa-ai-assistant-is-now-free-for-anyone-with-a-fire-tv-device/",
-          "source": "Engadget"
+          "title": "I made the easy sausage and tortellini soup I've been seeing online. It's perfect for busy weeknights.",
+          "url": "https://www.businessinsider.com/sausage-and-tortellini-soup-recipe-how-to-make-photos",
+          "source": "All Content from Business Insider"
         }
       ]
     },
@@ -387,20 +356,6 @@
       "velocity": 0.3,
       "sources": [
         "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "ai gateway",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "github"
       ],
       "source_count": 1,
       "confidence": 81,
@@ -438,21 +393,82 @@
       "articles": []
     },
     {
-      "keyword": "browser use",
+      "keyword": "browser-use",
       "mentions": 3,
       "velocity": 0.2,
       "sources": [
         "github"
       ],
       "source_count": 1,
+      "confidence": 87,
+      "days_active": 6,
+      "expert_ratio": 0.94,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "machinelearning",
+      "mentions": 3,
+      "velocity": 0.1,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
       "confidence": 95,
-      "days_active": 8,
-      "expert_ratio": 0.86,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "voice mode",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 11,
+      "expert_ratio": 0.73,
       "headline": "",
       "articles": []
     }
   ],
   "sustained": [
+    {
+      "keyword": "ai coding",
+      "mentions": 32,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.5,
+      "headline": "80% of developers find AI coding more addictive than helpful",
+      "articles": [
+        {
+          "title": "80% of developers find AI coding more addictive than helpful",
+          "url": "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/?utm_source=flipboard&utm_content=user/ZDNet",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "New ‘Slack Code’ turns AI coding into a team activity",
+          "url": "https://www.computerworld.com/article/4212446/new-slack-code-turns-ai-coding-into-a-team-activity.html",
+          "source": "Artificial Intelligence – Computerworld"
+        },
+        {
+          "title": "Slack wants to drag AI coding out of the terminal and into the group chat",
+          "url": "https://venturebeat.com/orchestration/slack-wants-to-drag-ai-coding-out-of-the-terminal-and-into-the-group-chat",
+          "source": "VentureBeat"
+        }
+      ]
+    },
     {
       "keyword": "seedance",
       "mentions": 20,
@@ -470,98 +486,15 @@
       "articles": []
     },
     {
-      "keyword": "cline",
-      "mentions": 18,
-      "velocity": 1.6,
+      "keyword": "vibe coding",
+      "mentions": 31,
+      "velocity": 1.7,
       "sources": [
         "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.35,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "openrouter",
-      "mentions": 17,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
-        "hackernews",
+        "linkedin",
         "reddit"
       ],
       "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.67,
-      "headline": "Barclays Loses Tech Bankers; VCs Get Exits From Poolside, OpenRouter",
-      "articles": [
-        {
-          "title": "Barclays Loses Tech Bankers; VCs Get Exits From Poolside, OpenRouter",
-          "url": "https://www.theinformation.com/articles/barclays-loses-tech-bankers-vcs-get-exits-poolside-openrouter",
-          "source": "The Information"
-        },
-        {
-          "title": "Stripe's OpenRouter deal, its largest-ever acquisition, is a bet on a future where users turn to a mix of AI models and ",
-          "url": "https://www.techmeme.com/260820/p12#a260820p12",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Stripe Takes OpenRouter",
-          "url": "https://www.theinformation.com/articles/stripe-takes-openrouter",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 230,
-      "velocity": 0.8,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.89,
-      "headline": "Sources: Anthropic's bankers said the company could raise $100B+ in its IPO, which could value it at $2T, in recent disc",
-      "articles": [
-        {
-          "title": "Sources: Anthropic's bankers said the company could raise $100B+ in its IPO, which could value it at $2T, in recent disc",
-          "url": "https://www.techmeme.com/260821/p32#a260821p32",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O.",
-          "url": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
-          "source": "NYT ＞ Technology"
-        },
-        {
-          "title": "Anthropic’s Opus 4.6 is a smut-machine",
-          "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "keyword": "vibe coding",
-      "mentions": 28,
-      "velocity": 0.8,
-      "sources": [
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 2,
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.63,
@@ -575,9 +508,71 @@
         {
           "title": "Warning to enterprises: Vibe coding can be a threat",
           "url": "https://www.computerworld.com/article/4210633/warning-to-enterprises-vibe-coding-can-be-a-threat.html",
-          "source": "Artificial Intelligence – Computerworld"
+          "source": "Computerworld"
         }
       ]
+    },
+    {
+      "keyword": "elevenlabs",
+      "mentions": 12,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "prompt engineering",
+      "mentions": 17,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.84,
+      "headline": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+      "articles": [
+        {
+          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+          "url": "https://arxiv.org/abs/2608.19299",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "LLM Enhancement with Domain Expert Mental Model to Reduce LLM Hallucination with Causal Prompt Engineering",
+          "url": "https://arxiv.org/abs/2509.10818",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Prompt Engineering in Segment Anything Model: Methodologies, Applications, and Emerging Challenges",
+          "url": "https://arxiv.org/abs/2507.09562",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "sora",
+      "mentions": 13,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.03,
+      "headline": "",
+      "articles": []
     }
   ],
   "track_record": {
@@ -678,6 +673,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "inflection",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-22",
+        "confidence": 0.2
+      },
+      {
         "keyword": "world model",
         "signal_type": "emerging",
         "flagged_on": "2026-08-22",
@@ -714,25 +715,25 @@
         "confidence": 0.2
       },
       {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-20",
-        "confidence": 1.0
-      },
-      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-08-20",
         "confidence": 1.0
       },
       {
-        "keyword": "perplexity",
+        "keyword": "anthropic",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-20",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "gpt-5",
         "signal_type": "emerging",
         "flagged_on": "2026-08-20",
         "confidence": 0.6
       },
       {
-        "keyword": "gpt-5",
+        "keyword": "perplexity",
         "signal_type": "emerging",
         "flagged_on": "2026-08-20",
         "confidence": 0.6
@@ -742,12 +743,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-20",
         "confidence": 0.4
-      },
-      {
-        "keyword": "browser-use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-20",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
@@ -760,9 +755,9 @@
       },
       {
         "keyword": "ai developer",
-        "recent_mentions": 19,
+        "recent_mentions": 14,
         "prior_mentions": 2,
-        "change_ratio": 9.5,
+        "change_ratio": 7.0,
         "corroborating_sources": 2
       },
       {
@@ -774,17 +769,10 @@
       },
       {
         "keyword": "github copilot",
-        "recent_mentions": 27,
+        "recent_mentions": 28,
         "prior_mentions": 5,
-        "change_ratio": 5.4,
+        "change_ratio": 5.6,
         "corroborating_sources": 4
-      },
-      {
-        "keyword": "pinecone",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
       },
       {
         "keyword": "heygen",
@@ -794,24 +782,38 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "glm-5",
-        "recent_mentions": 47,
-        "prior_mentions": 10,
-        "change_ratio": 4.7,
-        "corroborating_sources": 5
+        "keyword": "pinecone",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "slm",
-        "recent_mentions": 28,
+        "recent_mentions": 29,
         "prior_mentions": 6,
-        "change_ratio": 4.67,
-        "corroborating_sources": 2
+        "change_ratio": 4.83,
+        "corroborating_sources": 3
       },
       {
-        "keyword": "llama 3",
-        "recent_mentions": 13,
-        "prior_mentions": 3,
-        "change_ratio": 4.33,
+        "keyword": "model context protocol",
+        "recent_mentions": 33,
+        "prior_mentions": 7,
+        "change_ratio": 4.71,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "glm-5",
+        "recent_mentions": 44,
+        "prior_mentions": 10,
+        "change_ratio": 4.4,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "world models",
+        "recent_mentions": 34,
+        "prior_mentions": 8,
+        "change_ratio": 4.25,
         "corroborating_sources": 2
       },
       {
@@ -822,18 +824,11 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "model context protocol",
-        "recent_mentions": 28,
-        "prior_mentions": 7,
+        "keyword": "llama 3",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
         "change_ratio": 4.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "world models",
-        "recent_mentions": 32,
-        "prior_mentions": 8,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       }
     ]
   }
