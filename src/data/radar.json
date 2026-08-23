@@ -1,12 +1,81 @@
 {
-  "generated_at": "2026-08-22T19:19:57.507375",
-  "total_tracked": 2829,
+  "generated_at": "2026-08-23T07:14:15.985705",
+  "total_tracked": 2865,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "bolt",
+      "mentions": 18,
+      "velocity": 3.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 13,
+      "expert_ratio": 0.19,
+      "headline": "Chinese robot beats Usain Bolt's 100m world record",
+      "articles": [
+        {
+          "title": "Chinese robot beats Usain Bolt's 100m world record",
+          "url": "https://www.youtube.com/watch?v=rsI6I86yBsc",
+          "source": "Reuters"
+        },
+        {
+          "title": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+          "url": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Unitree unveils a robot it says can run faster than Usain Bolt ahead of its IPO",
+          "url": "https://www.businessinsider.com/unitree-robot-run-faster-usain-bolt-superman-china-ipo-2026-8",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 230,
+      "velocity": 2.4,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.88,
+      "headline": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating resea",
+      "articles": [
+        {
+          "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating resea",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Anthropic could raise $100bn, ten times Europe’s largest listing in decades",
+          "url": "https://thenextweb.com/news/anthropic-ipo-100-billion-two-trillion-valuation",
+          "source": "The Next Web"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "chatgpt",
-      "mentions": 278,
-      "velocity": 21.9,
+      "mentions": 299,
+      "velocity": 21.7,
       "sources": [
         "articles",
         "github",
@@ -19,47 +88,55 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.51,
-      "headline": "",
-      "articles": []
+      "headline": "I asked ChatGPT if I should get Botox — its answer made me understand why ChatGPT for teens needs to exist",
+      "articles": [
+        {
+          "title": "I asked ChatGPT if I should get Botox — its answer made me understand why ChatGPT for teens needs to exist",
+          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/i-asked-chatgpt-if-i-should-get-botox-its-answer-made-me-understand-why-chatgpt-for-teens-needs-to-exist",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
     },
     {
-      "keyword": "cursor",
-      "mentions": 89,
-      "velocity": 9.1,
+      "keyword": "openai",
+      "mentions": 323,
+      "velocity": 9.8,
       "sources": [
         "articles",
+        "arxiv",
         "github",
         "hackernews",
+        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.39,
-      "headline": "Five days after buying Cursor for $60bn, SpaceX tried to buy Cognition",
+      "expert_ratio": 0.8,
+      "headline": "OpenAI calls for California to strengthen its AI safety laws",
       "articles": [
         {
-          "title": "Five days after buying Cursor for $60bn, SpaceX tried to buy Cognition",
-          "url": "https://thenextweb.com/news/spacex-cognition-acquisition-approach-denial",
-          "source": "The Next Web"
+          "title": "OpenAI calls for California to strengthen its AI safety laws",
+          "url": "https://www.engadget.com/2242200/openai-calls-for-california-to-strengthen-ai-safety-laws/?utm_source=flipboard&utm_content=user/Engadget",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "AI-bedrijf Cursor brengt GitHub-concurrent Origin uit",
-          "url": "https://tweakers.net/nieuws/251132/ai-bedrijf-cursor-brengt-github-concurrent-origin-uit.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating resea",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-          "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+          "title": "OpenAI says California should strengthen its AI safety bill",
+          "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
           "source": "TechCrunch"
         }
       ]
     },
     {
       "keyword": "claude",
-      "mentions": 571,
-      "velocity": 8.9,
+      "mentions": 574,
+      "velocity": 7.3,
       "sources": [
         "articles",
         "arxiv",
@@ -73,47 +150,19 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.79,
-      "headline": "No driver, no problem — devs use Claude AI to craft native macOS tool for an 'obscure' Windows-only printer",
+      "headline": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
       "articles": [
         {
-          "title": "No driver, no problem — devs use Claude AI to craft native macOS tool for an 'obscure' Windows-only printer",
-          "url": "https://www.techradar.com/pro/no-driver-no-problem-devs-use-claude-ai-to-craft-native-macos-tool-for-an-obscure-windows-only-printer",
+          "title": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
+          "url": "https://www.techradar.com/pro/claude-wins-out-in-major-user-satisfaction-survey-beating-gemini-and-chatgpt-but-its-bad-news-for-grok-and-siri",
           "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Anthropic says Mythos 5 is now in public beta in Claude Security for Enterprise users, and it is working with providers ",
-          "url": "https://www.techmeme.com/260821/p18#a260821p18",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 178,
-      "velocity": 8.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.97,
-      "headline": "Verlies Alibaba’s AI-tak verviervoudigt, Qwen omarmd",
-      "articles": [
-        {
-          "title": "Verlies Alibaba’s AI-tak verviervoudigt, Qwen omarmd",
-          "url": "https://www.emerce.nl/nieuws/verlies-alibabas-ai-tak-verviervoudigt-qwen-omarmd",
-          "source": "Nieuws - Emerce"
         }
       ]
     },
     {
       "keyword": "llama",
-      "mentions": 50,
-      "velocity": 7.8,
+      "mentions": 49,
+      "velocity": 5.2,
       "sources": [
         "articles",
         "arxiv",
@@ -144,76 +193,203 @@
       ]
     },
     {
-      "keyword": "openai",
-      "mentions": 304,
-      "velocity": 5.8,
+      "keyword": "data center",
+      "mentions": 63,
+      "velocity": 4.8,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
-        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.81,
-      "headline": "OpenAI's chief economist says this is what it takes to work on his team at the ChatGPT maker",
+      "expert_ratio": 0.56,
+      "headline": "South Korean city bets on the ocean to solve its AI data center crisis — but this is only the beginning",
       "articles": [
         {
-          "title": "OpenAI's chief economist says this is what it takes to work on his team at the ChatGPT maker",
-          "url": "https://www.businessinsider.com/openai-chief-economist-studying-ai-impact-work-team-2026-8",
-          "source": "Business Insider"
+          "title": "South Korean city bets on the ocean to solve its AI data center crisis — but this is only the beginning",
+          "url": "https://www.techradar.com/pro/south-korean-city-bets-on-the-ocean-to-solve-its-ai-data-center-crisis-but-this-is-only-the-beginning",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "OpenAI President Greg Brockman's role has expanded significantly, giving him control over its product and scaling teams ",
-          "url": "https://www.techmeme.com/260822/p2#a260822p2",
+          "title": "America Really, Really Hates Data Centers",
+          "url": "https://www.theinformation.com/articles/america-hates-data-centers",
+          "source": "The Information"
+        },
+        {
+          "title": "Cheap energy, abundant land, and proximity to Beijing have made Ulanqab, Inner Mongolia, a data center hub, with ~100 da",
+          "url": "https://www.techmeme.com/260822/p6#a260822p6",
           "source": "Techmeme"
-        },
+        }
+      ]
+    }
+  ],
+  "weak_signals": [
+    {
+      "keyword": "soup",
+      "mentions": 3,
+      "velocity": 0.6,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 71,
+      "days_active": 4,
+      "expert_ratio": 0.75,
+      "headline": "I made the easy sausage and tortellini soup I've been seeing online. It's perfect for busy weeknights.",
+      "articles": [
         {
-          "title": "Exclusive: OpenAI Explored Stake in Stargate Power Developer Lancium",
-          "url": "https://www.theinformation.com/briefings/exclusive-openai-explored-stake-stargate-power-developer-lancium",
+          "title": "I made the easy sausage and tortellini soup I've been seeing online. It's perfect for busy weeknights.",
+          "url": "https://www.businessinsider.com/sausage-and-tortellini-soup-recipe-how-to-make-photos",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "inflection",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Letter: Stripe told investors January 1 marked the \"beginning of the singularity\", a major inflection point in long-term",
+      "articles": [
+        {
+          "title": "Letter: Stripe told investors January 1 marked the \"beginning of the singularity\", a major inflection point in long-term",
+          "url": "https://www.techmeme.com/260819/p44#a260819p44",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "openhands",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "cubesat",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 67,
+      "days_active": 3,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "databricks",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 80,
+      "days_active": 11,
+      "expert_ratio": 0.83,
+      "headline": "Andreessen Horowitz Focus of DOJ Antitrust Probe Over Databricks, Fivetran Board Seats",
+      "articles": [
+        {
+          "title": "Andreessen Horowitz Focus of DOJ Antitrust Probe Over Databricks, Fivetran Board Seats",
+          "url": "https://www.theinformation.com/briefings/andreessen-horowitz-focus-doj-antitrust-probe-databricks-fivetran-board-seats",
           "source": "The Information"
         }
       ]
     },
     {
-      "keyword": "together",
-      "mentions": 57,
-      "velocity": 4.6,
+      "keyword": "azureai",
+      "mentions": 3,
+      "velocity": 0.1,
       "sources": [
-        "linkedin",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.0,
-      "headline": "A strange new quantum droplet can hold itself together",
-      "articles": [
-        {
-          "title": "A strange new quantum droplet can hold itself together",
-          "url": "https://www.sciencedaily.com/releases/2026/08/260820202846.htm",
-          "source": "Latest Science News -- ScienceDaily"
-        },
-        {
-          "title": "Designing Human-mediated AI Guidance: Ready Together for Personalized Family Emergency Preparedness",
-          "url": "https://arxiv.org/abs/2608.19950",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Slack launches Slack Code, where teams and AI agents build together",
-          "url": "https://thenextweb.com/news/slack-code-ai-coding-channels-launch?utm_source=flipboard&utm_content=other",
-          "source": "Artificial Intelligence"
-        }
-      ]
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
     },
     {
+      "keyword": "mvpbuzz",
+      "mentions": 3,
+      "velocity": 0.1,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "voice mode",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 91,
+      "days_active": 10,
+      "expert_ratio": 0.67,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "command r",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 73,
+      "days_active": 5,
+      "expert_ratio": 0.89,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "langgraph",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 6,
+      "expert_ratio": 0.91,
+      "headline": "",
+      "articles": []
+    }
+  ],
+  "sustained": [
+    {
       "keyword": "github",
-      "mentions": 103,
-      "velocity": 4.6,
+      "mentions": 99,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
@@ -243,252 +419,27 @@
           "source": "Engadget"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
-      "keyword": "data center",
-      "mentions": 58,
-      "velocity": 4.8,
+      "keyword": "llama.cpp",
+      "mentions": 16,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.57,
-      "headline": "America Really, Really Hates Data Centers",
-      "articles": [
-        {
-          "title": "America Really, Really Hates Data Centers",
-          "url": "https://www.theinformation.com/articles/america-hates-data-centers",
-          "source": "The Information"
-        },
-        {
-          "title": "Cheap energy, abundant land, and proximity to Beijing have made Ulanqab, Inner Mongolia, a data center hub, with ~100 da",
-          "url": "https://www.techmeme.com/260822/p6#a260822p6",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Data centers are using more electricity than anyone predicted. What happens next?",
-          "url": "https://qz.com/data-center-electricity-demand-growth-us-081726",
-          "source": "Quartz"
-        }
-      ]
-    }
-  ],
-  "weak_signals": [
-    {
-      "keyword": "openai codex",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "inflection",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Letter: Stripe told investors January 1 marked the \"beginning of the singularity\", a major inflection point in long-term",
-      "articles": [
-        {
-          "title": "Letter: Stripe told investors January 1 marked the \"beginning of the singularity\", a major inflection point in long-term",
-          "url": "https://www.techmeme.com/260819/p44#a260819p44",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "soup",
-      "mentions": 3,
-      "velocity": 0.6,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 73,
-      "days_active": 5,
-      "expert_ratio": 0.67,
-      "headline": "I made the easy sausage and tortellini soup I've been seeing online. It's perfect for busy weeknights.",
-      "articles": [
-        {
-          "title": "I made the easy sausage and tortellini soup I've been seeing online. It's perfect for busy weeknights.",
-          "url": "https://www.businessinsider.com/sausage-and-tortellini-soup-recipe-how-to-make-photos",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "openhands",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 79,
-      "days_active": 5,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "b200",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "azureai",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 93,
-      "days_active": 11,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "mvpbuzz",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 93,
-      "days_active": 11,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "browser-use",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 87,
-      "days_active": 6,
-      "expert_ratio": 0.94,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "machinelearning",
-      "mentions": 3,
-      "velocity": 0.1,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 11,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "voice mode",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 11,
-      "expert_ratio": 0.73,
-      "headline": "",
-      "articles": []
-    }
-  ],
-  "sustained": [
-    {
-      "keyword": "ai coding",
-      "mentions": 32,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin",
         "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.5,
-      "headline": "80% of developers find AI coding more addictive than helpful",
-      "articles": [
-        {
-          "title": "80% of developers find AI coding more addictive than helpful",
-          "url": "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/?utm_source=flipboard&utm_content=user/ZDNet",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "New ‘Slack Code’ turns AI coding into a team activity",
-          "url": "https://www.computerworld.com/article/4212446/new-slack-code-turns-ai-coding-into-a-team-activity.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "Slack wants to drag AI coding out of the terminal and into the group chat",
-          "url": "https://venturebeat.com/orchestration/slack-wants-to-drag-ai-coding-out-of-the-terminal-and-into-the-group-chat",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
-      "keyword": "seedance",
-      "mentions": 20,
-      "velocity": 1.9,
-      "sources": [
-        "linkedin",
-        "reddit",
-        "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.0,
+      "expert_ratio": 0.85,
       "headline": "",
       "articles": []
     },
     {
       "keyword": "vibe coding",
-      "mentions": 31,
-      "velocity": 1.7,
+      "mentions": 33,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "linkedin",
@@ -497,7 +448,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.63,
+      "expert_ratio": 0.61,
       "headline": "Il vibe coding arriva sui chip quantistici, ma nasconde un'insidia",
       "articles": [
         {
@@ -513,94 +464,86 @@
       ]
     },
     {
-      "keyword": "elevenlabs",
-      "mentions": 12,
-      "velocity": 1.5,
+      "keyword": "seedance",
+      "mentions": 21,
+      "velocity": 1.7,
       "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "prompt engineering",
-      "mentions": 17,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github"
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.84,
-      "headline": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+      "expert_ratio": 0.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "cuda",
+      "mentions": 11,
+      "velocity": 1.6,
+      "sources": [
+        "arxiv",
+        "github",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 10,
+      "expert_ratio": 0.91,
+      "headline": "b10481: CUDA: MMVQ nwarps=8 for bs=1 for dense models on DGX Spark (#26843)",
       "articles": [
         {
-          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
-          "url": "https://arxiv.org/abs/2608.19299",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "LLM Enhancement with Domain Expert Mental Model to Reduce LLM Hallucination with Causal Prompt Engineering",
-          "url": "https://arxiv.org/abs/2509.10818",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Prompt Engineering in Segment Anything Model: Methodologies, Applications, and Emerging Challenges",
-          "url": "https://arxiv.org/abs/2507.09562",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "b10481: CUDA: MMVQ nwarps=8 for bs=1 for dense models on DGX Spark (#26843)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10481",
+          "source": "llama.cpp Releases"
         }
       ]
     },
     {
-      "keyword": "sora",
-      "mentions": 13,
-      "velocity": 1.1,
+      "keyword": "h100",
+      "mentions": 11,
+      "velocity": 1.6,
       "sources": [
-        "articles",
-        "twitter"
+        "arxiv",
+        "hackernews",
+        "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.03,
+      "expert_ratio": 0.97,
       "headline": "",
       "articles": []
     }
   ],
   "track_record": {
-    "scored_predictions": 146,
+    "scored_predictions": 148,
     "covered": 23,
-    "coverage_rate": 0.158,
+    "coverage_rate": 0.155,
     "early": 9,
-    "early_rate": 0.062,
+    "early_rate": 0.061,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.158,
+    "hit_rate": 0.155,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 68,
+        "scored": 69,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.294,
-        "early_rate": 0.103,
-        "hit_rate": 0.294
+        "coverage_rate": 0.29,
+        "early_rate": 0.101,
+        "hit_rate": 0.29
       },
       "weak_signal": {
-        "scored": 78,
+        "scored": 79,
         "covered": 3,
         "early": 2,
         "coverage_rate": 0.038,
-        "early_rate": 0.026,
+        "early_rate": 0.025,
         "hit_rate": 0.038
       }
     }
@@ -608,21 +551,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 146,
+    "n": 148,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.479,
-      "early_rate": 0.205
+      "coverage_rate": 0.473,
+      "early_rate": 0.203
     },
     "null_mean": {
-      "coverage_rate": 0.519,
-      "early_rate": 0.266
+      "coverage_rate": 0.513,
+      "early_rate": 0.263
     },
     "p_value": {
-      "coverage_rate": 0.999,
-      "early_rate": 0.999
+      "coverage_rate": 0.998,
+      "early_rate": 0.987
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -672,6 +615,12 @@
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "ai coding",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-23",
+        "confidence": 0.8
+      },
       {
         "keyword": "inflection",
         "signal_type": "weak_signal",
@@ -737,98 +686,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-20",
         "confidence": 0.6
-      },
-      {
-        "keyword": "dify",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-20",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
       {
-        "keyword": "b200",
-        "recent_mentions": 12,
+        "keyword": "sovereign ai",
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 12.0,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "weights and biases",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "tokenizer",
+        "recent_mentions": 24,
+        "prior_mentions": 4,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "model context protocol",
+        "recent_mentions": 37,
+        "prior_mentions": 7,
+        "change_ratio": 5.29,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "databricks",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "resemble",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "ai developer",
         "recent_mentions": 14,
-        "prior_mentions": 2,
-        "change_ratio": 7.0,
+        "prior_mentions": 3,
+        "change_ratio": 4.67,
         "corroborating_sources": 2
       },
       {
-        "keyword": "reward hacking",
-        "recent_mentions": 26,
+        "keyword": "capcut",
+        "recent_mentions": 16,
         "prior_mentions": 4,
-        "change_ratio": 6.5,
+        "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "github copilot",
-        "recent_mentions": 28,
-        "prior_mentions": 5,
-        "change_ratio": 5.6,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "heygen",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "pinecone",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "slm",
-        "recent_mentions": 29,
-        "prior_mentions": 6,
-        "change_ratio": 4.83,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "model context protocol",
-        "recent_mentions": 33,
-        "prior_mentions": 7,
-        "change_ratio": 4.71,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "glm-5",
-        "recent_mentions": 44,
-        "prior_mentions": 10,
-        "change_ratio": 4.4,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "world models",
-        "recent_mentions": 34,
-        "prior_mentions": 8,
-        "change_ratio": 4.25,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "braintrust",
+        "keyword": "text to speech",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
+        "keyword": "cuda",
+        "recent_mentions": 30,
+        "prior_mentions": 8,
+        "change_ratio": 3.75,
+        "corroborating_sources": 3
+      },
+      {
         "keyword": "llama 3",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
-        "change_ratio": 4.0,
+        "recent_mentions": 17,
+        "prior_mentions": 5,
+        "change_ratio": 3.4,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "digital twin",
+        "recent_mentions": 26,
+        "prior_mentions": 8,
+        "change_ratio": 3.25,
+        "corroborating_sources": 4
       }
     ]
   }
