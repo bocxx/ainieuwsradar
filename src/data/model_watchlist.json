@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-08-23T17:26:33+00:00",
+  "generated_at": "2026-08-24T05:32:43+00:00",
   "model": "momentum-v1",
-  "as_of": "2026-08-23",
-  "n_train": 1325,
+  "as_of": "2026-08-24",
+  "n_train": 1327,
   "train_base_rate": 0.042,
   "coefficients": {
     "log_velocity": 0.254,
     "acceleration": 0.225,
     "has_hackernews": 0.13,
-    "expert_share": -0.694
+    "expert_share": -0.695
   },
-  "watchlist": [],
+  "watchlist": [
+    {
+      "keyword": "higgsfield ai",
+      "score": 0.066,
+      "flagged_on": "2026-08-24",
+      "model": "momentum-v1",
+      "resolve_after": "2026-09-23"
+    }
+  ],
   "live_scorecard": {
-    "open": 0,
+    "open": 1,
     "resolved": 29,
     "hits": 4,
     "misses": 25,
