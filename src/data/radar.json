@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T17:23:22.942377",
-  "total_tracked": 3022,
+  "generated_at": "2026-08-25T19:18:03.762087",
+  "total_tracked": 3035,
   "window_days": 14,
   "accelerating": [
     {
@@ -21,8 +21,8 @@
     },
     {
       "keyword": "chatgpt",
-      "mentions": 278,
-      "velocity": 10.6,
+      "mentions": 277,
+      "velocity": 10.3,
       "sources": [
         "articles",
         "arxiv",
@@ -47,18 +47,13 @@
           "title": "OpenAI bans a cluster of Russian ChatGPT accounts that used VPNs to evade restrictions and run an influence operation, i",
           "url": "https://www.techmeme.com/260825/p13#a260825p13",
           "source": "Techmeme"
-        },
-        {
-          "title": "ChatGPT usato per propaganda russa: OpenAI banna gli account",
-          "url": "https://www.tomshw.it/hardware/openai-blocca-account-chatgpt-probabile-operazione-d-influenza-russa",
-          "source": "Tom's Hardware"
         }
       ]
     },
     {
       "keyword": "quantization",
-      "mentions": 34,
-      "velocity": 7.9,
+      "mentions": 31,
+      "velocity": 7.0,
       "sources": [
         "articles",
         "arxiv",
@@ -89,8 +84,8 @@
     },
     {
       "keyword": "qwen",
-      "mentions": 190,
-      "velocity": 6.0,
+      "mentions": 186,
+      "velocity": 4.8,
       "sources": [
         "articles",
         "arxiv",
@@ -147,9 +142,45 @@
       ]
     },
     {
+      "keyword": "openai",
+      "mentions": 299,
+      "velocity": 3.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.79,
+      "headline": "A detailed look at Jalapeño, OpenAI's ASIC developed with Broadcom in 16 months, which beat Nvidia, AMD, and Google chip",
+      "articles": [
+        {
+          "title": "A detailed look at Jalapeño, OpenAI's ASIC developed with Broadcom in 16 months, which beat Nvidia, AMD, and Google chip",
+          "url": "https://www.techmeme.com/260825/p31#a260825p31",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI’s Jalapeno chip outperformed the GB300 on power and speed, according to OpenAI",
+          "url": "https://thenextweb.com/news/openai-jalapeno-benchmark-nvidia-gb300-europe-gigafactories",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Google is taking on Anthropic and OpenAI in the legal AI race",
+          "url": "https://www.businessinsider.com/google-unveils-gemini-enterprise-for-legal-law-tech-push-2026-8",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
       "keyword": "perplexity",
-      "mentions": 33,
-      "velocity": 2.8,
+      "mentions": 34,
+      "velocity": 3.1,
       "sources": [
         "articles",
         "arxiv",
@@ -160,8 +191,13 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.59,
-      "headline": "Perplexity launches Portable Computer, a local AI agent platform running fully on-device with zero token costs, starting",
+      "headline": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
       "articles": [
+        {
+          "title": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
+          "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
+        },
         {
           "title": "Perplexity launches Portable Computer, a local AI agent platform running fully on-device with zero token costs, starting",
           "url": "https://www.techmeme.com/260825/p27#a260825p27",
@@ -171,44 +207,46 @@
           "title": "Portable Computer is Perplexity's new local AI agent - why it's a game changer",
           "url": "https://www.zdnet.com/article/portable-computer-perplexity-local-ai-agent/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
           "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
-          "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs?utm_source=flipboard&utm_content=user/venturebeat",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 50,
-      "velocity": 2.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.96,
-      "headline": "AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of",
-      "articles": [
-        {
-          "title": "AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coder-gets-doom-running-on-a-custom-cpu-designed-by-gpt-5-6-sol-game-viewport-is-overlaid-on-a-pulsing-schematic-of-the-cpu-in-turing-completes-sandbox-environment",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "LLMs for Survey Text Analysis - A Performance Comparison Between Humans and GPT-5 on Inductive Content Analysis",
-          "url": "https://arxiv.org/abs/2608.22417",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "emerging": [
+    {
+      "keyword": "nvidia",
+      "mentions": 98,
+      "velocity": 7.2,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.61,
+      "headline": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
+      "articles": [
+        {
+          "title": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
+          "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Nvidia unveils the Jetson Orin Nano 2 edge AI computer that it says doubles inference performance, with 78 TOPS of AI co",
+          "url": "https://www.techmeme.com/260825/p32#a260825p32",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Nvidia maakt DLSS 4.5 Ray Reconstruction beschikbaar via GeForce-driver",
+          "url": "https://tweakers.net/nieuws/251146/nvidia-maakt-dlss-45-ray-reconstruction-beschikbaar-via-geforce-driver.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
     {
       "keyword": "gpt-4o",
       "mentions": 11,
@@ -410,34 +448,9 @@
   ],
   "sustained": [
     {
-      "keyword": "ai coding",
-      "mentions": 36,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.51,
-      "headline": "Concepts for Securing Agentic AI Coding and the Terok Environment",
-      "articles": [
-        {
-          "title": "Concepts for Securing Agentic AI Coding and the Terok Environment",
-          "url": "https://arxiv.org/abs/2608.22930",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "macbook",
-      "mentions": 12,
-      "velocity": 1.6,
+      "mentions": 13,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "hackernews",
@@ -446,7 +459,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.76,
+      "expert_ratio": 0.75,
       "headline": "MacBook Neo recupera una funzione che Apple aveva eliminato",
       "articles": [
         {
@@ -462,14 +475,49 @@
         {
           "title": "Rebelle 8 review: This impressive painting software let me turn my MacBook into a full-blown canvas",
           "url": "https://www.techradar.com/pro/software-services/rebelle-8-painting-software-review",
-          "source": "Latest from TechRadar US in News，opinion"
+          "source": "TechRadar: Technology reviews"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 167,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.72,
+      "headline": "Google launches Gemini Enterprise for Legal, expanding its platform with specialized AI agents and integrations with Tho",
+      "articles": [
+        {
+          "title": "Google launches Gemini Enterprise for Legal, expanding its platform with specialized AI agents and integrations with Tho",
+          "url": "https://www.techmeme.com/260825/p16#a260825p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Gemini Enterprise for Legal, ecco l'AI per gli studi legali",
+          "url": "https://www.tomshw.it/business/gemini-enterprise-for-legal-automatizza-redazione-e-revisione-contrattuale",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Celebrate 110 years of national parks with Maps, Search, and Gemini",
+          "url": "https://blog.google/products-and-platforms/products/maps/national-parks-week-google-2026/",
+          "source": "The Official Google Blog"
         }
       ]
     },
     {
       "keyword": "flux",
-      "mentions": 15,
-      "velocity": 1.4,
+      "mentions": 16,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "arxiv",
@@ -479,8 +527,13 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.79,
-      "headline": "The role of the astronaut is in flux",
+      "headline": "ASUS ROG Flux Charger Dock kan meerdere apparaten opladen met in totaal 260W",
       "articles": [
+        {
+          "title": "ASUS ROG Flux Charger Dock kan meerdere apparaten opladen met in totaal 260W",
+          "url": "https://tweakers.net/nieuws/251334/asus-rog-flux-charger-dock-kan-meerdere-apparaten-opladen-met-in-totaal-260w.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
         {
           "title": "The role of the astronaut is in flux",
           "url": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
@@ -520,55 +573,71 @@
       ]
     },
     {
-      "keyword": "openai",
-      "mentions": 290,
-      "velocity": 1.0,
+      "keyword": "copilot",
+      "mentions": 30,
+      "velocity": 1.1,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.79,
-      "headline": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
+      "expert_ratio": 0.66,
+      "headline": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
       "articles": [
         {
-          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
-          "url": "https://www.techmeme.com/260825/p24#a260825p24",
-          "source": "Techmeme"
+          "title": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
+          "url": "https://www.techradar.com/computing/windows/the-version-microsoft-will-build-should-be-known-as-copilot-os-windows-built-around-ai-may-not-be-happening-but-leaked-concept-remains-a-grim-portent-for-desktops",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-          "source": "TechCrunch"
+          "title": "Google's AI-first Googlebook laptop is almost here - can it avoid the Copilot+ PC problem?",
+          "url": "https://www.zdnet.com/article/googlebook-laptop-is-almost-here-can-it-avoid-copilot-pc-problem/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
-          "source": "The Verge -  All Posts"
+          "title": "6 tips for better research with Microsoft Copilot",
+          "url": "https://www.computerworld.com/article/4204609/microsoft-copilot-research-tips.html",
+          "source": "Computerworld"
         }
       ]
     },
     {
-      "keyword": "midjourney",
-      "mentions": 11,
-      "velocity": 0.9,
+      "keyword": "gemma",
+      "mentions": 20,
+      "velocity": 1.0,
       "sources": [
-        "github",
+        "articles",
+        "arxiv",
         "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.92,
-      "headline": "",
-      "articles": []
+      "headline": "Nvidia says its Groq 3 LPX racks delivered 3,400 tokens per second in an Artificial Analysis benchmark running Gemma 4 3",
+      "articles": [
+        {
+          "title": "Nvidia says its Groq 3 LPX racks delivered 3,400 tokens per second in an Artificial Analysis benchmark running Gemma 4 3",
+          "url": "https://www.techmeme.com/260824/p25#a260824p25",
+          "source": "Techmeme"
+        },
+        {
+          "title": "How developers build AI for good with Gemma 4",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/winning-entries-gemma-4-good-challenge/",
+          "source": "The Official Google Blog"
+        },
+        {
+          "title": "Google says Gemma has passed a billion downloads",
+          "url": "https://thenextweb.com/news/google-gemma-one-billion-downloads-gemmaverse-variants",
+          "source": "The Next Web"
+        }
+      ]
     }
   ],
   "track_record": {
@@ -689,13 +758,13 @@
         "confidence": 0.8
       },
       {
-        "keyword": "custom gpt",
+        "keyword": "gpt-4o",
         "signal_type": "emerging",
         "flagged_on": "2026-08-25",
-        "confidence": 0.2
+        "confidence": 0.4
       },
       {
-        "keyword": "meta ai",
+        "keyword": "crewai",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-25",
         "confidence": 0.2
@@ -707,7 +776,19 @@
         "confidence": 0.2
       },
       {
-        "keyword": "crewai",
+        "keyword": "meta ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-25",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "custom gpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-25",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "computer use",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-25",
         "confidence": 0.2
@@ -725,13 +806,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "data centers",
+        "keyword": "qwen",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
         "confidence": 0.8
       },
       {
-        "keyword": "qwen",
+        "keyword": "data centers",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
         "confidence": 0.8
@@ -741,18 +822,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
         "confidence": 0.4
-      },
-      {
-        "keyword": "comet",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-24",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "llama",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-23",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
@@ -769,13 +838,6 @@
         "prior_mentions": 1,
         "change_ratio": 7.0,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "stable diffusion",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 3
       },
       {
         "keyword": "inflection",
@@ -799,6 +861,13 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "stable diffusion",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "qwen2",
         "recent_mentions": 5,
         "prior_mentions": 1,
@@ -813,10 +882,10 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "quantization",
-        "recent_mentions": 61,
-        "prior_mentions": 15,
-        "change_ratio": 4.07,
+        "keyword": "groq",
+        "recent_mentions": 14,
+        "prior_mentions": 3,
+        "change_ratio": 4.67,
         "corroborating_sources": 3
       },
       {
@@ -827,11 +896,11 @@
         "corroborating_sources": 5
       },
       {
-        "keyword": "groq",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
-        "change_ratio": 3.67,
-        "corroborating_sources": 2
+        "keyword": "quantization",
+        "recent_mentions": 58,
+        "prior_mentions": 15,
+        "change_ratio": 3.87,
+        "corroborating_sources": 3
       },
       {
         "keyword": "vision language model",
