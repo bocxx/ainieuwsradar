@@ -1,12 +1,44 @@
 {
-  "generated_at": "2026-08-24T19:14:17.740662",
-  "total_tracked": 2966,
+  "generated_at": "2026-08-25T07:13:51.025459",
+  "total_tracked": 2983,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "nvidia",
-      "mentions": 94,
-      "velocity": 8.6,
+      "keyword": "reinforcement learning",
+      "mentions": 301,
+      "velocity": 68.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 1.0,
+      "headline": "Let Credit Follow Computation: Architecture-Aware Credit Transport for Large Language Model Reinforcement Learning",
+      "articles": [
+        {
+          "title": "Let Credit Follow Computation: Architecture-Aware Credit Transport for Large Language Model Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.21501",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "When Should a Robot Think? Resource-Aware Reasoning via Reinforcement Learning for Embodied Robotic Decision-Making",
+          "url": "https://arxiv.org/abs/2603.16673",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ESCRAG-R1: Retrieval-Augmented Reinforcement Learning for Emotional Support Conversation",
+          "url": "https://arxiv.org/abs/2608.21925",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 317,
+      "velocity": 57.7,
       "sources": [
         "articles",
         "arxiv",
@@ -19,246 +51,49 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.63,
-      "headline": "Nvidia says its Groq 3 LPX racks delivered 3,400 tokens per second in an Artificial Analysis benchmark running Gemma 4 3",
+      "expert_ratio": 0.8,
+      "headline": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
       "articles": [
         {
-          "title": "Nvidia says its Groq 3 LPX racks delivered 3,400 tokens per second in an Artificial Analysis benchmark running Gemma 4 3",
-          "url": "https://www.techmeme.com/260824/p25#a260824p25",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia has bought into a third land and power company this month",
-          "url": "https://thenextweb.com/news/nvidia-cloverleaf-lancium-sb-energy-land-power-dsx",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Nvidia says its inference accelerator Groq 3 LPX has entered full production and Nebius has signed on as the first custo",
-          "url": "https://www.techmeme.com/260824/p21#a260824p21",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 92,
-      "velocity": 7.4,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.43,
-      "headline": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
-      "articles": [
-        {
-          "title": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
-          "url": "https://www.techradar.com/pro/claude-wins-out-in-major-user-satisfaction-survey-beating-gemini-and-chatgpt-but-its-bad-news-for-grok-and-siri?utm_source=flipboard&utm_content=TechRadar/magazine/Gemini,+Siri,+Co-Pilot+and+Alexa:+The+AI+wars+commence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Grok keeps sending gibberish responses to users",
-          "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Grok controlla un robot tagliaerba a 80 km di distanza",
-          "url": "https://www.tomshw.it/hardware/grok-controlla-un-robot-tagliaerba-a-80-km-di-distanza",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 258,
-      "velocity": 6.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.5,
-      "headline": "I asked ChatGPT how much my box of forgotten old tech was worth — I ended up selling it for $130",
-      "articles": [
-        {
-          "title": "I asked ChatGPT how much my box of forgotten old tech was worth — I ended up selling it for $130",
-          "url": "https://www.techradar.com/ai-platforms-assistants/i-asked-chatgpt-how-much-my-box-of-forgotten-old-tech-was-worth-i-ended-up-selling-it-for-usd130",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "llama",
-      "mentions": 53,
-      "velocity": 5.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.84,
-      "headline": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
-      "articles": [
-        {
-          "title": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
-          "url": "https://arxiv.org/abs/2608.18419",
+          "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+          "url": "https://arxiv.org/abs/2608.21375",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
-          "url": "https://arxiv.org/abs/2608.14614",
+          "title": "Robustness Analysis of Agentic AI to Inconsistent and Incomplete Tool Responses",
+          "url": "https://arxiv.org/abs/2608.22676",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Zuck rekindles open weights Llama drama with Muse Glimmer",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/10/zuck-rekindles-open-weights-llama-drama-with-muse-glimmer/5285666",
-          "source": "The Register"
+          "title": "ATHENA: Knowledge-guided agentic neural architecture search for AutoFormer-based electronic health record modeling",
+          "url": "https://arxiv.org/abs/2608.21712",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "llama.cpp",
-      "mentions": 23,
-      "velocity": 3.3,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.83,
-      "headline": "",
-      "articles": []
     }
   ],
   "emerging": [
     {
-      "keyword": "qwen",
-      "mentions": 182,
-      "velocity": 5.0,
+      "keyword": "cline",
+      "mentions": 28,
+      "velocity": 3.6,
       "sources": [
         "articles",
         "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.97,
-      "headline": "Verlies Alibaba’s AI-tak verviervoudigt, Qwen omarmd",
-      "articles": [
-        {
-          "title": "Verlies Alibaba’s AI-tak verviervoudigt, Qwen omarmd",
-          "url": "https://www.emerce.nl/nieuws/verlies-alibabas-ai-tak-verviervoudigt-qwen-omarmd",
-          "source": "Nieuws - Emerce"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 64,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "hackernews",
         "reddit",
         "twitter"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.54,
-      "headline": "UK's Office for National Statistics: UK digital infrastructure investment crossed £11B in 2025, hitting dot-com boom lev",
-      "articles": [
-        {
-          "title": "UK's Office for National Statistics: UK digital infrastructure investment crossed £11B in 2025, hitting dot-com boom lev",
-          "url": "https://www.techmeme.com/260824/p24#a260824p24",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Irish lawmakers reconsider the country's 1999 ban on nuclear power as data centers' growing power demands account for ~2",
-          "url": "https://www.techmeme.com/260824/p14#a260824p14",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia Invests in Data Center Power Firm, Preps Multibillion-Dollar Perplexity Deal",
-          "url": "https://www.theinformation.com/briefings/nvidia-invests-data-center-power-firm-preps-multibillion-dollar-perplexity-deal",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "cohere",
-      "mentions": 33,
-      "velocity": 3.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.95,
+      "expert_ratio": 0.5,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "claude",
-      "mentions": 567,
-      "velocity": 2.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.79,
-      "headline": "Thomson Reuters built its own AI model off Chinese tech to rely less on Claude",
-      "articles": [
-        {
-          "title": "Thomson Reuters built its own AI model off Chinese tech to rely less on Claude",
-          "url": "https://www.businessinsider.com/thomson-reuters-builds-ai-model-rely-less-on-anthropic-2026-8",
-          "source": "Business Insider"
-        },
-        {
-          "title": "20 automazioni Claude per freelance e consulenti, pronte da copiare",
-          "url": "https://www.tomshw.it/aioperator/20-automazioni-claude-per-freelance-e-consulenti-pronte-da-copiare",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Claude outage hits multiple models again",
-          "url": "https://thenextweb.com/news/claude-outage-multiple-models",
-          "source": "The Next Web"
-        }
-      ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "mediarecorder",
+      "keyword": "codex",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -268,68 +103,26 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "soup",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "I made the easy sausage and tortellini soup I've been seeing online. It's perfect for busy weeknights.",
+      "headline": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users, after weeks without the restriction, saying it woul",
       "articles": [
         {
-          "title": "I made the easy sausage and tortellini soup I've been seeing online. It's perfect for busy weeknights.",
-          "url": "https://www.businessinsider.com/sausage-and-tortellini-soup-recipe-how-to-make-photos",
-          "source": "All Content from Business Insider"
+          "title": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users, after weeks without the restriction, saying it woul",
+          "url": "https://www.techmeme.com/260824/p40#a260824p40",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "freetoken",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 3,
-      "expert_ratio": 0.75,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "openhands",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
       "keyword": "inflection",
-      "mentions": 2,
-      "velocity": 0.4,
+      "mentions": 3,
+      "velocity": 0.7,
       "sources": [
-        "arxiv"
+        "hackernews"
       ],
       "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
+      "confidence": 71,
+      "days_active": 4,
+      "expert_ratio": 0.88,
       "headline": "Letter: Stripe told investors January 1 marked the \"beginning of the singularity\", a major inflection point in long-term",
       "articles": [
         {
@@ -342,13 +135,13 @@
     {
       "keyword": "harmbench",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.2,
       "sources": [
         "arxiv"
       ],
       "source_count": 1,
-      "confidence": 77,
-      "days_active": 5,
+      "confidence": 83,
+      "days_active": 6,
       "expert_ratio": 1.0,
       "headline": "",
       "articles": []
@@ -356,7 +149,7 @@
     {
       "keyword": "meta ai",
       "mentions": 3,
-      "velocity": 0.3,
+      "velocity": 0.2,
       "sources": [
         "arxiv"
       ],
@@ -384,21 +177,49 @@
       ]
     },
     {
-      "keyword": "comet",
+      "keyword": "crewai",
       "mentions": 2,
       "velocity": 0.2,
       "sources": [
         "arxiv"
       ],
       "source_count": 1,
-      "confidence": 83,
-      "days_active": 9,
-      "expert_ratio": 0.71,
+      "confidence": 73,
+      "days_active": 6,
+      "expert_ratio": 0.67,
       "headline": "",
       "articles": []
     },
     {
-      "keyword": "ai governance",
+      "keyword": "langgraph",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 4,
+      "expert_ratio": 0.86,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "command r",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 6,
+      "expert_ratio": 0.91,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "mvpbuzz",
       "mentions": 3,
       "velocity": 0.1,
       "sources": [
@@ -406,54 +227,48 @@
       ],
       "source_count": 1,
       "confidence": 95,
-      "days_active": 14,
-      "expert_ratio": 0.9,
-      "headline": "Mapping General-Purpose AI Governance in Twenty AI Middle-Power Jurisdictions",
-      "articles": [
-        {
-          "title": "Mapping General-Purpose AI Governance in Twenty AI Middle-Power Jurisdictions",
-          "url": "https://arxiv.org/abs/2608.19278",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Position: AI Governance Needs ISO-like Interoperability Protocols, Not Just Laws",
-          "url": "https://arxiv.org/abs/2608.14568",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Agentic profiles for effective AI governance",
-          "url": "https://www.nature.com/articles/s41586-026-10805-z",
-          "source": "Nature - Issue - nature.com science feeds"
-        }
-      ]
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "databricks",
-      "mentions": 2,
+      "keyword": "azureai",
+      "mentions": 3,
       "velocity": 0.1,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 80,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 95,
       "days_active": 11,
-      "expert_ratio": 0.82,
-      "headline": "Andreessen Horowitz Focus of DOJ Antitrust Probe Over Databricks, Fivetran Board Seats",
-      "articles": [
-        {
-          "title": "Andreessen Horowitz Focus of DOJ Antitrust Probe Over Databricks, Fivetran Board Seats",
-          "url": "https://www.theinformation.com/briefings/andreessen-horowitz-focus-doj-antitrust-probe-databricks-fivetran-board-seats",
-          "source": "The Information"
-        }
-      ]
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
+    },
+    {
+      "keyword": "machinelearning",
+      "mentions": 3,
+      "velocity": 0.1,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 11,
+      "expert_ratio": 1.0,
+      "headline": "",
+      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "ai coding",
-      "mentions": 35,
-      "velocity": 2.0,
+      "keyword": "github",
+      "mentions": 100,
+      "velocity": 1.5,
       "sources": [
         "articles",
-        "github",
+        "arxiv",
         "hackernews",
         "linkedin",
         "reddit"
@@ -461,53 +276,140 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.5,
-      "headline": "'I can't stop': 80% of developers find AI coding more addictive than helpful",
+      "expert_ratio": 0.32,
+      "headline": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy",
       "articles": [
         {
-          "title": "'I can't stop': 80% of developers find AI coding more addictive than helpful",
-          "url": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
-          "source": "Artificial Intelligence"
+          "title": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy",
+          "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-takes-down-over-400-github-repositories-for-switch-emulators-in-one-go-relentless-dmca-strikes-tied-to-piracy-concerns-over-illegal-cryptographic-keys",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Cursor ora si fa il repository, mette GitHub nel mirino",
+          "url": "https://www.tomshw.it/business/cursor-ora-si-fa-il-repository-mette-github-nel-mirino",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Temporal Validity on Real Software Histories: Eliminating Stale-Fact Errors in Code-Assistant Memory over GitHub Fixes",
+          "url": "https://arxiv.org/abs/2608.20685",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "perplexity",
-      "mentions": 27,
-      "velocity": 1.3,
+      "keyword": "flux",
+      "mentions": 15,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.58,
-      "headline": "Nvidia is in talks to back Perplexity at more than $30bn",
+      "expert_ratio": 0.79,
+      "headline": "The role of the astronaut is in flux",
       "articles": [
         {
-          "title": "Nvidia is in talks to back Perplexity at more than $30bn",
-          "url": "https://thenextweb.com/news/nvidia-perplexity-30bn-valuation-talks",
-          "source": "The Next Web"
+          "title": "The role of the astronaut is in flux",
+          "url": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
+          "source": "Top News - MIT Technology Review"
+        }
+      ]
+    },
+    {
+      "keyword": "kimi",
+      "mentions": 12,
+      "velocity": 1.4,
+      "sources": [
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.05,
+      "headline": "Researchers detail the growing use of AI in cyberattacks across many Chinese state-linked groups, primarily using open-w",
+      "articles": [
+        {
+          "title": "Researchers detail the growing use of AI in cyberattacks across many Chinese state-linked groups, primarily using open-w",
+          "url": "https://www.techmeme.com/260824/p39#a260824p39",
+          "source": "Techmeme"
         },
         {
-          "title": "Perplexity vola: NVIDIA pronta a investire, 30 miliardi",
-          "url": "https://www.tomshw.it/business/perplexity-nvidia-investirebbe-valutazione-oltre-30-miliardi-di-dollari",
-          "source": "Tom's Hardware"
+          "title": "Sources: Nvidia plans to use its $6B deal with Poolside to build an open-weight AI model to compete with Chinese models ",
+          "url": "https://www.techmeme.com/260822/p16#a260822p16",
+          "source": "Techmeme"
         },
         {
-          "title": "Nvidia Invests in Data Center Power Firm, Preps Multibillion-Dollar Perplexity Deal",
-          "url": "https://www.theinformation.com/briefings/nvidia-invests-data-center-power-firm-preps-multibillion-dollar-perplexity-deal",
-          "source": "The Information"
+          "title": "US vs China AI Race: How ChatGPT, Gemini, Deepseek, Kimi Agents Compare",
+          "url": "https://www.bloomberg.com/graphics/2026-us-china-ai-race/",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "kling",
+      "mentions": 11,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.91,
+      "headline": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021",
+      "articles": [
+        {
+          "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021",
+          "url": "https://www.techmeme.com/260819/p12#a260819p12",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 78,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.44,
+      "headline": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+      "articles": [
+        {
+          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+          "url": "https://www.techmeme.com/260824/p32#a260824p32",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
+          "url": "https://www.techradar.com/pro/claude-wins-out-in-major-user-satisfaction-survey-beating-gemini-and-chatgpt-but-its-bad-news-for-grok-and-siri?utm_source=flipboard&utm_content=TechRadar/magazine/Gemini,+Siri,+Co-Pilot+and+Alexa:+The+AI+wars+commence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Grok keeps sending gibberish responses to users",
+          "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+          "source": "TechCrunch"
         }
       ]
     },
     {
       "keyword": "langchain",
       "mentions": 16,
-      "velocity": 1.3,
+      "velocity": 0.9,
       "sources": [
         "articles",
         "github"
@@ -518,99 +420,34 @@
       "expert_ratio": 0.85,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "midjourney",
-      "mentions": 11,
-      "velocity": 1.3,
-      "sources": [
-        "github",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.93,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "vibe coding",
-      "mentions": 33,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.6,
-      "headline": "Vibe Coding and Web Application Security: A Twin-Prompt Study",
-      "articles": [
-        {
-          "title": "Vibe Coding and Web Application Security: A Twin-Prompt Study",
-          "url": "https://arxiv.org/abs/2608.20963",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Il vibe coding arriva sui chip quantistici, ma nasconde un'insidia",
-          "url": "https://www.tomshw.it/scienze/il-vibe-coding-arriva-sui-chip-quantistici-ma-nasconde-uninsidia",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Warning to enterprises: Vibe coding can be a threat",
-          "url": "https://www.computerworld.com/article/4210633/warning-to-enterprises-vibe-coding-can-be-a-threat.html",
-          "source": "Computerworld"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 44,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.97,
-      "headline": "",
-      "articles": []
     }
   ],
   "track_record": {
-    "scored_predictions": 152,
+    "scored_predictions": 154,
     "covered": 23,
-    "coverage_rate": 0.151,
+    "coverage_rate": 0.149,
     "early": 9,
-    "early_rate": 0.059,
+    "early_rate": 0.058,
     "avg_lead_days": 9.8,
     "median_lead_days": 5,
     "max_lead_days": 29,
-    "hit_rate": 0.151,
+    "hit_rate": 0.149,
     "materialized": 23,
     "by_signal_type": {
       "emerging": {
-        "scored": 71,
+        "scored": 72,
         "covered": 20,
         "early": 7,
-        "coverage_rate": 0.282,
-        "early_rate": 0.099,
-        "hit_rate": 0.282
+        "coverage_rate": 0.278,
+        "early_rate": 0.097,
+        "hit_rate": 0.278
       },
       "weak_signal": {
-        "scored": 81,
+        "scored": 82,
         "covered": 3,
         "early": 2,
         "coverage_rate": 0.037,
-        "early_rate": 0.025,
+        "early_rate": 0.024,
         "hit_rate": 0.037
       }
     }
@@ -618,21 +455,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 152,
+    "n": 154,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.48,
-      "early_rate": 0.211
+      "coverage_rate": 0.481,
+      "early_rate": 0.208
     },
     "null_mean": {
-      "coverage_rate": 0.52,
-      "early_rate": 0.267
+      "coverage_rate": 0.519,
+      "early_rate": 0.265
     },
     "p_value": {
       "coverage_rate": 0.999,
-      "early_rate": 0.993
+      "early_rate": 0.994
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -683,6 +520,24 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "cohere",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-25",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "ai governance",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-25",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "crewai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-25",
+        "confidence": 0.2
+      },
+      {
         "keyword": "claude code",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
@@ -695,13 +550,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "data centers",
+        "keyword": "qwen",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
         "confidence": 0.8
       },
       {
-        "keyword": "qwen",
+        "keyword": "data centers",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
         "confidence": 0.8
@@ -735,110 +590,92 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-23",
         "confidence": 0.2
-      },
-      {
-        "keyword": "databricks",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-23",
-        "confidence": 0
-      },
-      {
-        "keyword": "inflection",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-22",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "world model",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-22",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "pinecone",
+        "keyword": "claude haiku",
+        "recent_mentions": 10,
+        "prior_mentions": 1,
+        "change_ratio": 10.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "mcp tools",
+        "recent_mentions": 18,
+        "prior_mentions": 2,
+        "change_ratio": 9.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "inflection",
         "recent_mentions": 7,
         "prior_mentions": 1,
         "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "crewai",
+        "keyword": "poolside",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "stable diffusion",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "opusclip",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "national ai",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
+        "keyword": "qwen2",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
         "change_ratio": 5.0,
-        "corroborating_sources": 3
+        "corroborating_sources": 2
       },
       {
-        "keyword": "cuda",
-        "recent_mentions": 35,
-        "prior_mentions": 7,
+        "keyword": "qwen2.5",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
         "change_ratio": 5.0,
-        "corroborating_sources": 4
+        "corroborating_sources": 2
       },
       {
-        "keyword": "llama.cpp",
-        "recent_mentions": 65,
-        "prior_mentions": 13,
-        "change_ratio": 5.0,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "capcut",
-        "recent_mentions": 27,
-        "prior_mentions": 6,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "vision language model",
-        "recent_mentions": 21,
-        "prior_mentions": 5,
-        "change_ratio": 4.2,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "groq",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
+        "keyword": "quantization",
+        "recent_mentions": 73,
+        "prior_mentions": 15,
+        "change_ratio": 4.87,
         "corroborating_sources": 2
       },
       {
         "keyword": "llama 3",
-        "recent_mentions": 21,
-        "prior_mentions": 6,
-        "change_ratio": 3.5,
+        "recent_mentions": 39,
+        "prior_mentions": 9,
+        "change_ratio": 4.33,
         "corroborating_sources": 1
       },
       {
-        "keyword": "mistral ai",
-        "recent_mentions": 17,
-        "prior_mentions": 5,
-        "change_ratio": 3.4,
-        "corroborating_sources": 2
+        "keyword": "llama.cpp",
+        "recent_mentions": 75,
+        "prior_mentions": 19,
+        "change_ratio": 3.95,
+        "corroborating_sources": 5
       },
       {
-        "keyword": "vllm",
-        "recent_mentions": 13,
-        "prior_mentions": 4,
-        "change_ratio": 3.25,
+        "keyword": "gpt-4o",
+        "recent_mentions": 37,
+        "prior_mentions": 10,
+        "change_ratio": 3.7,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "world model",
-        "recent_mentions": 76,
-        "prior_mentions": 24,
-        "change_ratio": 3.17,
-        "corroborating_sources": 3
       }
     ]
   }
