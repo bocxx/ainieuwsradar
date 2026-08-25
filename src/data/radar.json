@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T07:13:51.025459",
-  "total_tracked": 2983,
+  "generated_at": "2026-08-25T17:23:22.942377",
+  "total_tracked": 3022,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 301,
-      "velocity": 68.6,
+      "keyword": "cohere",
+      "mentions": 101,
+      "velocity": 23.0,
       "sources": [
         "articles",
         "arxiv",
@@ -15,30 +15,14 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 1.0,
-      "headline": "Let Credit Follow Computation: Architecture-Aware Credit Transport for Large Language Model Reinforcement Learning",
-      "articles": [
-        {
-          "title": "Let Credit Follow Computation: Architecture-Aware Credit Transport for Large Language Model Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2608.21501",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "When Should a Robot Think? Resource-Aware Reasoning via Reinforcement Learning for Embodied Robotic Decision-Making",
-          "url": "https://arxiv.org/abs/2603.16673",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ESCRAG-R1: Retrieval-Augmented Reinforcement Learning for Emotional Support Conversation",
-          "url": "https://arxiv.org/abs/2608.21925",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
+      "expert_ratio": 0.95,
+      "headline": "",
+      "articles": []
     },
     {
-      "keyword": "agentic",
-      "mentions": 317,
-      "velocity": 57.7,
+      "keyword": "chatgpt",
+      "mentions": 278,
+      "velocity": 10.6,
       "sources": [
         "articles",
         "arxiv",
@@ -51,22 +35,174 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.8,
-      "headline": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+      "expert_ratio": 0.49,
+      "headline": "OpenAI banned Russian ChatGPT accounts used to spread pro-Kremlin misinformation",
       "articles": [
         {
-          "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
-          "url": "https://arxiv.org/abs/2608.21375",
+          "title": "OpenAI banned Russian ChatGPT accounts used to spread pro-Kremlin misinformation",
+          "url": "https://qz.com/openai-banned-russian-chatgpt-accounts-influence-campaign-082526",
+          "source": "Quartz"
+        },
+        {
+          "title": "OpenAI bans a cluster of Russian ChatGPT accounts that used VPNs to evade restrictions and run an influence operation, i",
+          "url": "https://www.techmeme.com/260825/p13#a260825p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "ChatGPT usato per propaganda russa: OpenAI banna gli account",
+          "url": "https://www.tomshw.it/hardware/openai-blocca-account-chatgpt-probabile-operazione-d-influenza-russa",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "quantization",
+      "mentions": 34,
+      "velocity": 7.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.93,
+      "headline": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "articles": [
+        {
+          "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "source": "Hugging Face Blog"
+        },
+        {
+          "title": "SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality",
+          "url": "https://arxiv.org/abs/2608.21952",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Robustness Analysis of Agentic AI to Inconsistent and Incomplete Tool Responses",
-          "url": "https://arxiv.org/abs/2608.22676",
+          "title": "Silent Alarm: A J-Space Protocol for Comparing Danger Recognition Across Models and Quantization Levels",
+          "url": "https://arxiv.org/abs/2607.12792",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 190,
+      "velocity": 6.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.96,
+      "headline": "Un vecchio laptop esegue Qwen grazie a una Radeon da desktop",
+      "articles": [
+        {
+          "title": "Un vecchio laptop esegue Qwen grazie a una Radeon da desktop",
+          "url": "https://www.tomshw.it/hardware/un-vecchio-laptop-esegue-qwen-grazie-a-una-radeon-da-desktop",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Verlies Alibaba’s AI-tak verviervoudigt, Qwen omarmd",
+          "url": "https://www.emerce.nl/nieuws/verlies-alibabas-ai-tak-verviervoudigt-qwen-omarmd",
+          "source": "Nieuws - Emerce"
+        }
+      ]
+    },
+    {
+      "keyword": "distillation",
+      "mentions": 39,
+      "velocity": 4.2,
+      "sources": [
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.98,
+      "headline": "WAM-OPD: On-Policy Distillation for World Action Models",
+      "articles": [
+        {
+          "title": "WAM-OPD: On-Policy Distillation for World Action Models",
+          "url": "https://arxiv.org/abs/2608.22364",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ATHENA: Knowledge-guided agentic neural architecture search for AutoFormer-based electronic health record modeling",
-          "url": "https://arxiv.org/abs/2608.21712",
+          "title": "SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2608.21500",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Rethinking Reverse KL as Adaptive Entropy Distillation",
+          "url": "https://arxiv.org/abs/2608.14685",
+          "source": "stat.ML updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "perplexity",
+      "mentions": 33,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.59,
+      "headline": "Perplexity launches Portable Computer, a local AI agent platform running fully on-device with zero token costs, starting",
+      "articles": [
+        {
+          "title": "Perplexity launches Portable Computer, a local AI agent platform running fully on-device with zero token costs, starting",
+          "url": "https://www.techmeme.com/260825/p27#a260825p27",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Portable Computer is Perplexity's new local AI agent - why it's a game changer",
+          "url": "https://www.zdnet.com/article/portable-computer-perplexity-local-ai-agent/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
+          "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 50,
+      "velocity": 2.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.96,
+      "headline": "AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of",
+      "articles": [
+        {
+          "title": "AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coder-gets-doom-running-on-a-custom-cpu-designed-by-gpt-5-6-sol-game-viewport-is-overlaid-on-a-pulsing-schematic-of-the-cpu-in-turing-completes-sandbox-environment",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "LLMs for Survey Text Analysis - A Performance Comparison Between Humans and GPT-5 on Inductive Content Analysis",
+          "url": "https://arxiv.org/abs/2608.22417",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -74,44 +210,33 @@
   ],
   "emerging": [
     {
-      "keyword": "cline",
-      "mentions": 28,
-      "velocity": 3.6,
+      "keyword": "gpt-4o",
+      "mentions": 11,
+      "velocity": 2.3,
       "sources": [
-        "articles",
         "arxiv",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.5,
-      "headline": "",
-      "articles": []
+      "expert_ratio": 0.97,
+      "headline": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+      "articles": [
+        {
+          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Clau",
+          "url": "https://arxiv.org/abs/2607.15509",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "OpenGPT-4o-Image: A Comprehensive Dataset for Advanced Image Generation and Editing",
+          "url": "https://arxiv.org/abs/2509.24900",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "codex",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users, after weeks without the restriction, saying it woul",
-      "articles": [
-        {
-          "title": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users, after weeks without the restriction, saying it woul",
-          "url": "https://www.techmeme.com/260824/p40#a260824p40",
-          "source": "Techmeme"
-        }
-      ]
-    },
     {
       "keyword": "inflection",
       "mentions": 3,
@@ -129,6 +254,26 @@
           "title": "Letter: Stripe told investors January 1 marked the \"beginning of the singularity\", a major inflection point in long-term",
           "url": "https://www.techmeme.com/260819/p44#a260819p44",
           "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "opensource",
+      "mentions": 3,
+      "velocity": 0.7,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 8,
+      "expert_ratio": 0.9,
+      "headline": "Cobalt is een opensource-appwinkel voor Kobo-e-readers",
+      "articles": [
+        {
+          "title": "Cobalt is een opensource-appwinkel voor Kobo-e-readers",
+          "url": "https://tweakers.net/nieuws/251232/cobalt-is-een-opensource-appwinkel-voor-kobo-e-readers.html",
+          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     },
@@ -177,6 +322,20 @@
       ]
     },
     {
+      "keyword": "computer use",
+      "mentions": 3,
+      "velocity": 0.2,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 12,
+      "expert_ratio": 0.81,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "crewai",
       "mentions": 2,
       "velocity": 0.2,
@@ -205,6 +364,36 @@
       "articles": []
     },
     {
+      "keyword": "databricks",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 80,
+      "days_active": 11,
+      "expert_ratio": 0.8,
+      "headline": "Andreessen Horowitz Focus of DOJ Antitrust Probe Over Databricks, Fivetran Board Seats",
+      "articles": [
+        {
+          "title": "Andreessen Horowitz Focus of DOJ Antitrust Probe Over Databricks, Fivetran Board Seats",
+          "url": "https://www.theinformation.com/briefings/andreessen-horowitz-focus-doj-antitrust-probe-databricks-fivetran-board-seats",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "rustlang",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 66,
+      "days_active": 7,
+      "expert_ratio": 0.92,
+      "headline": "",
+      "articles": []
+    },
+    {
       "keyword": "command r",
       "mentions": 2,
       "velocity": 0.1,
@@ -217,82 +406,63 @@
       "expert_ratio": 0.91,
       "headline": "",
       "articles": []
-    },
-    {
-      "keyword": "mvpbuzz",
-      "mentions": 3,
-      "velocity": 0.1,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 11,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "azureai",
-      "mentions": 3,
-      "velocity": 0.1,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 11,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
-    },
-    {
-      "keyword": "machinelearning",
-      "mentions": 3,
-      "velocity": 0.1,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 11,
-      "expert_ratio": 1.0,
-      "headline": "",
-      "articles": []
     }
   ],
   "sustained": [
     {
-      "keyword": "github",
-      "mentions": 100,
-      "velocity": 1.5,
+      "keyword": "ai coding",
+      "mentions": 36,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
         "linkedin",
         "reddit"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.32,
-      "headline": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy",
+      "expert_ratio": 0.51,
+      "headline": "Concepts for Securing Agentic AI Coding and the Terok Environment",
       "articles": [
         {
-          "title": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy",
-          "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-takes-down-over-400-github-repositories-for-switch-emulators-in-one-go-relentless-dmca-strikes-tied-to-piracy-concerns-over-illegal-cryptographic-keys",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Cursor ora si fa il repository, mette GitHub nel mirino",
-          "url": "https://www.tomshw.it/business/cursor-ora-si-fa-il-repository-mette-github-nel-mirino",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Temporal Validity on Real Software Histories: Eliminating Stale-Fact Errors in Code-Assistant Memory over GitHub Fixes",
-          "url": "https://arxiv.org/abs/2608.20685",
+          "title": "Concepts for Securing Agentic AI Coding and the Terok Environment",
+          "url": "https://arxiv.org/abs/2608.22930",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "macbook",
+      "mentions": 12,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.76,
+      "headline": "MacBook Neo recupera una funzione che Apple aveva eliminato",
+      "articles": [
+        {
+          "title": "MacBook Neo recupera una funzione che Apple aveva eliminato",
+          "url": "https://www.tomshw.it/hardware/il-lucchetto-dei-vecchi-macbook-torna-ora-si-monta-a-morsetto",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
+          "url": "https://arstechnica.com/gadgets/2026/08/review-chuwis-449-unibook-laptop-is-a-funhouse-mirror-macbook-neo/",
+          "source": "Ars Technica"
+        },
+        {
+          "title": "Rebelle 8 review: This impressive painting software let me turn my MacBook into a full-blown canvas",
+          "url": "https://www.techradar.com/pro/software-services/rebelle-8-painting-software-review",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
@@ -330,8 +500,13 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.05,
-      "headline": "Researchers detail the growing use of AI in cyberattacks across many Chinese state-linked groups, primarily using open-w",
+      "headline": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
       "articles": [
+        {
+          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
+          "url": "https://www.techmeme.com/260825/p24#a260825p24",
+          "source": "Techmeme"
+        },
         {
           "title": "Researchers detail the growing use of AI in cyberattacks across many Chinese state-linked groups, primarily using open-w",
           "url": "https://www.techmeme.com/260824/p39#a260824p39",
@@ -341,114 +516,88 @@
           "title": "Sources: Nvidia plans to use its $6B deal with Poolside to build an open-weight AI model to compete with Chinese models ",
           "url": "https://www.techmeme.com/260822/p16#a260822p16",
           "source": "Techmeme"
-        },
-        {
-          "title": "US vs China AI Race: How ChatGPT, Gemini, Deepseek, Kimi Agents Compare",
-          "url": "https://www.bloomberg.com/graphics/2026-us-china-ai-race/",
-          "source": "Bloomberg Technology"
         }
       ]
     },
     {
-      "keyword": "kling",
-      "mentions": 11,
+      "keyword": "openai",
+      "mentions": 290,
       "velocity": 1.0,
       "sources": [
         "articles",
         "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.91,
-      "headline": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021",
-      "articles": [
-        {
-          "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021",
-          "url": "https://www.techmeme.com/260819/p12#a260819p12",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 78,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "arxiv",
+        "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.44,
-      "headline": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+      "expert_ratio": 0.79,
+      "headline": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
       "articles": [
         {
-          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
-          "url": "https://www.techmeme.com/260824/p32#a260824p32",
+          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
+          "url": "https://www.techmeme.com/260825/p24#a260825p24",
           "source": "Techmeme"
         },
         {
-          "title": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
-          "url": "https://www.techradar.com/pro/claude-wins-out-in-major-user-satisfaction-survey-beating-gemini-and-chatgpt-but-its-bad-news-for-grok-and-siri?utm_source=flipboard&utm_content=TechRadar/magazine/Gemini,+Siri,+Co-Pilot+and+Alexa:+The+AI+wars+commence",
-          "source": "Artificial Intelligence"
+          "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Grok keeps sending gibberish responses to users",
-          "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-          "source": "TechCrunch"
+          "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+          "source": "The Verge -  All Posts"
         }
       ]
     },
     {
-      "keyword": "langchain",
-      "mentions": 16,
+      "keyword": "midjourney",
+      "mentions": 11,
       "velocity": 0.9,
       "sources": [
-        "articles",
-        "github"
+        "github",
+        "reddit"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.85,
+      "expert_ratio": 0.92,
       "headline": "",
       "articles": []
     }
   ],
   "track_record": {
     "scored_predictions": 154,
-    "covered": 23,
-    "coverage_rate": 0.149,
-    "early": 9,
-    "early_rate": 0.058,
-    "avg_lead_days": 9.8,
-    "median_lead_days": 5,
-    "max_lead_days": 29,
-    "hit_rate": 0.149,
-    "materialized": 23,
+    "covered": 74,
+    "coverage_rate": 0.481,
+    "early": 32,
+    "early_rate": 0.208,
+    "avg_lead_days": 12.8,
+    "median_lead_days": 8.5,
+    "max_lead_days": 38,
+    "hit_rate": 0.481,
+    "materialized": 74,
     "by_signal_type": {
       "emerging": {
         "scored": 72,
-        "covered": 20,
-        "early": 7,
-        "coverage_rate": 0.278,
-        "early_rate": 0.097,
-        "hit_rate": 0.278
+        "covered": 62,
+        "early": 25,
+        "coverage_rate": 0.861,
+        "early_rate": 0.347,
+        "hit_rate": 0.861
       },
       "weak_signal": {
         "scored": 82,
-        "covered": 3,
-        "early": 2,
-        "coverage_rate": 0.037,
-        "early_rate": 0.024,
-        "hit_rate": 0.037
+        "covered": 12,
+        "early": 7,
+        "coverage_rate": 0.146,
+        "early_rate": 0.085,
+        "hit_rate": 0.146
       }
     }
   },
@@ -475,6 +624,27 @@
   },
   "best_calls": [
     {
+      "keyword": "inflection",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-14",
+      "materialized_on": "2026-07-22",
+      "lead_days": 38
+    },
+    {
+      "keyword": "context window",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-05",
+      "materialized_on": "2026-08-11",
+      "lead_days": 37
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
+      "lead_days": 33
+    },
+    {
       "keyword": "gemma",
       "signal_type": "emerging",
       "flagged_on": "2026-04-07",
@@ -489,32 +659,25 @@
       "lead_days": 27
     },
     {
-      "keyword": "qwen",
+      "keyword": "hallucinations",
       "signal_type": "emerging",
-      "flagged_on": "2026-04-03",
-      "materialized_on": "2026-04-10",
-      "lead_days": 7
+      "flagged_on": "2026-06-17",
+      "materialized_on": "2026-07-09",
+      "lead_days": 22
     },
     {
-      "keyword": "ai developer",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-05",
-      "materialized_on": "2026-03-10",
-      "lead_days": 5
-    },
-    {
-      "keyword": "notion",
+      "keyword": "langflow",
       "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
+      "flagged_on": "2026-07-04",
+      "materialized_on": "2026-07-22",
+      "lead_days": 18
     },
     {
-      "keyword": "litellm",
+      "keyword": "character.ai",
       "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
+      "flagged_on": "2026-06-24",
+      "materialized_on": "2026-07-09",
+      "lead_days": 15
     }
   ],
   "watching_now": {
@@ -524,6 +687,18 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-25",
         "confidence": 0.8
+      },
+      {
+        "keyword": "custom gpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-25",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "meta ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-25",
+        "confidence": 0.2
       },
       {
         "keyword": "ai governance",
@@ -538,25 +713,25 @@
         "confidence": 0.2
       },
       {
-        "keyword": "claude code",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-24",
-        "confidence": 1.0
-      },
-      {
         "keyword": "grok",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
         "confidence": 1.0
       },
       {
-        "keyword": "qwen",
+        "keyword": "claude code",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-24",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "data centers",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
         "confidence": 0.8
       },
       {
-        "keyword": "data centers",
+        "keyword": "qwen",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
         "confidence": 0.8
@@ -578,41 +753,15 @@
         "signal_type": "emerging",
         "flagged_on": "2026-08-23",
         "confidence": 0.8
-      },
-      {
-        "keyword": "ai coding",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-23",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "command r",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-23",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
-      {
-        "keyword": "claude haiku",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 2
-      },
       {
         "keyword": "mcp tools",
         "recent_mentions": 18,
         "prior_mentions": 2,
         "change_ratio": 9.0,
         "corroborating_sources": 3
-      },
-      {
-        "keyword": "inflection",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
       },
       {
         "keyword": "poolside",
@@ -623,6 +772,20 @@
       },
       {
         "keyword": "stable diffusion",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "inflection",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "claude haiku",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
@@ -651,31 +814,31 @@
       },
       {
         "keyword": "quantization",
-        "recent_mentions": 73,
+        "recent_mentions": 61,
         "prior_mentions": 15,
-        "change_ratio": 4.87,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "llama 3",
-        "recent_mentions": 39,
-        "prior_mentions": 9,
-        "change_ratio": 4.33,
-        "corroborating_sources": 1
+        "change_ratio": 4.07,
+        "corroborating_sources": 3
       },
       {
         "keyword": "llama.cpp",
-        "recent_mentions": 75,
+        "recent_mentions": 77,
         "prior_mentions": 19,
-        "change_ratio": 3.95,
+        "change_ratio": 4.05,
         "corroborating_sources": 5
       },
       {
-        "keyword": "gpt-4o",
-        "recent_mentions": 37,
-        "prior_mentions": 10,
-        "change_ratio": 3.7,
+        "keyword": "groq",
+        "recent_mentions": 11,
+        "prior_mentions": 3,
+        "change_ratio": 3.67,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "vision language model",
+        "recent_mentions": 34,
+        "prior_mentions": 10,
+        "change_ratio": 3.4,
+        "corroborating_sources": 1
       }
     ]
   }

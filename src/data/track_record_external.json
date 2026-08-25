@@ -1,40 +1,61 @@
 {
-  "generated_at": "2026-08-25T05:28:11+00:00",
+  "generated_at": "2026-08-25T15:35:44+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
     "scored_predictions": 154,
-    "covered": 23,
-    "coverage_rate": 0.149,
-    "early": 9,
-    "early_rate": 0.058,
-    "avg_lead_days": 9.8,
-    "median_lead_days": 5,
-    "max_lead_days": 29,
-    "hit_rate": 0.149,
-    "materialized": 23,
+    "covered": 74,
+    "coverage_rate": 0.481,
+    "early": 32,
+    "early_rate": 0.208,
+    "avg_lead_days": 12.8,
+    "median_lead_days": 8.5,
+    "max_lead_days": 38,
+    "hit_rate": 0.481,
+    "materialized": 74,
     "by_signal_type": {
       "emerging": {
         "scored": 72,
-        "covered": 20,
-        "early": 7,
-        "coverage_rate": 0.278,
-        "early_rate": 0.097,
-        "hit_rate": 0.278
+        "covered": 62,
+        "early": 25,
+        "coverage_rate": 0.861,
+        "early_rate": 0.347,
+        "hit_rate": 0.861
       },
       "weak_signal": {
         "scored": 82,
-        "covered": 3,
-        "early": 2,
-        "coverage_rate": 0.037,
-        "early_rate": 0.024,
-        "hit_rate": 0.037
+        "covered": 12,
+        "early": 7,
+        "coverage_rate": 0.146,
+        "early_rate": 0.085,
+        "hit_rate": 0.146
       }
     }
   },
   "best_calls": [
+    {
+      "keyword": "inflection",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-14",
+      "materialized_on": "2026-07-22",
+      "lead_days": 38
+    },
+    {
+      "keyword": "context window",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-05",
+      "materialized_on": "2026-08-11",
+      "lead_days": 37
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
+      "lead_days": 33
+    },
     {
       "keyword": "gemma",
       "signal_type": "emerging",
@@ -50,55 +71,48 @@
       "lead_days": 27
     },
     {
-      "keyword": "qwen",
+      "keyword": "hallucinations",
       "signal_type": "emerging",
-      "flagged_on": "2026-04-03",
-      "materialized_on": "2026-04-10",
-      "lead_days": 7
+      "flagged_on": "2026-06-17",
+      "materialized_on": "2026-07-09",
+      "lead_days": 22
     },
     {
-      "keyword": "ai developer",
-      "signal_type": "emerging",
-      "flagged_on": "2026-03-05",
-      "materialized_on": "2026-03-10",
-      "lead_days": 5
-    },
-    {
-      "keyword": "notion",
+      "keyword": "langflow",
       "signal_type": "weak_signal",
-      "flagged_on": "2026-03-19",
-      "materialized_on": "2026-03-23",
-      "lead_days": 4
+      "flagged_on": "2026-07-04",
+      "materialized_on": "2026-07-22",
+      "lead_days": 18
     },
     {
-      "keyword": "litellm",
+      "keyword": "character.ai",
       "signal_type": "emerging",
-      "flagged_on": "2026-03-27",
-      "materialized_on": "2026-03-31",
-      "lead_days": 4
+      "flagged_on": "2026-06-24",
+      "materialized_on": "2026-07-09",
+      "lead_days": 15
     }
   ],
   "caveats": [
     "Alleen voorspellingen met het volle venster meegeteld — geen right-censoring.",
     "Gelijktijdige dekking (voorsprong < drempel) telt als dekking, niet als vroege call.",
-    "Nog geen nul-model/controlegroep: de dekking is nog niet tegen toeval afgezet."
+    "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 152,
+    "n": 154,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.48,
-      "early_rate": 0.211
+      "coverage_rate": 0.481,
+      "early_rate": 0.208
     },
     "null_mean": {
-      "coverage_rate": 0.52,
-      "early_rate": 0.267
+      "coverage_rate": 0.519,
+      "early_rate": 0.265
     },
     "p_value": {
       "coverage_rate": 0.999,
-      "early_rate": 0.993
+      "early_rate": 0.994
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
