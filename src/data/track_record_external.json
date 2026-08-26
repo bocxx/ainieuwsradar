@@ -1,40 +1,47 @@
 {
-  "generated_at": "2026-08-25T17:39:05+00:00",
+  "generated_at": "2026-08-26T05:40:23+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 154,
-    "covered": 74,
-    "coverage_rate": 0.481,
-    "early": 32,
-    "early_rate": 0.208,
-    "avg_lead_days": 12.8,
-    "median_lead_days": 8.5,
-    "max_lead_days": 38,
-    "hit_rate": 0.481,
-    "materialized": 74,
+    "scored_predictions": 155,
+    "covered": 69,
+    "coverage_rate": 0.445,
+    "early": 33,
+    "early_rate": 0.213,
+    "avg_lead_days": 15,
+    "median_lead_days": 9,
+    "max_lead_days": 39,
+    "hit_rate": 0.445,
+    "materialized": 69,
     "by_signal_type": {
       "emerging": {
-        "scored": 72,
-        "covered": 62,
-        "early": 25,
-        "coverage_rate": 0.861,
-        "early_rate": 0.347,
-        "hit_rate": 0.861
+        "scored": 73,
+        "covered": 57,
+        "early": 24,
+        "coverage_rate": 0.781,
+        "early_rate": 0.329,
+        "hit_rate": 0.781
       },
       "weak_signal": {
         "scored": 82,
         "covered": 12,
-        "early": 7,
+        "early": 9,
         "coverage_rate": 0.146,
-        "early_rate": 0.085,
+        "early_rate": 0.11,
         "hit_rate": 0.146
       }
     }
   },
   "best_calls": [
+    {
+      "keyword": "lora",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-27",
+      "materialized_on": "2026-08-05",
+      "lead_days": 39
+    },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
@@ -71,25 +78,18 @@
       "lead_days": 27
     },
     {
+      "keyword": "voice mode",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-16",
+      "materialized_on": "2026-07-08",
+      "lead_days": 22
+    },
+    {
       "keyword": "hallucinations",
       "signal_type": "emerging",
       "flagged_on": "2026-06-17",
       "materialized_on": "2026-07-09",
       "lead_days": 22
-    },
-    {
-      "keyword": "langflow",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-07-04",
-      "materialized_on": "2026-07-22",
-      "lead_days": 18
-    },
-    {
-      "keyword": "character.ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-24",
-      "materialized_on": "2026-07-09",
-      "lead_days": 15
     }
   ],
   "caveats": [
@@ -98,21 +98,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 154,
+    "n": 155,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.481,
-      "early_rate": 0.208
+      "coverage_rate": 0.452,
+      "early_rate": 0.219
     },
     "null_mean": {
-      "coverage_rate": 0.519,
-      "early_rate": 0.265
+      "coverage_rate": 0.479,
+      "early_rate": 0.258
     },
     "p_value": {
-      "coverage_rate": 0.999,
-      "early_rate": 0.994
+      "coverage_rate": 0.972,
+      "early_rate": 0.954
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
