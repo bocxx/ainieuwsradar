@@ -1,12 +1,204 @@
 {
-  "generated_at": "2026-08-26T19:21:49.260263",
+  "generated_at": "2026-08-27T07:17:26.348961",
   "total_tracked": 3193,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "nvidia",
+      "mentions": 184,
+      "velocity": 29.3,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.6,
+      "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+      "articles": [
+        {
+          "title": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Nvidia's results suggest the AI boom has further to run",
+          "url": "https://www.youtube.com/shorts/GLRPrH6Ydms",
+          "source": "Reuters"
+        },
+        {
+          "title": "Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its ",
+          "url": "https://www.techmeme.com/260826/p65#a260826p65",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "openai",
+      "mentions": 350,
+      "velocity": 16.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.79,
+      "headline": "OpenAI says reward hacking, an AI alignment problem in which a model takes unintended actions to achieve a goal, was a p",
+      "articles": [
+        {
+          "title": "OpenAI says reward hacking, an AI alignment problem in which a model takes unintended actions to achieve a goal, was a p",
+          "url": "https://www.techmeme.com/260826/p71#a260826p71",
+          "source": "Techmeme"
+        },
+        {
+          "title": "SEC filing: OpenAI invests ~$400M in its second startup fund, after it raised $175M for its first fund in 2021 from outs",
+          "url": "https://www.techmeme.com/260826/p70#a260826p70",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
+          "url": "https://www.theinformation.com/briefings/hundreds-openai-agents-attacked-hugging-face-independent-investigation-finds",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "hugging face",
+      "mentions": 63,
+      "velocity": 15.8,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.55,
+      "headline": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
+      "articles": [
+        {
+          "title": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
+          "url": "https://www.theinformation.com/briefings/hundreds-openai-agents-attacked-hugging-face-independent-investigation-finds",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 163,
+      "velocity": 10.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.77,
+      "headline": "Rebuild Dossier: Mechanically-Enforced Specs for Agentic App Rebuilds, and What Model-Tier Failures Reveal",
+      "articles": [
+        {
+          "title": "Rebuild Dossier: Mechanically-Enforced Specs for Agentic App Rebuilds, and What Model-Tier Failures Reveal",
+          "url": "https://arxiv.org/abs/2608.23616",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "AgentWorld: Personality-Aware Reliability Evaluation for Agentic Information Retrieval",
+          "url": "https://arxiv.org/abs/2608.24076",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Gemini Live gains agentic tasks, voice inbox control and personal intelligence",
+          "url": "https://thenextweb.com/news/gemini-live-spark-voice-agentic-tasks-dma-rival-assistants",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 97,
+      "velocity": 8.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.99,
+      "headline": "Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study",
+      "articles": [
+        {
+          "title": "Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study",
+          "url": "https://arxiv.org/abs/2608.26060",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "What Models Know, How Well They Know It: Knowledge-Weighted Fine-Tuning for Learning When to Say \"I Don't Know\"",
+          "url": "https://arxiv.org/abs/2604.05779",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 89,
+      "velocity": 4.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.99,
+      "headline": "UCO: A Multi-Turn Interactive Reinforcement Learning Method for Adaptive Teaching with Large Language Models",
+      "articles": [
+        {
+          "title": "UCO: A Multi-Turn Interactive Reinforcement Learning Method for Adaptive Teaching with Large Language Models",
+          "url": "https://arxiv.org/abs/2511.08873",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "FARCA: Fact-Aligned Reliability-Aware Credit Assignment for Reinforcement Learning with Factual Supervision",
+          "url": "https://arxiv.org/abs/2608.24350",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Illuminating the Three Dogmas of Reinforcement Learning under Evolutionary Light",
+          "url": "https://arxiv.org/abs/2507.11482",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "qwen",
-      "mentions": 213,
-      "velocity": 11.5,
+      "mentions": 209,
+      "velocity": 6.9,
       "sources": [
         "articles",
         "arxiv",
@@ -39,8 +231,8 @@
     },
     {
       "keyword": "data centers",
-      "mentions": 52,
-      "velocity": 6.0,
+      "mentions": 53,
+      "velocity": 4.5,
       "sources": [
         "articles",
         "hackernews",
@@ -52,203 +244,119 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.42,
-      "headline": "Kansas town drops charges against teacher arrested for clapping during public hearings on data centers — says that ‘case",
+      "headline": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
       "articles": [
+        {
+          "title": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/up-to-half-of-planned-us-data-centers-may-face-delays-kimmeridge-says",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
+          "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
+          "source": "Feed: Artificial Intelligence Latest"
+        },
         {
           "title": "Kansas town drops charges against teacher arrested for clapping during public hearings on data centers — says that ‘case",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/kansas-town-drops-charges-against-teacher-who-clapped-during-public-hearings-on-data-centers-says-that-case-has-been-dismissed-without-prejudice",
           "source": "Tom's Hardware"
-        },
-        {
-          "title": "OpenAI's head of data centers has left as executive departures keep mounting",
-          "url": "https://qz.com/openai-head-data-centers-chris-malone-departure-082626",
-          "source": "Quartz"
-        },
-        {
-          "title": "America now has 3 times the amount of gas power in development as China, thanks to data centers",
-          "url": "https://www.fastcompany.com/91595644/ai-data-center-boom-surge-us-gas-power-developments",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 568,
-      "velocity": 3.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.78,
-      "headline": "Wat is een Claude skill? Hoe maak je skills? Incl. voorbeelden",
-      "articles": [
-        {
-          "title": "Wat is een Claude skill? Hoe maak je skills? Incl. voorbeelden",
-          "url": "https://datasciencepartners.nl/claude-skills/",
-          "source": "Data Science Partners | Trainingen Data Science in Python， SQL ＆ R"
-        },
-        {
-          "title": "Claude condivide la memoria fra chat e Cowork, con qualche esclusione. Finalmente!",
-          "url": "https://www.tomshw.it/business/claude-condivide-la-memoria-fra-chat-e-cowork-con-qualche-esclusione-finalmente",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "agentic",
-      "mentions": 137,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.77,
-      "headline": "Wanted: Token spend control and governance without slowing down agentic AI innovation",
-      "articles": [
-        {
-          "title": "Wanted: Token spend control and governance without slowing down agentic AI innovation",
-          "url": "https://www.techradar.com/pro/wanted-token-spend-control-and-governance-without-slowing-down-agentic-ai-innovation",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "AHEAD: Adaptive Hindsight with Environment-Augmented Distillation for Agentic RL",
-          "url": "https://arxiv.org/abs/2608.24114",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation",
-          "url": "https://arxiv.org/abs/2608.24103",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "copilot",
-      "mentions": 35,
-      "velocity": 2.3,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.67,
-      "headline": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
-      "articles": [
-        {
-          "title": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
-          "url": "https://www.techradar.com/computing/windows/the-version-microsoft-will-build-should-be-known-as-copilot-os-windows-built-around-ai-may-not-be-happening-but-leaked-concept-remains-a-grim-portent-for-desktops",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Google's AI-first Googlebook laptop is almost here - can it avoid the Copilot+ PC problem?",
-          "url": "https://www.zdnet.com/article/googlebook-laptop-is-almost-here-can-it-avoid-copilot-pc-problem/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "6 tips for better research with Microsoft Copilot",
-          "url": "https://www.computerworld.com/article/4204609/microsoft-copilot-research-tips.html",
-          "source": "Computerworld"
         }
       ]
     }
   ],
-  "emerging": [
+  "weak_signals": [
     {
-      "keyword": "nvidia",
-      "mentions": 101,
-      "velocity": 5.9,
+      "keyword": "sovereign ai",
+      "mentions": 3,
+      "velocity": 0.5,
       "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.61,
-      "headline": "Hot Chips 2026: Nvidia presents Groq 3 LPX architecture and unveils its first third-party inference benchmark — LP30-bas",
+      "source_count": 1,
+      "confidence": 85,
+      "days_active": 9,
+      "expert_ratio": 0.73,
+      "headline": "London-based Callosum, whose software matches AI tasks with different models and chips, raised a $100M seed from Atomico",
       "articles": [
         {
-          "title": "Hot Chips 2026: Nvidia presents Groq 3 LPX architecture and unveils its first third-party inference benchmark — LP30-bas",
-          "url": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-presents-groq-3-lpx-architecture-and-unveils-its-first-third-party-inference-benchmark",
-          "source": "Tom's Hardware"
+          "title": "London-based Callosum, whose software matches AI tasks with different models and chips, raised a $100M seed from Atomico",
+          "url": "https://www.techmeme.com/260820/p7#a260820p7",
+          "source": "Techmeme"
         },
         {
-          "title": "Hot Chips 2026: Nvidia touts benefits of its DSX MaxLPS site power management approach — tech allows for more compute fr",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/hot-chips-2026-nvidia-touts-benefits-of-its-dsx-maxlps-site-power-management-approach-tech-allows-for-more-compute-from-fixed-data-center-power-budgets",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Sectors Up Close: Is Nvidia’s dominance under threat?",
-          "url": "https://www.youtube.com/watch?v=hiPLMzoGZL4",
-          "source": "Reuters"
+          "title": "LG AI Research's Lee on The Importance of Sovereign AI",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-19/lg-ai-research-s-lee-on-the-importance-of-sovereign-ai-video",
+          "source": "Bloomberg Technology"
         }
       ]
     },
     {
-      "keyword": "openai",
-      "mentions": 306,
-      "velocity": 4.8,
+      "keyword": "engineering",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models",
+      "articles": [
+        {
+          "title": "Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models",
+          "url": "https://arxiv.org/abs/2608.24039",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering",
+          "url": "https://arxiv.org/abs/2512.13979",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "EngiAI: Capability-Based Evaluation of Tool-Connected LLM Agents for Engineering Design",
+          "url": "https://arxiv.org/abs/2605.19743",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "sustained": [
+    {
+      "keyword": "blackwell",
+      "mentions": 11,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 4,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.79,
-      "headline": "Interviews with OpenAI leaders, employees, and others on the company's reboot; Sam Altman says OpenAI would have a syste",
+      "days_active": 13,
+      "expert_ratio": 0.72,
+      "headline": "AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in ad",
       "articles": [
         {
-          "title": "Interviews with OpenAI leaders, employees, and others on the company's reboot; Sam Altman says OpenAI would have a syste",
-          "url": "https://www.techmeme.com/260826/p40#a260826p40",
+          "title": "AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in ad",
+          "url": "https://www.techmeme.com/260826/p57#a260826p57",
           "source": "Techmeme"
         },
         {
-          "title": "OpenAI’s Jalapeño AI chip brings new 'threat' to Nvidia margins as custom silicon gains ground",
-          "url": "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html?utm_source=flipboard&utm_content=CNBC/magazine/Top+News",
-          "source": "Artificial Intelligence"
+          "title": "OpenAI Says Its Jalapeño AI Chip Is Better Than Nvidia’s Blackwell",
+          "url": "https://www.theinformation.com/briefings/openai-says-jalapeno-ai-chip-better-nvidias-blackwell",
+          "source": "The Information"
         },
         {
-          "title": "OpenAI says its custom AI chip is beating Nvidia's best in benchmark tests",
-          "url": "https://qz.com/openai-jalapeno-chip-nvidia-benchmark-results-082626",
-          "source": "Quartz"
+          "title": "The Theorems of Dr. David Blackwell and Their Contributions to Artificial Intelligence",
+          "url": "https://arxiv.org/abs/2604.06621",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "distillation",
-      "mentions": 42,
-      "velocity": 3.9,
+      "mentions": 38,
+      "velocity": 1.5,
       "sources": [
         "arxiv",
         "reddit"
@@ -256,7 +364,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.98,
+      "expert_ratio": 0.97,
       "headline": "GEAR: Generative Expansion and Real Anchoring for Two-Stage Distillation of Tabular Foundation Models",
       "articles": [
         {
@@ -277,126 +385,9 @@
       ]
     },
     {
-      "keyword": "perplexity",
-      "mentions": 39,
-      "velocity": 3.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.59,
-      "headline": "Now Perplexity is trying to get into the local AI action",
-      "articles": [
-        {
-          "title": "Now Perplexity is trying to get into the local AI action",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449",
-          "source": "The Register"
-        },
-        {
-          "title": "Perplexity’s on-device AI offering promises data control and lower token costs",
-          "url": "https://www.computerworld.com/article/4213821/perplexitys-on-device-ai-offering-promises-data-control-and-lower-token-costs.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
-          "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs?utm_source=flipboard&utm_content=user/venturebeat",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "quantization",
-      "mentions": 26,
-      "velocity": 3.4,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.95,
-      "headline": "Can Large Language Models Still Explain Themselves? Investigating the Impact of Quantization on Self-Explanations",
-      "articles": [
-        {
-          "title": "Can Large Language Models Still Explain Themselves? Investigating the Impact of Quantization on Self-Explanations",
-          "url": "https://arxiv.org/abs/2601.00282",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Compression Trinity: Exploring Sparsity, Quantization, and Low-Rank Approximations for LLM Compression",
-          "url": "https://arxiv.org/abs/2608.24070",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-          "source": "Hugging Face Blog"
-        }
-      ]
-    }
-  ],
-  "weak_signals": [
-    {
-      "keyword": "engineering",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "EngiAI: Capability-Based Evaluation of Tool-Connected LLM Agents for Engineering Design",
-      "articles": [
-        {
-          "title": "EngiAI: Capability-Based Evaluation of Tool-Connected LLM Agents for Engineering Design",
-          "url": "https://arxiv.org/abs/2605.19743",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering",
-          "url": "https://arxiv.org/abs/2512.13979",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models",
-          "url": "https://arxiv.org/abs/2608.24039",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "inflection",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 5,
-      "expert_ratio": 0.91,
-      "headline": "Letter: Stripe told investors January 1 marked the \"beginning of the singularity\", a major inflection point in long-term",
-      "articles": [
-        {
-          "title": "Letter: Stripe told investors January 1 marked the \"beginning of the singularity\", a major inflection point in long-term",
-          "url": "https://www.techmeme.com/260819/p44#a260819p44",
-          "source": "Techmeme"
-        }
-      ]
-    }
-  ],
-  "sustained": [
-    {
       "keyword": "macbook",
-      "mentions": 14,
-      "velocity": 1.6,
+      "mentions": 15,
+      "velocity": 1.5,
       "sources": [
         "articles",
         "hackernews",
@@ -405,7 +396,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.74,
+      "expert_ratio": 0.72,
       "headline": "Chuwi UniBook Review: A budget rival to the MacBook Neo and Dell XPS 13",
       "articles": [
         {
@@ -426,40 +417,36 @@
       ]
     },
     {
-      "keyword": "vibe coding",
-      "mentions": 35,
-      "velocity": 1.6,
+      "keyword": "context window",
+      "mentions": 15,
+      "velocity": 1.3,
       "sources": [
         "articles",
+        "arxiv",
         "linkedin",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.55,
-      "headline": "Vibe Coding on Trial: Operating Characteristics of Unanimous LLM Juries",
+      "expert_ratio": 0.77,
+      "headline": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
       "articles": [
         {
-          "title": "Vibe Coding on Trial: Operating Characteristics of Unanimous LLM Juries",
-          "url": "https://arxiv.org/abs/2602.18492",
+          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
+          "url": "https://arxiv.org/abs/2608.22137",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Vibe Coding and Web Application Security: A Twin-Prompt Study",
-          "url": "https://arxiv.org/abs/2608.20963",
+          "title": "Token Optimization and Context Window Management in Multi-Agent AI Workflows",
+          "url": "https://arxiv.org/abs/2608.17188",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Il vibe coding arriva sui chip quantistici, ma nasconde un'insidia",
-          "url": "https://www.tomshw.it/scienze/il-vibe-coding-arriva-sui-chip-quantistici-ma-nasconde-uninsidia",
-          "source": "Tom's Hardware"
         }
       ]
     },
     {
       "keyword": "claude opus",
-      "mentions": 12,
+      "mentions": 13,
       "velocity": 1.1,
       "sources": [
         "articles",
@@ -481,100 +468,36 @@
       ]
     },
     {
-      "keyword": "kimi",
-      "mentions": 12,
-      "velocity": 1.0,
-      "sources": [
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.03,
-      "headline": "Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K",
-      "articles": [
-        {
-          "title": "Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K",
-          "url": "https://www.techmeme.com/260826/p17#a260826p17",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Moonshot AI wants 30% of what US clouds earn from Kimi K3",
-          "url": "https://thenextweb.com/news/moonshot-k3-revenue-sharing-us-clouds",
-          "source": "The Next Web"
-        },
-        {
-          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
-          "url": "https://www.techmeme.com/260825/p24#a260825p24",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "hugging face",
-      "mentions": 13,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.58,
-      "headline": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-      "articles": [
-        {
-          "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "Exclusive: Hugging Face Annualized Revenue Jumps 50% to $150 Million",
-          "url": "https://www.theinformation.com/briefings/exclusive-hugging-face-annualized-revenue-jumps-50-150-million",
-          "source": "The Information"
-        },
-        {
-          "title": "Alabama Starts Probe Into OpenAI Over Hugging Face Hack",
-          "url": "https://www.theinformation.com/briefings/alabama-starts-probe-openai-hugging-face-hack",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 166,
-      "velocity": 0.8,
+      "keyword": "perplexity",
+      "mentions": 34,
+      "velocity": 1.1,
       "sources": [
         "articles",
         "arxiv",
-        "github",
+        "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.71,
-      "headline": "Google’s Gemini AI Is Changing How Deutsche Bank Assesses Credit Risk",
+      "expert_ratio": 0.59,
+      "headline": "Now Perplexity is trying to get into the local AI action",
       "articles": [
         {
-          "title": "Google’s Gemini AI Is Changing How Deutsche Bank Assesses Credit Risk",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-08-26/google-s-gemini-ai-is-changing-how-deutsche-bank-assesses-credit-risk",
-          "source": "Bloomberg Technology"
+          "title": "Now Perplexity is trying to get into the local AI action",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449",
+          "source": "The Register"
         },
         {
-          "title": "FlowX.AI Brings Mission-Critical Industry AI Agents to Gemini Enterprise",
-          "url": "https://thenextweb.com/news/flowx-ai-agents-gemini-enterprise-google-cloud-marketplace",
-          "source": "The Next Web"
+          "title": "Perplexity’s on-device AI offering promises data control and lower token costs",
+          "url": "https://www.computerworld.com/article/4213821/perplexitys-on-device-ai-offering-promises-data-control-and-lower-token-costs.html",
+          "source": "Computerworld"
         },
         {
-          "title": "Google Cloud has launched Gemini Enterprise for Legal with Freshfields, Cleary and Weil",
-          "url": "https://thenextweb.com/news/google-gemini-enterprise-legal-launch",
-          "source": "The Next Web"
+          "title": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
+          "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs?utm_source=flipboard&utm_content=user/venturebeat",
+          "source": "Artificial Intelligence"
         }
       ]
     }
@@ -591,14 +514,6 @@
     "hit_rate": 0.445,
     "materialized": 69,
     "by_signal_type": {
-      "emerging": {
-        "scored": 73,
-        "covered": 57,
-        "early": 24,
-        "coverage_rate": 0.781,
-        "early_rate": 0.329,
-        "hit_rate": 0.781
-      },
       "weak_signal": {
         "scored": 82,
         "covered": 12,
@@ -606,6 +521,14 @@
         "coverage_rate": 0.146,
         "early_rate": 0.11,
         "hit_rate": 0.146
+      },
+      "emerging": {
+        "scored": 73,
+        "covered": 57,
+        "early": 24,
+        "coverage_rate": 0.781,
+        "early_rate": 0.329,
+        "hit_rate": 0.781
       }
     }
   },
@@ -691,13 +614,19 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "quantization",
+        "keyword": "openai",
         "signal_type": "emerging",
-        "flagged_on": "2026-08-26",
-        "confidence": 0.6
+        "flagged_on": "2026-08-27",
+        "confidence": 1.0
       },
       {
         "keyword": "hallucination",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-27",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "quantization",
         "signal_type": "emerging",
         "flagged_on": "2026-08-26",
         "confidence": 0.6
@@ -727,7 +656,7 @@
         "confidence": 0.2
       },
       {
-        "keyword": "crewai",
+        "keyword": "meta ai",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-25",
         "confidence": 0.2
@@ -739,16 +668,10 @@
         "confidence": 0.2
       },
       {
-        "keyword": "meta ai",
+        "keyword": "crewai",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-25",
         "confidence": 0.2
-      },
-      {
-        "keyword": "grok",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-24",
-        "confidence": 1.0
       },
       {
         "keyword": "claude code",
@@ -757,96 +680,96 @@
         "confidence": 1.0
       },
       {
-        "keyword": "qwen",
+        "keyword": "grok",
         "signal_type": "emerging",
         "flagged_on": "2026-08-24",
-        "confidence": 0.8
+        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "poolside",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "claude haiku",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "mcp client",
-        "recent_mentions": 23,
-        "prior_mentions": 3,
-        "change_ratio": 7.67,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "manus",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "artificial general intelligence",
-        "recent_mentions": 11,
+        "recent_mentions": 29,
         "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 1
+        "change_ratio": 14.5,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "blackwell",
-        "recent_mentions": 21,
-        "prior_mentions": 4,
-        "change_ratio": 5.25,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "luma",
-        "recent_mentions": 5,
+        "keyword": "stable diffusion",
+        "recent_mentions": 13,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "groq",
-        "recent_mentions": 20,
-        "prior_mentions": 4,
-        "change_ratio": 5.0,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "mcp tools",
-        "recent_mentions": 18,
-        "prior_mentions": 4,
-        "change_ratio": 4.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "quantization",
-        "recent_mentions": 77,
-        "prior_mentions": 18,
-        "change_ratio": 4.28,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "gpt-4o",
-        "recent_mentions": 28,
-        "prior_mentions": 8,
-        "change_ratio": 3.5,
+        "change_ratio": 13.0,
         "corroborating_sources": 3
       },
       {
         "keyword": "embodied ai",
-        "recent_mentions": 9,
-        "prior_mentions": 3,
-        "change_ratio": 3.0,
+        "recent_mentions": 10,
+        "prior_mentions": 1,
+        "change_ratio": 10.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "groq",
+        "recent_mentions": 27,
+        "prior_mentions": 3,
+        "change_ratio": 9.0,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "gpt-4o",
+        "recent_mentions": 38,
+        "prior_mentions": 6,
+        "change_ratio": 6.33,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "quantization",
+        "recent_mentions": 103,
+        "prior_mentions": 19,
+        "change_ratio": 5.42,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "ai chips",
+        "recent_mentions": 16,
+        "prior_mentions": 3,
+        "change_ratio": 5.33,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "claude haiku",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "fireworks",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "blackwell",
+        "recent_mentions": 28,
+        "prior_mentions": 6,
+        "change_ratio": 4.67,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "chain of thought",
+        "recent_mentions": 14,
+        "prior_mentions": 4,
+        "change_ratio": 3.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "edge ai",
+        "recent_mentions": 18,
+        "prior_mentions": 6,
+        "change_ratio": 3.0,
+        "corroborating_sources": 4
       }
     ]
   }
