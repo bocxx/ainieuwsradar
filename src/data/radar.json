@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-27T07:17:26.348961",
-  "total_tracked": 3193,
+  "generated_at": "2026-08-27T19:14:42.632482",
+  "total_tracked": 3226,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "nvidia",
-      "mentions": 184,
-      "velocity": 29.3,
+      "mentions": 195,
+      "velocity": 32.6,
       "sources": [
         "articles",
         "github",
@@ -18,7 +18,7 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.6,
+      "expert_ratio": 0.59,
       "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
       "articles": [
         {
@@ -40,8 +40,8 @@
     },
     {
       "keyword": "openai",
-      "mentions": 350,
-      "velocity": 16.7,
+      "mentions": 362,
+      "velocity": 20.3,
       "sources": [
         "articles",
         "arxiv",
@@ -76,8 +76,8 @@
     },
     {
       "keyword": "hugging face",
-      "mentions": 63,
-      "velocity": 15.8,
+      "mentions": 69,
+      "velocity": 17.6,
       "sources": [
         "articles",
         "hackernews",
@@ -86,7 +86,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.55,
+      "expert_ratio": 0.56,
       "headline": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
       "articles": [
         {
@@ -98,8 +98,8 @@
     },
     {
       "keyword": "agentic",
-      "mentions": 163,
-      "velocity": 10.3,
+      "mentions": 165,
+      "velocity": 10.9,
       "sources": [
         "articles",
         "arxiv",
@@ -134,15 +134,16 @@
     },
     {
       "keyword": "fine-tuning",
-      "mentions": 97,
-      "velocity": 8.0,
+      "mentions": 100,
+      "velocity": 8.9,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "linkedin",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.99,
@@ -162,8 +163,8 @@
     },
     {
       "keyword": "reinforcement learning",
-      "mentions": 89,
-      "velocity": 4.8,
+      "mentions": 88,
+      "velocity": 4.5,
       "sources": [
         "articles",
         "arxiv",
@@ -192,13 +193,42 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 45,
+      "velocity": 4.0,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.48,
+      "headline": "AI coding is putting software risk on steroids",
+      "articles": [
+        {
+          "title": "AI coding is putting software risk on steroids",
+          "url": "https://www.techradar.com/pro/ai-coding-is-putting-software-risk-on-steroids",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Concepts for Securing Agentic AI Coding and the Terok Environment",
+          "url": "https://arxiv.org/abs/2608.22930",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "emerging": [
     {
       "keyword": "qwen",
-      "mentions": 209,
-      "velocity": 6.9,
+      "mentions": 212,
+      "velocity": 7.8,
       "sources": [
         "articles",
         "arxiv",
@@ -231,8 +261,8 @@
     },
     {
       "keyword": "data centers",
-      "mentions": 53,
-      "velocity": 4.5,
+      "mentions": 52,
+      "velocity": 4.2,
       "sources": [
         "articles",
         "hackernews",
@@ -243,7 +273,7 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.42,
+      "expert_ratio": 0.43,
       "headline": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
       "articles": [
         {
@@ -260,6 +290,72 @@
           "title": "Kansas town drops charges against teacher arrested for clapping during public hearings on data centers — says that ‘case",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/kansas-town-drops-charges-against-teacher-who-clapped-during-public-hearings-on-data-centers-says-that-case-has-been-dismissed-without-prejudice",
           "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "code generation",
+      "mentions": 22,
+      "velocity": 3.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.99,
+      "headline": "IterCAD: Iterative Program Repair for CAD Code Generation from Orthographic Views",
+      "articles": [
+        {
+          "title": "IterCAD: Iterative Program Repair for CAD Code Generation from Orthographic Views",
+          "url": "https://arxiv.org/abs/2608.24020",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Repo0: Design-Driven Zero-to-All Code Generation",
+          "url": "https://arxiv.org/abs/2608.19854",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Large Language Model for Verilog Code Generation: Literature Review and the Road Ahead",
+          "url": "https://arxiv.org/abs/2512.00020",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 38,
+      "velocity": 2.5,
+      "sources": [
+        "articles",
+        "github",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.68,
+      "headline": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
+      "articles": [
+        {
+          "title": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
+          "url": "https://www.techradar.com/computing/windows/the-version-microsoft-will-build-should-be-known-as-copilot-os-windows-built-around-ai-may-not-be-happening-but-leaked-concept-remains-a-grim-portent-for-desktops",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Google's AI-first Googlebook laptop is almost here - can it avoid the Copilot+ PC problem?",
+          "url": "https://www.zdnet.com/article/googlebook-laptop-is-almost-here-can-it-avoid-copilot-pc-problem/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "6 tips for better research with Microsoft Copilot",
+          "url": "https://www.computerworld.com/article/4204609/microsoft-copilot-research-tips.html",
+          "source": "Computerworld"
         }
       ]
     }
@@ -287,6 +383,31 @@
           "title": "LG AI Research's Lee on The Importance of Sovereign AI",
           "url": "https://www.bloomberg.com/news/videos/2026-08-19/lg-ai-research-s-lee-on-the-importance-of-sovereign-ai-video",
           "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "openai codex",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 6,
+      "expert_ratio": 0.69,
+      "headline": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
+      "articles": [
+        {
+          "title": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
+          "url": "https://www.techradar.com/pro/security/some-mac-users-think-theyre-installing-openai-codex-but-its-actually-a-malware-that-can-steal-passwords-in-seconds",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Crooks push Mac malware through fake OpenAI Codex ads",
+          "url": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
+          "source": "The Register"
         }
       ]
     },
@@ -321,42 +442,9 @@
   ],
   "sustained": [
     {
-      "keyword": "blackwell",
-      "mentions": 11,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.72,
-      "headline": "AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in ad",
-      "articles": [
-        {
-          "title": "AWS plans to add 2M Nvidia Blackwell Ultra, Rubin, and Rubin Ultra GPUs to its data center fleet in 2027 and 2028, in ad",
-          "url": "https://www.techmeme.com/260826/p57#a260826p57",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI Says Its Jalapeño AI Chip Is Better Than Nvidia’s Blackwell",
-          "url": "https://www.theinformation.com/briefings/openai-says-jalapeno-ai-chip-better-nvidias-blackwell",
-          "source": "The Information"
-        },
-        {
-          "title": "The Theorems of Dr. David Blackwell and Their Contributions to Artificial Intelligence",
-          "url": "https://arxiv.org/abs/2604.06621",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "distillation",
-      "mentions": 38,
-      "velocity": 1.5,
+      "mentions": 39,
+      "velocity": 1.8,
       "sources": [
         "arxiv",
         "reddit"
@@ -381,6 +469,126 @@
           "title": "On-policy Distillation with Verifiable Reward",
           "url": "https://arxiv.org/abs/2608.24696",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 68,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "github",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.4,
+      "headline": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+      "articles": [
+        {
+          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+          "url": "https://www.techmeme.com/260824/p32#a260824p32",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Cursor Officially Enters Its Musk Era",
+          "url": "https://www.theinformation.com/articles/cursor-officially-enters-musk-era",
+          "source": "The Information"
+        },
+        {
+          "title": "Cursor ora si fa il repository, mette GitHub nel mirino",
+          "url": "https://www.tomshw.it/business/cursor-ora-si-fa-il-repository-mette-github-nel-mirino",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "vibe coding",
+      "mentions": 37,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.53,
+      "headline": "Vibe Coding on Trial: Operating Characteristics of Unanimous LLM Juries",
+      "articles": [
+        {
+          "title": "Vibe Coding on Trial: Operating Characteristics of Unanimous LLM Juries",
+          "url": "https://arxiv.org/abs/2602.18492",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Vibe Coding and Web Application Security: A Twin-Prompt Study",
+          "url": "https://arxiv.org/abs/2608.20963",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Il vibe coding arriva sui chip quantistici, ma nasconde un'insidia",
+          "url": "https://www.tomshw.it/scienze/il-vibe-coding-arriva-sui-chip-quantistici-ma-nasconde-uninsidia",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 15,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.87,
+      "headline": "Amazon security engineer hacks PC accessories with Claude Opus to make them work better — Asus, Insta360 and Elgato prod",
+      "articles": [
+        {
+          "title": "Amazon security engineer hacks PC accessories with Claude Opus to make them work better — Asus, Insta360 and Elgato prod",
+          "url": "https://www.techradar.com/ai-platforms-assistants/claude/amazon-security-engineer-hacks-pc-accessories-with-claude-opus-to-make-them-work-better-asus-insta360-and-elgato-products-reverse-engineered-in-hours-for-better-control-but-engineer-admits-this-also-scares-me",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "minimax",
+      "mentions": 46,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.85,
+      "headline": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
+      "articles": [
+        {
+          "title": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
+          "url": "https://arxiv.org/abs/2608.25182",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Functional linear regression from sparse to dense designs: a pooling-ridge method and minimax optimality",
+          "url": "https://arxiv.org/abs/2608.25468",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Chinese AI Firm MiniMax’s ARR Jumps to $800 Million",
+          "url": "https://www.theinformation.com/briefings/chinese-ai-firm-minimaxs-arr-jumps-800-million",
+          "source": "The Information"
         }
       ]
     },
@@ -415,91 +623,6 @@
           "source": "Ars Technica"
         }
       ]
-    },
-    {
-      "keyword": "context window",
-      "mentions": 15,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.77,
-      "headline": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
-      "articles": [
-        {
-          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
-          "url": "https://arxiv.org/abs/2608.22137",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Token Optimization and Context Window Management in Multi-Agent AI Workflows",
-          "url": "https://arxiv.org/abs/2608.17188",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 13,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.88,
-      "headline": "Amazon security engineer hacks PC accessories with Claude Opus to make them work better — Asus, Insta360 and Elgato prod",
-      "articles": [
-        {
-          "title": "Amazon security engineer hacks PC accessories with Claude Opus to make them work better — Asus, Insta360 and Elgato prod",
-          "url": "https://www.techradar.com/ai-platforms-assistants/claude/amazon-security-engineer-hacks-pc-accessories-with-claude-opus-to-make-them-work-better-asus-insta360-and-elgato-products-reverse-engineered-in-hours-for-better-control-but-engineer-admits-this-also-scares-me",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 34,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.59,
-      "headline": "Now Perplexity is trying to get into the local AI action",
-      "articles": [
-        {
-          "title": "Now Perplexity is trying to get into the local AI action",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449",
-          "source": "The Register"
-        },
-        {
-          "title": "Perplexity’s on-device AI offering promises data control and lower token costs",
-          "url": "https://www.computerworld.com/article/4213821/perplexitys-on-device-ai-offering-promises-data-control-and-lower-token-costs.html",
-          "source": "Computerworld"
-        },
-        {
-          "title": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
-          "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs?utm_source=flipboard&utm_content=user/venturebeat",
-          "source": "Artificial Intelligence"
-        }
-      ]
     }
   ],
   "track_record": {
@@ -514,14 +637,6 @@
     "hit_rate": 0.445,
     "materialized": 69,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 82,
-        "covered": 12,
-        "early": 9,
-        "coverage_rate": 0.146,
-        "early_rate": 0.11,
-        "hit_rate": 0.146
-      },
       "emerging": {
         "scored": 73,
         "covered": 57,
@@ -529,6 +644,14 @@
         "coverage_rate": 0.781,
         "early_rate": 0.329,
         "hit_rate": 0.781
+      },
+      "weak_signal": {
+        "scored": 82,
+        "covered": 12,
+        "early": 9,
+        "coverage_rate": 0.146,
+        "early_rate": 0.11,
+        "hit_rate": 0.146
       }
     }
   },
@@ -620,7 +743,31 @@
         "confidence": 1.0
       },
       {
+        "keyword": "code generation",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-27",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "mcp server",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-27",
+        "confidence": 0.4
+      },
+      {
         "keyword": "hallucination",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-27",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "sovereign ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-08-27",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "ai chips",
         "signal_type": "emerging",
         "flagged_on": "2026-08-27",
         "confidence": 0.2
@@ -650,56 +797,32 @@
         "confidence": 0.2
       },
       {
-        "keyword": "computer use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-25",
-        "confidence": 0.2
-      },
-      {
         "keyword": "meta ai",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-25",
         "confidence": 0.2
       },
       {
-        "keyword": "ai governance",
+        "keyword": "computer use",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-25",
         "confidence": 0.2
-      },
-      {
-        "keyword": "crewai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-25",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "claude code",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-24",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "grok",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-24",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "mcp client",
-        "recent_mentions": 29,
-        "prior_mentions": 2,
-        "change_ratio": 14.5,
-        "corroborating_sources": 2
+        "keyword": "stable diffusion",
+        "recent_mentions": 14,
+        "prior_mentions": 1,
+        "change_ratio": 14.0,
+        "corroborating_sources": 3
       },
       {
-        "keyword": "stable diffusion",
-        "recent_mentions": 13,
-        "prior_mentions": 1,
-        "change_ratio": 13.0,
-        "corroborating_sources": 3
+        "keyword": "mcp client",
+        "recent_mentions": 27,
+        "prior_mentions": 2,
+        "change_ratio": 13.5,
+        "corroborating_sources": 2
       },
       {
         "keyword": "embodied ai",
@@ -737,13 +860,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "claude haiku",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "fireworks",
         "recent_mentions": 5,
         "prior_mentions": 1,
@@ -751,10 +867,17 @@
         "corroborating_sources": 2
       },
       {
+        "keyword": "claude haiku",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "blackwell",
-        "recent_mentions": 28,
+        "recent_mentions": 29,
         "prior_mentions": 6,
-        "change_ratio": 4.67,
+        "change_ratio": 4.83,
         "corroborating_sources": 5
       },
       {
@@ -765,11 +888,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "edge ai",
-        "recent_mentions": 18,
-        "prior_mentions": 6,
+        "keyword": "magnific",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
         "change_ratio": 3.0,
-        "corroborating_sources": 4
+        "corroborating_sources": 1
       }
     ]
   }
