@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T05:28:25+00:00",
+  "generated_at": "2026-08-28T17:29:39+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -71,16 +71,16 @@
       "days_left": 9
     },
     {
-      "keyword": "hugging face",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-23",
-      "days_left": 9
-    },
-    {
       "keyword": "small language model",
       "signal_type": "emerging",
       "flagged_on": "2026-07-24",
       "days_left": 10
+    },
+    {
+      "keyword": "fireworks ai",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-07-25",
+      "days_left": 11
     }
   ],
   "recent_resolved": [
@@ -121,8 +121,8 @@
       "outlet": null
     },
     {
-      "keyword": "qwen",
-      "signal_type": "emerging",
+      "keyword": "ai copyright",
+      "signal_type": "weak_signal",
       "status": "miss",
       "flagged_on": "2026-07-10",
       "resolved_on": null,
@@ -130,8 +130,8 @@
       "outlet": null
     },
     {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
+      "keyword": "qwen",
+      "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-07-10",
       "resolved_on": null,
