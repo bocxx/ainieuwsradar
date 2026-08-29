@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-29T07:14:08.073963",
-  "total_tracked": 3209,
+  "generated_at": "2026-08-29T19:13:21.040264",
+  "total_tracked": 3236,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "openai",
-      "mentions": 383,
-      "velocity": 16.2,
+      "mentions": 380,
+      "velocity": 15.3,
       "sources": [
         "articles",
         "arxiv",
@@ -40,9 +40,272 @@
       ]
     },
     {
+      "keyword": "hugging face",
+      "mentions": 80,
+      "velocity": 11.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.5,
+      "headline": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
+      "articles": [
+        {
+          "title": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
+          "url": "https://www.theinformation.com/briefings/hundreds-openai-agents-attacked-hugging-face-independent-investigation-finds",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 79,
+      "velocity": 4.6,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.42,
+      "headline": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+      "articles": [
+        {
+          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+          "url": "https://www.techmeme.com/260824/p32#a260824p32",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Cursor Officially Enters Its Musk Era",
+          "url": "https://www.theinformation.com/articles/cursor-officially-enters-musk-era",
+          "source": "The Information"
+        },
+        {
+          "title": "Cursor ora si fa il repository, mette GitHub nel mirino",
+          "url": "https://www.tomshw.it/business/cursor-ora-si-fa-il-repository-mette-github-nel-mirino",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering",
+      "mentions": 25,
+      "velocity": 3.2,
+      "sources": [
+        "arxiv",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.86,
+      "headline": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+      "articles": [
+        {
+          "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+          "url": "https://arxiv.org/abs/2608.21408",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
+          "url": "https://arxiv.org/abs/2608.20349",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+          "url": "https://arxiv.org/abs/2608.19299",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 207,
+      "velocity": 3.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.85,
+      "headline": "Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolli",
+      "articles": [
+        {
+          "title": "Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolli",
+          "url": "https://www.techmeme.com/260826/p72#a260826p72",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Salesforce and Anthropic unveil Claudeforce, which brings Salesforce data and workflows into Claude, starting with a plu",
+          "url": "https://www.techmeme.com/260826/p61#a260826p61",
+          "source": "Techmeme"
+        },
+        {
+          "title": "AI Expert on Anthropic’s “Fantasy” Projections, Nvidia",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-26/ai-expert-on-anthropic-s-fantasy-projections-nvidia-video",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 53,
+      "velocity": 2.4,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.43,
+      "headline": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
+      "articles": [
+        {
+          "title": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/up-to-half-of-planned-us-data-centers-may-face-delays-kimmeridge-says",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
+          "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
+          "source": "Feed: Artificial Intelligence Latest"
+        },
+        {
+          "title": "Kansas town drops charges against teacher arrested for clapping during public hearings on data centers — says that ‘case",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/kansas-town-drops-charges-against-teacher-who-clapped-during-public-hearings-on-data-centers-says-that-case-has-been-dismissed-without-prejudice",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 36,
+      "velocity": 2.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.87,
+      "headline": "Analytical and Bootstrap Confidence Intervals of Double Machine Learning: Simulation studies and an application to rural",
+      "articles": [
+        {
+          "title": "Analytical and Bootstrap Confidence Intervals of Double Machine Learning: Simulation studies and an application to rural",
+          "url": "https://arxiv.org/abs/2607.29456",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems",
+          "url": "https://arxiv.org/abs/2608.24650",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "PatientHub: A Unified Framework for Patient Simulation",
+          "url": "https://arxiv.org/abs/2602.11684",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "nvidia",
+      "mentions": 195,
+      "velocity": 14.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.57,
+      "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+      "articles": [
+        {
+          "title": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Nvidia's results suggest the AI boom has further to run",
+          "url": "https://www.youtube.com/shorts/GLRPrH6Ydms",
+          "source": "Reuters"
+        },
+        {
+          "title": "Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its ",
+          "url": "https://www.techmeme.com/260826/p65#a260826p65",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 85,
+      "velocity": 4.9,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.46,
+      "headline": "SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in s",
+      "articles": [
+        {
+          "title": "SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in s",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/spacexai-will-deploy-standalone-nvidia-vera-cpus-for-groks-agentic-workloads",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+          "url": "https://www.techmeme.com/260824/p32#a260824p32",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
+          "url": "https://www.techradar.com/pro/claude-wins-out-in-major-user-satisfaction-survey-beating-gemini-and-chatgpt-but-its-bad-news-for-grok-and-siri?utm_source=flipboard&utm_content=TechRadar/magazine/Gemini,+Siri,+Co-Pilot+and+Alexa:+The+AI+wars+commence",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
       "keyword": "agentic",
-      "mentions": 168,
-      "velocity": 6.3,
+      "mentions": 162,
+      "velocity": 4.5,
       "sources": [
         "articles",
         "arxiv",
@@ -76,107 +339,43 @@
       ]
     },
     {
-      "keyword": "cursor",
-      "mentions": 75,
-      "velocity": 3.4,
+      "keyword": "minimax",
+      "mentions": 59,
+      "velocity": 4.1,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.79,
+      "headline": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
+      "articles": [
+        {
+          "title": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
+          "url": "https://arxiv.org/abs/2608.25182",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Functional linear regression from sparse to dense designs: a pooling-ridge method and minimax optimality",
+          "url": "https://arxiv.org/abs/2608.25468",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Chinese AI Firm MiniMax’s ARR Jumps to $800 Million",
+          "url": "https://www.theinformation.com/briefings/chinese-ai-firm-minimaxs-arr-jumps-800-million",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 44,
+      "velocity": 2.7,
       "sources": [
         "articles",
         "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.42,
-      "headline": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
-      "articles": [
-        {
-          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
-          "url": "https://www.techmeme.com/260824/p32#a260824p32",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Cursor Officially Enters Its Musk Era",
-          "url": "https://www.theinformation.com/articles/cursor-officially-enters-musk-era",
-          "source": "The Information"
-        },
-        {
-          "title": "Cursor ora si fa il repository, mette GitHub nel mirino",
-          "url": "https://www.tomshw.it/business/cursor-ora-si-fa-il-repository-mette-github-nel-mirino",
-          "source": "Tom's Hardware"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "nvidia",
-      "mentions": 197,
-      "velocity": 15.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.57,
-      "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
-      "articles": [
-        {
-          "title": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Nvidia's results suggest the AI boom has further to run",
-          "url": "https://www.youtube.com/shorts/GLRPrH6Ydms",
-          "source": "Reuters"
-        },
-        {
-          "title": "Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its ",
-          "url": "https://www.techmeme.com/260826/p65#a260826p65",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "hugging face",
-      "mentions": 79,
-      "velocity": 11.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.5,
-      "headline": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
-      "articles": [
-        {
-          "title": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
-          "url": "https://www.theinformation.com/briefings/hundreds-openai-agents-attacked-hugging-face-independent-investigation-finds",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 78,
-      "velocity": 2.8,
-      "sources": [
-        "arxiv",
-        "hackernews",
         "linkedin",
         "reddit",
         "twitter"
@@ -184,23 +383,23 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.46,
-      "headline": "SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in s",
+      "expert_ratio": 0.71,
+      "headline": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
       "articles": [
         {
-          "title": "SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in s",
-          "url": "https://www.tomshardware.com/tech-industry/big-tech/spacexai-will-deploy-standalone-nvidia-vera-cpus-for-groks-agentic-workloads",
-          "source": "Tom's Hardware"
+          "title": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
+          "url": "https://www.techradar.com/computing/windows/the-version-microsoft-will-build-should-be-known-as-copilot-os-windows-built-around-ai-may-not-be-happening-but-leaked-concept-remains-a-grim-portent-for-desktops",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
-          "url": "https://www.techmeme.com/260824/p32#a260824p32",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
-          "url": "https://www.techradar.com/pro/claude-wins-out-in-major-user-satisfaction-survey-beating-gemini-and-chatgpt-but-its-bad-news-for-grok-and-siri?utm_source=flipboard&utm_content=TechRadar/magazine/Gemini,+Siri,+Co-Pilot+and+Alexa:+The+AI+wars+commence",
+          "title": "Google's AI-first Googlebook laptop is almost here - can it avoid the Copilot+ PC problem?",
+          "url": "https://www.zdnet.com/article/googlebook-laptop-is-almost-here-can-it-avoid-copilot-pc-problem/?utm_source=flipboard&utm_content=ZDNet/magazine/Latest+News",
           "source": "Artificial Intelligence"
+        },
+        {
+          "title": "6 tips for better research with Microsoft Copilot",
+          "url": "https://www.computerworld.com/article/4204609/microsoft-copilot-research-tips.html",
+          "source": "Computerworld"
         }
       ]
     },
@@ -234,37 +433,6 @@
           "title": "Illuminating the Three Dogmas of Reinforcement Learning under Evolutionary Light",
           "url": "https://arxiv.org/abs/2507.11482",
           "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "minimax",
-      "mentions": 53,
-      "velocity": 2.2,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.79,
-      "headline": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
-      "articles": [
-        {
-          "title": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
-          "url": "https://arxiv.org/abs/2608.25182",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Functional linear regression from sparse to dense designs: a pooling-ridge method and minimax optimality",
-          "url": "https://arxiv.org/abs/2608.25468",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Chinese AI Firm MiniMax’s ARR Jumps to $800 Million",
-          "url": "https://www.theinformation.com/briefings/chinese-ai-firm-minimaxs-arr-jumps-800-million",
-          "source": "The Information"
         }
       ]
     }
@@ -389,39 +557,6 @@
   ],
   "sustained": [
     {
-      "keyword": "simulation",
-      "mentions": 35,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.87,
-      "headline": "Analytical and Bootstrap Confidence Intervals of Double Machine Learning: Simulation studies and an application to rural",
-      "articles": [
-        {
-          "title": "Analytical and Bootstrap Confidence Intervals of Double Machine Learning: Simulation studies and an application to rural",
-          "url": "https://arxiv.org/abs/2607.29456",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems",
-          "url": "https://arxiv.org/abs/2608.24650",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "PatientHub: A Unified Framework for Patient Simulation",
-          "url": "https://arxiv.org/abs/2602.11684",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "claude opus",
       "mentions": 18,
       "velocity": 1.5,
@@ -471,6 +606,67 @@
           "title": "OpenAI calls for California to strengthen its AI safety laws",
           "url": "https://www.engadget.com/2242200/openai-calls-for-california-to-strengthen-ai-safety-laws/?utm_source=flipboard&utm_content=user/Engadget",
           "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "context window",
+      "mentions": 18,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.75,
+      "headline": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
+      "articles": [
+        {
+          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
+          "url": "https://arxiv.org/abs/2608.22137",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Token Optimization and Context Window Management in Multi-Agent AI Workflows",
+          "url": "https://arxiv.org/abs/2608.17188",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "together",
+      "mentions": 49,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.0,
+      "headline": "Dolly Parton and her husband, Carl Dean, were married nearly 59 years but rarely seen together. Here's a timeline of the",
+      "articles": [
+        {
+          "title": "Dolly Parton and her husband, Carl Dean, were married nearly 59 years but rarely seen together. Here's a timeline of the",
+          "url": "https://www.businessinsider.com/dolly-parton-husband-carl-dean-relationship-timeline",
+          "source": "Business Insider"
+        },
+        {
+          "title": "A law from 1634 is why Europeans cannot sue Big Tech together",
+          "url": "https://thenextweb.com/news/ireland-champerty-1634-law-big-tech-class-actions-europe",
+          "source": "The Next Web"
+        },
+        {
+          "title": "A strange new quantum droplet can hold itself together",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260820202846.htm",
+          "source": "ScienceDaily"
         }
       ]
     }
@@ -593,6 +789,12 @@
         "confidence": 1.0
       },
       {
+        "keyword": "minimax",
+        "signal_type": "emerging",
+        "flagged_on": "2026-08-29",
+        "confidence": 0.4
+      },
+      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-08-28",
@@ -651,20 +853,14 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-27",
         "confidence": 0.2
-      },
-      {
-        "keyword": "ai chips",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-27",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "ai consciousness",
-        "recent_mentions": 26,
+        "recent_mentions": 24,
         "prior_mentions": 3,
-        "change_ratio": 8.67,
+        "change_ratio": 8.0,
         "corroborating_sources": 2
       },
       {
@@ -675,16 +871,16 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "mixture of experts",
-        "recent_mentions": 14,
-        "prior_mentions": 2,
-        "change_ratio": 7.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "on-device ai",
         "recent_mentions": 24,
         "prior_mentions": 4,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "mixture of experts",
+        "recent_mentions": 12,
+        "prior_mentions": 2,
         "change_ratio": 6.0,
         "corroborating_sources": 2
       },
@@ -704,16 +900,16 @@
       },
       {
         "keyword": "hugging face",
-        "recent_mentions": 235,
+        "recent_mentions": 236,
         "prior_mentions": 43,
-        "change_ratio": 5.47,
+        "change_ratio": 5.49,
         "corroborating_sources": 8
       },
       {
         "keyword": "ai chips",
-        "recent_mentions": 26,
+        "recent_mentions": 27,
         "prior_mentions": 5,
-        "change_ratio": 5.2,
+        "change_ratio": 5.4,
         "corroborating_sources": 1
       },
       {
@@ -725,9 +921,9 @@
       },
       {
         "keyword": "code generation",
-        "recent_mentions": 71,
+        "recent_mentions": 74,
         "prior_mentions": 21,
-        "change_ratio": 3.38,
+        "change_ratio": 3.52,
         "corroborating_sources": 2
       },
       {
