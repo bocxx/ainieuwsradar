@@ -1,0 +1,437 @@
+{
+  "title": "AI-radar 30 augustus 2026: anthropic, github, nvidia",
+  "date": "2026-08-30",
+  "description": "Op 30 augustus 2026 stak Anthropic er met kop en schouders bovenuit: 21 versnellingspunten en 228 vermeldingen verspreid over GitHub, Hacker News, Reddit,…",
+  "analysis": "Op 30 augustus 2026 stak Anthropic er met kop en schouders bovenuit: 21 versnellingspunten en 228 vermeldingen verspreid over GitHub, Hacker News, Reddit, X, Bluesky, LinkedIn, Product Hunt en nieuwsartikelen. Nvidia volgde met 7 punten en 202 vermeldingen, terwijl GitHub zelf als platform 9 punten en 72 vermeldingen scoorde. Ook world models (7 punten, 12 vermeldingen) en distillation (6 punten, 35 vermeldingen) lieten versnelling zien, vooral op Reddit en ArXiv.\n\nBij de zwakke signalen valt synthetic data op: slechts 2 punten maar wel 11 vermeldingen verspreid over nieuwsartikelen en ArXiv, wat duidt op brede maar nog prille aandacht. Ook test-time compute (2 punten, 4 vermeldingen op ArXiv) en multi-modal (3 punten, 10 vermeldingen op ArXiv) tonen spreiding die verder reikt dan hun bescheiden score suggereert. Dit zijn meetgegevens van 815 gevolgde onderwerpen die dag, geen redactionele nieuwsselectie.",
+  "data": {
+    "date": "2026-08-30",
+    "prev_date": "2026-08-29",
+    "accelerating": [
+      {
+        "keyword": "anthropic",
+        "mentions": 228,
+        "velocity": 21,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles"
+        ],
+        "source_count": 8,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 181,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "github",
+        "mentions": 72,
+        "velocity": 9,
+        "sources": [
+          "reddit",
+          "linkedin",
+          "producthunt",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 12,
+        "headline": "Anthropic published an AI-native SDLC playbook. The interesting part isn't the six stages, it's what replaces line-by-li"
+      },
+      {
+        "keyword": "nvidia",
+        "mentions": 202,
+        "velocity": 7,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "articles"
+        ],
+        "source_count": 7,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 106,
+        "headline": "For my first post, I’m sharing a letter @NVIDIA signed on why open models matter.\n\nAI will transform every industry, pow"
+      },
+      {
+        "keyword": "world models",
+        "mentions": 12,
+        "velocity": 7,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 12,
+        "headline": "WTF is a World Model? [D]"
+      },
+      {
+        "keyword": "distillation",
+        "mentions": 35,
+        "velocity": 6,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 29,
+        "headline": "MiniMax H3 Acc FL2VA & REF2VA LoRAs By Wan Team"
+      },
+      {
+        "keyword": "generative ai",
+        "mentions": 21,
+        "velocity": 6,
+        "sources": [
+          "github",
+          "bluesky",
+          "articles"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 20,
+        "headline": "📰 AIの普及による雇用への影響は若年層に集中しているとの研究結果"
+      },
+      {
+        "keyword": "mlops",
+        "mentions": 6,
+        "velocity": 6,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 6,
+        "headline": "⭐ higgsfield-ai/higgsfield: Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for tra"
+      },
+      {
+        "keyword": "femtech",
+        "mentions": 5,
+        "velocity": 5,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 The Nook"
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 40,
+        "velocity": 4,
+        "sources": [
+          "reddit",
+          "twitter",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 36,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "glm-5",
+        "mentions": 17,
+        "velocity": 4,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "twitter",
+          "articles"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "What GLM-5.3-Flash Changes for AI Engineering Teams"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "resnet",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "We recovered 575k crop labels from a decade of manual Photoshop work to automate book digitization - more data, ResNet-5"
+      },
+      {
+        "keyword": "heretic",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ p-e-w/heretic: Fully automatic censorship removal for language models"
+      },
+      {
+        "keyword": "hyper-extract",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ yifanfeng97/Hyper-Extract: Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs"
+      },
+      {
+        "keyword": "ai video generator",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ harry0703/MoneyPrinterTurbo: 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automate"
+      },
+      {
+        "keyword": "moneyprinterturbo",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ harry0703/MoneyPrinterTurbo: 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automate"
+      },
+      {
+        "keyword": "ai ppt",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ chuspeeism/dashi-ppt-skill: An AI-agent skill that generates browser-editable presentations from multiple visual themes, exporta"
+      },
+      {
+        "keyword": "dashi-ppt-skill",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ chuspeeism/dashi-ppt-skill: An AI-agent skill that generates browser-editable presentations from multiple visual themes, exporta"
+      },
+      {
+        "keyword": "html presentation",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ chuspeeism/dashi-ppt-skill: An AI-agent skill that generates browser-editable presentations from multiple visual themes, exporta"
+      },
+      {
+        "keyword": "chatbot",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ asgeirtj/system_prompts_leaks: Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI"
+      },
+      {
+        "keyword": "system_prompts_leaks",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ asgeirtj/system_prompts_leaks: Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "react",
+        "mentions": 10,
+        "velocity": 3,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 9,
+        "headline": "📄 Think Short, Defer Smart, Act, and Repeat: Calibrated Reasoning and Uncertainty-Aware Deferral for Edge LLM Agents"
+      },
+      {
+        "keyword": "multi-modal",
+        "mentions": 10,
+        "velocity": 3,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 10,
+        "headline": "📄 STEP: State-Aware Task Estimation and Planning with Multi-Modal LLMs for Human-Robot Collaboration"
+      },
+      {
+        "keyword": "synthetic data",
+        "mentions": 11,
+        "velocity": 2,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 11,
+        "headline": "📄 ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing"
+      },
+      {
+        "keyword": "ai act",
+        "mentions": 3,
+        "velocity": 2,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 2,
+        "headline": "📰 União Europeia força Big Techs a rotularem conteúdo feito por IA"
+      },
+      {
+        "keyword": "financebench",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📄 Towards Expert Financial QA via Self-Improving RAG"
+      },
+      {
+        "keyword": "test-time compute",
+        "mentions": 4,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 4,
+        "headline": "📄 Prefix Sliding for efficient test-time scaling"
+      },
+      {
+        "keyword": "peft",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📄 Fine-Tuning of Transformer models with Frames"
+      },
+      {
+        "keyword": "skillcorpus",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📄 SPT: Skills as Pre-Training Data for Agentic Language Models"
+      },
+      {
+        "keyword": "human",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📄 On the Indistinguishability of Human v/s AI Generated Text"
+      },
+      {
+        "keyword": "dumatebench",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📄 DuMateBench: Evaluating Autonomous Agents in Complex Real-World Workflows"
+      }
+    ],
+    "total_tracked": 815
+  }
+}

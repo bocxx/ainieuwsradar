@@ -1,12 +1,84 @@
 {
-  "generated_at": "2026-08-29T19:13:21.040264",
-  "total_tracked": 3236,
+  "generated_at": "2026-08-30T07:12:49.919939",
+  "total_tracked": 3223,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "nvidia",
+      "mentions": 202,
+      "velocity": 12.6,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.56,
+      "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+      "articles": [
+        {
+          "title": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Nvidia's results suggest the AI boom has further to run",
+          "url": "https://www.youtube.com/shorts/GLRPrH6Ydms",
+          "source": "Reuters"
+        },
+        {
+          "title": "Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its ",
+          "url": "https://www.techmeme.com/260826/p65#a260826p65",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 228,
+      "velocity": 8.5,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.84,
+      "headline": "Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolli",
+      "articles": [
+        {
+          "title": "Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolli",
+          "url": "https://www.techmeme.com/260826/p72#a260826p72",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Salesforce and Anthropic unveil Claudeforce, which brings Salesforce data and workflows into Claude, starting with a plu",
+          "url": "https://www.techmeme.com/260826/p61#a260826p61",
+          "source": "Techmeme"
+        },
+        {
+          "title": "AI Expert on Anthropic’s “Fantasy” Projections, Nvidia",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-26/ai-expert-on-anthropic-s-fantasy-projections-nvidia-video",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "openai",
-      "mentions": 380,
-      "velocity": 15.3,
+      "mentions": 375,
+      "velocity": 9.2,
       "sources": [
         "articles",
         "arxiv",
@@ -19,7 +91,7 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.78,
+      "expert_ratio": 0.77,
       "headline": "OpenAI says reward hacking, an AI alignment problem in which a model takes unintended actions to achieve a goal, was a p",
       "articles": [
         {
@@ -41,15 +113,14 @@
     },
     {
       "keyword": "hugging face",
-      "mentions": 80,
-      "velocity": 11.5,
+      "mentions": 81,
+      "velocity": 8.4,
       "sources": [
         "articles",
-        "arxiv",
         "hackernews",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.5,
@@ -63,145 +134,40 @@
       ]
     },
     {
-      "keyword": "cursor",
-      "mentions": 79,
-      "velocity": 4.6,
+      "keyword": "minimax",
+      "mentions": 62,
+      "velocity": 3.8,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.42,
-      "headline": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
-      "articles": [
-        {
-          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
-          "url": "https://www.techmeme.com/260824/p32#a260824p32",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Cursor Officially Enters Its Musk Era",
-          "url": "https://www.theinformation.com/articles/cursor-officially-enters-musk-era",
-          "source": "The Information"
-        },
-        {
-          "title": "Cursor ora si fa il repository, mette GitHub nel mirino",
-          "url": "https://www.tomshw.it/business/cursor-ora-si-fa-il-repository-mette-github-nel-mirino",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "prompt engineering",
-      "mentions": 25,
-      "velocity": 3.2,
-      "sources": [
-        "arxiv",
-        "github"
+        "reddit"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.86,
-      "headline": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+      "expert_ratio": 0.76,
+      "headline": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
       "articles": [
         {
-          "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
-          "url": "https://arxiv.org/abs/2608.21408",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
+          "url": "https://arxiv.org/abs/2608.25182",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
-          "url": "https://arxiv.org/abs/2608.20349",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Functional linear regression from sparse to dense designs: a pooling-ridge method and minimax optimality",
+          "url": "https://arxiv.org/abs/2608.25468",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
-          "url": "https://arxiv.org/abs/2608.19299",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 207,
-      "velocity": 3.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.85,
-      "headline": "Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolli",
-      "articles": [
-        {
-          "title": "Anthropic gives Claude Cowork its own built-in browser on the desktop app separate from users' day-to-day browser, rolli",
-          "url": "https://www.techmeme.com/260826/p72#a260826p72",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Salesforce and Anthropic unveil Claudeforce, which brings Salesforce data and workflows into Claude, starting with a plu",
-          "url": "https://www.techmeme.com/260826/p61#a260826p61",
-          "source": "Techmeme"
-        },
-        {
-          "title": "AI Expert on Anthropic’s “Fantasy” Projections, Nvidia",
-          "url": "https://www.bloomberg.com/news/videos/2026-08-26/ai-expert-on-anthropic-s-fantasy-projections-nvidia-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "data centers",
-      "mentions": 53,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.43,
-      "headline": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
-      "articles": [
-        {
-          "title": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-26/up-to-half-of-planned-us-data-centers-may-face-delays-kimmeridge-says",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
-          "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
-          "source": "Feed: Artificial Intelligence Latest"
-        },
-        {
-          "title": "Kansas town drops charges against teacher arrested for clapping during public hearings on data centers — says that ‘case",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/kansas-town-drops-charges-against-teacher-who-clapped-during-public-hearings-on-data-centers-says-that-case-has-been-dismissed-without-prejudice",
-          "source": "Tom's Hardware"
+          "title": "Chinese AI Firm MiniMax’s ARR Jumps to $800 Million",
+          "url": "https://www.theinformation.com/briefings/chinese-ai-firm-minimaxs-arr-jumps-800-million",
+          "source": "The Information"
         }
       ]
     },
     {
       "keyword": "simulation",
-      "mentions": 36,
-      "velocity": 2.3,
+      "mentions": 40,
+      "velocity": 2.8,
       "sources": [
         "articles",
         "arxiv",
@@ -230,56 +196,18 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "nvidia",
-      "mentions": 195,
-      "velocity": 14.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.57,
-      "headline": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
-      "articles": [
-        {
-          "title": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Nvidia's results suggest the AI boom has further to run",
-          "url": "https://www.youtube.com/shorts/GLRPrH6Ydms",
-          "source": "Reuters"
-        },
-        {
-          "title": "Source: Nvidia has agreed to buy Hugging Face for $12.9B; the AI repository has had several potential suitors among its ",
-          "url": "https://www.techmeme.com/260826/p65#a260826p65",
-          "source": "Techmeme"
-        }
-      ]
     },
     {
       "keyword": "grok",
-      "mentions": 85,
-      "velocity": 4.9,
+      "mentions": 82,
+      "velocity": 2.5,
       "sources": [
-        "arxiv",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.46,
@@ -303,76 +231,9 @@
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 162,
-      "velocity": 4.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.78,
-      "headline": "Rebuild Dossier: Mechanically-Enforced Specs for Agentic App Rebuilds, and What Model-Tier Failures Reveal",
-      "articles": [
-        {
-          "title": "Rebuild Dossier: Mechanically-Enforced Specs for Agentic App Rebuilds, and What Model-Tier Failures Reveal",
-          "url": "https://arxiv.org/abs/2608.23616",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "AgentWorld: Personality-Aware Reliability Evaluation for Agentic Information Retrieval",
-          "url": "https://arxiv.org/abs/2608.24076",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Gemini Live gains agentic tasks, voice inbox control and personal intelligence",
-          "url": "https://thenextweb.com/news/gemini-live-spark-voice-agentic-tasks-dma-rival-assistants",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "minimax",
-      "mentions": 59,
-      "velocity": 4.1,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.79,
-      "headline": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
-      "articles": [
-        {
-          "title": "Minimax Alternating Regret for the Experts Problem and Online Convex Optimization",
-          "url": "https://arxiv.org/abs/2608.25182",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Functional linear regression from sparse to dense designs: a pooling-ridge method and minimax optimality",
-          "url": "https://arxiv.org/abs/2608.25468",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Chinese AI Firm MiniMax’s ARR Jumps to $800 Million",
-          "url": "https://www.theinformation.com/briefings/chinese-ai-firm-minimaxs-arr-jumps-800-million",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
       "keyword": "copilot",
-      "mentions": 44,
-      "velocity": 2.7,
+      "mentions": 45,
+      "velocity": 2.2,
       "sources": [
         "articles",
         "github",
@@ -404,35 +265,38 @@
       ]
     },
     {
-      "keyword": "reinforcement learning",
-      "mentions": 92,
-      "velocity": 2.4,
+      "keyword": "agentic",
+      "mentions": 158,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "arxiv",
+        "github",
+        "hackernews",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.98,
-      "headline": "UCO: A Multi-Turn Interactive Reinforcement Learning Method for Adaptive Teaching with Large Language Models",
+      "expert_ratio": 0.78,
+      "headline": "Rebuild Dossier: Mechanically-Enforced Specs for Agentic App Rebuilds, and What Model-Tier Failures Reveal",
       "articles": [
         {
-          "title": "UCO: A Multi-Turn Interactive Reinforcement Learning Method for Adaptive Teaching with Large Language Models",
-          "url": "https://arxiv.org/abs/2511.08873",
+          "title": "Rebuild Dossier: Mechanically-Enforced Specs for Agentic App Rebuilds, and What Model-Tier Failures Reveal",
+          "url": "https://arxiv.org/abs/2608.23616",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "FARCA: Fact-Aligned Reliability-Aware Credit Assignment for Reinforcement Learning with Factual Supervision",
-          "url": "https://arxiv.org/abs/2608.24350",
+          "title": "AgentWorld: Personality-Aware Reliability Evaluation for Agentic Information Retrieval",
+          "url": "https://arxiv.org/abs/2608.24076",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Illuminating the Three Dogmas of Reinforcement Learning under Evolutionary Light",
-          "url": "https://arxiv.org/abs/2507.11482",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Gemini Live gains agentic tasks, voice inbox control and personal intelligence",
+          "url": "https://thenextweb.com/news/gemini-live-spark-voice-agentic-tasks-dma-rival-assistants",
+          "source": "The Next Web"
         }
       ]
     }
@@ -441,14 +305,14 @@
     {
       "keyword": "skills",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.8,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 73,
-      "days_active": 4,
-      "expert_ratio": 0.89,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
       "headline": "4 AI development skills you need, according to Andrew Ng - and what experts say he's missing",
       "articles": [
         {
@@ -466,14 +330,14 @@
     {
       "keyword": "mckinsey",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.2,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 71,
-      "days_active": 3,
-      "expert_ratio": 0.75,
+      "confidence": 77,
+      "days_active": 4,
+      "expert_ratio": 0.73,
       "headline": "McKinsey says enterprise AI is finally 'on the road to ROI'",
       "articles": [
         {
@@ -514,14 +378,14 @@
     {
       "keyword": "openai codex",
       "mentions": 3,
-      "velocity": 0.2,
+      "velocity": 0.1,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 93,
-      "days_active": 8,
-      "expert_ratio": 0.79,
+      "confidence": 95,
+      "days_active": 9,
+      "expert_ratio": 0.82,
       "headline": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
       "articles": [
         {
@@ -557,90 +421,41 @@
   ],
   "sustained": [
     {
-      "keyword": "claude opus",
-      "mentions": 18,
-      "velocity": 1.5,
+      "keyword": "prompt engineering",
+      "mentions": 24,
+      "velocity": 2.0,
       "sources": [
-        "articles",
-        "linkedin",
+        "arxiv",
+        "github",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.8,
-      "headline": "Amazon security engineer hacks PC accessories with Claude Opus to make them work better — Asus, Insta360 and Elgato prod",
+      "expert_ratio": 0.85,
+      "headline": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
       "articles": [
         {
-          "title": "Amazon security engineer hacks PC accessories with Claude Opus to make them work better — Asus, Insta360 and Elgato prod",
-          "url": "https://www.techradar.com/ai-platforms-assistants/claude/amazon-security-engineer-hacks-pc-accessories-with-claude-opus-to-make-them-work-better-asus-insta360-and-elgato-products-reverse-engineered-in-hours-for-better-control-but-engineer-admits-this-also-scares-me",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 13,
-      "velocity": 1.5,
-      "sources": [
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.7,
-      "headline": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
-      "articles": [
-        {
-          "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
-          "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
-          "source": "Feed: Artificial Intelligence Latest"
-        },
-        {
-          "title": "AI Safety Startup Alice, Partner of Google, Anthropic, Raises $140 Million",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-25/ai-safety-startup-alice-partner-of-google-anthropic-raises-140-million",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "OpenAI calls for California to strengthen its AI safety laws",
-          "url": "https://www.engadget.com/2242200/openai-calls-for-california-to-strengthen-ai-safety-laws/?utm_source=flipboard&utm_content=user/Engadget",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "context window",
-      "mentions": 18,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.75,
-      "headline": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
-      "articles": [
-        {
-          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
-          "url": "https://arxiv.org/abs/2608.22137",
+          "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+          "url": "https://arxiv.org/abs/2608.21408",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Token Optimization and Context Window Management in Multi-Agent AI Workflows",
-          "url": "https://arxiv.org/abs/2608.17188",
+          "title": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
+          "url": "https://arxiv.org/abs/2608.20349",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+          "url": "https://arxiv.org/abs/2608.19299",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "together",
-      "mentions": 49,
-      "velocity": 1.2,
+      "mentions": 52,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "linkedin",
@@ -669,27 +484,151 @@
           "source": "ScienceDaily"
         }
       ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 74,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.43,
+      "headline": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+      "articles": [
+        {
+          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
+          "url": "https://www.techmeme.com/260824/p32#a260824p32",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Cursor Officially Enters Its Musk Era",
+          "url": "https://www.theinformation.com/articles/cursor-officially-enters-musk-era",
+          "source": "The Information"
+        },
+        {
+          "title": "Cursor ora si fa il repository, mette GitHub nel mirino",
+          "url": "https://www.tomshw.it/business/cursor-ora-si-fa-il-repository-mette-github-nel-mirino",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 53,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.44,
+      "headline": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
+      "articles": [
+        {
+          "title": "Up to Half of Planned US Data Centers May Face Delays, Kimmeridge Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/up-to-half-of-planned-us-data-centers-may-face-delays-kimmeridge-says",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
+          "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
+          "source": "Feed: Artificial Intelligence Latest"
+        },
+        {
+          "title": "Kansas town drops charges against teacher arrested for clapping during public hearings on data centers — says that ‘case",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/kansas-town-drops-charges-against-teacher-who-clapped-during-public-hearings-on-data-centers-says-that-case-has-been-dismissed-without-prejudice",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "glm-5",
+      "mentions": 17,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.0,
+      "headline": "Z.ai releases GLM-5.3-Flash, the first natively multimodal GLM-5 series model, with 320B parameters, saying it outperfor",
+      "articles": [
+        {
+          "title": "Z.ai releases GLM-5.3-Flash, the first natively multimodal GLM-5 series model, with 320B parameters, saying it outperfor",
+          "url": "https://www.techmeme.com/260826/p35#a260826p35",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Z.ai prices GLM-5.3 API access at $1.40 per million input tokens and $4.40 per million output tokens, unchanged from GLM",
+          "url": "https://www.techmeme.com/260819/p2#a260819p2",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "whisper",
+      "mentions": 11,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.42,
+      "headline": "Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study",
+      "articles": [
+        {
+          "title": "Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study",
+          "url": "https://arxiv.org/abs/2608.26060",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Trascrivi la chiamata di vendita e aggiorna il CRM: il metodo con Whisper e n8n",
+          "url": "https://www.tomshw.it/aioperator/trascrivi-la-chiamata-di-vendita-e-aggiorna-il-crm-il-metodo-con-whisper-e-n8n",
+          "source": "Tom's Hardware"
+        }
+      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 158,
-    "covered": 70,
-    "coverage_rate": 0.443,
+    "scored_predictions": 160,
+    "covered": 71,
+    "coverage_rate": 0.444,
     "early": 34,
-    "early_rate": 0.215,
+    "early_rate": 0.212,
     "avg_lead_days": 14.6,
     "median_lead_days": 8.5,
     "max_lead_days": 39,
-    "hit_rate": 0.443,
-    "materialized": 70,
+    "hit_rate": 0.444,
+    "materialized": 71,
     "by_signal_type": {
       "emerging": {
-        "scored": 75,
-        "covered": 58,
+        "scored": 77,
+        "covered": 59,
         "early": 25,
-        "coverage_rate": 0.773,
-        "early_rate": 0.333,
-        "hit_rate": 0.773
+        "coverage_rate": 0.766,
+        "early_rate": 0.325,
+        "hit_rate": 0.766
       },
       "weak_signal": {
         "scored": 83,
@@ -704,21 +643,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 158,
+    "n": 160,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.449,
-      "early_rate": 0.222
+      "coverage_rate": 0.45,
+      "early_rate": 0.219
     },
     "null_mean": {
       "coverage_rate": 0.479,
-      "early_rate": 0.256
+      "early_rate": 0.252
     },
     "p_value": {
-      "coverage_rate": 0.972,
-      "early_rate": 0.935
+      "coverage_rate": 0.969,
+      "early_rate": 0.933
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -843,7 +782,7 @@
         "confidence": 0.4
       },
       {
-        "keyword": "hallucination",
+        "keyword": "ai chips",
         "signal_type": "emerging",
         "flagged_on": "2026-08-27",
         "confidence": 0.2
@@ -857,87 +796,87 @@
     ],
     "heating_up": [
       {
-        "keyword": "ai consciousness",
-        "recent_mentions": 24,
-        "prior_mentions": 3,
-        "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "artificial general intelligence",
-        "recent_mentions": 29,
-        "prior_mentions": 4,
-        "change_ratio": 7.25,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "on-device ai",
-        "recent_mentions": 24,
-        "prior_mentions": 4,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "mixture of experts",
-        "recent_mentions": 12,
-        "prior_mentions": 2,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "fellow",
-        "recent_mentions": 12,
-        "prior_mentions": 2,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "kimi k2",
-        "recent_mentions": 6,
+        "keyword": "stability ai",
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 6.0,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "watermelon",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai consciousness",
+        "recent_mentions": 28,
+        "prior_mentions": 4,
+        "change_ratio": 7.0,
         "corroborating_sources": 2
       },
       {
         "keyword": "hugging face",
-        "recent_mentions": 236,
-        "prior_mentions": 43,
-        "change_ratio": 5.49,
+        "recent_mentions": 304,
+        "prior_mentions": 45,
+        "change_ratio": 6.76,
         "corroborating_sources": 8
       },
       {
-        "keyword": "ai chips",
-        "recent_mentions": 27,
-        "prior_mentions": 5,
-        "change_ratio": 5.4,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "dreamina",
+        "keyword": "moonshot ai",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "code generation",
-        "recent_mentions": 74,
-        "prior_mentions": 21,
-        "change_ratio": 3.52,
         "corroborating_sources": 2
       },
       {
-        "keyword": "ai sdk",
-        "recent_mentions": 6,
+        "keyword": "kimi k2",
+        "recent_mentions": 10,
         "prior_mentions": 2,
-        "change_ratio": 3.0,
+        "change_ratio": 5.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "ai sdk",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "voice agent",
+        "recent_mentions": 24,
+        "prior_mentions": 6,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "gb200",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "luma",
+        "recent_mentions": 20,
+        "prior_mentions": 5,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai chips",
+        "recent_mentions": 31,
+        "prior_mentions": 8,
+        "change_ratio": 3.88,
         "corroborating_sources": 1
       },
       {
         "keyword": "huggingface",
-        "recent_mentions": 92,
-        "prior_mentions": 36,
-        "change_ratio": 2.56,
+        "recent_mentions": 105,
+        "prior_mentions": 31,
+        "change_ratio": 3.39,
         "corroborating_sources": 5
       }
     ]
