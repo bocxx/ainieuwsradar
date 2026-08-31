@@ -1,21 +1,29 @@
 {
-  "generated_at": "2026-08-30T17:26:53+00:00",
+  "generated_at": "2026-08-31T05:26:32+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 160,
-    "covered": 71,
-    "coverage_rate": 0.444,
-    "early": 34,
-    "early_rate": 0.212,
-    "avg_lead_days": 14.6,
-    "median_lead_days": 8.5,
+    "scored_predictions": 163,
+    "covered": 74,
+    "coverage_rate": 0.454,
+    "early": 37,
+    "early_rate": 0.227,
+    "avg_lead_days": 14.9,
+    "median_lead_days": 9,
     "max_lead_days": 39,
-    "hit_rate": 0.444,
-    "materialized": 71,
+    "hit_rate": 0.454,
+    "materialized": 74,
     "by_signal_type": {
+      "emerging": {
+        "scored": 80,
+        "covered": 62,
+        "early": 28,
+        "coverage_rate": 0.775,
+        "early_rate": 0.35,
+        "hit_rate": 0.775
+      },
       "weak_signal": {
         "scored": 83,
         "covered": 12,
@@ -23,14 +31,6 @@
         "coverage_rate": 0.145,
         "early_rate": 0.108,
         "hit_rate": 0.145
-      },
-      "emerging": {
-        "scored": 77,
-        "covered": 59,
-        "early": 25,
-        "coverage_rate": 0.766,
-        "early_rate": 0.325,
-        "hit_rate": 0.766
       }
     }
   },
@@ -57,6 +57,13 @@
       "lead_days": 37
     },
     {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
+      "lead_days": 33
+    },
+    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
@@ -76,13 +83,6 @@
       "flagged_on": "2026-03-05",
       "materialized_on": "2026-04-01",
       "lead_days": 27
-    },
-    {
-      "keyword": "voice mode",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-16",
-      "materialized_on": "2026-07-08",
-      "lead_days": 22
     },
     {
       "keyword": "hallucinations",
