@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:26:32+00:00",
+  "generated_at": "2026-08-31T17:44:45+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -98,21 +98,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 160,
+    "n": 163,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.45,
-      "early_rate": 0.219
+      "coverage_rate": 0.46,
+      "early_rate": 0.233
     },
     "null_mean": {
-      "coverage_rate": 0.479,
-      "early_rate": 0.252
+      "coverage_rate": 0.488,
+      "early_rate": 0.263
     },
     "p_value": {
-      "coverage_rate": 0.969,
-      "early_rate": 0.933
+      "coverage_rate": 0.977,
+      "early_rate": 0.914
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
