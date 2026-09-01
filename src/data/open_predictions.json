@@ -1,89 +1,125 @@
 {
-  "generated_at": "2026-08-31T17:45:02+00:00",
+  "generated_at": "2026-09-01T05:30:27+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 104,
-    "resolved": 85,
+    "resolved": 86,
     "hits": 17,
-    "misses": 68,
-    "hit_rate": 0.2
+    "misses": 69,
+    "hit_rate": 0.198
   },
   "open": [
     {
       "keyword": "chatbox",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-20",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "model context protocol",
       "signal_type": "emerging",
       "flagged_on": "2026-07-21",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "flops",
       "signal_type": "emerging",
       "flagged_on": "2026-07-21",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "aider",
       "signal_type": "emerging",
       "flagged_on": "2026-07-22",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "mistral",
       "signal_type": "emerging",
       "flagged_on": "2026-07-22",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "context window",
       "signal_type": "emerging",
       "flagged_on": "2026-07-22",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "hermes-agent",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-23",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "poolside",
       "signal_type": "emerging",
       "flagged_on": "2026-07-23",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "small language model",
       "signal_type": "emerging",
       "flagged_on": "2026-07-24",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "fireworks ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-25",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "krea",
       "signal_type": "emerging",
       "flagged_on": "2026-07-26",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "durable",
       "signal_type": "emerging",
       "flagged_on": "2026-07-27",
-      "days_left": 10
+      "days_left": 9
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "grok",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-17",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "hallucinations",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-17",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "claude opus",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-17",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-17",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "copilot",
       "signal_type": "emerging",
@@ -170,42 +206,6 @@
       "signal_type": "weak_signal",
       "status": "miss",
       "flagged_on": "2026-07-11",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-10",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "ai copyright",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-07-10",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "voicebox",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-07-10",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "together",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-10",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null

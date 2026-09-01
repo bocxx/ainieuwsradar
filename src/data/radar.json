@@ -1,52 +1,167 @@
 {
-  "generated_at": "2026-08-31T19:21:51.220711",
-  "total_tracked": 3210,
+  "generated_at": "2026-09-01T07:14:26.110283",
+  "total_tracked": 3498,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "glm-5",
-      "mentions": 38,
-      "velocity": 7.8,
+      "keyword": "reinforcement learning",
+      "mentions": 296,
+      "velocity": 65.2,
       "sources": [
         "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.0,
-      "headline": "GLM-5.3-Flash will likely handle 45% of your AI workloads",
-      "articles": [
-        {
-          "title": "GLM-5.3-Flash will likely handle 45% of your AI workloads",
-          "url": "https://venturebeat.com/orchestration/glm-5-3-flash-will-likely-handle-45-of-your-ai-workloads",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "Z.ai releases GLM-5.3-Flash, the first natively multimodal GLM-5 series model, with 320B parameters, saying it outperfor",
-          "url": "https://www.techmeme.com/260826/p35#a260826p35",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "cuda",
-      "mentions": 16,
-      "velocity": 3.3,
-      "sources": [
-        "articles",
-        "github",
+        "arxiv",
         "linkedin",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.72,
-      "headline": "DLSS 5 has already been ported to work on RTX 4000 Series graphics cards — incompatible CUDA instructions get patched to",
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "Confounding Masquerading as Improvement: A Systematic Evaluation of Offline Reinforcement Learning for Stroke Antithromb",
       "articles": [
+        {
+          "title": "Confounding Masquerading as Improvement: A Systematic Evaluation of Offline Reinforcement Learning for Stroke Antithromb",
+          "url": "https://arxiv.org/abs/2608.30442",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Efficient Geothermal Well-Control Optimization via Diffusion-Surrogate Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.28791",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Survey on Rubric-Guided Reinforcement Learning for Language Models",
+          "url": "https://arxiv.org/abs/2608.27505",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 351,
+      "velocity": 60.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
+      "articles": [
+        {
+          "title": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
+          "url": "https://arxiv.org/abs/2608.18682",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Exploring Autonomous Agentic Data Engineering for Model Specialization",
+          "url": "https://arxiv.org/abs/2605.30407",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "AgenTRIM: Tool Risk Mitigation for Agentic AI",
+          "url": "https://arxiv.org/abs/2601.12449",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 249,
+      "velocity": 55.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "GRZO: Group-Relative Zeroth-Order Optimization for Large Language Model Fine-Tuning",
+      "articles": [
+        {
+          "title": "GRZO: Group-Relative Zeroth-Order Optimization for Large Language Model Fine-Tuning",
+          "url": "https://arxiv.org/abs/2606.02857",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Secret Stealing Attacks on Local LLM Fine-Tuning through Supply-Chain Model Code Backdoors",
+          "url": "https://arxiv.org/abs/2604.27426",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Small Updates, Big Doubts: Does Parameter-Efficient Fine-tuning Enhance Hallucination Detection ?",
+          "url": "https://arxiv.org/abs/2602.11166",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 259,
+      "velocity": 25.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.95,
+      "headline": "Alibaba releases Qwen3.8-Flash, an open-weight, 125B-parameter model built on its next-gen Qwen 4 architecture, saying i",
+      "articles": [
+        {
+          "title": "Alibaba releases Qwen3.8-Flash, an open-weight, 125B-parameter model built on its next-gen Qwen 4 architecture, saying i",
+          "url": "https://www.techmeme.com/260826/p26#a260826p26",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Alibaba Releases Smaller, Cost-Effective Qwen AI Model",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/alibaba-releases-smaller-cost-effective-qwen-ai-model",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+          "url": "https://github.com/ThinkOffApp/CarWatch",
+          "source": "Hacker News"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "cuda",
+      "mentions": 25,
+      "velocity": 5.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.74,
+      "headline": "M2K: Making the Model-Kernel Interface Explicit for Reliable CUDA Kernel Verification",
+      "articles": [
+        {
+          "title": "M2K: Making the Model-Kernel Interface Explicit for Reliable CUDA Kernel Verification",
+          "url": "https://arxiv.org/abs/2603.24595",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "DLSS 5 has already been ported to work on RTX 4000 Series graphics cards — incompatible CUDA instructions get patched to",
           "url": "https://www.tomshardware.com/pc-components/gpus/exclusive-dlss-5-has-already-been-ported-to-work-on-rtx-4000-series-graphics-cards-incompatible-cuda-instructions-get-patched-to-work-on-previous-gen-hardware",
@@ -56,209 +171,6 @@
           "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
           "url": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/",
           "source": "NVIDIA Developer Blog"
-        },
-        {
-          "title": "b10481: CUDA: MMVQ nwarps=8 for bs=1 for dense models on DGX Spark (#26843)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10481",
-          "source": "llama.cpp Releases"
-        }
-      ]
-    },
-    {
-      "keyword": "openclaw",
-      "mentions": 12,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.51,
-      "headline": "OpenClaw Foundation brengt OpenClaw 2.0 uit na zeven weken",
-      "articles": [
-        {
-          "title": "OpenClaw Foundation brengt OpenClaw 2.0 uit na zeven weken",
-          "url": "https://tweakers.net/nieuws/251574/openclaw-foundation-brengt-openclaw-20-uit-na-zeven-weken.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "OpenClaw 2.0: il gestore di agenti AI ci riprova con il cloud",
-          "url": "https://www.tomshw.it/hardware/openclaw-2-0-sessioni-cloud-condivise-senza-perdere-il-contesto",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "OpenClaw releases OpenClaw 2.0, its largest update to date built by 933 contributors, with a simplified installation pro",
-          "url": "https://www.techmeme.com/260831/p3#a260831p3",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 42,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.0,
-      "headline": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
-      "articles": [
-        {
-          "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
-          "url": "https://arxiv.org/abs/2608.28497",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Researcher shows how Claude Code can be tricked simply by asking it to summarize a website",
-          "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
-          "source": "The Register - Security"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "grok",
-      "mentions": 95,
-      "velocity": 5.0,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.45,
-      "headline": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
-      "articles": [
-        {
-          "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
-          "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
-          "source": "Ars Technica"
-        },
-        {
-          "title": "SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in s",
-          "url": "https://www.tomshardware.com/tech-industry/big-tech/spacexai-will-deploy-standalone-nvidia-vera-cpus-for-groks-agentic-workloads",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "At his first Cursor all-hands, Musk said Grok needs to catch up, AI will become impossible for humans to control, Anthro",
-          "url": "https://www.techmeme.com/260824/p32#a260824p32",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "hugging face",
-      "mentions": 76,
-      "velocity": 4.2,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.5,
-      "headline": "Hugging Face is selling a $399 robot duck with open-source software",
-      "articles": [
-        {
-          "title": "Hugging Face is selling a $399 robot duck with open-source software",
-          "url": "https://thenextweb.com/news/hugging-face-microduck-399-open-source-robot",
-          "source": "The Next Web"
-        },
-        {
-          "title": "The Hugging Face and Mythos 5 incidents show AI agents can self-organize, raising questions about how much agency they s",
-          "url": "https://www.techmeme.com/260831/p10#a260831p10",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia pays $12.9B for Hugging Face. Thomas Wolf is betting on Microduck, a $399 robot?",
-          "url": "https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 216,
-      "velocity": 3.2,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.83,
-      "headline": "Anthropic cracks down on hijacked user accounts mining AI tokens",
-      "articles": [
-        {
-          "title": "Anthropic cracks down on hijacked user accounts mining AI tokens",
-          "url": "https://www.theregister.com/security/2026/08/31/anthropic-cracks-down-on-hijacked-user-accounts-mining-ai-tokens/5293461",
-          "source": "The Register"
-        },
-        {
-          "title": "Sony Music and Warner Chappell sued Anthropic for allegedly pirating songs to train Claude",
-          "url": "https://qz.com/sony-warner-chappell-anthropic-lawsuit-music-copyright-083126",
-          "source": "Quartz"
-        },
-        {
-          "title": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
-          "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        }
-      ]
-    },
-    {
-      "keyword": "llama",
-      "mentions": 37,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.87,
-      "headline": "PepLLM: ESM-Guided Llama for Structured Protein-Peptide Binding Interface Analysis",
-      "articles": [
-        {
-          "title": "PepLLM: ESM-Guided Llama for Structured Protein-Peptide Binding Interface Analysis",
-          "url": "https://arxiv.org/abs/2608.21367",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
-          "url": "https://arxiv.org/abs/2608.18419",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
-          "url": "https://arxiv.org/abs/2608.14614",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -267,14 +179,14 @@
     {
       "keyword": "ai companion",
       "mentions": 3,
-      "velocity": 2.0,
+      "velocity": 0.8,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
       "headline": "When AI dating goes wrong: as EVA AI hires the world's first ‘AI Companionship Therapist’, its resident relationship exp",
       "articles": [
         {
@@ -295,42 +207,22 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "SKILL.state: Scalable Long-Horizon Agent Skills",
+      "headline": "Skills for the future software profession: beyond agentic AI!",
       "articles": [
         {
-          "title": "SKILL.state: Scalable Long-Horizon Agent Skills",
-          "url": "https://arxiv.org/abs/2608.26263",
+          "title": "Skills for the future software profession: beyond agentic AI!",
+          "url": "https://arxiv.org/abs/2606.21894",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "1022: CLAUDE.md, AGENTS.md, Skills, Hooks and Subagents: A Field Guide to Steering AI Agents",
-          "url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/E581B9/arttrk.com/p/VI4CS/pscrb.fm/rss/p/traffic.megaphone.fm/SUPERDATASCIENCEPTYLTD1106908588.mp3",
-          "source": "Super Data Science: ML ＆ AI Podcast with Jon Krohn"
-        }
-      ]
-    },
-    {
-      "keyword": "dumb",
-      "mentions": 2,
-      "velocity": 0.5,
-      "sources": [
-        "reddit"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 4,
-      "expert_ratio": 0.8,
-      "headline": "Dolly Parton Outsmarted Every Dumb-Blonde Joke",
-      "articles": [
-        {
-          "title": "Dolly Parton Outsmarted Every Dumb-Blonde Joke",
-          "url": "https://www.nytimes.com/2026/08/26/style/dolly-parton-jokes-humor-image.html",
-          "source": "The New York Times"
+          "title": "SkillZip Pro: Execution-Aware Dynamic Compression of Progressively Loaded Skills for Self-Evolving Agents",
+          "url": "https://arxiv.org/abs/2608.30785",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Reacher season 4 fans have forgotten that the hit Prime Video crime drama is supposed to be 'dumb' fun — and that's part",
-          "url": "https://www.techradar.com/streaming/amazon-prime-video/reacher-season-4-fans-have-forgotten-that-the-hit-prime-video-crime-drama-is-supposed-to-be-dumb-fun-and-thats-part-of-a-bigger-problem",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
+          "url": "https://arxiv.org/abs/2608.29596",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -373,227 +265,237 @@
       "confidence": 54,
       "days_active": 4,
       "expert_ratio": 0.86,
-      "headline": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+      "headline": "Exploring Autonomous Agentic Data Engineering for Model Specialization",
       "articles": [
         {
-          "title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
-          "url": "https://arxiv.org/abs/2608.28281",
+          "title": "Exploring Autonomous Agentic Data Engineering for Model Specialization",
+          "url": "https://arxiv.org/abs/2605.30407",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ASA: Backbone-Training-Free Representation Engineering for Tool-Calling Agents",
-          "url": "https://arxiv.org/abs/2602.04935",
+          "title": "LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering",
+          "url": "https://arxiv.org/abs/2608.31102",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Post-Edit Re-Verification in Simulator-Backed Engineering Agents: A Controlled Comparison of Verification-Cadence Guidan",
-          "url": "https://arxiv.org/abs/2608.28147",
+          "title": "Forward-Deployed Full-Stack Engineering for Autonomous Cloud MLOps",
+          "url": "https://arxiv.org/abs/2608.29615",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "databricks",
+      "keyword": "ai regulation",
       "mentions": 2,
-      "velocity": 0.1,
+      "velocity": 0.2,
       "sources": [],
       "source_count": 0,
-      "confidence": 64,
-      "days_active": 8,
-      "expert_ratio": 0.67,
-      "headline": "Andreessen Horowitz Focus of DOJ Antitrust Probe Over Databricks, Fivetran Board Seats",
+      "confidence": 80,
+      "days_active": 14,
+      "expert_ratio": 0.71,
+      "headline": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
       "articles": [
         {
-          "title": "Andreessen Horowitz Focus of DOJ Antitrust Probe Over Databricks, Fivetran Board Seats",
-          "url": "https://www.theinformation.com/briefings/andreessen-horowitz-focus-doj-antitrust-probe-databricks-fivetran-board-seats",
-          "source": "The Information"
+          "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+          "url": "https://arxiv.org/abs/2608.14562",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "An Evaluation Framework for National AI Regulation",
+          "url": "https://arxiv.org/abs/2608.15417",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "prompt engineering",
-      "mentions": 26,
-      "velocity": 1.6,
+      "keyword": "grok",
+      "mentions": 90,
+      "velocity": 2.0,
       "sources": [
-        "articles",
-        "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.83,
-      "headline": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
-      "articles": [
-        {
-          "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
-          "url": "https://arxiv.org/abs/2608.21408",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
-          "url": "https://arxiv.org/abs/2608.20349",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
-          "url": "https://arxiv.org/abs/2608.19299",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 15,
-      "velocity": 1.5,
-      "sources": [
-        "arxiv",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.71,
-      "headline": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
-      "articles": [
-        {
-          "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
-          "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
-          "source": "Feed: Artificial Intelligence Latest"
-        },
-        {
-          "title": "AI Safety Startup Alice, Partner of Google, Anthropic, Raises $140 Million",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-25/ai-safety-startup-alice-partner-of-google-anthropic-raises-140-million",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "OpenAI calls for California to strengthen its AI safety laws",
-          "url": "https://www.engadget.com/2242200/openai-calls-for-california-to-strengthen-ai-safety-laws/?utm_source=flipboard&utm_content=user/Engadget",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "together",
-      "mentions": 51,
-      "velocity": 1.0,
-      "sources": [
+        "hackernews",
         "linkedin",
         "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.0,
-      "headline": "Together AI, which serves open models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass ",
-      "articles": [
-        {
-          "title": "Together AI, which serves open models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass ",
-          "url": "https://www.techmeme.com/260831/p21#a260831p21",
-          "source": "Techmeme"
-        },
-        {
-          "title": "The datacenter backlash is bringing the entire political spectrum together – against big tech billionaires",
-          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/aug/30/data-center-politics-democrats-republicans",
-          "source": "Technology | The Guardian"
-        },
-        {
-          "title": "My sister and I were laid off around the same time. We started a small business together to survive unemployment.",
-          "url": "https://www.businessinsider.com/sisters-started-small-business-together-after-lay-off-2026-8",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "copilot",
-      "mentions": 39,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin",
         "twitter"
       ],
       "source_count": 4,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.71,
-      "headline": "Copilot Pages: Work side by side with AI",
+      "days_active": 15,
+      "expert_ratio": 0.46,
+      "headline": "The Pentagon launches ChatGPT Mil and Grok for Government on its GenAI.mil platform, giving its 3M personnel access to A",
       "articles": [
         {
-          "title": "Copilot Pages: Work side by side with AI",
-          "url": "https://www.computerworld.com/article/4202427/copilot-pages-work-side-by-side-with-ai.html",
-          "source": "Artificial Intelligence – Computerworld"
+          "title": "The Pentagon launches ChatGPT Mil and Grok for Government on its GenAI.mil platform, giving its 3M personnel access to A",
+          "url": "https://www.techmeme.com/260831/p38#a260831p38",
+          "source": "Techmeme"
         },
         {
-          "title": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year",
-          "url": "https://www.theregister.com/virtualization/2026/08/27/nutanix-built-20m-ai-cluster-to-reduce-use-of-copilot-and-claude-expects-roi-in-a-year/5292823",
-          "source": "The Register"
+          "title": "The Pentagon now has its own version of ChatGPT and Grok",
+          "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+          "source": "TechCrunch"
         },
         {
-          "title": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
-          "url": "https://www.techradar.com/computing/windows/the-version-microsoft-will-build-should-be-known-as-copilot-os-windows-built-around-ai-may-not-be-happening-but-leaked-concept-remains-a-grim-portent-for-desktops",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
+          "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+          "source": "Ars Technica"
         }
       ]
     },
     {
-      "keyword": "kimi",
-      "mentions": 14,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.0,
-      "headline": "Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K",
-      "articles": [
-        {
-          "title": "Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K",
-          "url": "https://www.techmeme.com/260826/p17#a260826p17",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Moonshot AI wants 30% of what US clouds earn from Kimi K3",
-          "url": "https://thenextweb.com/news/moonshot-k3-revenue-sharing-us-clouds",
-          "source": "The Next Web"
-        },
-        {
-          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
-          "url": "https://www.techmeme.com/260825/p24#a260825p24",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 35,
-      "velocity": 0.2,
+      "keyword": "openclaw",
+      "mentions": 13,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "arxiv",
-        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.54,
+      "headline": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
+      "articles": [
+        {
+          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
+          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
+          "source": "The Register - Security"
+        },
+        {
+          "title": "OpenClaw Foundation brengt OpenClaw 2.0 uit na zeven weken",
+          "url": "https://tweakers.net/nieuws/251574/openclaw-foundation-brengt-openclaw-20-uit-na-zeven-weken.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 63,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
         "linkedin",
         "reddit"
       ],
       "source_count": 5,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.48,
-      "headline": "AI coding is putting software risk on steroids",
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "Sources: DeepSeek is set to soon raise $7.4B at a $74B valuation from existing and new investors to fund R＆D and its exp",
       "articles": [
         {
-          "title": "AI coding is putting software risk on steroids",
-          "url": "https://www.techradar.com/pro/ai-coding-is-putting-software-risk-on-steroids",
+          "title": "Sources: DeepSeek is set to soon raise $7.4B at a $74B valuation from existing and new investors to fund R＆D and its exp",
+          "url": "https://www.techmeme.com/260827/p8#a260827p8",
+          "source": "Techmeme"
+        },
+        {
+          "title": "The stealth model that beat DeepSeek belongs to Zhipu",
+          "url": "https://thenextweb.com/news/ox-alpha-zhipu-glm-open-weights-censorship-fingerprint",
+          "source": "The Next Web"
+        },
+        {
+          "title": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 16,
+      "velocity": 0.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
+      "articles": [
+        {
+          "title": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
+          "url": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Amazon security engineer hacks PC accessories with Claude Opus to make them work better — Asus, Insta360 and Elgato prod",
+          "url": "https://www.techradar.com/ai-platforms-assistants/claude/amazon-security-engineer-hacks-pc-accessories-with-claude-opus-to-make-them-work-better-asus-insta360-and-elgato-products-reverse-engineered-in-hours-for-better-control-but-engineer-admits-this-also-scares-me",
           "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 68,
+      "velocity": -0.0,
+      "sources": [
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.44,
+      "headline": "OpenAI is cutting off AI model access to Cursor after SpaceX acquisition",
+      "articles": [
+        {
+          "title": "OpenAI is cutting off AI model access to Cursor after SpaceX acquisition",
+          "url": "https://qz.com/openai-cutting-cursor-ai-model-access-spacex-acquisition-083126",
+          "source": "Quartz"
+        },
+        {
+          "title": "Cursor senza ChatGPT dopo l'acquisto di Musk, un danno per gli utenti?",
+          "url": "https://www.tomshw.it/business/cursor-senza-chatgpt-dopo-lacquisto-di-musk-un-danno-per-gli-utenti",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "OpenAI says it's ending its deal with Cursor because Elon Musk's companies violate contracts",
+          "url": "https://www.businessinsider.com/openai-ends-cursor-contract-elon-musk-spacex-sam-altman-feud-2026-8",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "claude code",
+      "mentions": 36,
+      "velocity": -0.2,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+      "articles": [
+        {
+          "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+          "url": "https://arxiv.org/abs/2608.28497",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Researcher shows how Claude Code can be tricked simply by asking it to summarize a website",
+          "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+          "source": "The Register - Security"
         }
       ]
     }
@@ -672,17 +574,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
       "materialized_on": "2026-07-29",
+      "lead_days": 33
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
       "lead_days": 33
     },
     {
@@ -710,6 +612,24 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "grok",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-01",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "llama",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-01",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "openmontage",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-01",
+        "confidence": 0.2
+      },
+      {
         "keyword": "anthropic",
         "signal_type": "emerging",
         "flagged_on": "2026-08-31",
@@ -722,13 +642,13 @@
         "confidence": 0.4
       },
       {
-        "keyword": "h100",
+        "keyword": "command r",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-31",
         "confidence": 0.2
       },
       {
-        "keyword": "command r",
+        "keyword": "h100",
         "signal_type": "weak_signal",
         "flagged_on": "2026-08-31",
         "confidence": 0.2
@@ -752,120 +672,102 @@
         "confidence": 0.4
       },
       {
-        "keyword": "copilot",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-28",
-        "confidence": 1.0
-      },
-      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-08-28",
         "confidence": 1.0
       },
       {
-        "keyword": "huggingface",
+        "keyword": "copilot",
         "signal_type": "emerging",
         "flagged_on": "2026-08-28",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "hugging face",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-28",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "openai codex",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-28",
-        "confidence": 0.2
+        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "voice mode",
+        "keyword": "context length",
+        "recent_mentions": 25,
+        "prior_mentions": 1,
+        "change_ratio": 25.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "cowork",
+        "recent_mentions": 25,
+        "prior_mentions": 4,
+        "change_ratio": 6.25,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "opusclip",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "zapier",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "keyword": "ai alignment",
+        "recent_mentions": 31,
+        "prior_mentions": 6,
+        "change_ratio": 5.17,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "tokenizer",
+        "recent_mentions": 56,
+        "prior_mentions": 12,
+        "change_ratio": 4.67,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "watermelon",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai copyright",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
+        "keyword": "magnific",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "cowork",
+        "keyword": "ai energy",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "prompt injection",
+        "recent_mentions": 48,
+        "prior_mentions": 13,
+        "change_ratio": 3.69,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "glm 5",
+        "recent_mentions": 39,
+        "prior_mentions": 11,
+        "change_ratio": 3.55,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "reasoning model",
         "recent_mentions": 21,
         "prior_mentions": 6,
         "change_ratio": 3.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "zhipu",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
+        "keyword": "simplified",
+        "recent_mentions": 10,
+        "prior_mentions": 3,
+        "change_ratio": 3.33,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "stability ai",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "dreamina",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "opusclip",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "watermelon",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "moonshot ai",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "hugging face",
-        "recent_mentions": 312,
-        "prior_mentions": 104,
-        "change_ratio": 3.0,
-        "corroborating_sources": 8
-      },
-      {
-        "keyword": "huggingface",
-        "recent_mentions": 123,
-        "prior_mentions": 43,
-        "change_ratio": 2.86,
-        "corroborating_sources": 5
       }
     ]
   }

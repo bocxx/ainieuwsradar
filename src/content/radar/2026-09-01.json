@@ -1,0 +1,454 @@
+{
+  "title": "AI-radar 1 september 2026: multimodal, reinforcement learning, agentic",
+  "date": "2026-09-01",
+  "description": "Op 1 september 2026 registreerde de radar forse beweging rond multimodal (+285, 393 vermeldingen), reinforcement learning (+225, 296 vermeldingen) en…",
+  "analysis": "Op 1 september 2026 registreerde de radar forse beweging rond multimodal (+285, 393 vermeldingen), reinforcement learning (+225, 296 vermeldingen) en agentic (+206, 351 vermeldingen). Multimodal dook op via Hacker News, Reddit, Product Hunt, nieuwsartikelen en ArXiv, wat wijst op brede technische én publieke belangstelling. Agentic verscheen zelfs op GitHub, X, Bluesky en LinkedIn naast de gebruikelijke kanalen, terwijl reinforcement learning vooral op Reddit, LinkedIn en in wetenschappelijke publicaties zichtbaar was. Fine-tuning (+202, 249 vermeldingen) en large language model (+196, 289 vermeldingen) completeerden de top vijf, met qwen (+110, 259 vermeldingen) als opvallende nieuwkomer.\n\nBij de zwakke signalen springt hallucination eruit: 78 punten toename en 90 vermeldingen, verspreid over nieuwsartikelen en ArXiv. Die combinatie suggereert dat het onderwerp zowel wetenschappelijk als journalistiek aandacht trekt. Grpo (+76, 86 vermeldingen) scoorde vergelijkbaar maar bleef beperkt tot dezelfde brontypen. Tokenizer (+40, 44 vermeldingen) en code generation (+41, 47 vermeldingen) bleven bescheidener. Dit zijn meetgegevens van 930 gevolgde onderwerpen—geen redactioneel geselecteerd nieuws, maar signalen uit datastromen.",
+  "data": {
+    "date": "2026-09-01",
+    "prev_date": "2026-08-31",
+    "accelerating": [
+      {
+        "keyword": "multimodal",
+        "mentions": 393,
+        "velocity": 285,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 388,
+        "headline": "A MiniMax H3 text-to-video test."
+      },
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 296,
+        "velocity": 225,
+        "sources": [
+          "reddit",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 289,
+        "headline": "We built an open-source biped robot with a working sim2real pipeline (Microduck)"
+      },
+      {
+        "keyword": "agentic",
+        "mentions": 351,
+        "velocity": 206,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 323,
+        "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 249,
+        "velocity": 202,
+        "sources": [
+          "github",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 249,
+        "headline": "📄 Small Updates, Big Doubts: Does Parameter-Efficient Fine-tuning Enhance Hallucination Detection ?"
+      },
+      {
+        "keyword": "large language model",
+        "mentions": 289,
+        "velocity": 196,
+        "sources": [
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 289,
+        "headline": "📄 BIRD-History: A Benchmark for History-Driven Text-to-SQL with Fine-Grained Knowledge Annotations"
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 259,
+        "velocity": 110,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 7,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 249,
+        "headline": "No, Engrams won't let you run 1T models locally. It does something even better."
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 106,
+        "velocity": 72,
+        "sources": [
+          "reddit",
+          "twitter",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 103,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "distillation",
+        "mentions": 94,
+        "velocity": 68,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 93,
+        "headline": "A quick Minimax H3 news round-up - 27th August 2026"
+      },
+      {
+        "keyword": "llama",
+        "mentions": 99,
+        "velocity": 62,
+        "sources": [
+          "github",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 97,
+        "headline": "With HuggingFace, Nvidia is also acquiring llama.cpp and the team behind it"
+      },
+      {
+        "keyword": "hallucinations",
+        "mentions": 69,
+        "velocity": 51,
+        "sources": [
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 65,
+        "headline": "📄 EviAnchor: Mitigating Hallucinations in Large Vision-Language Models via Regional Visual Evidence Compensation"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "machine-learning-for-trading",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ stefan-jansen/machine-learning-for-trading: Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution."
+      },
+      {
+        "keyword": "ml4t workflow",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ stefan-jansen/machine-learning-for-trading: Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution."
+      },
+      {
+        "keyword": "slideops",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: SlideOps – slides from a repo that flag when they drift from the code"
+      },
+      {
+        "keyword": "frozenplain",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: Floe – an open-source plugin for sample libraries – CLAP/VST3/AU"
+      },
+      {
+        "keyword": "watermelon",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "twitter"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "$META could spend ~$10B a year on Anthropic while using Claude to help power Hatch as its own Watermelon model remains d"
+      },
+      {
+        "keyword": "i told it to use my voice",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 \"I told it to use my voice\" is not a thing. Stop acting like this is a thing. If ChatGPT wrote it, t"
+      },
+      {
+        "keyword": "gemini alternatives",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 sharing a different google alternatives list than the cyberinsider one bc that recommends \"gemini al"
+      },
+      {
+        "keyword": "ai regulation",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Google capitulates to Trump on Lake Ontario just as an OpenAI report shows why we desperately need A"
+      },
+      {
+        "keyword": "rogue agents",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 The AI industry's abuse of language, from Turing on, is epic. \n\n@eryk.bsky.social draws a good analo"
+      },
+      {
+        "keyword": "thinkingautism",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 We stand by the work we publish at www.ThinkingAutism.com —& it's time to update our policy, re: AI:"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "hallucination",
+        "mentions": 90,
+        "velocity": 78,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 90,
+        "headline": "📄 Small Updates, Big Doubts: Does Parameter-Efficient Fine-tuning Enhance Hallucination Detection ?"
+      },
+      {
+        "keyword": "grpo",
+        "mentions": 86,
+        "velocity": 76,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 86,
+        "headline": "📄 PA3: Policy-Aware Agent Alignment through Chain-of-Thought"
+      },
+      {
+        "keyword": "code generation",
+        "mentions": 47,
+        "velocity": 41,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 47,
+        "headline": "📄 Rubric-to-Code Credit Assignment for Reinforcement Learning"
+      },
+      {
+        "keyword": "tokenizer",
+        "mentions": 44,
+        "velocity": 40,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 44,
+        "headline": "📄 Auditing Chinese Web-scale Corpora via Sampled BPE Token Statistics"
+      },
+      {
+        "keyword": "foundation model",
+        "mentions": 32,
+        "velocity": 25,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 32,
+        "headline": "📄 RoSe-SLAM: Robust Semantic-Aware Gaussian Splatting SLAM from Dynamic Monocular Videos"
+      },
+      {
+        "keyword": "synthetic data",
+        "mentions": 35,
+        "velocity": 25,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 35,
+        "headline": "📄 Making the Discrete Continuous: Synthetic RAW Augmentations for Fine-Grained Evaluation of Person Detection Performance "
+      },
+      {
+        "keyword": "context length",
+        "mentions": 21,
+        "velocity": 19,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 21,
+        "headline": "📄 TuringLLM: Efficiently Scaling Foundation Models Toward Physical AI"
+      },
+      {
+        "keyword": "multi-modal",
+        "mentions": 20,
+        "velocity": 18,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 20,
+        "headline": "📄 LeMat-Synth: a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature"
+      },
+      {
+        "keyword": "bert",
+        "mentions": 18,
+        "velocity": 18,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 18,
+        "headline": "📄 Memory-First Fact-Checking: A Knowledge-Graph-Grounded Multi-Agent System for Misinformation Detection"
+      },
+      {
+        "keyword": "lstm",
+        "mentions": 18,
+        "velocity": 18,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 18,
+        "headline": "📄 Detect Before You Attribute: Cascade Failure Attribution for Multi-Agent Systems"
+      }
+    ],
+    "total_tracked": 930
+  }
+}

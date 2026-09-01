@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:44:45+00:00",
+  "generated_at": "2026-09-01T05:30:09+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -57,17 +57,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
       "materialized_on": "2026-07-29",
+      "lead_days": 33
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
       "lead_days": 33
     },
     {
@@ -111,8 +111,8 @@
       "early_rate": 0.263
     },
     "p_value": {
-      "coverage_rate": 0.977,
-      "early_rate": 0.914
+      "coverage_rate": 0.978,
+      "early_rate": 0.917
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
