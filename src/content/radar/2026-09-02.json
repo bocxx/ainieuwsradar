@@ -1,0 +1,457 @@
+{
+  "title": "AI-radar 2 september 2026: fine-tuning, reinforcement learning, large langu",
+  "date": "2026-09-02",
+  "description": "Op 2 september 2026 versnelt vooral fine-tuning: die term steeg met 157 punten naar 235 vermeldingen, met bronnen op GitHub, nieuwsartikelen en ArXiv.…",
+  "analysis": "Op 2 september 2026 versnelt vooral fine-tuning: die term steeg met 157 punten naar 235 vermeldingen, met bronnen op GitHub, nieuwsartikelen en ArXiv. Reinforcement learning volgt met +118 naar 191 vermeldingen via onder meer Reddit, LinkedIn en ArXiv. Ook large language model viel op met +112 naar 204 vermeldingen, verspreid over Bluesky, nieuwsartikelen en ArXiv. De aandacht zit dus duidelijk op het verfijnen en trainen van modellen, niet op losse nieuwe releases.\n\nVan de zwakke signalen is distillation het volgen waard: +63 naar 81 vermeldingen. Die groei is stevig, maar de bronnen blijven beperkt tot nieuwsartikelen en ArXiv. Er is nog geen bredere discussie op sociale platforms of developerkanalen. Dat maakt distillation eerder een technisch onderwerp dat aan relevantie wint dan een hype. De andere zwakke signalen, zoals quantization en code generation, blijven qua spreiding en omvang achter. Dit blijft meetdata, geen redactioneel nieuws.",
+  "data": {
+    "date": "2026-09-02",
+    "prev_date": "2026-09-01",
+    "accelerating": [
+      {
+        "keyword": "fine-tuning",
+        "mentions": 235,
+        "velocity": 157,
+        "sources": [
+          "github",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 235,
+        "headline": "📄 Guided Prompt Evolution for Vision-Language Models Adaptation"
+      },
+      {
+        "keyword": "reinforcement learning",
+        "mentions": 191,
+        "velocity": 118,
+        "sources": [
+          "reddit",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 191,
+        "headline": "WTF is a World Model? [D]"
+      },
+      {
+        "keyword": "large language model",
+        "mentions": 204,
+        "velocity": 112,
+        "sources": [
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 204,
+        "headline": "📄 Conversation Coach: A Voice-enabled AI System that Helps Practice Difficult Workplace Conversations"
+      },
+      {
+        "keyword": "multimodal",
+        "mentions": 210,
+        "velocity": 108,
+        "sources": [
+          "hackernews",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 210,
+        "headline": "📄 ADGNet: Asymmetric Dual-text Guided Network for Infrared Small Target Detection"
+      },
+      {
+        "keyword": "agentic",
+        "mentions": 214,
+        "velocity": 71,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 193,
+        "headline": "Giving people agentic AI be like … https://t.co/rtWrWXr6QS"
+      },
+      {
+        "keyword": "simulation",
+        "mentions": 79,
+        "velocity": 57,
+        "sources": [
+          "reddit",
+          "twitter",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 77,
+        "headline": "here's an actual real time realistic 3D ocean simulation I wrote a few years ago without AI just by reading some papers."
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 205,
+        "velocity": 49,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 7,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 199,
+        "headline": "Qwen3.8-Flash on RTX3090 + 64GB RAM (but you only need 12GB VRAM)"
+      },
+      {
+        "keyword": "claude",
+        "mentions": 490,
+        "velocity": 42,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 9,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 389,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "world model",
+        "mentions": 47,
+        "velocity": 42,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "bluesky",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 47,
+        "headline": "WTF is a World Model? [D]"
+      },
+      {
+        "keyword": "gpt-5",
+        "mentions": 47,
+        "velocity": 30,
+        "sources": [
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 47,
+        "headline": "📄 Are We There Yet? Assessing Computer-Use Agents for Blind Users' Accessible Interaction with Desktop Applications"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "suspicious signals",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Anthropic banned me for \"suspicious signals\""
+      },
+      {
+        "keyword": "holy shit",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Incredible. \n\nThe whole OpenAI/Hugging Face story in plain English\n\nwww.dwarkesh.com/p/openai-hug..."
+      },
+      {
+        "keyword": "this is not new jay",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 Incredible. \n\nThe whole OpenAI/Hugging Face story in plain English\n\nwww.dwarkesh.com/p/openai-hug..."
+      },
+      {
+        "keyword": "oh what about crime",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 The thing about twitter/x being taken over by conservatives is that everyone there is such a pussy n"
+      },
+      {
+        "keyword": "boo hoo flock cameras",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 The thing about twitter/x being taken over by conservatives is that everyone there is such a pussy n"
+      },
+      {
+        "keyword": "going rogue",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 if openai is allowed to blame this on agents \"going rogue\" then the whole notion of corporate respon"
+      },
+      {
+        "keyword": "webstorm",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 Kilo Code for JetBrains"
+      },
+      {
+        "keyword": "pycharm",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 Kilo Code for JetBrains"
+      },
+      {
+        "keyword": "goland",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 Kilo Code for JetBrains"
+      },
+      {
+        "keyword": "phpstorm",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "producthunt"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "😼 Kilo Code for JetBrains"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "distillation",
+        "mentions": 81,
+        "velocity": 63,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 81,
+        "headline": "📄 Hypotheses-Guided Self Distillation for Continual Personalization"
+      },
+      {
+        "keyword": "quantization",
+        "mentions": 63,
+        "velocity": 45,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 63,
+        "headline": "📄 Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding"
+      },
+      {
+        "keyword": "code generation",
+        "mentions": 35,
+        "velocity": 24,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 35,
+        "headline": "📄 WiseSpec: Requirements-Driven Agents for Code Generation"
+      },
+      {
+        "keyword": "foundation model",
+        "mentions": 28,
+        "velocity": 24,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 28,
+        "headline": "📄 Restrict, Don't Retrain: Inference-Time VLM Guidance for Zero-Shot Aerial Segmentation"
+      },
+      {
+        "keyword": "grpo",
+        "mentions": 39,
+        "velocity": 21,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 39,
+        "headline": "📄 Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning"
+      },
+      {
+        "keyword": "hallucination",
+        "mentions": 39,
+        "velocity": 21,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 38,
+        "headline": "📄 The Privacy-Hallucination Tradeoff in Differentially Private Language Models"
+      },
+      {
+        "keyword": "imagenet",
+        "mentions": 14,
+        "velocity": 12,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 14,
+        "headline": "📄 ViTAMINS: An Empirical Study of Training Self-Supervised Vision Transformers with Synthetic Hard Negatives"
+      },
+      {
+        "keyword": "edge ai",
+        "mentions": 11,
+        "velocity": 10,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 11,
+        "headline": "📄 Channel-Adaptive Edge AI: Maximizing Inference Throughput by Adapting Computational Complexity to Channel States"
+      },
+      {
+        "keyword": "farskip",
+        "mentions": 7,
+        "velocity": 7,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 7,
+        "headline": "📄 Instella-MoE Technical Report"
+      },
+      {
+        "keyword": "hivetraceguard",
+        "mentions": 7,
+        "velocity": 7,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 7,
+        "headline": "📄 HiveTraceGuard-Pro: A Compact Generative Guardrail for Prompt Injection, Jailbreaks, and Adversarial Obfuscation"
+      }
+    ],
+    "total_tracked": 841
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-01T19:24:50.974788",
-  "total_tracked": 3548,
+  "generated_at": "2026-09-02T07:17:13.077037",
+  "total_tracked": 3610,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "fine-tuning",
-      "mentions": 78,
-      "velocity": 3.6,
+      "mentions": 235,
+      "velocity": 49.9,
       "sources": [
         "articles",
         "arxiv",
@@ -16,60 +16,167 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
-      "headline": "GRZO: Group-Relative Zeroth-Order Optimization for Large Language Model Fine-Tuning",
+      "headline": "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
       "articles": [
         {
-          "title": "GRZO: Group-Relative Zeroth-Order Optimization for Large Language Model Fine-Tuning",
-          "url": "https://arxiv.org/abs/2606.02857",
+          "title": "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
+          "url": "https://arxiv.org/abs/2604.15574",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Secret Stealing Attacks on Local LLM Fine-Tuning through Supply-Chain Model Code Backdoors",
-          "url": "https://arxiv.org/abs/2604.27426",
+          "title": "When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning",
+          "url": "https://arxiv.org/abs/2609.01455",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Small Updates, Big Doubts: Does Parameter-Efficient Fine-tuning Enhance Hallucination Detection ?",
-          "url": "https://arxiv.org/abs/2602.11166",
+          "title": "Breaking the Structural Identity: Personalized Federated LoRA Fine-tuning under Rank Heterogeneity",
+          "url": "https://arxiv.org/abs/2609.00632",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 34,
-      "velocity": 3.5,
+      "keyword": "reinforcement learning",
+      "mentions": 191,
+      "velocity": 34.1,
       "sources": [
+        "articles",
         "arxiv",
-        "github"
+        "linkedin",
+        "reddit"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+      "expert_ratio": 0.98,
+      "headline": "Provably Efficient Federated Reinforcement Learning with Linear Function Approximation and Logarithmic Communication Cos",
       "articles": [
         {
-          "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
-          "url": "https://arxiv.org/abs/2608.21408",
+          "title": "Provably Efficient Federated Reinforcement Learning with Linear Function Approximation and Logarithmic Communication Cos",
+          "url": "https://arxiv.org/abs/2609.00193",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2511.09681",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
-          "url": "https://arxiv.org/abs/2608.20349",
+          "title": "The Artificial Experimentalist: Discovery and Control of Self-Organizing Phenomena with Autotelic Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.26116",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 214,
+      "velocity": 19.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Skill Reuse as Compression in Agentic RL",
+      "articles": [
+        {
+          "title": "Skill Reuse as Compression in Agentic RL",
+          "url": "https://arxiv.org/abs/2605.31509",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
-          "url": "https://arxiv.org/abs/2608.19299",
+          "title": "DigitalCoach: Communication and Grounding Gaps in Human and Agentic Computer Use Coaching",
+          "url": "https://arxiv.org/abs/2606.31980",
           "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Agentic Large Language Models for Training-Free Neuro-Radiological Image Analysis",
+          "url": "https://arxiv.org/abs/2604.16729",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 79,
+      "velocity": 14.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.89,
+      "headline": "Anamnesis: An Open-Source Platform for Large-Scale Backstory-Conditioned Survey Simulation",
+      "articles": [
+        {
+          "title": "Anamnesis: An Open-Source Platform for Large-Scale Backstory-Conditioned Survey Simulation",
+          "url": "https://arxiv.org/abs/2607.10628",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Hybrid Insider Threat Detection Framework Combining Multi-Agent Simulation, Layered SIEM Correlation, and Theory-of-Mi",
+          "url": "https://arxiv.org/abs/2601.04243",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "HugAgent: A Human Simulation Benchmark for Individual-Level Reasoning",
+          "url": "https://arxiv.org/abs/2510.15144",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "cuda",
+      "mentions": 20,
+      "velocity": 2.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language",
+      "articles": [
+        {
+          "title": "CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language",
+          "url": "https://arxiv.org/abs/2609.00058",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "M2K: Making the Model-Kernel Interface Explicit for Reliable CUDA Kernel Verification",
+          "url": "https://arxiv.org/abs/2603.24595",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "DLSS 5 has already been ported to work on RTX 4000 Series graphics cards — incompatible CUDA instructions get patched to",
+          "url": "https://www.tomshardware.com/pc-components/gpus/exclusive-dlss-5-has-already-been-ported-to-work-on-rtx-4000-series-graphics-cards-incompatible-cuda-instructions-get-patched-to-work-on-previous-gen-hardware",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
       "keyword": "ai safety",
-      "mentions": 20,
-      "velocity": 2.6,
+      "mentions": 21,
+      "velocity": 2.1,
       "sources": [
         "articles",
         "arxiv",
@@ -78,7 +185,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.71,
+      "expert_ratio": 0.72,
       "headline": "OpenAI supports California’s bill to advance youth AI safety",
       "articles": [
         {
@@ -97,78 +204,65 @@
           "source": "Bloomberg Technology"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
-      "keyword": "cuda",
-      "mentions": 21,
-      "velocity": 3.8,
+      "keyword": "claude",
+      "mentions": 490,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.74,
-      "headline": "M2K: Making the Model-Kernel Interface Explicit for Reliable CUDA Kernel Verification",
-      "articles": [
-        {
-          "title": "M2K: Making the Model-Kernel Interface Explicit for Reliable CUDA Kernel Verification",
-          "url": "https://arxiv.org/abs/2603.24595",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "DLSS 5 has already been ported to work on RTX 4000 Series graphics cards — incompatible CUDA instructions get patched to",
-          "url": "https://www.tomshardware.com/pc-components/gpus/exclusive-dlss-5-has-already-been-ported-to-work-on-rtx-4000-series-graphics-cards-incompatible-cuda-instructions-get-patched-to-work-on-previous-gen-hardware",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
-          "url": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/",
-          "source": "NVIDIA Developer Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "openclaw",
-      "mentions": 14,
-      "velocity": 2.3,
-      "sources": [
-        "articles",
-        "arxiv",
         "hackernews",
-        "reddit"
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
+      "expert_ratio": 0.77,
+      "headline": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
       "articles": [
         {
-          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
-          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
-          "source": "VentureBeat"
+          "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+          "source": "The Verge -  All Posts"
         },
         {
-          "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
-          "source": "The Register"
+          "title": "Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to ",
+          "url": "https://www.techmeme.com/260901/p48#a260901p48",
+          "source": "Techmeme"
         },
         {
-          "title": "OpenClaw Foundation brengt OpenClaw 2.0 uit na zeven weken",
-          "url": "https://tweakers.net/nieuws/251574/openclaw-foundation-brengt-openclaw-20-uit-na-zeven-weken.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1, cutting cache read prices by 75%",
+          "url": "https://thenextweb.com/news/claude-fable-mythos-5-1-eu-ai-act-watermark-detection-api-private-preview",
+          "source": "The Next Web"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "shocking evidence",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "articles": [
+        {
+          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
     {
       "keyword": "none",
       "mentions": 3,
@@ -200,6 +294,36 @@
       ]
     },
     {
+      "keyword": "skills",
+      "mentions": 3,
+      "velocity": 0.8,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "Hints Help But Do They Teach? Evaluating Skills Transfer in Code Generation",
+      "articles": [
+        {
+          "title": "Hints Help But Do They Teach? Evaluating Skills Transfer in Code Generation",
+          "url": "https://arxiv.org/abs/2609.01106",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+          "url": "https://arxiv.org/abs/2609.00065",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "mimeo: Compiling Public Expert Corpora into Agent Skills and Testing What Transfers",
+          "url": "https://arxiv.org/abs/2609.00453",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "ai companion",
       "mentions": 3,
       "velocity": 0.8,
@@ -216,56 +340,6 @@
           "title": "When AI dating goes wrong: as EVA AI hires the world's first ‘AI Companionship Therapist’, its resident relationship exp",
           "url": "https://www.techradar.com/ai-platforms-assistants/when-ai-dating-goes-wrong-eva-ai-hires-the-worlds-first-ai-companionship-therapist-a-psychotherapist-talks-chatbot-love-and-why-the-28-year-old-ceo-of-a-human-only-meet-up-app-thinks-ai-infatuation-is-over",
           "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "skills",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-      "articles": [
-        {
-          "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "1023: Agentic AI Skills That Matter Now, with Aishwarya Srinivasan",
-          "url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/E581B9/arttrk.com/p/VI4CS/pscrb.fm/rss/p/traffic.megaphone.fm/SUPERDATASCIENCEPTYLTD8547679039.mp3",
-          "source": "Super Data Science: ML ＆ AI Podcast with Jon Krohn"
-        },
-        {
-          "title": "These are the skills you need to navigate an increasingly uncertain future",
-          "url": "https://www.fastcompany.com/91585811/durable-skills-for-an-uncertain-future-skills-career-advice-uncertainty",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "llama 3",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
-      "articles": [
-        {
-          "title": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
-          "url": "https://arxiv.org/abs/2608.18419",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -300,31 +374,6 @@
       ]
     },
     {
-      "keyword": "openai codex",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 11,
-      "expert_ratio": 0.81,
-      "headline": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
-      "articles": [
-        {
-          "title": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
-          "url": "https://www.techradar.com/pro/security/some-mac-users-think-theyre-installing-openai-codex-but-its-actually-a-malware-that-can-steal-passwords-in-seconds",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Crooks push Mac malware through fake OpenAI Codex ads",
-          "url": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
       "keyword": "engineering",
       "mentions": 2,
       "velocity": 0.2,
@@ -333,44 +382,46 @@
       "confidence": 54,
       "days_active": 4,
       "expert_ratio": 0.86,
-      "headline": "Oracle pins hopes on 'Star Wars' productivity jump to lightspeed from AI-assisted engineering",
+      "headline": "Neurosymbolics for Data Engineering: Achieving Long Context Token Reduction Without Finetuning",
       "articles": [
+        {
+          "title": "Neurosymbolics for Data Engineering: Achieving Long Context Token Reduction Without Finetuning",
+          "url": "https://arxiv.org/abs/2609.00367",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Towards Agentic Cloud Engineering: Graph and Loop Engineering with a Zero-Trust Agent Harness",
+          "url": "https://arxiv.org/abs/2609.00050",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "Oracle pins hopes on 'Star Wars' productivity jump to lightspeed from AI-assisted engineering",
           "url": "https://www.theregister.com/ai-and-ml/2026/09/01/oracle-pins-hopes-on-star-wars-productivity-jump-to-lightspeed-from-ai-assisted-engineering-1/5293596",
           "source": "The Register"
-        },
-        {
-          "title": "Exploring Autonomous Agentic Data Engineering for Model Specialization",
-          "url": "https://arxiv.org/abs/2605.30407",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering",
-          "url": "https://arxiv.org/abs/2608.31102",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "ai regulation",
+      "keyword": "yolo",
       "mentions": 2,
       "velocity": 0.2,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 80,
-      "days_active": 14,
-      "expert_ratio": 0.71,
-      "headline": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 9,
+      "expert_ratio": 0.62,
+      "headline": "Real-Time Video Anomaly Detection Using YOLO Pose Estimation and CLIP-Based Semantic Scoring",
       "articles": [
         {
-          "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
-          "url": "https://arxiv.org/abs/2608.14562",
+          "title": "Real-Time Video Anomaly Detection Using YOLO Pose Estimation and CLIP-Based Semantic Scoring",
+          "url": "https://arxiv.org/abs/2608.31074",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "An Evaluation Framework for National AI Regulation",
-          "url": "https://arxiv.org/abs/2608.15417",
+          "title": "Depth-Aware Pothole Detection Using YOLO and RT-DETR at the Edge",
+          "url": "https://arxiv.org/abs/2608.27633",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -378,53 +429,105 @@
   ],
   "sustained": [
     {
-      "keyword": "llama",
-      "mentions": 39,
+      "keyword": "prompt engineering",
+      "mentions": 32,
       "velocity": 1.9,
       "sources": [
-        "articles",
         "arxiv",
-        "github",
-        "reddit"
+        "github"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "PepLLM: ESM-Guided Llama for Structured Protein-Peptide Binding Interface Analysis",
+      "expert_ratio": 0.87,
+      "headline": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
       "articles": [
         {
-          "title": "PepLLM: ESM-Guided Llama for Structured Protein-Peptide Binding Interface Analysis",
-          "url": "https://arxiv.org/abs/2608.21367",
+          "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
+          "url": "https://arxiv.org/abs/2608.21408",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
-          "url": "https://arxiv.org/abs/2608.18419",
+          "title": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
+          "url": "https://arxiv.org/abs/2608.20349",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs",
-          "url": "https://arxiv.org/abs/2608.14614",
+          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+          "url": "https://arxiv.org/abs/2608.19299",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "ai coding",
-      "mentions": 40,
-      "velocity": 1.7,
+      "keyword": "claude code",
+      "mentions": 41,
+      "velocity": 1.6,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
+        "hackernews",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.5,
+      "expert_ratio": 0.0,
+      "headline": "A researcher hijacked Claude Code by asking it to summarise a web page",
+      "articles": [
+        {
+          "title": "A researcher hijacked Claude Code by asking it to summarise a web page",
+          "url": "https://thenextweb.com/news/claude-code-prompt-injection-summarise-website-auto-mode",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "openclaw",
+      "mentions": 12,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.56,
+      "headline": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
+      "articles": [
+        {
+          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
+          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
+          "source": "The Register"
+        },
+        {
+          "title": "OpenClaw Foundation brengt OpenClaw 2.0 uit na zeven weken",
+          "url": "https://tweakers.net/nieuws/251574/openclaw-foundation-brengt-openclaw-20-uit-na-zeven-weken.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 38,
+      "velocity": 0.6,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.51,
       "headline": "Development of an Autonomous AI Coding Agent using Monte Carlo Tree Search (MCTS) and Gemini LLM Frameworks",
       "articles": [
         {
@@ -443,148 +546,27 @@
           "source": "VentureBeat"
         }
       ]
-    },
-    {
-      "keyword": "gemma",
-      "mentions": 20,
-      "velocity": 1.3,
-      "sources": [
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Nvidia says its Groq 3 LPX racks delivered 3,400 tokens per second in an Artificial Analysis benchmark running Gemma 4 3",
-      "articles": [
-        {
-          "title": "Nvidia says its Groq 3 LPX racks delivered 3,400 tokens per second in an Artificial Analysis benchmark running Gemma 4 3",
-          "url": "https://www.techmeme.com/260824/p25#a260824p25",
-          "source": "Techmeme"
-        },
-        {
-          "title": "How developers build AI for good with Gemma 4",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/winning-entries-gemma-4-good-challenge/",
-          "source": "The Official Google Blog"
-        },
-        {
-          "title": "Google says Gemma has passed a billion downloads",
-          "url": "https://thenextweb.com/news/google-gemma-one-billion-downloads-gemmaverse-variants",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "copilot",
-      "mentions": 37,
-      "velocity": 0.0,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "Copilot Pages: Work side by side with AI",
-      "articles": [
-        {
-          "title": "Copilot Pages: Work side by side with AI",
-          "url": "https://www.computerworld.com/article/4202427/copilot-pages-work-side-by-side-with-ai.html",
-          "source": "Computerworld"
-        },
-        {
-          "title": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year",
-          "url": "https://www.theregister.com/virtualization/2026/08/27/nutanix-built-20m-ai-cluster-to-reduce-use-of-copilot-and-claude-expects-roi-in-a-year/5292823",
-          "source": "The Register"
-        },
-        {
-          "title": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
-          "url": "https://www.techradar.com/computing/windows/the-version-microsoft-will-build-should-be-known-as-copilot-os-windows-built-around-ai-may-not-be-happening-but-leaked-concept-remains-a-grim-portent-for-desktops",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 82,
-      "velocity": -0.4,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "Pentagon launches ChatGPT and Grok models tailored to 'warfighter needs'",
-      "articles": [
-        {
-          "title": "Pentagon launches ChatGPT and Grok models tailored to 'warfighter needs'",
-          "url": "https://www.techradar.com/pro/pentagon-launches-chatgpt-and-grok-models-tailored-to-warfighter-needs",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "The Pentagon is deploying Grok and ChatGPT for its 1.7 million active military users",
-          "url": "https://qz.com/pentagon-grok-chatgpt-genai-mil-military-090126",
-          "source": "Quartz"
-        },
-        {
-          "title": "The Pentagon launches ChatGPT Mil and Grok for Government on its GenAI.mil platform, giving its 3M personnel access to A",
-          "url": "https://www.techmeme.com/260831/p38#a260831p38",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 34,
-      "velocity": -0.8,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
-      "articles": [
-        {
-          "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
-          "url": "https://arxiv.org/abs/2608.28497",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 163,
-    "covered": 74,
-    "coverage_rate": 0.454,
-    "early": 37,
-    "early_rate": 0.227,
-    "avg_lead_days": 14.9,
-    "median_lead_days": 9,
+    "scored_predictions": 165,
+    "covered": 76,
+    "coverage_rate": 0.461,
+    "early": 38,
+    "early_rate": 0.23,
+    "avg_lead_days": 14.6,
+    "median_lead_days": 8.5,
     "max_lead_days": 39,
-    "hit_rate": 0.454,
-    "materialized": 74,
+    "hit_rate": 0.461,
+    "materialized": 76,
     "by_signal_type": {
       "emerging": {
-        "scored": 80,
-        "covered": 62,
-        "early": 28,
-        "coverage_rate": 0.775,
-        "early_rate": 0.35,
-        "hit_rate": 0.775
+        "scored": 82,
+        "covered": 64,
+        "early": 29,
+        "coverage_rate": 0.78,
+        "early_rate": 0.354,
+        "hit_rate": 0.78
       },
       "weak_signal": {
         "scored": 83,
@@ -599,21 +581,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 163,
+    "n": 165,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.46,
-      "early_rate": 0.233
+      "coverage_rate": 0.467,
+      "early_rate": 0.236
     },
     "null_mean": {
-      "coverage_rate": 0.488,
-      "early_rate": 0.263
+      "coverage_rate": 0.494,
+      "early_rate": 0.262
     },
     "p_value": {
-      "coverage_rate": 0.978,
-      "early_rate": 0.917
+      "coverage_rate": 0.975,
+      "early_rate": 0.894
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -640,17 +622,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
       "materialized_on": "2026-08-19",
+      "lead_days": 33
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33
     },
     {
@@ -677,6 +659,36 @@
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "openclaw",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-02",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "prompt injection",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-02",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "ai alignment",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-02",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "tokenizer",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-02",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "llama 3",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-02",
+        "confidence": 0.2
+      },
       {
         "keyword": "cuda",
         "signal_type": "emerging",
@@ -718,121 +730,91 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-01",
         "confidence": 0.2
-      },
-      {
-        "keyword": "ai regulation",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-01",
-        "confidence": 0
-      },
-      {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-31",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "prompt engineering",
-        "signal_type": "emerging",
-        "flagged_on": "2026-08-31",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "h100",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-31",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "command r",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-08-31",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "context length",
-        "recent_mentions": 9,
+        "keyword": "higgsfield ai",
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 9.0,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "cowork",
-        "recent_mentions": 25,
+        "keyword": "cohere",
+        "recent_mentions": 20,
         "prior_mentions": 4,
-        "change_ratio": 6.25,
+        "change_ratio": 5.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "ai alignment",
+        "recent_mentions": 25,
+        "prior_mentions": 5,
+        "change_ratio": 5.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "opusclip",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
+        "keyword": "gamma",
+        "recent_mentions": 14,
+        "prior_mentions": 3,
+        "change_ratio": 4.67,
+        "corroborating_sources": 3
       },
       {
-        "keyword": "watermelon",
+        "keyword": "aider",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "context length",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "magnific",
+        "keyword": "deepseek v3",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai energy",
+        "keyword": "databricks",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "zhipu",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "gamma",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
-        "change_ratio": 3.67,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "glm 5",
-        "recent_mentions": 40,
+        "keyword": "prompt injection",
+        "recent_mentions": 42,
         "prior_mentions": 11,
-        "change_ratio": 3.64,
+        "change_ratio": 3.82,
         "corroborating_sources": 4
       },
       {
-        "keyword": "voice mode",
+        "keyword": "cuda",
+        "recent_mentions": 63,
+        "prior_mentions": 17,
+        "change_ratio": 3.71,
+        "corroborating_sources": 7
+      },
+      {
+        "keyword": "freepik",
         "recent_mentions": 7,
         "prior_mentions": 2,
         "change_ratio": 3.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "simplified",
-        "recent_mentions": 10,
-        "prior_mentions": 3,
-        "change_ratio": 3.33,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "ai alignment",
-        "recent_mentions": 19,
-        "prior_mentions": 6,
-        "change_ratio": 3.17,
+        "keyword": "chain of thought",
+        "recent_mentions": 21,
+        "prior_mentions": 7,
+        "change_ratio": 3.0,
         "corroborating_sources": 2
       }
     ]
