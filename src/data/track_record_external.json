@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T05:36:37+00:00",
+  "generated_at": "2026-09-03T17:35:55+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -16,14 +16,6 @@
     "hit_rate": 0.461,
     "materialized": 77,
     "by_signal_type": {
-      "emerging": {
-        "scored": 83,
-        "covered": 65,
-        "early": 29,
-        "coverage_rate": 0.783,
-        "early_rate": 0.349,
-        "hit_rate": 0.783
-      },
       "weak_signal": {
         "scored": 84,
         "covered": 12,
@@ -31,6 +23,14 @@
         "coverage_rate": 0.143,
         "early_rate": 0.107,
         "hit_rate": 0.143
+      },
+      "emerging": {
+        "scored": 83,
+        "covered": 65,
+        "early": 29,
+        "coverage_rate": 0.783,
+        "early_rate": 0.349,
+        "hit_rate": 0.783
       }
     }
   },
@@ -85,10 +85,10 @@
       "lead_days": 27
     },
     {
-      "keyword": "voice mode",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-16",
-      "materialized_on": "2026-07-08",
+      "keyword": "hallucinations",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-17",
+      "materialized_on": "2026-07-09",
       "lead_days": 22
     }
   ],
@@ -98,21 +98,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 165,
+    "n": 167,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
       "coverage_rate": 0.467,
-      "early_rate": 0.236
+      "early_rate": 0.234
     },
     "null_mean": {
-      "coverage_rate": 0.494,
-      "early_rate": 0.262
+      "coverage_rate": 0.497,
+      "early_rate": 0.265
     },
     "p_value": {
-      "coverage_rate": 0.975,
-      "early_rate": 0.894
+      "coverage_rate": 0.984,
+      "early_rate": 0.925
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
