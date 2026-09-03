@@ -1,89 +1,107 @@
 {
-  "generated_at": "2026-09-02T17:57:32+00:00",
+  "generated_at": "2026-09-03T05:36:56+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 110,
-    "resolved": 86,
+    "open": 111,
+    "resolved": 88,
     "hits": 17,
-    "misses": 69,
-    "hit_rate": 0.198
+    "misses": 71,
+    "hit_rate": 0.193
   },
   "open": [
     {
       "keyword": "chatbox",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-20",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "model context protocol",
       "signal_type": "emerging",
       "flagged_on": "2026-07-21",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "flops",
       "signal_type": "emerging",
       "flagged_on": "2026-07-21",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "aider",
       "signal_type": "emerging",
       "flagged_on": "2026-07-22",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "mistral",
       "signal_type": "emerging",
       "flagged_on": "2026-07-22",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "context window",
       "signal_type": "emerging",
       "flagged_on": "2026-07-22",
-      "days_left": 3
-    },
-    {
-      "keyword": "hermes-agent",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-07-23",
-      "days_left": 4
+      "days_left": 2
     },
     {
       "keyword": "poolside",
       "signal_type": "emerging",
       "flagged_on": "2026-07-23",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "small language model",
       "signal_type": "emerging",
       "flagged_on": "2026-07-24",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "fireworks ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-25",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "krea",
       "signal_type": "emerging",
       "flagged_on": "2026-07-26",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "durable",
       "signal_type": "emerging",
       "flagged_on": "2026-07-27",
-      "days_left": 8
+      "days_left": 7
+    },
+    {
+      "keyword": "flux",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-27",
+      "days_left": 7
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "ai bubble",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-19",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "deepmind",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-19",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "grok",
       "signal_type": "emerging",
@@ -186,24 +204,6 @@
     {
       "keyword": "gpt-5",
       "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-11",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "deepseek",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-11",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "stability ai",
-      "signal_type": "weak_signal",
       "status": "miss",
       "flagged_on": "2026-07-11",
       "resolved_on": null,

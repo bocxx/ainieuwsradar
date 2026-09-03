@@ -1,57 +1,122 @@
 {
-  "generated_at": "2026-09-02T19:28:23.228124",
-  "total_tracked": 3657,
+  "generated_at": "2026-09-03T07:19:11.986880",
+  "total_tracked": 3560,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "reinforcement learning",
-      "mentions": 88,
-      "velocity": 3.0,
+      "mentions": 173,
+      "velocity": 27.8,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
-        "reddit"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.98,
-      "headline": "Provably Efficient Federated Reinforcement Learning with Linear Function Approximation and Logarithmic Communication Cos",
+      "headline": "SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning",
       "articles": [
-        {
-          "title": "Provably Efficient Federated Reinforcement Learning with Linear Function Approximation and Logarithmic Communication Cos",
-          "url": "https://arxiv.org/abs/2609.00193",
-          "source": "stat.ML updates on arXiv.org"
-        },
         {
           "title": "SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning",
           "url": "https://arxiv.org/abs/2511.09681",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "The Artificial Experimentalist: Discovery and Control of Self-Organizing Phenomena with Autotelic Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2608.26116",
+          "title": "Reinforcement Learning for Heterogeneous Sensor Selection in Maritime Surveillance",
+          "url": "https://arxiv.org/abs/2607.22667",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2603.03072",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "perplexity",
-      "mentions": 34,
-      "velocity": 2.7,
+      "keyword": "agentic",
+      "mentions": 200,
+      "velocity": 18.1,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
         "linkedin",
-        "reddit"
+        "twitter"
       ],
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.64,
+      "expert_ratio": 0.79,
+      "headline": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
+      "articles": [
+        {
+          "title": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
+          "url": "https://arxiv.org/abs/2608.21377",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "TopoBrick: Agentic Topology Sampling of Exogenous Variables for Zero-Shot Building IoT Forecasting",
+          "url": "https://arxiv.org/abs/2607.06349",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Zeta-Lite: A Concurrent, Branchable In-Browser SQL Database for Agentic Memory",
+          "url": "https://arxiv.org/abs/2609.01818",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "claude",
+      "mentions": 506,
+      "velocity": 6.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "Claude Mythos only model to complete full cyber kill chain, experts say",
+      "articles": [
+        {
+          "title": "Claude Mythos only model to complete full cyber kill chain, experts say",
+          "url": "https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071",
+          "source": "The Register"
+        },
+        {
+          "title": "Stolen Claude session cookies can reach corporate Gmail through grants no IT admin can revoke",
+          "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
+      "keyword": "perplexity",
+      "mentions": 43,
+      "velocity": 4.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.65,
       "headline": "Perplexity launches Hybrid Compute, which splits workloads between frontier cloud models like Opus 5 and local LLMs, for",
       "articles": [
         {
@@ -72,35 +137,40 @@
       ]
     },
     {
-      "keyword": "claude code",
-      "mentions": 44,
-      "velocity": 2.5,
+      "keyword": "ai coding",
+      "mentions": 45,
+      "velocity": 2.1,
       "sources": [
         "articles",
+        "arxiv",
+        "github",
         "hackernews",
-        "reddit",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Developer uses Claude Code to debloat Android smart TV for 'unbelievable' performance upgrade — TV now smoother than it ",
+      "expert_ratio": 0.5,
+      "headline": "Snowflake Raises Annual Sales Forecast as AI Coding Adoption Grows",
       "articles": [
         {
-          "title": "Developer uses Claude Code to debloat Android smart TV for 'unbelievable' performance upgrade — TV now smoother than it ",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-uses-claude-code-to-debloat-android-smart-tv-for-unbelievable-performance-upgrade-tv-now-smoother-than-it-was-new-as-autonomous-agent-deactivates-apps-shortens-animations-all-without-root-access",
-          "source": "Tom's Hardware"
+          "title": "Snowflake Raises Annual Sales Forecast as AI Coding Adoption Grows",
+          "url": "https://www.theinformation.com/briefings/snowflake-raises-annual-sales-forecast-ai-coding-adoption-grows",
+          "source": "The Information"
         },
         {
-          "title": "A researcher hijacked Claude Code by asking it to summarise a web page",
-          "url": "https://thenextweb.com/news/claude-code-prompt-injection-summarise-website-auto-mode?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "title": "Anthropic is making its most powerful AI coding model cheaper to run",
+          "url": "https://qz.com/anthropic-fable-5-1-cheaper-coding-model-090226",
+          "source": "Quartz"
+        },
+        {
+          "title": "Development of an Autonomous AI Coding Agent using Monte Carlo Tree Search (MCTS) and Gemini LLM Frameworks",
+          "url": "https://arxiv.org/abs/2608.29096",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
-  "emerging": [],
   "weak_signals": [
     {
       "keyword": "none",
@@ -128,7 +198,7 @@
         {
           "title": "I'm a doctor who tracks my health. My 93-year-old dad does none of that.",
           "url": "https://www.businessinsider.com/healthy-aging-longevity-habits-no-gym-2026-8",
-          "source": "All Content from Business Insider"
+          "source": "Business Insider"
         }
       ]
     },
@@ -143,21 +213,21 @@
       "confidence": 69,
       "days_active": 3,
       "expert_ratio": 0.86,
-      "headline": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+      "headline": "SKILL.state: Scalable Long-Horizon Agent Skills",
       "articles": [
         {
-          "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
-          "url": "https://arxiv.org/abs/2609.00065",
+          "title": "SKILL.state: Scalable Long-Horizon Agent Skills",
+          "url": "https://arxiv.org/abs/2608.26263",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "mimeo: Compiling Public Expert Corpora into Agent Skills and Testing What Transfers",
-          "url": "https://arxiv.org/abs/2609.00453",
+          "title": "OptSkills: Learning Generalizable Optimization Skills from Problem Archetypes via Cluster-Based Distillation",
+          "url": "https://arxiv.org/abs/2605.29829",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Hints Help But Do They Teach? Evaluating Skills Transfer in Code Generation",
-          "url": "https://arxiv.org/abs/2609.01106",
+          "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
+          "url": "https://arxiv.org/abs/2609.02749",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -183,6 +253,26 @@
       ]
     },
     {
+      "keyword": "shocking evidence",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 3,
+      "expert_ratio": 0.9,
+      "headline": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "articles": [
+        {
+          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
       "keyword": "sovereign ai",
       "mentions": 3,
       "velocity": 0.3,
@@ -191,8 +281,8 @@
       ],
       "source_count": 1,
       "confidence": 95,
-      "days_active": 13,
-      "expert_ratio": 0.8,
+      "days_active": 12,
+      "expert_ratio": 0.79,
       "headline": "A look at South Korea's sovereign AI efforts, including its planned $919B AI infrastructure investment and Nvidia's expa",
       "articles": [
         {
@@ -221,21 +311,41 @@
       "confidence": 54,
       "days_active": 4,
       "expert_ratio": 0.86,
-      "headline": "Forward-deployed engineering is how enterprise AI learns",
+      "headline": "Adaptive Graph-of-Islands Evolution for Automatic Feature Engineering with LLMs",
       "articles": [
         {
-          "title": "Forward-deployed engineering is how enterprise AI learns",
-          "url": "https://venturebeat.com/orchestration/forward-deployed-engineering-is-how-enterprise-ai-learns?utm_source=flipboard&utm_content=user/venturebeat",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Neurosymbolics for Data Engineering: Achieving Long Context Token Reduction Without Finetuning",
-          "url": "https://arxiv.org/abs/2609.00367",
+          "title": "Adaptive Graph-of-Islands Evolution for Automatic Feature Engineering with LLMs",
+          "url": "https://arxiv.org/abs/2607.23286",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Towards Agentic Cloud Engineering: Graph and Loop Engineering with a Zero-Trust Agent Harness",
-          "url": "https://arxiv.org/abs/2609.00050",
+          "title": "OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations",
+          "url": "https://arxiv.org/abs/2609.02149",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives",
+          "url": "https://arxiv.org/abs/2609.01736",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "deltanet",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 7,
+      "expert_ratio": 1.0,
+      "headline": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids",
+      "articles": [
+        {
+          "title": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids",
+          "url": "https://arxiv.org/abs/2608.20961",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -243,241 +353,153 @@
   ],
   "sustained": [
     {
-      "keyword": "openclaw",
-      "mentions": 15,
-      "velocity": 1.9,
+      "keyword": "simulation",
+      "mentions": 34,
+      "velocity": 1.8,
       "sources": [
         "articles",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
-      "articles": [
-        {
-          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
-          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
-          "source": "The Register"
-        },
-        {
-          "title": "OpenClaw Foundation brengt OpenClaw 2.0 uit na zeven weken",
-          "url": "https://tweakers.net/nieuws/251574/openclaw-foundation-brengt-openclaw-20-uit-na-zeven-weken.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
-      "keyword": "together",
-      "mentions": 51,
-      "velocity": 1.6,
-      "sources": [
-        "articles",
-        "hackernews",
+        "arxiv",
         "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "SoK: When Safe Agents Fail Together: The Security of Multi Agent LLM Systems",
+      "expert_ratio": 0.88,
+      "headline": "Before the Script, Set the Stage: How Worldview Simulation Amplifies Psychologically Grounded Persuasion in Multi-Turn J",
       "articles": [
         {
-          "title": "SoK: When Safe Agents Fail Together: The Security of Multi Agent LLM Systems",
-          "url": "https://arxiv.org/abs/2609.00595",
+          "title": "Before the Script, Set the Stage: How Worldview Simulation Amplifies Psychologically Grounded Persuasion in Multi-Turn J",
+          "url": "https://arxiv.org/abs/2609.02414",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Sony's new ULT Tower are party speakers that chain together with Auracast",
-          "url": "https://www.engadget.com/2247598/sonys-new-ult-tower-are-party-speakers-that-chain-together-with-auracast/",
-          "source": "Engadget"
+          "title": "OutageDiT: A Generative Foundation Model for Power Outage Forecasting and Scenario Simulation",
+          "url": "https://arxiv.org/abs/2609.01896",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Every couple from the 'Love Island USA' universe who are still together",
-          "url": "https://www.businessinsider.com/love-island-usa-couples-still-together",
-          "source": "All Content from Business Insider"
+          "title": "Director says Afterworld has 'some of the deepest simulation' of any Paradox strategy game — 'The idea is to drip-feed y",
+          "url": "https://www.techradar.com/gaming/pc-gaming/director-says-afterworld-has-some-of-the-deepest-simulation-of-any-paradox-strategy-game-the-idea-is-to-drip-feed-you-until-youre-hooked",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "cursor",
-      "mentions": 72,
-      "velocity": 1.4,
+      "keyword": "openai",
+      "mentions": 336,
+      "velocity": 1.7,
       "sources": [
         "articles",
+        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.45,
-      "headline": "OpenAI is cutting off AI model access to Cursor after SpaceX acquisition",
+      "expert_ratio": 0.77,
+      "headline": "OpenAI tells House Democrats it is building automated shutdown capability",
       "articles": [
         {
-          "title": "OpenAI is cutting off AI model access to Cursor after SpaceX acquisition",
-          "url": "https://qz.com/openai-cutting-cursor-ai-model-access-spacex-acquisition-083126",
-          "source": "Quartz"
+          "title": "OpenAI tells House Democrats it is building automated shutdown capability",
+          "url": "https://thenextweb.com/news/openai-automated-shutdown-house-democrats-logs-withheld-eu-ai-act-article-93-withdraw-recall",
+          "source": "The Next Web"
         },
         {
-          "title": "Cursor senza ChatGPT dopo l'acquisto di Musk, un danno per gli utenti?",
-          "url": "https://www.tomshw.it/business/cursor-senza-chatgpt-dopo-lacquisto-di-musk-un-danno-per-gli-utenti",
-          "source": "Tom's Hardware"
+          "title": "Meta’s new AI model edges closer to OpenAI and Anthropic, its AI Chief says",
+          "url": "https://thenextweb.com/news/meta-muse-spark-1-3-undecided-weights-eu-ai-act-article-53-open-source-exemption-systemic-risk",
+          "source": "The Next Web"
         },
         {
-          "title": "OpenAI says it's ending its deal with Cursor because Elon Musk's companies violate contracts",
-          "url": "https://www.businessinsider.com/openai-ends-cursor-contract-elon-musk-spacex-sam-altman-feud-2026-8",
-          "source": "Business Insider"
+          "title": "Justice Department sides with OpenAI in publishers’ copyright fight",
+          "url": "https://thenextweb.com/news/doj-statement-of-interest-openai-copyright-fair-use-eu-ai-act-recital-106-tdm-opt-out",
+          "source": "The Next Web"
         }
       ]
     },
     {
-      "keyword": "macbook",
-      "mentions": 13,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "Dell's new 14-inch laptop clearly takes aim at the MacBook Neo — but I'm worried about the price",
-      "articles": [
-        {
-          "title": "Dell's new 14-inch laptop clearly takes aim at the MacBook Neo — but I'm worried about the price",
-          "url": "https://www.techradar.com/computing/windows-laptops/dells-new-14-inch-laptop-clearly-takes-aim-at-the-macbook-neo-but-im-worried-about-the-price",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Acer’s new MacBook Air rival is nearly a pound lighter than Apple’s laptop",
-          "url": "https://www.theverge.com/gadgets/987802/acer-swift-blade-14-air-16-laptop-ifa-price-specs",
-          "source": "The Verge -  All Posts"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 17,
-      "velocity": 0.8,
+      "keyword": "ai safety",
+      "mentions": 16,
+      "velocity": 0.6,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin"
+        "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Scaricare Claude Opus 5 gratis può costare password e wallet",
+      "expert_ratio": 0.71,
+      "headline": "OpenAI’s new reasoning technique alarms AI safety experts",
       "articles": [
         {
-          "title": "Scaricare Claude Opus 5 gratis può costare password e wallet",
-          "url": "https://www.tomshw.it/hardware/claude-opus-5-diventa-unesca-i-falsi-download-rubano-i-dati",
-          "source": "Tom's Hardware"
+          "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Meta researchers taught an 8B AI model to match Claude Opus 4.5 — without the frontier price tag",
-          "url": "https://venturebeat.com/orchestration/meta-researchers-taught-an-8b-ai-model-to-match-claude-opus-4-5-without-the-frontier-price-tag",
-          "source": "VentureBeat"
+          "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+          "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Amazon security engineer hacks PC accessories with Claude Opus to make them work better — Asus, Insta360 and Elgato prod",
-          "url": "https://www.techradar.com/ai-platforms-assistants/claude/amazon-security-engineer-hacks-pc-accessories-with-claude-opus-to-make-them-work-better-asus-insta360-and-elgato-products-reverse-engineered-in-hours-for-better-control-but-engineer-admits-this-also-scares-me",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "kimi",
-      "mentions": 14,
-      "velocity": 0.8,
-      "sources": [
-        "articles",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K",
-      "articles": [
-        {
-          "title": "Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K",
-          "url": "https://www.techmeme.com/260826/p17#a260826p17",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Moonshot AI wants 30% of what US clouds earn from Kimi K3",
-          "url": "https://thenextweb.com/news/moonshot-k3-revenue-sharing-us-clouds",
-          "source": "The Next Web"
-        },
-        {
-          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
-          "url": "https://www.techmeme.com/260825/p24#a260825p24",
-          "source": "Techmeme"
+          "title": "OpenAI supports California’s bill to advance youth AI safety",
+          "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+          "source": "OpenAI News"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 165,
-    "covered": 76,
+    "scored_predictions": 167,
+    "covered": 77,
     "coverage_rate": 0.461,
     "early": 38,
-    "early_rate": 0.23,
+    "early_rate": 0.228,
     "avg_lead_days": 14.6,
     "median_lead_days": 8.5,
     "max_lead_days": 39,
     "hit_rate": 0.461,
-    "materialized": 76,
+    "materialized": 77,
     "by_signal_type": {
       "emerging": {
-        "scored": 82,
-        "covered": 64,
+        "scored": 83,
+        "covered": 65,
         "early": 29,
-        "coverage_rate": 0.78,
-        "early_rate": 0.354,
-        "hit_rate": 0.78
+        "coverage_rate": 0.783,
+        "early_rate": 0.349,
+        "hit_rate": 0.783
       },
       "weak_signal": {
-        "scored": 83,
+        "scored": 84,
         "covered": 12,
         "early": 9,
-        "coverage_rate": 0.145,
-        "early_rate": 0.108,
-        "hit_rate": 0.145
+        "coverage_rate": 0.143,
+        "early_rate": 0.107,
+        "hit_rate": 0.143
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 165,
+    "n": 167,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
       "coverage_rate": 0.467,
-      "early_rate": 0.236
+      "early_rate": 0.234
     },
     "null_mean": {
-      "coverage_rate": 0.494,
-      "early_rate": 0.262
+      "coverage_rate": 0.497,
+      "early_rate": 0.265
     },
     "p_value": {
-      "coverage_rate": 0.975,
-      "early_rate": 0.894
+      "coverage_rate": 0.984,
+      "early_rate": 0.925
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -504,17 +526,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
       "materialized_on": "2026-07-29",
+      "lead_days": 33
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
       "lead_days": 33
     },
     {
@@ -542,6 +564,18 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "hermes-agent",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-03",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "notion",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-03",
+        "confidence": 0.2
+      },
+      {
         "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-09-02",
@@ -566,12 +600,6 @@
         "confidence": 0.4
       },
       {
-        "keyword": "prompt injection",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-02",
-        "confidence": 0.2
-      },
-      {
         "keyword": "ai alignment",
         "signal_type": "emerging",
         "flagged_on": "2026-09-02",
@@ -584,13 +612,19 @@
         "confidence": 0.2
       },
       {
-        "keyword": "grok",
+        "keyword": "prompt injection",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-02",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "cuda",
         "signal_type": "emerging",
         "flagged_on": "2026-09-01",
         "confidence": 1.0
       },
       {
-        "keyword": "cuda",
+        "keyword": "grok",
         "signal_type": "emerging",
         "flagged_on": "2026-09-01",
         "confidence": 1.0
@@ -600,104 +634,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-01",
         "confidence": 0.8
-      },
-      {
-        "keyword": "flair",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-01",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "ai copyright",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-01",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "higgsfield ai",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "cohere",
-        "recent_mentions": 20,
-        "prior_mentions": 4,
-        "change_ratio": 5.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "gamma",
-        "recent_mentions": 14,
-        "prior_mentions": 3,
-        "change_ratio": 4.67,
-        "corroborating_sources": 3
-      },
-      {
         "keyword": "aider",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "recent_mentions": 10,
+        "prior_mentions": 1,
+        "change_ratio": 10.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "context length",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai alignment",
-        "recent_mentions": 21,
-        "prior_mentions": 5,
-        "change_ratio": 4.2,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "deepseek v3",
+        "keyword": "manus",
         "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "databricks",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "freepik",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "computer-use",
+        "recent_mentions": 14,
+        "prior_mentions": 2,
+        "change_ratio": 7.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "context length",
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai alignment",
+        "recent_mentions": 29,
+        "prior_mentions": 6,
+        "change_ratio": 4.83,
+        "corroborating_sources": 2
       },
       {
         "keyword": "prompt injection",
-        "recent_mentions": 35,
+        "recent_mentions": 45,
         "prior_mentions": 11,
-        "change_ratio": 3.18,
+        "change_ratio": 4.09,
         "corroborating_sources": 4
       },
       {
-        "keyword": "cuda",
-        "recent_mentions": 54,
+        "keyword": "browser use",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "gamma",
+        "recent_mentions": 14,
+        "prior_mentions": 4,
+        "change_ratio": 3.5,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "openclaw",
+        "recent_mentions": 59,
         "prior_mentions": 17,
-        "change_ratio": 3.18,
+        "change_ratio": 3.47,
         "corroborating_sources": 7
       },
       {
-        "keyword": "magnific",
-        "recent_mentions": 9,
-        "prior_mentions": 3,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
+        "keyword": "chain of thought",
+        "recent_mentions": 17,
+        "prior_mentions": 5,
+        "change_ratio": 3.4,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "cuda",
+        "recent_mentions": 59,
+        "prior_mentions": 18,
+        "change_ratio": 3.28,
+        "corroborating_sources": 7
       }
     ]
   }

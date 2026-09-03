@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-02T17:57:13+00:00",
+  "generated_at": "2026-09-03T05:36:37+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 165,
-    "covered": 76,
+    "scored_predictions": 167,
+    "covered": 77,
     "coverage_rate": 0.461,
     "early": 38,
-    "early_rate": 0.23,
+    "early_rate": 0.228,
     "avg_lead_days": 14.6,
     "median_lead_days": 8.5,
     "max_lead_days": 39,
     "hit_rate": 0.461,
-    "materialized": 76,
+    "materialized": 77,
     "by_signal_type": {
       "emerging": {
-        "scored": 82,
-        "covered": 64,
+        "scored": 83,
+        "covered": 65,
         "early": 29,
-        "coverage_rate": 0.78,
-        "early_rate": 0.354,
-        "hit_rate": 0.78
+        "coverage_rate": 0.783,
+        "early_rate": 0.349,
+        "hit_rate": 0.783
       },
       "weak_signal": {
-        "scored": 83,
+        "scored": 84,
         "covered": 12,
         "early": 9,
-        "coverage_rate": 0.145,
-        "early_rate": 0.108,
-        "hit_rate": 0.145
+        "coverage_rate": 0.143,
+        "early_rate": 0.107,
+        "hit_rate": 0.143
       }
     }
   },
@@ -57,17 +57,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
       "materialized_on": "2026-07-29",
+      "lead_days": 33
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
       "lead_days": 33
     },
     {
