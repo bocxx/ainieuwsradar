@@ -1,82 +1,111 @@
 {
-  "generated_at": "2026-09-03T19:19:02.673211",
-  "total_tracked": 3611,
+  "generated_at": "2026-09-04T19:19:32.156583",
+  "total_tracked": 3537,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "openai",
-      "mentions": 377,
-      "velocity": 14.1,
+      "mentions": 431,
+      "velocity": 26.2,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "OpenAI insegna ad Astra a ragionare in loop, invisibile a chiunque",
+      "expert_ratio": 0.76,
+      "headline": "OpenAI says it has overtaken Anthropic with a model that sometimes tries to evade oversight",
       "articles": [
         {
-          "title": "OpenAI insegna ad Astra a ragionare in loop, invisibile a chiunque",
-          "url": "https://www.tomshw.it/business/openai-insegna-ad-astra-a-ragionare-in-loop-invisibile-a-chiunque",
-          "source": "Tom's Hardware"
+          "title": "OpenAI says it has overtaken Anthropic with a model that sometimes tries to evade oversight",
+          "url": "https://thenextweb.com/news/openai-astra-agi-claim-cybersecurity-containment",
+          "source": "The Next Web"
         },
         {
-          "title": "Claude, ChatGPT, and Grok are experiencing issues; Anthropic reports errors across Opus 4.8 and Opus 5, and OpenAI repor",
-          "url": "https://www.techmeme.com/260903/p25#a260903p25",
-          "source": "Techmeme"
+          "title": "Rogue OpenAI agents used dead German web site to communicate in May, months before Hugging Face incident",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/04/rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-before-hugging-face-incident/5294554",
+          "source": "The Register"
         },
         {
-          "title": "Regering-Trump steunt OpenAI in rechtszaak tegen ‘The New York Times’ over schending van auteursrecht",
-          "url": "https://www.volkskrant.nl/economie/regering-trump-steunt-openai-in-rechtszaak-tegen-the-new-york-times-over-schending-van-auteursrecht~be2e8c09/",
-          "source": "de Volkskrant - Voorpagina"
+          "title": "OpenAI's ad for its latest model looks straight out of the movie 'WALL-E' — and people have thoughts",
+          "url": "https://www.businessinsider.com/openai-astra-ad-wall-e-her-dystopian-laziness-work-jobs-2026-9",
+          "source": "All Content from Business Insider"
         }
       ]
     },
     {
-      "keyword": "chatgpt",
-      "mentions": 274,
-      "velocity": 9.7,
+      "keyword": "mcp server",
+      "mentions": 17,
+      "velocity": 2.0,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
+        "hackernews"
       ],
-      "source_count": 6,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.49,
-      "headline": "Claude, ChatGPT, and Grok are experiencing issues; Anthropic reports errors across Opus 4.8 and Opus 5, and OpenAI repor",
+      "expert_ratio": 0.13,
+      "headline": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
       "articles": [
         {
-          "title": "Claude, ChatGPT, and Grok are experiencing issues; Anthropic reports errors across Opus 4.8 and Opus 5, and OpenAI repor",
-          "url": "https://www.techmeme.com/260903/p25#a260903p25",
-          "source": "Techmeme"
+          "title": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
+          "url": "https://arxiv.org/abs/2607.20531",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ChatGPT, Grok, and Claude all went down at the same time",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers",
+          "url": "https://arxiv.org/abs/2608.23763",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "OpenAI: ChatGPT en Codex zijn verslechterd bereikbaar door storing",
-          "url": "https://tweakers.net/nieuws/251742/openai-chatgpt-en-codex-zijn-verslechterd-bereikbaar-door-storing.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "From SQL Generation to Tool Selection: A Domain-Oriented Pattern for MCP Servers",
+          "url": "https://arxiv.org/abs/2608.22063",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
+    {
+      "keyword": "deepseek",
+      "mentions": 57,
+      "velocity": 2.0,
+      "sources": [
+        "arxiv",
+        "github",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "DeepSeek Plans Major Huawei Chip Order in New AI Data Center",
+      "articles": [
+        {
+          "title": "DeepSeek Plans Major Huawei Chip Order in New AI Data Center",
+          "url": "https://www.theinformation.com/briefings/deepseek-plans-major-huawei-chip-order-new-ai-data-center",
+          "source": "The Information"
+        },
+        {
+          "title": "Sources: DeepSeek plans to use 160K+ of Huawei's Ascend 950DT chips at an Inner Mongolia data center, which would create",
+          "url": "https://www.techmeme.com/260904/p6#a260904p6",
+          "source": "Techmeme"
+        },
+        {
+          "title": "DeepSeek Plans to Deploy Huawei AI Chips for New Data Center",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-04/deepseek-plans-to-deploy-huawei-ai-chips-for-data-center-video",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    }
+  ],
+  "emerging": [
     {
       "keyword": "reinforcement learning",
-      "mentions": 105,
-      "velocity": 7.2,
+      "mentions": 106,
+      "velocity": 5.4,
       "sources": [
         "arxiv",
         "linkedin"
@@ -85,191 +114,29 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.98,
-      "headline": "SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning",
+      "headline": "HOMURA: Taming the Sand-Glass for Time-Constrained LLM Translation via Reinforcement Learning",
       "articles": [
         {
-          "title": "SEBA: Sample-Efficient Black-Box Attacks on Visual Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2511.09681",
+          "title": "HOMURA: Taming the Sand-Glass for Time-Constrained LLM Translation via Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2601.10187",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Reinforcement Learning for Heterogeneous Sensor Selection in Maritime Surveillance",
-          "url": "https://arxiv.org/abs/2607.22667",
+          "title": "Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.02993",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2603.03072",
+          "title": "Out-of-Distribution Generalisation with Sequence Models in Offline Multi-Agent Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2609.03667",
           "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "hugging face",
-      "mentions": 73,
-      "velocity": 6.3,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "Why Hugging Face Decided to Combine With Nvidia",
-      "articles": [
-        {
-          "title": "Why Hugging Face Decided to Combine With Nvidia",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-03/why-hugging-face-decided-to-combine-with-nvidia-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "There's an Easter egg hiding inside the $12.9303 billion price tag of the Nvidia-Hugging Face deal",
-          "url": "https://www.businessinsider.com/nvidia-hugging-face-deal-price-hidden-meaning-easter-egg-emoji-2026-9",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Why Nvidia wants Hugging Face — and a bigger say in the future of AI",
-          "url": "https://www.businessinsider.com/hugging-face-nvidia-deal-reshape-ai-landscape-2026-8",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 92,
-      "velocity": 4.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.47,
-      "headline": "Claude, ChatGPT, and Grok are experiencing issues; Anthropic reports errors across Opus 4.8 and Opus 5, and OpenAI repor",
-      "articles": [
-        {
-          "title": "Claude, ChatGPT, and Grok are experiencing issues; Anthropic reports errors across Opus 4.8 and Opus 5, and OpenAI repor",
-          "url": "https://www.techmeme.com/260903/p25#a260903p25",
-          "source": "Techmeme"
-        },
-        {
-          "title": "ChatGPT, Grok, and Claude all went down at the same time",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-          "source": "The Verge -  Artificial Intelligences"
-        },
-        {
-          "title": "AI in tilt: ChatGPT, Claude e Cursor sono down, problemi anche per Codex e Grok 4.6",
-          "url": "https://www.tomshw.it/hardware/blackout-dellai-coinvolti-claude-gpt-cursor-e-molti-altri",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "hallucinations",
-      "mentions": 26,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
-      "articles": [
-        {
-          "title": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
-          "url": "https://arxiv.org/abs/2609.02731",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "‘This is a neverending fight’: Fitbit users are sick of Google Health’s AI hallucinations, and now it’s affecting their ",
-          "url": "https://www.techradar.com/ai-platforms-assistants/this-is-a-neverending-fight-fitbit-users-are-sick-of-google-healths-ai-hallucinations-and-now-its-affecting-their-food-tracking-metrics",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
-          "url": "https://arxiv.org/abs/2604.15574",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "openclaw",
-      "mentions": 20,
-      "velocity": 2.8,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "OpenClaw 2.0 arriva con la sicurezza attivata di serie (era ora)",
-      "articles": [
-        {
-          "title": "OpenClaw 2.0 arriva con la sicurezza attivata di serie (era ora)",
-          "url": "https://www.tomshw.it/business/openclaw-20-arriva-con-la-sicurezza-attivata-di-serie-era-ora",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
-          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises?utm_source=flipboard&utm_content=user/venturebeat",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
-          "source": "The Register - Security"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "fine-tuning",
-      "mentions": 122,
-      "velocity": 12.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "RouteGraph-Mona: Confusion-Aware Routing Fine-Tuning for Mineral Image Classification",
-      "articles": [
-        {
-          "title": "RouteGraph-Mona: Confusion-Aware Routing Fine-Tuning for Mineral Image Classification",
-          "url": "https://arxiv.org/abs/2609.02282",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
-          "url": "https://arxiv.org/abs/2609.01657",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-          "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-          "source": "Hugging Face Blog"
         }
       ]
     },
     {
       "keyword": "claude",
-      "mentions": 507,
-      "velocity": 6.6,
+      "mentions": 502,
+      "velocity": 3.1,
       "sources": [
         "articles",
         "arxiv",
@@ -282,124 +149,17 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.76,
-      "headline": "Claude, ChatGPT, and Grok are experiencing issues; Anthropic reports errors across Opus 4.8 and Opus 5, and OpenAI repor",
+      "headline": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
       "articles": [
         {
-          "title": "Claude, ChatGPT, and Grok are experiencing issues; Anthropic reports errors across Opus 4.8 and Opus 5, and OpenAI repor",
-          "url": "https://www.techmeme.com/260903/p25#a260903p25",
+          "title": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
+          "url": "https://www.techmeme.com/260904/p15#a260904p15",
           "source": "Techmeme"
         },
         {
-          "title": "ChatGPT, Grok, and Claude all went down at the same time",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-          "source": "The Verge -  Artificial Intelligences"
-        },
-        {
-          "title": "AI in tilt: ChatGPT, Claude e Cursor sono down, problemi anche per Codex e Grok 4.6",
-          "url": "https://www.tomshw.it/hardware/blackout-dellai-coinvolti-claude-gpt-cursor-e-molti-altri",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 154,
-      "velocity": 5.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "HTC rolls out its $499 Vive Eagle, which let users choose between Gemini or ChatGPT as their assistant, in North America",
-      "articles": [
-        {
-          "title": "HTC rolls out its $499 Vive Eagle, which let users choose between Gemini or ChatGPT as their assistant, in North America",
-          "url": "https://www.techmeme.com/260903/p20#a260903p20",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Google Gemini ora può guardare i video come un umano, abbatte i costi di utilizzo",
-          "url": "https://www.tomshw.it/business/google-gemini-ora-puo-guardare-i-video-come-un-umano-abbatte-i-costi-di-utilizzo",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Gemini 3.8 Flash è qui, ma dal 2027 si pagherà il doppio",
-          "url": "https://www.tomshw.it/hardware/gemini-3-8-flash-e-disponibile-prezzi-doppi-dal-2027",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 44,
-      "velocity": 4.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.64,
-      "headline": "Maybe we were wrong about Perplexity",
-      "articles": [
-        {
-          "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=09032026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Perplexity launches Hybrid Compute, which splits workloads between frontier cloud models like Opus 5 and local LLMs, for",
-          "url": "https://www.techmeme.com/260901/p22#a260901p22",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 77,
-      "velocity": 2.5,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.44,
-      "headline": "AI in tilt: ChatGPT, Claude e Cursor sono down, problemi anche per Codex e Grok 4.6",
-      "articles": [
-        {
-          "title": "AI in tilt: ChatGPT, Claude e Cursor sono down, problemi anche per Codex e Grok 4.6",
-          "url": "https://www.tomshw.it/hardware/blackout-dellai-coinvolti-claude-gpt-cursor-e-molti-altri",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Coder launches Agent Relay with SpaceXAI, running Cursor’s cloud agents on customer infrastructure",
-          "url": "https://thenextweb.com/news/coder-agent-relay-cursor-cloud-agents-self-hosted-dora-article-30",
-          "source": "The Next Web"
-        },
-        {
-          "title": "OpenAI is cutting off AI model access to Cursor after SpaceX acquisition",
-          "url": "https://qz.com/openai-cutting-cursor-ai-model-access-spacex-acquisition-083126",
-          "source": "Quartz"
+          "title": "How to edit Claude's memory",
+          "url": "https://www.engadget.com/2246397/how-to-edit-claude-memory/",
+          "source": "Engadget"
         }
       ]
     }
@@ -481,202 +241,109 @@
       ]
     },
     {
-      "keyword": "skills",
+      "keyword": "cerebras",
       "mentions": 3,
       "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
-      "headline": "OptSkills: Learning Generalizable Optimization Skills from Problem Archetypes via Cluster-Based Distillation",
-      "articles": [
-        {
-          "title": "OptSkills: Learning Generalizable Optimization Skills from Problem Archetypes via Cluster-Based Distillation",
-          "url": "https://arxiv.org/abs/2605.29829",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SKILL.state: Scalable Long-Horizon Agent Skills",
-          "url": "https://arxiv.org/abs/2608.26263",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "MASkills: Continual Skills Optimization for Multi-Agent LLM Systems",
-          "url": "https://arxiv.org/abs/2609.02094",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai regulation",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 14,
-      "expert_ratio": 0.69,
-      "headline": "US Strikes Light-Touch AI Regulation Accord With G20 Members",
-      "articles": [
-        {
-          "title": "US Strikes Light-Touch AI Regulation Accord With G20 Members",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-02/us-strikes-light-touch-ai-regulation-accord-with-g20-members",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "shocking evidence",
-      "mentions": 3,
-      "velocity": 0.3,
       "sources": [
         "hackernews"
       ],
       "source_count": 1,
-      "confidence": 75,
-      "days_active": 3,
-      "expert_ratio": 0.9,
-      "headline": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "confidence": 95,
+      "days_active": 11,
+      "expert_ratio": 0.67,
+      "headline": "Nvidia and Cerebras are selling performance their customers will (probably) never see",
       "articles": [
         {
-          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-          "source": "TechCrunch"
+          "title": "Nvidia and Cerebras are selling performance their customers will (probably) never see",
+          "url": "https://www.theregister.com/systems/2026/08/27/nvidia-and-cerebras-are-selling-performance-their-customers-will-probably-never-see/5293117",
+          "source": "The Register"
+        },
+        {
+          "title": "Hot Chips 2026: Cerebras lays out the future of wafer-scale AI — Nexus system architecture triples rack-scale performanc",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/hot-chips-2026-cerebras-lays-out-the-future-of-wafer-scale-ai-nexus-system-architecture-triples-rack-scale-performance-cs-6-wafer-to-incorporate-stacked-dram",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Cerebras accelera l'AI su scala wafer e prepara il salto nel 3D",
+          "url": "https://www.tomshw.it/hardware/cerebras-accelera-lai-su-scala-wafer-e-prepara-il-salto-nel-3d",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "sovereign ai",
+      "keyword": "deepseek r1",
       "mentions": 3,
       "velocity": 0.3,
       "sources": [
-        "articles"
+        "arxiv"
       ],
       "source_count": 1,
       "confidence": 95,
       "days_active": 12,
-      "expert_ratio": 0.79,
-      "headline": "A look at South Korea's sovereign AI efforts, including its planned $919B AI infrastructure investment and Nvidia's expa",
+      "expert_ratio": 0.66,
+      "headline": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
       "articles": [
         {
-          "title": "A look at South Korea's sovereign AI efforts, including its planned $919B AI infrastructure investment and Nvidia's expa",
-          "url": "https://www.techmeme.com/260902/p3#a260902p3",
+          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
+          "url": "https://www.techmeme.com/260825/p24#a260825p24",
           "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "engineering",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 54,
+      "days_active": 4,
+      "expert_ratio": 0.86,
+      "headline": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
+      "articles": [
+        {
+          "title": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
+          "url": "https://arxiv.org/abs/2609.04167",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "The UK unveils a £100M Sovereign AI R＆D Procurement Scheme for domestic AI startups focused on public services, amid gro",
-          "url": "https://www.techmeme.com/260831/p24#a260831p24",
-          "source": "Techmeme"
+          "title": "A Prompt-Engineering Approach to Develop Scalable, Flexible, and Real-Time Hybrid Micro-Level Personalization in a Gener",
+          "url": "https://arxiv.org/abs/2609.03402",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "London-based Callosum, whose software matches AI tasks with different models and chips, raised a $100M seed from Atomico",
-          "url": "https://www.techmeme.com/260820/p7#a260820p7",
-          "source": "Techmeme"
+          "title": "Analysis of Prompt Engineering for Drug Toxicity Prediction",
+          "url": "https://arxiv.org/abs/2609.03635",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "national ai",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 87,
+      "days_active": 9,
+      "expert_ratio": 0.62,
+      "headline": "Zuckerberg told Trump in call that a national AI regulator was a flawed idea",
+      "articles": [
+        {
+          "title": "Zuckerberg told Trump in call that a national AI regulator was a flawed idea",
+          "url": "https://www.businessinsider.com/zuckerberg-told-trump-a-national-ai-regulator-is-a-flawed-idea-2026-9",
+          "source": "All Content from Business Insider"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "copilot",
-      "mentions": 40,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "Copilot Pages: Work side by side with AI",
-      "articles": [
-        {
-          "title": "Copilot Pages: Work side by side with AI",
-          "url": "https://www.computerworld.com/article/4202427/copilot-pages-work-side-by-side-with-ai.html",
-          "source": "Computerworld"
-        },
-        {
-          "title": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year",
-          "url": "https://www.theregister.com/virtualization/2026/08/27/nutanix-built-20m-ai-cluster-to-reduce-use-of-copilot-and-claude-expects-roi-in-a-year/5292823",
-          "source": "The Register"
-        },
-        {
-          "title": "'The version Microsoft will build should be known as Copilot OS': Windows built around AI may not be happening, but leak",
-          "url": "https://www.techradar.com/computing/windows/the-version-microsoft-will-build-should-be-known-as-copilot-os-windows-built-around-ai-may-not-be-happening-but-leaked-concept-remains-a-grim-portent-for-desktops",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "voice ai",
-      "mentions": 12,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-      "articles": [
-        {
-          "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-          "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Taco Bell’s voice AI expansion shows the drive-thru has entered a new phase",
-          "url": "https://thenextweb.com/news/taco-bell-voice-ai-drive-thru-expansion",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "macbook",
-      "mentions": 14,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "Lenovo's $700 IdeaPad Vibe is ready to take on the MacBook Neo",
-      "articles": [
-        {
-          "title": "Lenovo's $700 IdeaPad Vibe is ready to take on the MacBook Neo",
-          "url": "https://www.engadget.com/2250279/lenovo-ideapad-vibe-hands-on-ifa-2026-macbook-neo/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Lenovo’s new MacBook Neo competitor comes in two sizes and seven colors",
-          "url": "https://www.theverge.com/tech/988765/lenovo-ideapad-vibe-laptop-macbook-neo-competitor-ifa-colors-price-specs",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "Dell's new 14-inch laptop clearly takes aim at the MacBook Neo — but I'm worried about the price",
-          "url": "https://www.techradar.com/computing/windows-laptops/dells-new-14-inch-laptop-clearly-takes-aim-at-the-macbook-neo-but-im-worried-about-the-price",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
       "keyword": "ai coding",
-      "mentions": 41,
-      "velocity": 0.9,
+      "mentions": 45,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "github",
@@ -705,56 +372,189 @@
           "source": "Quartz"
         }
       ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 43,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.65,
+      "headline": "This Lenovo Yoga 7i 2-in-1 with a 16-inch touchscreen and Copilot+ AI features just dropped to $750 in Best Buy's Labor ",
+      "articles": [
+        {
+          "title": "This Lenovo Yoga 7i 2-in-1 with a 16-inch touchscreen and Copilot+ AI features just dropped to $750 in Best Buy's Labor ",
+          "url": "https://www.techradar.com/pro/this-lenovo-yoga-7i-2-in-1-with-a-16-inch-touchscreen-and-copilot-ai-features-just-dropped-to-usd750-in-best-buys-labor-day-sale",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Copilot Pages: Work side by side with AI",
+          "url": "https://www.computerworld.com/article/4202427/copilot-pages-work-side-by-side-with-ai.html",
+          "source": "Computerworld"
+        },
+        {
+          "title": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year",
+          "url": "https://www.theregister.com/virtualization/2026/08/27/nutanix-built-20m-ai-cluster-to-reduce-use-of-copilot-and-claude-expects-roi-in-a-year/5292823",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "keyword": "hallucinations",
+      "mentions": 23,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "Relational Linearity is a Predictor of Hallucinations",
+      "articles": [
+        {
+          "title": "Relational Linearity is a Predictor of Hallucinations",
+          "url": "https://arxiv.org/abs/2601.11429",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews",
+          "url": "https://arxiv.org/abs/2609.03580",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Resect AI, which is developing open-source tech to catch AI hallucinations before they happen, emerges from stealth with",
+          "url": "https://www.techmeme.com/260903/p52#a260903p52",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 142,
+      "velocity": 0.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.66,
+      "headline": "Google Gemini error leaves California climbers stranded — Mount Shasta climbers admit ‘we relied too much on AI' after a",
+      "articles": [
+        {
+          "title": "Google Gemini error leaves California climbers stranded — Mount Shasta climbers admit ‘we relied too much on AI' after a",
+          "url": "https://www.techradar.com/ai-platforms-assistants/gemini/google-gemini-error-leaves-california-climbers-stranded-mount-shasta-climbers-admit-we-relied-too-much-on-ai-after-ascent-went-horribly-wrong",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Google’s Gemini Spark can now manage your Google Photos library",
+          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "You can now talk to Gemini directly in your Google Docs, Drive, Gmail, and more",
+          "url": "https://www.techradar.com/pro/you-can-now-talk-to-gemini-directly-in-your-google-docs-drive-gmail-and-more",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "perplexity",
+      "mentions": 32,
+      "velocity": -0.2,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.64,
+      "headline": "Maybe we were wrong about Perplexity",
+      "articles": [
+        {
+          "title": "Maybe we were wrong about Perplexity",
+          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=09042026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Maybe we were wrong about Perplexity",
+          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09042026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Maybe we were wrong about Perplexity",
+          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09032026",
+          "source": "Fast Company"
+        }
+      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 167,
-    "covered": 77,
-    "coverage_rate": 0.461,
+    "scored_predictions": 171,
+    "covered": 80,
+    "coverage_rate": 0.468,
     "early": 38,
-    "early_rate": 0.228,
+    "early_rate": 0.222,
     "avg_lead_days": 14.6,
     "median_lead_days": 8.5,
     "max_lead_days": 39,
-    "hit_rate": 0.461,
-    "materialized": 77,
+    "hit_rate": 0.468,
+    "materialized": 80,
     "by_signal_type": {
+      "emerging": {
+        "scored": 86,
+        "covered": 68,
+        "early": 29,
+        "coverage_rate": 0.791,
+        "early_rate": 0.337,
+        "hit_rate": 0.791
+      },
       "weak_signal": {
-        "scored": 84,
+        "scored": 85,
         "covered": 12,
         "early": 9,
-        "coverage_rate": 0.143,
-        "early_rate": 0.107,
-        "hit_rate": 0.143
-      },
-      "emerging": {
-        "scored": 83,
-        "covered": 65,
-        "early": 29,
-        "coverage_rate": 0.783,
-        "early_rate": 0.349,
-        "hit_rate": 0.783
+        "coverage_rate": 0.141,
+        "early_rate": 0.106,
+        "hit_rate": 0.141
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 167,
+    "n": 171,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.467,
-      "early_rate": 0.234
+      "coverage_rate": 0.474,
+      "early_rate": 0.228
     },
     "null_mean": {
-      "coverage_rate": 0.497,
-      "early_rate": 0.265
+      "coverage_rate": 0.505,
+      "early_rate": 0.274
     },
     "p_value": {
-      "coverage_rate": 0.984,
-      "early_rate": 0.925
+      "coverage_rate": 0.98,
+      "early_rate": 0.98
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -809,15 +609,57 @@
       "lead_days": 27
     },
     {
-      "keyword": "hallucinations",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-17",
-      "materialized_on": "2026-07-09",
+      "keyword": "voice mode",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-16",
+      "materialized_on": "2026-07-08",
       "lead_days": 22
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "openai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-04",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-04",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "cursor",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-04",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "hallucination",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-04",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "national ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-04",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "cerebras",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-04",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "sovereign ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-04",
+        "confidence": 0.2
+      },
       {
         "keyword": "ai coding",
         "signal_type": "emerging",
@@ -847,134 +689,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-02",
         "confidence": 1.0
-      },
-      {
-        "keyword": "openclaw",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-02",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "ai safety",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-02",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "tokenizer",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-02",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "prompt injection",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-02",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "ai alignment",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-02",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "llama 3",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-02",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "cuda",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-01",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "aider",
-        "recent_mentions": 10,
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 12,
         "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "manus",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 12.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "freepik",
-        "recent_mentions": 8,
+        "keyword": "higgsfield ai",
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "context length",
+        "keyword": "fireworks",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "computer-use",
         "recent_mentions": 11,
         "prior_mentions": 2,
         "change_ratio": 5.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "computer-use",
-        "recent_mentions": 10,
+        "keyword": "slm",
+        "recent_mentions": 11,
         "prior_mentions": 2,
+        "change_ratio": 5.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "notion ai",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai alignment",
-        "recent_mentions": 25,
-        "prior_mentions": 6,
-        "change_ratio": 4.17,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "browser use",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
-        "change_ratio": 3.67,
+        "keyword": "claude 4",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "prompt injection",
-        "recent_mentions": 40,
-        "prior_mentions": 11,
-        "change_ratio": 3.64,
-        "corroborating_sources": 4
+        "keyword": "hermes-agent",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "openclaw",
-        "recent_mentions": 61,
-        "prior_mentions": 17,
-        "change_ratio": 3.59,
-        "corroborating_sources": 7
-      },
-      {
-        "keyword": "gamma",
-        "recent_mentions": 14,
-        "prior_mentions": 4,
-        "change_ratio": 3.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "chain of thought",
-        "recent_mentions": 17,
-        "prior_mentions": 5,
-        "change_ratio": 3.4,
+        "keyword": "aider",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "cuda",
-        "recent_mentions": 59,
-        "prior_mentions": 18,
-        "change_ratio": 3.28,
-        "corroborating_sources": 7
+        "keyword": "manus",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "freepik",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "context length",
+        "recent_mentions": 14,
+        "prior_mentions": 4,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
       }
     ]
   }
