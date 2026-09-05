@@ -1,165 +1,69 @@
 {
-  "generated_at": "2026-09-04T19:19:32.156583",
-  "total_tracked": 3537,
+  "generated_at": "2026-09-05T07:15:20.661367",
+  "total_tracked": 3399,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "openai",
-      "mentions": 431,
-      "velocity": 26.2,
+      "keyword": "chatgpt",
+      "mentions": 260,
+      "velocity": 2.4,
       "sources": [
         "articles",
+        "arxiv",
         "github",
         "hackernews",
-        "linkedin",
         "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "OpenAI says it has overtaken Anthropic with a model that sometimes tries to evade oversight",
+      "expert_ratio": 0.49,
+      "headline": "OpenAI rolls out GPT-6 Astra to Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex and in the API (Za",
       "articles": [
         {
-          "title": "OpenAI says it has overtaken Anthropic with a model that sometimes tries to evade oversight",
-          "url": "https://thenextweb.com/news/openai-astra-agi-claim-cybersecurity-containment",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Rogue OpenAI agents used dead German web site to communicate in May, months before Hugging Face incident",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/04/rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-before-hugging-face-incident/5294554",
-          "source": "The Register"
-        },
-        {
-          "title": "OpenAI's ad for its latest model looks straight out of the movie 'WALL-E' — and people have thoughts",
-          "url": "https://www.businessinsider.com/openai-astra-ad-wall-e-her-dystopian-laziness-work-jobs-2026-9",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 17,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.13,
-      "headline": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
-      "articles": [
-        {
-          "title": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
-          "url": "https://arxiv.org/abs/2607.20531",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers",
-          "url": "https://arxiv.org/abs/2608.23763",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "From SQL Generation to Tool Selection: A Domain-Oriented Pattern for MCP Servers",
-          "url": "https://arxiv.org/abs/2608.22063",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "deepseek",
-      "mentions": 57,
-      "velocity": 2.0,
-      "sources": [
-        "arxiv",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "DeepSeek Plans Major Huawei Chip Order in New AI Data Center",
-      "articles": [
-        {
-          "title": "DeepSeek Plans Major Huawei Chip Order in New AI Data Center",
-          "url": "https://www.theinformation.com/briefings/deepseek-plans-major-huawei-chip-order-new-ai-data-center",
-          "source": "The Information"
-        },
-        {
-          "title": "Sources: DeepSeek plans to use 160K+ of Huawei's Ascend 950DT chips at an Inner Mongolia data center, which would create",
-          "url": "https://www.techmeme.com/260904/p6#a260904p6",
+          "title": "OpenAI rolls out GPT-6 Astra to Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex and in the API (Za",
+          "url": "https://www.techmeme.com/260904/p26#a260904p26",
           "source": "Techmeme"
         },
         {
-          "title": "DeepSeek Plans to Deploy Huawei AI Chips for New Data Center",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-04/deepseek-plans-to-deploy-huawei-ai-chips-for-data-center-video",
-          "source": "Bloomberg Technology"
+          "title": "The EU has regulated ChatGPT as a search engine. Calling it a platform would have handed OpenAI a liability shield.",
+          "url": "https://thenextweb.com/news/eu-chatgpt-vlose-designation-safe-harbour-gap?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 106,
-      "velocity": 5.4,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "HOMURA: Taming the Sand-Glass for Time-Constrained LLM Translation via Reinforcement Learning",
-      "articles": [
-        {
-          "title": "HOMURA: Taming the Sand-Glass for Time-Constrained LLM Translation via Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2601.10187",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2608.02993",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Out-of-Distribution Generalisation with Sequence Models in Offline Multi-Agent Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2609.03667",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 502,
-      "velocity": 3.1,
+      "keyword": "openai",
+      "mentions": 452,
+      "velocity": 24.6,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
-        "linkedin",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.76,
-      "headline": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
+      "headline": "AI agents hijack German website, raising OpenAI oversight questions",
       "articles": [
         {
-          "title": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
-          "url": "https://www.techmeme.com/260904/p15#a260904p15",
-          "source": "Techmeme"
+          "title": "AI agents hijack German website, raising OpenAI oversight questions",
+          "url": "https://www.youtube.com/watch?v=hE-4RXFVREk",
+          "source": "Reuters"
         },
         {
-          "title": "How to edit Claude's memory",
-          "url": "https://www.engadget.com/2246397/how-to-edit-claude-memory/",
-          "source": "Engadget"
+          "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+          "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+          "source": "AI - Ars Technica"
         }
       ]
     }
@@ -187,11 +91,6 @@
           "title": "The Razer Naga V3 Pro is a jack-of-all-trades mouse — but is it a master of none?",
           "url": "https://www.techradar.com/computing/mice/razer-naga-v3-pro",
           "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "I'm a doctor who tracks my health. My 93-year-old dad does none of that.",
-          "url": "https://www.businessinsider.com/healthy-aging-longevity-habits-no-gym-2026-8",
-          "source": "Business Insider"
         }
       ]
     },
@@ -243,7 +142,7 @@
     {
       "keyword": "cerebras",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.4,
       "sources": [
         "hackernews"
       ],
@@ -271,16 +170,36 @@
       ]
     },
     {
+      "keyword": "national ai",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 79,
+      "days_active": 8,
+      "expert_ratio": 0.75,
+      "headline": "Zuckerberg told Trump in call that a national AI regulator was a flawed idea",
+      "articles": [
+        {
+          "title": "Zuckerberg told Trump in call that a national AI regulator was a flawed idea",
+          "url": "https://www.businessinsider.com/zuckerberg-told-trump-a-national-ai-regulator-is-a-flawed-idea-2026-9",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
       "keyword": "deepseek r1",
       "mentions": 3,
-      "velocity": 0.3,
+      "velocity": 0.2,
       "sources": [
         "arxiv"
       ],
       "source_count": 1,
       "confidence": 95,
       "days_active": 12,
-      "expert_ratio": 0.66,
+      "expert_ratio": 0.63,
       "headline": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
       "articles": [
         {
@@ -291,241 +210,202 @@
       ]
     },
     {
-      "keyword": "engineering",
-      "mentions": 2,
-      "velocity": 0.2,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 54,
-      "days_active": 4,
-      "expert_ratio": 0.86,
-      "headline": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
-      "articles": [
-        {
-          "title": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
-          "url": "https://arxiv.org/abs/2609.04167",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Prompt-Engineering Approach to Develop Scalable, Flexible, and Real-Time Hybrid Micro-Level Personalization in a Gener",
-          "url": "https://arxiv.org/abs/2609.03402",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Analysis of Prompt Engineering for Drug Toxicity Prediction",
-          "url": "https://arxiv.org/abs/2609.03635",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "national ai",
-      "mentions": 2,
-      "velocity": 0.2,
+      "keyword": "ai search",
+      "mentions": 3,
+      "velocity": 0.1,
       "sources": [
-        "articles"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 87,
-      "days_active": 9,
-      "expert_ratio": 0.62,
-      "headline": "Zuckerberg told Trump in call that a national AI regulator was a flawed idea",
+      "confidence": 95,
+      "days_active": 11,
+      "expert_ratio": 0.97,
+      "headline": "John Lewis to launch YouTube chatshow to improve AI search results",
       "articles": [
         {
-          "title": "Zuckerberg told Trump in call that a national AI regulator was a flawed idea",
-          "url": "https://www.businessinsider.com/zuckerberg-told-trump-a-national-ai-regulator-is-a-flawed-idea-2026-9",
-          "source": "All Content from Business Insider"
+          "title": "John Lewis to launch YouTube chatshow to improve AI search results",
+          "url": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon",
+          "source": "Technology | The Guardian"
+        },
+        {
+          "title": "This Is Flock’s AI Search Tool for Cops",
+          "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
+          "source": "WIRED"
+        },
+        {
+          "title": "Website performance is the new defining metric for AI search",
+          "url": "https://www.techradar.com/pro/website-performance-is-the-new-defining-metric-for-ai-search",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "ai coding",
-      "mentions": 45,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.5,
-      "headline": "Google is launching its most capable AI coding model yet, plus a cybersecurity sibling",
-      "articles": [
-        {
-          "title": "Google is launching its most capable AI coding model yet, plus a cybersecurity sibling",
-          "url": "https://qz.com/google-gemini-38-flash-cyber-ai-model-090326",
-          "source": "Quartz"
-        },
-        {
-          "title": "Snowflake Raises Annual Sales Forecast as AI Coding Adoption Grows",
-          "url": "https://www.theinformation.com/briefings/snowflake-raises-annual-sales-forecast-ai-coding-adoption-grows",
-          "source": "The Information"
-        },
-        {
-          "title": "Anthropic is making its most powerful AI coding model cheaper to run",
-          "url": "https://qz.com/anthropic-fable-5-1-cheaper-coding-model-090226",
-          "source": "Quartz"
-        }
-      ]
-    },
-    {
       "keyword": "copilot",
-      "mentions": 43,
+      "mentions": 45,
       "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.62,
+      "headline": "Microsoft court filings: an expert hired by publishers found that only ~60K of 8.2M Copilot chat logs contained at least",
+      "articles": [
+        {
+          "title": "Microsoft court filings: an expert hired by publishers found that only ~60K of 8.2M Copilot chat logs contained at least",
+          "url": "https://www.techmeme.com/260904/p34#a260904p34",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Microsoft tells court Copilot rarely copies books while selling OpenAI’s most capable model",
+          "url": "https://thenextweb.com/news/microsoft-copilot-fair-use-brief-gpt-6-astra-foundry-eu-ai-act-article-55-systemic-risk-data-zone",
+          "source": "The Next Web"
+        },
+        {
+          "title": "This Lenovo Yoga 7i 2-in-1 with a 16-inch touchscreen and Copilot+ AI features just dropped to $750 in Best Buy's Labor ",
+          "url": "https://www.techradar.com/pro/this-lenovo-yoga-7i-2-in-1-with-a-16-inch-touchscreen-and-copilot-ai-features-just-dropped-to-usd750-in-best-buys-labor-day-sale",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 501,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
         "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.65,
-      "headline": "This Lenovo Yoga 7i 2-in-1 with a 16-inch touchscreen and Copilot+ AI features just dropped to $750 in Best Buy's Labor ",
+      "expert_ratio": 0.76,
+      "headline": "Anthropic says Claude worked \"largely autonomously\" over 11 days to formalize the proof of Fermat's Last Theorem in the ",
       "articles": [
         {
-          "title": "This Lenovo Yoga 7i 2-in-1 with a 16-inch touchscreen and Copilot+ AI features just dropped to $750 in Best Buy's Labor ",
-          "url": "https://www.techradar.com/pro/this-lenovo-yoga-7i-2-in-1-with-a-16-inch-touchscreen-and-copilot-ai-features-just-dropped-to-usd750-in-best-buys-labor-day-sale",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Anthropic says Claude worked \"largely autonomously\" over 11 days to formalize the proof of Fermat's Last Theorem in the ",
+          "url": "https://www.techmeme.com/260904/p28#a260904p28",
+          "source": "Techmeme"
         },
         {
-          "title": "Copilot Pages: Work side by side with AI",
-          "url": "https://www.computerworld.com/article/4202427/copilot-pages-work-side-by-side-with-ai.html",
-          "source": "Computerworld"
-        },
-        {
-          "title": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year",
-          "url": "https://www.theregister.com/virtualization/2026/08/27/nutanix-built-20m-ai-cluster-to-reduce-use-of-copilot-and-claude-expects-roi-in-a-year/5292823",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "hallucinations",
-      "mentions": 23,
-      "velocity": 1.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Relational Linearity is a Predictor of Hallucinations",
-      "articles": [
-        {
-          "title": "Relational Linearity is a Predictor of Hallucinations",
-          "url": "https://arxiv.org/abs/2601.11429",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews",
-          "url": "https://arxiv.org/abs/2609.03580",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Resect AI, which is developing open-source tech to catch AI hallucinations before they happen, emerges from stealth with",
-          "url": "https://www.techmeme.com/260903/p52#a260903p52",
+          "title": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
+          "url": "https://www.techmeme.com/260904/p15#a260904p15",
           "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "gemini",
-      "mentions": 142,
-      "velocity": 0.3,
+      "keyword": "notion",
+      "mentions": 11,
+      "velocity": 1.6,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "Google Gemini error leaves California climbers stranded — Mount Shasta climbers admit ‘we relied too much on AI' after a",
+      "expert_ratio": 0.0,
+      "headline": "Notion’s new San Francisco HQ is an ode to classic design",
       "articles": [
         {
-          "title": "Google Gemini error leaves California climbers stranded — Mount Shasta climbers admit ‘we relied too much on AI' after a",
-          "url": "https://www.techradar.com/ai-platforms-assistants/gemini/google-gemini-error-leaves-california-climbers-stranded-mount-shasta-climbers-admit-we-relied-too-much-on-ai-after-ascent-went-horribly-wrong",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Notion’s new San Francisco HQ is an ode to classic design",
+          "url": "https://www.fastcompany.com/91599202/notion-designed-its-new-hq-as-an-ode-to-classic-design",
+          "source": "Fast Company"
         },
         {
-          "title": "Google’s Gemini Spark can now manage your Google Photos library",
-          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "You can now talk to Gemini directly in your Google Docs, Drive, Gmail, and more",
-          "url": "https://www.techradar.com/pro/you-can-now-talk-to-gemini-directly-in-your-google-docs-drive-gmail-and-more",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Notion Plans Hiring Binge as CEO Makes All-In Bet on AI",
+          "url": "https://www.theinformation.com/articles/notion-plans-hiring-binge-ceo-makes-bet-ai",
+          "source": "The Information"
         }
       ]
     },
     {
-      "keyword": "perplexity",
-      "mentions": 32,
-      "velocity": -0.2,
+      "keyword": "mcp server",
+      "mentions": 17,
+      "velocity": 1.4,
       "sources": [
-        "arxiv",
-        "hackernews",
-        "linkedin"
+        "articles",
+        "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.64,
-      "headline": "Maybe we were wrong about Perplexity",
+      "expert_ratio": 0.12,
+      "headline": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
       "articles": [
         {
-          "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=3&partner=newsletter&campaign_date=09042026",
-          "source": "Fast Company"
+          "title": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
+          "url": "https://arxiv.org/abs/2607.20531",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09042026",
-          "source": "Fast Company"
+          "title": "TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers",
+          "url": "https://arxiv.org/abs/2608.23763",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09032026",
-          "source": "Fast Company"
+          "title": "From SQL Generation to Tool Selection: A Domain-Oriented Pattern for MCP Servers",
+          "url": "https://arxiv.org/abs/2608.22063",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "flux",
+      "mentions": 14,
+      "velocity": 0.8,
+      "sources": [
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Un flux de matière « noire » prédit pour le Soleil existe bien !",
+      "articles": [
+        {
+          "title": "Un flux de matière « noire » prédit pour le Soleil existe bien !",
+          "url": "https://www.futura-sciences.com/sciences/actualites/astronomie-flux-matiere-noire-predit-soleil-existe-bien-137452/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
+        },
+        {
+          "title": "ASUS ROG Flux Charger Dock kan meerdere apparaten opladen met in totaal 260W",
+          "url": "https://tweakers.net/nieuws/251334/asus-rog-flux-charger-dock-kan-meerdere-apparaten-opladen-met-in-totaal-260w.html",
+          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 171,
-    "covered": 80,
-    "coverage_rate": 0.468,
-    "early": 38,
-    "early_rate": 0.222,
-    "avg_lead_days": 14.6,
-    "median_lead_days": 8.5,
-    "max_lead_days": 39,
-    "hit_rate": 0.468,
-    "materialized": 80,
+    "scored_predictions": 174,
+    "covered": 83,
+    "coverage_rate": 0.477,
+    "early": 40,
+    "early_rate": 0.23,
+    "avg_lead_days": 15.3,
+    "median_lead_days": 9.0,
+    "max_lead_days": 41,
+    "hit_rate": 0.477,
+    "materialized": 83,
     "by_signal_type": {
       "emerging": {
-        "scored": 86,
-        "covered": 68,
-        "early": 29,
-        "coverage_rate": 0.791,
-        "early_rate": 0.337,
-        "hit_rate": 0.791
+        "scored": 89,
+        "covered": 71,
+        "early": 31,
+        "coverage_rate": 0.798,
+        "early_rate": 0.348,
+        "hit_rate": 0.798
       },
       "weak_signal": {
         "scored": 85,
@@ -540,25 +420,32 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 171,
+    "n": 174,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.474,
-      "early_rate": 0.228
+      "coverage_rate": 0.483,
+      "early_rate": 0.236
     },
     "null_mean": {
-      "coverage_rate": 0.505,
-      "early_rate": 0.274
+      "coverage_rate": 0.512,
+      "early_rate": 0.278
     },
     "p_value": {
-      "coverage_rate": 0.98,
-      "early_rate": 0.98
+      "coverage_rate": 0.973,
+      "early_rate": 0.977
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
   "best_calls": [
+    {
+      "keyword": "world model",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-22",
+      "materialized_on": "2026-09-01",
+      "lead_days": 41
+    },
     {
       "keyword": "lora",
       "signal_type": "emerging",
@@ -607,17 +494,16 @@
       "flagged_on": "2026-03-05",
       "materialized_on": "2026-04-01",
       "lead_days": 27
-    },
-    {
-      "keyword": "voice mode",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-16",
-      "materialized_on": "2026-07-08",
-      "lead_days": 22
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "kling",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-05",
+        "confidence": 0.2
+      },
       {
         "keyword": "openai",
         "signal_type": "emerging",
@@ -661,13 +547,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "ai coding",
+        "keyword": "perplexity",
         "signal_type": "emerging",
         "flagged_on": "2026-09-03",
         "confidence": 1.0
       },
       {
-        "keyword": "perplexity",
+        "keyword": "ai coding",
         "signal_type": "emerging",
         "flagged_on": "2026-09-03",
         "confidence": 1.0
@@ -683,27 +569,35 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-03",
         "confidence": 0.2
-      },
-      {
-        "keyword": "claude",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-02",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
         "keyword": "retrieval augmented generation",
+        "recent_mentions": 18,
+        "prior_mentions": 1,
+        "change_ratio": 18.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "slm",
+        "recent_mentions": 12,
+        "prior_mentions": 1,
+        "change_ratio": 12.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "hermes-agent",
         "recent_mentions": 12,
         "prior_mentions": 1,
         "change_ratio": 12.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "higgsfield ai",
-        "recent_mentions": 7,
+        "keyword": "notion ai",
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 7.0,
+        "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
@@ -714,67 +608,53 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "resemble",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "computer-use",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "slm",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "notion ai",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "claude 4",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "hermes-agent",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "aider",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "manus",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "freepik",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "context length",
         "recent_mentions": 14,
-        "prior_mentions": 4,
-        "change_ratio": 3.5,
+        "prior_mentions": 3,
+        "change_ratio": 4.67,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "dify",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "neuromorphic",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "zapier",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "notion",
+        "recent_mentions": 33,
+        "prior_mentions": 13,
+        "change_ratio": 2.54,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "ollama",
+        "recent_mentions": 30,
+        "prior_mentions": 12,
+        "change_ratio": 2.5,
+        "corroborating_sources": 4
       }
     ]
   }

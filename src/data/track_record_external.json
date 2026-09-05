@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-04T17:38:37+00:00",
+  "generated_at": "2026-09-05T05:36:16+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 171,
-    "covered": 80,
-    "coverage_rate": 0.468,
-    "early": 38,
-    "early_rate": 0.222,
-    "avg_lead_days": 14.6,
-    "median_lead_days": 8.5,
-    "max_lead_days": 39,
-    "hit_rate": 0.468,
-    "materialized": 80,
+    "scored_predictions": 174,
+    "covered": 83,
+    "coverage_rate": 0.477,
+    "early": 40,
+    "early_rate": 0.23,
+    "avg_lead_days": 15.3,
+    "median_lead_days": 9.0,
+    "max_lead_days": 41,
+    "hit_rate": 0.477,
+    "materialized": 83,
     "by_signal_type": {
       "emerging": {
-        "scored": 86,
-        "covered": 68,
-        "early": 29,
-        "coverage_rate": 0.791,
-        "early_rate": 0.337,
-        "hit_rate": 0.791
+        "scored": 89,
+        "covered": 71,
+        "early": 31,
+        "coverage_rate": 0.798,
+        "early_rate": 0.348,
+        "hit_rate": 0.798
       },
       "weak_signal": {
         "scored": 85,
@@ -35,6 +35,13 @@
     }
   },
   "best_calls": [
+    {
+      "keyword": "world model",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-22",
+      "materialized_on": "2026-09-01",
+      "lead_days": 41
+    },
     {
       "keyword": "lora",
       "signal_type": "emerging",
@@ -83,13 +90,6 @@
       "flagged_on": "2026-03-05",
       "materialized_on": "2026-04-01",
       "lead_days": 27
-    },
-    {
-      "keyword": "voice mode",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-16",
-      "materialized_on": "2026-07-08",
-      "lead_days": 22
     }
   ],
   "caveats": [
