@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:36:16+00:00",
+  "generated_at": "2026-09-05T17:38:34+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -64,17 +64,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
       "materialized_on": "2026-08-19",
+      "lead_days": 33
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33
     },
     {
@@ -98,21 +98,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 171,
+    "n": 174,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.474,
-      "early_rate": 0.228
+      "coverage_rate": 0.483,
+      "early_rate": 0.236
     },
     "null_mean": {
-      "coverage_rate": 0.505,
-      "early_rate": 0.274
+      "coverage_rate": 0.512,
+      "early_rate": 0.278
     },
     "p_value": {
-      "coverage_rate": 0.98,
-      "early_rate": 0.98
+      "coverage_rate": 0.973,
+      "early_rate": 0.977
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
