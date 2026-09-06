@@ -1,21 +1,110 @@
 {
-  "generated_at": "2026-09-06T07:15:19.020259",
-  "total_tracked": 3310,
+  "generated_at": "2026-09-06T19:16:33.535105",
+  "total_tracked": 3347,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "simulation",
-      "mentions": 32,
-      "velocity": 2.9,
+      "keyword": "chatgpt",
+      "mentions": 307,
+      "velocity": 16.0,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.5,
+      "headline": "Kenya bet its graduates on gig work in 2022. ChatGPT launched that year",
+      "articles": [
+        {
+          "title": "Kenya bet its graduates on gig work in 2022. ChatGPT launched that year",
+          "url": "https://thenextweb.com/news/kenya-essay-writing-industry-ai-gig-work-collapse",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "consensus",
+      "mentions": 12,
+      "velocity": 2.3,
+      "sources": [
+        "articles",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "‘Er is in Duitsland geen consensus over Rusland, dat maakt ons tot een makkelijk doelwit voor Russische desinformatie’",
+      "articles": [
+        {
+          "title": "‘Er is in Duitsland geen consensus over Rusland, dat maakt ons tot een makkelijk doelwit voor Russische desinformatie’",
+          "url": "https://www.nrc.nl/nieuws/2026/09/03/er-is-in-duitsland-geen-consensus-over-rusland-dat-maakt-ons-tot-makkelijk-doelwit-voor-russische-desinformatie-a4935772",
+          "source": "NRC"
+        },
+        {
+          "title": "Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting",
+          "url": "https://arxiv.org/abs/2609.02649",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Fully Distributed GNE Algorithms for Multi-Robot Placement without Consensus on Multipliers",
+          "url": "https://arxiv.org/abs/2608.29388",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "openai",
+      "mentions": 471,
+      "velocity": 22.9,
       "sources": [
         "articles",
         "arxiv",
+        "github",
+        "hackernews",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
+      "expert_ratio": 0.77,
+      "headline": "Research acceleration: The view inside OpenAI",
+      "articles": [
+        {
+          "title": "Research acceleration: The view inside OpenAI",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "Hacker News"
+        },
+        {
+          "title": "OpenAI admits to 'wiki incident' after its agents were discovered using a programming hub to communicate — says more tra",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "OpenAI’s AGI number came from a harness, not the model",
+          "url": "https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 28,
+      "velocity": 1.7,
+      "sources": [
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.89,
       "headline": "Discovering High Level Patterns from Simulation Traces",
       "articles": [
         {
@@ -34,71 +123,35 @@
           "source": "stat.ML updates on arXiv.org"
         }
       ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "openai",
-      "mentions": 453,
-      "velocity": 17.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "articles": [
-        {
-          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "OpenAI responds after report exposed another incident in which its AI agents went rogue",
-          "url": "https://www.engadget.com/2251725/openai-responds-after-report-exposed-another-incident-in-which-its-ai-agents-went-rogue/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "The Seattle Times and Newsday sue OpenAI and Microsoft, alleging the companies trained AI on their journalism; Microsoft",
-          "url": "https://www.techmeme.com/260905/p13#a260905p13",
-          "source": "Techmeme"
-        }
-      ]
     },
     {
-      "keyword": "agentic ai",
-      "mentions": 19,
-      "velocity": 2.2,
+      "keyword": "world model",
+      "mentions": 15,
+      "velocity": 1.7,
       "sources": [
-        "articles",
-        "github"
+        "arxiv",
+        "hackernews"
       ],
       "source_count": 2,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.98,
-      "headline": "Value-Preserving Architectures for Agentic AI Systems",
+      "days_active": 15,
+      "expert_ratio": 0.83,
+      "headline": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
       "articles": [
         {
-          "title": "Value-Preserving Architectures for Agentic AI Systems",
-          "url": "https://arxiv.org/abs/2609.03920",
+          "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
+          "url": "https://arxiv.org/abs/2608.27345",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Adapting to Evolving Requirements: Agentic AI for Retail Supply Chain Operations",
-          "url": "https://arxiv.org/abs/2609.03860",
+          "title": "Imagine-then-Plan: Agent Learning from Adaptive Lookahead with World Models",
+          "url": "https://arxiv.org/abs/2601.08955",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Nvidia PAIR utility joins every GPU in your home into a cluster for agentic AI tasks — tool uses spare cycles to keep ag",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-pair-utility-joins-every-gpu-in-your-home-into-a-cluster-for-agentic-ai-tasks-tool-uses-spare-cycles-to-keep-agent-swarms-from-hammering-one-gpu",
-          "source": "Tom's Hardware"
+          "title": "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure",
+          "url": "https://arxiv.org/abs/2608.13456",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -210,8 +263,13 @@
       "confidence": 95,
       "days_active": 10,
       "expert_ratio": 0.96,
-      "headline": "John Lewis to launch YouTube chatshow to improve AI search results",
+      "headline": "Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
       "articles": [
+        {
+          "title": "Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
+          "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
         {
           "title": "John Lewis to launch YouTube chatshow to improve AI search results",
           "url": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon",
@@ -221,11 +279,6 @@
           "title": "This Is Flock’s AI Search Tool for Cops",
           "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
           "source": "WIRED"
-        },
-        {
-          "title": "Website performance is the new defining metric for AI search",
-          "url": "https://www.techradar.com/pro/website-performance-is-the-new-defining-metric-for-ai-search",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
@@ -257,41 +310,9 @@
   ],
   "sustained": [
     {
-      "keyword": "prompt engineering",
-      "mentions": 31,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "Analysis of Prompt Engineering for Drug Toxicity Prediction",
-      "articles": [
-        {
-          "title": "Analysis of Prompt Engineering for Drug Toxicity Prediction",
-          "url": "https://arxiv.org/abs/2609.03635",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Hate Speech Classification In Roman Urdu: A Comparative Study On Parameter Efficient Fine-Tuning And Prompt Engineering",
-          "url": "https://arxiv.org/abs/2608.21408",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
-          "url": "https://arxiv.org/abs/2608.20349",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "ai coding",
-      "mentions": 43,
-      "velocity": 0.6,
+      "mentions": 45,
+      "velocity": 1.2,
       "sources": [
         "articles",
         "github",
@@ -307,23 +328,39 @@
           "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
           "url": "https://github.com/okf-memory/okf-agent-memory",
           "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 17,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.11,
+      "headline": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
+      "articles": [
+        {
+          "title": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
+          "url": "https://arxiv.org/abs/2607.20531",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Google is launching its most capable AI coding model yet, plus a cybersecurity sibling",
-          "url": "https://qz.com/google-gemini-38-flash-cyber-ai-model-090326",
-          "source": "Quartz"
-        },
-        {
-          "title": "Snowflake Raises Annual Sales Forecast as AI Coding Adoption Grows",
-          "url": "https://www.theinformation.com/briefings/snowflake-raises-annual-sales-forecast-ai-coding-adoption-grows",
-          "source": "The Information"
+          "title": "TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers",
+          "url": "https://arxiv.org/abs/2608.23763",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "cursor",
-      "mentions": 66,
-      "velocity": 0.2,
+      "mentions": 67,
+      "velocity": 0.5,
       "sources": [
         "articles",
         "github",
@@ -354,64 +391,35 @@
       ]
     },
     {
-      "keyword": "macbook",
-      "mentions": 11,
-      "velocity": -0.1,
+      "keyword": "grok",
+      "mentions": 79,
+      "velocity": 0.0,
       "sources": [
         "articles",
-        "hackernews"
+        "arxiv",
+        "hackernews",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "How to find your MacBook's diagnostic menu",
+      "expert_ratio": 0.51,
+      "headline": "ChatGPT, Claude, and Grok all went down at once; enterprises need a backup plan",
       "articles": [
         {
-          "title": "How to find your MacBook's diagnostic menu",
-          "url": "https://www.engadget.com/2247996/how-to-find-macbook-diagnostic-menu/",
+          "title": "ChatGPT, Claude, and Grok all went down at once; enterprises need a backup plan",
+          "url": "https://www.computerworld.com/article/4218388/chatgpt-claude-and-grok-all-went-down-at-once-enterprises-need-a-backup-plan.html",
+          "source": "Artificial Intelligence – Computerworld"
+        },
+        {
+          "title": "SpaceXAI apologizes for outage that affected Grok and other 'compute partners'",
+          "url": "https://www.engadget.com/2250789/spacexai-apologizes-for-outage-that-affected-grok-and-other-compute-partners/",
           "source": "Engadget"
         },
         {
-          "title": "Save nearly 50% on this awesome 16-inch OLED laptop with a Ryzen AI 5 430 CPU ＆ 16GB RAM — HP's MacBook Neo-beating Omni",
-          "url": "https://www.tomshardware.com/pc-components/save-nearly-50-percent-on-this-awesome-16-inch-oled-laptop-with-a-ryzen-ai-5-430-cpu-and-16gb-ram-hps-macbook-neo-beating-omnibook-x-flip-is-down-to-just-usd699",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "How to check your MacBook's hard drive health",
-          "url": "https://www.engadget.com/2247782/how-to-check-hard-drive-health-macbook/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
-      "keyword": "openclaw",
-      "mentions": 16,
-      "velocity": -0.3,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "OpenClaw 2.0 arriva con la sicurezza attivata di serie (era ora)",
-      "articles": [
-        {
-          "title": "OpenClaw 2.0 arriva con la sicurezza attivata di serie (era ora)",
-          "url": "https://www.tomshw.it/business/openclaw-20-arriva-con-la-sicurezza-attivata-di-serie-era-ora",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
-          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises?utm_source=flipboard&utm_content=topic/technology",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
-          "source": "The Register - Security"
+          "title": "True AI-pocalypse as ChatGPT, Claude, and Grok all go down at once",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/03/chatgpt-claude-and-grok-all-had-outages-at-the-same-time/5294322",
+          "source": "The Register"
         }
       ]
     },
@@ -432,18 +440,42 @@
       "articles": [
         {
           "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=09062026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Maybe we were wrong about Perplexity",
           "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09042026",
           "source": "Fast Company"
         },
         {
           "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=09052026",
+          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=09062026",
           "source": "Fast Company"
+        },
+        {
+          "title": "Maybe we were wrong about Perplexity",
+          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=09062026",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 138,
+      "velocity": -1.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.65,
+      "headline": "Hikers rescued after using Google Gemini for planning",
+      "articles": [
+        {
+          "title": "Hikers rescued after using Google Gemini for planning",
+          "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+          "source": "TechCrunch"
         }
       ]
     }
@@ -460,14 +492,6 @@
     "hit_rate": 0.495,
     "materialized": 90,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 87,
-        "covered": 13,
-        "early": 9,
-        "coverage_rate": 0.149,
-        "early_rate": 0.103,
-        "hit_rate": 0.149
-      },
       "emerging": {
         "scored": 95,
         "covered": 77,
@@ -475,6 +499,14 @@
         "coverage_rate": 0.811,
         "early_rate": 0.358,
         "hit_rate": 0.811
+      },
+      "weak_signal": {
+        "scored": 87,
+        "covered": 13,
+        "early": 9,
+        "coverage_rate": 0.149,
+        "early_rate": 0.103,
+        "hit_rate": 0.149
       }
     }
   },
@@ -529,17 +561,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
       "materialized_on": "2026-08-19",
+      "lead_days": 33
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33
     },
     {
@@ -560,6 +592,18 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "chatgpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-06",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "real-time voice",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-06",
+        "confidence": 0.2
+      },
+      {
         "keyword": "embodied ai",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-06",
@@ -578,13 +622,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "deepseek r1",
+        "keyword": "kling",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-05",
         "confidence": 0.2
       },
       {
-        "keyword": "kling",
+        "keyword": "deepseek r1",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-05",
         "confidence": 0.2
@@ -614,19 +658,7 @@
         "confidence": 0.6
       },
       {
-        "keyword": "cerebras",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-04",
-        "confidence": 0.2
-      },
-      {
         "keyword": "national ai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-04",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "sovereign ai",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-04",
         "confidence": 0.2
@@ -634,14 +666,21 @@
     ],
     "heating_up": [
       {
-        "keyword": "litellm",
+        "keyword": "mcp client",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "windsurf",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "windsurf",
+        "keyword": "litellm",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
@@ -669,11 +708,11 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "zapier",
-        "recent_mentions": 9,
-        "prior_mentions": 3,
+        "keyword": "grammarly",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
         "change_ratio": 3.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
         "keyword": "puppeteer",
@@ -683,6 +722,13 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "zapier",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "deepseek r1",
         "recent_mentions": 9,
         "prior_mentions": 3,
@@ -690,28 +736,14 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "grammarly",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "artificial general intelligence",
-        "recent_mentions": 25,
+        "recent_mentions": 23,
         "prior_mentions": 9,
-        "change_ratio": 2.78,
+        "change_ratio": 2.56,
         "corroborating_sources": 3
       },
       {
-        "keyword": "qdrant",
-        "recent_mentions": 5,
-        "prior_mentions": 2,
-        "change_ratio": 2.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "claude 4",
+        "keyword": "fireworks",
         "recent_mentions": 5,
         "prior_mentions": 2,
         "change_ratio": 2.5,
