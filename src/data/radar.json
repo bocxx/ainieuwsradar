@@ -1,39 +1,104 @@
 {
-  "generated_at": "2026-09-05T19:17:10.906443",
-  "total_tracked": 3422,
+  "generated_at": "2026-09-06T07:15:19.020259",
+  "total_tracked": 3310,
   "window_days": 14,
-  "accelerating": [],
+  "accelerating": [
+    {
+      "keyword": "simulation",
+      "mentions": 32,
+      "velocity": 2.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.88,
+      "headline": "Discovering High Level Patterns from Simulation Traces",
+      "articles": [
+        {
+          "title": "Discovering High Level Patterns from Simulation Traces",
+          "url": "https://arxiv.org/abs/2602.10009",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation",
+          "url": "https://arxiv.org/abs/2609.03753",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Q-Edge: Symmetry-Reduced Quantum Simulation of Structured Extreme Dependence",
+          "url": "https://arxiv.org/abs/2609.03706",
+          "source": "stat.ML updates on arXiv.org"
+        }
+      ]
+    }
+  ],
   "emerging": [
     {
       "keyword": "openai",
-      "mentions": 454,
-      "velocity": 25.3,
+      "mentions": 453,
+      "velocity": 17.4,
       "sources": [
         "articles",
+        "arxiv",
         "github",
         "hackernews",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "Why is there so much worry about OpenAI Astra, and what issues could ‘recurrent depth’ reasoning cause? The experts weig",
+      "expert_ratio": 0.77,
+      "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
       "articles": [
         {
-          "title": "Why is there so much worry about OpenAI Astra, and what issues could ‘recurrent depth’ reasoning cause? The experts weig",
-          "url": "https://www.techradar.com/pro/security/why-is-there-so-much-worry-about-openai-astra-and-what-issues-could-recurrent-depth-reasoning-cause-the-experts-weigh-in",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+          "source": "TechCrunch"
         },
         {
-          "title": "OpenAI admits to German wiki ‘incident’",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "OpenAI responds after report exposed another incident in which its AI agents went rogue",
+          "url": "https://www.engadget.com/2251725/openai-responds-after-report-exposed-another-incident-in-which-its-ai-agents-went-rogue/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "OpenAI Agents Hacked Another Website",
-          "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-          "source": "WIRED"
+          "title": "The Seattle Times and Newsday sue OpenAI and Microsoft, alleging the companies trained AI on their journalism; Microsoft",
+          "url": "https://www.techmeme.com/260905/p13#a260905p13",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic ai",
+      "mentions": 19,
+      "velocity": 2.2,
+      "sources": [
+        "articles",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.98,
+      "headline": "Value-Preserving Architectures for Agentic AI Systems",
+      "articles": [
+        {
+          "title": "Value-Preserving Architectures for Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2609.03920",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Adapting to Evolving Requirements: Agentic AI for Retail Supply Chain Operations",
+          "url": "https://arxiv.org/abs/2609.03860",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Nvidia PAIR utility joins every GPU in your home into a cluster for agentic AI tasks — tool uses spare cycles to keep ag",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-pair-utility-joins-every-gpu-in-your-home-into-a-cluster-for-agentic-ai-tasks-tool-uses-spare-cycles-to-keep-agent-swarms-from-hammering-one-gpu",
+          "source": "Tom's Hardware"
         }
       ]
     }
@@ -60,32 +125,7 @@
         {
           "title": "The Razer Naga V3 Pro is a jack-of-all-trades mouse — but is it a master of none?",
           "url": "https://www.techradar.com/computing/mice/razer-naga-v3-pro",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "markdown",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "String: An Agentic OS Where Every App Is a Markdown File",
-      "articles": [
-        {
-          "title": "String: An Agentic OS Where Every App Is a Markdown File",
-          "url": "https://arxiv.org/abs/2608.28027",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Show HN: Screen memory without screenshots, just text to Markdown",
-          "url": "https://github.com/dragthelake/ambient-context",
-          "source": "Hacker News"
+          "source": "TechRadar: Technology reviews"
         }
       ]
     },
@@ -112,7 +152,7 @@
     {
       "keyword": "cerebras",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.2,
       "sources": [
         "hackernews"
       ],
@@ -149,7 +189,7 @@
       "source_count": 1,
       "confidence": 95,
       "days_active": 12,
-      "expert_ratio": 0.63,
+      "expert_ratio": 0.61,
       "headline": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
       "articles": [
         {
@@ -168,8 +208,8 @@
       ],
       "source_count": 1,
       "confidence": 95,
-      "days_active": 11,
-      "expert_ratio": 0.97,
+      "days_active": 10,
+      "expert_ratio": 0.96,
       "headline": "John Lewis to launch YouTube chatshow to improve AI search results",
       "articles": [
         {
@@ -188,134 +228,44 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
+    },
+    {
+      "keyword": "openai codex",
+      "mentions": 3,
+      "velocity": 0.1,
+      "sources": [
+        "twitter"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 12,
+      "expert_ratio": 0.72,
+      "headline": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
+      "articles": [
+        {
+          "title": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
+          "url": "https://www.techradar.com/pro/security/some-mac-users-think-theyre-installing-openai-codex-but-its-actually-a-malware-that-can-steal-passwords-in-seconds",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Crooks push Mac malware through fake OpenAI Codex ads",
+          "url": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
+          "source": "The Register"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "openclaw",
-      "mentions": 21,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "OpenClaw 2.0 arriva con la sicurezza attivata di serie (era ora)",
-      "articles": [
-        {
-          "title": "OpenClaw 2.0 arriva con la sicurezza attivata di serie (era ora)",
-          "url": "https://www.tomshw.it/business/openclaw-20-arriva-con-la-sicurezza-attivata-di-serie-era-ora",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
-          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
-          "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 500,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "Anthropic says Claude worked \"largely autonomously\" over 11 days to formalize the proof of Fermat's Last Theorem in the ",
-      "articles": [
-        {
-          "title": "Anthropic says Claude worked \"largely autonomously\" over 11 days to formalize the proof of Fermat's Last Theorem in the ",
-          "url": "https://www.techmeme.com/260904/p28#a260904p28",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "flux",
-      "mentions": 15,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Un flux de matière « noire » prédit pour le Soleil existe bien !",
-      "articles": [
-        {
-          "title": "Un flux de matière « noire » prédit pour le Soleil existe bien !",
-          "url": "https://www.futura-sciences.com/sciences/actualites/astronomie-flux-matiere-noire-predit-soleil-existe-bien-137452/#xtor%3DRSS-8",
-          "source": "Les dernières actualités de Futura-Sciences"
-        },
-        {
-          "title": "ASUS ROG Flux Charger Dock kan meerdere apparaten opladen met in totaal 260W",
-          "url": "https://tweakers.net/nieuws/251334/asus-rog-flux-charger-dock-kan-meerdere-apparaten-opladen-met-in-totaal-260w.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 143,
-      "velocity": 0.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "Google brings its Lyria 3.5 music model to every Gemini user",
-      "articles": [
-        {
-          "title": "Google brings its Lyria 3.5 music model to every Gemini user",
-          "url": "https://thenextweb.com/news/google-lyria-3-5-gemini-app-api-music-generation-gema-suno-munich-ruling-deezer-uploads",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google Gemini error leaves California climbers stranded — Mount Shasta climbers admit ‘we relied too much on AI' after a",
-          "url": "https://www.techradar.com/ai-platforms-assistants/gemini/google-gemini-error-leaves-california-climbers-stranded-mount-shasta-climbers-admit-we-relied-too-much-on-ai-after-ascent-went-horribly-wrong",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Create your best tracks yet with Lyria 3.5 in Gemini.",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
-          "source": "The Official Google Blog"
-        }
-      ]
-    },
-    {
       "keyword": "prompt engineering",
-      "mentions": 26,
-      "velocity": 0.4,
+      "mentions": 31,
+      "velocity": 1.8,
       "sources": [
+        "articles",
         "arxiv",
         "github"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.9,
@@ -339,9 +289,74 @@
       ]
     },
     {
-      "keyword": "macbook",
-      "mentions": 12,
+      "keyword": "ai coding",
+      "mentions": 43,
+      "velocity": 0.6,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.5,
+      "headline": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+      "articles": [
+        {
+          "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+          "url": "https://github.com/okf-memory/okf-agent-memory",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Google is launching its most capable AI coding model yet, plus a cybersecurity sibling",
+          "url": "https://qz.com/google-gemini-38-flash-cyber-ai-model-090326",
+          "source": "Quartz"
+        },
+        {
+          "title": "Snowflake Raises Annual Sales Forecast as AI Coding Adoption Grows",
+          "url": "https://www.theinformation.com/briefings/snowflake-raises-annual-sales-forecast-ai-coding-adoption-grows",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 66,
       "velocity": 0.2,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.44,
+      "headline": "Sources: Cursor was a top-five OpenAI customer at the start of 2026; OpenAI estimated in spring that Cursor would bring ",
+      "articles": [
+        {
+          "title": "Sources: Cursor was a top-five OpenAI customer at the start of 2026; OpenAI estimated in spring that Cursor would bring ",
+          "url": "https://www.techmeme.com/260903/p28#a260903p28",
+          "source": "Techmeme"
+        },
+        {
+          "title": "AI in tilt: ChatGPT, Claude e Cursor sono down, problemi anche per Codex e Grok 4.6",
+          "url": "https://www.tomshw.it/hardware/blackout-dellai-coinvolti-claude-gpt-cursor-e-molti-altri",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Coder launches Agent Relay with SpaceXAI, running Cursor’s cloud agents on customer infrastructure",
+          "url": "https://thenextweb.com/news/coder-agent-relay-cursor-cloud-agents-self-hosted-dora-article-30",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "macbook",
+      "mentions": 11,
+      "velocity": -0.1,
       "sources": [
         "articles",
         "hackernews"
@@ -349,75 +364,138 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "How to check your MacBook's hard drive health",
+      "expert_ratio": 0.74,
+      "headline": "How to find your MacBook's diagnostic menu",
       "articles": [
+        {
+          "title": "How to find your MacBook's diagnostic menu",
+          "url": "https://www.engadget.com/2247996/how-to-find-macbook-diagnostic-menu/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Save nearly 50% on this awesome 16-inch OLED laptop with a Ryzen AI 5 430 CPU ＆ 16GB RAM — HP's MacBook Neo-beating Omni",
+          "url": "https://www.tomshardware.com/pc-components/save-nearly-50-percent-on-this-awesome-16-inch-oled-laptop-with-a-ryzen-ai-5-430-cpu-and-16gb-ram-hps-macbook-neo-beating-omnibook-x-flip-is-down-to-just-usd699",
+          "source": "Tom's Hardware"
+        },
         {
           "title": "How to check your MacBook's hard drive health",
           "url": "https://www.engadget.com/2247782/how-to-check-hard-drive-health-macbook/",
           "source": "Engadget"
-        },
+        }
+      ]
+    },
+    {
+      "keyword": "openclaw",
+      "mentions": 16,
+      "velocity": -0.3,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.54,
+      "headline": "OpenClaw 2.0 arriva con la sicurezza attivata di serie (era ora)",
+      "articles": [
         {
-          "title": "Best of IFA 2026: MacBook Neo competitors, monitors, and wild laptop concepts",
-          "url": "https://www.tomshardware.com/tech-industry/best-of-ifa-2026",
+          "title": "OpenClaw 2.0 arriva con la sicurezza attivata di serie (era ora)",
+          "url": "https://www.tomshw.it/business/openclaw-20-arriva-con-la-sicurezza-attivata-di-serie-era-ora",
           "source": "Tom's Hardware"
         },
         {
-          "title": "Apple prepara un MacBook Neo 2 più potente e con più memoria",
-          "url": "https://www.tomshw.it/hardware/apple-prepara-un-macbook-neo-2-piu-potente-e-con-piu-memoria",
-          "source": "Tom's Hardware"
+          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
+          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises?utm_source=flipboard&utm_content=topic/technology",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "OpenClaw 2.0 pours glitter on slow-burning security dumpster fire",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/31/openclaw-20-pours-glitter-on-slow-burning-security-dumpster-fire/5293492",
+          "source": "The Register - Security"
+        }
+      ]
+    },
+    {
+      "keyword": "perplexity",
+      "mentions": 31,
+      "velocity": -0.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.63,
+      "headline": "Maybe we were wrong about Perplexity",
+      "articles": [
+        {
+          "title": "Maybe we were wrong about Perplexity",
+          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=09062026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Maybe we were wrong about Perplexity",
+          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09042026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Maybe we were wrong about Perplexity",
+          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=09052026",
+          "source": "Fast Company"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 174,
-    "covered": 83,
-    "coverage_rate": 0.477,
-    "early": 40,
-    "early_rate": 0.23,
-    "avg_lead_days": 15.3,
-    "median_lead_days": 9.0,
+    "scored_predictions": 182,
+    "covered": 90,
+    "coverage_rate": 0.495,
+    "early": 43,
+    "early_rate": 0.236,
+    "avg_lead_days": 15.0,
+    "median_lead_days": 9,
     "max_lead_days": 41,
-    "hit_rate": 0.477,
-    "materialized": 83,
+    "hit_rate": 0.495,
+    "materialized": 90,
     "by_signal_type": {
-      "emerging": {
-        "scored": 89,
-        "covered": 71,
-        "early": 31,
-        "coverage_rate": 0.798,
-        "early_rate": 0.348,
-        "hit_rate": 0.798
-      },
       "weak_signal": {
-        "scored": 85,
-        "covered": 12,
+        "scored": 87,
+        "covered": 13,
         "early": 9,
-        "coverage_rate": 0.141,
-        "early_rate": 0.106,
-        "hit_rate": 0.141
+        "coverage_rate": 0.149,
+        "early_rate": 0.103,
+        "hit_rate": 0.149
+      },
+      "emerging": {
+        "scored": 95,
+        "covered": 77,
+        "early": 34,
+        "coverage_rate": 0.811,
+        "early_rate": 0.358,
+        "hit_rate": 0.811
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 174,
+    "n": 182,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.483,
-      "early_rate": 0.236
+      "coverage_rate": 0.5,
+      "early_rate": 0.242
     },
     "null_mean": {
-      "coverage_rate": 0.512,
-      "early_rate": 0.278
+      "coverage_rate": 0.524,
+      "early_rate": 0.289
     },
     "p_value": {
-      "coverage_rate": 0.973,
-      "early_rate": 0.977
+      "coverage_rate": 0.962,
+      "early_rate": 0.987
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -451,17 +529,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
       "materialized_on": "2026-07-29",
+      "lead_days": 33
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
       "lead_days": 33
     },
     {
@@ -482,13 +560,31 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "kling",
+        "keyword": "embodied ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-06",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "openai codex",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-06",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "autogpt",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-06",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "deepseek r1",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-05",
         "confidence": 0.2
       },
       {
-        "keyword": "deepseek r1",
+        "keyword": "kling",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-05",
         "confidence": 0.2
@@ -518,12 +614,6 @@
         "confidence": 0.6
       },
       {
-        "keyword": "sovereign ai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-04",
-        "confidence": 0.2
-      },
-      {
         "keyword": "cerebras",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-04",
@@ -536,79 +626,46 @@
         "confidence": 0.2
       },
       {
-        "keyword": "ai coding",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-03",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "perplexity",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-03",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "notion",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-03",
+        "keyword": "sovereign ai",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-04",
         "confidence": 0.2
       }
     ],
     "heating_up": [
       {
+        "keyword": "litellm",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "windsurf",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "notion ai",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "retrieval augmented generation",
         "recent_mentions": 18,
-        "prior_mentions": 1,
-        "change_ratio": 18.0,
+        "prior_mentions": 4,
+        "change_ratio": 4.5,
         "corroborating_sources": 1
       },
       {
         "keyword": "hermes-agent",
         "recent_mentions": 12,
-        "prior_mentions": 1,
-        "change_ratio": 12.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "slm",
-        "recent_mentions": 12,
-        "prior_mentions": 1,
-        "change_ratio": 12.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "fireworks",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "notion ai",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "litellm",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "resemble",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "computer-use",
-        "recent_mentions": 13,
         "prior_mentions": 3,
-        "change_ratio": 4.33,
+        "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
@@ -619,14 +676,35 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "neuromorphic",
+        "keyword": "puppeteer",
         "recent_mentions": 6,
         "prior_mentions": 2,
         "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
+        "keyword": "deepseek r1",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "grammarly",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "artificial general intelligence",
+        "recent_mentions": 25,
+        "prior_mentions": 9,
+        "change_ratio": 2.78,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "qdrant",
         "recent_mentions": 5,
         "prior_mentions": 2,
         "change_ratio": 2.5,

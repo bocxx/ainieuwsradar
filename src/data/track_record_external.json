@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-05T17:38:34+00:00",
+  "generated_at": "2026-09-06T05:34:12+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 174,
-    "covered": 83,
-    "coverage_rate": 0.477,
-    "early": 40,
-    "early_rate": 0.23,
-    "avg_lead_days": 15.3,
-    "median_lead_days": 9.0,
+    "scored_predictions": 182,
+    "covered": 90,
+    "coverage_rate": 0.495,
+    "early": 43,
+    "early_rate": 0.236,
+    "avg_lead_days": 15.0,
+    "median_lead_days": 9,
     "max_lead_days": 41,
-    "hit_rate": 0.477,
-    "materialized": 83,
+    "hit_rate": 0.495,
+    "materialized": 90,
     "by_signal_type": {
-      "emerging": {
-        "scored": 89,
-        "covered": 71,
-        "early": 31,
-        "coverage_rate": 0.798,
-        "early_rate": 0.348,
-        "hit_rate": 0.798
-      },
       "weak_signal": {
-        "scored": 85,
-        "covered": 12,
+        "scored": 87,
+        "covered": 13,
         "early": 9,
-        "coverage_rate": 0.141,
-        "early_rate": 0.106,
-        "hit_rate": 0.141
+        "coverage_rate": 0.149,
+        "early_rate": 0.103,
+        "hit_rate": 0.149
+      },
+      "emerging": {
+        "scored": 95,
+        "covered": 77,
+        "early": 34,
+        "coverage_rate": 0.811,
+        "early_rate": 0.358,
+        "hit_rate": 0.811
       }
     }
   },
@@ -64,17 +64,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
       "materialized_on": "2026-07-29",
+      "lead_days": 33
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
       "lead_days": 33
     },
     {
