@@ -1,58 +1,100 @@
 {
-  "generated_at": "2026-09-06T19:16:33.535105",
-  "total_tracked": 3347,
+  "generated_at": "2026-09-07T07:15:18.298299",
+  "total_tracked": 3305,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "chatgpt",
-      "mentions": 307,
-      "velocity": 16.0,
+      "keyword": "simulation",
+      "mentions": 68,
+      "velocity": 13.3,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
+        "arxiv",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.5,
-      "headline": "Kenya bet its graduates on gig work in 2022. ChatGPT launched that year",
+      "expert_ratio": 0.91,
+      "headline": "How a Chatbot's Response Style Shapes a Classroom: A Multi-Agent Simulation of Students Consulting AI",
       "articles": [
         {
-          "title": "Kenya bet its graduates on gig work in 2022. ChatGPT launched that year",
-          "url": "https://thenextweb.com/news/kenya-essay-writing-industry-ai-gig-work-collapse",
-          "source": "The Next Web"
+          "title": "How a Chatbot's Response Style Shapes a Classroom: A Multi-Agent Simulation of Students Consulting AI",
+          "url": "https://arxiv.org/abs/2609.05018",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simula",
+          "url": "https://arxiv.org/abs/2609.04921",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SimFuse3D: Source-Guided Target Simulation and Confidence-Guided Multi-Stage Localization Reweighting for Cross-Platform",
+          "url": "https://arxiv.org/abs/2609.04886",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "consensus",
-      "mentions": 12,
-      "velocity": 2.3,
+      "keyword": "agentic",
+      "mentions": 135,
+      "velocity": 12.4,
       "sources": [
         "articles",
+        "arxiv",
         "twitter"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "‘Er is in Duitsland geen consensus over Rusland, dat maakt ons tot een makkelijk doelwit voor Russische desinformatie’",
+      "expert_ratio": 0.78,
+      "headline": "ARIA - An Agentic Framework for Autonomous Testing of Infotainment Systems",
       "articles": [
         {
-          "title": "‘Er is in Duitsland geen consensus over Rusland, dat maakt ons tot een makkelijk doelwit voor Russische desinformatie’",
-          "url": "https://www.nrc.nl/nieuws/2026/09/03/er-is-in-duitsland-geen-consensus-over-rusland-dat-maakt-ons-tot-makkelijk-doelwit-voor-russische-desinformatie-a4935772",
-          "source": "NRC"
-        },
-        {
-          "title": "Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting",
-          "url": "https://arxiv.org/abs/2609.02649",
+          "title": "ARIA - An Agentic Framework for Autonomous Testing of Infotainment Systems",
+          "url": "https://arxiv.org/abs/2609.04913",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Fully Distributed GNE Algorithms for Multi-Robot Placement without Consensus on Multipliers",
-          "url": "https://arxiv.org/abs/2608.29388",
+          "title": "ARGOS: Who, Where, and When in Agentic Multi-Camera Person Search",
+          "url": "https://arxiv.org/abs/2604.12762",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "GLOW: Graph-Language Co-Encoding for Agentic Workflow Performance Prediction",
+          "url": "https://arxiv.org/abs/2512.15751",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "distillation",
+      "mentions": 67,
+      "velocity": 11.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
+      "articles": [
+        {
+          "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
+          "url": "https://arxiv.org/abs/2609.04108",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Towards Generalization of Block Attention via Automatic Segmentation and Block Distillation",
+          "url": "https://arxiv.org/abs/2605.15913",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+          "url": "https://arxiv.org/abs/2609.05295",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -61,8 +103,8 @@
   "emerging": [
     {
       "keyword": "openai",
-      "mentions": 471,
-      "velocity": 22.9,
+      "mentions": 482,
+      "velocity": 19.3,
       "sources": [
         "articles",
         "arxiv",
@@ -74,84 +116,22 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.77,
-      "headline": "Research acceleration: The view inside OpenAI",
+      "headline": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
       "articles": [
         {
-          "title": "Research acceleration: The view inside OpenAI",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-          "source": "Hacker News"
+          "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+          "source": "The Verge -  All Posts"
         },
         {
-          "title": "OpenAI admits to 'wiki incident' after its agents were discovered using a programming hub to communicate — says more tra",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments",
-          "source": "Tom's Hardware"
+          "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+          "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "OpenAI’s AGI number came from a harness, not the model",
-          "url": "https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions",
+          "title": "OpenAI’s chief scientist says no lab should keep scaling at maximum speed",
+          "url": "https://thenextweb.com/news/openai-slowdown-pachocki-alien-mind-research-intern-compute",
           "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "simulation",
-      "mentions": 28,
-      "velocity": 1.7,
-      "sources": [
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Discovering High Level Patterns from Simulation Traces",
-      "articles": [
-        {
-          "title": "Discovering High Level Patterns from Simulation Traces",
-          "url": "https://arxiv.org/abs/2602.10009",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation",
-          "url": "https://arxiv.org/abs/2609.03753",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Q-Edge: Symmetry-Reduced Quantum Simulation of Structured Extreme Dependence",
-          "url": "https://arxiv.org/abs/2609.03706",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "world model",
-      "mentions": 15,
-      "velocity": 1.7,
-      "sources": [
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
-      "articles": [
-        {
-          "title": "PAWBench: How Far Are We from Probabilistically Aligned World Modeling?",
-          "url": "https://arxiv.org/abs/2608.27345",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Imagine-then-Plan: Agent Learning from Adaptive Lookahead with World Models",
-          "url": "https://arxiv.org/abs/2601.08955",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure",
-          "url": "https://arxiv.org/abs/2608.13456",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -179,26 +159,6 @@
           "title": "The Razer Naga V3 Pro is a jack-of-all-trades mouse — but is it a master of none?",
           "url": "https://www.techradar.com/computing/mice/razer-naga-v3-pro",
           "source": "TechRadar: Technology reviews"
-        }
-      ]
-    },
-    {
-      "keyword": "ai companion",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "When AI dating goes wrong: as EVA AI hires the world's first ‘AI Companionship Therapist’, its resident relationship exp",
-      "articles": [
-        {
-          "title": "When AI dating goes wrong: as EVA AI hires the world's first ‘AI Companionship Therapist’, its resident relationship exp",
-          "url": "https://www.techradar.com/ai-platforms-assistants/when-ai-dating-goes-wrong-eva-ai-hires-the-worlds-first-ai-companionship-therapist-a-psychotherapist-talks-chatbot-love-and-why-the-28-year-old-ceo-of-a-human-only-meet-up-app-thinks-ai-infatuation-is-over",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
@@ -233,26 +193,6 @@
       ]
     },
     {
-      "keyword": "deepseek r1",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 12,
-      "expert_ratio": 0.61,
-      "headline": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
-      "articles": [
-        {
-          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
-          "url": "https://www.techmeme.com/260825/p24#a260825p24",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
       "keyword": "ai search",
       "mentions": 3,
       "velocity": 0.1,
@@ -261,7 +201,7 @@
       ],
       "source_count": 1,
       "confidence": 95,
-      "days_active": 10,
+      "days_active": 9,
       "expert_ratio": 0.96,
       "headline": "Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
       "articles": [
@@ -283,6 +223,26 @@
       ]
     },
     {
+      "keyword": "deepseek r1",
+      "mentions": 3,
+      "velocity": 0.1,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 12,
+      "expert_ratio": 0.62,
+      "headline": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
+      "articles": [
+        {
+          "title": "OpenAI says its Jalapeño chip delivered 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower latency vs. Nvidia chips acr",
+          "url": "https://www.techmeme.com/260825/p24#a260825p24",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
       "keyword": "openai codex",
       "mentions": 3,
       "velocity": 0.1,
@@ -291,8 +251,8 @@
       ],
       "source_count": 1,
       "confidence": 95,
-      "days_active": 12,
-      "expert_ratio": 0.72,
+      "days_active": 11,
+      "expert_ratio": 0.69,
       "headline": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
       "articles": [
         {
@@ -306,22 +266,104 @@
           "source": "The Register"
         }
       ]
+    },
+    {
+      "keyword": "fake",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 68,
+      "days_active": 9,
+      "expert_ratio": 0.71,
+      "headline": "The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI",
+      "articles": [
+        {
+          "title": "The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI",
+          "url": "https://arxiv.org/abs/2601.03222",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "AMC CEO blasts Robinhood for operating a 'quasi-fake market' for tokenized stock",
+          "url": "https://www.businessinsider.com/amc-ceo-robinhood-tokenized-stock-criticism-adam-aron-2026-9",
+          "source": "Business Insider"
+        },
+        {
+          "title": "I flossed fake teeth with Dyson's tech-riddled CameraJet toothbrush",
+          "url": "https://www.engadget.com/2250930/dyson-camerajet-toothbrush-hands-on-ifa-2026/",
+          "source": "Engadget"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "ai coding",
-      "mentions": 45,
-      "velocity": 1.2,
+      "keyword": "openrouter",
+      "mentions": 11,
+      "velocity": 1.8,
       "sources": [
         "articles",
-        "github",
+        "arxiv",
         "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.5,
+      "expert_ratio": 0.46,
+      "headline": "Z.ai confirms Ox Alpha is a new iteration of its GLM series and says it will release the weights for it tonight; Ox Alph",
+      "articles": [
+        {
+          "title": "Z.ai confirms Ox Alpha is a new iteration of its GLM series and says it will release the weights for it tonight; Ox Alph",
+          "url": "https://www.techmeme.com/260826/p15#a260826p15",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "kimi",
+      "mentions": 11,
+      "velocity": 1.0,
+      "sources": [
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "Kimi Antonelli deelt mentale mokerslag uit op Monza, Max Verstappen derde",
+      "articles": [
+        {
+          "title": "Kimi Antonelli deelt mentale mokerslag uit op Monza, Max Verstappen derde",
+          "url": "https://www.volkskrant.nl/sport/kimi-antonelli-deelt-mentale-mokerslag-uit-op-monza-max-verstappen-derde~b0dad367/",
+          "source": "de Volkskrant - Voorpagina"
+        },
+        {
+          "title": "Houdt Italië’s liefde voor Ferrari stand, nu Kimi Antonelli kans maakt op de wereldtitel?",
+          "url": "https://www.volkskrant.nl/sport/houdt-italie-s-liefde-voor-ferrari-stand-nu-kimi-antonelli-kans-maakt-op-de-wereldtitel~b4cdaff3/",
+          "source": "de Volkskrant - Voorpagina"
+        },
+        {
+          "title": "Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K",
+          "url": "https://www.techmeme.com/260826/p17#a260826p17",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 37,
+      "velocity": -1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
       "headline": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
       "articles": [
         {
@@ -330,175 +372,27 @@
           "source": "Hacker News"
         }
       ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 17,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.11,
-      "headline": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
-      "articles": [
-        {
-          "title": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
-          "url": "https://arxiv.org/abs/2607.20531",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers",
-          "url": "https://arxiv.org/abs/2608.23763",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 67,
-      "velocity": 0.5,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.44,
-      "headline": "Sources: Cursor was a top-five OpenAI customer at the start of 2026; OpenAI estimated in spring that Cursor would bring ",
-      "articles": [
-        {
-          "title": "Sources: Cursor was a top-five OpenAI customer at the start of 2026; OpenAI estimated in spring that Cursor would bring ",
-          "url": "https://www.techmeme.com/260903/p28#a260903p28",
-          "source": "Techmeme"
-        },
-        {
-          "title": "AI in tilt: ChatGPT, Claude e Cursor sono down, problemi anche per Codex e Grok 4.6",
-          "url": "https://www.tomshw.it/hardware/blackout-dellai-coinvolti-claude-gpt-cursor-e-molti-altri",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Coder launches Agent Relay with SpaceXAI, running Cursor’s cloud agents on customer infrastructure",
-          "url": "https://thenextweb.com/news/coder-agent-relay-cursor-cloud-agents-self-hosted-dora-article-30",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 79,
-      "velocity": 0.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "ChatGPT, Claude, and Grok all went down at once; enterprises need a backup plan",
-      "articles": [
-        {
-          "title": "ChatGPT, Claude, and Grok all went down at once; enterprises need a backup plan",
-          "url": "https://www.computerworld.com/article/4218388/chatgpt-claude-and-grok-all-went-down-at-once-enterprises-need-a-backup-plan.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "SpaceXAI apologizes for outage that affected Grok and other 'compute partners'",
-          "url": "https://www.engadget.com/2250789/spacexai-apologizes-for-outage-that-affected-grok-and-other-compute-partners/",
-          "source": "Engadget"
-        },
-        {
-          "title": "True AI-pocalypse as ChatGPT, Claude, and Grok all go down at once",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/03/chatgpt-claude-and-grok-all-had-outages-at-the-same-time/5294322",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 31,
-      "velocity": -0.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.63,
-      "headline": "Maybe we were wrong about Perplexity",
-      "articles": [
-        {
-          "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09042026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=09062026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Maybe we were wrong about Perplexity",
-          "url": "https://www.fastcompany.com/91600914/maybe-we-were-wrong-about-perplexity?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=09062026",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 138,
-      "velocity": -1.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.65,
-      "headline": "Hikers rescued after using Google Gemini for planning",
-      "articles": [
-        {
-          "title": "Hikers rescued after using Google Gemini for planning",
-          "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-          "source": "TechCrunch"
-        }
-      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 182,
-    "covered": 90,
-    "coverage_rate": 0.495,
+    "scored_predictions": 187,
+    "covered": 93,
+    "coverage_rate": 0.497,
     "early": 43,
-    "early_rate": 0.236,
+    "early_rate": 0.23,
     "avg_lead_days": 15.0,
     "median_lead_days": 9,
     "max_lead_days": 41,
-    "hit_rate": 0.495,
-    "materialized": 90,
+    "hit_rate": 0.497,
+    "materialized": 93,
     "by_signal_type": {
       "emerging": {
-        "scored": 95,
-        "covered": 77,
+        "scored": 100,
+        "covered": 80,
         "early": 34,
-        "coverage_rate": 0.811,
-        "early_rate": 0.358,
-        "hit_rate": 0.811
+        "coverage_rate": 0.8,
+        "early_rate": 0.34,
+        "hit_rate": 0.8
       },
       "weak_signal": {
         "scored": 87,
@@ -513,21 +407,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 182,
+    "n": 187,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.5,
-      "early_rate": 0.242
+      "coverage_rate": 0.503,
+      "early_rate": 0.235
     },
     "null_mean": {
-      "coverage_rate": 0.524,
-      "early_rate": 0.289
+      "coverage_rate": 0.529,
+      "early_rate": 0.288
     },
     "p_value": {
-      "coverage_rate": 0.962,
-      "early_rate": 0.987
+      "coverage_rate": 0.965,
+      "early_rate": 0.991
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -592,6 +486,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "browser use",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-07",
+        "confidence": 0.2
+      },
+      {
         "keyword": "chatgpt",
         "signal_type": "emerging",
         "flagged_on": "2026-09-06",
@@ -622,13 +522,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "kling",
+        "keyword": "deepseek r1",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-05",
         "confidence": 0.2
       },
       {
-        "keyword": "deepseek r1",
+        "keyword": "kling",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-05",
         "confidence": 0.2
@@ -656,98 +556,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-04",
         "confidence": 0.6
-      },
-      {
-        "keyword": "national ai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-04",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "mcp client",
-        "recent_mentions": 7,
+        "recent_mentions": 12,
         "prior_mentions": 1,
-        "change_ratio": 7.0,
+        "change_ratio": 12.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "windsurf",
-        "recent_mentions": 6,
+        "keyword": "deepseek r1",
+        "recent_mentions": 12,
         "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
+        "change_ratio": 12.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "litellm",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
+        "keyword": "cerebras",
+        "recent_mentions": 12,
+        "prior_mentions": 2,
         "change_ratio": 6.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
-        "keyword": "notion ai",
+        "keyword": "claude 4",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 18,
-        "prior_mentions": 4,
-        "change_ratio": 4.5,
+        "keyword": "resemble",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "hermes-agent",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "grammarly",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "puppeteer",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "zapier",
-        "recent_mentions": 9,
-        "prior_mentions": 3,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "deepseek r1",
-        "recent_mentions": 9,
-        "prior_mentions": 3,
-        "change_ratio": 3.0,
+        "keyword": "inflection",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "artificial general intelligence",
-        "recent_mentions": 23,
-        "prior_mentions": 9,
-        "change_ratio": 2.56,
-        "corroborating_sources": 3
+        "recent_mentions": 30,
+        "prior_mentions": 7,
+        "change_ratio": 4.29,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "fireworks",
-        "recent_mentions": 5,
+        "keyword": "runway",
+        "recent_mentions": 36,
+        "prior_mentions": 9,
+        "change_ratio": 4.0,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "model context protocol",
+        "recent_mentions": 35,
+        "prior_mentions": 9,
+        "change_ratio": 3.89,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "litellm",
+        "recent_mentions": 7,
         "prior_mentions": 2,
-        "change_ratio": 2.5,
+        "change_ratio": 3.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "test-time compute",
+        "recent_mentions": 27,
+        "prior_mentions": 8,
+        "change_ratio": 3.38,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "sovereign ai",
+        "recent_mentions": 10,
+        "prior_mentions": 3,
+        "change_ratio": 3.33,
+        "corroborating_sources": 2
       }
     ]
   }
