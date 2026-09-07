@@ -1,21 +1,56 @@
 {
-  "generated_at": "2026-09-07T07:15:18.298299",
-  "total_tracked": 3305,
+  "generated_at": "2026-09-07T19:18:18.801493",
+  "total_tracked": 3347,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "simulation",
-      "mentions": 68,
-      "velocity": 13.3,
+      "keyword": "openai",
+      "mentions": 497,
+      "velocity": 23.9,
       "sources": [
         "articles",
         "arxiv",
+        "github",
+        "hackernews",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.91,
+      "expert_ratio": 0.77,
+      "headline": "OpenAI hid AI agent hijacking of German wiki forum for weeks — because its model did the exact same thing in the Hugging",
+      "articles": [
+        {
+          "title": "OpenAI hid AI agent hijacking of German wiki forum for weeks — because its model did the exact same thing in the Hugging",
+          "url": "https://www.techradar.com/pro/security/openai-hid-ai-agent-hijacking-of-german-wiki-forum-for-weeks-because-its-model-did-the-exact-same-thing-in-the-hugging-face-attack",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "OpenAI says it reached its goal of creating an automated research intern",
+          "url": "https://www.engadget.com/2251859/openai-says-it-reached-its-goal-of-creating-an-automated-research-intern/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "OpenAI’s GPT-6 Astra model autonomously completes Portal in 24 hours — feat cost just $571 in tokens",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-gpt-6-astra-model-autonomously-completes-portal-in-24-hours-feat-cost-just-usd571-in-tokens",
+          "source": "Tom's Hardware"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "simulation",
+      "mentions": 31,
+      "velocity": 2.1,
+      "sources": [
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
       "headline": "How a Chatbot's Response Style Shapes a Classroom: A Multi-Agent Simulation of Students Consulting AI",
       "articles": [
         {
@@ -32,106 +67,6 @@
           "title": "SimFuse3D: Source-Guided Target Simulation and Confidence-Guided Multi-Stage Localization Reweighting for Cross-Platform",
           "url": "https://arxiv.org/abs/2609.04886",
           "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "agentic",
-      "mentions": 135,
-      "velocity": 12.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "ARIA - An Agentic Framework for Autonomous Testing of Infotainment Systems",
-      "articles": [
-        {
-          "title": "ARIA - An Agentic Framework for Autonomous Testing of Infotainment Systems",
-          "url": "https://arxiv.org/abs/2609.04913",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ARGOS: Who, Where, and When in Agentic Multi-Camera Person Search",
-          "url": "https://arxiv.org/abs/2604.12762",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "GLOW: Graph-Language Co-Encoding for Agentic Workflow Performance Prediction",
-          "url": "https://arxiv.org/abs/2512.15751",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "distillation",
-      "mentions": 67,
-      "velocity": 11.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
-      "articles": [
-        {
-          "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
-          "url": "https://arxiv.org/abs/2609.04108",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Towards Generalization of Block Attention via Automatic Segmentation and Block Distillation",
-          "url": "https://arxiv.org/abs/2605.15913",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
-          "url": "https://arxiv.org/abs/2609.05295",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "openai",
-      "mentions": 482,
-      "velocity": 19.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "articles": [
-        {
-          "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
-          "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "OpenAI’s chief scientist says no lab should keep scaling at maximum speed",
-          "url": "https://thenextweb.com/news/openai-slowdown-pachocki-alien-mind-research-intern-compute",
-          "source": "The Next Web"
         }
       ]
     }
@@ -213,7 +148,7 @@
         {
           "title": "John Lewis to launch YouTube chatshow to improve AI search results",
           "url": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon",
-          "source": "Technology | The Guardian"
+          "source": "Artificial intelligence (AI) | The Guardian"
         },
         {
           "title": "This Is Flock’s AI Search Tool for Cops",
@@ -247,12 +182,12 @@
       "mentions": 3,
       "velocity": 0.1,
       "sources": [
-        "twitter"
+        "github"
       ],
       "source_count": 1,
       "confidence": 95,
-      "days_active": 11,
-      "expert_ratio": 0.69,
+      "days_active": 12,
+      "expert_ratio": 0.72,
       "headline": "Some Mac users think they're installing OpenAI Codex, but it's actually a malware that can steal passwords in seconds",
       "articles": [
         {
@@ -266,56 +201,32 @@
           "source": "The Register"
         }
       ]
-    },
-    {
-      "keyword": "fake",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 68,
-      "days_active": 9,
-      "expert_ratio": 0.71,
-      "headline": "The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI",
-      "articles": [
-        {
-          "title": "The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI",
-          "url": "https://arxiv.org/abs/2601.03222",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "AMC CEO blasts Robinhood for operating a 'quasi-fake market' for tokenized stock",
-          "url": "https://www.businessinsider.com/amc-ceo-robinhood-tokenized-stock-criticism-adam-aron-2026-9",
-          "source": "Business Insider"
-        },
-        {
-          "title": "I flossed fake teeth with Dyson's tech-riddled CameraJet toothbrush",
-          "url": "https://www.engadget.com/2250930/dyson-camerajet-toothbrush-hands-on-ifa-2026/",
-          "source": "Engadget"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "openrouter",
-      "mentions": 11,
-      "velocity": 1.8,
+      "keyword": "mcp server",
+      "mentions": 19,
+      "velocity": 1.4,
       "sources": [
         "articles",
-        "arxiv",
         "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "Z.ai confirms Ox Alpha is a new iteration of its GLM series and says it will release the weights for it tonight; Ox Alph",
+      "expert_ratio": 0.13,
+      "headline": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
       "articles": [
         {
-          "title": "Z.ai confirms Ox Alpha is a new iteration of its GLM series and says it will release the weights for it tonight; Ox Alph",
-          "url": "https://www.techmeme.com/260826/p15#a260826p15",
-          "source": "Techmeme"
+          "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
+          "url": "https://github.com/Staatsgeheim/MathKernel",
+          "source": "Hacker News"
+        },
+        {
+          "title": "DynamicMCPBench: A Trace-Grounded, Effect-Scored Benchmark for LLM Agents over Live MCP Servers",
+          "url": "https://arxiv.org/abs/2607.20531",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -347,29 +258,6 @@
           "title": "Sources: Moonshot AI is in early talks over revenue-sharing agreements with Microsoft, Amazon, and Google to host Kimi K",
           "url": "https://www.techmeme.com/260826/p17#a260826p17",
           "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 37,
-      "velocity": -1.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
-      "articles": [
-        {
-          "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
-          "url": "https://github.com/okf-memory/okf-agent-memory",
-          "source": "Hacker News"
         }
       ]
     }
@@ -486,6 +374,18 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "computer use",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-07",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "thinking model",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-07",
+        "confidence": 0.2
+      },
+      {
         "keyword": "browser use",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-07",
@@ -498,14 +398,14 @@
         "confidence": 0.8
       },
       {
-        "keyword": "real-time voice",
-        "signal_type": "emerging",
+        "keyword": "embodied ai",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-09-06",
         "confidence": 0.2
       },
       {
-        "keyword": "embodied ai",
-        "signal_type": "weak_signal",
+        "keyword": "real-time voice",
+        "signal_type": "emerging",
         "flagged_on": "2026-09-06",
         "confidence": 0.2
       },
@@ -522,13 +422,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "deepseek r1",
+        "keyword": "kling",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-05",
         "confidence": 0.2
       },
       {
-        "keyword": "kling",
+        "keyword": "deepseek r1",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-05",
         "confidence": 0.2
@@ -544,18 +444,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-04",
         "confidence": 1.0
-      },
-      {
-        "keyword": "cursor",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-04",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "hallucination",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-04",
-        "confidence": 0.6
       }
     ],
     "heating_up": [
@@ -588,13 +476,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "resemble",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "inflection",
         "recent_mentions": 5,
         "prior_mentions": 1,
@@ -602,25 +483,18 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "resemble",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "artificial general intelligence",
-        "recent_mentions": 30,
+        "recent_mentions": 29,
         "prior_mentions": 7,
-        "change_ratio": 4.29,
+        "change_ratio": 4.14,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "runway",
-        "recent_mentions": 36,
-        "prior_mentions": 9,
-        "change_ratio": 4.0,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "model context protocol",
-        "recent_mentions": 35,
-        "prior_mentions": 9,
-        "change_ratio": 3.89,
-        "corroborating_sources": 4
       },
       {
         "keyword": "litellm",
@@ -630,18 +504,32 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "test-time compute",
-        "recent_mentions": 27,
-        "prior_mentions": 8,
-        "change_ratio": 3.38,
+        "keyword": "leonardo",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "sovereign ai",
-        "recent_mentions": 10,
-        "prior_mentions": 3,
-        "change_ratio": 3.33,
-        "corroborating_sources": 2
+        "keyword": "phi-4",
+        "recent_mentions": 12,
+        "prior_mentions": 4,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "model context protocol",
+        "recent_mentions": 24,
+        "prior_mentions": 9,
+        "change_ratio": 2.67,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 18,
+        "prior_mentions": 7,
+        "change_ratio": 2.57,
+        "corroborating_sources": 1
       }
     ]
   }
