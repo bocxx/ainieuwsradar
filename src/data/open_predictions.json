@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-08T05:49:21+00:00",
+  "generated_at": "2026-09-08T17:35:26+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 108,
+    "open": 110,
     "resolved": 100,
     "hits": 17,
     "misses": 83,
@@ -47,12 +47,6 @@
       "days_left": 5
     },
     {
-      "keyword": "deepmind",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-31",
-      "days_left": 6
-    },
-    {
       "keyword": "google deepmind",
       "signal_type": "emerging",
       "flagged_on": "2026-07-31",
@@ -79,6 +73,12 @@
     {
       "keyword": "voicebox",
       "signal_type": "weak_signal",
+      "flagged_on": "2026-08-03",
+      "days_left": 9
+    },
+    {
+      "keyword": "character ai",
+      "signal_type": "emerging",
       "flagged_on": "2026-08-03",
       "days_left": 9
     }
