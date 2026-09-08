@@ -1,89 +1,134 @@
 {
-  "generated_at": "2026-09-07T17:35:11+00:00",
+  "generated_at": "2026-09-08T05:49:21+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 109,
-    "resolved": 98,
+    "open": 108,
+    "resolved": 100,
     "hits": 17,
-    "misses": 81,
-    "hit_rate": 0.173
+    "misses": 83,
+    "hit_rate": 0.17
   },
   "open": [
-    {
-      "keyword": "small language model",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-24",
-      "days_left": 0
-    },
     {
       "keyword": "fireworks ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-07-25",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "krea",
       "signal_type": "emerging",
       "flagged_on": "2026-07-26",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "durable",
       "signal_type": "emerging",
       "flagged_on": "2026-07-27",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "flux",
       "signal_type": "emerging",
       "flagged_on": "2026-07-27",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "claude opus",
       "signal_type": "emerging",
       "flagged_on": "2026-07-28",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "gpt-4",
       "signal_type": "emerging",
       "flagged_on": "2026-07-30",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "deepmind",
       "signal_type": "emerging",
       "flagged_on": "2026-07-31",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "google deepmind",
       "signal_type": "emerging",
       "flagged_on": "2026-07-31",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "rlvr",
       "signal_type": "emerging",
       "flagged_on": "2026-08-01",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "langchain",
       "signal_type": "emerging",
       "flagged_on": "2026-08-01",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "deepseek",
       "signal_type": "emerging",
       "flagged_on": "2026-08-02",
+      "days_left": 8
+    },
+    {
+      "keyword": "voicebox",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-08-03",
       "days_left": 9
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "data center",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "hallucination",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "data centers",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "prompt engineering",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "small language model",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-24",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "lora",
       "signal_type": "emerging",
@@ -161,51 +206,6 @@
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-07-22",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "world model",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-22",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "aider",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-22",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "mistral",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-22",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "qwen",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-21",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "sakana ai",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-07-21",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
