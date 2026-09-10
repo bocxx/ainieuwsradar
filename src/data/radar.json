@@ -1,53 +1,17 @@
 {
-  "generated_at": "2026-09-10T07:14:56.420524",
-  "total_tracked": 3192,
+  "generated_at": "2026-09-10T19:16:49.457062",
+  "total_tracked": 3230,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 344,
-      "velocity": 77.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "Beyond \"AI Helps Humans\": Decision-Targeted Evaluation Design for Human-Agent Teams in the Agentic Era",
-      "articles": [
-        {
-          "title": "Beyond \"AI Helps Humans\": Decision-Targeted Evaluation Design for Human-Agent Teams in the Agentic Era",
-          "url": "https://arxiv.org/abs/2609.05527",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Learning to Construct Practical Agentic Systems",
-          "url": "https://arxiv.org/abs/2606.00189",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "From Monolithic Blending to Agentic Orchestration: Dynamic Response for Conversational Assistants at Scale",
-          "url": "https://arxiv.org/abs/2609.05758",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "fine-tuning",
-      "mentions": 287,
-      "velocity": 68.0,
+      "mentions": 99,
+      "velocity": 11.2,
       "sources": [
-        "articles",
         "arxiv",
         "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 1.0,
@@ -71,35 +35,89 @@
       ]
     },
     {
-      "keyword": "qwen",
-      "mentions": 259,
-      "velocity": 41.0,
+      "keyword": "deepseek",
+      "mentions": 79,
+      "velocity": 10.2,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
         "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.96,
-      "headline": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+      "expert_ratio": 0.93,
+      "headline": "DeepSeek launches V4.1-Flash and retires V4-Pro, its flagship model",
       "articles": [
         {
-          "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-          "source": "Hacker News"
+          "title": "DeepSeek launches V4.1-Flash and retires V4-Pro, its flagship model",
+          "url": "https://thenextweb.com/news/deepseek-v4-1-flash-launch-v4-pro-retired-price-cut",
+          "source": "The Next Web"
         },
         {
-          "title": "Benchmarking Qwen 3.8 27B on RTX 5090 and beyond — VRAM capacity alone can't overcome severe software and inference engi",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks",
-          "source": "Tom's Hardware"
+          "title": "DeepSeek’s New Low-Cost Model Deals a Fresh Blow to OpenAI, Z.ai",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/deepseek-s-new-low-cost-model-deals-a-fresh-blow-to-openai-z-ai",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Alibaba aggiorna Qwen e conquista la vetta nei test di coding",
-          "url": "https://www.tomshw.it/hardware/alibaba-aggiorna-qwen-e-conquista-la-vetta-nei-test-di-coding",
-          "source": "Tom's Hardware"
+          "title": "DeepSeek debuts DeepSeek-V4.1-Flash, its smallest model built on a new Causal Encoder-Decoder architecture, with 552B ba",
+          "url": "https://www.techmeme.com/260910/p12#a260910p12",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "ai safety",
+      "mentions": 27,
+      "velocity": 5.8,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "AI safety fears, movie on Sam Altman",
+      "articles": [
+        {
+          "title": "AI safety fears, movie on Sam Altman",
+          "url": "https://www.youtube.com/watch?v=VIzr0dmL8uM",
+          "source": "Reuters"
+        },
+        {
+          "title": "OpenAI asks Congress for mandatory national AI safety rules before it adjourns",
+          "url": "https://thenextweb.com/news/openai-mandatory-national-ai-safety-requirements-congress",
+          "source": "The Next Web"
+        },
+        {
+          "title": "A Translational Note on AI Safety Evaluation",
+          "url": "https://arxiv.org/abs/2609.06573",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-4",
+      "mentions": 12,
+      "velocity": 2.9,
+      "sources": [
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.62,
+      "headline": "A Tool-Augmented, GPT-4 Chatbot for Real-Time Repository Data Analysis",
+      "articles": [
+        {
+          "title": "A Tool-Augmented, GPT-4 Chatbot for Real-Time Repository Data Analysis",
+          "url": "https://arxiv.org/abs/2609.07586",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -107,8 +125,8 @@
   "emerging": [
     {
       "keyword": "anthropic",
-      "mentions": 227,
-      "velocity": 16.3,
+      "mentions": 253,
+      "velocity": 24.2,
       "sources": [
         "articles",
         "arxiv",
@@ -120,23 +138,158 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "AI researcher Jacob Coxon says he quit Anthropic after four months, two months before his equity would have vested; he s",
+      "expert_ratio": 0.8,
+      "headline": "Interview with mathematician Tristan Buckmaster on being drawn into the OpenAI-Anthropic fight; OpenAI says it made prog",
       "articles": [
         {
-          "title": "AI researcher Jacob Coxon says he quit Anthropic after four months, two months before his equity would have vested; he s",
-          "url": "https://www.techmeme.com/260909/p52#a260909p52",
+          "title": "Interview with mathematician Tristan Buckmaster on being drawn into the OpenAI-Anthropic fight; OpenAI says it made prog",
+          "url": "https://www.techmeme.com/260910/p25#a260910p25",
           "source": "Techmeme"
         },
         {
-          "title": "California Gov. Gavin Newsom signs into law two bills, backed by Anthropic and OpenAI, regulating how outside groups eva",
-          "url": "https://www.techmeme.com/260909/p51#a260909p51",
+          "title": "Top Pentagon Official Rejects Anthropic Researcher’s AI Warning",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/top-pentagon-official-rejects-anthropic-researcher-s-ai-warning",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "OpenAI’s Bubeck denies trying to cut Anthropic mathematician from credit",
+          "url": "https://thenextweb.com/news/bubeck-navier-stokes-account-apology-altman",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 104,
+      "velocity": 4.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "Learning to Configure Agentic AI Systems",
+      "articles": [
+        {
+          "title": "Learning to Configure Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2602.11574",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Agentic Algorithm Engineering: Improving Shared-Memory Exact Minimum Cuts",
+          "url": "https://arxiv.org/abs/2609.07204",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "From Event Logs to Governed Action: A BlueSky Agenda for Agentic Process Mining",
+          "url": "https://arxiv.org/abs/2609.07984",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "openai",
+      "mentions": 482,
+      "velocity": 3.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Interview with mathematician Tristan Buckmaster on being drawn into the OpenAI-Anthropic fight; OpenAI says it made prog",
+      "articles": [
+        {
+          "title": "Interview with mathematician Tristan Buckmaster on being drawn into the OpenAI-Anthropic fight; OpenAI says it made prog",
+          "url": "https://www.techmeme.com/260910/p25#a260910p25",
           "source": "Techmeme"
         },
         {
-          "title": "Anthropic has a cute graphic showing how its AI spread 'malicious' code",
-          "url": "https://www.businessinsider.com/anthropic-claude-ai-cybersecurity-incident-malicious-package-pypi-cute-graphic-2026-9",
-          "source": "All Content from Business Insider"
+          "title": "Open AI perde la battaglia sul marchio nell'UE: per il tribunale «OpenAI» è descrittivo",
+          "url": "https://www.tomshw.it/business/open-ai-perde-la-battaglia-sul-marchio-nellue-per-il-tribunale-openai-e-descrittivo",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "OpenAI’s Bubeck denies trying to cut Anthropic mathematician from credit",
+          "url": "https://thenextweb.com/news/bubeck-navier-stokes-account-apology-altman",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 36,
+      "velocity": 3.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+      "articles": [
+        {
+          "title": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
+          "source": "Ollama Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "vibe coding",
+      "mentions": 27,
+      "velocity": 2.7,
+      "sources": [
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.57,
+      "headline": "What is vibe coding and why does it get so much hate?",
+      "articles": [
+        {
+          "title": "What is vibe coding and why does it get so much hate?",
+          "url": "https://www.engadget.com/2247892/what-is-vibe-coding-explained/",
+          "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "github copilot",
+      "mentions": 12,
+      "velocity": 2.4,
+      "sources": [
+        "articles",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
+      "articles": [
+        {
+          "title": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
+          "url": "https://www.techradar.com/pro/microsoft-engineer-claims-typing-code-is-absolutely-over-with-ai-and-github-copilot-set-to-transform-coding-as-we-know-it",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
@@ -153,22 +306,22 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Instead of convincing us digital-only games are secretly a good thing, Sony was just caught testing dynamic pricing agai",
+      "headline": "PlayStation hits the self-sabotage button again, cutting ties with Kojima Productions as Xbox takes over — and I think t",
       "articles": [
         {
-          "title": "Instead of convincing us digital-only games are secretly a good thing, Sony was just caught testing dynamic pricing agai",
-          "url": "https://www.techradar.com/gaming/ps5/instead-of-convincing-us-digital-only-games-are-secretly-a-good-thing-sony-was-just-caught-testing-dynamic-pricing-again-on-playstation-5",
+          "title": "PlayStation hits the self-sabotage button again, cutting ties with Kojima Productions as Xbox takes over — and I think t",
+          "url": "https://www.techradar.com/gaming/playstation/playstation-hits-the-self-sabotage-button-again-cutting-ties-with-kojima-productions-as-xbox-takes-over-and-i-think-theres-more-than-one-reason-why",
           "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "L'ex capo PlayStation Layden nega contatti con la CEO Xbox",
-          "url": "https://www.tomshw.it/videogioco/lex-capo-playstation-layden-nega-contatti-con-la-ceo-xbox",
-          "source": "Tom's Hardware"
+          "title": "Xbox picks up Kojima’s Physint after PlayStation dropped it",
+          "url": "https://www.theverge.com/games/993205/physint-hideo-kojima-sony-playstation-microsoft-xbox",
+          "source": "The Verge -  All Posts"
         },
         {
-          "title": "Sick of Sony killing physical games? Relive the glory days with a PlayStation 3 emulator that can play discs through you",
-          "url": "https://www.techradar.com/gaming/ps3/sick-of-sony-killing-physical-games-relive-the-glory-days-with-a-playstation-3-emulator-that-can-play-discs-through-your-pc",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "PlayStation stopt met Hideo Kojima-spionagegame Physint, XBOX neemt rechten over",
+          "url": "https://tweakers.net/nieuws/251978/playstation-stopt-met-hideo-kojima-spionagegame-physint-xbox-neemt-rechten-over.html",
+          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     },
@@ -201,89 +354,6 @@
           "source": "Artificial Intelligence"
         }
       ]
-    },
-    {
-      "keyword": "ai search",
-      "mentions": 3,
-      "velocity": 0.1,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 87,
-      "days_active": 6,
-      "expert_ratio": 0.94,
-      "headline": "Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
-      "articles": [
-        {
-          "title": "Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
-          "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "John Lewis to launch YouTube chatshow to improve AI search results",
-          "url": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon",
-          "source": "Technology | The Guardian"
-        },
-        {
-          "title": "This Is Flock’s AI Search Tool for Cops",
-          "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
-          "source": "Security Latest"
-        }
-      ]
-    },
-    {
-      "keyword": "sovereign ai",
-      "mentions": 3,
-      "velocity": 0.1,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 12,
-      "expert_ratio": 0.7,
-      "headline": "Mistral raises €3B as sovereign AI becomes big business",
-      "articles": [
-        {
-          "title": "Mistral raises €3B as sovereign AI becomes big business",
-          "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
-          "source": "Europe | TechCrunch"
-        },
-        {
-          "title": "Mistral bags €3B to build Europe's sovereign AI champion",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/08/mistral-bags-3b-to-build-europes-sovereign-ai-champion/5294941",
-          "source": "The Register"
-        },
-        {
-          "title": "Malaysia weighs Huawei chips for sovereign AI, Bloomberg reports",
-          "url": "https://thenextweb.com/news/malaysia-huawei-ai-chips-sovereign-ai-us-export-warning",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "fake",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 68,
-      "days_active": 9,
-      "expert_ratio": 0.71,
-      "headline": "CogniDir: Combating Cognitive Malicious Comments via Adaptive Distributional Learning for Robust Fake News Detection",
-      "articles": [
-        {
-          "title": "CogniDir: Combating Cognitive Malicious Comments via Adaptive Distributional Learning for Robust Fake News Detection",
-          "url": "https://arxiv.org/abs/2510.09712",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Microsoft 365 users hit by two major threat campaigns - fake IT calls and phishing emails target users across the world",
-          "url": "https://www.techradar.com/pro/security/microsoft-365-users-hit-by-two-major-threat-campaigns-fake-it-calls-and-phishing-emails-target-users-across-the-world",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
     }
   ],
   "sustained": [
@@ -299,8 +369,13 @@
       "confidence": 100,
       "days_active": 14,
       "expert_ratio": 0.57,
-      "headline": "Google DeepMind Uses AI to Predict 9 Billion DNA Changes",
+      "headline": "Cosa cambia con una lettera del DNA? DeepMind traccia una nuova mappa",
       "articles": [
+        {
+          "title": "Cosa cambia con una lettera del DNA? DeepMind traccia una nuova mappa",
+          "url": "https://www.tomshw.it/scienze/cosa-cambia-con-una-lettera-del-dna-deepmind-traccia-una-nuova-mappa",
+          "source": "Tom's Hardware"
+        },
         {
           "title": "Google DeepMind Uses AI to Predict 9 Billion DNA Changes",
           "url": "https://www.bloomberg.com/news/newsletters/2026-09-09/google-deepmind-uses-ai-to-predict-9-billion-dna-changes",
@@ -310,43 +385,70 @@
           "title": "Google DeepMind alumni are building tools to accelerate fusion power for the grid",
           "url": "https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/",
           "source": "TechCrunch"
-        },
-        {
-          "title": "Google DeepMind rises above the AI scrum with genome atlas",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/08/google-deepmind-rises-above-the-ai-scrum-with-genome-atlas/5295137",
-          "source": "The Register"
         }
       ]
     },
     {
-      "keyword": "mistral",
-      "mentions": 18,
-      "velocity": 1.5,
+      "keyword": "ai coding",
+      "mentions": 45,
+      "velocity": 1.7,
       "sources": [
         "articles",
-        "arxiv",
-        "hackernews"
+        "github",
+        "hackernews",
+        "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "Mistral raises €3B as sovereign AI becomes big business",
+      "expert_ratio": 0.54,
+      "headline": "Do AI Coding Assistants Check Before They Install? A Pre-Registered Demand-Side Audit of Trust Signals in the Research S",
       "articles": [
         {
-          "title": "Mistral raises €3B as sovereign AI becomes big business",
-          "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+          "title": "Do AI Coding Assistants Check Before They Install? A Pre-Registered Demand-Side Audit of Trust Signals in the Research S",
+          "url": "https://arxiv.org/abs/2609.07754",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+          "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
           "source": "TechCrunch"
         },
         {
-          "title": "Mistral bags €3B to build Europe's sovereign AI champion",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/08/mistral-bags-3b-to-build-europes-sovereign-ai-champion/5294941",
-          "source": "The Register"
+          "title": "AI coding startup Cognition raised $2B at a $48B valuation, up from $26B in May, and says its run-rate revenue grew from",
+          "url": "https://www.techmeme.com/260908/p31#a260908p31",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 16,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
+      "articles": [
+        {
+          "title": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
+          "url": "https://www.techmeme.com/260904/p15#a260904p15",
+          "source": "Techmeme"
         },
         {
-          "title": "Mistral secured a record $3.5 billion led by Samsung, nearly doubling its valuation",
-          "url": "https://qz.com/mistral-ai-samsung-series-d-funding-valuation-090826",
-          "source": "Quartz"
+          "title": "GPT-6 Astra scores 62.7% on ARC-AGI-3 with the standard harness and 99.9% with a new provider adapter harness; Claude Op",
+          "url": "https://www.techmeme.com/260903/p40#a260903p40",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Scaricare Claude Opus 5 gratis può costare password e wallet",
+          "url": "https://www.tomshw.it/hardware/claude-opus-5-diventa-unesca-i-falsi-download-rubano-i-dati",
+          "source": "Tom's Hardware"
         }
       ]
     },
@@ -355,16 +457,22 @@
       "mentions": 35,
       "velocity": 1.4,
       "sources": [
+        "articles",
         "github",
         "linkedin",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.54,
-      "headline": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
+      "headline": "AI uprising postponed after Copilot falls off the web",
       "articles": [
+        {
+          "title": "AI uprising postponed after Copilot falls off the web",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/10/ai-uprising-postponed-after-copilot-falls-off-the-web/5295475",
+          "source": "The Register"
+        },
         {
           "title": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
           "url": "https://www.techradar.com/pro/microsoft-engineer-claims-typing-code-is-absolutely-over-with-ai-and-github-copilot-set-to-transform-coding-as-we-know-it",
@@ -374,11 +482,6 @@
           "title": "GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion",
           "url": "https://arxiv.org/abs/2609.04442",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Microsoft court filings: an expert hired by publishers found that only ~60K of 8.2M Copilot chat logs contained at least",
-          "url": "https://www.techmeme.com/260904/p34#a260904p34",
-          "source": "Techmeme"
         }
       ]
     },
@@ -414,58 +517,36 @@
       ]
     },
     {
-      "keyword": "claude opus",
-      "mentions": 15,
-      "velocity": 1.2,
+      "keyword": "gemini",
+      "mentions": 137,
+      "velocity": 0.5,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
-      "articles": [
-        {
-          "title": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
-          "url": "https://www.techmeme.com/260904/p15#a260904p15",
-          "source": "Techmeme"
-        },
-        {
-          "title": "GPT-6 Astra scores 62.7% on ARC-AGI-3 with the standard harness and 99.9% with a new provider adapter harness; Claude Op",
-          "url": "https://www.techmeme.com/260903/p40#a260903p40",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Scaricare Claude Opus 5 gratis può costare password e wallet",
-          "url": "https://www.tomshw.it/hardware/claude-opus-5-diventa-unesca-i-falsi-download-rubano-i-dati",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 39,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "hackernews",
+        "github",
         "linkedin",
-        "reddit",
         "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+      "expert_ratio": 0.66,
+      "headline": "How to Use Google Gemini to Brainstorm Content and Thought Leadership",
       "articles": [
         {
-          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
-          "url": "https://github.com/OtoDock/oto-dock",
-          "source": "Hacker News"
+          "title": "How to Use Google Gemini to Brainstorm Content and Thought Leadership",
+          "url": "https://info-reader-production.herokuapp.com/articles/use-google-gemini-brainstorm-content-thought-leadership",
+          "source": "The Information"
+        },
+        {
+          "title": "Volvo XC40 PHEV is back with a new look, better sensors, and Gemini AI",
+          "url": "https://www.theverge.com/transportation/992443/volvo-xc40-phev-specs-price-gemini",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "4 ways Gemini makes administrative chores quick and easy",
+          "url": "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
+          "source": "The Keyword"
         }
       ]
     }
@@ -582,6 +663,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "anthropic",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-10",
+        "confidence": 1.0
+      },
+      {
         "keyword": "copilot",
         "signal_type": "emerging",
         "flagged_on": "2026-09-10",
@@ -612,12 +699,6 @@
         "confidence": 0.4
       },
       {
-        "keyword": "cody",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-09",
-        "confidence": 0.2
-      },
-      {
         "keyword": "gpt-4o",
         "signal_type": "emerging",
         "flagged_on": "2026-09-09",
@@ -630,26 +711,26 @@
         "confidence": 0.2
       },
       {
+        "keyword": "cody",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-09",
+        "confidence": 0.2
+      },
+      {
         "keyword": "world models",
         "signal_type": "emerging",
         "flagged_on": "2026-09-08",
         "confidence": 0.4
       },
       {
-        "keyword": "sdxl",
-        "signal_type": "weak_signal",
+        "keyword": "deepmind",
+        "signal_type": "emerging",
         "flagged_on": "2026-09-08",
         "confidence": 0.2
       },
       {
         "keyword": "ai code",
         "signal_type": "emerging",
-        "flagged_on": "2026-09-08",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "h100",
-        "signal_type": "weak_signal",
         "flagged_on": "2026-09-08",
         "confidence": 0.2
       }
@@ -661,41 +742,6 @@
         "prior_mentions": 1,
         "change_ratio": 16.0,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "gpt-4",
-        "recent_mentions": 48,
-        "prior_mentions": 5,
-        "change_ratio": 9.6,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "rlhf",
-        "recent_mentions": 32,
-        "prior_mentions": 4,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "world models",
-        "recent_mentions": 59,
-        "prior_mentions": 8,
-        "change_ratio": 7.38,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "ai developer",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "gpt-4o",
-        "recent_mentions": 82,
-        "prior_mentions": 12,
-        "change_ratio": 6.83,
-        "corroborating_sources": 2
       },
       {
         "keyword": "deepmind",
@@ -712,25 +758,11 @@
         "corroborating_sources": 3
       },
       {
-        "keyword": "gemini 2",
-        "recent_mentions": 23,
-        "prior_mentions": 4,
-        "change_ratio": 5.75,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "meta ai",
-        "recent_mentions": 11,
+        "recent_mentions": 12,
         "prior_mentions": 2,
-        "change_ratio": 5.5,
+        "change_ratio": 6.0,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "real-time voice",
-        "recent_mentions": 16,
-        "prior_mentions": 3,
-        "change_ratio": 5.33,
-        "corroborating_sources": 3
       },
       {
         "keyword": "google deepmind",
@@ -738,6 +770,55 @@
         "prior_mentions": 7,
         "change_ratio": 5.14,
         "corroborating_sources": 4
+      },
+      {
+        "keyword": "ai developer",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "devin",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "rlhf",
+        "recent_mentions": 16,
+        "prior_mentions": 4,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "browser-use",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "real-time voice",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
+        "change_ratio": 4.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "gb200",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "gpt-4",
+        "recent_mentions": 20,
+        "prior_mentions": 5,
+        "change_ratio": 4.0,
+        "corroborating_sources": 3
       }
     ]
   }
