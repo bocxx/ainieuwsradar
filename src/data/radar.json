@@ -1,12 +1,105 @@
 {
-  "generated_at": "2026-09-12T07:13:32.394728",
-  "total_tracked": 3194,
+  "generated_at": "2026-09-12T19:13:47.352145",
+  "total_tracked": 3224,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "agentic",
+      "mentions": 112,
+      "velocity": 5.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "Autonomous Chemical Mechanistic Discovery through Agentic Reasoning and Validation",
+      "articles": [
+        {
+          "title": "Autonomous Chemical Mechanistic Discovery through Agentic Reasoning and Validation",
+          "url": "https://arxiv.org/abs/2609.11147",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "VALG: An Agentic System for ML Theory Research",
+          "url": "https://arxiv.org/abs/2608.13060",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce",
+          "url": "https://arxiv.org/abs/2609.11190",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-4",
+      "mentions": 15,
+      "velocity": 2.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.65,
+      "headline": "A Tool-Augmented, GPT-4 Chatbot for Real-Time Repository Data Analysis",
+      "articles": [
+        {
+          "title": "A Tool-Augmented, GPT-4 Chatbot for Real-Time Repository Data Analysis",
+          "url": "https://arxiv.org/abs/2609.07586",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "anthropic",
+      "mentions": 324,
+      "velocity": 30.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "Anthropic's CEO proposes a three-step plan to curb AI development",
+      "articles": [
+        {
+          "title": "Anthropic's CEO proposes a three-step plan to curb AI development",
+          "url": "https://www.engadget.com/2256718/anthropics-ceo-proposes-a-three-step-plan-to-curb-ai-development/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Anthropic’s Dario Amodei says the AI industry must slow down",
+          "url": "https://thenextweb.com/news/amodei-pacing-frontier-eu-rules",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+          "source": "The Verge -  All Posts"
+        }
+      ]
+    },
+    {
       "keyword": "fine-tuning",
-      "mentions": 172,
-      "velocity": 26.9,
+      "mentions": 112,
+      "velocity": 8.7,
       "sources": [
         "articles",
         "arxiv",
@@ -36,77 +129,9 @@
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 172,
-      "velocity": 23.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce",
-      "articles": [
-        {
-          "title": "Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce",
-          "url": "https://arxiv.org/abs/2609.11190",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "AI Economist Agent: An Agentic Framework for Evidence-Based Economic and Financial Analysis with RAG, Knowledge Graphs, ",
-          "url": "https://arxiv.org/abs/2606.20041",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "VALG: An Agentic System for ML Theory Research",
-          "url": "https://arxiv.org/abs/2608.13060",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 186,
-      "velocity": 19.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "articles": [
-        {
-          "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Benchmarking Qwen 3.8 27B on RTX 5090 and beyond — VRAM capacity alone can't overcome severe software and inference engi",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Alibaba aggiorna Qwen e conquista la vetta nei test di coding",
-          "url": "https://www.tomshw.it/hardware/alibaba-aggiorna-qwen-e-conquista-la-vetta-nei-test-di-coding",
-          "source": "Tom's Hardware"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "anthropic",
-      "mentions": 309,
-      "velocity": 25.5,
+      "keyword": "claude",
+      "mentions": 474,
+      "velocity": 4.0,
       "sources": [
         "articles",
         "arxiv",
@@ -118,38 +143,37 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Nvidia May Invest Up to $10 Billion In Anthropic’s IPO",
+      "expert_ratio": 0.78,
+      "headline": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
       "articles": [
         {
-          "title": "Nvidia May Invest Up to $10 Billion In Anthropic’s IPO",
-          "url": "https://www.theinformation.com/briefings/nvidia-may-invest-10-billion-anthropics-ipo",
-          "source": "The Information"
+          "title": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Sources: Anthropic is in talks to bring on Nvidia as an anchor investor in its IPO, seeking up to $100B at a ~$2T valuat",
-          "url": "https://www.techmeme.com/260911/p34#a260911p34",
-          "source": "Techmeme"
+          "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+          "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
+          "source": "Security Latest"
         },
         {
-          "title": "Nvidia Mulls $10 Billion Anthropic IPO Backing, Reuters Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters",
-          "source": "Bloomberg Technology"
+          "title": "A developer emailed Claude Code's creator about AI slop. Boris Cherny wrote back.",
+          "url": "https://www.businessinsider.com/claude-codes-creator-email-ai-slop-reply-2026-9",
+          "source": "Business Insider"
         }
       ]
     },
     {
       "keyword": "deepseek",
-      "mentions": 98,
-      "velocity": 9.0,
+      "mentions": 80,
+      "velocity": 3.6,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
         "linkedin"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.92,
@@ -169,70 +193,6 @@
           "title": "'DeepSeek stuurde prompts door naar Claude zonder dat klanten dat wisten'",
           "url": "https://tweakers.net/nieuws/252032/deepseek-stuurde-prompts-door-naar-claude-zonder-dat-klanten-dat-wisten.html",
           "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
-      "keyword": "copilot",
-      "mentions": 54,
-      "velocity": 5.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "Teams and Copilot are changing addresses: update your firewalls",
-      "articles": [
-        {
-          "title": "Teams and Copilot are changing addresses: update your firewalls",
-          "url": "https://www.computerworld.com/article/4221272/teams-and-copilot-are-changing-addresses-update-your-firewalls.html",
-          "source": "Computerworld"
-        },
-        {
-          "title": "AI uprising postponed after Copilot falls off the web",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/10/ai-uprising-postponed-after-copilot-falls-off-the-web/5295475",
-          "source": "The Register"
-        },
-        {
-          "title": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
-          "url": "https://www.techradar.com/pro/microsoft-engineer-claims-typing-code-is-absolutely-over-with-ai-and-github-copilot-set-to-transform-coding-as-we-know-it",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 475,
-      "velocity": 4.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Revisione contratti fornitori con Claude: la checklist per il category manager",
-      "articles": [
-        {
-          "title": "Revisione contratti fornitori con Claude: la checklist per il category manager",
-          "url": "https://www.tomshw.it/aioperator/revisione-contratti-fornitori-con-claude-la-checklist-per-il-category-manager",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Anthropic says Russian and Chinese threat actors used Claude as a weapons engineering assistant for drone swarming and m",
-          "url": "https://www.businessinsider.com/anthropic-says-threat-actors-used-claude-for-weapons-2026-9",
-          "source": "Business Insider"
         }
       ]
     }
@@ -277,8 +237,13 @@
       "confidence": 50,
       "days_active": 3,
       "expert_ratio": 0.8,
-      "headline": "Ukraine's army is turning Humvees into remote-controlled vehicles connected by Starlink",
+      "headline": "Ukraine war briefing: Russian developers used AI to build ‘kamikaze’ attack drone software, Anthropic says",
       "articles": [
+        {
+          "title": "Ukraine war briefing: Russian developers used AI to build ‘kamikaze’ attack drone software, Anthropic says",
+          "url": "https://www.theguardian.com/world/2026/sep/12/ukraine-war-briefing-russian-developers-used-ai-to-build-kamikaze-attack-drone-software-anthropic-says",
+          "source": "Artificial intelligence (AI) | The Guardian"
+        },
         {
           "title": "Ukraine's army is turning Humvees into remote-controlled vehicles connected by Starlink",
           "url": "https://www.techradar.com/pro/ukraines-army-is-turning-humvees-into-remote-controlled-vehicles-connected-by-starlink",
@@ -288,11 +253,6 @@
           "title": "Behind the killer robots of Ukraine's warfare 'revolution'",
           "url": "https://www.youtube.com/watch?v=0pgIWMXxaT0",
           "source": "Reuters"
-        },
-        {
-          "title": "Ukraine starts building a jet-powered drone with a range of over 1,000 kilometers",
-          "url": "https://www.techradar.com/pro/ukraine-starts-building-jet-powered-drone-with-a-range-of-over-1-000-kilometers",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
@@ -307,22 +267,22 @@
       "confidence": 81,
       "days_active": 7,
       "expert_ratio": 0.69,
-      "headline": "Off-Target Effects of Response-Style Alignment in a Korean 27B Language Model",
+      "headline": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
       "articles": [
+        {
+          "title": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "South Korea's espionage laws, broadened for the first time in over seven decades, take effect on Sept. 13 as foreign spi",
+          "url": "https://www.techmeme.com/260912/p4#a260912p4",
+          "source": "Techmeme"
+        },
         {
           "title": "Off-Target Effects of Response-Style Alignment in a Korean 27B Language Model",
           "url": "https://arxiv.org/abs/2609.11291",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
-          "url": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "SpaceX is signing another massive AI computing deal, pushing toward $100 billion revenue target",
-          "url": "https://qz.com/spacex-ai-computing-deal-billion-revenue-target-091126",
-          "source": "Quartz"
         }
       ]
     },
@@ -359,41 +319,35 @@
   ],
   "sustained": [
     {
-      "keyword": "hallucinations",
+      "keyword": "mcp server",
       "mentions": 19,
       "velocity": 1.9,
       "sources": [
         "articles",
-        "arxiv",
         "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents",
+      "expert_ratio": 0.22,
+      "headline": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
       "articles": [
         {
-          "title": "LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents",
-          "url": "https://arxiv.org/abs/2609.09754",
+          "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
+          "url": "https://arxiv.org/abs/2609.10854",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "A Progressive Training Strategy for Embodied Vision-Language Models to Mitigate Spatio-Temporal Hallucinations",
-          "url": "https://arxiv.org/abs/2604.10506",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Reducing Hallucinations in LLM-based Scientific Literature Analysis Using Peer Context Outlier Detection",
-          "url": "https://arxiv.org/abs/2604.01461",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
+          "url": "https://github.com/Staatsgeheim/MathKernel",
+          "source": "Hacker News"
         }
       ]
     },
     {
       "keyword": "ai safety",
-      "mentions": 21,
-      "velocity": 1.5,
+      "mentions": 22,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "twitter"
@@ -402,8 +356,13 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.78,
-      "headline": "Companies deploying AI agents have ‘no idea how to manage risk,’ AI safety expert warns",
+      "headline": "Trump is taking a hands-off approach to AI regulation to preserve the US lead over China, ahead of a summit with Xi Jinp",
       "articles": [
+        {
+          "title": "Trump is taking a hands-off approach to AI regulation to preserve the US lead over China, ahead of a summit with Xi Jinp",
+          "url": "https://www.techmeme.com/260912/p10#a260912p10",
+          "source": "Techmeme"
+        },
         {
           "title": "Companies deploying AI agents have ‘no idea how to manage risk,’ AI safety expert warns",
           "url": "https://www.fastcompany.com/91605381/companies-deploying-ai-agents-have-no-idea-how-to-manage-risk-ai-safety-expert-warns",
@@ -413,49 +372,41 @@
           "title": "AI safety fears, movie on Sam Altman",
           "url": "https://www.youtube.com/watch?v=VIzr0dmL8uM",
           "source": "Reuters"
-        },
-        {
-          "title": "OpenAI asks Congress for mandatory national AI safety rules before it adjourns",
-          "url": "https://thenextweb.com/news/openai-mandatory-national-ai-safety-requirements-congress",
-          "source": "The Next Web"
         }
       ]
     },
     {
-      "keyword": "deepmind",
-      "mentions": 17,
-      "velocity": 0.8,
+      "keyword": "gpt-5",
+      "mentions": 33,
+      "velocity": 1.7,
       "sources": [
+        "articles",
+        "arxiv",
         "hackernews",
         "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.58,
-      "headline": "A former Google DeepMind safety researcher explains the frightening difference between AI and other threats like nuclear",
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
       "articles": [
         {
-          "title": "A former Google DeepMind safety researcher explains the frightening difference between AI and other threats like nuclear",
-          "url": "https://www.businessinsider.com/what-makes-ai-different-from-nuclear-war-climate-change-asteroids-2026-9",
-          "source": "Business Insider"
+          "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+          "source": "Hacker News"
         },
         {
-          "title": "Cosa cambia con una lettera del DNA? DeepMind traccia una nuova mappa",
-          "url": "https://www.tomshw.it/scienze/cosa-cambia-con-una-lettera-del-dna-deepmind-traccia-una-nuova-mappa",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Google DeepMind Uses AI to Predict 9 Billion DNA Changes",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-09-09/google-deepmind-uses-ai-to-predict-9-billion-dna-changes",
-          "source": "Bloomberg Technology"
+          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "url": "https://openai.com/index/codex-quantum-computing-experiments",
+          "source": "OpenAI News"
         }
       ]
     },
     {
       "keyword": "claude code",
-      "mentions": 37,
-      "velocity": 0.7,
+      "mentions": 40,
+      "velocity": 1.6,
       "sources": [
         "articles",
         "hackernews",
@@ -467,12 +418,34 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
-      "headline": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
+      "headline": "A developer emailed Claude Code's creator about AI slop. Boris Cherny wrote back.",
       "articles": [
         {
-          "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
-          "url": "https://github.com/OtoDock/oto-dock",
-          "source": "Hacker News"
+          "title": "A developer emailed Claude Code's creator about AI slop. Boris Cherny wrote back.",
+          "url": "https://www.businessinsider.com/claude-codes-creator-email-ai-slop-reply-2026-9",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 34,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+      "articles": [
+        {
+          "title": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
+          "source": "Ollama Releases"
         }
       ]
     }
@@ -489,14 +462,6 @@
     "hit_rate": 0.508,
     "materialized": 101,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 91,
-        "covered": 15,
-        "early": 9,
-        "coverage_rate": 0.165,
-        "early_rate": 0.099,
-        "hit_rate": 0.165
-      },
       "emerging": {
         "scored": 108,
         "covered": 86,
@@ -504,6 +469,14 @@
         "coverage_rate": 0.796,
         "early_rate": 0.333,
         "hit_rate": 0.796
+      },
+      "weak_signal": {
+        "scored": 91,
+        "covered": 15,
+        "early": 9,
+        "coverage_rate": 0.165,
+        "early_rate": 0.099,
+        "hit_rate": 0.165
       }
     }
   },
@@ -558,17 +531,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
       "materialized_on": "2026-08-19",
+      "lead_days": 33
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33
     },
     {
@@ -588,6 +561,12 @@
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "claude",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-12",
+        "confidence": 1.0
+      },
       {
         "keyword": "ai safety",
         "signal_type": "emerging",
@@ -613,7 +592,7 @@
         "confidence": 0.6
       },
       {
-        "keyword": "gpt-4",
+        "keyword": "open webui",
         "signal_type": "emerging",
         "flagged_on": "2026-09-11",
         "confidence": 0.4
@@ -625,7 +604,7 @@
         "confidence": 0.4
       },
       {
-        "keyword": "open webui",
+        "keyword": "gpt-4",
         "signal_type": "emerging",
         "flagged_on": "2026-09-11",
         "confidence": 0.4
@@ -653,20 +632,14 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-10",
         "confidence": 0.8
-      },
-      {
-        "keyword": "quantization",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-10",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "embodied ai",
-        "recent_mentions": 22,
+        "recent_mentions": 18,
         "prior_mentions": 1,
-        "change_ratio": 22.0,
+        "change_ratio": 18.0,
         "corroborating_sources": 1
       },
       {
@@ -678,10 +651,10 @@
       },
       {
         "keyword": "gpt-4",
-        "recent_mentions": 47,
+        "recent_mentions": 44,
         "prior_mentions": 6,
-        "change_ratio": 7.83,
-        "corroborating_sources": 3
+        "change_ratio": 7.33,
+        "corroborating_sources": 4
       },
       {
         "keyword": "github copilot",
@@ -698,14 +671,14 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "ai sdk",
+        "keyword": "vercel ai sdk",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "vercel ai sdk",
+        "keyword": "ai sdk",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
@@ -719,6 +692,13 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "claude desktop",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "open webui",
         "recent_mentions": 5,
         "prior_mentions": 1,
@@ -726,18 +706,11 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "codex cli",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "claude desktop",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
+        "keyword": "ai regulation",
+        "recent_mentions": 19,
+        "prior_mentions": 4,
+        "change_ratio": 4.75,
+        "corroborating_sources": 3
       },
       {
         "keyword": "capcut",

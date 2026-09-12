@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T05:33:28+00:00",
+  "generated_at": "2026-09-12T17:35:08+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -16,14 +16,6 @@
     "hit_rate": 0.508,
     "materialized": 101,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 91,
-        "covered": 15,
-        "early": 9,
-        "coverage_rate": 0.165,
-        "early_rate": 0.099,
-        "hit_rate": 0.165
-      },
       "emerging": {
         "scored": 108,
         "covered": 86,
@@ -31,6 +23,14 @@
         "coverage_rate": 0.796,
         "early_rate": 0.333,
         "hit_rate": 0.796
+      },
+      "weak_signal": {
+        "scored": 91,
+        "covered": 15,
+        "early": 9,
+        "coverage_rate": 0.165,
+        "early_rate": 0.099,
+        "hit_rate": 0.165
       }
     }
   },
@@ -64,17 +64,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
       "materialized_on": "2026-08-19",
+      "lead_days": 33
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33
     },
     {
@@ -98,21 +98,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 194,
+    "n": 199,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.505,
-      "early_rate": 0.237
+      "coverage_rate": 0.513,
+      "early_rate": 0.231
     },
     "null_mean": {
-      "coverage_rate": 0.541,
-      "early_rate": 0.301
+      "coverage_rate": 0.547,
+      "early_rate": 0.306
     },
     "p_value": {
-      "coverage_rate": 0.99,
-      "early_rate": 0.998
+      "coverage_rate": 0.987,
+      "early_rate": 0.999
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
