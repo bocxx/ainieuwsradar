@@ -1,0 +1,453 @@
+{
+  "title": "AI-radar 11 september 2026: anthropic, large language model, deepseek",
+  "date": "2026-09-11",
+  "description": "Op 11 september 2026 domineerde Anthropic het signaallandschap met een sterke stijging van 36 punten en 289 vermeldingen, gevolgd door large language…",
+  "analysis": "Op 11 september 2026 domineerde Anthropic het signaallandschap met een sterke stijging van 36 punten en 289 vermeldingen, gevolgd door large language model met 22 punten en 97 vermeldingen. DeepSeek trok eveneens aandacht met 19 punten en 98 vermeldingen, terwijl Claude met 15 punten en 460 vermeldingen aangeeft dat dit model breed over platforms wordt besproken. De breedte van bronnen voor Anthropic en Claude, variërend van GitHub tot nieuwsartikelen, suggereert dat deze onderwerpen zowel in technische als bredere media-context leven.\n\nOnder de zwakke signalen verdient prompt injection het volgen waard te zijn: hoewel slechts 5 punten en 10 vermeldingen, verschijnt het op ArXiv, wat duidt op academische aandacht voor dit veiligheidsthema. Dit contrast met meer oppervlakkige signalen als routerbench of webarena, die vooral in nieuwsartikelen en ArXiv voorkomen maar geen brede bronverspreiding tonen. Je kijkt hier naar meetdata van 963 gevolgde onderwerpen die dag, geen redactioneel oordeel over relevantie.",
+  "data": {
+    "date": "2026-09-11",
+    "prev_date": "2026-09-10",
+    "accelerating": [
+      {
+        "keyword": "anthropic",
+        "mentions": 289,
+        "velocity": 36,
+        "sources": [
+          "github",
+          "hackernews",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 7,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 244,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "large language model",
+        "mentions": 97,
+        "velocity": 22,
+        "sources": [
+          "bluesky",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 97,
+        "headline": "📄 PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving"
+      },
+      {
+        "keyword": "deepseek",
+        "mentions": 98,
+        "velocity": 19,
+        "sources": [
+          "github",
+          "hackernews",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 7,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 85,
+        "headline": "📰 ComfyUI ในวันที่ AI สร้างภาพ วิดีโอ และโมเดล 3 มิติ ได้ด้วยการลากกล่องต่อกัน"
+      },
+      {
+        "keyword": "claude",
+        "mentions": 460,
+        "velocity": 15,
+        "sources": [
+          "github",
+          "hackernews",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 8,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 368,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "multimodal",
+        "mentions": 94,
+        "velocity": 12,
+        "sources": [
+          "github",
+          "bluesky",
+          "linkedin",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 94,
+        "headline": "This week in The Batch:\n\n🤖 Andrew Ng on Coding Agent Workflows\nBuilding software with AI agents demands rock-solid struc"
+      },
+      {
+        "keyword": "lora",
+        "mentions": 32,
+        "velocity": 12,
+        "sources": [
+          "github",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 32,
+        "headline": "⭐ lyogavin/airllm: AirLLM 70B inference with single 4GB GPU"
+      },
+      {
+        "keyword": "ai agents",
+        "mentions": 190,
+        "velocity": 12,
+        "sources": [
+          "github",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 136,
+        "headline": "📰 หนังสือฟรีที่สอนสร้างระบบ AI หลายตัวจากศูนย์ พร้อมโค้ดทุกบรรทัดบน GitHub"
+      },
+      {
+        "keyword": "copilot",
+        "mentions": 45,
+        "velocity": 10,
+        "sources": [
+          "github",
+          "twitter",
+          "bluesky",
+          "linkedin",
+          "producthunt",
+          "articles"
+        ],
+        "source_count": 6,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 27,
+        "headline": "An open-source tool designed to remove or disable unwanted AI components like Copilot, Recall, and other AI tools from W"
+      },
+      {
+        "keyword": "fine-tuning",
+        "mentions": 107,
+        "velocity": 8,
+        "sources": [
+          "linkedin",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 107,
+        "headline": "🛑 Z .ai just proved how powerful post-training can be for powering agents.\n\nGLM-5.3 achieved a score of 60 on the Artifi"
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 123,
+        "velocity": 7,
+        "sources": [
+          "hackernews",
+          "linkedin",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 123,
+        "headline": "📰 How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data"
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "multimatte",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: MultiMatte, a Promptable Image Background Removal Model"
+      },
+      {
+        "keyword": "claudestatsbar",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Show HN: ClaudeStatsBar: your session is 486k deep and nothing told you"
+      },
+      {
+        "keyword": "mathmodelagent",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ jihe520/MathModelAgent: 🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,"
+      },
+      {
+        "keyword": "ai scraping",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ D4Vinci/Scrapling: 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale "
+      },
+      {
+        "keyword": "scrapling",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ D4Vinci/Scrapling: 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale "
+      },
+      {
+        "keyword": "ai-agent-book",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ bojieli/ai-agent-book: 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
+      },
+      {
+        "keyword": "openviking",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ volcengine/OpenViking: Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+      },
+      {
+        "keyword": "garak",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ NVIDIA/garak: the LLM vulnerability scanner"
+      },
+      {
+        "keyword": "llm evaluation",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ NVIDIA/garak: the LLM vulnerability scanner"
+      },
+      {
+        "keyword": "llm security",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ NVIDIA/garak: the LLM vulnerability scanner"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "deepseek-v4.1-flash",
+        "mentions": 8,
+        "velocity": 8,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "📰 ComfyUI ในวันที่ AI สร้างภาพ วิดีโอ และโมเดล 3 มิติ ได้ด้วยการลากกล่องต่อกัน"
+      },
+      {
+        "keyword": "prompt injection",
+        "mentions": 10,
+        "velocity": 5,
+        "sources": [
+          "arxiv"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 10,
+        "headline": "📄 Architecting the Secure AI-SOC: A Neurosymbolic Framework for Pipeline Integrity and Threat Mitigati"
+      },
+      {
+        "keyword": "hermes agent",
+        "mentions": 10,
+        "velocity": 5,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "📰 ComfyUI ในวันที่ AI สร้างภาพ วิดีโอ และโมเดล 3 มิติ ได้ด้วยการลากกล่องต่อกัน"
+      },
+      {
+        "keyword": "routerbench",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📄 Task- and Session-Level Model Routing: A Common-Interface Hybrid Evaluation of Four Open-Source Routers Across Four Benc"
+      },
+      {
+        "keyword": "webarena",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📄 Task- and Session-Level Model Routing: A Common-Interface Hybrid Evaluation of Four Open-Source Routers Across Four Benc"
+      },
+      {
+        "keyword": "b or worse",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📄 A distribution-free certification framework for trustworthy crash-severity prediction"
+      },
+      {
+        "keyword": "datashifts",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📄 General Quantification of Covariate and Concept Shifts"
+      },
+      {
+        "keyword": "replaid",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📄 Continuous Diffusion Scales Competitively with Discrete Diffusion for Language"
+      },
+      {
+        "keyword": "openwebtext",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📄 Continuous Diffusion Scales Competitively with Discrete Diffusion for Language"
+      },
+      {
+        "keyword": "combiprecip",
+        "mentions": 4,
+        "velocity": 4,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 4,
+        "headline": "📄 Stress-Testing Dynamical and Generative Downscaling Using Subseasonal Extreme Precipitation Forecasts"
+      }
+    ],
+    "total_tracked": 963
+  }
+}
