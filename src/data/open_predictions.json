@@ -1,89 +1,134 @@
 {
-  "generated_at": "2026-09-12T17:35:32+00:00",
+  "generated_at": "2026-09-13T05:33:53+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 111,
-    "resolved": 105,
-    "hits": 16,
-    "misses": 89,
-    "hit_rate": 0.152
+    "resolved": 108,
+    "hits": 15,
+    "misses": 93,
+    "hit_rate": 0.139
   },
   "open": [
     {
       "keyword": "rlvr",
       "signal_type": "emerging",
       "flagged_on": "2026-08-01",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "langchain",
       "signal_type": "emerging",
       "flagged_on": "2026-08-01",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "voicebox",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-03",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "character ai",
       "signal_type": "emerging",
       "flagged_on": "2026-08-03",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "sakana ai",
       "signal_type": "emerging",
       "flagged_on": "2026-08-03",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "sota",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "seedance",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "dreamina",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "dall-e",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-06",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "claude 4",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-07",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "lora",
       "signal_type": "emerging",
       "flagged_on": "2026-08-08",
-      "days_left": 10
+      "days_left": 9
     },
     {
       "keyword": "ai energy",
       "signal_type": "emerging",
       "flagged_on": "2026-08-10",
-      "days_left": 12
+      "days_left": 11
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "perplexity",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-29",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "grok",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-29",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "openmontage",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-07-29",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "gemini 2",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-07-29",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "ai safety",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-29",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "claude opus",
       "signal_type": "emerging",
@@ -161,51 +206,6 @@
       "signal_type": "weak_signal",
       "status": "miss",
       "flagged_on": "2026-07-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "data center",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-24",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "hallucination",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-24",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "data centers",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-24",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "prompt engineering",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-24",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "small language model",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-24",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
