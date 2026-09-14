@@ -1,91 +1,136 @@
 {
-  "generated_at": "2026-09-13T17:34:33+00:00",
+  "generated_at": "2026-09-14T05:31:59+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 113,
-    "resolved": 108,
-    "hits": 15,
-    "misses": 93,
-    "hit_rate": 0.139
+    "open": 114,
+    "resolved": 110,
+    "hits": 14,
+    "misses": 96,
+    "hit_rate": 0.127
   },
   "open": [
     {
       "keyword": "rlvr",
       "signal_type": "emerging",
       "flagged_on": "2026-08-01",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "langchain",
       "signal_type": "emerging",
       "flagged_on": "2026-08-01",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "voicebox",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-03",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "character ai",
       "signal_type": "emerging",
       "flagged_on": "2026-08-03",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "sakana ai",
       "signal_type": "emerging",
       "flagged_on": "2026-08-03",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "sota",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "seedance",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "dreamina",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "dall-e",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-06",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "claude 4",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-07",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "lora",
       "signal_type": "emerging",
       "flagged_on": "2026-08-08",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "ai energy",
       "signal_type": "emerging",
       "flagged_on": "2026-08-10",
-      "days_left": 11
+      "days_left": 10
     }
   ],
   "recent_resolved": [
     {
-      "keyword": "perplexity",
+      "keyword": "gpt-5",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-30",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "llama",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-30",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "hallucinations",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-30",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "gpt-4",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-30",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "claude 4",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-07-30",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "grok",
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-07-29",
@@ -94,7 +139,7 @@
       "outlet": null
     },
     {
-      "keyword": "grok",
+      "keyword": "perplexity",
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-07-29",
@@ -161,51 +206,6 @@
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-07-27",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "ai energy",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-07-26",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "krea",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-26",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "mcp server",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "deepseek",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "fireworks ai",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-07-25",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null

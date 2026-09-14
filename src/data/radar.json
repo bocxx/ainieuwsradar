@@ -1,12 +1,114 @@
 {
-  "generated_at": "2026-09-13T19:15:13.626740",
-  "total_tracked": 3183,
+  "generated_at": "2026-09-14T07:13:13.465623",
+  "total_tracked": 3145,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "agentic",
+      "mentions": 142,
+      "velocity": 12.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
+      "articles": [
+        {
+          "title": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
+          "url": "https://arxiv.org/abs/2608.00794",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Agentic TCAD Calibration Workflow for Oxide Semiconductor Transistors",
+          "url": "https://arxiv.org/abs/2609.12184",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Reality Is the Final Verifier: On Two Key Gaps in Agentic Software Engineering",
+          "url": "https://arxiv.org/abs/2609.12039",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 502,
+      "velocity": 9.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "Anthropic 'formalizes' Fermat's Last Theorem like never before using Claude — but it still took 11 days to write out",
+      "articles": [
+        {
+          "title": "Anthropic 'formalizes' Fermat's Last Theorem like never before using Claude — but it still took 11 days to write out",
+          "url": "https://www.techradar.com/pro/anthropic-formalizes-fermats-last-theorem-like-never-before-using-claude-but-it-still-took-11-days-to-write-out?utm_source=flipboard&utm_content=topic/technology",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression to",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
+          "source": "Tom's Hardware"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "anthropic",
+      "mentions": 360,
+      "velocity": 22.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "China Spy Chief Warns of AI Risks as Anthropic CEO Urges Brakes",
+      "articles": [
+        {
+          "title": "China Spy Chief Warns of AI Risks as Anthropic CEO Urges Brakes",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-spy-chief-warns-of-ai-risks-as-us-tech-leaders-urge-brakes",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Source: Anthropic signed a $13.7B, six-year deal to lease compute from Rum Group's upcoming Georgia data center; Rum ope",
+          "url": "https://www.techmeme.com/260913/p16#a260913p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Anthropic Strikes $13.7 Billion Compute Deal With Trump-Linked Rum Group",
+          "url": "https://www.theinformation.com/articles/anthropic-strikes-13-7-billion-compute-deal-trump-linked-rum-group",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
       "keyword": "deepseek",
-      "mentions": 111,
-      "velocity": 11.9,
+      "mentions": 135,
+      "velocity": 15.6,
       "sources": [
         "articles",
         "arxiv",
@@ -17,7 +119,7 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.93,
+      "expert_ratio": 0.94,
       "headline": "DeepSeek's new model sets a template for powerful LLMs that run lean",
       "articles": [
         {
@@ -39,165 +141,38 @@
     },
     {
       "keyword": "ai safety",
-      "mentions": 35,
-      "velocity": 5.2,
+      "mentions": 38,
+      "velocity": 4.5,
       "sources": [
         "articles",
+        "arxiv",
         "twitter"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Speaker Johnson says Congress won't lead the charge on regulating AI safety and AI companies should take responsibility ",
+      "expert_ratio": 0.79,
+      "headline": "AI Safety: Not Optional, Not Later",
       "articles": [
+        {
+          "title": "AI Safety: Not Optional, Not Later",
+          "url": "https://arxiv.org/abs/2609.10630",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body",
+          "url": "https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police",
+          "source": "The Information"
+        },
         {
           "title": "Speaker Johnson says Congress won't lead the charge on regulating AI safety and AI companies should take responsibility ",
           "url": "https://www.techmeme.com/260913/p7#a260913p7",
           "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
-          "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "Trump is taking a hands-off approach to AI regulation to preserve the US lead over China, ahead of a summit with Xi Jinp",
-          "url": "https://www.techmeme.com/260912/p10#a260912p10",
-          "source": "Techmeme"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "anthropic",
-      "mentions": 357,
-      "velocity": 30.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Anthropic has chosen the Nasdaq for its IPO listing",
-      "articles": [
-        {
-          "title": "Anthropic has chosen the Nasdaq for its IPO listing",
-          "url": "https://www.businessinsider.com/anthropic-selects-nasdaq-for-ipo-amid-ai-risk-concerns-2026-9",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Trump’s former AI czar tells Anthropic and OpenAI to slow down, and to stop asking for anything in return",
-          "url": "https://thenextweb.com/news/sacks-pacing-frontier-eu-liability",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Anthropic 'formalizes' Fermat's Last Theorem like never before using Claude — but it still took 11 days to write out",
-          "url": "https://www.techradar.com/pro/anthropic-formalizes-fermats-last-theorem-like-never-before-using-claude-but-it-still-took-11-days-to-write-out",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 482,
-      "velocity": 5.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Anthropic 'formalizes' Fermat's Last Theorem like never before using Claude — but it still took 11 days to write out",
-      "articles": [
-        {
-          "title": "Anthropic 'formalizes' Fermat's Last Theorem like never before using Claude — but it still took 11 days to write out",
-          "url": "https://www.techradar.com/pro/anthropic-formalizes-fermats-last-theorem-like-never-before-using-claude-but-it-still-took-11-days-to-write-out",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression to",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems?utm_source=flipboard&utm_content=topic/technology",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "huggingface",
-      "mentions": 22,
-      "velocity": 2.4,
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "HuggingFace: Security.txt",
-      "articles": [
-        {
-          "title": "HuggingFace: Security.txt",
-          "url": "https://huggingface.co/security.txt",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-          "url": "https://huggingface.co/blog/webgpu-kernels",
-          "source": "Hugging Face Blog"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "embedding",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "Output Embedding Centering for Stable LLM Pretraining",
-      "articles": [
-        {
-          "title": "Output Embedding Centering for Stable LLM Pretraining",
-          "url": "https://arxiv.org/abs/2601.02031",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SPECTRA: Band-Routed Embedding and Stage-Wise LoRA for Cross-Sensor Fine-Tuning of Geospatial Foundation Models",
-          "url": "https://arxiv.org/abs/2608.01751",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "FastE: Readout-Triggered Token Compression for LLM Embedding Inference",
-          "url": "https://arxiv.org/abs/2609.08407",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
     {
       "keyword": "playstation",
       "mentions": 2,
@@ -229,32 +204,32 @@
       ]
     },
     {
-      "keyword": "ai developer",
+      "keyword": "embedding",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.8,
       "sources": [
-        "linkedin"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 7,
-      "expert_ratio": 0.69,
-      "headline": "Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers",
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "ProPS: Prompted Profile Synthesis for Natural Language-Conditioned Speaker Embedding Distributions",
       "articles": [
         {
-          "title": "Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers",
-          "url": "https://arxiv.org/abs/2609.08789",
+          "title": "ProPS: Prompted Profile Synthesis for Natural Language-Conditioned Speaker Embedding Distributions",
+          "url": "https://arxiv.org/abs/2607.05276",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on",
-          "url": "https://www.tomshardware.com/software/windows/stripped-down-windows-11-for-ai-developers-demands-64gb-ram-and-insane-250-gb-s-bandwidth-project-zenith-will-debut-on-amds-flagship-ryzen-ai-halo-platform?utm_source=flipboard&utm_content=TomsHardware/magazine/Tom's+Hardware",
-          "source": "Artificial Intelligence"
+          "title": "Output Embedding Centering for Stable LLM Pretraining",
+          "url": "https://arxiv.org/abs/2601.02031",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Sam Altman says AI developers have fumbled at communicating the technology’s benefits",
-          "url": "https://thenextweb.com/news/altman-says-industry-fumbled-communicating-ai-benefits-data-centre-backlash-europe-grid-eed-reporting",
-          "source": "The Next Web"
+          "title": "SPECTRA: Band-Routed Embedding and Stage-Wise LoRA for Cross-Sensor Fine-Tuning of Geospatial Foundation Models",
+          "url": "https://arxiv.org/abs/2608.01751",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -266,25 +241,25 @@
         "articles"
       ],
       "source_count": 1,
-      "confidence": 73,
-      "days_active": 8,
-      "expert_ratio": 0.67,
-      "headline": "“In terms of price-to-performance, it’s hard to beat”: This Xbox gamepad might be better value than Microsoft’s version ",
+      "confidence": 71,
+      "days_active": 7,
+      "expert_ratio": 0.62,
+      "headline": "Satya Nadella says \"we welcome\" the \"deliberate pacing needed to get alignment right\", and announces a \"Code of Conduct\"",
       "articles": [
         {
-          "title": "“In terms of price-to-performance, it’s hard to beat”: This Xbox gamepad might be better value than Microsoft’s version ",
-          "url": "https://www.techradar.com/gaming/gaming-accessories/drakong-challenger-review",
+          "title": "Satya Nadella says \"we welcome\" the \"deliberate pacing needed to get alignment right\", and announces a \"Code of Conduct\"",
+          "url": "https://www.techmeme.com/260913/p13#a260913p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Microsoft is working with the American Federation of Teachers to work out how best to use AI in the classroom",
+          "url": "https://www.techradar.com/pro/microsoft-is-working-with-the-american-federation-of-teachers-to-work-out-how-best-to-use-ai-in-the-classroom",
           "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Why Amazon and Microsoft Are Taking Communities’ Side Against Utilities",
-          "url": "https://www.theinformation.com/articles/amazon-microsoft-taking-communities-side-utilities",
-          "source": "The Information"
-        },
-        {
-          "title": "Skype for Business, c'è chi ancora lo usa (e Microsoft lo aggiorna)",
-          "url": "https://www.tomshw.it/altro/skype-for-business-si-aggiorna-ancora-microsoft-corregge-una-falla-critica-nel-server-aziendale",
-          "source": "Tom's Hardware"
+          "title": "“In terms of price-to-performance, it’s hard to beat”: This Xbox gamepad might be better value than Microsoft’s version ",
+          "url": "https://www.techradar.com/gaming/gaming-accessories/drakong-challenger-review",
+          "source": "TechRadar: Technology reviews"
         }
       ]
     },
@@ -296,9 +271,9 @@
         "arxiv"
       ],
       "source_count": 1,
-      "confidence": 85,
-      "days_active": 7,
-      "expert_ratio": 0.8,
+      "confidence": 83,
+      "days_active": 6,
+      "expert_ratio": 0.86,
       "headline": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
       "articles": [
         {
@@ -310,11 +285,26 @@
           "title": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
           "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems?shem=dsdf,sharefoc,agadiscoversdl,,sh/x/discover/m1/4&utm_source=flipboard&utm_content=DerrickAsh/magazine/Power+keg",
           "source": "Artificial Intelligence"
-        },
+        }
+      ]
+    },
+    {
+      "keyword": "type",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 67,
+      "days_active": 4,
+      "expert_ratio": 0.67,
+      "headline": "External HDD vs. SSD: What are the pros and cons of each drive type?",
+      "articles": [
         {
-          "title": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems?shem=dsdf%2Csharefoc%2Cagadiscoversdl%2C%2Csh%2Fx%2Fdiscover%2Fm1%2F4&utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "title": "External HDD vs. SSD: What are the pros and cons of each drive type?",
+          "url": "https://www.engadget.com/2252820/external-hdd-vs-ssd-pros-and-cons-drive-type/",
+          "source": "Engadget"
         }
       ]
     },
@@ -349,69 +339,94 @@
       ]
     },
     {
-      "keyword": "ukraine",
-      "mentions": 2,
-      "velocity": 0.2,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 54,
-      "days_active": 4,
-      "expert_ratio": 0.86,
-      "headline": "Ukraine triumphs in 'first-ever' drone-vs-drone boat battle — video shows Russian MBeK destroyed by Sargan 3000's 12.7mm",
-      "articles": [
-        {
-          "title": "Ukraine triumphs in 'first-ever' drone-vs-drone boat battle — video shows Russian MBeK destroyed by Sargan 3000's 12.7mm",
-          "url": "https://www.tomshardware.com/tech-industry/drones/ukraines-sargan-3000-triumphs-in-first-ever-drone-vs-drone-boat-battle-video-shows-russian-mbek-destroyed-by-its-foes-12-7mm-automatic-turret",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Ukraine war briefing: Russian developers used AI to build ‘kamikaze’ attack drone software, Anthropic says",
-          "url": "https://www.theguardian.com/world/2026/sep/12/ukraine-war-briefing-russian-developers-used-ai-to-build-kamikaze-attack-drone-software-anthropic-says",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "Ukraine's army is turning Humvees into remote-controlled vehicles connected by Starlink",
-          "url": "https://www.techradar.com/pro/ukraines-army-is-turning-humvees-into-remote-controlled-vehicles-connected-by-starlink",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "ai search",
+      "keyword": "vram",
       "mentions": 3,
       "velocity": 0.2,
       "sources": [
-        "github"
+        "linkedin"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
+      "confidence": 95,
+      "days_active": 14,
+      "expert_ratio": 0.7,
+      "headline": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65%",
       "articles": [
         {
-          "title": "Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
-          "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65%",
+          "url": "https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "John Lewis to launch YouTube chatshow to improve AI search results",
-          "url": "https://www.theguardian.com/business/2026/sep/03/john-lewis-youtube-chat-show-angela-scanlon",
-          "source": "Artificial intelligence (AI) | The Guardian"
+          "title": "Nvidia's unreleased RTX 3070 Ti 16GB comes to life thanks to a modder's crazy GDDR6 swap — Frankenstein card combines RT",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-unreleased-rtx-3070-ti-16gb-comes-to-life-thanks-to-a-modders-crazy-gddr6-swap-frankenstein-card-combines-rtx-3070-pcb-and-new-vram-with-rtx-3070-ti-gpu",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "This Is Flock’s AI Search Tool for Cops",
-          "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
-          "source": "Feed: Artificial Intelligence Latest"
+          "title": "Benchmarking Qwen 3.8 27B on RTX 5090 and beyond — VRAM capacity alone can't overcome severe software and inference engi",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks",
+          "source": "Tom's Hardware"
         }
       ]
     }
   ],
   "sustained": [
     {
+      "keyword": "llama",
+      "mentions": 34,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+      "articles": [
+        {
+          "title": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
+          "source": "Ollama Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 17,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.88,
+      "headline": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
+      "articles": [
+        {
+          "title": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
+          "url": "https://www.techmeme.com/260904/p15#a260904p15",
+          "source": "Techmeme"
+        },
+        {
+          "title": "GPT-6 Astra scores 62.7% on ARC-AGI-3 with the standard harness and 99.9% with a new provider adapter harness; Claude Op",
+          "url": "https://www.techmeme.com/260903/p40#a260903p40",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Scaricare Claude Opus 5 gratis può costare password e wallet",
+          "url": "https://www.tomshw.it/hardware/claude-opus-5-diventa-unesca-i-falsi-download-rubano-i-dati",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
       "keyword": "vibe coding",
-      "mentions": 30,
-      "velocity": 1.9,
+      "mentions": 28,
+      "velocity": 0.8,
       "sources": [
         "articles",
         "arxiv",
@@ -420,7 +435,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.67,
+      "expert_ratio": 0.7,
       "headline": "Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line",
       "articles": [
         {
@@ -430,59 +445,112 @@
         },
         {
           "title": "What is vibe coding and why does it get so much hate?",
-          "url": "https://www.engadget.com/2247892/what-is-vibe-coding-explained/?utm_source=flipboard&utm_content=topic/programming",
-          "source": "Artificial Intelligence"
+          "url": "https://www.engadget.com/2247892/what-is-vibe-coding-explained/",
+          "source": "Engadget"
         }
       ]
     },
     {
-      "keyword": "gpt-5",
-      "mentions": 30,
-      "velocity": 0.3,
+      "keyword": "github copilot",
+      "mentions": 11,
+      "velocity": 0.7,
+      "sources": [
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
+      "articles": [
+        {
+          "title": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
+          "url": "https://www.techradar.com/pro/microsoft-engineer-claims-typing-code-is-absolutely-over-with-ai-and-github-copilot-set-to-transform-coding-as-we-know-it",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 34,
+      "velocity": 0.4,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
-        "linkedin"
+        "github",
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+      "expert_ratio": 0.53,
+      "headline": "Teams and Copilot are changing addresses: update your firewalls",
       "articles": [
         {
-          "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-          "source": "Hacker News"
+          "title": "Teams and Copilot are changing addresses: update your firewalls",
+          "url": "https://www.computerworld.com/article/4221272/teams-and-copilot-are-changing-addresses-update-your-firewalls.html",
+          "source": "Artificial Intelligence – Computerworld"
         },
         {
-          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-          "url": "https://openai.com/index/codex-quantum-computing-experiments",
-          "source": "OpenAI News"
+          "title": "AI uprising postponed after Copilot falls off the web",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/10/ai-uprising-postponed-after-copilot-falls-off-the-web/5295475",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 16,
+      "velocity": 0.3,
+      "sources": [
+        "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.44,
+      "headline": "Source: Anthropic signed a $13.7B, six-year deal to lease compute from Rum Group's upcoming Georgia data center; Rum ope",
+      "articles": [
+        {
+          "title": "Source: Anthropic signed a $13.7B, six-year deal to lease compute from Rum Group's upcoming Georgia data center; Rum ope",
+          "url": "https://www.techmeme.com/260913/p16#a260913p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Report: former EPA officials identify 30 federal actions since January 2025 that they say exacerbate health risks stemmi",
+          "url": "https://www.techmeme.com/260913/p15#a260913p15",
+          "source": "Techmeme"
+        },
+        {
+          "title": "I own a house rental business near a future Meta AI data center. Construction workers make up most of our tenants.",
+          "url": "https://www.businessinsider.com/meta-ai-data-center-louisiana-housing-market-home-rentals-2026-9",
+          "source": "Business Insider"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 203,
-    "covered": 104,
-    "coverage_rate": 0.512,
-    "early": 47,
-    "early_rate": 0.232,
-    "avg_lead_days": 14.7,
-    "median_lead_days": 9,
+    "scored_predictions": 206,
+    "covered": 106,
+    "coverage_rate": 0.515,
+    "early": 48,
+    "early_rate": 0.233,
+    "avg_lead_days": 14.5,
+    "median_lead_days": 9.0,
     "max_lead_days": 41,
-    "hit_rate": 0.512,
-    "materialized": 104,
+    "hit_rate": 0.515,
+    "materialized": 106,
     "by_signal_type": {
       "emerging": {
-        "scored": 111,
-        "covered": 89,
-        "early": 38,
-        "coverage_rate": 0.802,
+        "scored": 114,
+        "covered": 91,
+        "early": 39,
+        "coverage_rate": 0.798,
         "early_rate": 0.342,
-        "hit_rate": 0.802
+        "hit_rate": 0.798
       },
       "weak_signal": {
         "scored": 92,
@@ -497,21 +565,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 203,
+    "n": 206,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.517,
-      "early_rate": 0.236
+      "coverage_rate": 0.519,
+      "early_rate": 0.238
     },
     "null_mean": {
-      "coverage_rate": 0.548,
+      "coverage_rate": 0.549,
       "early_rate": 0.307
     },
     "p_value": {
-      "coverage_rate": 0.975,
-      "early_rate": 0.999
+      "coverage_rate": 0.979,
+      "early_rate": 0.998
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -545,17 +613,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
       "materialized_on": "2026-08-19",
+      "lead_days": 33
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33
     },
     {
@@ -575,6 +643,18 @@
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "huggingface",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-14",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "llama 3",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-14",
+        "confidence": 0
+      },
       {
         "keyword": "openai",
         "signal_type": "emerging",
@@ -634,103 +714,91 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-11",
         "confidence": 0.4
-      },
-      {
-        "keyword": "machine consciousness",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-11",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "open webui",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-11",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
       {
-        "keyword": "embodied ai",
+        "keyword": "slm",
         "recent_mentions": 21,
-        "prior_mentions": 1,
-        "change_ratio": 21.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "ai governance",
-        "recent_mentions": 17,
         "prior_mentions": 2,
-        "change_ratio": 8.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "vercel ai sdk",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 10.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai sdk",
-        "recent_mentions": 8,
+        "keyword": "jasper",
+        "recent_mentions": 10,
         "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 10.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "prompt injection",
-        "recent_mentions": 37,
+        "keyword": "openmontage",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "relevance",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "open-source ai",
+        "recent_mentions": 26,
         "prior_mentions": 6,
-        "change_ratio": 6.17,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "open webui",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "notebooklm",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "gpt-4",
-        "recent_mentions": 46,
-        "prior_mentions": 9,
-        "change_ratio": 5.11,
+        "change_ratio": 4.33,
         "corroborating_sources": 4
       },
       {
-        "keyword": "devin",
-        "recent_mentions": 25,
-        "prior_mentions": 5,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
+        "keyword": "cline",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "codex cli",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
+        "keyword": "small language model",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "ai regulation",
-        "recent_mentions": 20,
-        "prior_mentions": 4,
-        "change_ratio": 5.0,
+        "keyword": "whisper",
+        "recent_mentions": 42,
+        "prior_mentions": 11,
+        "change_ratio": 3.82,
         "corroborating_sources": 3
       },
       {
-        "keyword": "simplified",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "keyword": "digital twin",
+        "recent_mentions": 19,
+        "prior_mentions": 5,
+        "change_ratio": 3.8,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "autogen",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "devin",
+        "recent_mentions": 31,
+        "prior_mentions": 9,
+        "change_ratio": 3.44,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "prompt injection",
+        "recent_mentions": 34,
+        "prior_mentions": 10,
+        "change_ratio": 3.4,
         "corroborating_sources": 2
       }
     ]
