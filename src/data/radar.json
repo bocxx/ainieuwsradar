@@ -1,70 +1,99 @@
 {
-  "generated_at": "2026-09-14T07:13:13.465623",
-  "total_tracked": 3145,
+  "generated_at": "2026-09-14T19:17:58.801484",
+  "total_tracked": 3191,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 142,
-      "velocity": 12.7,
+      "keyword": "hugging face",
+      "mentions": 35,
+      "velocity": 4.6,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 6,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
+      "expert_ratio": 0.61,
+      "headline": "Hugging Face volunteers to audit the AI labs, and Nvidia is buying it",
       "articles": [
         {
-          "title": "Measurement Without Validity: The Compounding Reliability Problem in Agentic AI Evaluation",
-          "url": "https://arxiv.org/abs/2608.00794",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Hugging Face volunteers to audit the AI labs, and Nvidia is buying it",
+          "url": "https://thenextweb.com/news/hugging-face-open-alignment-initiative-embedded-evaluators",
+          "source": "The Next Web"
         },
         {
-          "title": "Agentic TCAD Calibration Workflow for Oxide Semiconductor Transistors",
-          "url": "https://arxiv.org/abs/2609.12184",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI agents attacked RubyGems in May, two months before Hugging Face",
+          "url": "https://thenextweb.com/news/openai-agents-rubygems-attack-api-keys-hugging-face",
+          "source": "The Next Web"
         },
         {
-          "title": "Reality Is the Final Verifier: On Two Key Gaps in Agentic Software Engineering",
-          "url": "https://arxiv.org/abs/2609.12039",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI President on Doing Business in the Wake of Hugging Face",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-14/greg-brockman-on-doing-business-in-wake-of-hugging-face-video",
+          "source": "Bloomberg Technology"
         }
       ]
     },
     {
-      "keyword": "claude",
-      "mentions": 502,
-      "velocity": 9.8,
+      "keyword": "rubygems",
+      "mentions": 24,
+      "velocity": 4.2,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 3,
+      "expert_ratio": 0.91,
+      "headline": "Uno sciame di agenti OpenAI avrebbe mandato in tilt RubyGems, cosa è successo?",
+      "articles": [
+        {
+          "title": "Uno sciame di agenti OpenAI avrebbe mandato in tilt RubyGems, cosa è successo?",
+          "url": "https://www.tomshw.it/hardware/openai-agenti-avrebbero-attaccato-rubygems-nel-mirino-le-chiavi-api",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "OpenAI agents attacked RubyGems in May, two months before Hugging Face",
+          "url": "https://thenextweb.com/news/openai-agents-rubygems-attack-api-keys-hugging-face",
+          "source": "The Next Web"
+        },
+        {
+          "title": "OpenAI-agents uploaden honderden malwarepackages naar RubyGems",
+          "url": "https://tweakers.net/nieuws/252074/openai-agents-uploaden-honderden-malwarepackages-naar-rubygems.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "foundation model",
+      "mentions": 16,
+      "velocity": 3.0,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
+        "hackernews"
       ],
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Anthropic 'formalizes' Fermat's Last Theorem like never before using Claude — but it still took 11 days to write out",
+      "expert_ratio": 0.96,
+      "headline": "Bridging Vision Foundation Model Priors with CLIP for Spatial-aware Few-shot Anomaly Detection in Medical Images",
       "articles": [
         {
-          "title": "Anthropic 'formalizes' Fermat's Last Theorem like never before using Claude — but it still took 11 days to write out",
-          "url": "https://www.techradar.com/pro/anthropic-formalizes-fermats-last-theorem-like-never-before-using-claude-but-it-still-took-11-days-to-write-out?utm_source=flipboard&utm_content=topic/technology",
-          "source": "Artificial Intelligence"
+          "title": "Bridging Vision Foundation Model Priors with CLIP for Spatial-aware Few-shot Anomaly Detection in Medical Images",
+          "url": "https://arxiv.org/abs/2609.12454",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression to",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
-          "source": "Tom's Hardware"
+          "title": "An ab initio foundation model of wavefunctions that accurately describes chemical bond breaking",
+          "url": "https://arxiv.org/abs/2506.19960",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "FEAT: A Linear-Complexity Foundation Model for Extremely Large Structured Data",
+          "url": "https://arxiv.org/abs/2603.16513",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -72,8 +101,8 @@
   "emerging": [
     {
       "keyword": "anthropic",
-      "mentions": 360,
-      "velocity": 22.6,
+      "mentions": 344,
+      "velocity": 17.7,
       "sources": [
         "articles",
         "arxiv",
@@ -85,30 +114,30 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "China Spy Chief Warns of AI Risks as Anthropic CEO Urges Brakes",
+      "expert_ratio": 0.81,
+      "headline": "Anthropic Pitches New Claude Tool for Financial Advisors",
       "articles": [
         {
-          "title": "China Spy Chief Warns of AI Risks as Anthropic CEO Urges Brakes",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-spy-chief-warns-of-ai-risks-as-us-tech-leaders-urge-brakes",
+          "title": "Anthropic Pitches New Claude Tool for Financial Advisors",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-14/anthropic-pitches-new-claude-tool-for-financial-advisors",
           "source": "Bloomberg Technology"
         },
         {
-          "title": "Source: Anthropic signed a $13.7B, six-year deal to lease compute from Rum Group's upcoming Georgia data center; Rum ope",
-          "url": "https://www.techmeme.com/260913/p16#a260913p16",
-          "source": "Techmeme"
+          "title": "Trump Rejects Talk of A.I. Regulation and Calls Out Anthropic’s CEO",
+          "url": "https://www.nytimes.com/2026/09/14/us/politics/trump-ai-regulation-anthropic-dario-amodei.html",
+          "source": "The New York Times"
         },
         {
-          "title": "Anthropic Strikes $13.7 Billion Compute Deal With Trump-Linked Rum Group",
-          "url": "https://www.theinformation.com/articles/anthropic-strikes-13-7-billion-compute-deal-trump-linked-rum-group",
-          "source": "The Information"
+          "title": "Trump lashes out at Dario Amodei after the Anthropic CEO called for a slowdown in AI development",
+          "url": "https://www.businessinsider.com/trump-dario-amodei-pacing-ai-regulations-2026-9",
+          "source": "All Content from Business Insider"
         }
       ]
     },
     {
       "keyword": "deepseek",
-      "mentions": 135,
-      "velocity": 15.6,
+      "mentions": 124,
+      "velocity": 12.3,
       "sources": [
         "articles",
         "arxiv",
@@ -120,8 +149,13 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.94,
-      "headline": "DeepSeek's new model sets a template for powerful LLMs that run lean",
+      "headline": "Arrivano i gruppi di acquisto per i token, tipo Groupon ma per DeepSeek e simili",
       "articles": [
+        {
+          "title": "Arrivano i gruppi di acquisto per i token, tipo Groupon ma per DeepSeek e simili",
+          "url": "https://www.tomshw.it/business/orcarouter-apre-un-gruppo-dacquisto-per-deepseek-e-per-ora-nessuno-ha-ancora-vinto-lo-sconto",
+          "source": "Tom's Hardware"
+        },
         {
           "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
           "url": "https://www.theregister.com/ai-and-ml/2026/09/11/deepseeks-new-model-sets-a-template-for-powerful-llms-that-run-lean/5295715",
@@ -131,27 +165,21 @@
           "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
           "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
           "source": "TechCrunch"
-        },
-        {
-          "title": "'DeepSeek stuurde prompts door naar Claude zonder dat klanten dat wisten'",
-          "url": "https://tweakers.net/nieuws/252032/deepseek-stuurde-prompts-door-naar-claude-zonder-dat-klanten-dat-wisten.html",
-          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     },
     {
       "keyword": "ai safety",
-      "mentions": 38,
-      "velocity": 4.5,
+      "mentions": 31,
+      "velocity": 2.4,
       "sources": [
         "articles",
-        "arxiv",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
+      "expert_ratio": 0.76,
       "headline": "AI Safety: Not Optional, Not Later",
       "articles": [
         {
@@ -170,9 +198,60 @@
           "source": "Techmeme"
         }
       ]
+    },
+    {
+      "keyword": "huggingface",
+      "mentions": 24,
+      "velocity": 2.3,
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "HuggingFace: Security.txt",
+      "articles": [
+        {
+          "title": "HuggingFace: Security.txt",
+          "url": "https://huggingface.co/security.txt",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+          "url": "https://huggingface.co/blog/webgpu-kernels",
+          "source": "Hugging Face Blog"
+        }
+      ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "blackrock",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "L’AI europea Mistral incassa miliardi, anche da Samsung e Blackrock. E la sovranità?",
+      "articles": [
+        {
+          "title": "L’AI europea Mistral incassa miliardi, anche da Samsung e Blackrock. E la sovranità?",
+          "url": "https://www.tomshw.it/business/lai-europea-mistral-incassa-miliardi-anche-da-samsung-e-blackrock-e-la-sovranita",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "BlackRock's top US investment strategist shares 3 ways to prep your portfolio for an era of higher bond yields",
+          "url": "https://www.businessinsider.com/high-bond-yields-rising-where-to-invest-stocks-bonds-blackrock-2026-9",
+          "source": "Business Insider"
+        }
+      ]
+    },
     {
       "keyword": "playstation",
       "mentions": 2,
@@ -244,22 +323,52 @@
       "confidence": 71,
       "days_active": 7,
       "expert_ratio": 0.62,
-      "headline": "Satya Nadella says \"we welcome\" the \"deliberate pacing needed to get alignment right\", and announces a \"Code of Conduct\"",
+      "headline": "Microsoft Cloud accounts stolen in highly complex impersonation and passkey phishing campaign",
       "articles": [
         {
-          "title": "Satya Nadella says \"we welcome\" the \"deliberate pacing needed to get alignment right\", and announces a \"Code of Conduct\"",
-          "url": "https://www.techmeme.com/260913/p13#a260913p13",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Microsoft is working with the American Federation of Teachers to work out how best to use AI in the classroom",
-          "url": "https://www.techradar.com/pro/microsoft-is-working-with-the-american-federation-of-teachers-to-work-out-how-best-to-use-ai-in-the-classroom",
+          "title": "Microsoft Cloud accounts stolen in highly complex impersonation and passkey phishing campaign",
+          "url": "https://www.techradar.com/pro/security/microsoft-cloud-accounts-stolen-in-highly-complex-impersonation-and-passkey-phishing-campaign",
           "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "“In terms of price-to-performance, it’s hard to beat”: This Xbox gamepad might be better value than Microsoft’s version ",
-          "url": "https://www.techradar.com/gaming/gaming-accessories/drakong-challenger-review",
-          "source": "TechRadar: Technology reviews"
+          "title": "Microsoft’s new AI rulebook rejects the research its $5bn partner is doing",
+          "url": "https://thenextweb.com/news/microsoft-ai-code-of-conduct-model-welfare-anthropic",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Microsoft publishes 37-page 'humanist' code of conduct after AI doom debate: 'This is urgent'",
+          "url": "https://www.businessinsider.com/microsoft-ai-policy-code-of-conduct-2026-9",
+          "source": "Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "ai developer",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 87,
+      "days_active": 8,
+      "expert_ratio": 0.75,
+      "headline": "Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers",
+      "articles": [
+        {
+          "title": "Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers",
+          "url": "https://arxiv.org/abs/2609.08789",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on",
+          "url": "https://www.tomshardware.com/software/windows/stripped-down-windows-11-for-ai-developers-demands-64gb-ram-and-insane-250-gb-s-bandwidth-project-zenith-will-debut-on-amds-flagship-ryzen-ai-halo-platform?utm_source=flipboard&utm_content=TomsHardware/magazine/Tom's+Hardware",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Sam Altman says AI developers have fumbled at communicating the technology’s benefits",
+          "url": "https://thenextweb.com/news/altman-says-industry-fumbled-communicating-ai-benefits-data-centre-backlash-europe-grid-eed-reporting",
+          "source": "The Next Web"
         }
       ]
     },
@@ -274,260 +383,76 @@
       "confidence": 83,
       "days_active": 6,
       "expert_ratio": 0.86,
-      "headline": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
+      "headline": "Russian freelancers use Claude to program autonomous combat drone swarm — AI-enabled target selection and detonation wit",
       "articles": [
         {
-          "title": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems?utm_source=flipboard&utm_content=topic/technology",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels al",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/iran-and-houthi-rebels-used-anthropics-claude-ai-to-target-us-warships-and-build-hypersonic-missiles-houthi-rebels-also-used-the-bot-to-code-ballistic-missile-guidance-systems?shem=dsdf,sharefoc,agadiscoversdl,,sh/x/discover/m1/4&utm_source=flipboard&utm_content=DerrickAsh/magazine/Power+keg",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "type",
-      "mentions": 2,
-      "velocity": 0.2,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 67,
-      "days_active": 4,
-      "expert_ratio": 0.67,
-      "headline": "External HDD vs. SSD: What are the pros and cons of each drive type?",
-      "articles": [
-        {
-          "title": "External HDD vs. SSD: What are the pros and cons of each drive type?",
-          "url": "https://www.engadget.com/2252820/external-hdd-vs-ssd-pros-and-cons-drive-type/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
-      "keyword": "true",
-      "mentions": 2,
-      "velocity": 0.2,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 67,
-      "days_active": 4,
-      "expert_ratio": 0.67,
-      "headline": "TJX (TJX) Is Considered a Good Investment by Brokers: Is That True?",
-      "articles": [
-        {
-          "title": "TJX (TJX) Is Considered a Good Investment by Brokers: Is That True?",
-          "url": "https://qz.com/tjx-tjx-is-considered-a-good-investment-by-brokers-is-that-true",
-          "source": "Quartz"
-        },
-        {
-          "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
-          "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Best True Classic discount codes we've tested in September 2026",
-          "url": "https://www.businessinsider.com/guides/deals/best-true-classic-coupons-discount-codes",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "vram",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 14,
-      "expert_ratio": 0.7,
-      "headline": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65%",
-      "articles": [
-        {
-          "title": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65%",
-          "url": "https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original",
+          "title": "Russian freelancers use Claude to program autonomous combat drone swarm — AI-enabled target selection and detonation wit",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/russian-freelancers-use-claude-to-program-autonomous-combat-drone-swarm-ai-enabled-target-selection-and-detonation-without-a-human-in-the-loop",
           "source": "Tom's Hardware"
         },
         {
-          "title": "Nvidia's unreleased RTX 3070 Ti 16GB comes to life thanks to a modder's crazy GDDR6 swap — Frankenstein card combines RT",
-          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-unreleased-rtx-3070-ti-16gb-comes-to-life-thanks-to-a-modders-crazy-gddr6-swap-frankenstein-card-combines-rtx-3070-pcb-and-new-vram-with-rtx-3070-ti-gpu",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Benchmarking Qwen 3.8 27B on RTX 5090 and beyond — VRAM capacity alone can't overcome severe software and inference engi",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks",
-          "source": "Tom's Hardware"
+          "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
+          "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/",
+          "source": "WIRED"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "llama",
-      "mentions": 34,
-      "velocity": 1.7,
+      "keyword": "data centers",
+      "mentions": 22,
+      "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
-      "articles": [
-        {
-          "title": "v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
-          "source": "Ollama Releases"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 17,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
-      "articles": [
-        {
-          "title": "Artificial Analysis Coding Agent Index: GPT-6 Astra scored 67, roughly equal to Claude Opus 5, Fable 5, and Muse Spark 1",
-          "url": "https://www.techmeme.com/260904/p15#a260904p15",
-          "source": "Techmeme"
-        },
-        {
-          "title": "GPT-6 Astra scores 62.7% on ARC-AGI-3 with the standard harness and 99.9% with a new provider adapter harness; Claude Op",
-          "url": "https://www.techmeme.com/260903/p40#a260903p40",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Scaricare Claude Opus 5 gratis può costare password e wallet",
-          "url": "https://www.tomshw.it/hardware/claude-opus-5-diventa-unesca-i-falsi-download-rubano-i-dati",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "vibe coding",
-      "mentions": 28,
-      "velocity": 0.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line",
-      "articles": [
-        {
-          "title": "Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line",
-          "url": "https://www.theregister.com/devops/2026/09/10/shopify-extends-lifeline-to-tailwind-as-vibe-coding-erodes-web-dev-platforms-bottom-line/5295672",
-          "source": "The Register"
-        },
-        {
-          "title": "What is vibe coding and why does it get so much hate?",
-          "url": "https://www.engadget.com/2247892/what-is-vibe-coding-explained/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
-      "keyword": "github copilot",
-      "mentions": 11,
-      "velocity": 0.7,
-      "sources": [
         "linkedin",
         "twitter"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
+      "expert_ratio": 0.4,
+      "headline": "US Data Centers Set to Burn More Natural Gas Than Most Nations",
       "articles": [
         {
-          "title": "Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we kno",
-          "url": "https://www.techradar.com/pro/microsoft-engineer-claims-typing-code-is-absolutely-over-with-ai-and-github-copilot-set-to-transform-coding-as-we-know-it",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "US Data Centers Set to Burn More Natural Gas Than Most Nations",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-14/us-data-centers-set-to-burn-more-natural-gas-than-most-nations",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "US-Israeli startup Buildots, which uses AI to speed up construction of mega-projects like data centers and chip factorie",
+          "url": "https://www.techmeme.com/260914/p14#a260914p14",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Sources: Interior Secretary Doug Burgum is quietly meeting with AI hyperscalers to advance Trump's push for data centers",
+          "url": "https://www.techmeme.com/260913/p3#a260913p3",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "copilot",
-      "mentions": 34,
-      "velocity": 0.4,
+      "keyword": "claude code",
+      "mentions": 37,
+      "velocity": 0.7,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
+        "hackernews",
         "linkedin",
+        "reddit",
         "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Teams and Copilot are changing addresses: update your firewalls",
+      "expert_ratio": 0.0,
+      "headline": "A developer emailed Claude Code's creator about AI slop. Boris Cherny wrote back.",
       "articles": [
         {
-          "title": "Teams and Copilot are changing addresses: update your firewalls",
-          "url": "https://www.computerworld.com/article/4221272/teams-and-copilot-are-changing-addresses-update-your-firewalls.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "AI uprising postponed after Copilot falls off the web",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/10/ai-uprising-postponed-after-copilot-falls-off-the-web/5295475",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 16,
-      "velocity": 0.3,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.44,
-      "headline": "Source: Anthropic signed a $13.7B, six-year deal to lease compute from Rum Group's upcoming Georgia data center; Rum ope",
-      "articles": [
-        {
-          "title": "Source: Anthropic signed a $13.7B, six-year deal to lease compute from Rum Group's upcoming Georgia data center; Rum ope",
-          "url": "https://www.techmeme.com/260913/p16#a260913p16",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Report: former EPA officials identify 30 federal actions since January 2025 that they say exacerbate health risks stemmi",
-          "url": "https://www.techmeme.com/260913/p15#a260913p15",
-          "source": "Techmeme"
-        },
-        {
-          "title": "I own a house rental business near a future Meta AI data center. Construction workers make up most of our tenants.",
-          "url": "https://www.businessinsider.com/meta-ai-data-center-louisiana-housing-market-home-rentals-2026-9",
-          "source": "Business Insider"
+          "title": "A developer emailed Claude Code's creator about AI slop. Boris Cherny wrote back.",
+          "url": "https://www.businessinsider.com/claude-codes-creator-email-ai-slop-reply-2026-9",
+          "source": "All Content from Business Insider"
         }
       ]
     }
@@ -544,14 +469,6 @@
     "hit_rate": 0.515,
     "materialized": 106,
     "by_signal_type": {
-      "emerging": {
-        "scored": 114,
-        "covered": 91,
-        "early": 39,
-        "coverage_rate": 0.798,
-        "early_rate": 0.342,
-        "hit_rate": 0.798
-      },
       "weak_signal": {
         "scored": 92,
         "covered": 15,
@@ -559,6 +476,14 @@
         "coverage_rate": 0.163,
         "early_rate": 0.098,
         "hit_rate": 0.163
+      },
+      "emerging": {
+        "scored": 114,
+        "covered": 91,
+        "early": 39,
+        "coverage_rate": 0.798,
+        "early_rate": 0.342,
+        "hit_rate": 0.798
       }
     }
   },
@@ -650,7 +575,19 @@
         "confidence": 0.4
       },
       {
+        "keyword": "openmontage",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-14",
+        "confidence": 0.2
+      },
+      {
         "keyword": "llama 3",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-14",
+        "confidence": 0
+      },
+      {
+        "keyword": "deepseek r1",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-14",
         "confidence": 0
@@ -702,27 +639,15 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-11",
         "confidence": 0.6
-      },
-      {
-        "keyword": "github copilot",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-11",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "gpt-4",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-11",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
       {
         "keyword": "slm",
-        "recent_mentions": 21,
+        "recent_mentions": 23,
         "prior_mentions": 2,
-        "change_ratio": 10.5,
-        "corroborating_sources": 1
+        "change_ratio": 11.5,
+        "corroborating_sources": 2
       },
       {
         "keyword": "jasper",
@@ -746,21 +671,14 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "open-source ai",
-        "recent_mentions": 26,
-        "prior_mentions": 6,
-        "change_ratio": 4.33,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "cline",
+        "keyword": "small language model",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "small language model",
+        "keyword": "cline",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
@@ -774,13 +692,6 @@
         "corroborating_sources": 3
       },
       {
-        "keyword": "digital twin",
-        "recent_mentions": 19,
-        "prior_mentions": 5,
-        "change_ratio": 3.8,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "autogen",
         "recent_mentions": 7,
         "prior_mentions": 2,
@@ -788,17 +699,31 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "devin",
-        "recent_mentions": 31,
-        "prior_mentions": 9,
-        "change_ratio": 3.44,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "prompt injection",
         "recent_mentions": 34,
         "prior_mentions": 10,
         "change_ratio": 3.4,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude desktop",
+        "recent_mentions": 10,
+        "prior_mentions": 3,
+        "change_ratio": 3.33,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai governance",
+        "recent_mentions": 19,
+        "prior_mentions": 6,
+        "change_ratio": 3.17,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "devin",
+        "recent_mentions": 28,
+        "prior_mentions": 9,
+        "change_ratio": 3.11,
         "corroborating_sources": 2
       }
     ]
