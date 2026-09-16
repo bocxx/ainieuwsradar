@@ -1,73 +1,142 @@
 {
-  "generated_at": "2026-09-15T19:16:13.855177",
-  "total_tracked": 3279,
+  "generated_at": "2026-09-16T07:13:40.992868",
+  "total_tracked": 3140,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "perplexity",
-      "mentions": 32,
-      "velocity": 3.9,
+      "keyword": "agentic",
+      "mentions": 177,
+      "velocity": 23.4,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
-        "linkedin"
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "Crusoe Signs Perplexity AI Deal to Provide Cloud Capacity",
+      "expert_ratio": 0.78,
+      "headline": "Ave: Guiding Agentic GPU Optimization Using Data-Flow Invariants",
       "articles": [
         {
-          "title": "Crusoe Signs Perplexity AI Deal to Provide Cloud Capacity",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-15/crusoe-signs-perplexity-ai-deal-to-provide-cloud-capacity",
-          "source": "Bloomberg Technology"
+          "title": "Ave: Guiding Agentic GPU Optimization Using Data-Flow Invariants",
+          "url": "https://arxiv.org/abs/2604.18616",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Perplexity’s local AI agent comes to Windows, but only for RTX GPUs with at least 24GB of VRAM — Portable Computer bring",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
-          "source": "Tom's Hardware"
+          "title": "CASCADE: An Agentic Regulatory Network Framework for Patient-Data-Validated Downstream Perturbation Prediction",
+          "url": "https://arxiv.org/abs/2608.05359",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Perplexity Portable Computer arriva su Windows, ma vi serve una GPU ben specifica",
-          "url": "https://www.tomshw.it/hardware/perplexity-portable-computer-arriva-su-windows-lai-locale-sfrutta-le-gpu-nvidia-rtx",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "gemma",
-      "mentions": 22,
-      "velocity": 3.4,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "Recurrence Is Not Enough: Causally Validating Multilingual SAE Translation Features in Gemma 2 and 3",
-      "articles": [
-        {
-          "title": "Recurrence Is Not Enough: Causally Validating Multilingual SAE Translation Features in Gemma 2 and 3",
-          "url": "https://arxiv.org/abs/2609.04808",
+          "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+          "url": "https://arxiv.org/abs/2607.09493",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "kimi",
-      "mentions": 17,
-      "velocity": 3.4,
+      "keyword": "fine-tuning",
+      "mentions": 123,
+      "velocity": 16.2,
       "sources": [
         "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning",
+      "articles": [
+        {
+          "title": "Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning",
+          "url": "https://arxiv.org/abs/2609.16255",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Fine-Tuning Fixes Mode Collapse and Over-Dispersion in LLMs",
+          "url": "https://arxiv.org/abs/2609.16454",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Adaptive Phase-Switching for Communication-Efficient Federated LoRA Fine-Tuning",
+          "url": "https://arxiv.org/abs/2609.13512",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 56,
+      "velocity": 11.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.92,
+      "headline": "TrafficGamer: Reliable and Flexible Traffic Simulation for Safety-Critical Scenarios with Game-Theoretic Oracles",
+      "articles": [
+        {
+          "title": "TrafficGamer: Reliable and Flexible Traffic Simulation for Safety-Critical Scenarios with Game-Theoretic Oracles",
+          "url": "https://arxiv.org/abs/2408.15538",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "The MAL Simulator: Cyber Operations Simulation based on Attack ＆ Defense Graphs",
+          "url": "https://arxiv.org/abs/2609.16563",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ZEBRAARENA: A Diagnostic Simulation Environment for Studying Reasoning-Action Coupling in Tool-Augmented LLMs",
+          "url": "https://arxiv.org/abs/2603.18614",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 65,
+      "velocity": 10.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
+      "articles": [
+        {
+          "title": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
+          "url": "https://arxiv.org/abs/2609.14864",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "kimi",
+      "mentions": 23,
+      "velocity": 4.2,
+      "sources": [
         "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
@@ -91,69 +160,9 @@
       ]
     },
     {
-      "keyword": "gpt-5",
-      "mentions": 36,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-      "articles": [
-        {
-          "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-          "source": "Hacker News"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "deepseek",
-      "mentions": 111,
-      "velocity": 4.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "A DeepSeek engineer's viral post on talent, power, and humanity is a rare snapshot of work at China's frontier AI labs",
-      "articles": [
-        {
-          "title": "A DeepSeek engineer's viral post on talent, power, and humanity is a rare snapshot of work at China's frontier AI labs",
-          "url": "https://www.businessinsider.com/deepseek-engineer-viral-post-inside-china-ai-race-2026-9",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Vera Rubin NVL72 inference tests show up to 7x better token throughput per MW vs. Blackwell on a 1.6T DeepSeek model, ab",
-          "url": "https://www.techmeme.com/260914/p41#a260914p41",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Arrivano i gruppi di acquisto per i token, tipo Groupon ma per DeepSeek e simili",
-          "url": "https://www.tomshw.it/business/orcarouter-apre-un-gruppo-dacquisto-per-deepseek-e-per-ora-nessuno-ha-ancora-vinto-lo-sconto",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "hugging face",
-      "mentions": 35,
-      "velocity": 3.3,
+      "keyword": "gemma",
+      "mentions": 27,
+      "velocity": 3.9,
       "sources": [
         "articles",
         "arxiv",
@@ -162,80 +171,82 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.63,
-      "headline": "Hugging Face Says Good Ethics Can Drive AI Innovation",
+      "expert_ratio": 0.97,
+      "headline": "Recurrence Is Not Enough: Causally Validating Multilingual SAE Translation Features in Gemma 2 and 3",
       "articles": [
         {
-          "title": "Hugging Face Says Good Ethics Can Drive AI Innovation",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-15/hugging-face-says-good-ethics-can-drive-ai-innovation-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Hugging Face Scientist on Safety Issues With Agentic AI",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-15/hugging-face-scientist-on-safety-issues-with-agentic-ai-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "OpenAI's rogue AI agents were attacking a code registry months before the Hugging Face breach",
-          "url": "https://qz.com/openai-agents-rubygems-attack-hugging-face-breach-091426",
-          "source": "Quartz"
+          "title": "Recurrence Is Not Enough: Causally Validating Multilingual SAE Translation Features in Gemma 2 and 3",
+          "url": "https://arxiv.org/abs/2609.04808",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "anthropic",
-      "mentions": 313,
-      "velocity": 3.1,
+      "keyword": "perplexity",
+      "mentions": 33,
+      "velocity": 3.0,
       "sources": [
-        "articles",
-        "github",
+        "arxiv",
         "hackernews",
-        "linkedin",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Anthropic expects a second straight quarter of adjusted operating profit",
+      "expert_ratio": 0.7,
+      "headline": "Crusoe Signs Perplexity AI Deal to Provide Cloud Capacity",
       "articles": [
         {
-          "title": "Anthropic expects a second straight quarter of adjusted operating profit",
-          "url": "https://thenextweb.com/news/anthropic-second-quarter-adjusted-operating-profit-ipo",
-          "source": "The Next Web"
-        },
-        {
-          "title": "OpenAI says it has been working with Anthropic and Google for several weeks on AI safety, and it does not need an antitr",
-          "url": "https://www.techmeme.com/260915/p27#a260915p27",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI Says It’s Working With Anthropic, Google on AI Safety",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
+          "title": "Crusoe Signs Perplexity AI Deal to Provide Cloud Capacity",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/crusoe-signs-perplexity-ai-deal-to-provide-cloud-capacity",
           "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Perplexity’s local AI agent comes to Windows, but only for RTX GPUs with at least 24GB of VRAM — Portable Computer bring",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Perplexity Portable Computer arriva su Windows, ma vi serve una GPU ben specifica",
+          "url": "https://www.tomshw.it/hardware/perplexity-portable-computer-arriva-su-windows-lai-locale-sfrutta-le-gpu-nvidia-rtx",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "computer use",
+      "mentions": 11,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.59,
+      "headline": "ADeptS-Bench: Measuring the Trustworthiness of Computer Use Agents Across Devices",
+      "articles": [
+        {
+          "title": "ADeptS-Bench: Measuring the Trustworthiness of Computer Use Agents Across Devices",
+          "url": "https://arxiv.org/abs/2608.26204",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "\"What Are You Really Trying to Do?\": Co-Creating Life Goals from Everyday Computer Use",
+          "url": "https://arxiv.org/abs/2605.00497",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "FinCUABuild: Can Agents Build Reliable Benchmarks for Dynamic Financial Computer Use?",
+          "url": "https://arxiv.org/abs/2609.07603",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "s not",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Punk’s not dead—it’s in the boardroom",
-      "articles": [
-        {
-          "title": "Punk’s not dead—it’s in the boardroom",
-          "url": "https://www.fastcompany.com/91603663/punks-not-dead-its-in-the-boardroom",
-          "source": "Fast Company"
-        }
-      ]
-    },
     {
       "keyword": "name",
       "mentions": 2,
@@ -247,17 +258,22 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Samsung's much-anticipated open-earbuds appear to leak again, this time with a new name and long list of features",
+      "headline": "Beyond the Name: Demographic Leakage in De-Identified R\\'esum\\'es and Evaluation Artifacts in LLM Bias Audits",
       "articles": [
         {
-          "title": "Samsung's much-anticipated open-earbuds appear to leak again, this time with a new name and long list of features",
-          "url": "https://www.techradar.com/audio/earbuds-airpods/samsungs-much-anticipated-open-earbuds-appear-to-leak-again-this-time-with-a-new-name-and-long-list-of-features",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Beyond the Name: Demographic Leakage in De-Identified R\\'esum\\'es and Evaluation Artifacts in LLM Bias Audits",
+          "url": "https://arxiv.org/abs/2609.16501",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Kennedy Center Warns of Bankruptcy Unless Trump’s Name Is Added",
-          "url": "https://www.nytimes.com/2026/09/13/arts/design/trump-kennedy-center-bankruptcy-closure.html",
-          "source": "The New York Times"
+          "title": "Kennedy Center shuts for repairs after judge blocks Trump name",
+          "url": "https://www.youtube.com/watch?v=1mlsODQmtuY",
+          "source": "Reuters"
+        },
+        {
+          "title": "The Kennedy Center's board voted to close until Trump's name is added. Here's a look at the history behind the landmark.",
+          "url": "https://www.businessinsider.com/kennedy-center-board-votes-to-close-until-trumps-name-added-2026-9",
+          "source": "All Content from Business Insider"
         }
       ]
     },
@@ -292,210 +308,59 @@
       ]
     },
     {
-      "keyword": "blackrock",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "BlackRock Raises EM Equities Back to Overweight on AI, Earnings",
-      "articles": [
-        {
-          "title": "BlackRock Raises EM Equities Back to Overweight on AI, Earnings",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-15/blackrock-raises-em-equities-back-to-overweight-on-ai-earnings",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Anthropic debuts Claude for Financial Advisors, with connectors to investment analytics and wealth-management tools from",
-          "url": "https://www.techmeme.com/260914/p34#a260914p34",
-          "source": "Techmeme"
-        },
-        {
-          "title": "L’AI europea Mistral incassa miliardi, anche da Samsung e Blackrock. E la sovranità?",
-          "url": "https://www.tomshw.it/business/lai-europea-mistral-incassa-miliardi-anche-da-samsung-e-blackrock-e-la-sovranita",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "ai search",
+      "keyword": "kill switch",
       "mentions": 3,
-      "velocity": 0.3,
+      "velocity": 0.6,
       "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "Profound Hits $1.8 Billion Value to Boost Brands in AI Search",
-      "articles": [
-        {
-          "title": "Profound Hits $1.8 Billion Value to Boost Brands in AI Search",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-15/profound-hits-1-8-billion-value-to-boost-brands-in-ai-search",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Flock's AI search tool for police officers has been reverse engineered — here's what it shows",
-          "url": "https://www.techradar.com/tech/flocks-ai-search-tool-for-police-officers-has-been-reverse-engineered-heres-what-it-shows",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "target",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "Broadcom's CEO is brushing off AI slowdown fears, standing by $230 billion chip target",
-      "articles": [
-        {
-          "title": "Broadcom's CEO is brushing off AI slowdown fears, standing by $230 billion chip target",
-          "url": "https://qz.com/broadcom-ceo-ai-chip-revenue-target-slowdown-091526",
-          "source": "Quartz"
-        },
-        {
-          "title": "Chemical and geometric representation fidelity improves drug--target affinity prediction",
-          "url": "https://arxiv.org/abs/2609.13230",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Learning under Target Shift: Optimal Density Ratio Estimation and Importance-Weighted Regression",
-          "url": "https://arxiv.org/abs/2609.15785",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai developer",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 93,
-      "days_active": 9,
-      "expert_ratio": 0.79,
-      "headline": "Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers",
-      "articles": [
-        {
-          "title": "Silent Revision: Measuring Undisclosed Change in the Safety Frameworks of Frontier AI Developers",
-          "url": "https://arxiv.org/abs/2609.08789",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on",
-          "url": "https://www.tomshardware.com/software/windows/stripped-down-windows-11-for-ai-developers-demands-64gb-ram-and-insane-250-gb-s-bandwidth-project-zenith-will-debut-on-amds-flagship-ryzen-ai-halo-platform",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Sam Altman says AI developers have fumbled at communicating the technology’s benefits",
-          "url": "https://thenextweb.com/news/altman-says-industry-fumbled-communicating-ai-benefits-data-centre-backlash-europe-grid-eed-reporting",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "wechat",
-      "mentions": 2,
-      "velocity": 0.2,
-      "sources": [
-        "articles"
+        "hackernews"
       ],
       "source_count": 1,
       "confidence": 71,
-      "days_active": 5,
-      "expert_ratio": 0.62,
-      "headline": "For China, a Mock A.I. Attack on WeChat Signals a Dangerous New Era",
+      "days_active": 4,
+      "expert_ratio": 0.75,
+      "headline": "AI kill switches may need to be mandatory, Anthropic’s Jack Clark tells BBC",
       "articles": [
         {
-          "title": "For China, a Mock A.I. Attack on WeChat Signals a Dangerous New Era",
-          "url": "https://www.nytimes.com/2026/09/11/world/asia/china-ai-attack-wechat.html",
-          "source": "Artificial Intelligence Special Report"
-        },
-        {
-          "title": "Researchers used AI to build a WeChat worm that spreads through phone calls",
-          "url": "https://thenextweb.com/news/wechat-worm-ai-calif-tencent-zero-click",
+          "title": "AI kill switches may need to be mandatory, Anthropic’s Jack Clark tells BBC",
+          "url": "https://thenextweb.com/news/jack-clark-anthropic-ai-kill-switch-mandatory-bbc",
           "source": "The Next Web"
         },
         {
-          "title": "Experts build WeChat worm able to spread across millions of iPhone and Android devices via phone calls",
-          "url": "https://www.techradar.com/pro/security/experts-build-wechat-worm-able-to-spread-across-millions-of-iphone-and-android-devices-via-phone-calls",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "What is a VPN kill switch and how does it work?",
+          "url": "https://www.engadget.com/2251529/what-is-vpn-kill-switch-how-works/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Can We Stop Malicious AI? KILLBENCH: A Benchmark for External AI Kill Switch Feasibility",
+          "url": "https://arxiv.org/abs/2511.13725",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "s not",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Punk’s not dead—it’s in the boardroom",
+      "articles": [
+        {
+          "title": "Punk’s not dead—it’s in the boardroom",
+          "url": "https://www.fastcompany.com/91603663/punks-not-dead-its-in-the-boardroom",
+          "source": "Fast Company"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "context window",
-      "mentions": 12,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
-      "articles": [
-        {
-          "title": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
-          "url": "https://arxiv.org/abs/2609.14652",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
-          "url": "https://arxiv.org/abs/2609.12686",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Beyond Context Windows: Persistent Discovery Context for Data-Centric Agents",
-          "url": "https://arxiv.org/abs/2609.02129",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "llama",
-      "mentions": 33,
-      "velocity": 1.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
-      "articles": [
-        {
-          "title": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
-          "url": "https://arxiv.org/abs/2609.14864",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "data centers",
-      "mentions": 23,
-      "velocity": 1.4,
+      "mentions": 24,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "arxiv",
@@ -505,136 +370,46 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.4,
-      "headline": "Meta says it plans to deploy MTIA 450, its third-generation custom AI chip, in data centers in H1 2027, followed by a br",
+      "expert_ratio": 0.42,
+      "headline": "AI and data centers are incredibly unpopular in every poll",
       "articles": [
         {
-          "title": "Meta says it plans to deploy MTIA 450, its third-generation custom AI chip, in data centers in H1 2027, followed by a br",
-          "url": "https://www.techmeme.com/260915/p25#a260915p25",
-          "source": "Techmeme"
+          "title": "AI and data centers are incredibly unpopular in every poll",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+          "source": "The Verge -  All Posts"
         },
         {
-          "title": "US AI data centers projected to become the fifth-largest natural gas consumer in the world by 2035 — consumption to grow",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/us-ai-data-centers-projected-to-become-the-fifth-largest-natural-gas-consumer-in-the-world-by-2035-consumption-to-grow-by-15-billion-cubic-feet-per-day-as-demand-for-compute-increases",
-          "source": "Tom's Hardware"
+          "title": "Trump Defended A.I. Data Centers on Truth Social, and Commenters Clapped Back",
+          "url": "https://www.nytimes.com/2026/09/15/us/politics/trump-truth-social-ai-data-centers.html",
+          "source": "Artificial Intelligence Special Report"
         },
         {
-          "title": "AI data centers are devouring America's electric grid. It's all based on guesswork",
-          "url": "https://qz.com/ai-data-centers-electric-grid-infrastructure-demand",
-          "source": "Quartz"
-        }
-      ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 30,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "OpenAI says it has been working with Anthropic and Google for several weeks on AI safety, and it does not need an antitr",
-      "articles": [
-        {
-          "title": "OpenAI says it has been working with Anthropic and Google for several weeks on AI safety, and it does not need an antitr",
-          "url": "https://www.techmeme.com/260915/p27#a260915p27",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI Says It’s Working With Anthropic, Google on AI Safety",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "AI Safety Push Raises Antitrust Questions for Anthropic, OpenAI",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-09-15/ai-safety-push-raises-antitrust-questions-for-anthropic-openai",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 39,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Developers Find Ways to Use Claude Code Without Anthropic Models",
-      "articles": [
-        {
-          "title": "Developers Find Ways to Use Claude Code Without Anthropic Models",
-          "url": "https://www.theinformation.com/articles/developers-find-ways-use-claude-code-without-anthropic-models",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "agentic",
-      "mentions": 102,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "MARCUS: An agentic, multimodal vision-language model for cardiac diagnosis and management",
-      "articles": [
-        {
-          "title": "MARCUS: An agentic, multimodal vision-language model for cardiac diagnosis and management",
-          "url": "https://arxiv.org/abs/2603.22179",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "El Agente Potente: High-Throughput Agentic Atomistic Simulations",
-          "url": "https://arxiv.org/abs/2609.14840",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Navigating Sparse Evidence: Agentic Visual RAG via Explicit Context Selection and Consolidation",
-          "url": "https://arxiv.org/abs/2609.15800",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+          "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+          "source": "TechCrunch"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 210,
-    "covered": 108,
-    "coverage_rate": 0.514,
-    "early": 49,
-    "early_rate": 0.233,
-    "avg_lead_days": 15.1,
-    "median_lead_days": 9,
+    "scored_predictions": 214,
+    "covered": 111,
+    "coverage_rate": 0.519,
+    "early": 52,
+    "early_rate": 0.243,
+    "avg_lead_days": 14.8,
+    "median_lead_days": 9.0,
     "max_lead_days": 42,
-    "hit_rate": 0.514,
-    "materialized": 108,
+    "hit_rate": 0.519,
+    "materialized": 111,
     "by_signal_type": {
       "emerging": {
-        "scored": 118,
-        "covered": 93,
-        "early": 40,
-        "coverage_rate": 0.788,
-        "early_rate": 0.339,
-        "hit_rate": 0.788
+        "scored": 122,
+        "covered": 96,
+        "early": 43,
+        "coverage_rate": 0.787,
+        "early_rate": 0.352,
+        "hit_rate": 0.787
       },
       "weak_signal": {
         "scored": 92,
@@ -649,21 +424,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 210,
+    "n": 214,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.519,
-      "early_rate": 0.238
+      "coverage_rate": 0.523,
+      "early_rate": 0.248
     },
     "null_mean": {
-      "coverage_rate": 0.55,
-      "early_rate": 0.308
+      "coverage_rate": 0.553,
+      "early_rate": 0.309
     },
     "p_value": {
-      "coverage_rate": 0.983,
-      "early_rate": 1.0
+      "coverage_rate": 0.969,
+      "early_rate": 0.995
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -704,17 +479,17 @@
       "lead_days": 37
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
       "materialized_on": "2026-08-19",
+      "lead_days": 33
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33
     },
     {
@@ -728,10 +503,10 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "hugging face",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-15",
-        "confidence": 0.6
+        "keyword": "h100",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-16",
+        "confidence": 0.2
       },
       {
         "keyword": "langchain",
@@ -740,10 +515,10 @@
         "confidence": 0.6
       },
       {
-        "keyword": "world model",
+        "keyword": "hugging face",
         "signal_type": "emerging",
         "flagged_on": "2026-09-15",
-        "confidence": 0.4
+        "confidence": 0.6
       },
       {
         "keyword": "vision language model",
@@ -752,13 +527,19 @@
         "confidence": 0.4
       },
       {
-        "keyword": "moonshot ai",
+        "keyword": "world model",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-15",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "openai codex",
         "signal_type": "emerging",
         "flagged_on": "2026-09-15",
         "confidence": 0.2
       },
       {
-        "keyword": "openai codex",
+        "keyword": "moonshot ai",
         "signal_type": "emerging",
         "flagged_on": "2026-09-15",
         "confidence": 0.2
@@ -792,24 +573,18 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-13",
         "confidence": 1.0
-      },
-      {
-        "keyword": "ai developer",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-13",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "openmontage",
-        "recent_mentions": 9,
+        "recent_mentions": 12,
         "prior_mentions": 1,
-        "change_ratio": 9.0,
+        "change_ratio": 12.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "chain of thought",
+        "keyword": "mcp tools",
         "recent_mentions": 8,
         "prior_mentions": 1,
         "change_ratio": 8.0,
@@ -818,72 +593,72 @@
       {
         "keyword": "litellm",
         "recent_mentions": 13,
-        "prior_mentions": 2,
-        "change_ratio": 6.5,
+        "prior_mentions": 3,
+        "change_ratio": 4.33,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "text to speech",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "writesonic",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "glean",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
       },
       {
         "keyword": "gemini 2",
-        "recent_mentions": 23,
+        "recent_mentions": 29,
         "prior_mentions": 7,
-        "change_ratio": 3.29,
+        "change_ratio": 4.14,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "mistral ai",
+        "recent_mentions": 18,
+        "prior_mentions": 5,
+        "change_ratio": 3.6,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "synthetic data",
+        "recent_mentions": 28,
+        "prior_mentions": 8,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "llama 3",
+        "recent_mentions": 24,
+        "prior_mentions": 7,
+        "change_ratio": 3.43,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "openai codex",
+        "recent_mentions": 10,
+        "prior_mentions": 3,
+        "change_ratio": 3.33,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "computer-use",
+        "recent_mentions": 18,
+        "prior_mentions": 6,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "open-source ai",
-        "recent_mentions": 22,
-        "prior_mentions": 7,
-        "change_ratio": 3.14,
+        "recent_mentions": 23,
+        "prior_mentions": 8,
+        "change_ratio": 2.88,
         "corroborating_sources": 3
       },
       {
-        "keyword": "digital twin",
-        "recent_mentions": 12,
+        "keyword": "relevance",
+        "recent_mentions": 8,
+        "prior_mentions": 3,
+        "change_ratio": 2.67,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "test-time compute",
+        "recent_mentions": 10,
         "prior_mentions": 4,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "veo",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "ai governance",
-        "recent_mentions": 20,
-        "prior_mentions": 7,
-        "change_ratio": 2.86,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "fellow",
-        "recent_mentions": 14,
-        "prior_mentions": 5,
-        "change_ratio": 2.8,
-        "corroborating_sources": 3
+        "change_ratio": 2.5,
+        "corroborating_sources": 1
       }
     ]
   }
