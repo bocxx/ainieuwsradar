@@ -29,8 +29,12 @@ jobs:
     steps:
       - name: Check CLOUDFLARE_API_TOKEN
         id: token
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          if [ -n "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
+          # Via env i.p.v. inline ${{ }}: zo belandt de tokenwaarde niet in de
+          # commandotekst die de runner uitvoert.
+          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then
             echo "ok=true" >> "$GITHUB_OUTPUT"
           else
             echo "::warning::CLOUDFLARE_API_TOKEN ontbreekt — deploy overgeslagen. Zet 'm met: gh secret set CLOUDFLARE_API_TOKEN -R bocxx/ainieuwsradar"
