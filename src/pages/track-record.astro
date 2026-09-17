@@ -68,14 +68,19 @@ const beatsChance = pEarly != null && pEarly < 0.05;
         <p class="note">"Bevestigd" = de eerste keer dat het onderwerp in de titel van een gevette outlet verscheen. Eeuwige mega-termen (OpenAI, Nvidia, ChatGPT…) tellen niet mee — die in de pers zien is triviaal.</p>
         <div class="tr-wrap">
           <table class="trt">
-            <thead><tr><th>Onderwerp</th><th>Type</th><th>Geflagd</th><th>Bevestigd</th><th class="r">Voorsprong</th></tr></thead>
+            <thead><tr><th>Onderwerp</th><th>Type</th><th>Geflagd</th><th>Bevestigd door</th><th class="r">Voorsprong</th></tr></thead>
             <tbody>
               {calls.map((c) => (
                 <tr>
                   <td><b>{c.keyword}</b></td>
                   <td><span class="tag">{c.signal_type === 'emerging' ? 'opkomend' : 'zwak signaal'}</span></td>
                   <td class="num">{fmt(c.flagged_on)}</td>
-                  <td class="num">{fmt(c.materialized_on)}</td>
+                  <td class="num">
+                    {c.url
+                      ? <a href={c.url} rel="noopener external" target="_blank">{c.outlet || 'bron'}</a>
+                      : (c.outlet || '—')}
+                    <span class="dim"> · {fmt(c.materialized_on)}</span>
+                  </td>
                   <td class="r num lead">+{c.lead_days}d</td>
                 </tr>
               ))}

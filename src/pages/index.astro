@@ -190,14 +190,18 @@ const onRadar = [...(radar.emerging ?? []), ...(radar.sustained ?? [])]
       </div>
       <div class="tr-wrap">
         <table class="tr">
-          <thead><tr><th>Onderwerp</th><th>Type</th><th>Geflagd</th><th>Bevestigd</th><th class="r">Voorsprong</th></tr></thead>
+          <thead><tr><th>Onderwerp</th><th>Type</th><th>Geflagd</th><th>Bevestigd door</th><th class="r">Voorsprong</th></tr></thead>
           <tbody>
             {radar.best_calls.map((c) => (
               <tr>
                 <td><strong>{cap(c.keyword)}</strong></td>
                 <td><span class="tag">{c.signal_type === 'emerging' ? 'opkomend' : 'zwak signaal'}</span></td>
                 <td class="num">{fmtShort(c.flagged_on)}</td>
-                <td class="num">{fmtShort(c.materialized_on)}</td>
+                <td class="num">
+                  {c.url
+                    ? <a href={c.url} rel="noopener external" target="_blank">{c.outlet || 'bron'}</a>
+                    : (c.outlet || '—')}
+                </td>
                 <td class="r num lead">+{c.lead_days}d</td>
               </tr>
             ))}
