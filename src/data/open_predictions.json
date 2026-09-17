@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T05:34:11+00:00",
+  "generated_at": "2026-09-17T17:42:47+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 118,
-    "resolved": 115,
-    "hits": 14,
-    "misses": 101,
-    "hit_rate": 0.122
+    "open": 115,
+    "resolved": 103,
+    "hits": 7,
+    "misses": 96,
+    "hit_rate": 0.068
   },
   "open": [
     {
@@ -84,15 +84,6 @@
     }
   ],
   "recent_resolved": [
-    {
-      "keyword": "deepseek",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-02",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
     {
       "keyword": "together",
       "signal_type": "emerging",
@@ -202,7 +193,16 @@
       "outlet": null
     },
     {
-      "keyword": "llama",
+      "keyword": "hallucinations",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-07-30",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "gpt-4",
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-07-30",

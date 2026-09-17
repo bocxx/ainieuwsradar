@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T05:33:45+00:00",
+  "generated_at": "2026-09-17T17:42:21+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -40,56 +40,80 @@
       "signal_type": "emerging",
       "flagged_on": "2026-08-01",
       "materialized_on": "2026-09-12",
-      "lead_days": 42
+      "lead_days": 42,
+      "outlet": "Daily Dose of Data Science",
+      "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-1-with-implementation/",
+      "title": "First Steps Towards a Production-Ready Agent with LangChain"
     },
     {
       "keyword": "world model",
       "signal_type": "emerging",
       "flagged_on": "2026-07-22",
       "materialized_on": "2026-09-01",
-      "lead_days": 41
+      "lead_days": 41,
+      "outlet": "Techmeme",
+      "url": "https://www.techmeme.com/260901/p39#a260901p39",
+      "title": "Fei-Fei Li's World Labs unveils Atlas, a multimodal world model that generates image/video frames with pixel-perfect camera control and reconstructs them in 3D (World Labs)"
     },
     {
       "keyword": "lora",
       "signal_type": "emerging",
       "flagged_on": "2026-06-27",
       "materialized_on": "2026-08-05",
-      "lead_days": 39
+      "lead_days": 39,
+      "outlet": "Techmeme",
+      "url": "https://www.techmeme.com/260805/p12#a260805p12",
+      "title": "Uber reports Q2 revenue up 12% YoY to $14.2B, below $14.24B est., Gross Bookings up 24% to $58B, above $57B est., and forecasts Q3 adjusted EPS below est. (Lora Kolodny/CNBC)"
     },
     {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-14",
       "materialized_on": "2026-07-22",
-      "lead_days": 38
+      "lead_days": 38,
+      "outlet": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
+      "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
     },
     {
       "keyword": "context window",
       "signal_type": "emerging",
       "flagged_on": "2026-07-05",
       "materialized_on": "2026-08-11",
-      "lead_days": 37
-    },
-    {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33
+      "lead_days": 37,
+      "outlet": "Data Science Partners",
+      "url": "https://datasciencepartners.nl/context-window-claude-code/",
+      "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
       "materialized_on": "2026-07-29",
-      "lead_days": 33
+      "lead_days": 33,
+      "outlet": "The Next Web",
+      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+      "title": "Fish Audio gives its voice AI away, and charges for the latency"
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
+      "lead_days": 33,
+      "outlet": "Techmeme",
+      "url": "https://www.techmeme.com/260819/p12#a260819p12",
+      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
     },
     {
       "keyword": "gemma",
       "signal_type": "emerging",
       "flagged_on": "2026-04-07",
       "materialized_on": "2026-05-06",
-      "lead_days": 29
+      "lead_days": 29,
+      "outlet": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
+      "title": "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens"
     }
   ],
   "caveats": [
