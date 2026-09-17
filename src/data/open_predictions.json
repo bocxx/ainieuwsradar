@@ -1,89 +1,134 @@
 {
-  "generated_at": "2026-09-16T17:40:32+00:00",
+  "generated_at": "2026-09-17T05:34:11+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 117,
-    "resolved": 114,
+    "open": 118,
+    "resolved": 115,
     "hits": 14,
-    "misses": 100,
-    "hit_rate": 0.123
+    "misses": 101,
+    "hit_rate": 0.122
   },
   "open": [
     {
       "keyword": "voicebox",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-03",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "character ai",
       "signal_type": "emerging",
       "flagged_on": "2026-08-03",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "sakana ai",
       "signal_type": "emerging",
       "flagged_on": "2026-08-03",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "sota",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "seedance",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "dreamina",
       "signal_type": "emerging",
       "flagged_on": "2026-08-05",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "dall-e",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-06",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "claude 4",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-07",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "lora",
       "signal_type": "emerging",
       "flagged_on": "2026-08-08",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "ai energy",
       "signal_type": "emerging",
       "flagged_on": "2026-08-10",
-      "days_left": 8
+      "days_left": 7
     },
     {
       "keyword": "code completion",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-11",
-      "days_left": 9
+      "days_left": 8
     },
     {
       "keyword": "neuromorphic",
       "signal_type": "emerging",
       "flagged_on": "2026-08-12",
-      "days_left": 10
+      "days_left": 9
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "deepseek",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-02",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "together",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-02",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "thinking model",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-02",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-02",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "world models",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-02",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "qwen",
       "signal_type": "emerging",
@@ -161,51 +206,6 @@
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-07-30",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "hallucinations",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-30",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "gpt-4",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-30",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "claude 4",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-07-30",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "perplexity",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-29",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "grok",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-07-29",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
