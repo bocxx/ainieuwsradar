@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T19:16:33.459397",
-  "total_tracked": 3229,
+  "generated_at": "2026-09-18T07:14:14.749717",
+  "total_tracked": 3200,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "gemini",
-      "mentions": 235,
-      "velocity": 33.5,
+      "keyword": "agentic",
+      "mentions": 221,
+      "velocity": 33.2,
       "sources": [
         "articles",
         "arxiv",
@@ -19,9 +19,145 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "KnowBe4 inganna Gemini 3.5 Flash: così sottrae codici dalle email",
+      "expert_ratio": 0.79,
+      "headline": "Agentic AI Networking for Heterogeneous Unmanned Aerial Systems in Low-Altitude Wireless Networks",
       "articles": [
+        {
+          "title": "Agentic AI Networking for Heterogeneous Unmanned Aerial Systems in Low-Altitude Wireless Networks",
+          "url": "https://arxiv.org/abs/2609.19538",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Kinematics-Grounded Agentic AI for Robotic Additive Manufacturing Process Planning",
+          "url": "https://arxiv.org/abs/2609.19347",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "DataCanvas-EDU: An Agentic Framework for Instructor-Guided Synthetic Data Generation in Business Analytics Education",
+          "url": "https://arxiv.org/abs/2609.19617",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 153,
+      "velocity": 22.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 1.0,
+      "headline": "Fine-Tuning Fixes Mode Collapse and Over-Dispersion in LLMs",
+      "articles": [
+        {
+          "title": "Fine-Tuning Fixes Mode Collapse and Over-Dispersion in LLMs",
+          "url": "https://arxiv.org/abs/2609.16454",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning",
+          "url": "https://arxiv.org/abs/2609.16255",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Adaptive Phase-Switching for Communication-Efficient Federated LoRA Fine-Tuning",
+          "url": "https://arxiv.org/abs/2609.13512",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 518,
+      "velocity": 16.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "Bug Hunters Used Claude to Hack OpenAI",
+      "articles": [
+        {
+          "title": "Bug Hunters Used Claude to Hack OpenAI",
+          "url": "https://www.theinformation.com/briefings/bug-hunters-used-claude-hack-openai",
+          "source": "The Information"
+        },
+        {
+          "title": "The open source version of Claude Project that gives you the context ownershp",
+          "url": "https://github.com/zqiren/Orbital",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Anthropic says Claude \"leads\" 26% of its AI R＆D work, up from 1% in March, and \"collaborates\" on 90%+, doing large chunk",
+          "url": "https://www.techmeme.com/260917/p41#a260917p41",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 96,
+      "velocity": 16.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "Some developers are using the Claude Code harness to access cheaper non-Anthropic models, such as OpenAI's GPT-5.6 Sol, ",
+      "articles": [
+        {
+          "title": "Some developers are using the Claude Code harness to access cheaper non-Anthropic models, such as OpenAI's GPT-5.6 Sol, ",
+          "url": "https://www.techmeme.com/260915/p40#a260915p40",
+          "source": "Techmeme"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "gemini",
+      "mentions": 250,
+      "velocity": 28.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.67,
+      "headline": "Same Flaw Found in Claude Code, Codex, Gemini CLI and GitHub Copilot",
+      "articles": [
+        {
+          "title": "Same Flaw Found in Claude Code, Codex, Gemini CLI and GitHub Copilot",
+          "url": "https://www.theinformation.com/articles/flaw-found-claude-code-codex-gemini-cli-github-copilot",
+          "source": "The Information"
+        },
         {
           "title": "KnowBe4 inganna Gemini 3.5 Flash: così sottrae codici dalle email",
           "url": "https://www.tomshw.it/hardware/knowbe4-inganna-gemini-35-flash-cosi-sottrae-codici-dalle-email",
@@ -31,18 +167,13 @@
           "title": "X adds a \"Trade\" option to its Cashtag feature, letting US users complete trades at brokerages including Interactive Bro",
           "url": "https://www.techmeme.com/260916/p44#a260916p44",
           "source": "Techmeme"
-        },
-        {
-          "title": "Claude comes for Gemini with its own take on Docs and Slides",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
-          "source": "The Verge -  Artificial Intelligences"
         }
       ]
     },
     {
       "keyword": "grok",
-      "mentions": 78,
-      "velocity": 8.7,
+      "mentions": 92,
+      "velocity": 10.3,
       "sources": [
         "articles",
         "arxiv",
@@ -53,7 +184,7 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.46,
+      "expert_ratio": 0.44,
       "headline": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
       "articles": [
         {
@@ -74,198 +205,41 @@
       ]
     },
     {
-      "keyword": "fine-tuning",
-      "mentions": 95,
-      "velocity": 7.5,
+      "keyword": "hallucinations",
+      "mentions": 24,
+      "velocity": 3.7,
       "sources": [
+        "articles",
         "arxiv",
         "linkedin"
       ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning",
-      "articles": [
-        {
-          "title": "Efficient Reasoning Distillation: Small Video-Language Models via Synthetic CoT and Difficulty-Aware Fine-Tuning",
-          "url": "https://arxiv.org/abs/2609.16255",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Fine-Tuning Fixes Mode Collapse and Over-Dispersion in LLMs",
-          "url": "https://arxiv.org/abs/2609.16454",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Drift-Constrained Optimization: Only Direction Matters in Fine-Tuning Instruct Models",
-          "url": "https://arxiv.org/abs/2609.13680",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 39,
-      "velocity": 7.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.24,
-      "headline": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
-      "articles": [
-        {
-          "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
-          "url": "https://arxiv.org/abs/2609.10854",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 43,
-      "velocity": 4.8,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "A former US State Department envoy says the US-China AI safety talks will not yield a breakthrough treaty as Beijing is ",
-      "articles": [
-        {
-          "title": "A former US State Department envoy says the US-China AI safety talks will not yield a breakthrough treaty as Beijing is ",
-          "url": "https://www.techmeme.com/260917/p24#a260917p24",
-          "source": "Techmeme"
-        },
-        {
-          "title": "King Charles is pressing Nvidia, OpenAI, and Anthropic on AI safety in Scotland",
-          "url": "https://qz.com/king-charles-ai-safety-summit-scotland-nvidia-openai-anthropic-091726",
-          "source": "Quartz"
-        },
-        {
-          "title": "How Dario Amodei's essays on AI safety and ethics help explain some AI fears; his regulatory stance evolved from warines",
-          "url": "https://www.techmeme.com/260917/p20#a260917p20",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 37,
-      "velocity": 3.3,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "Crusoe Signs Perplexity AI Deal to Provide Cloud Capacity",
-      "articles": [
-        {
-          "title": "Crusoe Signs Perplexity AI Deal to Provide Cloud Capacity",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-15/crusoe-signs-perplexity-ai-deal-to-provide-cloud-capacity",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Perplexity’s local AI agent comes to Windows, but only for RTX GPUs with at least 24GB of VRAM — Portable Computer bring",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Perplexity Portable Computer arriva su Windows, ma vi serve una GPU ben specifica",
-          "url": "https://www.tomshw.it/hardware/perplexity-portable-computer-arriva-su-windows-lai-locale-sfrutta-le-gpu-nvidia-rtx",
-          "source": "Tom's Hardware"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "gpt-5",
-      "mentions": 57,
-      "velocity": 6.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.97,
-      "headline": "Some developers are using the Claude Code harness to access cheaper non-Anthropic models, such as OpenAI's GPT-5.6 Sol, ",
+      "headline": "FADE: Mitigating Hallucinations by Reducing Language-Prior Dominance in Large Vision-Language Models",
       "articles": [
         {
-          "title": "Some developers are using the Claude Code harness to access cheaper non-Anthropic models, such as OpenAI's GPT-5.6 Sol, ",
-          "url": "https://www.techmeme.com/260915/p40#a260915p40",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "agentic",
-      "mentions": 125,
-      "velocity": 6.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Comp AI sets eyes on a continuously agentic future for security and compliance",
-      "articles": [
-        {
-          "title": "Comp AI sets eyes on a continuously agentic future for security and compliance",
-          "url": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Taming the Agentic RAN: Stability-Guaranteed Arbitration of Autonomous AI Agents in O-RAN",
-          "url": "https://arxiv.org/abs/2609.18857",
+          "title": "FADE: Mitigating Hallucinations by Reducing Language-Prior Dominance in Large Vision-Language Models",
+          "url": "https://arxiv.org/abs/2606.29431",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "FairCompressAgent: An Agentic Framework for Fairness-Aware Model Compression for FPGA Deployment",
-          "url": "https://arxiv.org/abs/2609.17786",
+          "title": "NeuroActiSep: Detecting Factual Hallucinations from Feed-Forward Neurons in a Single Pass",
+          "url": "https://arxiv.org/abs/2609.14448",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Transcoders Trace Visual Grounding and Hallucinations in Vision-Language Models",
+          "url": "https://arxiv.org/abs/2605.22902",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "chatgpt",
-      "mentions": 238,
-      "velocity": 5.5,
+      "mentions": 237,
+      "velocity": 3.6,
       "sources": [
         "articles",
         "arxiv",
@@ -279,46 +253,52 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.56,
-      "headline": "ChatGPT vuole liberarsi dalle regole: ci dobbiamo preoccupare?",
+      "headline": "NYT court filing: ChatGPT's head wrote that publishers face an \"existential threat\" and a Microsoft executive called AI ",
       "articles": [
+        {
+          "title": "NYT court filing: ChatGPT's head wrote that publishers face an \"existential threat\" and a Microsoft executive called AI ",
+          "url": "https://www.techmeme.com/260917/p36#a260917p36",
+          "source": "Techmeme"
+        },
+        {
+          "title": "ChatGPT, pubblicità nelle chat in forma di Agenti Sponsorizzati",
+          "url": "https://www.tomshw.it/business/chatgpt-pubblicita-nelle-chat-in-forma-di-agenti-sponsorizzati",
+          "source": "Tom's Hardware"
+        },
         {
           "title": "ChatGPT vuole liberarsi dalle regole: ci dobbiamo preoccupare?",
           "url": "https://www.tomshw.it/altro/chatgpt-vuole-liberarsi-dalle-regole-ci-dobbiamo-preoccupare",
           "source": "Tom's Hardware"
-        },
-        {
-          "title": "Think you can spot a ChatGPT image? Take my real-or-AI quiz and see how many fool you",
-          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/think-you-can-spot-a-chatgpt-image-take-my-real-or-ai-quiz-and-see-how-many-fool-you",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "llama",
-      "mentions": 55,
-      "velocity": 5.0,
+      "keyword": "mcp server",
+      "mentions": 34,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "arxiv",
+        "linkedin",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
+      "expert_ratio": 0.23,
+      "headline": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
       "articles": [
         {
-          "title": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
-          "url": "https://arxiv.org/abs/2609.14864",
+          "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
+          "url": "https://arxiv.org/abs/2609.10854",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "qwen",
-      "mentions": 121,
-      "velocity": 4.2,
+      "keyword": "perplexity",
+      "mentions": 38,
+      "velocity": 2.6,
       "sources": [
         "articles",
         "arxiv",
@@ -329,69 +309,122 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Qwen-Image-Flash: Rethinking the Training Recipe for Few-Step Distillation",
+      "expert_ratio": 0.71,
+      "headline": "When Perplexity Lies: Generation-Focused Distillation of Hybrid Sequence Models",
       "articles": [
         {
-          "title": "Qwen-Image-Flash: Rethinking the Training Recipe for Few-Step Distillation",
-          "url": "https://arxiv.org/abs/2606.03746",
+          "title": "When Perplexity Lies: Generation-Focused Distillation of Hybrid Sequence Models",
+          "url": "https://arxiv.org/abs/2603.26556",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "This week on Tom's Hardware Premium: September 12, 2026 — Benchmarking Qwen 3.8, the splintered compute economy and AI b",
-          "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-12-2026-benchmarking-qwen-3-8-the-splintered-compute-economy-and-ai-breakthroughs",
-          "source": "Tom's Hardware"
+          "title": "Crusoe Signs Perplexity AI Deal to Provide Cloud Capacity",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/crusoe-signs-perplexity-ai-deal-to-provide-cloud-capacity",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-          "source": "Hacker News"
+          "title": "Perplexity’s local AI agent comes to Windows, but only for RTX GPUs with at least 24GB of VRAM — Portable Computer bring",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "minimax",
+      "mentions": 26,
+      "velocity": 2.3,
+      "sources": [
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.93,
+      "headline": "Near-Optimal Pure Single-Loop Extragradient Method for Strongly Convex--Strongly Concave Minimax Optimization",
+      "articles": [
+        {
+          "title": "Near-Optimal Pure Single-Loop Extragradient Method for Strongly Convex--Strongly Concave Minimax Optimization",
+          "url": "https://arxiv.org/abs/2609.20327",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Matching Multi-Loop Complexities with a Single Loop: Optimal Optimization Stationarity and Best-Known Game Stationarity ",
+          "url": "https://arxiv.org/abs/2609.17973",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Simple-regret rates and minimax optimality of fixed-prior expected improvement in Mat\\'ern and squared-exponential RKHSs",
+          "url": "https://arxiv.org/abs/2607.29245",
+          "source": "stat.ML updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "mistral",
+      "mentions": 23,
+      "velocity": 2.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Mozilla adds Mistral Small 4 to Firefox Smart Window as it launches in France",
+      "articles": [
+        {
+          "title": "Mozilla adds Mistral Small 4 to Firefox Smart Window as it launches in France",
+          "url": "https://thenextweb.com/news/firefox-smart-window-mistral-mozilla-partnership",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/",
+          "source": "Mistral AI — News"
+        },
+        {
+          "title": "Mozilla zet open source AI-model van Mistral in Firefox, nog niet in Benelux",
+          "url": "https://tweakers.net/nieuws/252238/mozilla-zet-open-source-ai-model-van-mistral-in-firefox-nog-niet-in-benelux.html",
+          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "vision language model",
-      "mentions": 2,
-      "velocity": 1.0,
+      "keyword": "wifi",
+      "mentions": 3,
+      "velocity": 0.5,
       "sources": [
-        "arxiv"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "HINT-Plan: Human Intention-Aware Robot Task Planning in Context-Rich Environments using Vision Language Models",
+      "confidence": 79,
+      "days_active": 6,
+      "expert_ratio": 0.83,
+      "headline": "A camera in a toothbrush? Dyson tells us why it combined 'WiFi, AI, intelligent sensing and fluid dynamics with a highly",
       "articles": [
         {
-          "title": "HINT-Plan: Human Intention-Aware Robot Task Planning in Context-Rich Environments using Vision Language Models",
-          "url": "https://arxiv.org/abs/2609.17771",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "New Evidence, Same Choice: Testing Physical Experiment Selection in Vision Language Models",
-          "url": "https://arxiv.org/abs/2609.11022",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "RAU: Reference-based Anatomical Understanding with Vision Language Models",
-          "url": "https://arxiv.org/abs/2509.22404",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "A camera in a toothbrush? Dyson tells us why it combined 'WiFi, AI, intelligent sensing and fluid dynamics with a highly",
+          "url": "https://www.techradar.com/health-fitness/oral-health/a-camera-in-a-toothbrush-dyson-tells-us-why-it-combined-wifi-ai-intelligent-sensing-and-fluid-dynamics-with-a-highly-engineered-brushing-experience-to-create-the-dyson-camerajet",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
       "keyword": "kill switch",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.3,
       "sources": [
         "hackernews"
       ],
       "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
       "headline": "Tech leaders say a kill switch won't be enough to stop rogue superintelligent AI",
       "articles": [
         {
@@ -414,9 +447,42 @@
   ],
   "sustained": [
     {
-      "keyword": "gemma",
-      "mentions": 23,
-      "velocity": 1.6,
+      "keyword": "frontier model",
+      "mentions": 13,
+      "velocity": 1.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Do Frontier Models Seek Safety Evidence Before Acting?",
+      "articles": [
+        {
+          "title": "Do Frontier Models Seek Safety Evidence Before Acting?",
+          "url": "https://arxiv.org/abs/2609.17865",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "How good are frontier models at physics?",
+          "url": "https://arxiv.org/abs/2609.13009",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Thoughts on AI labs' safety concerns: a coordinated slowdown may look like an antitrust conspiracy to limit output that ",
+          "url": "https://www.techmeme.com/260914/p43#a260914p43",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "context window",
+      "mentions": 16,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
@@ -425,29 +491,66 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.96,
-      "headline": "Recurrence Is Not Enough: Causally Validating Multilingual SAE Translation Features in Gemma 2 and 3",
+      "expert_ratio": 0.89,
+      "headline": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
       "articles": [
         {
-          "title": "Recurrence Is Not Enough: Causally Validating Multilingual SAE Translation Features in Gemma 2 and 3",
-          "url": "https://arxiv.org/abs/2609.04808",
+          "title": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
+          "url": "https://arxiv.org/abs/2609.14652",
           "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
+          "url": "https://arxiv.org/abs/2609.12686",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 19,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.48,
+      "headline": "Indian Project Financier’s Data Center Loans Top $1.2 Billion",
+      "articles": [
+        {
+          "title": "Indian Project Financier’s Data Center Loans Top $1.2 Billion",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-18/indian-project-financier-s-data-center-loans-top-1-2-billion",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "AI data center backlash reaches Silicon Valley's doorstep",
+          "url": "https://www.youtube.com/watch?v=77tLWgpVlLA",
+          "source": "Reuters"
+        },
+        {
+          "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+          "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+          "source": "TechCrunch"
         }
       ]
     },
     {
       "keyword": "vllm",
       "mentions": 11,
-      "velocity": 1.6,
+      "velocity": 1.1,
       "sources": [
+        "articles",
         "arxiv",
         "hackernews",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
+      "expert_ratio": 0.86,
       "headline": "proto-v0.2.0: vllm-proto 0.2.0",
       "articles": [
         {
@@ -468,153 +571,88 @@
       ]
     },
     {
-      "keyword": "context window",
-      "mentions": 15,
-      "velocity": 1.6,
+      "keyword": "ai safety",
+      "mentions": 35,
+      "velocity": 0.9,
       "sources": [
         "articles",
-        "arxiv",
+        "hackernews",
         "linkedin",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
+      "expert_ratio": 0.73,
+      "headline": "Is the AI safety debate about safety or control?",
       "articles": [
         {
-          "title": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
-          "url": "https://arxiv.org/abs/2609.14652",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Is the AI safety debate about safety or control?",
+          "url": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
-          "url": "https://arxiv.org/abs/2609.12686",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Alex Karp says the AI safety debate is really about nationalizing AI labs",
+          "url": "https://www.businessinsider.com/palantir-alex-karp-ai-safety-debate-nationalizing-ai-labs-2026-9",
+          "source": "Business Insider"
         },
         {
-          "title": "Beyond Context Windows: Persistent Discovery Context for Data-Centric Agents",
-          "url": "https://arxiv.org/abs/2609.02129",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "deepmind",
-      "mentions": 21,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.57,
-      "headline": "Former DeepMind world-model researchers’ startup Emulate in talks to raise $700M",
-      "articles": [
-        {
-          "title": "Former DeepMind world-model researchers’ startup Emulate in talks to raise $700M",
-          "url": "https://thenextweb.com/news/emulate-deepmind-world-models-700m-seed",
-          "source": "The Next Web"
-        },
-        {
-          "title": "DeepMind Offshoot Emulate Closes In on $700 Million Seed Round",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-17/deepmind-offshoot-emulate-closes-in-on-700-million-seed-round",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Sources: Emulate, a month-old UK AI startup founded by former Google DeepMind researchers, is in advanced talks to raise",
-          "url": "https://www.techmeme.com/260917/p3#a260917p3",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "google deepmind",
-      "mentions": 15,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.6,
-      "headline": "Sources: Emulate, a month-old UK AI startup founded by former Google DeepMind researchers, is in advanced talks to raise",
-      "articles": [
-        {
-          "title": "Sources: Emulate, a month-old UK AI startup founded by former Google DeepMind researchers, is in advanced talks to raise",
-          "url": "https://www.techmeme.com/260917/p3#a260917p3",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Google DeepMind launches the DeepMind Institute to debate AGI",
-          "url": "https://thenextweb.com/news/deepmind-institute-legg-hassabis-agi-essays",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google DeepMind cofounder Shane Legg warns that advancing AI must never run ahead of safety and launches the DeepMind In",
-          "url": "https://www.techmeme.com/260916/p31#a260916p31",
-          "source": "Techmeme"
+          "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+          "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+          "source": "TechCrunch"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 221,
-    "covered": 113,
-    "coverage_rate": 0.511,
-    "early": 53,
-    "early_rate": 0.24,
-    "avg_lead_days": 14.6,
+    "scored_predictions": 225,
+    "covered": 116,
+    "coverage_rate": 0.516,
+    "early": 55,
+    "early_rate": 0.244,
+    "avg_lead_days": 14.9,
     "median_lead_days": 9,
     "max_lead_days": 42,
-    "hit_rate": 0.511,
-    "materialized": 113,
+    "hit_rate": 0.516,
+    "materialized": 116,
     "by_signal_type": {
       "emerging": {
-        "scored": 127,
-        "covered": 98,
-        "early": 44,
-        "coverage_rate": 0.772,
-        "early_rate": 0.346,
-        "hit_rate": 0.772
+        "scored": 130,
+        "covered": 101,
+        "early": 46,
+        "coverage_rate": 0.777,
+        "early_rate": 0.354,
+        "hit_rate": 0.777
       },
       "weak_signal": {
-        "scored": 94,
+        "scored": 95,
         "covered": 15,
         "early": 9,
-        "coverage_rate": 0.16,
-        "early_rate": 0.096,
-        "hit_rate": 0.16
+        "coverage_rate": 0.158,
+        "early_rate": 0.095,
+        "hit_rate": 0.158
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 221,
+    "n": 225,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.516,
-      "early_rate": 0.244
+      "coverage_rate": 0.52,
+      "early_rate": 0.249
     },
     "null_mean": {
-      "coverage_rate": 0.549,
-      "early_rate": 0.307
+      "coverage_rate": 0.552,
+      "early_rate": 0.31
     },
     "p_value": {
-      "coverage_rate": 0.987,
-      "early_rate": 0.996
+      "coverage_rate": 0.986,
+      "early_rate": 0.997
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -670,16 +708,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33,
-      "outlet": "The Next Web",
-      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
-      "title": "Fish Audio gives its voice AI away, and charges for the latency"
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
@@ -688,6 +716,16 @@
       "outlet": "Techmeme",
       "url": "https://www.techmeme.com/260819/p12#a260819p12",
       "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
+      "lead_days": 33,
+      "outlet": "The Next Web",
+      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+      "title": "Fish Audio gives its voice AI away, and charges for the latency"
     },
     {
       "keyword": "gemma",
@@ -703,6 +741,24 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "qwen",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-18",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "gpt-5",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-18",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "qdrant",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-18",
+        "confidence": 0.2
+      },
+      {
         "keyword": "chatgpt",
         "signal_type": "emerging",
         "flagged_on": "2026-09-17",
@@ -715,13 +771,13 @@
         "confidence": 0.6
       },
       {
-        "keyword": "chroma",
+        "keyword": "claude haiku",
         "signal_type": "emerging",
         "flagged_on": "2026-09-17",
         "confidence": 0.4
       },
       {
-        "keyword": "claude haiku",
+        "keyword": "chroma",
         "signal_type": "emerging",
         "flagged_on": "2026-09-17",
         "confidence": 0.4
@@ -733,13 +789,7 @@
         "confidence": 0.2
       },
       {
-        "keyword": "kimi",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-16",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "gemma",
+        "keyword": "computer use",
         "signal_type": "emerging",
         "flagged_on": "2026-09-16",
         "confidence": 0.6
@@ -751,114 +801,102 @@
         "confidence": 0.6
       },
       {
-        "keyword": "computer use",
+        "keyword": "gemma",
         "signal_type": "emerging",
         "flagged_on": "2026-09-16",
         "confidence": 0.6
       },
       {
-        "keyword": "tinywow",
+        "keyword": "kimi",
         "signal_type": "emerging",
         "flagged_on": "2026-09-16",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "h100",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-16",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "langchain",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-15",
         "confidence": 0.6
       }
     ],
     "heating_up": [
       {
-        "keyword": "deepseek r1",
-        "recent_mentions": 12,
+        "keyword": "claude haiku",
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 12.0,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "mcp tools",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "mixture of experts",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "moonshot ai",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "fathom",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "llama 4",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "mistral ai",
-        "recent_mentions": 20,
-        "prior_mentions": 4,
-        "change_ratio": 5.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "krea",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
-        "change_ratio": 4.0,
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
         "corroborating_sources": 2
       },
       {
         "keyword": "llama 3",
-        "recent_mentions": 31,
+        "recent_mentions": 43,
         "prior_mentions": 8,
-        "change_ratio": 3.88,
+        "change_ratio": 5.38,
         "corroborating_sources": 2
       },
       {
-        "keyword": "modal",
-        "recent_mentions": 9,
+        "keyword": "in video",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude sonnet",
+        "recent_mentions": 26,
+        "prior_mentions": 6,
+        "change_ratio": 4.33,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "synthetic data",
+        "recent_mentions": 42,
+        "prior_mentions": 11,
+        "change_ratio": 3.82,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "vllm",
+        "recent_mentions": 38,
+        "prior_mentions": 10,
+        "change_ratio": 3.8,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "kling",
+        "recent_mentions": 11,
         "prior_mentions": 3,
-        "change_ratio": 3.0,
+        "change_ratio": 3.67,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai chips",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "computer-use",
-        "recent_mentions": 12,
+        "keyword": "test-time compute",
+        "recent_mentions": 14,
         "prior_mentions": 4,
-        "change_ratio": 3.0,
+        "change_ratio": 3.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "openmontage",
-        "recent_mentions": 9,
+        "keyword": "mixture of experts",
+        "recent_mentions": 10,
         "prior_mentions": 3,
-        "change_ratio": 3.0,
+        "change_ratio": 3.33,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "krea",
+        "recent_mentions": 16,
+        "prior_mentions": 5,
+        "change_ratio": 3.2,
+        "corroborating_sources": 2
       }
     ]
   }

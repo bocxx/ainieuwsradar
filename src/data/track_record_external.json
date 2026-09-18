@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-17T17:42:21+00:00",
+  "generated_at": "2026-09-18T05:32:23+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 221,
-    "covered": 113,
-    "coverage_rate": 0.511,
-    "early": 53,
-    "early_rate": 0.24,
-    "avg_lead_days": 14.6,
+    "scored_predictions": 225,
+    "covered": 116,
+    "coverage_rate": 0.516,
+    "early": 55,
+    "early_rate": 0.244,
+    "avg_lead_days": 14.9,
     "median_lead_days": 9,
     "max_lead_days": 42,
-    "hit_rate": 0.511,
-    "materialized": 113,
+    "hit_rate": 0.516,
+    "materialized": 116,
     "by_signal_type": {
       "emerging": {
-        "scored": 127,
-        "covered": 98,
-        "early": 44,
-        "coverage_rate": 0.772,
-        "early_rate": 0.346,
-        "hit_rate": 0.772
+        "scored": 130,
+        "covered": 101,
+        "early": 46,
+        "coverage_rate": 0.777,
+        "early_rate": 0.354,
+        "hit_rate": 0.777
       },
       "weak_signal": {
-        "scored": 94,
+        "scored": 95,
         "covered": 15,
         "early": 9,
-        "coverage_rate": 0.16,
-        "early_rate": 0.096,
-        "hit_rate": 0.16
+        "coverage_rate": 0.158,
+        "early_rate": 0.095,
+        "hit_rate": 0.158
       }
     }
   },
@@ -86,16 +86,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33,
-      "outlet": "The Next Web",
-      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
-      "title": "Fish Audio gives its voice AI away, and charges for the latency"
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
@@ -104,6 +94,16 @@
       "outlet": "Techmeme",
       "url": "https://www.techmeme.com/260819/p12#a260819p12",
       "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
+      "lead_days": 33,
+      "outlet": "The Next Web",
+      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+      "title": "Fish Audio gives its voice AI away, and charges for the latency"
     },
     {
       "keyword": "gemma",
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 221,
+    "n": 225,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.516,
-      "early_rate": 0.244
+      "coverage_rate": 0.52,
+      "early_rate": 0.249
     },
     "null_mean": {
-      "coverage_rate": 0.549,
-      "early_rate": 0.307
+      "coverage_rate": 0.552,
+      "early_rate": 0.31
     },
     "p_value": {
-      "coverage_rate": 0.987,
-      "early_rate": 0.996
+      "coverage_rate": 0.986,
+      "early_rate": 0.997
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
