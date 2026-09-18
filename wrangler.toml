@@ -4,7 +4,9 @@ compatibility_date = "2026-03-27"
 # hieronder). Met true stond dezelfde content publiek en crawlbaar op
 # <naam>.twilight-tooth-0aba.workers.dev (200, geen noindex).
 workers_dev = false
-preview_urls = true
+# Geen versie-preview-URL's: elke deploy maakte anders een publieke
+# <versie>-<naam>.twilight-tooth-0aba.workers.dev, ook met workers_dev = false.
+preview_urls = false
 
 routes = [
   { pattern = "ainieuwsradar.nl", custom_domain = true },
