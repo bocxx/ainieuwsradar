@@ -1,6 +1,9 @@
 name = "ainieuwsradar"
 compatibility_date = "2026-03-27"
-workers_dev = true
+# Geen workers.dev-tweeling: de site draait op het eigen domein (routes
+# hieronder). Met true stond dezelfde content publiek en crawlbaar op
+# <naam>.twilight-tooth-0aba.workers.dev (200, geen noindex).
+workers_dev = false
 preview_urls = true
 
 routes = [
