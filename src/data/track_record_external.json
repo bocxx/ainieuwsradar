@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-18T17:34:01+00:00",
+  "generated_at": "2026-09-19T05:29:51+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 225,
-    "covered": 116,
-    "coverage_rate": 0.516,
-    "early": 55,
-    "early_rate": 0.244,
-    "avg_lead_days": 14.9,
+    "scored_predictions": 231,
+    "covered": 118,
+    "coverage_rate": 0.511,
+    "early": 57,
+    "early_rate": 0.247,
+    "avg_lead_days": 14.7,
     "median_lead_days": 9,
     "max_lead_days": 42,
-    "hit_rate": 0.516,
-    "materialized": 116,
+    "hit_rate": 0.511,
+    "materialized": 118,
     "by_signal_type": {
       "emerging": {
-        "scored": 130,
-        "covered": 101,
-        "early": 46,
-        "coverage_rate": 0.777,
-        "early_rate": 0.354,
-        "hit_rate": 0.777
+        "scored": 136,
+        "covered": 103,
+        "early": 48,
+        "coverage_rate": 0.757,
+        "early_rate": 0.353,
+        "hit_rate": 0.757
       },
       "weak_signal": {
         "scored": 95,
@@ -122,20 +122,20 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 225,
+    "n": 231,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.52,
-      "early_rate": 0.249
+      "coverage_rate": 0.515,
+      "early_rate": 0.251
     },
     "null_mean": {
-      "coverage_rate": 0.552,
-      "early_rate": 0.31
+      "coverage_rate": 0.556,
+      "early_rate": 0.314
     },
     "p_value": {
-      "coverage_rate": 0.986,
+      "coverage_rate": 0.997,
       "early_rate": 0.997
     },
     "verdict_early": "niet onderscheidbaar van toeval"
