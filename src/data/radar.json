@@ -1,12 +1,48 @@
 {
-  "generated_at": "2026-09-19T07:13:25.564824",
-  "total_tracked": 3140,
+  "generated_at": "2026-09-19T19:14:53.512901",
+  "total_tracked": 3187,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "gemini",
+      "mentions": 252,
+      "velocity": 23.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.65,
+      "headline": "Gemini went rogue, hacked three companies, and Google hid it",
+      "articles": [
+        {
+          "title": "Gemini went rogue, hacked three companies, and Google hid it",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "Another AI hack, this time it’s Google’s Gemini | Reuters World News",
+          "url": "https://www.youtube.com/watch?v=CRDqy7ZqiAQ",
+          "source": "Reuters"
+        },
+        {
+          "title": "Google Gemini also escaped its testing environment and hacked three companies",
+          "url": "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
+          "source": "Engadget"
+        }
+      ]
+    },
+    {
       "keyword": "openai",
-      "mentions": 550,
-      "velocity": 33.2,
+      "mentions": 503,
+      "velocity": 19.0,
       "sources": [
         "articles",
         "arxiv",
@@ -20,75 +56,38 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.77,
-      "headline": "OpenAI Said to Forecast Nearly $280 Billion in Cash Burn Through End 2030",
+      "headline": "OpenAI told investors in February its compute bill would be around $600bn. A July presentation puts it at $856bn.",
       "articles": [
         {
-          "title": "OpenAI Said to Forecast Nearly $280 Billion in Cash Burn Through End 2030",
-          "url": "https://www.theinformation.com/briefings/openai-said-forecast-nearly-280-billion-cash-burn-end-2030",
-          "source": "The Information"
-        },
-        {
-          "title": "Anthropic adds support for the AGENTS.md instructions spec to Claude Code; OpenAI contributed AGENTS.md to the Agentic A",
-          "url": "https://www.techmeme.com/260918/p39#a260918p39",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Sources: Anthropic considers releasing a new AI model to counter OpenAI's momentum since Astra's launch, ahead of an IPO",
-          "url": "https://www.techmeme.com/260918/p38#a260918p38",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 223,
-      "velocity": 15.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "Gemini hacked three companies in first known breakout by Google's AI",
-      "articles": [
-        {
-          "title": "Gemini hacked three companies in first known breakout by Google's AI",
-          "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Google says its Gemini AI model hacked three other companies",
-          "url": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
-          "url": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html?utm_source=flipboard&utm_content=CNBC/magazine/Top+News",
+          "title": "OpenAI told investors in February its compute bill would be around $600bn. A July presentation puts it at $856bn.",
+          "url": "https://thenextweb.com/news/openai-856bn-compute-vs-600bn-reset-burn-improved?utm_source=flipboard&utm_content=user/thenextweb",
           "source": "Artificial Intelligence"
+        },
+        {
+          "title": "A look at AI safety groups METR, Redwood Research, and Apollo Research, as AI misalignment incidents at OpenAI and Anthr",
+          "url": "https://www.techmeme.com/260919/p5#a260919p5",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Three researchers used Claude to reach OpenAI’s internal code. OpenAI paid $6,500 and closed the hole in 14 hours.",
+          "url": "https://thenextweb.com/news/hacktron-claude-openai-bug-bounty-6500-guardrails-paper",
+          "source": "The Next Web"
         }
       ]
     },
     {
       "keyword": "simulation",
-      "mentions": 46,
-      "velocity": 7.3,
+      "mentions": 43,
+      "velocity": 6.4,
       "sources": [
-        "articles",
         "arxiv",
         "linkedin",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
+      "expert_ratio": 0.89,
       "headline": "A Simulation Platform for AUV Fault Recovery: Exploring LLM-Based Diagnostic Strategies",
       "articles": [
         {
@@ -109,42 +108,6 @@
       ]
     },
     {
-      "keyword": "chatgpt",
-      "mentions": 238,
-      "velocity": 5.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "Meta's personal AI agent Muse climbs to No. 1 among free apps on Apple's US App Store, ahead of ChatGPT; Muse launched o",
-      "articles": [
-        {
-          "title": "Meta's personal AI agent Muse climbs to No. 1 among free apps on Apple's US App Store, ahead of ChatGPT; Muse launched o",
-          "url": "https://www.techmeme.com/260918/p36#a260918p36",
-          "source": "Techmeme"
-        },
-        {
-          "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
-          "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Researchers used Claude to hack OpenAI employees' ChatGPT accounts",
-          "url": "https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517",
-          "source": "The Register - Security"
-        }
-      ]
-    },
-    {
       "keyword": "ai safety",
       "mentions": 46,
       "velocity": 4.4,
@@ -159,58 +122,29 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.72,
-      "headline": "Anthropic to Embed Accenture Evaluators to Test AI Safety",
+      "headline": "AI safety conversations have gotten unbelievable",
       "articles": [
+        {
+          "title": "AI safety conversations have gotten unbelievable",
+          "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "A look at AI safety groups METR, Redwood Research, and Apollo Research, as AI misalignment incidents at OpenAI and Anthr",
+          "url": "https://www.techmeme.com/260919/p5#a260919p5",
+          "source": "Techmeme"
+        },
         {
           "title": "Anthropic to Embed Accenture Evaluators to Test AI Safety",
           "url": "https://www.bloomberg.com/news/articles/2026-09-18/anthropic-to-embed-evaluators-from-accenture-to-test-ai-safety",
           "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Anthropic Investor Franklin: AI Safety Concerns Won't Slow Spending",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-18/ai-safety-concerns-won-t-slow-spending-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 36,
-      "velocity": 4.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.56,
-      "headline": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
-      "articles": [
-        {
-          "title": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
-          "url": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
-          "source": "The Register"
-        },
-        {
-          "title": "Factory raises $200M at a $5B valuation for its AI coding agents",
-          "url": "https://thenextweb.com/news/factory-200m-5bn-valuation-ai-coding-agents",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
-          "url": "https://arxiv.org/abs/2609.17817",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "mcp server",
-      "mentions": 38,
-      "velocity": 3.4,
+      "mentions": 40,
+      "velocity": 4.0,
       "sources": [
         "articles",
         "linkedin",
@@ -230,72 +164,99 @@
       ]
     },
     {
-      "keyword": "data centers",
-      "mentions": 32,
-      "velocity": 3.4,
+      "keyword": "minimax",
+      "mentions": 31,
+      "velocity": 3.3,
       "sources": [
         "articles",
         "arxiv",
-        "twitter"
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.44,
-      "headline": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "expert_ratio": 0.89,
+      "headline": "Near-Optimal Pure Single-Loop Extragradient Method for Strongly Convex--Strongly Concave Minimax Optimization",
       "articles": [
         {
-          "title": "Virginia governor creates an AI task force and moves to restrain data centers",
-          "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
-          "source": "The Verge -  All Posts"
+          "title": "Near-Optimal Pure Single-Loop Extragradient Method for Strongly Convex--Strongly Concave Minimax Optimization",
+          "url": "https://arxiv.org/abs/2609.20327",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "House passes act to make AI data centers pay for grid upgrades to minimize impact on residents — measure directs states ",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/house-passes-act-to-make-ai-data-centers-pay-for-grid-upgrades-to-minimize-impact-on-residents-measure-directs-states-to-consider-adoption-of-federal-standard-within-two-years-of-passing",
-          "source": "Tom's Hardware"
+          "title": "Matching Multi-Loop Complexities with a Single Loop: Optimal Optimization Stationarity and Best-Known Game Stationarity ",
+          "url": "https://arxiv.org/abs/2609.17973",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "Bill to make AI data centers pay for power grid upgrades reaches critical milestone",
-          "url": "https://www.techradar.com/pro/bill-to-make-ai-data-centers-pay-for-power-grid-upgrades-reaches-critical-milestone",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Simple-regret rates and minimax optimality of fixed-prior expected improvement in Mat\\'ern and squared-exponential RKHSs",
+          "url": "https://arxiv.org/abs/2607.29245",
+          "source": "stat.ML updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 32,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.55,
+      "headline": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+      "articles": [
+        {
+          "title": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+          "url": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
+          "source": "The Register"
+        },
+        {
+          "title": "Factory raises $200M at a $5B valuation for its AI coding agents",
+          "url": "https://thenextweb.com/news/factory-200m-5bn-valuation-ai-coding-agents",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
+          "url": "https://arxiv.org/abs/2609.17817",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "claude",
-      "mentions": 491,
-      "velocity": 6.1,
+      "keyword": "grok",
+      "mentions": 77,
+      "velocity": 3.7,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Anthropic adds support for the AGENTS.md instructions spec to Claude Code; OpenAI contributed AGENTS.md to the Agentic A",
+      "expert_ratio": 0.42,
+      "headline": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
       "articles": [
         {
-          "title": "Anthropic adds support for the AGENTS.md instructions spec to Claude Code; OpenAI contributed AGENTS.md to the Agentic A",
-          "url": "https://www.techmeme.com/260918/p39#a260918p39",
-          "source": "Techmeme"
+          "title": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
+          "url": "https://www.techradar.com/ai-platforms-assistants/elon-musks-grok-ai-contest-awards-usd100k-to-historically-accurate-version-of-the-odyssey-but-it-features-a-3-eyed-cyclops-and-hilarious-physics-fails",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Anthropic’s Claude Takes Bigger Role in Building AI",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-18/bloomberg-tech-9-18-2026-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Claude Code revamps projects so you can work and pay in parallel",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532",
-          "source": "The Register"
+          "title": "Structured Features Overfit Where Random Features Grok",
+          "url": "https://arxiv.org/abs/2609.15047",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     }
@@ -354,38 +315,9 @@
   ],
   "sustained": [
     {
-      "keyword": "grok",
-      "mentions": 70,
+      "keyword": "claude opus",
+      "mentions": 26,
       "velocity": 1.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.42,
-      "headline": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
-      "articles": [
-        {
-          "title": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
-          "url": "https://www.techradar.com/ai-platforms-assistants/elon-musks-grok-ai-contest-awards-usd100k-to-historically-accurate-version-of-the-odyssey-but-it-features-a-3-eyed-cyclops-and-hilarious-physics-fails",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Structured Features Overfit Where Random Features Grok",
-          "url": "https://arxiv.org/abs/2609.15047",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "vllm",
-      "mentions": 12,
-      "velocity": 1.3,
       "sources": [
         "articles",
         "arxiv",
@@ -394,35 +326,31 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "proto-v0.2.0: vllm-proto 0.2.0",
+      "expert_ratio": 0.95,
+      "headline": "OpenAI hacked by small team of white hat security researchers using Anthropic's Claude Opus 5",
       "articles": [
         {
-          "title": "proto-v0.2.0: vllm-proto 0.2.0",
-          "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.2.0",
-          "source": "vLLM Releases"
+          "title": "OpenAI hacked by small team of white hat security researchers using Anthropic's Claude Opus 5",
+          "url": "https://venturebeat.com/security/openai-hacked-by-small-team-of-white-hat-security-researchers-using-anthropics-claude-opus-5?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "ReDraft, Don't Just Distill: Reference-Driven Revision for Continual VLLM Post-Training",
-          "url": "https://arxiv.org/abs/2609.16639",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Validating Hybrid-State Cache Recovery for GLM-5.3-Flash with vLLM and LMCache",
-          "url": "https://arxiv.org/abs/2609.15030",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Google gives all of its engineers Claude Opus 5 access via Antigravity, and says \"Gemini remains our primary and foundat",
+          "url": "https://www.techmeme.com/260915/p5#a260915p5",
+          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "fine-tuning",
-      "mentions": 88,
-      "velocity": 0.8,
+      "mentions": 89,
+      "velocity": 1.1,
       "sources": [
+        "articles",
         "arxiv",
         "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -442,6 +370,82 @@
           "title": "NeuroProlog: Multi-Task Fine-Tuning for Neurosymbolic Mathematical Reasoning via the Cocktail Effect",
           "url": "https://arxiv.org/abs/2603.02504",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 48,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
+      "articles": [
+        {
+          "title": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
+          "url": "https://arxiv.org/abs/2609.14864",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 48,
+      "velocity": 0.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "Some developers are using the Claude Code harness to access cheaper non-Anthropic models, such as OpenAI's GPT-5.6 Sol, ",
+      "articles": [
+        {
+          "title": "Some developers are using the Claude Code harness to access cheaper non-Anthropic models, such as OpenAI's GPT-5.6 Sol, ",
+          "url": "https://www.techmeme.com/260915/p40#a260915p40",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "mistral",
+      "mentions": 20,
+      "velocity": 0.5,
+      "sources": [
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Mistral and other European AI startups accuse US rivals of using safety concerns to entrench their dominance, rejecting ",
+      "articles": [
+        {
+          "title": "Mistral and other European AI startups accuse US rivals of using safety concerns to entrench their dominance, rejecting ",
+          "url": "https://www.techmeme.com/260918/p21#a260918p21",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Mozilla adds Mistral Small 4 to Firefox Smart Window as it launches in France",
+          "url": "https://thenextweb.com/news/firefox-smart-window-mistral-mozilla-partnership",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
+          "url": "https://mistral.ai/news/mistral-x-mozilla/",
+          "source": "Mistral AI — News"
         }
       ]
     }
@@ -549,16 +553,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33,
-      "outlet": "Techmeme",
-      "url": "https://www.techmeme.com/260819/p12#a260819p12",
-      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
@@ -567,6 +561,16 @@
       "outlet": "The Next Web",
       "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
       "title": "Fish Audio gives its voice AI away, and charges for the latency"
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
+      "lead_days": 33,
+      "outlet": "Techmeme",
+      "url": "https://www.techmeme.com/260819/p12#a260819p12",
+      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
     },
     {
       "keyword": "gemma",
@@ -656,18 +660,18 @@
     ],
     "heating_up": [
       {
-        "keyword": "voice mode",
-        "recent_mentions": 12,
-        "prior_mentions": 1,
-        "change_ratio": 12.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "claude haiku",
         "recent_mentions": 10,
         "prior_mentions": 1,
         "change_ratio": 10.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "voice mode",
+        "recent_mentions": 10,
+        "prior_mentions": 1,
+        "change_ratio": 10.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "in video",
@@ -719,13 +723,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "vllm",
-        "recent_mentions": 42,
-        "prior_mentions": 12,
-        "change_ratio": 3.5,
-        "corroborating_sources": 3
-      },
-      {
         "keyword": "stable diffusion",
         "recent_mentions": 23,
         "prior_mentions": 7,
@@ -737,6 +734,13 @@
         "recent_mentions": 19,
         "prior_mentions": 6,
         "change_ratio": 3.17,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "vllm",
+        "recent_mentions": 37,
+        "prior_mentions": 12,
+        "change_ratio": 3.08,
         "corroborating_sources": 3
       }
     ]
