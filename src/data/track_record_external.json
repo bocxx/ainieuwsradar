@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T05:30:35+00:00",
+  "generated_at": "2026-09-20T17:31:42+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -16,14 +16,6 @@
     "hit_rate": 0.509,
     "materialized": 119,
     "by_signal_type": {
-      "emerging": {
-        "scored": 137,
-        "covered": 104,
-        "early": 49,
-        "coverage_rate": 0.759,
-        "early_rate": 0.358,
-        "hit_rate": 0.759
-      },
       "weak_signal": {
         "scored": 97,
         "covered": 15,
@@ -31,6 +23,14 @@
         "coverage_rate": 0.155,
         "early_rate": 0.093,
         "hit_rate": 0.155
+      },
+      "emerging": {
+        "scored": 137,
+        "covered": 104,
+        "early": 49,
+        "coverage_rate": 0.759,
+        "early_rate": 0.358,
+        "hit_rate": 0.759
       }
     }
   },
@@ -96,16 +96,6 @@
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33,
-      "outlet": "Techmeme",
-      "url": "https://www.techmeme.com/260819/p12#a260819p12",
-      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
@@ -114,6 +104,16 @@
       "outlet": "The Next Web",
       "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
       "title": "Fish Audio gives its voice AI away, and charges for the latency"
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
+      "lead_days": 33,
+      "outlet": "Techmeme",
+      "url": "https://www.techmeme.com/260819/p12#a260819p12",
+      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
     }
   ],
   "caveats": [

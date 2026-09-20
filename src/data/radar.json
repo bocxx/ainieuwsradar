@@ -1,79 +1,45 @@
 {
-  "generated_at": "2026-09-20T07:13:13.196327",
-  "total_tracked": 3135,
+  "generated_at": "2026-09-20T19:13:44.316479",
+  "total_tracked": 3175,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "openai",
-      "mentions": 586,
-      "velocity": 38.3,
+      "keyword": "qwen",
+      "mentions": 135,
+      "velocity": 6.8,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Sources: the USPTO and US Copyright Office were surprised by the DOJ's brief supporting OpenAI and Microsoft in their di",
+      "expert_ratio": 0.98,
+      "headline": "PrismML releases Bonsai 2 27B, which compresses Alibaba's Qwen3.8 27B to 5.9 GB, small enough for smartphones, while ret",
       "articles": [
         {
-          "title": "Sources: the USPTO and US Copyright Office were surprised by the DOJ's brief supporting OpenAI and Microsoft in their di",
-          "url": "https://www.techmeme.com/260919/p8#a260919p8",
+          "title": "PrismML releases Bonsai 2 27B, which compresses Alibaba's Qwen3.8 27B to 5.9 GB, small enough for smartphones, while ret",
+          "url": "https://www.techmeme.com/260917/p45#a260917p45",
           "source": "Techmeme"
         },
         {
-          "title": "OpenAI told investors in February its compute bill would be around $600bn. A July presentation puts it at $856bn.",
-          "url": "https://thenextweb.com/news/openai-856bn-compute-vs-600bn-reset-burn-improved",
-          "source": "The Next Web"
+          "title": "Qwen-Image-Flash: Rethinking the Training Recipe for Few-Step Distillation",
+          "url": "https://arxiv.org/abs/2606.03746",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "A look at AI safety groups METR, Redwood Research, and Apollo Research, as AI misalignment incidents at OpenAI and Anthr",
-          "url": "https://www.techmeme.com/260919/p5#a260919p5",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 232,
-      "velocity": 4.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "ChatGPT-6 Astra cracks 108-year-old unsolved WWI German code for the first time — radio message sharing enemy movement i",
-      "articles": [
-        {
-          "title": "ChatGPT-6 Astra cracks 108-year-old unsolved WWI German code for the first time — radio message sharing enemy movement i",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-108-year-old-unsolved-wwi-german-code-for-the-first-time-radio-message-sharing-enemy-movement-intelligence-had-evaded-decoding-1918-crimean-fleet-warning-verified-against-hms-canterbury-logs",
+          "title": "This week on Tom's Hardware Premium: September 12, 2026 — Benchmarking Qwen 3.8, the splintered compute economy and AI b",
+          "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-12-2026-benchmarking-qwen-3-8-the-splintered-compute-economy-and-ai-breakthroughs",
           "source": "Tom's Hardware"
-        },
-        {
-          "title": "LSU coach Lane Kiffin was asking ChatGPT for legal advice, friend says",
-          "url": "https://www.businessinsider.com/lane-kiffin-chatgpt-for-legal-advice-2026-9",
-          "source": "All Content from Business Insider"
         }
       ]
     },
     {
       "keyword": "agentic",
-      "mentions": 128,
-      "velocity": 4.8,
+      "mentions": 130,
+      "velocity": 5.4,
       "sources": [
         "articles",
         "arxiv",
@@ -102,72 +68,77 @@
       ]
     },
     {
-      "keyword": "claude code",
-      "mentions": 35,
-      "velocity": 3.2,
+      "keyword": "grok",
+      "mentions": 81,
+      "velocity": 3.8,
       "sources": [
         "articles",
+        "arxiv",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Anthropic adds support for the AGENTS.md instructions spec to Claude Code; OpenAI contributed AGENTS.md to the Agentic A",
+      "expert_ratio": 0.4,
+      "headline": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
       "articles": [
         {
-          "title": "Anthropic adds support for the AGENTS.md instructions spec to Claude Code; OpenAI contributed AGENTS.md to the Agentic A",
-          "url": "https://www.techmeme.com/260918/p39#a260918p39",
-          "source": "Techmeme"
+          "title": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
+          "url": "https://www.techradar.com/ai-platforms-assistants/elon-musks-grok-ai-contest-awards-usd100k-to-historically-accurate-version-of-the-odyssey-but-it-features-a-3-eyed-cyclops-and-hilarious-physics-fails",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Claude Code revamps projects so you can work and pay in parallel",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "computer use",
-      "mentions": 11,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.57,
-      "headline": "Show HN: CUA-S1 – A System One Model for Computer Use",
-      "articles": [
-        {
-          "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
-          "url": "https://github.com/trycua/cua",
-          "source": "Hacker News"
-        },
-        {
-          "title": "ADeptS-Bench: Measuring the Trustworthiness of Computer Use Agents Across Devices",
-          "url": "https://arxiv.org/abs/2608.26204",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "\"What Are You Really Trying to Do?\": Co-Creating Life Goals from Everyday Computer Use",
-          "url": "https://arxiv.org/abs/2605.00497",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Structured Features Overfit Where Random Features Grok",
+          "url": "https://arxiv.org/abs/2609.15047",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     }
   ],
   "emerging": [
     {
+      "keyword": "openai",
+      "mentions": 533,
+      "velocity": 22.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.75,
+      "headline": "Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan",
+      "articles": [
+        {
+          "title": "Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Anthropic, OpenAI, Google, and SpaceXAI illegally agreed on an AI slowdown, lawsuit says",
+          "url": "https://qz.com/antitrust-lawsuit-anthropic-openai-google-spacexai-ai-slowdown-092026",
+          "source": "Quartz"
+        },
+        {
+          "title": "OpenAI maakt in Amerika aparte versie van ChatGPT voor advocaten",
+          "url": "https://tweakers.net/nieuws/252372/openai-maakt-in-amerika-aparte-versie-van-chatgpt-voor-advocaten.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
       "keyword": "gemini",
-      "mentions": 243,
-      "velocity": 13.9,
+      "mentions": 255,
+      "velocity": 17.5,
       "sources": [
         "articles",
         "arxiv",
@@ -181,8 +152,13 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.64,
-      "headline": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+      "headline": "Another AI hack, this time it’s Google’s Gemini | Reuters World News",
       "articles": [
+        {
+          "title": "Another AI hack, this time it’s Google’s Gemini | Reuters World News",
+          "url": "https://www.youtube.com/watch?v=wpsMIqhSDcQ",
+          "source": "Reuters"
+        },
         {
           "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
           "url": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
@@ -192,18 +168,13 @@
           "title": "Google’s Gemini is the latest AI model to hack other companies",
           "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
           "source": "TechCrunch"
-        },
-        {
-          "title": "Google says it didn't consider Gemini's hacks worthy of disclosure because Gemini acted \"appropriately\" and stopped afte",
-          "url": "https://www.techmeme.com/260919/p9#a260919p9",
-          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "ai safety",
-      "mentions": 51,
-      "velocity": 4.6,
+      "mentions": 48,
+      "velocity": 3.7,
       "sources": [
         "articles",
         "hackernews",
@@ -232,9 +203,102 @@
           "source": "TechCrunch"
         }
       ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 37,
+      "velocity": 3.4,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.56,
+      "headline": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+      "articles": [
+        {
+          "title": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+          "url": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
+          "source": "The Register"
+        },
+        {
+          "title": "Factory raises $200M at a $5B valuation for its AI coding agents",
+          "url": "https://thenextweb.com/news/factory-200m-5bn-valuation-ai-coding-agents",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
+          "url": "https://arxiv.org/abs/2609.17817",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "physical ai",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "A startup that builds other startups raised $100M, and is all-in on physical AI",
+      "articles": [
+        {
+          "title": "A startup that builds other startups raised $100M, and is all-in on physical AI",
+          "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Treble raises $18m to give physical AI a sense of hearing",
+          "url": "https://thenextweb.com/news/treble-18m-series-a2-acoustic-simulation-physical-ai",
+          "source": "The Next Web"
+        },
+        {
+          "title": "New Italian unicorn Exein rides the physical AI wave",
+          "url": "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "brain",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Google's simulated fruit fly brain 'mines Bitcoin' in web browser proof of concept — FutureBit says real organic neuron ",
+      "articles": [
+        {
+          "title": "Google's simulated fruit fly brain 'mines Bitcoin' in web browser proof of concept — FutureBit says real organic neuron ",
+          "url": "https://www.tomshardware.com/tech-industry/cryptomining/googles-simulated-fruit-fly-brain-mines-bitcoin-in-web-browser-proof-of-concept-futurebit-says-real-organic-neuron-miner-could-have-10x-the-efficiency-of-the-best-silicon-3nm-asics",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Learning another language may be one of the best ways to keep your brain healthy",
+          "url": "https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/",
+          "source": "Ars Technica » Scientific Method"
+        },
+        {
+          "title": "Finding the cells that put our brain to sleep",
+          "url": "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
+          "source": "Ars Technica » Scientific Method"
+        }
+      ]
+    },
     {
       "keyword": "wifi",
       "mentions": 3,
@@ -252,6 +316,36 @@
           "title": "A camera in a toothbrush? Dyson tells us why it combined 'WiFi, AI, intelligent sensing and fluid dynamics with a highly",
           "url": "https://www.techradar.com/health-fitness/oral-health/a-camera-in-a-toothbrush-dyson-tells-us-why-it-combined-wifi-ai-intelligent-sensing-and-fluid-dynamics-with-a-highly-engineered-brushing-experience-to-create-the-dyson-camerajet",
           "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "robotics",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 79,
+      "days_active": 11,
+      "expert_ratio": 0.83,
+      "headline": "OpenAI’s highest robotics salary is $500,000, and it is not for building robots",
+      "articles": [
+        {
+          "title": "OpenAI’s highest robotics salary is $500,000, and it is not for building robots",
+          "url": "https://thenextweb.com/news/openai-robotics-engineer-salaries-500000",
+          "source": "The Next Web"
+        },
+        {
+          "title": "OpenAI is offering engineers up to $500,000 in salary as it pushes into robotics",
+          "url": "https://www.businessinsider.com/openai-is-offering-robotics-engineers-up-to-500-000-in-salary-2026-9",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "Chinese Robotics Suppliers Rise on Tesla Optimus Audit Report",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-18/chinese-robotics-suppliers-rise-on-tesla-optimus-audit-report",
+          "source": "Bloomberg Technology"
         }
       ]
     },
@@ -288,35 +382,6 @@
   ],
   "sustained": [
     {
-      "keyword": "grok",
-      "mentions": 75,
-      "velocity": 2.0,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.4,
-      "headline": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
-      "articles": [
-        {
-          "title": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
-          "url": "https://www.techradar.com/ai-platforms-assistants/elon-musks-grok-ai-contest-awards-usd100k-to-historically-accurate-version-of-the-odyssey-but-it-features-a-3-eyed-cyclops-and-hilarious-physics-fails",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Structured Features Overfit Where Random Features Grok",
-          "url": "https://arxiv.org/abs/2609.15047",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "minimax",
       "mentions": 28,
       "velocity": 1.4,
@@ -348,31 +413,9 @@
       ]
     },
     {
-      "keyword": "mcp server",
-      "mentions": 35,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.21,
-      "headline": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
-      "articles": [
-        {
-          "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
-          "url": "https://arxiv.org/abs/2609.10854",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "mistral",
-      "mentions": 23,
-      "velocity": 1.3,
+      "mentions": 20,
+      "velocity": 0.4,
       "sources": [
         "arxiv",
         "hackernews"
@@ -399,39 +442,6 @@
           "source": "Mistral AI — News"
         }
       ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 113,
-      "velocity": 0.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "PrismML releases Bonsai 2 27B, which compresses Alibaba's Qwen3.8 27B to 5.9 GB, small enough for smartphones, while ret",
-      "articles": [
-        {
-          "title": "PrismML releases Bonsai 2 27B, which compresses Alibaba's Qwen3.8 27B to 5.9 GB, small enough for smartphones, while ret",
-          "url": "https://www.techmeme.com/260917/p45#a260917p45",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Qwen-Image-Flash: Rethinking the Training Recipe for Few-Step Distillation",
-          "url": "https://arxiv.org/abs/2606.03746",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "This week on Tom's Hardware Premium: September 12, 2026 — Benchmarking Qwen 3.8, the splintered compute economy and AI b",
-          "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-12-2026-benchmarking-qwen-3-8-the-splintered-compute-economy-and-ai-breakthroughs",
-          "source": "Tom's Hardware"
-        }
-      ]
     }
   ],
   "track_record": {
@@ -446,14 +456,6 @@
     "hit_rate": 0.509,
     "materialized": 119,
     "by_signal_type": {
-      "emerging": {
-        "scored": 137,
-        "covered": 104,
-        "early": 49,
-        "coverage_rate": 0.759,
-        "early_rate": 0.358,
-        "hit_rate": 0.759
-      },
       "weak_signal": {
         "scored": 97,
         "covered": 15,
@@ -461,6 +463,14 @@
         "coverage_rate": 0.155,
         "early_rate": 0.093,
         "hit_rate": 0.155
+      },
+      "emerging": {
+        "scored": 137,
+        "covered": 104,
+        "early": 49,
+        "coverage_rate": 0.759,
+        "early_rate": 0.358,
+        "hit_rate": 0.759
       }
     }
   },
@@ -547,16 +557,6 @@
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     },
     {
-      "keyword": "kling",
-      "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
-      "lead_days": 33,
-      "outlet": "Techmeme",
-      "url": "https://www.techmeme.com/260819/p12#a260819p12",
-      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
-    },
-    {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-06-26",
@@ -565,15 +565,37 @@
       "outlet": "The Next Web",
       "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
       "title": "Fish Audio gives its voice AI away, and charges for the latency"
+    },
+    {
+      "keyword": "kling",
+      "signal_type": "emerging",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
+      "lead_days": 33,
+      "outlet": "Techmeme",
+      "url": "https://www.techmeme.com/260819/p12#a260819p12",
+      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
     }
   ],
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "ai safety",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-20",
+        "confidence": 0.8
+      },
+      {
         "keyword": "deepseek v3",
         "signal_type": "emerging",
         "flagged_on": "2026-09-20",
         "confidence": 0.4
+      },
+      {
+        "keyword": "sdxl",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-20",
+        "confidence": 0.2
       },
       {
         "keyword": "claude opus",
@@ -582,7 +604,13 @@
         "confidence": 0.6
       },
       {
-        "keyword": "gpt-5",
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-18",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "grok",
         "signal_type": "emerging",
         "flagged_on": "2026-09-18",
         "confidence": 1.0
@@ -594,13 +622,7 @@
         "confidence": 1.0
       },
       {
-        "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-18",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "grok",
+        "keyword": "gpt-5",
         "signal_type": "emerging",
         "flagged_on": "2026-09-18",
         "confidence": 1.0
@@ -628,25 +650,13 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-18",
         "confidence": 0.4
-      },
-      {
-        "keyword": "qdrant",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-18",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "chatgpt",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-17",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 18,
-        "prior_mentions": 3,
+        "keyword": "maestro",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
@@ -658,9 +668,9 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "maestro",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 18,
+        "prior_mentions": 3,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
@@ -669,6 +679,20 @@
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "speech to text",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "vision language model",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
         "corroborating_sources": 1
       },
       {
@@ -686,11 +710,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "qwen2",
+        "keyword": "code completion",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
         "keyword": "qwen2.5",
@@ -700,32 +724,18 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "vision language model",
+        "keyword": "qwen2",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
-        "keyword": "code completion",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "voicebox",
-        "recent_mentions": 9,
-        "prior_mentions": 3,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "sdxl",
+        "keyword": "voice mode",
         "recent_mentions": 12,
-        "prior_mentions": 4,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
+        "prior_mentions": 3,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
       }
     ]
   }
