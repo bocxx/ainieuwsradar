@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-19T17:32:02+00:00",
+  "generated_at": "2026-09-20T05:30:35+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 231,
-    "covered": 118,
-    "coverage_rate": 0.511,
-    "early": 57,
-    "early_rate": 0.247,
-    "avg_lead_days": 14.7,
-    "median_lead_days": 9,
+    "scored_predictions": 234,
+    "covered": 119,
+    "coverage_rate": 0.509,
+    "early": 58,
+    "early_rate": 0.248,
+    "avg_lead_days": 15.0,
+    "median_lead_days": 10.0,
     "max_lead_days": 42,
-    "hit_rate": 0.511,
-    "materialized": 118,
+    "hit_rate": 0.509,
+    "materialized": 119,
     "by_signal_type": {
       "emerging": {
-        "scored": 136,
-        "covered": 103,
-        "early": 48,
-        "coverage_rate": 0.757,
-        "early_rate": 0.353,
-        "hit_rate": 0.757
+        "scored": 137,
+        "covered": 104,
+        "early": 49,
+        "coverage_rate": 0.759,
+        "early_rate": 0.358,
+        "hit_rate": 0.759
       },
       "weak_signal": {
-        "scored": 95,
+        "scored": 97,
         "covered": 15,
         "early": 9,
-        "coverage_rate": 0.158,
-        "early_rate": 0.095,
-        "hit_rate": 0.158
+        "coverage_rate": 0.155,
+        "early_rate": 0.093,
+        "hit_rate": 0.155
       }
     }
   },
@@ -86,14 +86,14 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "voice ai",
+      "keyword": "flair",
       "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33,
-      "outlet": "The Next Web",
-      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
-      "title": "Fish Audio gives its voice AI away, and charges for the latency"
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     },
     {
       "keyword": "kling",
@@ -106,14 +106,14 @@
       "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
     },
     {
-      "keyword": "gemma",
+      "keyword": "voice ai",
       "signal_type": "emerging",
-      "flagged_on": "2026-04-07",
-      "materialized_on": "2026-05-06",
-      "lead_days": 29,
-      "outlet": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/",
-      "title": "Google's Gemma 4 AI models get 3x speed boost by predicting future tokens"
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
+      "lead_days": 33,
+      "outlet": "The Next Web",
+      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+      "title": "Fish Audio gives its voice AI away, and charges for the latency"
     }
   ],
   "caveats": [
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 231,
+    "n": 234,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.515,
-      "early_rate": 0.251
+      "coverage_rate": 0.513,
+      "early_rate": 0.252
     },
     "null_mean": {
-      "coverage_rate": 0.556,
-      "early_rate": 0.314
+      "coverage_rate": 0.551,
+      "early_rate": 0.315
     },
     "p_value": {
-      "coverage_rate": 0.997,
-      "early_rate": 0.997
+      "coverage_rate": 0.993,
+      "early_rate": 0.999
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
