@@ -1,45 +1,78 @@
 {
-  "generated_at": "2026-09-20T19:13:44.316479",
-  "total_tracked": 3175,
+  "generated_at": "2026-09-22T14:10:43.363751",
+  "total_tracked": 3182,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "qwen",
+      "keyword": "reinforcement learning",
       "mentions": 135,
-      "velocity": 6.8,
+      "velocity": 19.2,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "PrismML releases Bonsai 2 27B, which compresses Alibaba's Qwen3.8 27B to 5.9 GB, small enough for smartphones, while ret",
+      "expert_ratio": 1.0,
+      "headline": "Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning",
       "articles": [
         {
-          "title": "PrismML releases Bonsai 2 27B, which compresses Alibaba's Qwen3.8 27B to 5.9 GB, small enough for smartphones, while ret",
-          "url": "https://www.techmeme.com/260917/p45#a260917p45",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Qwen-Image-Flash: Rethinking the Training Recipe for Few-Step Distillation",
-          "url": "https://arxiv.org/abs/2606.03746",
+          "title": "Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.21971",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "This week on Tom's Hardware Premium: September 12, 2026 — Benchmarking Qwen 3.8, the splintered compute economy and AI b",
-          "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-12-2026-benchmarking-qwen-3-8-the-splintered-compute-economy-and-ai-breakthroughs",
-          "source": "Tom's Hardware"
+          "title": "AgenticRL: Agentic Reinforcement Learning with Self-Refinement for Complex UAV Navigation",
+          "url": "https://arxiv.org/abs/2606.03963",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Taming the Adversary: A Cost-to-Disturbance Ratio Approach to Adversarial Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2603.12110",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 90,
+      "velocity": 17.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.87,
+      "headline": "CityLearn v3: A Configurable Simulation and Evaluation Framework for Realistic Control Studies of Renewable Energy Commu",
+      "articles": [
+        {
+          "title": "CityLearn v3: A Configurable Simulation and Evaluation Framework for Realistic Control Studies of Renewable Energy Commu",
+          "url": "https://arxiv.org/abs/2609.21570",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Simulation Platform for AUV Fault Recovery: Exploring LLM-Based Diagnostic Strategies",
+          "url": "https://arxiv.org/abs/2609.20620",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "AURORA: A Natural Language-Driven Agentic Framework for Understanding, Reasoning, and Orchestrating Reliable Air-Ground ",
+          "url": "https://arxiv.org/abs/2609.19527",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "agentic",
-      "mentions": 130,
-      "velocity": 5.4,
+      "mentions": 157,
+      "velocity": 14.5,
       "sources": [
         "articles",
         "arxiv",
@@ -52,48 +85,83 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Agentic security is the billion-dollar challenge for some clever startup to solve",
+      "expert_ratio": 0.81,
+      "headline": "AgenticRL: Agentic Reinforcement Learning with Self-Refinement for Complex UAV Navigation",
       "articles": [
         {
-          "title": "Agentic security is the billion-dollar challenge for some clever startup to solve",
-          "url": "https://www.theregister.com/security/2026/09/19/agentic-security-is-the-billion-dollar-challenge-for-some-clever-startup-to-solve/5297546",
-          "source": "The Register - Security"
+          "title": "AgenticRL: Agentic Reinforcement Learning with Self-Refinement for Complex UAV Navigation",
+          "url": "https://arxiv.org/abs/2606.03963",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Anthropic adds support for the AGENTS.md instructions spec to Claude Code; OpenAI contributed AGENTS.md to the Agentic A",
-          "url": "https://www.techmeme.com/260918/p39#a260918p39",
+          "title": "An Agentic Just-in-Time Adaptive Intervention System for Personalized Sleep Support: Proof-of-Concept Study with N of 1 ",
+          "url": "https://arxiv.org/abs/2609.21805",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Verify, Don't Trust: Agentic Model Development for Video Discovery Retrieval at Scale",
+          "url": "https://arxiv.org/abs/2609.21257",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 171,
+      "velocity": 14.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "Alibaba Appoints New Head of Qwen LLM Team",
+      "articles": [
+        {
+          "title": "Alibaba Appoints New Head of Qwen LLM Team",
+          "url": "https://www.theinformation.com/briefings/alibaba-appoints-new-head-qwen-llm-team",
+          "source": "The Information"
+        },
+        {
+          "title": "Alibaba releases Qwen-Image-2.1, a 7B open-weight model it says outperforms most closed-source models, with native trans",
+          "url": "https://www.techmeme.com/260920/p13#a260920p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "PrismML releases Bonsai 2 27B, which compresses Alibaba's Qwen3.8 27B to 5.9 GB, small enough for smartphones, while ret",
+          "url": "https://www.techmeme.com/260917/p45#a260917p45",
           "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 81,
-      "velocity": 3.8,
+      "keyword": "llama",
+      "mentions": 63,
+      "velocity": 9.2,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "github"
       ],
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.4,
-      "headline": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
+      "expert_ratio": 0.97,
+      "headline": "Transformers now runs llama.cpp quants",
       "articles": [
         {
-          "title": "Elon Musk’s Grok AI contest awards $100k to ‘historically accurate’ version of The Odyssey — but it features a 3-eyed Cy",
-          "url": "https://www.techradar.com/ai-platforms-assistants/elon-musks-grok-ai-contest-awards-usd100k-to-historically-accurate-version-of-the-odyssey-but-it-features-a-3-eyed-cyclops-and-hilarious-physics-fails",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Transformers now runs llama.cpp quants",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "source": "Hugging Face Blog"
         },
         {
-          "title": "Structured Features Overfit Where Random Features Grok",
-          "url": "https://arxiv.org/abs/2609.15047",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
+          "url": "https://arxiv.org/abs/2609.14864",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -101,8 +169,8 @@
   "emerging": [
     {
       "keyword": "openai",
-      "mentions": 533,
-      "velocity": 22.3,
+      "mentions": 527,
+      "velocity": 5.8,
       "sources": [
         "articles",
         "arxiv",
@@ -115,187 +183,111 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan",
+      "expert_ratio": 0.71,
+      "headline": "OpenAI faces lawsuit from British Columbia over Tumbler Ridge shooting",
       "articles": [
         {
-          "title": "Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan",
-          "url": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Anthropic, OpenAI, Google, and SpaceXAI illegally agreed on an AI slowdown, lawsuit says",
-          "url": "https://qz.com/antitrust-lawsuit-anthropic-openai-google-spacexai-ai-slowdown-092026",
-          "source": "Quartz"
-        },
-        {
-          "title": "OpenAI maakt in Amerika aparte versie van ChatGPT voor advocaten",
-          "url": "https://tweakers.net/nieuws/252372/openai-maakt-in-amerika-aparte-versie-van-chatgpt-voor-advocaten.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 255,
-      "velocity": 17.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.64,
-      "headline": "Another AI hack, this time it’s Google’s Gemini | Reuters World News",
-      "articles": [
-        {
-          "title": "Another AI hack, this time it’s Google’s Gemini | Reuters World News",
-          "url": "https://www.youtube.com/watch?v=wpsMIqhSDcQ",
-          "source": "Reuters"
-        },
-        {
-          "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
-          "url": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
-        },
-        {
-          "title": "Google’s Gemini is the latest AI model to hack other companies",
-          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 48,
-      "velocity": 3.7,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "Anthropic picks Accenture for third-party AI safety evaluations",
-      "articles": [
-        {
-          "title": "Anthropic picks Accenture for third-party AI safety evaluations",
-          "url": "https://www.engadget.com/2263235/anthropic-picks-accenture-for-third-party-ai-safety-evaluations/",
+          "title": "OpenAI faces lawsuit from British Columbia over Tumbler Ridge shooting",
+          "url": "https://www.engadget.com/2264989/openai-tumbler-ridge-shooting-lawsuit/",
           "source": "Engadget"
         },
         {
-          "title": "Trump says he will appoint an AI czar and form an \"AI Force\", in a Truth Social post that rejects AI safety concerns as ",
-          "url": "https://www.techmeme.com/260919/p11#a260919p11",
-          "source": "Techmeme"
+          "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
+          "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+          "source": "Artificial intelligence (AI) | The Guardian"
         },
         {
-          "title": "AI safety conversations have gotten unbelievable",
-          "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
-          "source": "TechCrunch"
+          "title": "OpenAI Releases Proposal for International AI Safety Coordination",
+          "url": "https://www.theinformation.com/briefings/openai-releases-proposal-international-ai-safety-coordination",
+          "source": "The Information"
         }
       ]
     },
     {
-      "keyword": "ai coding",
-      "mentions": 37,
-      "velocity": 3.4,
+      "keyword": "typesafe",
+      "mentions": 15,
+      "velocity": 3.2,
       "sources": [
         "articles",
-        "github",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 7,
+      "expert_ratio": 0.0,
+      "headline": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev mat",
+      "articles": [
+        {
+          "title": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev mat",
+          "url": "https://www.techmeme.com/260920/p9#a260920p9",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Typesafe-computer-use drives a Mac toward a goal for 1/50th of a cent per step",
+          "url": "https://github.com/awlevin/typesafe-computer-use",
+          "source": "Hacker News"
+        },
+        {
+          "title": "TypeSafe AI debuts Jev, a model using \"Reinforcement Learning for Calibrated Decisions\" to produce typed probabilistic d",
+          "url": "https://www.techmeme.com/260916/p1#a260916p1",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 22,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
         "hackernews",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.56,
-      "headline": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+      "expert_ratio": 0.44,
+      "headline": "Alibaba Unveils New AI Chip And Data Center Expansion Plan",
       "articles": [
         {
-          "title": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
-          "url": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
-          "source": "The Register"
+          "title": "Alibaba Unveils New AI Chip And Data Center Expansion Plan",
+          "url": "https://www.theinformation.com/briefings/alibaba-unveils-new-ai-chip-data-center-expansion-plan",
+          "source": "The Information"
         },
         {
-          "title": "Factory raises $200M at a $5B valuation for its AI coding agents",
-          "url": "https://thenextweb.com/news/factory-200m-5bn-valuation-ai-coding-agents",
-          "source": "The Next Web"
+          "title": "The EU will force data centers to disclose their energy and water use",
+          "url": "https://www.engadget.com/2264607/the-eu-will-force-data-centers-to-disclose-their-energy-and-water-use/",
+          "source": "Engadget"
         },
         {
-          "title": "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
-          "url": "https://arxiv.org/abs/2609.17817",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Indeed: data center roles in the US offer a ~42% pay premium for hourly maintenance and installation workers compared wi",
+          "url": "https://www.techmeme.com/260920/p10#a260920p10",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "physical ai",
-      "mentions": 3,
-      "velocity": 2.0,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
-      "headline": "A startup that builds other startups raised $100M, and is all-in on physical AI",
-      "articles": [
-        {
-          "title": "A startup that builds other startups raised $100M, and is all-in on physical AI",
-          "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Treble raises $18m to give physical AI a sense of hearing",
-          "url": "https://thenextweb.com/news/treble-18m-series-a2-acoustic-simulation-physical-ai",
-          "source": "The Next Web"
-        },
-        {
-          "title": "New Italian unicorn Exein rides the physical AI wave",
-          "url": "https://techcrunch.com/2026/09/15/new-italian-unicorn-exein-rides-the-physical-ai-wave/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "keyword": "brain",
+      "keyword": "train",
       "mentions": 2,
       "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Google's simulated fruit fly brain 'mines Bitcoin' in web browser proof of concept — FutureBit says real organic neuron ",
+      "headline": "The US Army is getting enough drones, official says. Now, it needs to train enough operators.",
       "articles": [
         {
-          "title": "Google's simulated fruit fly brain 'mines Bitcoin' in web browser proof of concept — FutureBit says real organic neuron ",
-          "url": "https://www.tomshardware.com/tech-industry/cryptomining/googles-simulated-fruit-fly-brain-mines-bitcoin-in-web-browser-proof-of-concept-futurebit-says-real-organic-neuron-miner-could-have-10x-the-efficiency-of-the-best-silicon-3nm-asics",
-          "source": "Tom's Hardware"
+          "title": "The US Army is getting enough drones, official says. Now, it needs to train enough operators.",
+          "url": "https://www.businessinsider.com/us-army-has-drones-now-it-needs-trained-operators-2026-9",
+          "source": "All Content from Business Insider"
         },
         {
-          "title": "Learning another language may be one of the best ways to keep your brain healthy",
-          "url": "https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/",
-          "source": "Ars Technica » Scientific Method"
-        },
-        {
-          "title": "Finding the cells that put our brain to sleep",
-          "url": "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
-          "source": "Ars Technica » Scientific Method"
+          "title": "Transcription now costs 10 cents an hour. The differentiator is no longer the model, it is whose conversations you get t",
+          "url": "https://thenextweb.com/news/spacexai-transcribe-2-ten-cents-production-audio-credentials",
+          "source": "The Next Web"
         }
       ]
     },
@@ -320,62 +312,110 @@
       ]
     },
     {
-      "keyword": "robotics",
-      "mentions": 2,
-      "velocity": 0.3,
+      "keyword": "peft",
+      "mentions": 3,
+      "velocity": 0.4,
       "sources": [
-        "articles"
+        "arxiv"
       ],
       "source_count": 1,
-      "confidence": 79,
-      "days_active": 11,
-      "expert_ratio": 0.83,
-      "headline": "OpenAI’s highest robotics salary is $500,000, and it is not for building robots",
+      "confidence": 95,
+      "days_active": 12,
+      "expert_ratio": 1.0,
+      "headline": "Pre-PEFT Probing: Weight Statistics and Perturbation Robustness for Layer Selection in VLM Vision Encoders",
       "articles": [
         {
-          "title": "OpenAI’s highest robotics salary is $500,000, and it is not for building robots",
-          "url": "https://thenextweb.com/news/openai-robotics-engineer-salaries-500000",
-          "source": "The Next Web"
-        },
-        {
-          "title": "OpenAI is offering engineers up to $500,000 in salary as it pushes into robotics",
-          "url": "https://www.businessinsider.com/openai-is-offering-robotics-engineers-up-to-500-000-in-salary-2026-9",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Chinese Robotics Suppliers Rise on Tesla Optimus Audit Report",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-18/chinese-robotics-suppliers-rise-on-tesla-optimus-audit-report",
-          "source": "Bloomberg Technology"
+          "title": "Pre-PEFT Probing: Weight Statistics and Perturbation Robustness for Layer Selection in VLM Vision Encoders",
+          "url": "https://arxiv.org/abs/2609.15229",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "ai security",
-      "mentions": 3,
-      "velocity": 0.3,
+      "keyword": "brain",
+      "mentions": 2,
+      "velocity": 0.2,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 6,
-      "expert_ratio": 0.69,
-      "headline": "The hardest AI security problems now live in what an agent is permitted to do",
+      "confidence": 69,
+      "days_active": 4,
+      "expert_ratio": 0.86,
+      "headline": "Bio-MF: Low-Latency and High-Fidelity EEG-to-fNIRS Cross-Modal Generation for Hybrid Motor-Imagery Brain--Computer Inter",
       "articles": [
         {
-          "title": "The hardest AI security problems now live in what an agent is permitted to do",
-          "url": "https://thenextweb.com/news/owasp-llm-2026-agency-cra",
+          "title": "Bio-MF: Low-Latency and High-Fidelity EEG-to-fNIRS Cross-Modal Generation for Hybrid Motor-Imagery Brain--Computer Inter",
+          "url": "https://arxiv.org/abs/2609.20904",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Google's simulated fruit fly brain 'mines Bitcoin' in web browser proof of concept — FutureBit says real organic neuron ",
+          "url": "https://www.tomshardware.com/tech-industry/cryptomining/googles-simulated-fruit-fly-brain-mines-bitcoin-in-web-browser-proof-of-concept-futurebit-says-real-organic-neuron-miner-could-have-10x-the-efficiency-of-the-best-silicon-3nm-asics",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Learning another language may be one of the best ways to keep your brain healthy",
+          "url": "https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/",
+          "source": "Ars Technica"
+        }
+      ]
+    },
+    {
+      "keyword": "saaspocalypse",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 56,
+      "days_active": 5,
+      "expert_ratio": 0.75,
+      "headline": "“Crazy nonsense”: Benioff dismisses the SaaSpocalypse and launches AIforce",
+      "articles": [
+        {
+          "title": "“Crazy nonsense”: Benioff dismisses the SaaSpocalypse and launches AIforce",
+          "url": "https://thenextweb.com/news/benioff-saaspocalypse-crazy-nonsense-aiforce-koa-dreamforce",
           "source": "The Next Web"
         },
         {
-          "title": "Gebru: AI Security ＆ Safety Is About Human Control",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-14/gebru-ai-security-safety-is-about-human-control-video",
-          "source": "Bloomberg Technology"
+          "title": "Salesforce CEO Marc Benioff says the SaaSpocalypse is 'crazy nonsense' - and Jensen Huang agrees with him",
+          "url": "https://www.techradar.com/pro/salesforce-ceo-marc-benioff-says-the-saaspocalypse-is-crazy-nonsense-and-jensen-huang-agrees-with-him",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Enterprise AI security startup Cymphony emerges from stealth with $30M, including a $25M Series A co-led by Sequoia and ",
-          "url": "https://www.techmeme.com/260909/p19#a260909p19",
-          "source": "Techmeme"
+          "title": "Oracle says AI will save it from the SaaSpocalypse, not bring it on",
+          "url": "https://www.theregister.com/software/2026/09/11/oracle-says-ai-will-save-it-from-the-saaspocalypse-not-bring-it-on/5295736",
+          "source": "The Register"
+        }
+      ]
+    },
+    {
+      "keyword": "small language model",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 7,
+      "expert_ratio": 0.92,
+      "headline": "Effective and Efficient Threat Hunting with Small Language Models",
+      "articles": [
+        {
+          "title": "Effective and Efficient Threat Hunting with Small Language Models",
+          "url": "https://arxiv.org/abs/2512.06660",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
+          "url": "https://arxiv.org/abs/2609.13470",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls",
+          "url": "https://arxiv.org/abs/2609.09476",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -383,115 +423,117 @@
   "sustained": [
     {
       "keyword": "minimax",
-      "mentions": 28,
-      "velocity": 1.4,
+      "mentions": 29,
+      "velocity": 1.0,
       "sources": [
+        "articles",
         "arxiv",
         "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "Near-Optimal Pure Single-Loop Extragradient Method for Strongly Convex--Strongly Concave Minimax Optimization",
+      "expert_ratio": 0.82,
+      "headline": "Multi-Armed Bernoulli Bandits via Minimax Single-Arm Stopping",
       "articles": [
+        {
+          "title": "Multi-Armed Bernoulli Bandits via Minimax Single-Arm Stopping",
+          "url": "https://arxiv.org/abs/2609.22690",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift",
+          "url": "https://arxiv.org/abs/2609.24929",
+          "source": "stat.ML updates on arXiv.org"
+        },
         {
           "title": "Near-Optimal Pure Single-Loop Extragradient Method for Strongly Convex--Strongly Concave Minimax Optimization",
           "url": "https://arxiv.org/abs/2609.20327",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Matching Multi-Loop Complexities with a Single Loop: Optimal Optimization Stationarity and Best-Known Game Stationarity ",
-          "url": "https://arxiv.org/abs/2609.17973",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Simple-regret rates and minimax optimality of fixed-prior expected improvement in Mat\\'ern and squared-exponential RKHSs",
-          "url": "https://arxiv.org/abs/2607.29245",
           "source": "stat.ML updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "mistral",
-      "mentions": 20,
-      "velocity": 0.4,
+      "keyword": "hallucinations",
+      "mentions": 14,
+      "velocity": 0.8,
       "sources": [
+        "articles",
         "arxiv",
-        "hackernews"
+        "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Mistral and other European AI startups accuse US rivals of using safety concerns to entrench their dominance, rejecting ",
+      "expert_ratio": 0.89,
+      "headline": "Raindrop, which develops tech for monitoring AI agents to catch failures such as hallucinations and tool misuse, raised ",
       "articles": [
         {
-          "title": "Mistral and other European AI startups accuse US rivals of using safety concerns to entrench their dominance, rejecting ",
-          "url": "https://www.techmeme.com/260918/p21#a260918p21",
+          "title": "Raindrop, which develops tech for monitoring AI agents to catch failures such as hallucinations and tool misuse, raised ",
+          "url": "https://www.techmeme.com/260919/p7#a260919p7",
           "source": "Techmeme"
         },
         {
-          "title": "Mozilla adds Mistral Small 4 to Firefox Smart Window as it launches in France",
-          "url": "https://thenextweb.com/news/firefox-smart-window-mistral-mozilla-partnership",
-          "source": "The Next Web"
+          "title": "FADE: Mitigating Hallucinations by Reducing Language-Prior Dominance in Large Vision-Language Models",
+          "url": "https://arxiv.org/abs/2606.29431",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Mistral and Mozilla are bringing open, private and multilingual AI to your web browser",
-          "url": "https://mistral.ai/news/mistral-x-mozilla/",
-          "source": "Mistral AI — News"
+          "title": "Transcoders Trace Visual Grounding and Hallucinations in Vision-Language Models",
+          "url": "https://arxiv.org/abs/2605.22902",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 234,
-    "covered": 119,
-    "coverage_rate": 0.509,
-    "early": 58,
-    "early_rate": 0.248,
-    "avg_lead_days": 15.0,
-    "median_lead_days": 10.0,
+    "scored_predictions": 238,
+    "covered": 122,
+    "coverage_rate": 0.513,
+    "early": 61,
+    "early_rate": 0.256,
+    "avg_lead_days": 15.1,
+    "median_lead_days": 11,
     "max_lead_days": 42,
-    "hit_rate": 0.509,
-    "materialized": 119,
+    "hit_rate": 0.513,
+    "materialized": 122,
     "by_signal_type": {
+      "emerging": {
+        "scored": 140,
+        "covered": 107,
+        "early": 52,
+        "coverage_rate": 0.764,
+        "early_rate": 0.371,
+        "hit_rate": 0.764
+      },
       "weak_signal": {
-        "scored": 97,
+        "scored": 98,
         "covered": 15,
         "early": 9,
-        "coverage_rate": 0.155,
-        "early_rate": 0.093,
-        "hit_rate": 0.155
-      },
-      "emerging": {
-        "scored": 137,
-        "covered": 104,
-        "early": 49,
-        "coverage_rate": 0.759,
-        "early_rate": 0.358,
-        "hit_rate": 0.759
+        "coverage_rate": 0.153,
+        "early_rate": 0.092,
+        "hit_rate": 0.153
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 234,
+    "n": 238,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.513,
-      "early_rate": 0.252
+      "coverage_rate": 0.517,
+      "early_rate": 0.261
     },
     "null_mean": {
-      "coverage_rate": 0.551,
-      "early_rate": 0.315
+      "coverage_rate": 0.554,
+      "early_rate": 0.318
     },
     "p_value": {
-      "coverage_rate": 0.993,
-      "early_rate": 0.999
+      "coverage_rate": 0.986,
+      "early_rate": 0.996
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -557,16 +599,6 @@
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     },
     {
-      "keyword": "voice ai",
-      "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
-      "lead_days": 33,
-      "outlet": "The Next Web",
-      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
-      "title": "Fish Audio gives its voice AI away, and charges for the latency"
-    },
-    {
       "keyword": "kling",
       "signal_type": "emerging",
       "flagged_on": "2026-07-17",
@@ -575,10 +607,56 @@
       "outlet": "Techmeme",
       "url": "https://www.techmeme.com/260819/p12#a260819p12",
       "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
+    },
+    {
+      "keyword": "voice ai",
+      "signal_type": "emerging",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
+      "lead_days": 33,
+      "outlet": "The Next Web",
+      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+      "title": "Fish Audio gives its voice AI away, and charges for the latency"
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "claude code",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-22",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "flux",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-22",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "openai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-21",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "ai coding",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-21",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "machine consciousness",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-21",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "autogpt",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-21",
+        "confidence": 0.2
+      },
       {
         "keyword": "ai safety",
         "signal_type": "emerging",
@@ -604,137 +682,101 @@
         "confidence": 0.6
       },
       {
-        "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-18",
-        "confidence": 1.0
-      },
-      {
         "keyword": "grok",
         "signal_type": "emerging",
         "flagged_on": "2026-09-18",
         "confidence": 1.0
       },
       {
-        "keyword": "qwen",
+        "keyword": "gemini",
         "signal_type": "emerging",
         "flagged_on": "2026-09-18",
         "confidence": 1.0
-      },
-      {
-        "keyword": "gpt-5",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-18",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "mcp server",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-18",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "hallucination",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-18",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "world models",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-18",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "minimax",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-18",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
       {
-        "keyword": "maestro",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "claude haiku",
-        "recent_mentions": 12,
-        "prior_mentions": 2,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 18,
-        "prior_mentions": 3,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "llama 4",
+        "keyword": "dreamina",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "voice agent",
+        "recent_mentions": 13,
+        "prior_mentions": 4,
+        "change_ratio": 3.25,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "framer",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "ai act",
+        "recent_mentions": 15,
+        "prior_mentions": 5,
+        "change_ratio": 3.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "browser use",
+        "recent_mentions": 14,
+        "prior_mentions": 5,
+        "change_ratio": 2.8,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "dify",
+        "recent_mentions": 5,
+        "prior_mentions": 2,
+        "change_ratio": 2.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "world model",
+        "recent_mentions": 32,
+        "prior_mentions": 13,
+        "change_ratio": 2.46,
+        "corroborating_sources": 3
       },
       {
         "keyword": "speech to text",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "vision language model",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "h100",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "stable diffusion",
-        "recent_mentions": 30,
-        "prior_mentions": 7,
-        "change_ratio": 4.29,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "code completion",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "qwen2.5",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "qwen2",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "voice mode",
-        "recent_mentions": 12,
+        "recent_mentions": 7,
         "prior_mentions": 3,
-        "change_ratio": 4.0,
+        "change_ratio": 2.33,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "cowork",
+        "recent_mentions": 29,
+        "prior_mentions": 13,
+        "change_ratio": 2.23,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "computer use",
+        "recent_mentions": 33,
+        "prior_mentions": 15,
+        "change_ratio": 2.2,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "quantization",
+        "recent_mentions": 60,
+        "prior_mentions": 29,
+        "change_ratio": 2.07,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "conversational ai",
+        "recent_mentions": 22,
+        "prior_mentions": 11,
+        "change_ratio": 2.0,
         "corroborating_sources": 2
       }
     ]
