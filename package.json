@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "npm run verify:links && astro build",
+    "verify:links": "node scripts/verify-links.mjs",
     "preview": "astro preview",
     "deploy": "npm run build && wrangler deploy",
     "audit:html": "node scripts/check-html-complete.mjs",
