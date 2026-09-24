@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-23T19:16:52.802190",
-  "total_tracked": 3336,
+  "generated_at": "2026-09-24T07:14:20.154411",
+  "total_tracked": 3391,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "gemini",
-      "mentions": 257,
-      "velocity": 14.5,
+      "keyword": "agentic",
+      "mentions": 198,
+      "velocity": 27.4,
       "sources": [
         "articles",
         "arxiv",
@@ -19,30 +19,62 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.61,
-      "headline": "Gemini 3.8 text-to-speech says hello",
+      "expert_ratio": 0.83,
+      "headline": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
       "articles": [
         {
-          "title": "Gemini 3.8 text-to-speech says hello",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-          "source": "Hacker News"
+          "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+          "url": "https://arxiv.org/abs/2609.28372",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Gemini broke into 3 companies, but Google kept it quiet because ‘no damage was done’",
-          "url": "https://www.computerworld.com/article/4224582/gemini-broke-into-3-companies-but-google-kept-it-quiet-because-no-damage-was-done-3.html",
-          "source": "Computerworld"
+          "title": "Issuer-Sovereign Agentic Payments",
+          "url": "https://arxiv.org/abs/2609.27452",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Google Pixel 11 Pro Fold review: Thinner, better cameras, and cool Gemini touches",
-          "url": "https://www.businessinsider.com/guides/tech/google-pixel-11-pro-fold-review",
-          "source": "Business Insider"
+          "title": "KITE: KV-Invariant Transformer Expansion for Efficient Agentic LLM Scaling",
+          "url": "https://arxiv.org/abs/2609.27294",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 156,
+      "velocity": 27.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "The Gaussian Is Enough: Flow-Matching Priors Do Not Help When Fine-Tuning Large Behavior Models",
+      "articles": [
+        {
+          "title": "The Gaussian Is Enough: Flow-Matching Priors Do Not Help When Fine-Tuning Large Behavior Models",
+          "url": "https://arxiv.org/abs/2609.27070",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "From Experts to Sub-experts: Fine-grained Parameter-Efficient Fine-Tuning for MoE LLMs",
+          "url": "https://arxiv.org/abs/2609.25655",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "The Limits of Simulated Societies: How Post-Training and Survey Fine-Tuning Erase Cross-Cultural Variance",
+          "url": "https://arxiv.org/abs/2609.25760",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "qwen",
-      "mentions": 166,
-      "velocity": 11.6,
+      "mentions": 196,
+      "velocity": 17.2,
       "sources": [
         "articles",
         "arxiv",
@@ -52,7 +84,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.95,
+      "expert_ratio": 0.94,
       "headline": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model",
       "articles": [
         {
@@ -71,45 +103,13 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 48,
-      "velocity": 8.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Anthropic Unveils Cheaper Claude Opus 5.5 Ahead of Expected IPO",
-      "articles": [
-        {
-          "title": "Anthropic Unveils Cheaper Claude Opus 5.5 Ahead of Expected IPO",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-23/anthropic-unveils-cheaper-claude-opus-5-5-ahead-of-ipo-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Anthropic brengt Claude Opus 5.5 uit, goedkoper dan voorganger",
-          "url": "https://tweakers.net/nieuws/252478/anthropic-brengt-claude-opus-55-uit-goedkoper-dan-voorganger.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Claude Opus 5.5 costa il 40% in meno, va come Fable 5.1",
-          "url": "https://www.tomshw.it/hardware/claude-opus-55-costa-il-40-in-meno-va-come-fable-5-1",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
+    }
+  ],
+  "emerging": [
     {
       "keyword": "claude",
-      "mentions": 470,
-      "velocity": 7.9,
+      "mentions": 493,
+      "velocity": 12.5,
       "sources": [
         "articles",
         "arxiv",
@@ -123,66 +123,64 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.78,
+      "headline": "Anthropic says Claude found a new enzyme system with CRISPR-like repeats",
+      "articles": [
+        {
+          "title": "Anthropic says Claude found a new enzyme system with CRISPR-like repeats",
+          "url": "https://thenextweb.com/news/anthropic-claude-enzyme-system-crispr-like-repeats",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Anthropic says Claude autonomously discovered a new enzyme system in the DNA of bacteriophages, somewhat similar to CRIS",
+          "url": "https://www.techmeme.com/260923/p34#a260923p34",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 49,
+      "velocity": 6.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
       "headline": "Anthropic Unveils Cheaper Claude Opus 5.5 Ahead of Expected IPO",
       "articles": [
         {
           "title": "Anthropic Unveils Cheaper Claude Opus 5.5 Ahead of Expected IPO",
           "url": "https://www.bloomberg.com/news/videos/2026-09-23/anthropic-unveils-cheaper-claude-opus-5-5-ahead-of-ipo-video",
           "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Amazon sellers can now run their stores from Claude and Amazon Quick",
-          "url": "https://thenextweb.com/news/amazon-seller-assistant-plugin-claude-quick",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "fine-tuning",
-      "mentions": 76,
-      "velocity": 4.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "From Experts to Sub-experts: Fine-grained Parameter-Efficient Fine-Tuning for MoE LLMs",
-      "articles": [
-        {
-          "title": "From Experts to Sub-experts: Fine-grained Parameter-Efficient Fine-Tuning for MoE LLMs",
-          "url": "https://arxiv.org/abs/2609.25655",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "The Limits of Simulated Societies: How Post-Training and Survey Fine-Tuning Erase Cross-Cultural Variance",
-          "url": "https://arxiv.org/abs/2609.25760",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Reasoning-Preserving Fine-Tuning of Post-RL LLMs with Null-Basis LoRA",
-          "url": "https://arxiv.org/abs/2609.25618",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "copilot",
-      "mentions": 37,
-      "velocity": 3.9,
+      "mentions": 42,
+      "velocity": 4.2,
       "sources": [
+        "articles",
         "github",
         "hackernews",
         "linkedin",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.65,
+      "expert_ratio": 0.66,
       "headline": "Windows 11 Copilot app is getting its own browser, but not everyone's happy",
       "articles": [
         {
@@ -201,25 +199,29 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
       "keyword": "deepseek",
-      "mentions": 83,
-      "velocity": 4.0,
+      "mentions": 85,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "linkedin"
+        "linkedin",
+        "reddit"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.95,
-      "headline": "DeepSeek Tests Efficient, Safer Method for Training AI Agents",
+      "headline": "DeepSeek publishes its method for training AI agents at scale",
       "articles": [
+        {
+          "title": "DeepSeek publishes its method for training AI agents at scale",
+          "url": "https://thenextweb.com/news/deepseek-dsec-agent-sandboxes",
+          "source": "The Next Web"
+        },
         {
           "title": "DeepSeek Tests Efficient, Safer Method for Training AI Agents",
           "url": "https://www.bloomberg.com/news/articles/2026-09-23/deepseek-tests-efficient-safer-method-for-training-ai-agents",
@@ -229,10 +231,37 @@
           "title": "China is investigating DeepSeek and Moonshot over data that flowed to Anthropic",
           "url": "https://qz.com/china-deepseek-moonshot-anthropic-data-probe-092326",
           "source": "Quartz"
+        }
+      ]
+    },
+    {
+      "keyword": "conversational ai",
+      "mentions": 16,
+      "velocity": 3.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot",
+      "articles": [
+        {
+          "title": "LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot",
+          "url": "https://arxiv.org/abs/2609.24742",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Adapting Tree-Structured Speculative Decoding to DeepSeek-V4 for Efficient Inference",
-          "url": "https://arxiv.org/abs/2609.24698",
+          "title": "From Offline Proxies to Online Decisions: A Layered Engagement Evaluation Framework for Conversational AI",
+          "url": "https://arxiv.org/abs/2609.25408",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Gricea: An Open Science Platform for Conversational AI Research",
+          "url": "https://arxiv.org/abs/2609.22039",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -240,14 +269,39 @@
   ],
   "weak_signals": [
     {
+      "keyword": "wifi",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 73,
+      "days_active": 4,
+      "expert_ratio": 0.89,
+      "headline": "SwitchBot Videocitofono WiFi a 149,99€, rispondi anche senza smartphone",
+      "articles": [
+        {
+          "title": "SwitchBot Videocitofono WiFi a 149,99€, rispondi anche senza smartphone",
+          "url": "https://www.tomshw.it/altro/switchbot-videocitofono-wifi-a-14999eur-rispondi-anche-senza-smartphone",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "A camera in a toothbrush? Dyson tells us why it combined 'WiFi, AI, intelligent sensing and fluid dynamics with a highly",
+          "url": "https://www.techradar.com/health-fitness/oral-health/a-camera-in-a-toothbrush-dyson-tells-us-why-it-combined-wifi-ai-intelligent-sensing-and-fluid-dynamics-with-a-highly-engineered-brushing-experience-to-create-the-dyson-camerajet",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
       "keyword": "superior",
       "mentions": 2,
-      "velocity": 1.0,
+      "velocity": 0.4,
       "sources": [],
       "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
       "headline": "Neagley is superior in literally every way to Reacher season 4, according to fans",
       "articles": [
         {
@@ -261,111 +315,13 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
-    },
-    {
-      "keyword": "wifi",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 73,
-      "days_active": 4,
-      "expert_ratio": 0.89,
-      "headline": "A camera in a toothbrush? Dyson tells us why it combined 'WiFi, AI, intelligent sensing and fluid dynamics with a highly",
-      "articles": [
-        {
-          "title": "A camera in a toothbrush? Dyson tells us why it combined 'WiFi, AI, intelligent sensing and fluid dynamics with a highly",
-          "url": "https://www.techradar.com/health-fitness/oral-health/a-camera-in-a-toothbrush-dyson-tells-us-why-it-combined-wifi-ai-intelligent-sensing-and-fluid-dynamics-with-a-highly-engineered-brushing-experience-to-create-the-dyson-camerajet",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "train",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "The 10 best places in the U.S. for train lovers, ranked",
-      "articles": [
-        {
-          "title": "The 10 best places in the U.S. for train lovers, ranked",
-          "url": "https://qz.com/best-places-us-train-lovers",
-          "source": "Quartz"
-        }
-      ]
-    },
-    {
-      "keyword": "ai assistant",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 6,
-      "expert_ratio": 0.69,
-      "headline": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
-      "articles": [
-        {
-          "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
-          "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
-          "source": "WIRED"
-        },
-        {
-          "title": "The UK CMA proposes rules requiring Google and Android OEMs to offer search choice screens on first use and via yearly p",
-          "url": "https://www.techmeme.com/260923/p17#a260923p17",
-          "source": "Techmeme"
-        },
-        {
-          "title": "UK regulator toughens Google choice screen proposals as AI assistants rise",
-          "url": "https://thenextweb.com/news/cma-google-choice-screens-ai-assistants",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding agent",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "A single git trick beat the safety lock on four AI coding agents",
-      "articles": [
-        {
-          "title": "A single git trick beat the safety lock on four AI coding agents",
-          "url": "https://thenextweb.com/news/plugin4shell-ai-coding-agents-zero-click-rce-sha-pinning?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
-          "url": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335",
-          "source": "The Register"
-        },
-        {
-          "title": "Factory raises $200M at a $5B valuation for its AI coding agents",
-          "url": "https://thenextweb.com/news/factory-200m-5bn-valuation-ai-coding-agents",
-          "source": "The Next Web"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "claude code",
-      "mentions": 36,
-      "velocity": 2.0,
+      "keyword": "grok",
+      "mentions": 87,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "hackernews",
@@ -376,70 +332,30 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Claude Code krijgt ondersteuning voor instructiebestand Agents.md",
+      "expert_ratio": 0.36,
+      "headline": "I used Muse, Instinct, and Grok Bot to plan my European vacation. Meta's AI agent was my favorite.",
       "articles": [
         {
-          "title": "Claude Code krijgt ondersteuning voor instructiebestand Agents.md",
-          "url": "https://tweakers.net/nieuws/252400/claude-code-krijgt-ondersteuning-voor-instructiebestand-agents-punt-md.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 37,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.16,
-      "headline": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
-      "articles": [
-        {
-          "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
-          "url": "https://arxiv.org/abs/2609.10854",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "context window",
-      "mentions": 12,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
-      "articles": [
-        {
-          "title": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
-          "url": "https://arxiv.org/abs/2609.14652",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "I used Muse, Instinct, and Grok Bot to plan my European vacation. Meta's AI agent was my favorite.",
+          "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
-          "url": "https://arxiv.org/abs/2609.12686",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Grok costa poco e fa molto, ma Claude e GPT-6 restano un passo avanti",
+          "url": "https://www.tomshw.it/business/grok-costa-poco-e-fa-molto-ma-claude-e-gpt-6-restano-un-passo-avanti",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Sources: in a London presentation, SpaceXAI says Grok Bot hit 418,000 users as of September 14, up 24% from the week pri",
+          "url": "https://www.techmeme.com/260922/p36#a260922p36",
+          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "typesafe",
       "mentions": 13,
-      "velocity": 1.8,
+      "velocity": 1.2,
       "sources": [
         "articles",
         "linkedin",
@@ -447,8 +363,8 @@
       ],
       "source_count": 3,
       "confidence": 100,
-      "days_active": 8,
-      "expert_ratio": 0.02,
+      "days_active": 9,
+      "expert_ratio": 0.03,
       "headline": "TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper",
       "articles": [
         {
@@ -469,120 +385,173 @@
       ]
     },
     {
-      "keyword": "lora",
-      "mentions": 31,
-      "velocity": 1.4,
+      "keyword": "flux",
+      "mentions": 14,
+      "velocity": 1.0,
       "sources": [
+        "articles",
         "arxiv",
-        "github",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "Reasoning-Preserving Fine-Tuning of Post-RL LLMs with Null-Basis LoRA",
+      "expert_ratio": 0.75,
+      "headline": "Beat Saber Flux demo on Meta VR glasses",
       "articles": [
         {
-          "title": "Reasoning-Preserving Fine-Tuning of Post-RL LLMs with Null-Basis LoRA",
-          "url": "https://arxiv.org/abs/2609.25618",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Co-occurrence Patterns of LoRA Adapters in Production Diffusion Model Inference Services",
-          "url": "https://arxiv.org/abs/2609.23321",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks",
-          "url": "https://arxiv.org/abs/2609.22237",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Beat Saber Flux demo on Meta VR glasses",
+          "url": "https://www.youtube.com/shorts/niZl1U3TG2Y",
+          "source": "The Verge"
         }
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 84,
-      "velocity": 1.4,
+      "keyword": "nvidia",
+      "mentions": 56,
+      "velocity": 0.7,
       "sources": [
         "articles",
+        "arxiv",
         "hackernews",
         "linkedin",
-        "reddit",
         "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.36,
-      "headline": "Grok costa poco e fa molto, ma Claude e GPT-6 restano un passo avanti",
+      "expert_ratio": 0.62,
+      "headline": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
       "articles": [
         {
-          "title": "Grok costa poco e fa molto, ma Claude e GPT-6 restano un passo avanti",
-          "url": "https://www.tomshw.it/business/grok-costa-poco-e-fa-molto-ma-claude-e-gpt-6-restano-un-passo-avanti",
-          "source": "Tom's Hardware"
+          "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
+          "url": "https://github.com/nestrilabs/virtio-nvgpu",
+          "source": "Hacker News"
         },
         {
-          "title": "Sources: in a London presentation, SpaceXAI says Grok Bot hit 418,000 users as of September 14, up 24% from the week pri",
-          "url": "https://www.techmeme.com/260922/p36#a260922p36",
+          "title": "Nvidia Executive Argues A.I. Can Help Climate, Despite Current Emissions",
+          "url": "https://www.nytimes.com/2026/09/23/climate/nvidia-ai-climate-change-sustainability-data-centers.html",
+          "source": "Artificial Intelligence Special Report"
+        },
+        {
+          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 16,
+      "velocity": 0.6,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.47,
+      "headline": "Source: a CoreWeave-tied data center raised $1.1B in junk bonds at 98.5 cents on the dollar to yield 9.25%, ~2.7 percent",
+      "articles": [
+        {
+          "title": "Source: a CoreWeave-tied data center raised $1.1B in junk bonds at 98.5 cents on the dollar to yield 9.25%, ~2.7 percent",
+          "url": "https://www.techmeme.com/260923/p44#a260923p44",
           "source": "Techmeme"
         },
         {
-          "title": "SpaceXAI’s Grok Bot Agent Tops 400,000 Users After First Month",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-22/spacexai-s-grok-bot-agent-tops-400-000-users-after-first-month",
+          "title": "Data Center Is Fined $1.1 Million for Operating 62 Power Generators",
+          "url": "https://www.nytimes.com/2026/09/23/nyregion/data-center-pollution-new-jersey.html",
+          "source": "NYT ＞ Technology"
+        },
+        {
+          "title": "CoreWeave-Tied Data Center Raises $1.1 Billion in Junk Bonds",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
           "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "minimax",
+      "mentions": 25,
+      "velocity": -0.1,
+      "sources": [
+        "articles",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Optimal Tradeoffs Between Network Size and Parameter Magnitude in Neural Approximation and Minimax Regression",
+      "articles": [
+        {
+          "title": "Optimal Tradeoffs Between Network Size and Parameter Magnitude in Neural Approximation and Minimax Regression",
+          "url": "https://arxiv.org/abs/2609.25710",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Multi-Armed Bernoulli Bandits via Minimax Single-Arm Stopping",
+          "url": "https://arxiv.org/abs/2609.22690",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift",
+          "url": "https://arxiv.org/abs/2609.24929",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 240,
-    "covered": 124,
-    "coverage_rate": 0.517,
-    "early": 63,
-    "early_rate": 0.263,
-    "avg_lead_days": 15.3,
+    "scored_predictions": 243,
+    "covered": 126,
+    "coverage_rate": 0.519,
+    "early": 65,
+    "early_rate": 0.267,
+    "avg_lead_days": 15.2,
     "median_lead_days": 11,
     "max_lead_days": 42,
-    "hit_rate": 0.517,
-    "materialized": 124,
+    "hit_rate": 0.519,
+    "materialized": 126,
     "by_signal_type": {
       "emerging": {
-        "scored": 142,
-        "covered": 109,
-        "early": 54,
-        "coverage_rate": 0.768,
-        "early_rate": 0.38,
-        "hit_rate": 0.768
+        "scored": 144,
+        "covered": 111,
+        "early": 56,
+        "coverage_rate": 0.771,
+        "early_rate": 0.389,
+        "hit_rate": 0.771
       },
       "weak_signal": {
-        "scored": 98,
+        "scored": 99,
         "covered": 15,
         "early": 9,
-        "coverage_rate": 0.153,
-        "early_rate": 0.092,
-        "hit_rate": 0.153
+        "coverage_rate": 0.152,
+        "early_rate": 0.091,
+        "hit_rate": 0.152
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 240,
+    "n": 243,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.521,
-      "early_rate": 0.267
+      "coverage_rate": 0.523,
+      "early_rate": 0.272
     },
     "null_mean": {
-      "coverage_rate": 0.556,
-      "early_rate": 0.321
+      "coverage_rate": 0.557,
+      "early_rate": 0.324
     },
     "p_value": {
-      "coverage_rate": 0.989,
-      "early_rate": 0.991
+      "coverage_rate": 0.991,
+      "early_rate": 0.994
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -671,6 +640,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "deepseek",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-24",
+        "confidence": 0.8
+      },
+      {
         "keyword": "claude code",
         "signal_type": "emerging",
         "flagged_on": "2026-09-22",
@@ -689,13 +664,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "llama.cpp",
+        "keyword": "flux",
         "signal_type": "emerging",
         "flagged_on": "2026-09-22",
         "confidence": 0.2
       },
       {
-        "keyword": "flux",
+        "keyword": "llama.cpp",
         "signal_type": "emerging",
         "flagged_on": "2026-09-22",
         "confidence": 0.2
@@ -735,27 +710,21 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-20",
         "confidence": 0.8
-      },
-      {
-        "keyword": "deepseek v3",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-20",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
       {
-        "keyword": "ai act",
-        "recent_mentions": 20,
-        "prior_mentions": 4,
-        "change_ratio": 5.0,
-        "corroborating_sources": 3
+        "keyword": "ai glasses",
+        "recent_mentions": 18,
+        "prior_mentions": 1,
+        "change_ratio": 18.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "dora",
-        "recent_mentions": 5,
+        "keyword": "granola",
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
@@ -766,14 +735,7 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "dreamina",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "claude desktop",
+        "keyword": "dora",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
@@ -787,10 +749,24 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "on-device ai",
+        "keyword": "ai act",
         "recent_mentions": 29,
-        "prior_mentions": 9,
-        "change_ratio": 3.22,
+        "prior_mentions": 7,
+        "change_ratio": 4.14,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "world models",
+        "recent_mentions": 41,
+        "prior_mentions": 10,
+        "change_ratio": 4.1,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "databricks",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
         "corroborating_sources": 2
       },
       {
@@ -802,30 +778,23 @@
       },
       {
         "keyword": "modal",
-        "recent_mentions": 15,
+        "recent_mentions": 17,
         "prior_mentions": 6,
+        "change_ratio": 2.83,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "conversational ai",
+        "recent_mentions": 33,
+        "prior_mentions": 12,
+        "change_ratio": 2.75,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "veo",
+        "recent_mentions": 5,
+        "prior_mentions": 2,
         "change_ratio": 2.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "voice agent",
-        "recent_mentions": 15,
-        "prior_mentions": 6,
-        "change_ratio": 2.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "browser use",
-        "recent_mentions": 14,
-        "prior_mentions": 6,
-        "change_ratio": 2.33,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "code completion",
-        "recent_mentions": 14,
-        "prior_mentions": 6,
-        "change_ratio": 2.33,
         "corroborating_sources": 1
       }
     ]
