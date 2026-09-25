@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-25T07:14:05.148739",
-  "total_tracked": 3302,
+  "generated_at": "2026-09-25T19:13:44.403586",
+  "total_tracked": 3335,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "agentic",
-      "mentions": 243,
-      "velocity": 40.1,
+      "mentions": 241,
+      "velocity": 39.5,
       "sources": [
         "articles",
         "arxiv",
@@ -20,21 +20,21 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.84,
-      "headline": "PAWS: Policy-driven Agentic World Simulation",
+      "headline": "Stochastic Semantic Evidence Graphs: Uncertainty Propagation and Governance for Agentic AI",
       "articles": [
         {
-          "title": "PAWS: Policy-driven Agentic World Simulation",
-          "url": "https://arxiv.org/abs/2609.28547",
+          "title": "Stochastic Semantic Evidence Graphs: Uncertainty Propagation and Governance for Agentic AI",
+          "url": "https://arxiv.org/abs/2609.29703",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution",
+          "url": "https://arxiv.org/abs/2609.29808",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Trident : How to Break Deep Reinforcement Learning Cyber Defenses (Agentic)",
-          "url": "https://arxiv.org/abs/2608.04317",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Back to the Definition: Estimating Step-Level Advantages via Trajectory Graphs for Agentic Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2609.28963",
+          "title": "SkinAgent AI: A Safety-Grounded Multimodal Agentic Framework for Non-Diagnostic Skincare Support",
+          "url": "https://arxiv.org/abs/2609.29341",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -71,41 +71,101 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
-      "keyword": "nvidia",
-      "mentions": 67,
-      "velocity": 2.7,
+      "keyword": "claude",
+      "mentions": 516,
+      "velocity": 16.6,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
         "linkedin",
+        "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Anthropic donne un laboratoire biologique à Claude : l’IA y met 21 heures pour trouver un nouvel outil pour modifier l’A",
+      "articles": [
+        {
+          "title": "Anthropic donne un laboratoire biologique à Claude : l’IA y met 21 heures pour trouver un nouvel outil pour modifier l’A",
+          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-anthropic-donne-laboratoire-biologique-claude-ia-y-met-21-heures-trouver-nouvel-outil-modifier-adn-137966/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
+        },
+        {
+          "title": "Pulisci il CRM in un pomeriggio con Claude: la procedura anti-dati-zombie",
+          "url": "https://www.tomshw.it/aioperator/pulisci-il-crm-in-un-pomeriggio-con-claude-la-procedura-anti-dati-zombie",
+          "source": "Tom's Hardware"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "nvidia",
+      "mentions": 66,
+      "velocity": 2.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.63,
-      "headline": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
+      "headline": "Elon Musk Aims to Double Colossus 2’s Nvidia Chips by Year-End",
       "articles": [
+        {
+          "title": "Elon Musk Aims to Double Colossus 2’s Nvidia Chips by Year-End",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-25/elon-musk-aims-to-double-colossus-2-s-nvidia-chips-by-year-end",
+          "source": "Bloomberg Technology"
+        },
         {
           "title": "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation",
           "url": "https://arxiv.org/abs/2606.03159",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Incredible oscilloscope packs an Nvidia T1000 GPU, 12-core AMD EPYC CPU, 96GB RAM, and 1.6TB NVMe SSD — the 38Kg Tektron",
-          "url": "https://www.techradar.com/pro/incredible-oscilloscope-packs-an-nvidia-t1000-gpu-12-core-amd-epyc-cpu-96gb-ram-and-1-6tb-nvme-ssd-the-38kg-tektronix-dpo-can-run-windows-10-and-features-a-15-6-inch-full-hd-display",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "status",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Startup Hubble Reaches Unicorn Status for Space-Based Bluetooth",
+      "articles": [
+        {
+          "title": "Startup Hubble Reaches Unicorn Status for Space-Based Bluetooth",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-23/startup-hubble-reaches-unicorn-status-for-space-based-bluetooth",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "CNA: An AI-Oriented Comprehensive Normalized Assessment for Healthy Status and Application to Optimize RRT Strategies by",
+          "url": "https://arxiv.org/abs/2609.22232",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Infographic: Status online leeftijdsverificatie in Europa",
+          "url": "https://www.emerce.nl/nieuws/infographic-status-online-leeftijdsverificatie-europa",
+          "source": "Nieuws - Emerce"
+        }
+      ]
+    },
     {
       "keyword": "onedrive",
       "mentions": 2,
@@ -149,104 +209,77 @@
   ],
   "sustained": [
     {
-      "keyword": "bolt",
-      "mentions": 11,
+      "keyword": "grok",
+      "mentions": 85,
       "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews"
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.36,
-      "headline": "Bolt koopt 25.000 robotaxi’s van Lucid",
+      "headline": "I used Muse, Instinct, and Grok Bot to plan my European vacation. Meta's AI agent was my favorite.",
       "articles": [
         {
-          "title": "Bolt koopt 25.000 robotaxi’s van Lucid",
-          "url": "https://www.emerce.nl/nieuws/bolt-koopt-25000-robotaxis-lucid",
-          "source": "Nieuws - Emerce"
-        },
-        {
-          "title": "Lucid and Bolt plan to deploy at least 25,000 robotaxis across Europe",
-          "url": "https://www.engadget.com/2261369/lucid-and-bolt-plan-to-deploy-at-least-25000-robotaxis-across-europe/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Bolt wants to put 25,000 driverless Lucids on European roads",
-          "url": "https://thenextweb.com/news/lucid-bolt-robotaxi-europe-1500-cap",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "copilot",
-      "mentions": 35,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
-      "articles": [
-        {
-          "title": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
-          "url": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "8 cool things Copilot can do in Word",
-          "url": "https://www.computerworld.com/article/4216459/cool-things-copilot-can-do-in-microsoft-word.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "Windows 11 Copilot app is getting its own browser, but not everyone's happy",
-          "url": "https://www.techradar.com/computing/windows/copilot-is-a-scourge-that-i-avoid-at-all-opportunities-microsoft-is-giving-the-copilot-app-its-own-browser-but-windows-11-users-remain-largely-unimpressed",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 35,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.56,
-      "headline": "Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise",
-      "articles": [
-        {
-          "title": "Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise",
-          "url": "https://arxiv.org/abs/2609.28919",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A single git trick beat the safety lock on four AI coding agents",
-          "url": "https://thenextweb.com/news/plugin4shell-ai-coding-agents-zero-click-rce-sha-pinning?utm_source=flipboard&utm_content=user/thenextweb",
+          "title": "I used Muse, Instinct, and Grok Bot to plan my European vacation. Meta's AI agent was my favorite.",
+          "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
           "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Grok costa poco e fa molto, ma Claude e GPT-6 restano un passo avanti",
+          "url": "https://www.tomshw.it/business/grok-costa-poco-e-fa-molto-ma-claude-e-gpt-6-restano-un-passo-avanti",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Sources: in a London presentation, SpaceXAI says Grok Bot hit 418,000 users as of September 14, up 24% from the week pri",
+          "url": "https://www.techmeme.com/260922/p36#a260922p36",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "typesafe",
-      "mentions": 15,
+      "keyword": "vram",
+      "mentions": 13,
       "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "AMD riduce la VRAM nel ray tracing: quando arriverà nei giochi?",
+      "articles": [
+        {
+          "title": "AMD riduce la VRAM nel ray tracing: quando arriverà nei giochi?",
+          "url": "https://www.tomshw.it/hardware/amd-riduce-la-vram-nel-ray-tracing-quando-arrivera-nei-giochi",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Linux potrebbe finalmente avere un modo unico per leggere la VRAM",
+          "url": "https://www.tomshw.it/hardware/linux-studia-statistiche-vram-comuni-gpu-piu-facili-da-monitorare",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Perplexity’s local AI agent comes to Windows, but only for RTX GPUs with at least 24GB of VRAM — Portable Computer bring",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "frontier model",
+      "mentions": 11,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
@@ -254,31 +287,31 @@
       ],
       "source_count": 3,
       "confidence": 100,
-      "days_active": 10,
-      "expert_ratio": 0.12,
-      "headline": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
       "articles": [
         {
-          "title": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
-          "url": "https://www.techmeme.com/260924/p40#a260924p40",
-          "source": "Techmeme"
+          "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+          "url": "https://arxiv.org/abs/2609.26637",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making",
-          "source": "Tom's Hardware"
+          "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+          "url": "https://openai.com/index/airbnb-gpt-6-astra",
+          "source": "OpenAI"
         },
         {
-          "title": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev mat",
-          "url": "https://www.techmeme.com/260920/p9#a260920p9",
-          "source": "Techmeme"
+          "title": "Newsom is ordering California to pursue an AI 'kill switch' for frontier models",
+          "url": "https://qz.com/newsom-california-executive-order-ai-kill-switch-091826",
+          "source": "Quartz"
         }
       ]
     },
     {
       "keyword": "flux",
-      "mentions": 14,
-      "velocity": 1.1,
+      "mentions": 15,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "arxiv",
@@ -287,7 +320,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.75,
+      "expert_ratio": 0.74,
       "headline": "Beat Saber Flux demo on Meta VR glasses",
       "articles": [
         {
@@ -440,10 +473,22 @@
         "confidence": 1.0
       },
       {
+        "keyword": "test-time compute",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-25",
+        "confidence": 0.4
+      },
+      {
         "keyword": "llama",
         "signal_type": "emerging",
         "flagged_on": "2026-09-25",
         "confidence": 0.4
+      },
+      {
+        "keyword": "qwen 2",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-25",
+        "confidence": 0.2
       },
       {
         "keyword": "copilot",
@@ -452,13 +497,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "claude",
+        "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-09-24",
         "confidence": 1.0
       },
       {
-        "keyword": "deepseek",
+        "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-09-24",
         "confidence": 1.0
@@ -492,26 +537,14 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-22",
         "confidence": 0.6
-      },
-      {
-        "keyword": "flux",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-22",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "small language model",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-22",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "databricks",
-        "recent_mentions": 13,
+        "keyword": "ai glasses",
+        "recent_mentions": 14,
         "prior_mentions": 1,
-        "change_ratio": 13.0,
+        "change_ratio": 14.0,
         "corroborating_sources": 3
       },
       {
@@ -522,11 +555,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "ai glasses",
-        "recent_mentions": 12,
+        "keyword": "databricks",
+        "recent_mentions": 11,
         "prior_mentions": 1,
-        "change_ratio": 12.0,
-        "corroborating_sources": 2
+        "change_ratio": 11.0,
+        "corroborating_sources": 3
       },
       {
         "keyword": "qwen 2",
@@ -544,13 +577,20 @@
       },
       {
         "keyword": "manus",
-        "recent_mentions": 5,
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "openai codex",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "litellm",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
@@ -583,13 +623,6 @@
         "prior_mentions": 4,
         "change_ratio": 3.5,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "glm 5",
-        "recent_mentions": 22,
-        "prior_mentions": 8,
-        "change_ratio": 2.75,
-        "corroborating_sources": 3
       }
     ]
   }
