@@ -1,75 +1,21 @@
 {
-  "generated_at": "2026-09-27T07:14:43.826786",
-  "total_tracked": 3285,
+  "generated_at": "2026-09-27T19:14:04.316716",
+  "total_tracked": 3336,
   "window_days": 14,
-  "accelerating": [
-    {
-      "keyword": "runway",
-      "mentions": 11,
-      "velocity": 2.6,
-      "sources": [
-        "articles",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.04,
-      "headline": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
-      "articles": [
-        {
-          "title": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
-          "url": "https://techcrunch.com/2026/09/23/vogue-sent-robots-down-the-runway-at-vogue-world-and-people-were-not-impressed/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Wall Street Analysts Believe Runway Growth Finance Corp. (RWAY) Could Rally 29.9%: Here's is How to Trade",
-          "url": "https://qz.com/wall-street-analysts-believe-runway-growth-finance-corp-rway-could-rally-29-9-here-s-is-how-to-trade",
-          "source": "Quartz"
-        },
-        {
-          "title": "Fashion council boss resigns after runway protester clash",
-          "url": "https://www.youtube.com/watch?v=4jjE81O80SU",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 45,
-      "velocity": 2.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Anthropic Unveils Cheaper Claude Opus 5.5 Ahead of Expected IPO",
-      "articles": [
-        {
-          "title": "Anthropic Unveils Cheaper Claude Opus 5.5 Ahead of Expected IPO",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-23/anthropic-unveils-cheaper-claude-opus-5-5-ahead-of-ipo-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    }
-  ],
+  "accelerating": [],
   "emerging": [
     {
       "keyword": "claude code",
-      "mentions": 64,
-      "velocity": 6.3,
+      "mentions": 65,
+      "velocity": 6.6,
       "sources": [
+        "articles",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
@@ -81,50 +27,64 @@
           "source": "Hacker News"
         },
         {
-          "title": "‘Do not let programs run commands on your machine’: Claude Code allegedly deleted 48,000 files in 103 seconds, and it’s ",
-          "url": "https://www.techradar.com/ai-platforms-assistants/do-not-let-programs-run-commands-on-your-machine-claude-code-allegedly-deleted-48-000-files-in-103-seconds-and-its-a-terrifying-warning-about-ai-agents?utm_source=flipboard&utm_content=TechRadar/magazine/Gemini,+Siri,+Co-Pilot+and+Alexa:+The+AI+wars+commence",
-          "source": "Artificial Intelligence"
+          "title": "Claude Code deleted 48,000 files in 103 seconds in a dire AI agent warning",
+          "url": "https://www.techradar.com/ai-platforms-assistants/do-not-let-programs-run-commands-on-your-machine-claude-code-allegedly-deleted-48-000-files-in-103-seconds-and-its-a-terrifying-warning-about-ai-agents",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "openai",
-      "mentions": 472,
-      "velocity": 4.3,
+      "keyword": "chatgpt",
+      "mentions": 227,
+      "velocity": 5.7,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "Australia’s Deputy PM Defends Data Security After OpenAI Hack",
+      "expert_ratio": 0.53,
+      "headline": "Gemini Live vs. ChatGPT Voice: Which AI offers a more natural conversation?",
       "articles": [
         {
-          "title": "Australia’s Deputy PM Defends Data Security After OpenAI Hack",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Sources: OpenAI, Anthropic, and researchers are probing tens of thousands of frontier model security incidents, includin",
-          "url": "https://www.techmeme.com/260926/p20#a260926p20",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Research: OpenAI agents scanned a UN data hub 16K+ times between April and the end of June, and circumvented a filter th",
-          "url": "https://www.techmeme.com/260926/p19#a260926p19",
-          "source": "Techmeme"
+          "title": "Gemini Live vs. ChatGPT Voice: Which AI offers a more natural conversation?",
+          "url": "https://www.engadget.com/2266889/gemini-live-vs-gpt-live-which-offers-more-natural-conversation/",
+          "source": "Engadget"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "most capable models",
+      "mentions": 3,
+      "velocity": 1.0,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "OpenAI pauses training of its ‘most capable models’",
+      "articles": [
+        {
+          "title": "OpenAI pauses training of its ‘most capable models’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "OpenAI says it paused training, evaluation, and inference with tool-use of its most capable models after a model bypasse",
+          "url": "https://www.techmeme.com/260926/p1#a260926p1",
+          "source": "Techmeme"
+        }
+      ]
+    },
     {
       "keyword": "onedrive",
       "mentions": 2,
@@ -142,6 +102,61 @@
           "title": "Microsoft adds pay-as-you-go pricing for extra OneDrive storage",
           "url": "https://www.computerworld.com/article/4226046/microsoft-adds-pay-as-you-go-pricing-for-extra-onedrive-storage.html",
           "source": "Computerworld"
+        }
+      ]
+    },
+    {
+      "keyword": "error",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Meta says its rejection of ads promoting the new documentary about Elon Musk \"was an error and the ads are being restore",
+      "articles": [
+        {
+          "title": "Meta says its rejection of ads promoting the new documentary about Elon Musk \"was an error and the ads are being restore",
+          "url": "https://www.techmeme.com/260926/p16#a260926p16",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
+          "url": "https://arxiv.org/abs/2609.29744",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "TTLab at AlexandriaX-2026: A Fine-Tuned Surface Tagger for Arabic Machine-Translation Error-Span Detection and Classific",
+          "url": "https://arxiv.org/abs/2609.29633",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "mccormick",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
+      "articles": [
+        {
+          "title": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
+          "url": "https://www.techmeme.com/260916/p24#a260916p24",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Meta CEO Zuckerberg Leans on Powell McCormick to Clear Path for AI Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-16/meta-ceo-zuckerberg-leans-on-powell-mccormick-to-clear-path-for-ai-push",
+          "source": "Bloomberg Technology"
         }
       ]
     },
@@ -176,31 +191,6 @@
       ]
     },
     {
-      "keyword": "mccormick",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
-      "articles": [
-        {
-          "title": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
-          "url": "https://www.techmeme.com/260916/p24#a260916p24",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Meta CEO Zuckerberg Leans on Powell McCormick to Clear Path for AI Push",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-16/meta-ceo-zuckerberg-leans-on-powell-mccormick-to-clear-path-for-ai-push",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
       "keyword": "train",
       "mentions": 3,
       "velocity": 0.5,
@@ -221,40 +211,12 @@
         {
           "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
           "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-          "source": "Artificial intelligence (AI) | The Guardian"
+          "source": "Technology | The Guardian"
         },
         {
           "title": "I've helped hundreds of kids land Wall Street jobs. Here's how I train them.",
           "url": "https://www.businessinsider.com/wall-street-internship-investment-banking-ut-austin-2026-9",
           "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "rogue",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
-      "articles": [
-        {
-          "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
-          "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "OpenAI agents accessed government websites, as review of rogue AI expands",
-          "url": "https://qz.com/openai-agents-government-websites-misalignment-review-092626",
-          "source": "Quartz"
-        },
-        {
-          "title": "OpenAI expands review of model behavior after more rogue agent incidents emerge",
-          "url": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html?utm_source=flipboard&utm_content=CNBC/magazine/Top+News",
-          "source": "Artificial Intelligence"
         }
       ]
     },
@@ -311,9 +273,74 @@
   ],
   "sustained": [
     {
+      "keyword": "grok",
+      "mentions": 85,
+      "velocity": 1.8,
+      "sources": [
+        "arxiv",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.36,
+      "headline": "I used Muse, Instinct, and Grok Bot to plan my European vacation. Meta's AI agent was my favorite.",
+      "articles": [
+        {
+          "title": "I used Muse, Instinct, and Grok Bot to plan my European vacation. Meta's AI agent was my favorite.",
+          "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Grok costa poco e fa molto, ma Claude e GPT-6 restano un passo avanti",
+          "url": "https://www.tomshw.it/business/grok-costa-poco-e-fa-molto-ma-claude-e-gpt-6-restano-un-passo-avanti",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Sources: in a London presentation, SpaceXAI says Grok Bot hit 418,000 users as of September 14, up 24% from the week pri",
+          "url": "https://www.techmeme.com/260922/p36#a260922p36",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 45,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
+      "articles": [
+        {
+          "title": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+          "source": "Ollama Releases"
+        },
+        {
+          "title": "Transformers now runs llama.cpp quants",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "source": "Hugging Face Blog"
+        },
+        {
+          "title": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
+          "url": "https://arxiv.org/abs/2609.14864",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
       "keyword": "ai coding",
-      "mentions": 37,
-      "velocity": 1.6,
+      "mentions": 34,
+      "velocity": 0.7,
       "sources": [
         "articles",
         "arxiv",
@@ -324,7 +351,7 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
+      "expert_ratio": 0.54,
       "headline": "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue",
       "articles": [
         {
@@ -340,76 +367,79 @@
       ]
     },
     {
-      "keyword": "copilot",
-      "mentions": 42,
-      "velocity": 1.4,
+      "keyword": "data center",
+      "mentions": 22,
+      "velocity": 0.7,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
+        "hackernews"
       ],
-      "source_count": 6,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "Microsoft quietly drops Copilot+ branding from new laptops",
+      "expert_ratio": 0.57,
+      "headline": "The Meta data center in Louisiana is creating a housing boom",
       "articles": [
         {
-          "title": "Microsoft quietly drops Copilot+ branding from new laptops",
-          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
-          "source": "Tom's Hardware"
+          "title": "The Meta data center in Louisiana is creating a housing boom",
+          "url": "https://www.businessinsider.com/photos-workforce-housing-attracting-metas-data-center-workers-2026-9",
+          "source": "All Content from Business Insider"
         },
         {
-          "title": "Microsoft Rises as It Unifies Copilot AI | Closing Bell",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
-          "source": "Bloomberg Technology"
+          "title": "The Data Center Backlash Should Also Be a Climate Reckoning. It Isn’t Yet",
+          "url": "https://www.wired.com/story/data-center-backlash-climate-reckoning/",
+          "source": "Science Latest"
         },
         {
-          "title": "Microsoft confirms that 2026 Surface PCs have dropped the Copilot+ PC branding, even though they meet all the requiremen",
-          "url": "https://www.techmeme.com/260925/p15#a260925p15",
+          "title": "PicoJool, which is developing AI data center interconnects based on vertical cavity surface emitting lasers, raised a $2",
+          "url": "https://www.techmeme.com/260927/p2#a260927p2",
           "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 11,
-      "velocity": 1.4,
+      "keyword": "typesafe",
+      "mentions": 14,
+      "velocity": 0.7,
       "sources": [
         "articles",
-        "github"
+        "arxiv",
+        "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
+      "days_active": 12,
+      "expert_ratio": 0.17,
+      "headline": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
       "articles": [
         {
-          "title": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-          "url": "https://arxiv.org/abs/2609.22249",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
+          "url": "https://www.techmeme.com/260924/p40#a260924p40",
+          "source": "Techmeme"
         },
         {
-          "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
-          "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev mat",
+          "url": "https://www.techmeme.com/260920/p9#a260920p9",
+          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "lora",
-      "mentions": 38,
-      "velocity": 0.6,
+      "mentions": 36,
+      "velocity": 0.0,
       "sources": [
+        "articles",
         "arxiv",
         "github",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.89,
@@ -429,70 +459,6 @@
           "title": "Co-occurrence Patterns of LoRA Adapters in Production Diffusion Model Inference Services",
           "url": "https://arxiv.org/abs/2609.23321",
           "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 22,
-      "velocity": 0.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "Mistral via overname leverancier van marketingcampagnes",
-      "articles": [
-        {
-          "title": "Mistral via overname leverancier van marketingcampagnes",
-          "url": "https://www.emerce.nl/nieuws/mistral-via-overname-leverancier-marketingcampagnes",
-          "source": "Nieuws - Emerce"
-        },
-        {
-          "title": "Mistral buys Paris adtech startup Pimento in its third acquisition of 2026",
-          "url": "https://thenextweb.com/news/mistral-acquires-pimento-ai-advertising",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Mistral denies a fresh security breach, but the code on sale looks a lot like May's leak",
-          "url": "https://www.techradar.com/pro/security/mistral-denies-a-fresh-security-breach-but-the-code-on-sale-looks-a-lot-like-mays-leak",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "typesafe",
-      "mentions": 12,
-      "velocity": 0.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 12,
-      "expert_ratio": 0.15,
-      "headline": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
-      "articles": [
-        {
-          "title": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
-          "url": "https://www.techmeme.com/260924/p40#a260924p40",
-          "source": "Techmeme"
-        },
-        {
-          "title": "TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev mat",
-          "url": "https://www.techmeme.com/260920/p9#a260920p9",
-          "source": "Techmeme"
         }
       ]
     }
@@ -633,6 +599,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "chatgpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-09-27",
+        "confidence": 1.0
+      },
+      {
         "keyword": "ai developer",
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-27",
@@ -697,12 +669,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-24",
         "confidence": 1.0
-      },
-      {
-        "keyword": "conversational ai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-24",
-        "confidence": 0.6
       }
     ],
     "heating_up": [
@@ -742,10 +708,17 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "litellm",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
+        "keyword": "grammarly",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "windsurf",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
@@ -756,9 +729,9 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "grammarly",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
+        "keyword": "litellm",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
@@ -770,25 +743,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "prompt injection",
-        "recent_mentions": 58,
-        "prior_mentions": 14,
-        "change_ratio": 4.14,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "cerebras",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "meta ai",
-        "recent_mentions": 19,
+        "recent_mentions": 21,
         "prior_mentions": 5,
-        "change_ratio": 3.8,
+        "change_ratio": 4.2,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "prompt injection",
+        "recent_mentions": 57,
+        "prior_mentions": 14,
+        "change_ratio": 4.07,
+        "corroborating_sources": 4
       }
     ]
   }
