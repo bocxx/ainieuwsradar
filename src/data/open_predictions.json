@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-26T17:40:20+00:00",
+  "generated_at": "2026-09-27T05:38:57+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 113,
+    "open": 112,
     "resolved": 113,
     "hits": 7,
     "misses": 106,
@@ -11,79 +11,106 @@
   },
   "open": [
     {
-      "keyword": "neuromorphic",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-12",
-      "days_left": 0
-    },
-    {
       "keyword": "ai bubble",
       "signal_type": "emerging",
       "flagged_on": "2026-08-13",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "voice ai",
       "signal_type": "emerging",
       "flagged_on": "2026-08-14",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "constitutional ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-14",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "higgsfield",
       "signal_type": "emerging",
       "flagged_on": "2026-08-16",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "dora",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-18",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "qlora",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-18",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "cline",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "frontier model",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "ad creative",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "together",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 6
+      "days_left": 5
     },
     {
       "keyword": "bolt",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 6
+      "days_left": 5
+    },
+    {
+      "keyword": "openrouter",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-18",
+      "days_left": 5
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "openmontage",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-08-12",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "neuromorphic",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-12",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "minimax",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-12",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "data center",
       "signal_type": "emerging",
@@ -179,33 +206,6 @@
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-08-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "claude 4",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-07",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "dall-e",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-06",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "yolo",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-06",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null

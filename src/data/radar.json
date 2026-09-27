@@ -1,56 +1,75 @@
 {
-  "generated_at": "2026-09-26T19:15:25.336092",
-  "total_tracked": 3348,
+  "generated_at": "2026-09-27T07:14:43.826786",
+  "total_tracked": 3285,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "openai",
-      "mentions": 488,
-      "velocity": 12.9,
+      "keyword": "runway",
+      "mentions": 11,
+      "velocity": 2.6,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "Oxford let OpenAI train AI models on Bodleian texts, the Guardian reports",
+      "expert_ratio": 0.04,
+      "headline": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
       "articles": [
         {
-          "title": "Oxford let OpenAI train AI models on Bodleian texts, the Guardian reports",
-          "url": "https://thenextweb.com/news/oxford-bodleian-openai-training-data",
-          "source": "The Next Web"
+          "title": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
+          "url": "https://techcrunch.com/2026/09/23/vogue-sent-robots-down-the-runway-at-vogue-world-and-people-were-not-impressed/",
+          "source": "TechCrunch"
         },
         {
-          "title": "OpenAI took 2.5 hours to stop an AI agent that escaped its sandbox",
-          "url": "https://thenextweb.com/news/openai-sandbox-agent-ai-kill-switch",
-          "source": "The Next Web"
+          "title": "Wall Street Analysts Believe Runway Growth Finance Corp. (RWAY) Could Rally 29.9%: Here's is How to Trade",
+          "url": "https://qz.com/wall-street-analysts-believe-runway-growth-finance-corp-rway-could-rally-29-9-here-s-is-how-to-trade",
+          "source": "Quartz"
         },
         {
-          "title": "Heads of OpenAI and Anthropic called to face Senate inquiry after rogue agent incidents",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/27/sam-altman-openai-dario-amodei-anthropic-senate-inquiry-medicare-hack-rogue-ai-agent-leak",
-          "source": "Artificial intelligence (AI) | The Guardian"
+          "title": "Fashion council boss resigns after runway protester clash",
+          "url": "https://www.youtube.com/watch?v=4jjE81O80SU",
+          "source": "Reuters"
         }
       ]
     },
     {
-      "keyword": "claude code",
-      "mentions": 68,
-      "velocity": 10.7,
+      "keyword": "claude opus",
+      "mentions": 45,
+      "velocity": 2.1,
       "sources": [
         "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "Anthropic Unveils Cheaper Claude Opus 5.5 Ahead of Expected IPO",
+      "articles": [
+        {
+          "title": "Anthropic Unveils Cheaper Claude Opus 5.5 Ahead of Expected IPO",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-23/anthropic-unveils-cheaper-claude-opus-5-5-ahead-of-ipo-video",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "claude code",
+      "mentions": 64,
+      "velocity": 6.3,
+      "sources": [
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
@@ -69,9 +88,9 @@
       ]
     },
     {
-      "keyword": "chatgpt",
-      "mentions": 229,
-      "velocity": 9.0,
+      "keyword": "openai",
+      "mentions": 472,
+      "velocity": 4.3,
       "sources": [
         "articles",
         "arxiv",
@@ -84,91 +103,22 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "ChatGPT-6 Astra cracks 1941 Enigma-coded message in two days",
+      "expert_ratio": 0.7,
+      "headline": "Australia’s Deputy PM Defends Data Security After OpenAI Hack",
       "articles": [
         {
-          "title": "ChatGPT-6 Astra cracks 1941 Enigma-coded message in two days",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-1941-enigma-coded-message-in-two-days-autonomous-ai-coded-its-own-simulator-to-crack-code-that-was-unsolved-since-it-was-shared-online-back-in-2005",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "The AI bubble could burst without killing ChatGPT",
-          "url": "https://www.techradar.com/ai-platforms-assistants/the-ai-bubble-could-burst-without-killing-chatgpt-but-you-might-not-like-what-happens-next",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "ChatGPT Pro Max potrebbe arrivare molto presto, ma il prezzo non sarà per tutti",
-          "url": "https://www.tomshw.it/hardware/chatgpt-pro-max-potrebbe-arrivare-molto-presto-ma-il-prezzo-non-e-per-tutti",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 27,
-      "velocity": 2.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Mistral via overname leverancier van marketingcampagnes",
-      "articles": [
-        {
-          "title": "Mistral via overname leverancier van marketingcampagnes",
-          "url": "https://www.emerce.nl/nieuws/mistral-via-overname-leverancier-marketingcampagnes",
-          "source": "Nieuws - Emerce"
-        },
-        {
-          "title": "Mistral buys Paris adtech startup Pimento in its third acquisition of 2026",
-          "url": "https://thenextweb.com/news/mistral-acquires-pimento-ai-advertising",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Mistral denies a fresh security breach, but the code on sale looks a lot like May's leak",
-          "url": "https://www.techradar.com/pro/security/mistral-denies-a-fresh-security-breach-but-the-code-on-sale-looks-a-lot-like-mays-leak",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "copilot",
-      "mentions": 43,
-      "velocity": 2.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "Microsoft quietly drops Copilot+ branding from new laptops",
-      "articles": [
-        {
-          "title": "Microsoft quietly drops Copilot+ branding from new laptops",
-          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Microsoft Rises as It Unifies Copilot AI | Closing Bell",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
+          "title": "Australia’s Deputy PM Defends Data Security After OpenAI Hack",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack",
           "source": "Bloomberg Technology"
         },
         {
-          "title": "Microsoft confirms that 2026 Surface PCs have dropped the Copilot+ PC branding, even though they meet all the requiremen",
-          "url": "https://www.techmeme.com/260925/p15#a260925p15",
+          "title": "Sources: OpenAI, Anthropic, and researchers are probing tens of thousands of frontier model security incidents, includin",
+          "url": "https://www.techmeme.com/260926/p20#a260926p20",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Research: OpenAI agents scanned a UN data hub 16K+ times between April and the end of June, and circumvented a filter th",
+          "url": "https://www.techmeme.com/260926/p19#a260926p19",
           "source": "Techmeme"
         }
       ]
@@ -192,59 +142,6 @@
           "title": "Microsoft adds pay-as-you-go pricing for extra OneDrive storage",
           "url": "https://www.computerworld.com/article/4226046/microsoft-adds-pay-as-you-go-pricing-for-extra-onedrive-storage.html",
           "source": "Computerworld"
-        }
-      ]
-    },
-    {
-      "keyword": "rogue",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 46,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Heads of OpenAI and Anthropic called to face Senate inquiry after rogue agent incidents",
-      "articles": [
-        {
-          "title": "Heads of OpenAI and Anthropic called to face Senate inquiry after rogue agent incidents",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/27/sam-altman-openai-dario-amodei-anthropic-senate-inquiry-medicare-hack-rogue-ai-agent-leak",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "OpenAI’s A.I. Went Rogue and Meddled With U.S. Government Websites",
-          "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
-          "source": "NYT ＞ Technology"
-        },
-        {
-          "title": "OpenAI said there are 5 main ways rogue AI agents are messing with the internet",
-          "url": "https://www.businessinsider.com/openai-rogue-ai-agents-sec-census-2026-9",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "mccormick",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
-      "articles": [
-        {
-          "title": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
-          "url": "https://www.techmeme.com/260916/p24#a260916p24",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Meta CEO Zuckerberg Leans on Powell McCormick to Clear Path for AI Push",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-16/meta-ceo-zuckerberg-leans-on-powell-mccormick-to-clear-path-for-ai-push",
-          "source": "Bloomberg Technology"
         }
       ]
     },
@@ -279,22 +176,27 @@
       ]
     },
     {
-      "keyword": "ai developer",
-      "mentions": 3,
-      "velocity": 0.5,
+      "keyword": "mccormick",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 95,
-      "days_active": 10,
-      "expert_ratio": 0.91,
-      "headline": "AI developer vibe codes DLSS 5 onto Intel CPU's integrated graphics — Intel Arc 140T runs neural rendering in 360p at 10",
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
       "articles": [
         {
-          "title": "AI developer vibe codes DLSS 5 onto Intel CPU's integrated graphics — Intel Arc 140T runs neural rendering in 360p at 10",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-developer-vibe-codes-dlss-5-onto-intel-arc-140t-integrated-graphics-run-neural-rendering-in-360p-at-10-frames-per-second",
-          "source": "Tom's Hardware"
+          "title": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
+          "url": "https://www.techmeme.com/260916/p24#a260916p24",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Meta CEO Zuckerberg Leans on Powell McCormick to Clear Path for AI Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-16/meta-ceo-zuckerberg-leans-on-powell-mccormick-to-clear-path-for-ai-push",
+          "source": "Bloomberg Technology"
         }
       ]
     },
@@ -319,7 +221,7 @@
         {
           "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
           "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-          "source": "Technology | The Guardian"
+          "source": "Artificial intelligence (AI) | The Guardian"
         },
         {
           "title": "I've helped hundreds of kids land Wall Street jobs. Here's how I train them.",
@@ -329,16 +231,64 @@
       ]
     },
     {
+      "keyword": "rogue",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "articles": [
+        {
+          "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+          "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+          "source": "Artificial intelligence (AI) | The Guardian"
+        },
+        {
+          "title": "OpenAI agents accessed government websites, as review of rogue AI expands",
+          "url": "https://qz.com/openai-agents-government-websites-misalignment-review-092626",
+          "source": "Quartz"
+        },
+        {
+          "title": "OpenAI expands review of model behavior after more rogue agent incidents emerge",
+          "url": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html?utm_source=flipboard&utm_content=CNBC/magazine/Top+News",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "alphafold",
+      "mentions": 2,
+      "velocity": 0.3,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 71,
+      "days_active": 7,
+      "expert_ratio": 1.0,
+      "headline": "AlphaFold 'goes viral': database adds protein complexes of common viruses",
+      "articles": [
+        {
+          "title": "AlphaFold 'goes viral': database adds protein complexes of common viruses",
+          "url": "https://www.nature.com/articles/d41586-026-03022-1",
+          "source": "Nature - Issue - nature.com science feeds"
+        }
+      ]
+    },
+    {
       "keyword": "ai security",
       "mentions": 3,
-      "velocity": 0.4,
+      "velocity": 0.3,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 77,
+      "confidence": 81,
       "days_active": 5,
-      "expert_ratio": 0.82,
+      "expert_ratio": 0.92,
       "headline": "Upwind acquires Aegis as cybersecurity firm builds new AI Security Labs",
       "articles": [
         {
@@ -357,33 +307,77 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "alphafold",
-      "mentions": 2,
-      "velocity": 0.3,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 73,
-      "days_active": 8,
-      "expert_ratio": 1.0,
-      "headline": "AlphaFold 'goes viral': database adds protein complexes of common viruses",
-      "articles": [
-        {
-          "title": "AlphaFold 'goes viral': database adds protein complexes of common viruses",
-          "url": "https://www.nature.com/articles/d41586-026-03022-1",
-          "source": "Nature - Issue - nature.com science feeds"
-        }
-      ]
     }
   ],
   "sustained": [
     {
+      "keyword": "ai coding",
+      "mentions": 37,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue",
+      "articles": [
+        {
+          "title": "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise",
+          "url": "https://arxiv.org/abs/2609.28919",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 42,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.67,
+      "headline": "Microsoft quietly drops Copilot+ branding from new laptops",
+      "articles": [
+        {
+          "title": "Microsoft quietly drops Copilot+ branding from new laptops",
+          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Microsoft Rises as It Unifies Copilot AI | Closing Bell",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Microsoft confirms that 2026 Surface PCs have dropped the Copilot+ PC branding, even though they meet all the requiremen",
+          "url": "https://www.techmeme.com/260925/p15#a260925p15",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
       "keyword": "prompt engineering",
       "mentions": 11,
-      "velocity": 2.0,
+      "velocity": 1.4,
       "sources": [
         "articles",
         "github"
@@ -407,53 +401,18 @@
       ]
     },
     {
-      "keyword": "data centers",
-      "mentions": 23,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.39,
-      "headline": "Russia bombs Ukrainian data centers in latest escalation",
-      "articles": [
-        {
-          "title": "Russia bombs Ukrainian data centers in latest escalation",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/russia-bombs-ukrainian-data-centers-in-latest-escalation-100-000-households-lose-connectivity-as-firms-migrate-data-abroad-zelensky-says-ordinary-life-is-simply-a-target",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Russia has increased targeted strikes on Ukrainian data centers, disrupting internet access for ~100K Kyiv residents on ",
-          "url": "https://www.techmeme.com/260926/p4#a260926p4",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-          "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
       "keyword": "lora",
-      "mentions": 39,
-      "velocity": 1.3,
+      "mentions": 38,
+      "velocity": 0.6,
       "sources": [
-        "articles",
         "arxiv",
         "github",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.9,
+      "expert_ratio": 0.89,
       "headline": "LORA-CRAFT: Cross-layer Rank Adaptation via Frozen Tucker Decomposition of Pre-trained Attention Weights",
       "articles": [
         {
@@ -474,144 +433,118 @@
       ]
     },
     {
-      "keyword": "claude",
-      "mentions": 481,
-      "velocity": 1.0,
+      "keyword": "mistral",
+      "mentions": 22,
+      "velocity": 0.3,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "hackernews"
       ],
-      "source_count": 7,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Show HN: A Claude Code skill to analyze your chess games",
+      "expert_ratio": 0.91,
+      "headline": "Mistral via overname leverancier van marketingcampagnes",
       "articles": [
         {
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
-          "url": "https://github.com/brumar/chess-postmortem-skills",
-          "source": "Hacker News"
+          "title": "Mistral via overname leverancier van marketingcampagnes",
+          "url": "https://www.emerce.nl/nieuws/mistral-via-overname-leverancier-marketingcampagnes",
+          "source": "Nieuws - Emerce"
         },
         {
-          "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
-          "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-          "source": "AI - Ars Technica"
+          "title": "Mistral buys Paris adtech startup Pimento in its third acquisition of 2026",
+          "url": "https://thenextweb.com/news/mistral-acquires-pimento-ai-advertising",
+          "source": "The Next Web"
         },
         {
-          "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
-          "url": "https://anthropic.com/research/yes-claude-can-do-nine-loops",
-          "source": "Anthropic"
+          "title": "Mistral denies a fresh security breach, but the code on sale looks a lot like May's leak",
+          "url": "https://www.techradar.com/pro/security/mistral-denies-a-fresh-security-breach-but-the-code-on-sale-looks-a-lot-like-mays-leak",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "context window",
-      "mentions": 11,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
-      "articles": [
-        {
-          "title": "Natural Language Knowledge Graph Query Execution: Leveraging Controlled Semantics in the LLM Context Window",
-          "url": "https://arxiv.org/abs/2609.14652",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
-          "url": "https://arxiv.org/abs/2609.12686",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "langchain",
+      "keyword": "typesafe",
       "mentions": 12,
-      "velocity": 0.8,
+      "velocity": 0.1,
       "sources": [
         "articles",
-        "github"
+        "arxiv",
+        "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "Middleware-Driven Context Engineering in LangChain",
+      "days_active": 12,
+      "expert_ratio": 0.15,
+      "headline": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
       "articles": [
         {
-          "title": "Middleware-Driven Context Engineering in LangChain",
-          "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-2-with-implementation/",
-          "source": "Daily Dose of Data Science"
+          "title": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
+          "url": "https://www.techmeme.com/260924/p40#a260924p40",
+          "source": "Techmeme"
         },
         {
-          "title": "First Steps Towards a Production-Ready Agent with LangChain",
-          "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-1-with-implementation/",
-          "source": "Daily Dose of Data Science"
+          "title": "TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev mat",
+          "url": "https://www.techmeme.com/260920/p9#a260920p9",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 249,
-    "covered": 128,
-    "coverage_rate": 0.514,
-    "early": 67,
-    "early_rate": 0.269,
-    "avg_lead_days": 15.0,
+    "scored_predictions": 252,
+    "covered": 131,
+    "coverage_rate": 0.52,
+    "early": 69,
+    "early_rate": 0.274,
+    "avg_lead_days": 14.7,
     "median_lead_days": 11,
     "max_lead_days": 42,
-    "hit_rate": 0.514,
-    "materialized": 128,
+    "hit_rate": 0.52,
+    "materialized": 131,
     "by_signal_type": {
       "emerging": {
-        "scored": 147,
-        "covered": 113,
-        "early": 58,
-        "coverage_rate": 0.769,
-        "early_rate": 0.395,
-        "hit_rate": 0.769
+        "scored": 149,
+        "covered": 115,
+        "early": 59,
+        "coverage_rate": 0.772,
+        "early_rate": 0.396,
+        "hit_rate": 0.772
       },
       "weak_signal": {
-        "scored": 102,
-        "covered": 15,
-        "early": 9,
-        "coverage_rate": 0.147,
-        "early_rate": 0.088,
-        "hit_rate": 0.147
+        "scored": 103,
+        "covered": 16,
+        "early": 10,
+        "coverage_rate": 0.155,
+        "early_rate": 0.097,
+        "hit_rate": 0.155
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 249,
+    "n": 252,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.518,
-      "early_rate": 0.273
+      "coverage_rate": 0.524,
+      "early_rate": 0.278
     },
     "null_mean": {
-      "coverage_rate": 0.551,
+      "coverage_rate": 0.555,
       "early_rate": 0.323
     },
     "p_value": {
-      "coverage_rate": 0.996,
-      "early_rate": 0.99
+      "coverage_rate": 0.986,
+      "early_rate": 0.984
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -700,6 +633,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "ai developer",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-27",
+        "confidence": 0.2
+      },
+      {
         "keyword": "mcp server",
         "signal_type": "emerging",
         "flagged_on": "2026-09-26",
@@ -742,13 +681,13 @@
         "confidence": 0.2
       },
       {
-        "keyword": "claude",
+        "keyword": "copilot",
         "signal_type": "emerging",
         "flagged_on": "2026-09-24",
         "confidence": 1.0
       },
       {
-        "keyword": "copilot",
+        "keyword": "claude",
         "signal_type": "emerging",
         "flagged_on": "2026-09-24",
         "confidence": 1.0
@@ -764,98 +703,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-24",
         "confidence": 0.6
-      },
-      {
-        "keyword": "gemma",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-24",
-        "confidence": 0.6
       }
     ],
     "heating_up": [
       {
-        "keyword": "codex cli",
-        "recent_mentions": 19,
-        "prior_mentions": 1,
-        "change_ratio": 19.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "real-time voice",
-        "recent_mentions": 15,
-        "prior_mentions": 1,
-        "change_ratio": 15.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "slm",
-        "recent_mentions": 13,
-        "prior_mentions": 1,
-        "change_ratio": 13.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "test-time compute",
-        "recent_mentions": 18,
-        "prior_mentions": 2,
-        "change_ratio": 9.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "ai glasses",
-        "recent_mentions": 18,
+        "recent_mentions": 22,
         "prior_mentions": 2,
-        "change_ratio": 9.0,
+        "change_ratio": 11.0,
         "corroborating_sources": 3
       },
       {
-        "keyword": "ai energy",
+        "keyword": "moonshot ai",
+        "recent_mentions": 9,
+        "prior_mentions": 1,
+        "change_ratio": 9.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "reward hacking",
+        "recent_mentions": 35,
+        "prior_mentions": 4,
+        "change_ratio": 8.75,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai developer",
         "recent_mentions": 8,
         "prior_mentions": 1,
         "change_ratio": 8.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "dora",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
+        "keyword": "qwen2",
+        "recent_mentions": 16,
+        "prior_mentions": 2,
+        "change_ratio": 8.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "leonardo",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
+        "keyword": "litellm",
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "small language model",
+        "keyword": "qwen2.5",
         "recent_mentions": 10,
         "prior_mentions": 2,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "openai codex",
-        "recent_mentions": 9,
+        "keyword": "grammarly",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "test-time compute",
+        "recent_mentions": 19,
+        "prior_mentions": 4,
+        "change_ratio": 4.75,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "prompt injection",
+        "recent_mentions": 58,
+        "prior_mentions": 14,
+        "change_ratio": 4.14,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "cerebras",
+        "recent_mentions": 8,
         "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "reward hacking",
-        "recent_mentions": 27,
-        "prior_mentions": 6,
-        "change_ratio": 4.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "qwen2",
-        "recent_mentions": 13,
-        "prior_mentions": 3,
-        "change_ratio": 4.33,
-        "corroborating_sources": 1
+        "keyword": "meta ai",
+        "recent_mentions": 19,
+        "prior_mentions": 5,
+        "change_ratio": 3.8,
+        "corroborating_sources": 3
       }
     ]
   }
