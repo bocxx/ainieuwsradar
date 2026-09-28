@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-27T17:37:20+00:00",
+  "generated_at": "2026-09-28T05:37:09+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 252,
-    "covered": 131,
-    "coverage_rate": 0.52,
-    "early": 69,
-    "early_rate": 0.274,
-    "avg_lead_days": 14.7,
-    "median_lead_days": 11,
+    "scored_predictions": 257,
+    "covered": 133,
+    "coverage_rate": 0.518,
+    "early": 71,
+    "early_rate": 0.276,
+    "avg_lead_days": 14.4,
+    "median_lead_days": 9,
     "max_lead_days": 42,
-    "hit_rate": 0.52,
-    "materialized": 131,
+    "hit_rate": 0.518,
+    "materialized": 133,
     "by_signal_type": {
       "emerging": {
-        "scored": 149,
-        "covered": 115,
-        "early": 59,
-        "coverage_rate": 0.772,
-        "early_rate": 0.396,
-        "hit_rate": 0.772
+        "scored": 151,
+        "covered": 116,
+        "early": 60,
+        "coverage_rate": 0.768,
+        "early_rate": 0.397,
+        "hit_rate": 0.768
       },
       "weak_signal": {
-        "scored": 103,
-        "covered": 16,
-        "early": 10,
-        "coverage_rate": 0.155,
-        "early_rate": 0.097,
-        "hit_rate": 0.155
+        "scored": 106,
+        "covered": 17,
+        "early": 11,
+        "coverage_rate": 0.16,
+        "early_rate": 0.104,
+        "hit_rate": 0.16
       }
     }
   },
@@ -106,14 +106,14 @@
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     },
     {
-      "keyword": "kling",
+      "keyword": "voice ai",
       "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33,
-      "outlet": "Techmeme",
-      "url": "https://www.techmeme.com/260819/p12#a260819p12",
-      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
+      "outlet": "The Next Web",
+      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+      "title": "Fish Audio gives its voice AI away, and charges for the latency"
     }
   ],
   "caveats": [
@@ -122,20 +122,20 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 252,
+    "n": 257,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.524,
-      "early_rate": 0.278
+      "coverage_rate": 0.521,
+      "early_rate": 0.28
     },
     "null_mean": {
-      "coverage_rate": 0.555,
-      "early_rate": 0.323
+      "coverage_rate": 0.554,
+      "early_rate": 0.328
     },
     "p_value": {
-      "coverage_rate": 0.986,
+      "coverage_rate": 0.99,
       "early_rate": 0.984
     },
     "verdict_early": "niet onderscheidbaar van toeval"

@@ -1,90 +1,142 @@
 {
-  "generated_at": "2026-09-27T19:14:04.316716",
-  "total_tracked": 3336,
+  "generated_at": "2026-09-28T07:13:31.572512",
+  "total_tracked": 3302,
   "window_days": 14,
-  "accelerating": [],
-  "emerging": [
+  "accelerating": [
     {
-      "keyword": "claude code",
-      "mentions": 65,
-      "velocity": 6.6,
+      "keyword": "agentic",
+      "mentions": 207,
+      "velocity": 23.7,
       "sources": [
         "articles",
+        "arxiv",
         "hackernews",
         "linkedin",
-        "reddit",
         "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Show HN: A Claude Code skill to analyze your chess games",
+      "expert_ratio": 0.85,
+      "headline": "CRC-Router: Risk-Constrained Routing for Medical Agentic AI Systems",
       "articles": [
         {
-          "title": "Show HN: A Claude Code skill to analyze your chess games",
-          "url": "https://github.com/brumar/chess-postmortem-skills",
-          "source": "Hacker News"
+          "title": "CRC-Router: Risk-Constrained Routing for Medical Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2609.30714",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Claude Code deleted 48,000 files in 103 seconds in a dire AI agent warning",
-          "url": "https://www.techradar.com/ai-platforms-assistants/do-not-let-programs-run-commands-on-your-machine-claude-code-allegedly-deleted-48-000-files-in-103-seconds-and-its-a-terrifying-warning-about-ai-agents",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "MM-ContextFold: Context Folding for Multimodal Agentic Retrieval",
+          "url": "https://arxiv.org/abs/2609.23121",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency",
+          "url": "https://arxiv.org/abs/2609.31460",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "chatgpt",
-      "mentions": 227,
-      "velocity": 5.7,
+      "keyword": "qwen",
+      "mentions": 207,
+      "velocity": 18.9,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "arxiv",
+        "reddit"
       ],
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Gemini Live vs. ChatGPT Voice: Which AI offers a more natural conversation?",
+      "expert_ratio": 0.92,
+      "headline": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
       "articles": [
         {
-          "title": "Gemini Live vs. ChatGPT Voice: Which AI offers a more natural conversation?",
-          "url": "https://www.engadget.com/2266889/gemini-live-vs-gpt-live-which-offers-more-natural-conversation/",
-          "source": "Engadget"
+          "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+          "url": "https://arxiv.org/abs/2609.29892",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction",
+          "url": "https://arxiv.org/abs/2609.25176",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-claims-new-qwen-image-2-1-ai-model-beats-google-nano-banana-2-0-with-minuscule-7b-parameter-model-benchmarks-show-open-weight-contender-is-competitive-with-openai-and-meta-image-models",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 78,
+      "velocity": 12.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "Multivariate conformal uncertainty propagation in multitask atomistic simulation: Successes and pitfalls",
+      "articles": [
+        {
+          "title": "Multivariate conformal uncertainty propagation in multitask atomistic simulation: Successes and pitfalls",
+          "url": "https://arxiv.org/abs/2609.31384",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Bayesian Uncertainty Quantification for fMRI Functional Connectivity via Simulation-Based Inference",
+          "url": "https://arxiv.org/abs/2609.30445",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Grid-Orch: An LLM-Powered Orchestrator for Distribution Grid Simulation and Analytics",
+          "url": "https://arxiv.org/abs/2605.12728",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "quantization",
+      "mentions": 55,
+      "velocity": 11.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "Softmax Reparameterization for Output-Head Quantization",
+      "articles": [
+        {
+          "title": "Softmax Reparameterization for Output-Head Quantization",
+          "url": "https://arxiv.org/abs/2609.31291",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "G$^2$PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
+          "url": "https://arxiv.org/abs/2609.31009",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and Video Generation",
+          "url": "https://arxiv.org/abs/2609.26425",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
+  "emerging": [],
   "weak_signals": [
-    {
-      "keyword": "most capable models",
-      "mentions": 3,
-      "velocity": 1.0,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "OpenAI pauses training of its ‘most capable models’",
-      "articles": [
-        {
-          "title": "OpenAI pauses training of its ‘most capable models’",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "OpenAI says it paused training, evaluation, and inference with tool-use of its most capable models after a model bypasse",
-          "url": "https://www.techmeme.com/260926/p1#a260926p1",
-          "source": "Techmeme"
-        }
-      ]
-    },
     {
       "keyword": "onedrive",
       "mentions": 2,
@@ -116,22 +168,17 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Meta says its rejection of ads promoting the new documentary about Elon Musk \"was an error and the ads are being restore",
+      "headline": "SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning",
       "articles": [
+        {
+          "title": "SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2511.19422",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "Meta says its rejection of ads promoting the new documentary about Elon Musk \"was an error and the ads are being restore",
           "url": "https://www.techmeme.com/260926/p16#a260926p16",
           "source": "Techmeme"
-        },
-        {
-          "title": "Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
-          "url": "https://arxiv.org/abs/2609.29744",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "TTLab at AlexandriaX-2026: A Fine-Tuned Surface Tagger for Arabic Machine-Translation Error-Span Detection and Classific",
-          "url": "https://arxiv.org/abs/2609.29633",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -191,45 +238,88 @@
       ]
     },
     {
-      "keyword": "train",
+      "keyword": "atlas",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.6,
       "sources": [
-        "articles"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 79,
-      "days_active": 6,
-      "expert_ratio": 0.83,
-      "headline": "Oxford let OpenAI train AI models on Bodleian texts, the Guardian reports",
+      "confidence": 71,
+      "days_active": 4,
+      "expert_ratio": 0.75,
+      "headline": "Conversational DNA: A Visual Language and Interactive Atlas of Human and AI Dialogue",
       "articles": [
         {
-          "title": "Oxford let OpenAI train AI models on Bodleian texts, the Guardian reports",
-          "url": "https://thenextweb.com/news/oxford-bodleian-openai-training-data",
+          "title": "Conversational DNA: A Visual Language and Interactive Atlas of Human and AI Dialogue",
+          "url": "https://arxiv.org/abs/2508.07520",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Vast cellular gene-expression atlas could transform how scientists understand brain ageing and disease",
+          "url": "https://www.nature.com/articles/d41586-026-02770-4",
+          "source": "Nature - Issue - nature.com science feeds"
+        },
+        {
+          "title": "Single-cell atlas of transcriptomic vulnerability across brain disorders",
+          "url": "https://www.nature.com/articles/s41586-025-09573-z",
+          "source": "Nature - Issue - nature.com science feeds"
+        }
+      ]
+    },
+    {
+      "keyword": "most capable models",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 71,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "OpenAI pauses training of its ‘most capable models’",
+      "articles": [
+        {
+          "title": "OpenAI pauses training of its ‘most capable models’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "OpenAI says it paused training, evaluation, and inference with tool-use of its most capable models after a model bypasse",
+          "url": "https://www.techmeme.com/260926/p1#a260926p1",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "ai copyright",
+      "mentions": 2,
+      "velocity": 0.4,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 50,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "UK campaigners who beat AI copyright plan warn Australia",
+      "articles": [
+        {
+          "title": "UK campaigners who beat AI copyright plan warn Australia",
+          "url": "https://thenextweb.com/news/uk-campaigners-warn-australia-ai-copyright",
           "source": "The Next Web"
-        },
-        {
-          "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
-          "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-          "source": "Technology | The Guardian"
-        },
-        {
-          "title": "I've helped hundreds of kids land Wall Street jobs. Here's how I train them.",
-          "url": "https://www.businessinsider.com/wall-street-internship-investment-banking-ut-austin-2026-9",
-          "source": "Business Insider"
         }
       ]
     },
     {
       "keyword": "alphafold",
       "mentions": 2,
-      "velocity": 0.3,
+      "velocity": 0.4,
       "sources": [
         "arxiv"
       ],
       "source_count": 1,
-      "confidence": 71,
-      "days_active": 7,
+      "confidence": 69,
+      "days_active": 6,
       "expert_ratio": 1.0,
       "headline": "AlphaFold 'goes viral': database adds protein complexes of common viruses",
       "articles": [
@@ -239,53 +329,92 @@
           "source": "Nature - Issue - nature.com science feeds"
         }
       ]
-    },
-    {
-      "keyword": "ai security",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "Upwind acquires Aegis as cybersecurity firm builds new AI Security Labs",
-      "articles": [
-        {
-          "title": "Upwind acquires Aegis as cybersecurity firm builds new AI Security Labs",
-          "url": "https://thenextweb.com/news/upwind-acquires-aegis-ai-security-labs",
-          "source": "The Next Web"
-        },
-        {
-          "title": "UK small businesses are facing greater AI security threats than ever — and are sadly woefully unprepapred",
-          "url": "https://www.techradar.com/pro/security/uk-small-businesses-are-facing-greater-ai-security-threats-than-ever-and-are-sadly-woefully-unprepapred",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents",
-          "url": "https://arxiv.org/abs/2609.24515",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "grok",
-      "mentions": 85,
-      "velocity": 1.8,
+      "keyword": "ai safety",
+      "mentions": 34,
+      "velocity": 1.5,
       "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
+      "articles": [
+        {
+          "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
+          "url": "https://arxiv.org/abs/2602.12316",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Q＆A with Mustafa Suleyman on recent AI safety incidents, risks of removing guardrails while testing 10x-larger future mo",
+          "url": "https://www.techmeme.com/260927/p10#a260927p10",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Anthropic CEO Amodei to Meet Trump With AI Safety Concern Rising",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/anthropic-s-amodei-to-meet-trump-with-ai-safety-concerns-rising",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 23,
+      "velocity": 0.9,
+      "sources": [
+        "articles",
         "arxiv",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.36,
+      "expert_ratio": 0.38,
+      "headline": "Russia bombs Ukrainian data centers in latest escalation",
+      "articles": [
+        {
+          "title": "Russia bombs Ukrainian data centers in latest escalation",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/russia-bombs-ukrainian-data-centers-in-latest-escalation-100-000-households-lose-connectivity-as-firms-migrate-data-abroad-zelensky-says-ordinary-life-is-simply-a-target",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Russia has increased targeted strikes on Ukrainian data centers, disrupting internet access for ~100K Kyiv residents on ",
+          "url": "https://www.techmeme.com/260926/p4#a260926p4",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+          "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 83,
+      "velocity": 0.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.35,
       "headline": "I used Muse, Instinct, and Grok Bot to plan my European vacation. Meta's AI agent was my favorite.",
       "articles": [
         {
@@ -306,210 +435,158 @@
       ]
     },
     {
-      "keyword": "llama",
-      "mentions": 45,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
-      "articles": [
-        {
-          "title": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
-          "source": "Ollama Releases"
-        },
-        {
-          "title": "Transformers now runs llama.cpp quants",
-          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-          "source": "Hugging Face Blog"
-        },
-        {
-          "title": "GGUF-Metadata Prediction of Single-Sequence llama.cpp Throughput Across Three Systems",
-          "url": "https://arxiv.org/abs/2609.14864",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 34,
-      "velocity": 0.7,
+      "keyword": "nvidia",
+      "mentions": 59,
+      "velocity": -0.3,
       "sources": [
         "articles",
         "arxiv",
         "github",
+        "hackernews",
         "linkedin",
-        "reddit"
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.64,
+      "headline": "China reportedly may let Alibaba and ByteDance buy new Nvidia chips",
+      "articles": [
+        {
+          "title": "China reportedly may let Alibaba and ByteDance buy new Nvidia chips",
+          "url": "https://thenextweb.com/news/china-alibaba-bytedance-nvidia-rtx-pro-5500",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Sources: China's government asked Alibaba, ByteDance, and others to report on their plans to buy Nvidia RTX Pro 5500, sa",
+          "url": "https://www.techmeme.com/260927/p8#a260927p8",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Alibaba contro NVIDIA: ecco cosa può fare il chip V900",
+          "url": "https://www.tomshw.it/hardware/alibaba-presenta-il-chip-v900-puo-sfidare-il-dominio-nvidia",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 35,
+      "velocity": -0.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "twitter"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.54,
-      "headline": "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue",
+      "expert_ratio": 0.67,
+      "headline": "Microsoft drops Copilot+ branding from its new laptops",
       "articles": [
         {
-          "title": "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue",
+          "title": "Microsoft drops Copilot+ branding from its new laptops",
+          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Microsoft Rises as It Unifies Copilot AI | Closing Bell",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-25/microsoft-rises-as-it-unifies-copilot-ai-closing-bell-video",
           "source": "Bloomberg Technology"
         },
         {
-          "title": "Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise",
-          "url": "https://arxiv.org/abs/2609.28919",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 22,
-      "velocity": 0.7,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.57,
-      "headline": "The Meta data center in Louisiana is creating a housing boom",
-      "articles": [
-        {
-          "title": "The Meta data center in Louisiana is creating a housing boom",
-          "url": "https://www.businessinsider.com/photos-workforce-housing-attracting-metas-data-center-workers-2026-9",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "The Data Center Backlash Should Also Be a Climate Reckoning. It Isn’t Yet",
-          "url": "https://www.wired.com/story/data-center-backlash-climate-reckoning/",
-          "source": "Science Latest"
-        },
-        {
-          "title": "PicoJool, which is developing AI data center interconnects based on vertical cavity surface emitting lasers, raised a $2",
-          "url": "https://www.techmeme.com/260927/p2#a260927p2",
+          "title": "Microsoft confirms that 2026 Surface PCs have dropped the Copilot+ PC branding, even though they meet all the requiremen",
+          "url": "https://www.techmeme.com/260925/p15#a260925p15",
           "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "typesafe",
-      "mentions": 14,
-      "velocity": 0.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 12,
-      "expert_ratio": 0.17,
-      "headline": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
-      "articles": [
-        {
-          "title": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
-          "url": "https://www.techmeme.com/260924/p40#a260924p40",
-          "source": "Techmeme"
-        },
-        {
-          "title": "TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev mat",
-          "url": "https://www.techmeme.com/260920/p9#a260920p9",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "lora",
-      "mentions": 36,
-      "velocity": 0.0,
+      "keyword": "openai",
+      "mentions": 454,
+      "velocity": -0.9,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "reddit"
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "LORA-CRAFT: Cross-layer Rank Adaptation via Frozen Tucker Decomposition of Pre-trained Attention Weights",
+      "expert_ratio": 0.71,
+      "headline": "OpenAI agents tried to ‘bruteforce’ a UN website",
       "articles": [
         {
-          "title": "LORA-CRAFT: Cross-layer Rank Adaptation via Frozen Tucker Decomposition of Pre-trained Attention Weights",
-          "url": "https://arxiv.org/abs/2602.17510",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+          "source": "The Verge -  All Posts"
         },
         {
-          "title": "Reasoning-Preserving Fine-Tuning of Post-RL LLMs with Null-Basis LoRA",
-          "url": "https://arxiv.org/abs/2609.25618",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+          "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+          "source": "Hacker News"
         },
         {
-          "title": "Co-occurrence Patterns of LoRA Adapters in Production Diffusion Model Inference Services",
-          "url": "https://arxiv.org/abs/2609.23321",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Australia Senate Requests OpenAI, Anthropic CEOs Face AI Inquiry",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-senate-requests-openai-anthropic-ceos-face-ai-inquiry",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 252,
-    "covered": 131,
-    "coverage_rate": 0.52,
-    "early": 69,
-    "early_rate": 0.274,
-    "avg_lead_days": 14.7,
-    "median_lead_days": 11,
+    "scored_predictions": 257,
+    "covered": 133,
+    "coverage_rate": 0.518,
+    "early": 71,
+    "early_rate": 0.276,
+    "avg_lead_days": 14.4,
+    "median_lead_days": 9,
     "max_lead_days": 42,
-    "hit_rate": 0.52,
-    "materialized": 131,
+    "hit_rate": 0.518,
+    "materialized": 133,
     "by_signal_type": {
       "emerging": {
-        "scored": 149,
-        "covered": 115,
-        "early": 59,
-        "coverage_rate": 0.772,
-        "early_rate": 0.396,
-        "hit_rate": 0.772
+        "scored": 151,
+        "covered": 116,
+        "early": 60,
+        "coverage_rate": 0.768,
+        "early_rate": 0.397,
+        "hit_rate": 0.768
       },
       "weak_signal": {
-        "scored": 103,
-        "covered": 16,
-        "early": 10,
-        "coverage_rate": 0.155,
-        "early_rate": 0.097,
-        "hit_rate": 0.155
+        "scored": 106,
+        "covered": 17,
+        "early": 11,
+        "coverage_rate": 0.16,
+        "early_rate": 0.104,
+        "hit_rate": 0.16
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 252,
+    "n": 257,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.524,
-      "early_rate": 0.278
+      "coverage_rate": 0.521,
+      "early_rate": 0.28
     },
     "null_mean": {
-      "coverage_rate": 0.555,
-      "early_rate": 0.323
+      "coverage_rate": 0.554,
+      "early_rate": 0.328
     },
     "p_value": {
-      "coverage_rate": 0.986,
+      "coverage_rate": 0.99,
       "early_rate": 0.984
     },
     "verdict_early": "niet onderscheidbaar van toeval"
@@ -586,18 +663,24 @@
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     },
     {
-      "keyword": "kling",
+      "keyword": "voice ai",
       "signal_type": "emerging",
-      "flagged_on": "2026-07-17",
-      "materialized_on": "2026-08-19",
+      "flagged_on": "2026-06-26",
+      "materialized_on": "2026-07-29",
       "lead_days": 33,
-      "outlet": "Techmeme",
-      "url": "https://www.techmeme.com/260819/p12#a260819p12",
-      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
+      "outlet": "The Next Web",
+      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
+      "title": "Fish Audio gives its voice AI away, and charges for the latency"
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "ai copyright",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-09-28",
+        "confidence": 0
+      },
       {
         "keyword": "chatgpt",
         "signal_type": "emerging",
@@ -663,98 +746,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-24",
         "confidence": 1.0
-      },
-      {
-        "keyword": "deepseek",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-24",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "ai glasses",
-        "recent_mentions": 22,
-        "prior_mentions": 2,
+        "keyword": "litellm",
+        "recent_mentions": 11,
+        "prior_mentions": 1,
         "change_ratio": 11.0,
-        "corroborating_sources": 3
+        "corroborating_sources": 1
       },
       {
-        "keyword": "moonshot ai",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
-        "corroborating_sources": 2
+        "keyword": "qwen 2",
+        "recent_mentions": 31,
+        "prior_mentions": 3,
+        "change_ratio": 10.33,
+        "corroborating_sources": 1
       },
       {
         "keyword": "reward hacking",
         "recent_mentions": 35,
+        "prior_mentions": 5,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "moonshot ai",
+        "recent_mentions": 12,
+        "prior_mentions": 2,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "grammarly",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "prompt injection",
+        "recent_mentions": 69,
+        "prior_mentions": 12,
+        "change_ratio": 5.75,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "test-time compute",
+        "recent_mentions": 28,
+        "prior_mentions": 6,
+        "change_ratio": 4.67,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "qwen2",
+        "recent_mentions": 17,
         "prior_mentions": 4,
-        "change_ratio": 8.75,
+        "change_ratio": 4.25,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "hallucination",
+        "recent_mentions": 72,
+        "prior_mentions": 19,
+        "change_ratio": 3.79,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "whisper",
+        "recent_mentions": 26,
+        "prior_mentions": 7,
+        "change_ratio": 3.71,
         "corroborating_sources": 2
       },
       {
         "keyword": "ai developer",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "qwen2",
-        "recent_mentions": 16,
-        "prior_mentions": 2,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "grammarly",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "windsurf",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "qwen2.5",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "litellm",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "test-time compute",
-        "recent_mentions": 19,
-        "prior_mentions": 4,
-        "change_ratio": 4.75,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "meta ai",
-        "recent_mentions": 21,
-        "prior_mentions": 5,
-        "change_ratio": 4.2,
+        "keyword": "ai alignment",
+        "recent_mentions": 38,
+        "prior_mentions": 11,
+        "change_ratio": 3.45,
         "corroborating_sources": 3
-      },
-      {
-        "keyword": "prompt injection",
-        "recent_mentions": 57,
-        "prior_mentions": 14,
-        "change_ratio": 4.07,
-        "corroborating_sources": 4
       }
     ]
   }
