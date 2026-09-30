@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-29T17:41:05+00:00",
+  "generated_at": "2026-09-30T05:39:41+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 111,
-    "resolved": 116,
+    "resolved": 117,
     "hits": 7,
-    "misses": 109,
+    "misses": 110,
     "hit_rate": 0.06
   },
   "open": [
@@ -14,76 +14,103 @@
       "keyword": "higgsfield",
       "signal_type": "emerging",
       "flagged_on": "2026-08-16",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "dora",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "qlora",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "cline",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "frontier model",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "ad creative",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "together",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "bolt",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "openrouter",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "mistral ai",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "b200",
       "signal_type": "emerging",
       "flagged_on": "2026-08-19",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "browser-use",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-20",
-      "days_left": 5
+      "days_left": 4
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "qwen",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-15",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "cerebras",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-15",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "command r",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-08-15",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "browser use",
       "signal_type": "weak_signal",
@@ -179,33 +206,6 @@
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-08-12",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "data center",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-11",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "crewai",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-11",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "code completion",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-11",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null

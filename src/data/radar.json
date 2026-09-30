@@ -1,78 +1,12 @@
 {
-  "generated_at": "2026-09-29T19:16:43.037557",
-  "total_tracked": 3304,
+  "generated_at": "2026-09-30T07:14:28.629419",
+  "total_tracked": 3319,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "distillation",
-      "mentions": 49,
-      "velocity": 4.8,
-      "sources": [
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Jensen Huang called AI model distillation 'competition,' defying White House theft claim",
-      "articles": [
-        {
-          "title": "Jensen Huang called AI model distillation 'competition,' defying White House theft claim",
-          "url": "https://qz.com/jensen-huang-ai-distillation-competition-white-house-092826",
-          "source": "Quartz"
-        },
-        {
-          "title": "Jensen Huang says AI model distillation is \"competition\"; Scott Bessent described it as \"theft\" in July and threatened s",
-          "url": "https://www.techmeme.com/260928/p30#a260928p30",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Jensen Huang says AI distillation is 'competition.'",
-          "url": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 178,
-      "velocity": 4.8,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "IPO prospectus: Anthropic has agreements to pay SpaceX up to $84.5B to use its Nvidia-based compute through 2029, mostly",
-      "articles": [
-        {
-          "title": "IPO prospectus: Anthropic has agreements to pay SpaceX up to $84.5B to use its Nvidia-based compute through 2029, mostly",
-          "url": "https://www.techmeme.com/260929/p26#a260929p26",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Anthropic Discloses up to $84.5 Billion in SpaceX Compute Agreements",
-          "url": "https://www.theinformation.com/briefings/anthropic-discloses-84-5-billion-spacex-compute-agreements",
-          "source": "The Information"
-        },
-        {
-          "title": "Claude is down as Anthropic investigates errors across its services",
-          "url": "https://thenextweb.com/news/claude-is-down-anthropic-investigates-outage",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
       "keyword": "agentic",
-      "mentions": 132,
-      "velocity": 2.8,
+      "mentions": 321,
+      "velocity": 59.0,
       "sources": [
         "articles",
         "arxiv",
@@ -85,160 +19,207 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Amazon Looks to Further Automate Media Buying With New Agentic Tools",
+      "expert_ratio": 0.86,
+      "headline": "Agentic AI for Clustering, Relationship Discovery, and Semantic Trading in Prediction Markets",
       "articles": [
         {
-          "title": "Amazon Looks to Further Automate Media Buying With New Agentic Tools",
-          "url": "https://www.theinformation.com/briefings/amazon-looks-automate-media-buying-new-agentic-tools",
-          "source": "The Information"
+          "title": "Agentic AI for Clustering, Relationship Discovery, and Semantic Trading in Prediction Markets",
+          "url": "https://arxiv.org/abs/2512.02436",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "1031: Tokenomics: Why Your Agentic AI Bill Is Exploding (and How to Fix It), with Tyler Cox and Ish Shah",
-          "url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/E581B9/arttrk.com/p/VI4CS/pscrb.fm/rss/p/traffic.megaphone.fm/SUPERDATASCIENCEPTYLTD3812170403.mp3",
-          "source": "Super Data Science: ML ＆ AI Podcast with Jon Krohn"
+          "title": "BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2609.36505",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains",
-          "url": "https://arxiv.org/abs/2609.31282",
+          "title": "Distilling Agentic Systems: A Roadmap across Models, Artifacts, and Harnesses",
+          "url": "https://arxiv.org/abs/2609.36630",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "ai bubble",
-      "mentions": 9,
-      "velocity": 2.1,
+      "keyword": "distillation",
+      "mentions": 185,
+      "velocity": 44.5,
       "sources": [
         "articles",
+        "arxiv",
         "hackernews",
-        "twitter"
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "SR-OPSD: Self-Referenced On-Policy Self-Distillation",
+      "articles": [
+        {
+          "title": "SR-OPSD: Self-Referenced On-Policy Self-Distillation",
+          "url": "https://arxiv.org/abs/2608.09745",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "TabKD: Tabular Knowledge Distillation through Interaction Diversity of Learned Feature Bins",
+          "url": "https://arxiv.org/abs/2603.15481",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Interpolated Policy Distillation: A Controllable Continuum Between Off-Policy and On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2609.37170",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 250,
+      "velocity": 33.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.23,
-      "headline": "Rockefeller’s Ruchir Sharma Warns AI Bubble To Burst After 10-Year Yield Hits 5%",
+      "expert_ratio": 0.93,
+      "headline": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
       "articles": [
         {
-          "title": "Rockefeller’s Ruchir Sharma Warns AI Bubble To Burst After 10-Year Yield Hits 5%",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/rockefeller-s-sharma-warns-of-ai-crash-as-10-yr-hits-5-video",
-          "source": "Bloomberg Technology"
+          "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+          "url": "https://arxiv.org/abs/2609.29892",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "The AI bubble could burst without killing ChatGPT",
-          "url": "https://www.techradar.com/ai-platforms-assistants/the-ai-bubble-could-burst-without-killing-chatgpt-but-you-might-not-like-what-happens-next",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction",
+          "url": "https://arxiv.org/abs/2609.25176",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Bond-market turmoil is letting air out of the AI bubble without breaking the market",
-          "url": "https://www.businessinsider.com/interest-rates-treasury-bond-yields-ai-bubble-stock-market-2026-9",
-          "source": "Business Insider"
+          "title": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-claims-new-qwen-image-2-1-ai-model-beats-google-nano-banana-2-0-with-minuscule-7b-parameter-model-benchmarks-show-open-weight-contender-is-competitive-with-openai-and-meta-image-models",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 139,
+      "velocity": 32.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "High-Dimensional Simulation-Based Inference in Latent Spaces",
+      "articles": [
+        {
+          "title": "High-Dimensional Simulation-Based Inference in Latent Spaces",
+          "url": "https://arxiv.org/abs/2609.37381",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "From Unity Simulation to Diffusion-Based Augmentation: Quantifying Dataset Balance for Robust Object Detection",
+          "url": "https://arxiv.org/abs/2609.38010",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Text2Sim: Agentic Physics-Based Simulation Generation with Distilled Expertise",
+          "url": "https://arxiv.org/abs/2609.36593",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "nvidia",
-      "mentions": 91,
-      "velocity": 6.3,
+      "keyword": "claude code",
+      "mentions": 52,
+      "velocity": 4.8,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.64,
-      "headline": "IPO prospectus: Anthropic has agreements to pay SpaceX up to $84.5B to use its Nvidia-based compute through 2029, mostly",
+      "expert_ratio": 0.0,
+      "headline": "Claude Code anche a computer spento, la funzione cloud non è più in beta",
       "articles": [
         {
-          "title": "IPO prospectus: Anthropic has agreements to pay SpaceX up to $84.5B to use its Nvidia-based compute through 2029, mostly",
-          "url": "https://www.techmeme.com/260929/p26#a260929p26",
-          "source": "Techmeme"
+          "title": "Claude Code anche a computer spento, la funzione cloud non è più in beta",
+          "url": "https://www.tomshw.it/business/claude-code-anche-computer-spento-la-funzione-cloud-non-e-piu-in-beta",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-          "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-          "source": "Hugging Face Blog"
+          "title": "Claude Code cancella 48.000 file di un progetto in 103 secondi, ma poi chiede scusa",
+          "url": "https://www.tomshw.it/business/claude-code-cancella-48000-file-di-un-progetto-in-103-secondi-ma-poi-chiede-scusa",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Nvidia launches new AI safety program designed at stopping models escaping their sandboxes",
-          "url": "https://www.techradar.com/pro/nvidia-launches-new-ai-safety-program-designed-at-stopping-models-escaping-their-sandboxes",
+          "title": "'I broke something': A Claude Code AI agent deleted 48,000 files in just over 100 seconds — then apologized for doing so",
+          "url": "https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just-over-100-seconds-then-apologized-for-doing-so",
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "copilot",
-      "mentions": 45,
-      "velocity": 2.0,
+      "keyword": "huggingface",
+      "mentions": 16,
+      "velocity": 2.4,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "arxiv",
+        "github"
       ],
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "Copilot users’ photos reach human reviewers uncensored, 404 Media reports",
+      "expert_ratio": 0.96,
+      "headline": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
       "articles": [
         {
-          "title": "Copilot users’ photos reach human reviewers uncensored, 404 Media reports",
-          "url": "https://thenextweb.com/news/microsoft-copilot-human-reviewers-photos-prompts-404-media",
-          "source": "The Next Web"
-        },
-        {
-          "title": "'Microsoft betaalt mensen om seksuele plaatjes van Copilot te verbeteren'",
-          "url": "https://tweakers.net/nieuws/252730/microsoft-betaalt-mensen-om-seksuele-plaatjes-van-copilot-te-verbeteren.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "Microsoft’s Copilot Reboot Pins Focus on Business Customers",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-09-29/microsoft-s-copilot-reboot-pins-focus-on-business-customers",
-          "source": "Bloomberg Technology"
+          "title": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
+          "url": "https://arxiv.org/abs/2609.35799",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "nemotron",
-      "mentions": 3,
+      "keyword": "mccormick",
+      "mentions": 2,
       "velocity": 1.0,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 65,
+      "confidence": 61,
       "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "expert_ratio": 0.67,
+      "headline": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
       "articles": [
         {
-          "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-          "source": "Hugging Face Blog"
-        },
-        {
-          "title": "Un CRM addestrato solo su scenari sintetici, la nuova scommessa di NVIDIA Nemotron",
-          "url": "https://www.tomshw.it/business/un-crm-addestrato-solo-su-scenari-sintetici-la-nuova-scommessa-di-nvidia-nemotron",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "At Dreamforce, Salesforce announces Koa, a specialized CRM reasoning model built on Nvidia's Nemotron architecture, desi",
-          "url": "https://www.techmeme.com/260915/p23#a260915p23",
+          "title": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
+          "url": "https://www.techmeme.com/260916/p24#a260916p24",
           "source": "Techmeme"
+        },
+        {
+          "title": "Meta CEO Zuckerberg Leans on Powell McCormick to Clear Path for AI Push",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-16/meta-ceo-zuckerberg-leans-on-powell-mccormick-to-clear-path-for-ai-push",
+          "source": "Bloomberg Technology"
         }
       ]
     },
@@ -293,91 +274,6 @@
       ]
     },
     {
-      "keyword": "content",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Premium Sports Content Is Here To Stay: Fmr Hulu and Netflix Executive Simon Gallagher",
-      "articles": [
-        {
-          "title": "Premium Sports Content Is Here To Stay: Fmr Hulu and Netflix Executive Simon Gallagher",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/premium-sports-content-is-here-to-stay-simon-gallagher-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Thinking Less to Simulate Better: Intuitive Prompting Improves LLM Agents Simulating Individual Social Media Reactions, ",
-          "url": "https://arxiv.org/abs/2609.30563",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Big AI's content problem: Take the work, keep the money",
-          "url": "https://www.theregister.com/columnists/2026/09/27/big-ais-content-problem-take-the-work-keep-the-money/5299007",
-          "source": "The Register"
-        }
-      ]
-    },
-    {
-      "keyword": "mccormick",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
-      "articles": [
-        {
-          "title": "A profile of Meta Compute co-lead Dina Powell McCormick, who is using her network to help structure major AI financing, ",
-          "url": "https://www.techmeme.com/260916/p24#a260916p24",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Meta CEO Zuckerberg Leans on Powell McCormick to Clear Path for AI Push",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-16/meta-ceo-zuckerberg-leans-on-powell-mccormick-to-clear-path-for-ai-push",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "physical ai",
-      "mentions": 3,
-      "velocity": 0.7,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 4,
-      "expert_ratio": 0.75,
-      "headline": "SiMa.ai raises $150m at a $1.45bn valuation for physical AI chips",
-      "articles": [
-        {
-          "title": "SiMa.ai raises $150m at a $1.45bn valuation for physical AI chips",
-          "url": "https://thenextweb.com/news/sima-ai-150m-series-c-1-45bn-valuation-physical-ai",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Gecko CEO: Physical AI Needs Humans in Control",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-28/gecko-ceo-physical-ai-needs-humans-in-control-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Physical AI chip developer SiMa.ai hits $1.45B valuation",
-          "url": "https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
       "keyword": "atlas",
       "mentions": 3,
       "velocity": 0.6,
@@ -388,8 +284,13 @@
       "confidence": 71,
       "days_active": 4,
       "expert_ratio": 0.75,
-      "headline": "Conversational DNA: A Visual Language and Interactive Atlas of Human and AI Dialogue",
+      "headline": "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
       "articles": [
+        {
+          "title": "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
+          "url": "https://arxiv.org/abs/2609.36333",
+          "source": "cs.AI updates on arXiv.org"
+        },
         {
           "title": "Conversational DNA: A Visual Language and Interactive Atlas of Human and AI Dialogue",
           "url": "https://arxiv.org/abs/2508.07520",
@@ -399,89 +300,81 @@
           "title": "Vast cellular gene-expression atlas could transform how scientists understand brain ageing and disease",
           "url": "https://www.nature.com/articles/d41586-026-02770-4",
           "source": "Nature - Issue - nature.com science feeds"
+        }
+      ]
+    },
+    {
+      "keyword": "train",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 79,
+      "days_active": 6,
+      "expert_ratio": 0.83,
+      "headline": "Train Ahead, Distill Back: Bootstrapping On-Policy Self-Distillation for Large Language Models",
+      "articles": [
+        {
+          "title": "Train Ahead, Distill Back: Bootstrapping On-Policy Self-Distillation for Large Language Models",
+          "url": "https://arxiv.org/abs/2609.37132",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "nemotron",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 71,
+      "days_active": 3,
+      "expert_ratio": 1.0,
+      "headline": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "articles": [
+        {
+          "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+          "source": "Hugging Face Blog"
         },
         {
-          "title": "Single-cell atlas of transcriptomic vulnerability across brain disorders",
-          "url": "https://www.nature.com/articles/s41586-025-09573-z",
-          "source": "Nature - Issue - nature.com science feeds"
+          "title": "Un CRM addestrato solo su scenari sintetici, la nuova scommessa di NVIDIA Nemotron",
+          "url": "https://www.tomshw.it/business/un-crm-addestrato-solo-su-scenari-sintetici-la-nuova-scommessa-di-nvidia-nemotron",
+          "source": "Tom's Hardware"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "ai safety",
-      "mentions": 37,
-      "velocity": 2.0,
+      "keyword": "langchain",
+      "mentions": 16,
+      "velocity": 1.4,
       "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Nvidia launches new AI safety program designed at stopping models escaping their sandboxes",
-      "articles": [
-        {
-          "title": "Nvidia launches new AI safety program designed at stopping models escaping their sandboxes",
-          "url": "https://www.techradar.com/pro/nvidia-launches-new-ai-safety-program-designed-at-stopping-models-escaping-their-sandboxes",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Pope Leo says AI safety fears are not ‘fake news’, criticises Jensen Huang",
-          "url": "https://thenextweb.com/news/pope-leo-ai-safety-fears-not-fake-news-jensen-huang",
-          "source": "The Next Web"
-        },
-        {
-          "title": "House Speaker Mike Johnson is hoping AI safety guardrails will stay voluntary",
-          "url": "https://qz.com/mike-johnson-ai-safety-guardrails-voluntary-092926",
-          "source": "Quartz"
-        }
-      ]
-    },
-    {
-      "keyword": "model context protocol",
-      "mentions": 12,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "arxiv",
         "github",
-        "linkedin",
-        "reddit"
+        "linkedin"
       ],
-      "source_count": 5,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "expert_ratio": 0.81,
+      "headline": "Middleware-Driven Context Engineering in LangChain",
       "articles": [
         {
-          "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-          "url": "https://arxiv.org/abs/2609.30341",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Ascent: An Agentic System over the Model Context Protocol for Real-World Clinical Data Analysis",
-          "url": "https://arxiv.org/abs/2609.24620",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Taxonomy of Runtime Faults in Model Context Protocol Servers",
-          "url": "https://arxiv.org/abs/2606.05339",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Middleware-Driven Context Engineering in LangChain",
+          "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-2-with-implementation/",
+          "source": "Daily Dose of Data Science"
         }
       ]
     },
     {
       "keyword": "mistral",
-      "mentions": 20,
-      "velocity": 0.6,
+      "mentions": 23,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "arxiv",
@@ -490,7 +383,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
+      "expert_ratio": 0.95,
       "headline": "Mistral's CEO is calling the U.S. AI safety debate a cover for rivals' negligence",
       "articles": [
         {
@@ -511,54 +404,123 @@
       ]
     },
     {
-      "keyword": "ai coding",
-      "mentions": 30,
-      "velocity": -1.2,
+      "keyword": "flux",
+      "mentions": 11,
+      "velocity": 1.1,
       "sources": [
         "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "Beat Saber Flux demo on Meta VR glasses",
+      "articles": [
+        {
+          "title": "Beat Saber Flux demo on Meta VR glasses",
+          "url": "https://www.youtube.com/shorts/niZl1U3TG2Y",
+          "source": "The Verge"
+        },
+        {
+          "title": "Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of ",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNanNlRFkxQTIzdGxhUHJqc0JmMjc1MDljWDlnd19OVVA3LVdjWG9KaUttOEVaSHJUTzlqUU5yRkhhR1o3QzN0MnZRczZYYl93Ul83SDNOUFFwdVBVQkpmUlhrNklFTzdMSG5ieXlVYzhWX1RKQVFLQ3BqQUZYQllUVkFvRVhtdUFSbE1sQW9JUHlkUDRrZ3VoM2t3NlFZUkZTOTZ0bUZUcWlaQWpJWldXRUg3Ri1sWmVoNF9Sc3l5RWJoNFhfYW03TjBMY012anRCTW02VXdMWEVRQXRuMXAyMEhqSnlyR1NFT2ZqNGx3bGtqWHY1ZVBZc3NOMTU3aUlvQVhF?oc=5",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
+      "keyword": "nvidia",
+      "mentions": 80,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.65,
+      "headline": "OpenClaw launches free enterprise control plane for persistent AI agents, backed by OpenAI, Red Hat and Nvidia - Venture",
+      "articles": [
+        {
+          "title": "OpenClaw launches free enterprise control plane for persistent AI agents, backed by OpenAI, Red Hat and Nvidia - Venture",
+          "url": "https://venturebeat.com/orchestration/openclaw-launches-free-enterprise-control-plane-for-persistent-ai-agents-backed-by-openai-red-hat-and-nvidia",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+          "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+          "source": "Ars Technica"
+        },
+        {
+          "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
+          "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
+          "source": "NVIDIA Developer Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 31,
+      "velocity": -0.6,
+      "sources": [
+        "articles",
+        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue",
+      "expert_ratio": 0.53,
+      "headline": "The reach of a verification tool decides its value: A controlled study of verification surface, artifact quality, and co",
       "articles": [
+        {
+          "title": "The reach of a verification tool decides its value: A controlled study of verification surface, artifact quality, and co",
+          "url": "https://arxiv.org/abs/2608.28795",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Autoheal wants to manage the work AI coding agents leave behind, claiming cost reductions of up to 30% per task - Ventur",
+          "url": "https://venturebeat.com/orchestration/autoheal-wants-to-manage-the-work-ai-coding-agents-leave-behind-claiming-cost-reductions-of-up-to-30-per-task",
+          "source": "VentureBeat"
+        },
         {
           "title": "AI Coding Startup Cognition Hits $1 Billion in Annualized Revenue",
           "url": "https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue",
           "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise",
-          "url": "https://arxiv.org/abs/2609.28919",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 260,
-    "covered": 135,
-    "coverage_rate": 0.519,
-    "early": 72,
-    "early_rate": 0.277,
-    "avg_lead_days": 14.3,
-    "median_lead_days": 9.0,
+    "scored_predictions": 263,
+    "covered": 138,
+    "coverage_rate": 0.525,
+    "early": 73,
+    "early_rate": 0.278,
+    "avg_lead_days": 14.2,
+    "median_lead_days": 9,
     "max_lead_days": 42,
-    "hit_rate": 0.519,
-    "materialized": 135,
+    "hit_rate": 0.525,
+    "materialized": 138,
     "by_signal_type": {
       "emerging": {
-        "scored": 153,
-        "covered": 118,
-        "early": 61,
-        "coverage_rate": 0.771,
-        "early_rate": 0.399,
-        "hit_rate": 0.771
+        "scored": 156,
+        "covered": 121,
+        "early": 62,
+        "coverage_rate": 0.776,
+        "early_rate": 0.397,
+        "hit_rate": 0.776
       },
       "weak_signal": {
         "scored": 107,
@@ -573,21 +535,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 260,
+    "n": 263,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.523,
+      "coverage_rate": 0.529,
       "early_rate": 0.281
     },
     "null_mean": {
-      "coverage_rate": 0.555,
-      "early_rate": 0.33
+      "coverage_rate": 0.56,
+      "early_rate": 0.335
     },
     "p_value": {
-      "coverage_rate": 0.99,
-      "early_rate": 0.991
+      "coverage_rate": 0.987,
+      "early_rate": 0.995
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -730,13 +692,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "test-time compute",
+        "keyword": "llama",
         "signal_type": "emerging",
         "flagged_on": "2026-09-25",
         "confidence": 0.4
       },
       {
-        "keyword": "llama",
+        "keyword": "test-time compute",
         "signal_type": "emerging",
         "flagged_on": "2026-09-25",
         "confidence": 0.4
@@ -750,14 +712,28 @@
     ],
     "heating_up": [
       {
-        "keyword": "deepl",
+        "keyword": "groq",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "gamma",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "tokenizer",
+        "recent_mentions": 22,
+        "prior_mentions": 4,
+        "change_ratio": 5.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "claude design",
+        "keyword": "granola",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
@@ -765,72 +741,58 @@
       },
       {
         "keyword": "windsurf",
-        "recent_mentions": 13,
-        "prior_mentions": 3,
-        "change_ratio": 4.33,
+        "recent_mentions": 17,
+        "prior_mentions": 4,
+        "change_ratio": 4.25,
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai developer",
+        "keyword": "deepl",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
-        "keyword": "ai bubble",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
-        "change_ratio": 4.0,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "open-source ai",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
+        "keyword": "computer-use",
+        "recent_mentions": 22,
+        "prior_mentions": 6,
         "change_ratio": 3.67,
         "corroborating_sources": 2
       },
       {
-        "keyword": "grammarly",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
+        "keyword": "stable diffusion",
+        "recent_mentions": 18,
+        "prior_mentions": 5,
+        "change_ratio": 3.6,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "open-source ai",
+        "recent_mentions": 14,
+        "prior_mentions": 4,
         "change_ratio": 3.5,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
-        "keyword": "framer",
-        "recent_mentions": 10,
-        "prior_mentions": 3,
-        "change_ratio": 3.33,
-        "corroborating_sources": 1
+        "keyword": "huggingface",
+        "recent_mentions": 45,
+        "prior_mentions": 13,
+        "change_ratio": 3.46,
+        "corroborating_sources": 3
       },
       {
-        "keyword": "machine consciousness",
+        "keyword": "heygen",
         "recent_mentions": 6,
         "prior_mentions": 2,
         "change_ratio": 3.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "whisper",
-        "recent_mentions": 18,
+        "keyword": "ai bubble",
+        "recent_mentions": 16,
         "prior_mentions": 6,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "mcp client",
-        "recent_mentions": 12,
-        "prior_mentions": 4,
-        "change_ratio": 3.0,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "mcp tools",
-        "recent_mentions": 21,
-        "prior_mentions": 7,
-        "change_ratio": 3.0,
+        "change_ratio": 2.67,
         "corroborating_sources": 4
       }
     ]
