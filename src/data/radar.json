@@ -1,80 +1,151 @@
 {
-  "generated_at": "2026-10-01T07:13:43.039819",
-  "total_tracked": 3465,
+  "generated_at": "2026-10-01T19:17:47.277241",
+  "total_tracked": 3505,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 269,
-      "velocity": 43.3,
+      "keyword": "gemini",
+      "mentions": 258,
+      "velocity": 19.7,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
         "linkedin",
+        "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+      "expert_ratio": 0.46,
+      "headline": "Google Rolls Out AI Model Gemini 4 Argon",
       "articles": [
         {
-          "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2608.06197",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Google Rolls Out AI Model Gemini 4 Argon",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-01/google-rolls-out-ai-model-gemini-4-argon-video",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
-          "url": "https://arxiv.org/abs/2609.40230",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Acer Googlebook 14 è il primo convertibile con Gemini Intelligence",
+          "url": "https://www.tomshw.it/hardware/acer-googlebook-14-e-il-primo-convertibile-con-gemini-intelligence",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "DexHoldem: An Agentic Robotics Benchmark for Dexterous Manipulation in Texas Hold'em",
-          "url": "https://arxiv.org/abs/2605.18727",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Gemini 4 costa poco per token, ma ne usa molti più di Astra",
+          "url": "https://www.tomshw.it/business/gemini-4-costa-poco-per-token-ma-ne-usa-molti-piu-di-astra",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "distillation",
-      "mentions": 152,
-      "velocity": 32.8,
+      "keyword": "claude",
+      "mentions": 486,
+      "velocity": 9.9,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
-        "linkedin"
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Anthropic wants to get Claude working across all Government arms",
+      "articles": [
+        {
+          "title": "Anthropic wants to get Claude working across all Government arms",
+          "url": "https://www.techradar.com/pro/anthropic-wants-to-get-claude-working-across-all-government-arms",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Anthropic says Claude for Government is now generally available to federal and state agencies, with Claude Code CLI and ",
+          "url": "https://www.techmeme.com/261001/p7#a261001p7",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Claude gira anche su un Nokia del 2007, più o meno",
+          "url": "https://www.tomshw.it/business/claude-gira-anche-su-un-nokia-del-2007-piu-o-meno",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 115,
+      "velocity": 9.0,
+      "sources": [
+        "arxiv",
+        "github"
+      ],
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
-      "headline": "Distribution Matching Distillation for Continuous Diffusion Language Models",
+      "headline": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
       "articles": [
         {
-          "title": "Distribution Matching Distillation for Continuous Diffusion Language Models",
-          "url": "https://arxiv.org/abs/2609.40235",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
+          "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages/",
+          "source": "NVIDIA Developer Blog"
         },
         {
-          "title": "OPSRD: On-Policy Self-Role Distillation",
-          "url": "https://arxiv.org/abs/2609.39884",
+          "title": "Router Sensitivity Under Lightweight Fine-Tuning Identifies Prunable Experts in Mixture-of-Experts Models",
+          "url": "https://arxiv.org/abs/2608.07890",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "GFD-OPD: Guidance-Folded On-Policy Distillation of Diffusion Models Across Scales",
-          "url": "https://arxiv.org/abs/2609.39692",
+          "title": "RA-MoE: Routing-Aligned Fine-Tuning for Multilingual Adaptation of Mixture-of-Experts Models",
+          "url": "https://arxiv.org/abs/2605.28306",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "qwen",
-      "mentions": 229,
-      "velocity": 26.9,
+      "keyword": "agentic",
+      "mentions": 153,
+      "velocity": 8.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "‘The era of the agentic enterprise isn't coming, it's here’: Snowflake lays out what is business needs to be truly agent",
+      "articles": [
+        {
+          "title": "‘The era of the agentic enterprise isn't coming, it's here’: Snowflake lays out what is business needs to be truly agent",
+          "url": "https://www.techradar.com/pro/the-era-of-the-agentic-enterprise-isnt-coming-its-here-snowflake-lays-out-what-is-business-needs-to-be-truly-agentic",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Agentic AI can trade stocks, but most investors don't trust it to handle their money",
+          "url": "https://www.businessinsider.com/ai-agentic-stock-trading-investing-vanguard-personal-finance-2026-9",
+          "source": "Business Insider"
+        },
+        {
+          "title": "SemiAnalysis estimates ~90% of Anthropic's business comes from agentic AI, while sources say nearly 25% of its revenue i",
+          "url": "https://www.techmeme.com/261001/p9#a261001p9",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "computer-use",
+      "mentions": 25,
+      "velocity": 7.2,
       "sources": [
         "articles",
         "arxiv",
@@ -82,65 +153,165 @@
       ],
       "source_count": 3,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+      "days_active": 10,
+      "expert_ratio": 0.91,
+      "headline": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
       "articles": [
         {
-          "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
-          "url": "https://arxiv.org/abs/2609.29892",
+          "title": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
+          "url": "https://arxiv.org/abs/2609.40253",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction",
-          "url": "https://arxiv.org/abs/2609.25176",
+          "title": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
+          "url": "https://arxiv.org/abs/2609.40284",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Alibaba claims new Qwen Image 2.1 AI model beats Google Nano Banana 2.0 with minuscule 7B parameter model",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-claims-new-qwen-image-2-1-ai-model-beats-google-nano-banana-2-0-with-minuscule-7b-parameter-model-benchmarks-show-open-weight-contender-is-competitive-with-openai-and-meta-image-models",
-          "source": "Tom's Hardware"
+          "title": "Uncertainty Quantification for Computer-Use Agents: A Benchmark across Vision-Language Models and GUI Grounding Datasets",
+          "url": "https://arxiv.org/abs/2606.25760",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 187,
+      "velocity": 6.4,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Trump tells TIME the US might take stakes in OpenAI and Anthropic",
+      "articles": [
+        {
+          "title": "Trump tells TIME the US might take stakes in OpenAI and Anthropic",
+          "url": "https://thenextweb.com/news/trump-time-interview-stake-openai-anthropic",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Sources: Anthropic has taken the unusual step of ending customers' discounts, which typically reach ~15%, once they hit ",
+          "url": "https://www.techmeme.com/261001/p26#a261001p26",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Broadcom to lend Anthropic up to $42bn for its chips, Reuters reports",
+          "url": "https://thenextweb.com/news/broadcom-anthropic-42bn-loan-tpu-lease-reuters",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "rlvr",
+      "mentions": 20,
+      "velocity": 4.4,
+      "sources": [
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 13,
+      "expert_ratio": 0.97,
+      "headline": "Advancing Entropy-Level Credit Assignment in RLVR via Proximal Entropy Policy Optimization",
+      "articles": [
+        {
+          "title": "Advancing Entropy-Level Credit Assignment in RLVR via Proximal Entropy Policy Optimization",
+          "url": "https://arxiv.org/abs/2609.39402",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Unlearnable, or Unmeasured? On the Reliability of Difficulty Labels in RLVR",
+          "url": "https://arxiv.org/abs/2609.40115",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Privy to the Foil: Recasting Value Estimation with a Self-Privileged Critic for RLVR",
+          "url": "https://arxiv.org/abs/2609.37825",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 86,
+      "velocity": 4.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.34,
+      "headline": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
+      "articles": [
+        {
+          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
+          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Document: SpaceXAI plans a unified subscription for Grok and X with four tiers, including a $100/month Ultra plan, an $8",
+          "url": "https://www.techmeme.com/260930/p39#a260930p39",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Musk’s SpaceXAI Considers Overhaul of Pricing for Grok, X Users",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-30/musk-s-spacexai-considers-overhaul-of-pricing-for-grok-x-users",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "hugging face",
-      "mentions": 29,
-      "velocity": 3.2,
+      "keyword": "distillation",
+      "mentions": 63,
+      "velocity": 5.9,
       "sources": [
-        "articles",
         "arxiv",
+        "hackernews",
         "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
+      "expert_ratio": 0.99,
+      "headline": "OpenAI Accuses Moonshot of Distillation Campaign",
       "articles": [
         {
-          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=09302026",
-          "source": "Fast Company"
+          "title": "OpenAI Accuses Moonshot of Distillation Campaign",
+          "url": "https://www.theinformation.com/briefings/openai-accuses-moonshot-distillation-campaign",
+          "source": "The Information"
         },
         {
-          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=10012026",
-          "source": "Fast Company"
+          "title": "Instruct, Not Answer: Using Instruction Privileges in On-Policy Context Distillation",
+          "url": "https://arxiv.org/abs/2609.32201",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=09302026",
-          "source": "Fast Company"
+          "title": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
+          "url": "https://arxiv.org/abs/2609.40253",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "claude code",
-      "mentions": 49,
-      "velocity": 2.7,
+      "mentions": 51,
+      "velocity": 3.3,
       "sources": [
         "articles",
         "hackernews",
@@ -152,8 +323,13 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.0,
-      "headline": "Claude Code anche a computer spento, la funzione cloud non è più in beta",
+      "headline": "Anthropic says Claude for Government is now generally available to federal and state agencies, with Claude Code CLI and ",
       "articles": [
+        {
+          "title": "Anthropic says Claude for Government is now generally available to federal and state agencies, with Claude Code CLI and ",
+          "url": "https://www.techmeme.com/261001/p7#a261001p7",
+          "source": "Techmeme"
+        },
         {
           "title": "Claude Code anche a computer spento, la funzione cloud non è più in beta",
           "url": "https://www.tomshw.it/business/claude-code-anche-computer-spento-la-funzione-cloud-non-e-piu-in-beta",
@@ -163,46 +339,37 @@
           "title": "Claude Code cancella 48.000 file di un progetto in 103 secondi, ma poi chiede scusa",
           "url": "https://www.tomshw.it/business/claude-code-cancella-48000-file-di-un-progetto-in-103-secondi-ma-poi-chiede-scusa",
           "source": "Tom's Hardware"
-        },
-        {
-          "title": "'I broke something': A Claude Code AI agent deleted 48,000 files in just over 100 seconds — then apologized for doing so",
-          "url": "https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just-over-100-seconds-then-apologized-for-doing-so",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "ai coding",
-      "mentions": 43,
-      "velocity": 2.5,
+      "keyword": "hugging face",
+      "mentions": 25,
+      "velocity": 2.0,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
+        "linkedin"
       ],
-      "source_count": 6,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
+      "expert_ratio": 0.8,
+      "headline": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
       "articles": [
         {
-          "title": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
-          "url": "https://arxiv.org/abs/2606.12329",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=6&partner=newsletter&campaign_date=10012026",
+          "source": "Fast Company"
         },
         {
-          "title": "Approval Laundering: Systematizing Approval--Execution Binding Failures in AI Coding-Agent Harnesses",
-          "url": "https://arxiv.org/abs/2609.38983",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=7&partner=newsletter&campaign_date=10012026",
+          "source": "Fast Company"
         },
         {
-          "title": "Peter Norvig says all aboard for AI coding",
-          "url": "https://www.theregister.com/ai-and-ml/2026/09/30/peter-norvig-says-all-aboard-for-ai-coding/5300244",
-          "source": "The Register"
+          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=4&partner=newsletter&campaign_date=10012026",
+          "source": "Fast Company"
         }
       ]
     }
@@ -269,32 +436,27 @@
       ]
     },
     {
-      "keyword": "ai memory",
+      "keyword": "train",
       "mentions": 3,
-      "velocity": 0.3,
+      "velocity": 0.4,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 81,
+      "confidence": 77,
       "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "Revenue Quintupled at AI Memory Maker Micron",
+      "expert_ratio": 0.91,
+      "headline": "HP boards the MacBook Neo competitor train — OmniBook 5 comes in four colors with Wildcat Lake and starts at $699.99",
       "articles": [
         {
-          "title": "Revenue Quintupled at AI Memory Maker Micron",
-          "url": "https://www.theinformation.com/briefings/revenue-quintupled-ai-memory-maker-micron",
-          "source": "The Information"
+          "title": "HP boards the MacBook Neo competitor train — OmniBook 5 comes in four colors with Wildcat Lake and starts at $699.99",
+          "url": "https://www.tomshardware.com/laptops/hp-boards-the-macbook-neo-competitor-train-omnibook-5-comes-in-four-colors-with-wildcat-lake-and-starts-at-usd699-99",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Micron Forecast Tops Estimates on Booming AI Memory Demand",
-          "url": "https://www.bloomberg.com/news/videos/2026-09-30/micron-forecast-beats-on-booming-ai-memory-demand-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Micron posted $54.2 billion in revenue as AI memory demand surged",
-          "url": "https://qz.com/micron-q4-2026-earnings-revenue-ai-memory-093026",
-          "source": "Quartz"
+          "title": "How to train yourself to be a doer when you’re an overthinker",
+          "url": "https://www.fastcompany.com/91613102/how-to-train-yourself-to-be-a-doer-when-youre-an-overthinker",
+          "source": "Fast Company"
         }
       ]
     },
@@ -309,8 +471,13 @@
       "confidence": 77,
       "days_active": 4,
       "expert_ratio": 1.0,
-      "headline": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "headline": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
       "articles": [
+        {
+          "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
+          "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages/",
+          "source": "NVIDIA Developer Blog"
+        },
         {
           "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
           "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
@@ -326,165 +493,9 @@
   ],
   "sustained": [
     {
-      "keyword": "nvidia",
-      "mentions": 86,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "Huawei boss claims homegrown AI chip sales top Nvidia in China",
-      "articles": [
-        {
-          "title": "Huawei boss claims homegrown AI chip sales top Nvidia in China",
-          "url": "https://www.theregister.com/systems/2026/09/30/huawei-boss-claims-homegrown-ai-chip-sales-top-nvidia-in-china/5300266",
-          "source": "The Register"
-        },
-        {
-          "title": "DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dominance",
-          "url": "https://www.nytimes.com/2026/09/30/business/china-ai-deepseek-huawei.html",
-          "source": "NYT ＞ Technology"
-        },
-        {
-          "title": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay",
-          "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
-          "source": "NVIDIA Developer Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 25,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.96,
-      "headline": "Mistral CEO says U.S. AI safety debate masks competitors’ 'negligence'",
-      "articles": [
-        {
-          "title": "Mistral CEO says U.S. AI safety debate masks competitors’ 'negligence'",
-          "url": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
-          "source": "Technology readings"
-        },
-        {
-          "title": "Mistral CEO tells CNBC US AI safety debate covers rivals’ ‘negligence’",
-          "url": "https://thenextweb.com/news/mistral-ceo-mensch-ai-safety-debate-negligence-cnbc",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Mistral's CEO is calling the U.S. AI safety debate a cover for rivals' negligence",
-          "url": "https://qz.com/mistral-ceo-ai-safety-debate-openai-anthropic-092926",
-          "source": "Quartz"
-        }
-      ]
-    },
-    {
-      "keyword": "synthetic data",
-      "mentions": 13,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops",
-      "articles": [
-        {
-          "title": "Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops",
-          "url": "https://arxiv.org/abs/2609.30297",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "MedHal: a Synthetic Dataset for Medical Hallucination Detection",
-          "url": "https://arxiv.org/abs/2504.08596",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "DataCanvas-EDU: An Agentic Framework for Instructor-Guided Synthetic Data Generation in Business Analytics Education",
-          "url": "https://arxiv.org/abs/2609.19617",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "model context protocol",
-      "mentions": 14,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-      "articles": [
-        {
-          "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-          "url": "https://arxiv.org/abs/2609.30341",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Ascent: An Agentic System over the Model Context Protocol for Real-World Clinical Data Analysis",
-          "url": "https://arxiv.org/abs/2609.24620",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Taxonomy of Runtime Faults in Model Context Protocol Servers",
-          "url": "https://arxiv.org/abs/2606.05339",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 35,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Claude Opus 5.5 uses em-dashes 99% less often and sounds more human — but still exhibits 2,548 AI writing tells - Ventur",
-      "articles": [
-        {
-          "title": "Claude Opus 5.5 uses em-dashes 99% less often and sounds more human — but still exhibits 2,548 AI writing tells - Ventur",
-          "url": "https://venturebeat.com/data/claude-opus-5-5-uses-em-dashes-99-less-often-and-sounds-more-human-but-still-exhibits-2-548-ai-writing-tells",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
       "keyword": "copilot",
-      "mentions": 46,
-      "velocity": 0.5,
+      "mentions": 51,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "github",
@@ -496,9 +507,14 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.64,
-      "headline": "Copilot users’ photos reach human reviewers uncensored, 404 Media reports",
+      "expert_ratio": 0.63,
+      "headline": "Inside Microsoft’s big Copilot rethink",
       "articles": [
+        {
+          "title": "Inside Microsoft’s big Copilot rethink",
+          "url": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+          "source": "The Verge -  All Posts"
+        },
         {
           "title": "Copilot users’ photos reach human reviewers uncensored, 404 Media reports",
           "url": "https://thenextweb.com/news/microsoft-copilot-human-reviewers-photos-prompts-404-media",
@@ -508,11 +524,138 @@
           "title": "'Microsoft betaalt mensen om seksuele plaatjes van Copilot te verbeteren'",
           "url": "https://tweakers.net/nieuws/252730/microsoft-betaalt-mensen-om-seksuele-plaatjes-van-copilot-te-verbeteren.html",
           "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "macbook",
+      "mentions": 15,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.72,
+      "headline": "HP’s answer to the MacBook Neo is thinner, lighter, and comes with OLED",
+      "articles": [
+        {
+          "title": "HP’s answer to the MacBook Neo is thinner, lighter, and comes with OLED",
+          "url": "https://www.theverge.com/gadgets/1003107/hp-omnibook-5-14-intel-wildcat-lake-8gb-macbook-neo-price-specs",
+          "source": "The Verge -  All Posts"
         },
         {
-          "title": "Microsoft’s Copilot Reboot Pins Focus on Business Customers",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-09-29/microsoft-s-copilot-reboot-pins-focus-on-business-customers",
-          "source": "Bloomberg Technology"
+          "title": "HP boards the MacBook Neo competitor train — OmniBook 5 comes in four colors with Wildcat Lake and starts at $699.99",
+          "url": "https://www.tomshardware.com/laptops/hp-boards-the-macbook-neo-competitor-train-omnibook-5-comes-in-four-colors-with-wildcat-lake-and-starts-at-usd699-99",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "How to get started with Shortcuts on your MacBook",
+          "url": "https://www.engadget.com/2269315/how-to-use-macbook-shortcuts/",
+          "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "llama.cpp",
+      "mentions": 17,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "Transformers now runs llama.cpp quants",
+      "articles": [
+        {
+          "title": "Transformers now runs llama.cpp quants",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "claude sonnet",
+      "mentions": 12,
+      "velocity": 1.4,
+      "sources": [
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 13,
+      "expert_ratio": 0.81,
+      "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+      "articles": [
+        {
+          "title": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+          "url": "https://www.techmeme.com/260929/p42#a260929p42",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
+          "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "lora",
+      "mentions": 35,
+      "velocity": 1.2,
+      "sources": [
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
+      "headline": "A Dynamical Theory of LoRA in Continual Learning",
+      "articles": [
+        {
+          "title": "A Dynamical Theory of LoRA in Continual Learning",
+          "url": "https://arxiv.org/abs/2609.39367",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Beyond LoRA vs. Full Fine-Tuning: Gradient-Guided Optimizer Routing for LLM Adaptation",
+          "url": "https://arxiv.org/abs/2605.07111",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+          "url": "https://arxiv.org/abs/2609.36585",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "huggingface",
+      "mentions": 11,
+      "velocity": 1.2,
+      "sources": [
+        "arxiv",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.95,
+      "headline": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
+      "articles": [
+        {
+          "title": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
+          "url": "https://arxiv.org/abs/2609.35799",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -529,14 +672,6 @@
     "hit_rate": 0.525,
     "materialized": 138,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 107,
-        "covered": 17,
-        "early": 11,
-        "coverage_rate": 0.159,
-        "early_rate": 0.103,
-        "hit_rate": 0.159
-      },
       "emerging": {
         "scored": 156,
         "covered": 121,
@@ -544,6 +679,14 @@
         "coverage_rate": 0.776,
         "early_rate": 0.397,
         "hit_rate": 0.776
+      },
+      "weak_signal": {
+        "scored": 107,
+        "covered": 17,
+        "early": 11,
+        "coverage_rate": 0.159,
+        "early_rate": 0.103,
+        "hit_rate": 0.159
       }
     }
   },
@@ -640,23 +783,47 @@
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     },
     {
-      "keyword": "voice ai",
+      "keyword": "kling",
       "signal_type": "emerging",
-      "flagged_on": "2026-06-26",
-      "materialized_on": "2026-07-29",
+      "flagged_on": "2026-07-17",
+      "materialized_on": "2026-08-19",
       "lead_days": 33,
-      "outlet": "The Next Web",
-      "url": "https://thenextweb.com/news/fish-audio-52m-seed-open-voice-models",
-      "title": "Fish Audio gives its voice AI away, and charges for the latency"
+      "outlet": "Techmeme",
+      "url": "https://www.techmeme.com/260819/p12#a260819p12",
+      "title": "Kuaishou reports Q2 revenue flat at ~$5.2B, meeting est., net income down 36% YoY to ~$467M, the biggest drop since 2021, and Kling AI sales up 200% (Rachel Yeo/Bloomberg)"
     }
   ],
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "ai coding",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-01",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "hugging face",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-01",
+        "confidence": 0.6
+      },
+      {
         "keyword": "claude sonnet",
         "signal_type": "emerging",
         "flagged_on": "2026-10-01",
         "confidence": 0.6
+      },
+      {
+        "keyword": "world models",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-01",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "vibe coding",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-01",
+        "confidence": 0
       },
       {
         "keyword": "claude code",
@@ -699,30 +866,6 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-09-27",
         "confidence": 0.2
-      },
-      {
-        "keyword": "mcp server",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-26",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "langchain",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-26",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "litellm",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-26",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "nvidia",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-25",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
@@ -731,20 +874,6 @@
         "recent_mentions": 31,
         "prior_mentions": 4,
         "change_ratio": 7.75,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "claude sonnet",
-        "recent_mentions": 50,
-        "prior_mentions": 7,
-        "change_ratio": 7.14,
-        "corroborating_sources": 6
-      },
-      {
-        "keyword": "gamma",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
         "corroborating_sources": 2
       },
       {
@@ -762,6 +891,13 @@
         "corroborating_sources": 2
       },
       {
+        "keyword": "voice agent",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "granola",
         "recent_mentions": 6,
         "prior_mentions": 1,
@@ -769,10 +905,24 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "tokenizer",
-        "recent_mentions": 23,
-        "prior_mentions": 4,
-        "change_ratio": 5.75,
+        "keyword": "gamma",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude sonnet",
+        "recent_mentions": 37,
+        "prior_mentions": 7,
+        "change_ratio": 5.29,
+        "corroborating_sources": 6
+      },
+      {
+        "keyword": "qdrant",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 2
       },
       {
@@ -781,20 +931,6 @@
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
-      },
-      {
-        "keyword": "voice agent",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "qdrant",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
       },
       {
         "keyword": "windsurf",
@@ -808,6 +944,13 @@
         "recent_mentions": 11,
         "prior_mentions": 3,
         "change_ratio": 3.67,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "tokenizer",
+        "recent_mentions": 14,
+        "prior_mentions": 4,
+        "change_ratio": 3.5,
         "corroborating_sources": 1
       }
     ]
