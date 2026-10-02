@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-02T21:47:31.206171",
-  "total_tracked": 3486,
+  "generated_at": "2026-10-02T22:46:38.091378",
+  "total_tracked": 3489,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "claude",
-      "mentions": 534,
-      "velocity": 21.3,
+      "mentions": 529,
+      "velocity": 19.8,
       "sources": [
         "articles",
         "arxiv",
@@ -34,22 +34,20 @@
         },
         {
           "title": "I run an AI company with a workforce of 34 AI agents. My days are powered by Diet Coke, DoorDash, and 'Claude walks' — h",
-          "url": "https://www.businessinsider.com/open-machine-ceo-allie-k-miller-discusses-ai-daily-life-2026-10?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "url": "https://www.businessinsider.com/open-machine-ceo-allie-k-miller-discusses-ai-daily-life-2026-10",
+          "source": "Business Insider"
         }
       ]
     },
     {
       "keyword": "grpo",
-      "mentions": 48,
-      "velocity": 7.1,
+      "mentions": 45,
+      "velocity": 6.2,
       "sources": [
-        "articles",
         "arxiv",
-        "hackernews",
         "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -104,19 +102,108 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 204,
+      "velocity": 3.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.52,
+      "headline": "ChatGPT can now help you virtually try on clothes",
+      "articles": [
+        {
+          "title": "ChatGPT can now help you virtually try on clothes",
+          "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/?utm_source=flipboard&utm_content=user/Engadget",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
+          "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+          "source": "WIRED"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 39,
+      "velocity": 3.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
+      "articles": [
+        {
+          "title": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
+          "url": "https://www.techmeme.com/260923/p19#a260923p19",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "nvidia",
+      "mentions": 93,
+      "velocity": 3.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.66,
+      "headline": "Nvidia hits its first record since May, within $300B of $6T",
+      "articles": [
+        {
+          "title": "Nvidia hits its first record since May, within $300B of $6T",
+          "url": "https://thenextweb.com/news/nvidia-6-trillion-record-asml-gap",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Nvidia hits record close, nears unprecedented $6 trillion valuation",
+          "url": "https://qz.com/nvidia-stock-record-high-market-cap-6-trillion-100226",
+          "source": "Quartz"
+        },
+        {
+          "title": "Nvidia Shield TV Pro wordt zeven jaar na release 100 euro duurder",
+          "url": "https://tweakers.net/nieuws/252916/nvidia-shield-tv-pro-wordt-zeven-jaar-na-release-100-euro-duurder.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
     }
   ],
   "emerging": [
     {
       "keyword": "fine-tuning",
-      "mentions": 122,
-      "velocity": 8.4,
+      "mentions": 123,
+      "velocity": 8.7,
       "sources": [
+        "articles",
         "arxiv",
         "github",
         "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -136,40 +223,6 @@
           "title": "GPart: End-to-End Isometric Fine-Tuning via Global Parameter Partitioning",
           "url": "https://arxiv.org/abs/2605.14841",
           "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 95,
-      "velocity": 5.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.33,
-      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-      "articles": [
-        {
-          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
-          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
-          "source": "The Next Web"
         }
       ]
     },
@@ -237,33 +290,36 @@
       ]
     },
     {
-      "keyword": "chatgpt",
-      "mentions": 200,
-      "velocity": 2.7,
+      "keyword": "grok",
+      "mentions": 94,
+      "velocity": 5.2,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "ChatGPT can now help you virtually try on clothes",
+      "expert_ratio": 0.33,
+      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
       "articles": [
         {
-          "title": "ChatGPT can now help you virtually try on clothes",
-          "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/?utm_source=flipboard&utm_content=user/Engadget",
+          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
           "source": "Artificial Intelligence"
         },
         {
-          "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
-          "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
-          "source": "WIRED"
+          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
+          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
+          "source": "The Next Web"
         }
       ]
     }
@@ -433,61 +489,9 @@
           "source": "Engadget"
         }
       ]
-    },
-    {
-      "keyword": "techcrunch",
-      "mentions": 3,
-      "velocity": 0.1,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 12,
-      "expert_ratio": 0.69,
-      "headline": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-      "articles": [
-        {
-          "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
-          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
-          "source": "TechCrunch"
-        }
-      ]
     }
   ],
   "sustained": [
-    {
-      "keyword": "claude sonnet",
-      "mentions": 15,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.77,
-      "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
-      "articles": [
-        {
-          "title": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
-          "url": "https://www.techmeme.com/260929/p42#a260929p42",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
-          "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
     {
       "keyword": "minimax",
       "mentions": 26,
@@ -520,40 +524,36 @@
       ]
     },
     {
-      "keyword": "typesafe",
-      "mentions": 12,
-      "velocity": 1.8,
+      "keyword": "claude sonnet",
+      "mentions": 14,
+      "velocity": 1.6,
       "sources": [
         "articles",
+        "arxiv",
         "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.21,
-      "headline": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
+      "days_active": 13,
+      "expert_ratio": 0.78,
+      "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
       "articles": [
         {
-          "title": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
-          "url": "https://www.techmeme.com/260924/p40#a260924p40",
+          "title": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+          "url": "https://www.techmeme.com/260929/p42#a260929p42",
           "source": "Techmeme"
         },
         {
-          "title": "TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making",
+          "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
+          "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
           "source": "Tom's Hardware"
-        },
-        {
-          "title": "Vercel, Cloudflare, and others quickly add Jev, as it makes AI tool selection much faster and cheaper; TypeSafe: Jev mat",
-          "url": "https://www.techmeme.com/260920/p9#a260920p9",
-          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "hugging face",
-      "mentions": 26,
-      "velocity": 1.8,
+      "mentions": 24,
+      "velocity": 1.2,
       "sources": [
         "articles",
         "linkedin",
@@ -583,45 +583,17 @@
       ]
     },
     {
-      "keyword": "qwen",
-      "mentions": 145,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
-      "articles": [
-        {
-          "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
-          "url": "https://arxiv.org/abs/2609.29892",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction",
-          "url": "https://arxiv.org/abs/2609.25176",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "flux",
-      "mentions": 13,
-      "velocity": 1.4,
+      "mentions": 12,
+      "velocity": 1.1,
       "sources": [
-        "articles",
         "hackernews",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
+      "expert_ratio": 0.8,
       "headline": "Zero Flux: Flow-Based Comparison of High-Dimensional Discrete Distributions",
       "articles": [
         {
@@ -640,6 +612,66 @@
           "source": "VentureBeat"
         }
       ]
+    },
+    {
+      "keyword": "prompt engineering",
+      "mentions": 11,
+      "velocity": 1.0,
+      "sources": [
+        "arxiv",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.93,
+      "headline": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
+      "articles": [
+        {
+          "title": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
+          "url": "https://arxiv.org/abs/2609.22249",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
+          "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 21,
+      "velocity": 0.7,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.36,
+      "headline": "Meta told the IRS its AI data centers are experimental to shave $6 billion off its tax bill",
+      "articles": [
+        {
+          "title": "Meta told the IRS its AI data centers are experimental to shave $6 billion off its tax bill",
+          "url": "https://www.techradar.com/pro/meta-told-the-irs-its-ai-data-centers-are-experimental-to-shave-usd6-billion-off-its-tax-bill",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Data centers and healthcare were bright spots in the rough September jobs report",
+          "url": "https://www.businessinsider.com/data-centers-healthcare-job-growth-september-jobs-report-2026-10",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "1 800 lancements de Starship : c’est ce qu’il faudrait à Google pour faire décoller ses data centers spatiaux !",
+          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-1-800-lancements-starship-cest-ce-quil-faudrait-google-faire-decoller-data-centers-spatiaux-138198/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
+        }
+      ]
     }
   ],
   "track_record": {
@@ -654,14 +686,6 @@
     "hit_rate": 0.531,
     "materialized": 145,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 109,
-        "covered": 17,
-        "early": 11,
-        "coverage_rate": 0.156,
-        "early_rate": 0.101,
-        "hit_rate": 0.156
-      },
       "emerging": {
         "scored": 164,
         "covered": 128,
@@ -669,6 +693,14 @@
         "coverage_rate": 0.78,
         "early_rate": 0.396,
         "hit_rate": 0.78
+      },
+      "weak_signal": {
+        "scored": 109,
+        "covered": 17,
+        "early": 11,
+        "coverage_rate": 0.156,
+        "early_rate": 0.101,
+        "hit_rate": 0.156
       }
     }
   },
@@ -778,19 +810,7 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "grok",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
-      },
-      {
         "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "cursor",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 1.0
@@ -802,13 +822,25 @@
         "confidence": 1.0
       },
       {
-        "keyword": "opencode",
+        "keyword": "cursor",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "grok",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "ai consciousness",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
       },
       {
-        "keyword": "ai consciousness",
+        "keyword": "opencode",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
@@ -880,17 +912,10 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "embodied ai",
-        "recent_mentions": 15,
-        "prior_mentions": 2,
-        "change_ratio": 7.5,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "claude sonnet",
-        "recent_mentions": 50,
+        "recent_mentions": 49,
         "prior_mentions": 8,
-        "change_ratio": 6.25,
+        "change_ratio": 6.12,
         "corroborating_sources": 6
       },
       {
@@ -908,10 +933,17 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "blackwell",
-        "recent_mentions": 10,
+        "keyword": "embodied ai",
+        "recent_mentions": 11,
         "prior_mentions": 2,
-        "change_ratio": 5.0,
+        "change_ratio": 5.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "blackwell",
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
         "corroborating_sources": 1
       },
       {
@@ -922,17 +954,17 @@
         "corroborating_sources": 2
       },
       {
+        "keyword": "voice agent",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "notebooklm",
         "recent_mentions": 7,
         "prior_mentions": 2,
         "change_ratio": 3.5,
-        "corroborating_sources": 3
-      },
-      {
-        "keyword": "claude cowork",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
         "corroborating_sources": 3
       }
     ]
