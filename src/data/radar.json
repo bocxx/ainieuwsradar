@@ -1,19 +1,156 @@
 {
-  "generated_at": "2026-10-02T07:14:14.753857",
-  "total_tracked": 3427,
+  "generated_at": "2026-10-02T19:16:25.820812",
+  "total_tracked": 3470,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "fine-tuning",
-      "mentions": 226,
-      "velocity": 39.8,
+      "keyword": "claude",
+      "mentions": 524,
+      "velocity": 18.3,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews"
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "Claude fallisce con Riemann, ma trova un risultato che stupisce i matematici",
+      "articles": [
+        {
+          "title": "Claude fallisce con Riemann, ma trova un risultato che stupisce i matematici",
+          "url": "https://www.tomshw.it/scienze/claude-ispira-una-prova-piu-semplice-sui-primi-anche-fallire-serve",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "I run an AI company with a workforce of 34 AI agents. My days are powered by Diet Coke, DoorDash, and 'Claude walks' — h",
+          "url": "https://www.businessinsider.com/open-machine-ceo-allie-k-miller-discusses-ai-daily-life-2026-10?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Claude, GPT, Gemini o Mistral in fabbrica: come scegliere un LLM in manifattura",
+          "url": "https://www.tomshw.it/aioperator/claude-gpt-gemini-o-mistral-in-fabbrica-come-scegliere-un-llm-in-manifattura",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "grpo",
+      "mentions": 48,
+      "velocity": 7.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin"
       ],
       "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Fixing GRPO's credit assignment problem without evaluating every step",
+      "articles": [
+        {
+          "title": "Fixing GRPO's credit assignment problem without evaluating every step",
+          "url": "https://arxiv.org/abs/2609.36178",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Exploring More, Reasoning Better: Stepwise Risk-Sensitive GRPO for Diffusion Language Models",
+          "url": "https://arxiv.org/abs/2610.00661",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "GRPO Training Dynamics for Small Language Models",
+          "url": "https://arxiv.org/abs/2609.39321",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "nvidia",
+      "mentions": 103,
+      "velocity": 6.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.66,
+      "headline": "California man smuggled $300 million in Nvidia chips to China, prosecutors say",
+      "articles": [
+        {
+          "title": "California man smuggled $300 million in Nvidia chips to China, prosecutors say",
+          "url": "https://www.businessinsider.com/us-man-charged-smuggling-300-million-nvidia-chips-china-2026-10",
+          "source": "Business Insider"
+        },
+        {
+          "title": "The Nvidia Shield has been discontinued at last, but the Shield Pro lives on with a 50% price hike",
+          "url": "https://www.techradar.com/televisions/streaming-devices/the-nvidia-shield-has-been-discontinued-at-last-but-the-shield-pro-lives-on-only-with-a-50-percent-price-hike-due-to-the-memory-crisis",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 209,
+      "velocity": 5.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.52,
+      "headline": "ChatGPT can now help you virtually try on clothes",
+      "articles": [
+        {
+          "title": "ChatGPT can now help you virtually try on clothes",
+          "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/?utm_source=flipboard&utm_content=user/Engadget",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
+          "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+          "source": "Security Latest"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "fine-tuning",
+      "mentions": 122,
+      "velocity": 8.4,
+      "sources": [
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -37,143 +174,107 @@
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 251,
-      "velocity": 35.3,
+      "keyword": "rlvr",
+      "mentions": 28,
+      "velocity": 5.5,
+      "sources": [
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 13,
+      "expert_ratio": 0.98,
+      "headline": "On Language Drift during RLVR Post-Training",
+      "articles": [
+        {
+          "title": "On Language Drift during RLVR Post-Training",
+          "url": "https://arxiv.org/abs/2610.02015",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Advancing Entropy-Level Credit Assignment in RLVR via Proximal Entropy Policy Optimization",
+          "url": "https://arxiv.org/abs/2609.39402",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Unlearnable, or Unmeasured? On the Reliability of Difficulty Labels in RLVR",
+          "url": "https://arxiv.org/abs/2609.40115",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 189,
+      "velocity": 5.2,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "EurekaBench: Measuring Agentic Ability to Discover New Scientific Insights",
+      "expert_ratio": 0.77,
+      "headline": "Sources: Broadcom's Wall Street syndicate is amassing $60B in AI chip financing to help Anthropic and others access chip",
       "articles": [
         {
-          "title": "EurekaBench: Measuring Agentic Ability to Discover New Scientific Insights",
-          "url": "https://arxiv.org/abs/2610.00492",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Sources: Broadcom's Wall Street syndicate is amassing $60B in AI chip financing to help Anthropic and others access chip",
+          "url": "https://www.techmeme.com/261002/p13#a261002p13",
+          "source": "Techmeme"
         },
         {
-          "title": "Agents Are Systems, Not Models: Rethinking Agentic Evaluation",
-          "url": "https://arxiv.org/abs/2610.01618",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic tells IPO investors US government actions could hit its business",
+          "url": "https://thenextweb.com/news/anthropic-ipo-prospectus-government-risk-customers?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Cross-Benchmark Transfer from RL on Agentic Coding Tasks",
-          "url": "https://arxiv.org/abs/2610.00890",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic warns U.S. government actions could hurt commercial customer relationships",
+          "url": "https://qz.com/anthropic-ipo-prospectus-government-actions-commercial-customers-100226",
+          "source": "Quartz"
         }
       ]
     },
     {
-      "keyword": "qwen",
-      "mentions": 246,
-      "velocity": 32.0,
+      "keyword": "distillation",
+      "mentions": 65,
+      "velocity": 4.7,
       "sources": [
-        "articles",
         "arxiv",
-        "reddit"
+        "hackernews",
+        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+      "expert_ratio": 0.99,
+      "headline": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
       "articles": [
         {
-          "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
-          "url": "https://arxiv.org/abs/2609.29892",
+          "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+          "url": "https://arxiv.org/abs/2610.02117",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction",
-          "url": "https://arxiv.org/abs/2609.25176",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "simulation",
-      "mentions": 119,
-      "velocity": 26.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
-      "articles": [
-        {
-          "title": "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
-          "url": "https://arxiv.org/abs/2610.01257",
+          "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
+          "url": "https://arxiv.org/abs/2610.02188",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "InterviewSim: A Scalable Framework for Interview-Grounded Personality Simulation",
-          "url": "https://arxiv.org/abs/2602.20294",
+          "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+          "url": "https://arxiv.org/abs/2610.02207",
           "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Code Owns the Simulation, Jev Owns the Evaluation",
-          "url": "https://arxiv.org/abs/2610.01834",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "gemini",
-      "mentions": 247,
-      "velocity": 10.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.46,
-      "headline": "Gemini Live diventa gli occhi per i non vedenti tramite una nuova funzione",
-      "articles": [
-        {
-          "title": "Gemini Live diventa gli occhi per i non vedenti tramite una nuova funzione",
-          "url": "https://www.tomshw.it/smartphone/gemini-live-diventa-gli-occhi-per-i-non-vedenti-tramite-una-nuova-funzione",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
-          "url": "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "Guided Vision in Gemini Live: built for accessibility",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
-          "source": "The Official Google Blog"
         }
       ]
     },
     {
       "keyword": "grok",
-      "mentions": 92,
-      "velocity": 4.6,
+      "mentions": 91,
+      "velocity": 4.3,
       "sources": [
         "articles",
         "arxiv",
@@ -185,49 +286,58 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.34,
-      "headline": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
+      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
       "articles": [
         {
-          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
-          "source": "Artificial Intelligence (AI) | TechCrunch"
+          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
           "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
           "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
           "source": "The Next Web"
-        },
-        {
-          "title": "Document: SpaceXAI plans a unified subscription for Grok and X with four tiers, including a $100/month Ultra plan, an $8",
-          "url": "https://www.techmeme.com/260930/p39#a260930p39",
-          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "vibe coding",
-      "mentions": 34,
-      "velocity": 3.5,
+      "keyword": "agentic",
+      "mentions": 143,
+      "velocity": 2.7,
       "sources": [
         "articles",
         "arxiv",
-        "reddit"
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.49,
-      "headline": "VibeOps tackles the governance challenge of enterprise vibe coding - venturebeat.com",
+      "expert_ratio": 0.83,
+      "headline": "Cross-Benchmark Transfer from RL on Agentic Coding Tasks",
       "articles": [
         {
-          "title": "VibeOps tackles the governance challenge of enterprise vibe coding - venturebeat.com",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbDdjRDZlWHdKSXNseUNPY0I0U2xsaVg0cmxQY1YxdV9aMTNqdEEzakpVMHV1YkYyb1o2WnlSYWEtWkdqWGc2Z0lJb2dlVWFZVW5UR0pLcHdVNlVBdmFMSEYxSHpFTUpWaVBlX01yMF9hSGZidFRlMFJPRl9JMksya1pZaUI0LXY3bWl6T1dtZlIycUVlZWdvbWc0aklBUnJNQUR2Tmlycw?oc=5",
-          "source": "VentureBeat"
+          "title": "Cross-Benchmark Transfer from RL on Agentic Coding Tasks",
+          "url": "https://arxiv.org/abs/2610.00890",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Lovable’s annualized revenue crosses $600M as vibe coding takes off",
-          "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
-          "source": "TechCrunch"
+          "title": "T2SPO: Trajectory-to-Step Policy Optimization for Agentic Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2610.00388",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark",
+          "url": "https://arxiv.org/abs/2608.11469",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -264,36 +374,6 @@
       ]
     },
     {
-      "keyword": "ai search",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
-      "articles": [
-        {
-          "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
-          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-          "source": "Ars Technica"
-        },
-        {
-          "title": "Google reportedly tests paying publishers for AI search results",
-          "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
-          "source": "The Verge -  Artificial Intelligences"
-        },
-        {
-          "title": "Jim Lanzone on Yahoo’s plan to fix AI search with more links to publishers",
-          "url": "https://thenextweb.com/news/jim-lanzone-yahoo-ai-agents-email-tnw-podcast",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
       "keyword": "atlas",
       "mentions": 3,
       "velocity": 0.8,
@@ -324,102 +404,138 @@
       ]
     },
     {
-      "keyword": "azure",
-      "mentions": 2,
-      "velocity": 0.1,
+      "keyword": "ai search",
+      "mentions": 3,
+      "velocity": 0.5,
       "sources": [
-        "linkedin"
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "Google won a court dismissal of publishers' antitrust suits over AI search summaries",
+      "articles": [
+        {
+          "title": "Google won a court dismissal of publishers' antitrust suits over AI search summaries",
+          "url": "https://qz.com/google-antitrust-dismissal-chegg-penske-ai-search-summaries-100226",
+          "source": "Quartz"
+        },
+        {
+          "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+          "source": "AI - Ars Technica"
+        },
+        {
+          "title": "Google reportedly tests paying publishers for AI search results",
+          "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+          "source": "The Verge -  Artificial Intelligences"
+        }
+      ]
+    },
+    {
+      "keyword": "train",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 5,
+      "expert_ratio": 0.91,
+      "headline": "Bankers, don't dodge train fares on your commute. It could get you barred from the industry.",
+      "articles": [
+        {
+          "title": "Bankers, don't dodge train fares on your commute. It could get you barred from the industry.",
+          "url": "https://www.businessinsider.com/hsbc-banker-barred-from-finance-industry-dodging-train-fare-conviction-2026-10",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "retrieval augmented generation",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "arxiv"
       ],
       "source_count": 1,
       "confidence": 95,
-      "days_active": 15,
-      "expert_ratio": 1.0,
-      "headline": "Azure maintenance mess disrupts hybrid clouds, VPNs, cloudy VMware services",
+      "days_active": 9,
+      "expert_ratio": 0.91,
+      "headline": "BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models",
       "articles": [
         {
-          "title": "Azure maintenance mess disrupts hybrid clouds, VPNs, cloudy VMware services",
-          "url": "https://www.theregister.com/off-prem/2026/10/01/azure-maintenance-mess-disrupts-hybrid-clouds-vpns-cloudy-vmware-services/5300333",
-          "source": "The Register"
+          "title": "BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models",
+          "url": "https://arxiv.org/abs/2406.00083",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "ai assistant",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 79,
+      "days_active": 5,
+      "expert_ratio": 0.75,
+      "headline": "Instagram’s Edits app gets an AI assistant that reads your Reels data",
+      "articles": [
+        {
+          "title": "Instagram’s Edits app gets an AI assistant that reads your Reels data",
+          "url": "https://thenextweb.com/news/instagram-edits-assistant-ai-creators-reels",
+          "source": "The Next Web"
         },
         {
-          "title": "JadePuffer crims hijacked Azure identities and used them to blow up cloud resources",
-          "url": "https://www.theregister.com/security/2026/09/28/jadepuffer-crims-hijacked-azure-identities-and-used-them-to-blow-up-cloud-resources/5299591",
-          "source": "The Register - Security"
+          "title": "Why DoorDash Needs Its Own AI Assistant",
+          "url": "https://www.theinformation.com/articles/doordash-needs-ai-assistant",
+          "source": "The Information"
+        },
+        {
+          "title": "Meta introduces a new AI assistant for its Instagram creators",
+          "url": "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators/",
+          "source": "Engadget"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "cuda",
-      "mentions": 14,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.9,
-      "headline": "DeepSeek open-sources Huawei chip tools as a simpler alternative to CUDA",
-      "articles": [
-        {
-          "title": "DeepSeek open-sources Huawei chip tools as a simpler alternative to CUDA",
-          "url": "https://thenextweb.com/news/deepseek-huawei-ascend-tilelang-open-source-cuda",
-          "source": "The Next Web"
-        },
-        {
-          "title": "DeepSeek says it has partnered with Huawei to develop programming tools for Huawei's Ascend chips, including TileLang, a",
-          "url": "https://www.techmeme.com/260930/p2#a260930p2",
-          "source": "Techmeme"
-        },
-        {
-          "title": "v0.31.0rc1: [CI/Build] Skip the snapshot runtime on CUDA 12.x images (#59118)",
-          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1",
-          "source": "vLLM Releases"
-        }
-      ]
-    },
-    {
-      "keyword": "google deepmind",
-      "mentions": 11,
-      "velocity": 1.6,
+      "keyword": "claude sonnet",
+      "mentions": 15,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
-        "reddit"
+        "linkedin"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "Google DeepMind’s watermarked AI proteins still work in the lab",
+      "days_active": 13,
+      "expert_ratio": 0.77,
+      "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
       "articles": [
         {
-          "title": "Google DeepMind’s watermarked AI proteins still work in the lab",
-          "url": "https://thenextweb.com/news/google-deepmind-synthid-bio-watermark-ai-designed-proteins",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Google DeepMind introduces SynthID Bio, a family of watermarking methods for AI-designed proteins to help with biosecuri",
-          "url": "https://www.techmeme.com/260930/p36#a260930p36",
+          "title": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+          "url": "https://www.techmeme.com/260929/p42#a260929p42",
           "source": "Techmeme"
         },
         {
-          "title": "A look at the wave of Google DeepMind researchers who have exited recently to launch their own AI startups focused on al",
-          "url": "https://www.techmeme.com/260926/p6#a260926p6",
-          "source": "Techmeme"
+          "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
+          "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
       "keyword": "minimax",
-      "mentions": 25,
-      "velocity": 1.5,
+      "mentions": 26,
+      "velocity": 1.8,
       "sources": [
         "linkedin",
         "reddit"
@@ -448,104 +564,126 @@
       ]
     },
     {
-      "keyword": "deepmind",
-      "mentions": 13,
-      "velocity": 1.3,
+      "keyword": "vibe coding",
+      "mentions": 28,
+      "velocity": 1.7,
       "sources": [
         "articles",
-        "arxiv",
-        "linkedin",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Google DeepMind’s watermarked AI proteins still work in the lab",
+      "expert_ratio": 0.49,
+      "headline": "VibeOps tackles the governance challenge of enterprise vibe coding - venturebeat.com",
       "articles": [
         {
-          "title": "Google DeepMind’s watermarked AI proteins still work in the lab",
-          "url": "https://thenextweb.com/news/google-deepmind-synthid-bio-watermark-ai-designed-proteins",
-          "source": "The Next Web"
+          "title": "VibeOps tackles the governance challenge of enterprise vibe coding - venturebeat.com",
+          "url": "https://venturebeat.com/orchestration/vibeops-tackles-the-governance-challenge-of-enterprise-vibe-coding",
+          "source": "VentureBeat"
         },
         {
-          "title": "Google DeepMind introduces SynthID Bio, a family of watermarking methods for AI-designed proteins to help with biosecuri",
-          "url": "https://www.techmeme.com/260930/p36#a260930p36",
-          "source": "Techmeme"
-        },
-        {
-          "title": "A look at the wave of Google DeepMind researchers who have exited recently to launch their own AI startups focused on al",
-          "url": "https://www.techmeme.com/260926/p6#a260926p6",
-          "source": "Techmeme"
+          "title": "Lovable’s annualized revenue crosses $600M as vibe coding takes off",
+          "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
+          "source": "TechCrunch"
         }
       ]
     },
     {
-      "keyword": "nvidia",
-      "mentions": 85,
-      "velocity": 1.0,
+      "keyword": "flux",
+      "mentions": 14,
+      "velocity": 1.7,
       "sources": [
         "articles",
-        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Zero Flux: Flow-Based Comparison of High-Dimensional Discrete Distributions",
+      "articles": [
+        {
+          "title": "Zero Flux: Flow-Based Comparison of High-Dimensional Discrete Distributions",
+          "url": "https://arxiv.org/abs/2610.01472",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Beat Saber Flux demo on Meta VR glasses",
+          "url": "https://www.youtube.com/shorts/niZl1U3TG2Y",
+          "source": "The Verge"
+        },
+        {
+          "title": "Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of ",
+          "url": "https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 41,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
         "github",
         "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "Experts say mounting cases of Nvidia chips reaching Chinese AI companies despite US export controls are increasingly poi",
+      "expert_ratio": 0.53,
+      "headline": "Self-Evolving Coding Rules for AI Coding Agents",
       "articles": [
         {
-          "title": "Experts say mounting cases of Nvidia chips reaching Chinese AI companies despite US export controls are increasingly poi",
-          "url": "https://www.techmeme.com/261001/p49#a261001p49",
-          "source": "Techmeme"
+          "title": "Self-Evolving Coding Rules for AI Coding Agents",
+          "url": "https://arxiv.org/abs/2610.00650",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Man Charged by US With Illegally Shipping Nvidia Chips to China",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-02/man-charged-by-us-with-illegally-shipping-nvidia-chips-to-china",
-          "source": "Bloomberg Technology"
+          "title": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
+          "url": "https://arxiv.org/abs/2606.12329",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Nvidia Faces Questions Over China AI Chip Smuggling Cases",
-          "url": "https://www.bloomberg.com/news/features/2026-10-01/nvidia-faces-questions-over-china-ai-chip-smuggling-cases",
-          "source": "Bloomberg Technology"
+          "title": "Approval Laundering: Systematizing Approval--Execution Binding Failures in AI Coding-Agent Harnesses",
+          "url": "https://arxiv.org/abs/2609.38983",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "model context protocol",
-      "mentions": 13,
-      "velocity": 0.9,
+      "keyword": "hugging face",
+      "mentions": 25,
+      "velocity": 1.5,
       "sources": [
         "articles",
-        "github",
         "linkedin",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.79,
-      "headline": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "headline": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
       "articles": [
         {
-          "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-          "url": "https://arxiv.org/abs/2609.30341",
+          "title": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
+          "url": "https://arxiv.org/abs/2610.00902",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Ascent: An Agentic System over the Model Context Protocol for Real-World Clinical Data Analysis",
-          "url": "https://arxiv.org/abs/2609.24620",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=8&partner=newsletter&campaign_date=10022026",
+          "source": "Fast Company"
         },
         {
-          "title": "A Taxonomy of Runtime Faults in Model Context Protocol Servers",
-          "url": "https://arxiv.org/abs/2606.05339",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=11&partner=newsletter&campaign_date=10022026",
+          "source": "Fast Company"
         }
       ]
     }
@@ -663,16 +801,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "prompt engineering",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-18",
-      "materialized_on": "2026-09-23",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
-    },
-    {
       "keyword": "flair",
       "signal_type": "emerging",
       "flagged_on": "2026-08-06",
@@ -681,15 +809,43 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+    },
+    {
+      "keyword": "prompt engineering",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "grok",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 1.0
+      },
+      {
         "keyword": "cursor",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 1.0
+      },
+      {
+        "keyword": "opencode",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 0.4
       },
       {
         "keyword": "ai consciousness",
@@ -738,24 +894,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-09-30",
         "confidence": 0.6
-      },
-      {
-        "keyword": "stable diffusion",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-29",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "phi-4",
-        "signal_type": "emerging",
-        "flagged_on": "2026-09-28",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "ai copyright",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-09-28",
-        "confidence": 0
       }
     ],
     "heating_up": [
@@ -796,9 +934,9 @@
       },
       {
         "keyword": "claude sonnet",
-        "recent_mentions": 52,
+        "recent_mentions": 50,
         "prior_mentions": 8,
-        "change_ratio": 6.5,
+        "change_ratio": 6.25,
         "corroborating_sources": 6
       },
       {
@@ -816,13 +954,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "claude haiku",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "blackwell",
         "recent_mentions": 10,
         "prior_mentions": 2,
@@ -830,18 +961,25 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "slm",
-        "recent_mentions": 37,
-        "prior_mentions": 8,
-        "change_ratio": 4.62,
-        "corroborating_sources": 1
+        "keyword": "claude haiku",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 9,
+        "keyword": "notebooklm",
+        "recent_mentions": 6,
         "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
+        "change_ratio": 3.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude cowork",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 3
       }
     ]
   }
