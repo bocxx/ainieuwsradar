@@ -1,12 +1,89 @@
 {
-  "generated_at": "2026-10-02T22:46:38.091378",
-  "total_tracked": 3489,
+  "generated_at": "2026-10-03T07:12:13.920986",
+  "total_tracked": 3387,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "llama.cpp",
+      "mentions": 29,
+      "velocity": 4.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Transformers now runs llama.cpp quants",
+      "articles": [
+        {
+          "title": "Transformers now runs llama.cpp quants",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 44,
+      "velocity": 3.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
+      "articles": [
+        {
+          "title": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+          "source": "Ollama Releases"
+        },
+        {
+          "title": "Transformers now runs llama.cpp quants",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering",
+      "mentions": 16,
+      "velocity": 2.2,
+      "sources": [
+        "arxiv",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.93,
+      "headline": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
+      "articles": [
+        {
+          "title": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
+          "url": "https://arxiv.org/abs/2609.22249",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
+          "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "claude",
-      "mentions": 529,
-      "velocity": 19.8,
+      "mentions": 516,
+      "velocity": 10.0,
       "sources": [
         "articles",
         "arxiv",
@@ -20,60 +97,29 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.76,
-      "headline": "Anthropic launches the Claude Frontier Academy with a $100M commitment to train 10K Frontier Deployed Engineers by 2028,",
+      "headline": "Achtergrond - Claude uploadde malware, maar worstelde eerst urenlang met captcha's",
       "articles": [
+        {
+          "title": "Achtergrond - Claude uploadde malware, maar worstelde eerst urenlang met captcha's",
+          "url": "https://tweakers.net/reviews/15370/claude-uploadde-malware-maar-worstelde-eerst-urenlang-met-captchas.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+          "url": "https://anthropic.com/news/claude-frontier-academy",
+          "source": "Anthropic"
+        },
         {
           "title": "Anthropic launches the Claude Frontier Academy with a $100M commitment to train 10K Frontier Deployed Engineers by 2028,",
           "url": "https://www.techmeme.com/261002/p18#a261002p18",
           "source": "Techmeme"
-        },
-        {
-          "title": "Claude fallisce con Riemann, ma trova un risultato che stupisce i matematici",
-          "url": "https://www.tomshw.it/scienze/claude-ispira-una-prova-piu-semplice-sui-primi-anche-fallire-serve",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "I run an AI company with a workforce of 34 AI agents. My days are powered by Diet Coke, DoorDash, and 'Claude walks' — h",
-          "url": "https://www.businessinsider.com/open-machine-ceo-allie-k-miller-discusses-ai-daily-life-2026-10",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "grpo",
-      "mentions": 45,
-      "velocity": 6.2,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Fixing GRPO's credit assignment problem without evaluating every step",
-      "articles": [
-        {
-          "title": "Fixing GRPO's credit assignment problem without evaluating every step",
-          "url": "https://arxiv.org/abs/2609.36178",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Exploring More, Reasoning Better: Stepwise Risk-Sensitive GRPO for Diffusion Language Models",
-          "url": "https://arxiv.org/abs/2610.00661",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "GRPO Training Dynamics for Small Language Models",
-          "url": "https://arxiv.org/abs/2609.39321",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "lora",
-      "mentions": 46,
-      "velocity": 4.2,
+      "mentions": 51,
+      "velocity": 4.5,
       "sources": [
         "arxiv",
         "github",
@@ -83,7 +129,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
+      "expert_ratio": 0.87,
       "headline": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
       "articles": [
         {
@@ -104,132 +150,30 @@
       ]
     },
     {
-      "keyword": "chatgpt",
-      "mentions": 204,
-      "velocity": 3.9,
+      "keyword": "astabrief",
+      "mentions": 6,
+      "velocity": 4.0,
       "sources": [
         "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "ChatGPT can now help you virtually try on clothes",
-      "articles": [
-        {
-          "title": "ChatGPT can now help you virtually try on clothes",
-          "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/?utm_source=flipboard&utm_content=user/Engadget",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
-          "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
-          "source": "WIRED"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 39,
-      "velocity": 3.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
-      "articles": [
-        {
-          "title": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
-          "url": "https://www.techmeme.com/260923/p19#a260923p19",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 93,
-      "velocity": 3.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "Nvidia hits its first record since May, within $300B of $6T",
-      "articles": [
-        {
-          "title": "Nvidia hits its first record since May, within $300B of $6T",
-          "url": "https://thenextweb.com/news/nvidia-6-trillion-record-asml-gap",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Nvidia hits record close, nears unprecedented $6 trillion valuation",
-          "url": "https://qz.com/nvidia-stock-record-high-market-cap-6-trillion-100226",
-          "source": "Quartz"
-        },
-        {
-          "title": "Nvidia Shield TV Pro wordt zeven jaar na release 100 euro duurder",
-          "url": "https://tweakers.net/nieuws/252916/nvidia-shield-tv-pro-wordt-zeven-jaar-na-release-100-euro-duurder.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "fine-tuning",
-      "mentions": 123,
-      "velocity": 8.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
         "hackernews"
       ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "No Model Required: Text Entropy Rate Filtering Mitigates Iterative Fine-Tuning Collapse",
+      "source_count": 2,
+      "confidence": 86,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
       "articles": [
         {
-          "title": "No Model Required: Text Entropy Rate Filtering Mitigates Iterative Fine-Tuning Collapse",
-          "url": "https://arxiv.org/abs/2610.01493",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classific",
-          "url": "https://arxiv.org/abs/2505.18315",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "GPart: End-to-End Isometric Fine-Tuning via Global Parameter Partitioning",
-          "url": "https://arxiv.org/abs/2605.14841",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "url": "https://huggingface.co/blog/allenai/astabrief",
+          "source": "Hugging Face Blog"
         }
       ]
     },
     {
       "keyword": "rlvr",
       "mentions": 28,
-      "velocity": 5.5,
+      "velocity": 3.8,
       "sources": [
         "arxiv",
         "linkedin"
@@ -258,68 +202,35 @@
       ]
     },
     {
-      "keyword": "distillation",
-      "mentions": 67,
-      "velocity": 5.3,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-      "articles": [
-        {
-          "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-          "url": "https://arxiv.org/abs/2610.02117",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-          "url": "https://arxiv.org/abs/2610.02188",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-          "url": "https://arxiv.org/abs/2610.02207",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 94,
-      "velocity": 5.2,
+      "keyword": "fine-tuning",
+      "mentions": 114,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "arxiv",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "github",
+        "hackernews"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.33,
-      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+      "expert_ratio": 0.99,
+      "headline": "No Model Required: Text Entropy Rate Filtering Mitigates Iterative Fine-Tuning Collapse",
       "articles": [
         {
-          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
-          "source": "Tom's Hardware"
+          "title": "No Model Required: Text Entropy Rate Filtering Mitigates Iterative Fine-Tuning Collapse",
+          "url": "https://arxiv.org/abs/2610.01493",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "title": "COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classific",
+          "url": "https://arxiv.org/abs/2505.18315",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
-          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
-          "source": "The Next Web"
+          "title": "GPart: End-to-End Isometric Fine-Tuning via Global Parameter Partitioning",
+          "url": "https://arxiv.org/abs/2605.14841",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -386,36 +297,6 @@
       ]
     },
     {
-      "keyword": "ai search",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
-      "headline": "Google won a court dismissal of publishers' antitrust suits over AI search summaries",
-      "articles": [
-        {
-          "title": "Google won a court dismissal of publishers' antitrust suits over AI search summaries",
-          "url": "https://qz.com/google-antitrust-dismissal-chegg-penske-ai-search-summaries-100226",
-          "source": "Quartz"
-        },
-        {
-          "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
-          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-          "source": "AI - Ars Technica"
-        },
-        {
-          "title": "Google reportedly tests paying publishers for AI search results",
-          "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
-          "source": "The Verge -  Artificial Intelligences"
-        }
-      ]
-    },
-    {
       "keyword": "train",
       "mentions": 3,
       "velocity": 0.4,
@@ -426,16 +307,51 @@
       "confidence": 77,
       "days_active": 5,
       "expert_ratio": 0.91,
-      "headline": "Anthropic launches the Claude Frontier Academy with a $100M commitment to train 10K Frontier Deployed Engineers by 2028,",
+      "headline": "Claude Frontier Academy: $100M to train 10,000 engineers",
       "articles": [
+        {
+          "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+          "url": "https://anthropic.com/news/claude-frontier-academy",
+          "source": "Anthropic"
+        },
+        {
+          "title": "Anthropic funds $100M academy to train deployed AI engineers",
+          "url": "https://www.businessinsider.com/anthropic-will-train-10-000-ai-engineers-boost-enterprise-adoption-2026-10",
+          "source": "Business Insider"
+        },
         {
           "title": "Anthropic launches the Claude Frontier Academy with a $100M commitment to train 10K Frontier Deployed Engineers by 2028,",
           "url": "https://www.techmeme.com/261002/p18#a261002p18",
           "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "pain",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 7,
+      "expert_ratio": 0.69,
+      "headline": "Congress Leaves With a Whimper, as the G.O.P. Braces for Midterm Pain",
+      "articles": [
+        {
+          "title": "Congress Leaves With a Whimper, as the G.O.P. Braces for Midterm Pain",
+          "url": "https://www.nytimes.com/2026/10/01/us/politics/republicans-congress-midterm-elections-trump-affordability.html",
+          "source": "The New York Times"
         },
         {
-          "title": "Bankers, don't dodge train fares on your commute. It could get you barred from the industry.",
-          "url": "https://www.businessinsider.com/hsbc-banker-barred-from-finance-industry-dodging-train-fare-conviction-2026-10",
+          "title": "Sex-specific mechanisms of chronic pain | Science",
+          "url": "https://www.science.org/doi/10.1126/science.aeh4468",
+          "source": "Science: Current Issue"
+        },
+        {
+          "title": "The Oracle of Wall Street says the pain of high gas prices is starting to hit high-income Americans",
+          "url": "https://www.businessinsider.com/high-gas-prices-higer-income-meredith-whitney-iran-war-oil-2026-9",
           "source": "Business Insider"
         }
       ]
@@ -450,7 +366,7 @@
       "source_count": 1,
       "confidence": 95,
       "days_active": 9,
-      "expert_ratio": 0.91,
+      "expert_ratio": 0.9,
       "headline": "BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models",
       "articles": [
         {
@@ -461,16 +377,41 @@
       ]
     },
     {
-      "keyword": "ai assistant",
+      "keyword": "techcrunch",
       "mentions": 3,
       "velocity": 0.3,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 12,
+      "expert_ratio": 0.71,
+      "headline": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+      "articles": [
+        {
+          "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
+          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "ai assistant",
+      "mentions": 3,
+      "velocity": 0.2,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 79,
-      "days_active": 5,
-      "expert_ratio": 0.75,
+      "confidence": 85,
+      "days_active": 6,
+      "expert_ratio": 0.8,
       "headline": "Instagram’s Edits app gets an AI assistant that reads your Reels data",
       "articles": [
         {
@@ -493,40 +434,42 @@
   ],
   "sustained": [
     {
-      "keyword": "minimax",
-      "mentions": 26,
-      "velocity": 1.8,
+      "keyword": "data centers",
+      "mentions": 23,
+      "velocity": 1.1,
       "sources": [
-        "linkedin",
-        "reddit"
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Lower Bounds for Stochastic First-Order Algorithms with Variance Reduction in Nonconvex--Concave Minimax Optimization",
+      "expert_ratio": 0.35,
+      "headline": "Google Tests Plan for A.I. Data Centers in Space",
       "articles": [
         {
-          "title": "Lower Bounds for Stochastic First-Order Algorithms with Variance Reduction in Nonconvex--Concave Minimax Optimization",
-          "url": "https://arxiv.org/abs/2610.01662",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Google Tests Plan for A.I. Data Centers in Space",
+          "url": "https://www.nytimes.com/video/podcasts/the-daily/100000011191505/google-tests-plan-for-ai-data-centers-in-space.html",
+          "source": "Artificial Intelligence Special Report"
         },
         {
-          "title": "Bandits with Multiple Optimal Arms: Minimax Regret and Non-Adaptivit",
-          "url": "https://arxiv.org/abs/2609.38659",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Meta told the IRS its AI data centers are experimental to shave $6 billion off its tax bill",
+          "url": "https://www.techradar.com/pro/meta-told-the-irs-its-ai-data-centers-are-experimental-to-shave-usd6-billion-off-its-tax-bill",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Minimax rates for learning spectral Barron functions by deep ReLU neural networks",
-          "url": "https://arxiv.org/abs/2609.39020",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Data centers and healthcare were bright spots in the rough September jobs report",
+          "url": "https://www.businessinsider.com/data-centers-healthcare-job-growth-september-jobs-report-2026-10",
+          "source": "All Content from Business Insider"
         }
       ]
     },
     {
       "keyword": "claude sonnet",
-      "mentions": 14,
-      "velocity": 1.6,
+      "mentions": 11,
+      "velocity": 0.2,
       "sources": [
         "articles",
         "arxiv",
@@ -535,7 +478,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 13,
-      "expert_ratio": 0.78,
+      "expert_ratio": 0.75,
       "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
       "articles": [
         {
@@ -551,98 +494,9 @@
       ]
     },
     {
-      "keyword": "hugging face",
-      "mentions": 24,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
-      "articles": [
-        {
-          "title": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
-          "url": "https://arxiv.org/abs/2610.00902",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=10012026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=11&partner=newsletter&campaign_date=10022026",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "flux",
-      "mentions": 12,
-      "velocity": 1.1,
-      "sources": [
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "Zero Flux: Flow-Based Comparison of High-Dimensional Discrete Distributions",
-      "articles": [
-        {
-          "title": "Zero Flux: Flow-Based Comparison of High-Dimensional Discrete Distributions",
-          "url": "https://arxiv.org/abs/2610.01472",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Beat Saber Flux demo on Meta VR glasses",
-          "url": "https://www.youtube.com/shorts/niZl1U3TG2Y",
-          "source": "The Verge"
-        },
-        {
-          "title": "Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of ",
-          "url": "https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
-      "keyword": "prompt engineering",
-      "mentions": 11,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-      "articles": [
-        {
-          "title": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-          "url": "https://arxiv.org/abs/2609.22249",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
-          "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "data centers",
-      "mentions": 21,
-      "velocity": 0.7,
+      "keyword": "chatgpt",
+      "mentions": 192,
+      "velocity": -0.9,
       "sources": [
         "articles",
         "hackernews",
@@ -653,75 +507,65 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.36,
-      "headline": "Meta told the IRS its AI data centers are experimental to shave $6 billion off its tax bill",
+      "expert_ratio": 0.52,
+      "headline": "ChatGPT can now help you virtually try on clothes",
       "articles": [
         {
-          "title": "Meta told the IRS its AI data centers are experimental to shave $6 billion off its tax bill",
-          "url": "https://www.techradar.com/pro/meta-told-the-irs-its-ai-data-centers-are-experimental-to-shave-usd6-billion-off-its-tax-bill",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Data centers and healthcare were bright spots in the rough September jobs report",
-          "url": "https://www.businessinsider.com/data-centers-healthcare-job-growth-september-jobs-report-2026-10",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "1 800 lancements de Starship : c’est ce qu’il faudrait à Google pour faire décoller ses data centers spatiaux !",
-          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-1-800-lancements-starship-cest-ce-quil-faudrait-google-faire-decoller-data-centers-spatiaux-138198/#xtor%3DRSS-8",
-          "source": "Les dernières actualités de Futura-Sciences"
+          "title": "ChatGPT can now help you virtually try on clothes",
+          "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/?utm_source=flipboard&utm_content=user/Engadget",
+          "source": "Artificial Intelligence"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 273,
-    "covered": 145,
-    "coverage_rate": 0.531,
-    "early": 76,
-    "early_rate": 0.278,
-    "avg_lead_days": 14.7,
-    "median_lead_days": 11.0,
+    "scored_predictions": 276,
+    "covered": 148,
+    "coverage_rate": 0.536,
+    "early": 77,
+    "early_rate": 0.279,
+    "avg_lead_days": 14.6,
+    "median_lead_days": 11,
     "max_lead_days": 42,
-    "hit_rate": 0.531,
-    "materialized": 145,
+    "hit_rate": 0.536,
+    "materialized": 148,
     "by_signal_type": {
       "emerging": {
-        "scored": 164,
-        "covered": 128,
-        "early": 65,
-        "coverage_rate": 0.78,
-        "early_rate": 0.396,
-        "hit_rate": 0.78
+        "scored": 166,
+        "covered": 130,
+        "early": 66,
+        "coverage_rate": 0.783,
+        "early_rate": 0.398,
+        "hit_rate": 0.783
       },
       "weak_signal": {
-        "scored": 109,
-        "covered": 17,
+        "scored": 110,
+        "covered": 18,
         "early": 11,
-        "coverage_rate": 0.156,
-        "early_rate": 0.101,
-        "hit_rate": 0.156
+        "coverage_rate": 0.164,
+        "early_rate": 0.1,
+        "hit_rate": 0.164
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 273,
+    "n": 276,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.535,
-      "early_rate": 0.282
+      "coverage_rate": 0.54,
+      "early_rate": 0.283
     },
     "null_mean": {
-      "coverage_rate": 0.561,
+      "coverage_rate": 0.564,
       "early_rate": 0.336
     },
     "p_value": {
-      "coverage_rate": 0.983,
-      "early_rate": 0.999
+      "coverage_rate": 0.961,
+      "early_rate": 0.993
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -787,16 +631,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
-    },
-    {
       "keyword": "prompt engineering",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
@@ -805,24 +639,22 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
       "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+    },
+    {
+      "keyword": "flair",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
-      },
-      {
         "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "cursor",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 1.0
@@ -834,13 +666,25 @@
         "confidence": 1.0
       },
       {
-        "keyword": "ai consciousness",
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "cursor",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "opencode",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
       },
       {
-        "keyword": "opencode",
+        "keyword": "ai consciousness",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
@@ -858,13 +702,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "claude sonnet",
+        "keyword": "hugging face",
         "signal_type": "emerging",
         "flagged_on": "2026-10-01",
         "confidence": 0.6
       },
       {
-        "keyword": "hugging face",
+        "keyword": "claude sonnet",
         "signal_type": "emerging",
         "flagged_on": "2026-10-01",
         "confidence": 0.6
@@ -884,13 +728,6 @@
     ],
     "heating_up": [
       {
-        "keyword": "digital twin",
-        "recent_mentions": 19,
-        "prior_mentions": 2,
-        "change_ratio": 9.5,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "deepseek v3",
         "recent_mentions": 9,
         "prior_mentions": 1,
@@ -905,25 +742,11 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "computer-use",
-        "recent_mentions": 31,
-        "prior_mentions": 4,
-        "change_ratio": 7.75,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "claude sonnet",
-        "recent_mentions": 49,
-        "prior_mentions": 8,
-        "change_ratio": 6.12,
-        "corroborating_sources": 6
-      },
-      {
-        "keyword": "stable diffusion",
-        "recent_mentions": 18,
-        "prior_mentions": 3,
+        "keyword": "manus",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
         "change_ratio": 6.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
         "keyword": "qdrant",
@@ -933,39 +756,60 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "embodied ai",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
+        "keyword": "claude 4",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "computer-use",
+        "recent_mentions": 30,
+        "prior_mentions": 5,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai consciousness",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
         "keyword": "blackwell",
-        "recent_mentions": 11,
+        "recent_mentions": 10,
         "prior_mentions": 2,
-        "change_ratio": 5.5,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "claude haiku",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
+        "keyword": "openclaw",
+        "recent_mentions": 25,
+        "prior_mentions": 5,
         "change_ratio": 5.0,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "h100",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
         "corroborating_sources": 2
       },
       {
         "keyword": "voice agent",
-        "recent_mentions": 7,
+        "recent_mentions": 9,
         "prior_mentions": 2,
-        "change_ratio": 3.5,
+        "change_ratio": 4.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "notebooklm",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
-        "corroborating_sources": 3
+        "keyword": "reasoning model",
+        "recent_mentions": 17,
+        "prior_mentions": 4,
+        "change_ratio": 4.25,
+        "corroborating_sources": 1
       }
     ]
   }
