@@ -1,12 +1,34 @@
 {
-  "generated_at": "2026-10-03T19:18:15.730268",
-  "total_tracked": 3436,
+  "generated_at": "2026-10-03T21:46:32.567046",
+  "total_tracked": 3440,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "llama.cpp",
+      "mentions": 26,
+      "velocity": 3.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "Transformers now runs llama.cpp quants",
+      "articles": [
+        {
+          "title": "Transformers now runs llama.cpp quants",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
       "keyword": "gemini",
-      "mentions": 225,
-      "velocity": 4.3,
+      "mentions": 221,
+      "velocity": 3.1,
       "sources": [
         "articles",
         "arxiv",
@@ -40,28 +62,6 @@
       ]
     },
     {
-      "keyword": "llama.cpp",
-      "mentions": 25,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Transformers now runs llama.cpp quants",
-      "articles": [
-        {
-          "title": "Transformers now runs llama.cpp quants",
-          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-          "source": "Hugging Face Blog"
-        }
-      ]
-    },
-    {
       "keyword": "llama",
       "mentions": 42,
       "velocity": 2.5,
@@ -73,7 +73,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.97,
+      "expert_ratio": 0.98,
       "headline": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
       "articles": [
         {
@@ -82,13 +82,46 @@
           "source": "Ollama Releases"
         }
       ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 43,
+      "velocity": 2.2,
+      "sources": [
+        "articles",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "Self-Evolving Coding Rules for AI Coding Agents",
+      "articles": [
+        {
+          "title": "Self-Evolving Coding Rules for AI Coding Agents",
+          "url": "https://arxiv.org/abs/2610.00650",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Approval Laundering: Systematizing Approval--Execution Binding Failures in AI Coding-Agent Harnesses",
+          "url": "https://arxiv.org/abs/2609.38983",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
+          "url": "https://arxiv.org/abs/2606.12329",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "emerging": [
     {
       "keyword": "claude",
-      "mentions": 529,
-      "velocity": 13.9,
+      "mentions": 524,
+      "velocity": 12.4,
       "sources": [
         "articles",
         "arxiv",
@@ -122,39 +155,6 @@
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 95,
-      "velocity": 4.0,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.33,
-      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-      "articles": [
-        {
-          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
-          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
       "keyword": "rlvr",
       "mentions": 28,
       "velocity": 3.8,
@@ -182,6 +182,40 @@
           "title": "Unlearnable, or Unmeasured? On the Reliability of Difficulty Labels in RLVR",
           "url": "https://arxiv.org/abs/2609.40115",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 94,
+      "velocity": 3.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.33,
+      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+      "articles": [
+        {
+          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
+          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
+          "source": "The Next Web"
         }
       ]
     },
@@ -240,36 +274,6 @@
       ]
     },
     {
-      "keyword": "youtuber",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Meta’s Muse AI sent a YouTuber’s address to a stranger",
-      "articles": [
-        {
-          "title": "Meta’s Muse AI sent a YouTuber’s address to a stranger",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-          "source": "The Verge -  All Posts"
-        },
-        {
-          "title": "A YouTuber says this Muse setting led to the AI agent sharing his address: 'Be careful'",
-          "url": "https://www.businessinsider.com/muse-agent-facebook-marketplace-address-setting-meta-always-allow-2026-9",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "A YouTuber says Meta's Muse gave his address to a Facebook Marketplace buyer: 'A guy just showed up at my door'",
-          "url": "https://www.businessinsider.com/meta-muse-facebook-marketplace-address-story-matt-robb-2026-9?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
       "keyword": "atlas",
       "mentions": 3,
       "velocity": 0.8,
@@ -320,7 +324,7 @@
         {
           "title": "Anthropic funds $100M academy to train deployed AI engineers",
           "url": "https://www.businessinsider.com/anthropic-will-train-10-000-ai-engineers-boost-enterprise-adoption-2026-10",
-          "source": "All Content from Business Insider"
+          "source": "Business Insider"
         },
         {
           "title": "Anthropic launches the Claude Frontier Academy with a $100M commitment to train 10K Frontier Deployed Engineers by 2028,",
@@ -440,42 +444,9 @@
       ]
     },
     {
-      "keyword": "ai coding",
-      "mentions": 39,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Self-Evolving Coding Rules for AI Coding Agents",
-      "articles": [
-        {
-          "title": "Self-Evolving Coding Rules for AI Coding Agents",
-          "url": "https://arxiv.org/abs/2610.00650",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Approval Laundering: Systematizing Approval--Execution Binding Failures in AI Coding-Agent Harnesses",
-          "url": "https://arxiv.org/abs/2609.38983",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
-          "url": "https://arxiv.org/abs/2606.12329",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "data centers",
-      "mentions": 21,
-      "velocity": 0.5,
+      "mentions": 22,
+      "velocity": 0.8,
       "sources": [
         "articles",
         "hackernews",
@@ -491,11 +462,37 @@
           "title": "Amazon promises to spend $1 billion on communities close to its data centers, but critics push back",
           "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-promises-to-spend-usd1-billion-on-communities-close-to-its-data-centers-but-critics-push-back-planned-spend-accounts-for-just-0-1-percent-of-its-2026-ai-infrastructure-investments",
           "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "flux",
+      "mentions": 11,
+      "velocity": 0.5,
+      "sources": [
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.8,
+      "headline": "Philips Hue Flux sotto i 75€, 5 metri di luce smart per tutta la stanza",
+      "articles": [
+        {
+          "title": "Philips Hue Flux sotto i 75€, 5 metri di luce smart per tutta la stanza",
+          "url": "https://www.tomshw.it/altro/philips-hue-flux-sotto-i-75eur-5-metri-di-luce-smart-per-tutta-la-stanza",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Google Tests Plan for A.I. Data Centers in Space",
-          "url": "https://www.nytimes.com/video/podcasts/the-daily/100000011191505/google-tests-plan-for-ai-data-centers-in-space.html",
-          "source": "Artificial Intelligence Special Report"
+          "title": "Zero Flux: Flow-Based Comparison of High-Dimensional Discrete Distributions",
+          "url": "https://arxiv.org/abs/2610.01472",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Beat Saber Flux demo on Meta VR glasses",
+          "url": "https://www.youtube.com/shorts/niZl1U3TG2Y",
+          "source": "The Verge"
         }
       ]
     },
@@ -524,37 +521,6 @@
           "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
           "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
           "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "hugging face",
-      "mentions": 22,
-      "velocity": 0.2,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
-      "articles": [
-        {
-          "title": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
-          "url": "https://arxiv.org/abs/2610.00902",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=10012026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=10032026",
-          "source": "Fast Company"
         }
       ]
     }
@@ -783,10 +749,10 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "manus",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
+        "keyword": "computer-use",
+        "recent_mentions": 30,
+        "prior_mentions": 5,
+        "change_ratio": 6.0,
         "corroborating_sources": 2
       },
       {
@@ -804,18 +770,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "computer-use",
-        "recent_mentions": 30,
-        "prior_mentions": 5,
+        "keyword": "manus",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "openclaw",
-        "recent_mentions": 25,
-        "prior_mentions": 5,
+        "keyword": "blackwell",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
         "change_ratio": 5.0,
-        "corroborating_sources": 4
+        "corroborating_sources": 1
       },
       {
         "keyword": "ai consciousness",
@@ -825,10 +791,17 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "blackwell",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
+        "keyword": "openclaw",
+        "recent_mentions": 25,
+        "prior_mentions": 5,
         "change_ratio": 5.0,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "voice agent",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
         "corroborating_sources": 1
       },
       {
@@ -844,13 +817,6 @@
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 3
-      },
-      {
-        "keyword": "sovereign ai",
-        "recent_mentions": 12,
-        "prior_mentions": 3,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
       }
     ]
   }
