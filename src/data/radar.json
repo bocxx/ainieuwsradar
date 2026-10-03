@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-03T07:12:13.920986",
-  "total_tracked": 3387,
+  "generated_at": "2026-10-03T08:46:06.087858",
+  "total_tracked": 3395,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "llama.cpp",
-      "mentions": 29,
-      "velocity": 4.7,
+      "mentions": 28,
+      "velocity": 4.4,
       "sources": [
         "articles",
         "arxiv",
@@ -15,7 +15,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
+      "expert_ratio": 0.98,
       "headline": "Transformers now runs llama.cpp quants",
       "articles": [
         {
@@ -27,8 +27,8 @@
     },
     {
       "keyword": "llama",
-      "mentions": 44,
-      "velocity": 3.1,
+      "mentions": 42,
+      "velocity": 2.5,
       "sources": [
         "articles",
         "arxiv",
@@ -82,8 +82,8 @@
   "emerging": [
     {
       "keyword": "claude",
-      "mentions": 516,
-      "velocity": 10.0,
+      "mentions": 519,
+      "velocity": 10.9,
       "sources": [
         "articles",
         "arxiv",
@@ -377,31 +377,6 @@
       ]
     },
     {
-      "keyword": "techcrunch",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 12,
-      "expert_ratio": 0.71,
-      "headline": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-      "articles": [
-        {
-          "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
-          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
       "keyword": "ai assistant",
       "mentions": 3,
       "velocity": 0.2,
@@ -495,8 +470,8 @@
     },
     {
       "keyword": "chatgpt",
-      "mentions": 192,
-      "velocity": -0.9,
+      "mentions": 194,
+      "velocity": -0.3,
       "sources": [
         "articles",
         "hackernews",
@@ -631,16 +606,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "prompt engineering",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-18",
-      "materialized_on": "2026-09-23",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
-    },
-    {
       "keyword": "flair",
       "signal_type": "emerging",
       "flagged_on": "2026-08-06",
@@ -649,24 +614,40 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+    },
+    {
+      "keyword": "prompt engineering",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "anthropic",
+        "keyword": "claude",
         "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
+        "flagged_on": "2026-10-03",
         "confidence": 1.0
+      },
+      {
+        "keyword": "lora",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-03",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "claude 4",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-03",
+        "confidence": 0.2
       },
       {
         "keyword": "grok",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "gemini",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 1.0
@@ -678,13 +659,25 @@
         "confidence": 1.0
       },
       {
-        "keyword": "opencode",
+        "keyword": "anthropic",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-02",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "ai consciousness",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
       },
       {
-        "keyword": "ai consciousness",
+        "keyword": "opencode",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
@@ -706,24 +699,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-01",
         "confidence": 0.6
-      },
-      {
-        "keyword": "claude sonnet",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-01",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "world models",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-01",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "vibe coding",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-01",
-        "confidence": 0
       }
     ],
     "heating_up": [
@@ -742,20 +717,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "manus",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "qdrant",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "claude 4",
         "recent_mentions": 6,
         "prior_mentions": 1,
@@ -766,6 +727,20 @@
         "keyword": "computer-use",
         "recent_mentions": 30,
         "prior_mentions": 5,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "manus",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "qdrant",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 2
       },
@@ -791,13 +766,6 @@
         "corroborating_sources": 4
       },
       {
-        "keyword": "h100",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "voice agent",
         "recent_mentions": 9,
         "prior_mentions": 2,
@@ -810,6 +778,13 @@
         "prior_mentions": 4,
         "change_ratio": 4.25,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "claude cowork",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 3
       }
     ]
   }
