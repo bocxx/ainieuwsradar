@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-03T08:46:06.087858",
-  "total_tracked": 3395,
+  "generated_at": "2026-10-03T09:45:54.252014",
+  "total_tracked": 3401,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "llama.cpp",
-      "mentions": 28,
-      "velocity": 4.4,
+      "mentions": 30,
+      "velocity": 5.0,
       "sources": [
         "articles",
         "arxiv",
@@ -27,8 +27,8 @@
     },
     {
       "keyword": "llama",
-      "mentions": 42,
-      "velocity": 2.5,
+      "mentions": 44,
+      "velocity": 3.1,
       "sources": [
         "articles",
         "arxiv",
@@ -82,8 +82,8 @@
   "emerging": [
     {
       "keyword": "claude",
-      "mentions": 519,
-      "velocity": 10.9,
+      "mentions": 517,
+      "velocity": 10.3,
       "sources": [
         "articles",
         "arxiv",
@@ -409,16 +409,46 @@
   ],
   "sustained": [
     {
-      "keyword": "data centers",
+      "keyword": "hugging face",
       "mentions": 23,
-      "velocity": 1.1,
+      "velocity": 0.5,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
+      "articles": [
+        {
+          "title": "Mean field games as a tool for AI safety: a worked example from the July 2026 Hugging Face incident",
+          "url": "https://arxiv.org/abs/2610.00902",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=10012026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=10022026",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 21,
+      "velocity": 0.5,
       "sources": [
         "articles",
         "hackernews",
-        "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.35,
@@ -465,30 +495,6 @@
           "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
           "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
           "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 194,
-      "velocity": -0.3,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "ChatGPT can now help you virtually try on clothes",
-      "articles": [
-        {
-          "title": "ChatGPT can now help you virtually try on clothes",
-          "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/?utm_source=flipboard&utm_content=user/Engadget",
-          "source": "Artificial Intelligence"
         }
       ]
     }
@@ -606,16 +612,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
-    },
-    {
       "keyword": "prompt engineering",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
@@ -624,6 +620,16 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
       "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+    },
+    {
+      "keyword": "flair",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "watching_now": {
@@ -731,13 +737,6 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "manus",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "qdrant",
         "recent_mentions": 6,
         "prior_mentions": 1,
@@ -745,11 +744,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "ai consciousness",
-        "recent_mentions": 5,
+        "keyword": "manus",
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "blackwell",
@@ -764,6 +763,13 @@
         "prior_mentions": 5,
         "change_ratio": 5.0,
         "corroborating_sources": 4
+      },
+      {
+        "keyword": "ai consciousness",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "voice agent",
