@@ -1,12 +1,48 @@
 {
-  "generated_at": "2026-10-03T09:45:54.252014",
-  "total_tracked": 3401,
+  "generated_at": "2026-10-03T19:18:15.730268",
+  "total_tracked": 3436,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "gemini",
+      "mentions": 225,
+      "velocity": 4.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.45,
+      "headline": "Googlebooks are bringing Gemini Intelligence to premium laptops, but is the cost worth it for these Android based-device",
+      "articles": [
+        {
+          "title": "Googlebooks are bringing Gemini Intelligence to premium laptops, but is the cost worth it for these Android based-device",
+          "url": "https://www.techradar.com/computing/chromebooks/googlebook-vs-chromebook",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Gemini Notebook fa anche i calcoli: analizzare un CSV aziendale senza aprire Excel",
+          "url": "https://www.tomshw.it/aioperator/gemini-notebook-fa-anche-i-calcoli-analizzare-un-csv-aziendale-senza-aprire-excel",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Google Gemini 4 Argon non ha freni di sicurezza, almeno per ora",
+          "url": "https://www.tomshw.it/business/google-gemini-4-argon-non-ha-freni-di-sicurezza-almeno-per-ora",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
       "keyword": "llama.cpp",
-      "mentions": 30,
-      "velocity": 5.0,
+      "mentions": 25,
+      "velocity": 3.5,
       "sources": [
         "articles",
         "arxiv",
@@ -27,8 +63,8 @@
     },
     {
       "keyword": "llama",
-      "mentions": 44,
-      "velocity": 3.1,
+      "mentions": 42,
+      "velocity": 2.5,
       "sources": [
         "articles",
         "arxiv",
@@ -37,44 +73,13 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
+      "expert_ratio": 0.97,
       "headline": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
       "articles": [
         {
           "title": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
           "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
           "source": "Ollama Releases"
-        },
-        {
-          "title": "Transformers now runs llama.cpp quants",
-          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-          "source": "Hugging Face Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "prompt engineering",
-      "mentions": 16,
-      "velocity": 2.2,
-      "sources": [
-        "arxiv",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-      "articles": [
-        {
-          "title": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-          "url": "https://arxiv.org/abs/2609.22249",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
-          "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
@@ -82,8 +87,8 @@
   "emerging": [
     {
       "keyword": "claude",
-      "mentions": 517,
-      "velocity": 10.3,
+      "mentions": 529,
+      "velocity": 13.9,
       "sources": [
         "articles",
         "arxiv",
@@ -117,56 +122,35 @@
       ]
     },
     {
-      "keyword": "lora",
-      "mentions": 51,
-      "velocity": 4.5,
+      "keyword": "grok",
+      "mentions": 95,
+      "velocity": 4.0,
       "sources": [
         "arxiv",
-        "github",
         "hackernews",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
+      "expert_ratio": 0.33,
+      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
       "articles": [
         {
-          "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
-          "url": "https://arxiv.org/abs/2610.00685",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "A Dynamical Theory of LoRA in Continual Learning",
-          "url": "https://arxiv.org/abs/2609.39367",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Beyond LoRA vs. Full Fine-Tuning: Gradient-Guided Optimizer Routing for LLM Adaptation",
-          "url": "https://arxiv.org/abs/2605.07111",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "astabrief",
-      "mentions": 6,
-      "velocity": 4.0,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 86,
-      "days_active": 2,
-      "expert_ratio": 1.0,
-      "headline": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "articles": [
-        {
-          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-          "url": "https://huggingface.co/blog/allenai/astabrief",
-          "source": "Hugging Face Blog"
+          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
+          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
+          "source": "The Next Web"
         }
       ]
     },
@@ -203,15 +187,14 @@
     },
     {
       "keyword": "fine-tuning",
-      "mentions": 114,
-      "velocity": 3.4,
+      "mentions": 112,
+      "velocity": 2.8,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -236,6 +219,26 @@
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "astabrief",
+      "mentions": 3,
+      "velocity": 1.0,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 65,
+      "days_active": 2,
+      "expert_ratio": 1.0,
+      "headline": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "articles": [
+        {
+          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "url": "https://huggingface.co/blog/allenai/astabrief",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
     {
       "keyword": "youtuber",
       "mentions": 2,
@@ -317,7 +320,7 @@
         {
           "title": "Anthropic funds $100M academy to train deployed AI engineers",
           "url": "https://www.businessinsider.com/anthropic-will-train-10-000-ai-engineers-boost-enterprise-adoption-2026-10",
-          "source": "Business Insider"
+          "source": "All Content from Business Insider"
         },
         {
           "title": "Anthropic launches the Claude Frontier Academy with a $100M commitment to train 10K Frontier Deployed Engineers by 2028,",
@@ -348,11 +351,6 @@
           "title": "Sex-specific mechanisms of chronic pain | Science",
           "url": "https://www.science.org/doi/10.1126/science.aeh4468",
           "source": "Science: Current Issue"
-        },
-        {
-          "title": "The Oracle of Wall Street says the pain of high gas prices is starting to hit high-income Americans",
-          "url": "https://www.businessinsider.com/high-gas-prices-higer-income-meredith-whitney-iran-war-oil-2026-9",
-          "source": "Business Insider"
         }
       ]
     },
@@ -409,9 +407,130 @@
   ],
   "sustained": [
     {
-      "keyword": "hugging face",
-      "mentions": 23,
+      "keyword": "distillation",
+      "mentions": 61,
+      "velocity": 1.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+      "articles": [
+        {
+          "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+          "url": "https://arxiv.org/abs/2610.02117",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
+          "url": "https://arxiv.org/abs/2610.02188",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+          "url": "https://arxiv.org/abs/2610.02207",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 39,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "github",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "Self-Evolving Coding Rules for AI Coding Agents",
+      "articles": [
+        {
+          "title": "Self-Evolving Coding Rules for AI Coding Agents",
+          "url": "https://arxiv.org/abs/2610.00650",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Approval Laundering: Systematizing Approval--Execution Binding Failures in AI Coding-Agent Harnesses",
+          "url": "https://arxiv.org/abs/2609.38983",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
+          "url": "https://arxiv.org/abs/2606.12329",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 21,
       "velocity": 0.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.35,
+      "headline": "Amazon promises to spend $1 billion on communities close to its data centers, but critics push back",
+      "articles": [
+        {
+          "title": "Amazon promises to spend $1 billion on communities close to its data centers, but critics push back",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-promises-to-spend-usd1-billion-on-communities-close-to-its-data-centers-but-critics-push-back-planned-spend-accounts-for-just-0-1-percent-of-its-2026-ai-infrastructure-investments",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Google Tests Plan for A.I. Data Centers in Space",
+          "url": "https://www.nytimes.com/video/podcasts/the-daily/100000011191505/google-tests-plan-for-ai-data-centers-in-space.html",
+          "source": "Artificial Intelligence Special Report"
+        }
+      ]
+    },
+    {
+      "keyword": "claude sonnet",
+      "mentions": 11,
+      "velocity": 0.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 13,
+      "expert_ratio": 0.75,
+      "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+      "articles": [
+        {
+          "title": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+          "url": "https://www.techmeme.com/260929/p42#a260929p42",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
+          "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "hugging face",
+      "mentions": 22,
+      "velocity": 0.2,
       "sources": [
         "articles",
         "reddit"
@@ -429,72 +548,13 @@
         },
         {
           "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=10012026",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=5&partner=newsletter&campaign_date=10012026",
           "source": "Fast Company"
         },
         {
           "title": "Rogue AI agents: A timeline of security breaches since the attack on Hugging Face",
-          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=10022026",
+          "url": "https://www.fastcompany.com/91616293/ai-hacking-hugging-face-openai-anthropic?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=13&partner=newsletter&campaign_date=10032026",
           "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "data centers",
-      "mentions": 21,
-      "velocity": 0.5,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.35,
-      "headline": "Google Tests Plan for A.I. Data Centers in Space",
-      "articles": [
-        {
-          "title": "Google Tests Plan for A.I. Data Centers in Space",
-          "url": "https://www.nytimes.com/video/podcasts/the-daily/100000011191505/google-tests-plan-for-ai-data-centers-in-space.html",
-          "source": "Artificial Intelligence Special Report"
-        },
-        {
-          "title": "Meta told the IRS its AI data centers are experimental to shave $6 billion off its tax bill",
-          "url": "https://www.techradar.com/pro/meta-told-the-irs-its-ai-data-centers-are-experimental-to-shave-usd6-billion-off-its-tax-bill",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Data centers and healthcare were bright spots in the rough September jobs report",
-          "url": "https://www.businessinsider.com/data-centers-healthcare-job-growth-september-jobs-report-2026-10",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "claude sonnet",
-      "mentions": 11,
-      "velocity": 0.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.75,
-      "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
-      "articles": [
-        {
-          "title": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
-          "url": "https://www.techmeme.com/260929/p42#a260929p42",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
-          "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
-          "source": "Tom's Hardware"
         }
       ]
     }
@@ -612,16 +672,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "prompt engineering",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-18",
-      "materialized_on": "2026-09-23",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
-    },
-    {
       "keyword": "flair",
       "signal_type": "emerging",
       "flagged_on": "2026-08-06",
@@ -630,6 +680,16 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+    },
+    {
+      "keyword": "prompt engineering",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "watching_now": {
@@ -723,6 +783,20 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "manus",
+        "recent_mentions": 7,
+        "prior_mentions": 1,
+        "change_ratio": 7.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "qdrant",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "claude 4",
         "recent_mentions": 6,
         "prior_mentions": 1,
@@ -735,27 +809,6 @@
         "prior_mentions": 5,
         "change_ratio": 6.0,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "qdrant",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "manus",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "blackwell",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
       },
       {
         "keyword": "openclaw",
@@ -772,10 +825,10 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "voice agent",
-        "recent_mentions": 9,
+        "keyword": "blackwell",
+        "recent_mentions": 10,
         "prior_mentions": 2,
-        "change_ratio": 4.5,
+        "change_ratio": 5.0,
         "corroborating_sources": 1
       },
       {
@@ -791,6 +844,13 @@
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "sovereign ai",
+        "recent_mentions": 12,
+        "prior_mentions": 3,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
       }
     ]
   }
