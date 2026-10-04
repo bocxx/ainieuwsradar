@@ -1,53 +1,17 @@
 {
-  "generated_at": "2026-10-04T08:46:15.839497",
-  "total_tracked": 3397,
+  "generated_at": "2026-10-04T19:14:25.202083",
+  "total_tracked": 3419,
   "window_days": 14,
   "accelerating": [
-    {
-      "keyword": "anthropic",
-      "mentions": 186,
-      "velocity": 3.9,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Inside Anthropic's Quest to Instill Morality into Its A.I. Models",
-      "articles": [
-        {
-          "title": "Inside Anthropic's Quest to Instill Morality into Its A.I. Models",
-          "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Anthropic's super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows",
-          "url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
-          "source": "The Register - Security"
-        },
-        {
-          "title": "Anthropic funds $100M academy to train deployed AI engineers",
-          "url": "https://www.businessinsider.com/anthropic-will-train-10-000-ai-engineers-boost-enterprise-adoption-2026-10",
-          "source": "Business Insider"
-        }
-      ]
-    },
     {
       "keyword": "lora",
       "mentions": 49,
       "velocity": 3.2,
       "sources": [
-        "articles",
         "arxiv",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.88,
@@ -71,30 +35,9 @@
       ]
     },
     {
-      "keyword": "lecun",
-      "mentions": 9,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 5,
-      "expert_ratio": 0.95,
-      "headline": "Yann LeCun calls Anthropic’s Dario Amodei ‘deluded’, Fortune reports",
-      "articles": [
-        {
-          "title": "Yann LeCun calls Anthropic’s Dario Amodei ‘deluded’, Fortune reports",
-          "url": "https://thenextweb.com/news/yann-lecun-dario-amodei-deluded-rogue-agents-fortune",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
       "keyword": "typesafe",
-      "mentions": 16,
-      "velocity": 2.0,
+      "mentions": 18,
+      "velocity": 2.7,
       "sources": [
         "articles",
         "arxiv",
@@ -122,9 +65,113 @@
           "source": "Tom's Hardware"
         }
       ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 147,
+      "velocity": 2.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.92,
+      "headline": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "articles": [
+        {
+          "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+          "url": "https://github.com/Niko1221/Strata",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+          "url": "https://arxiv.org/abs/2609.29892",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "ai safety",
+      "mentions": 31,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "github",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
+      "articles": [
+        {
+          "title": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-04/softbank-s-masayoshi-son-has-rare-cautionary-note-on-ai-safety",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the comp",
+          "url": "https://www.techmeme.com/261002/p23#a261002p23",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Trump’s AI safety deal #Vergecast",
+          "url": "https://www.youtube.com/shorts/sAX65Ifvo-o",
+          "source": "The Verge"
+        }
+      ]
+    },
+    {
+      "keyword": "huggingface",
+      "mentions": 14,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.95,
+      "headline": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
+      "articles": [
+        {
+          "title": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
+          "url": "https://arxiv.org/abs/2609.35799",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
-  "emerging": [],
+  "emerging": [
+    {
+      "keyword": "llama.cpp",
+      "mentions": 25,
+      "velocity": 2.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "Transformers now runs llama.cpp quants",
+      "articles": [
+        {
+          "title": "Transformers now runs llama.cpp quants",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    }
+  ],
   "weak_signals": [
     {
       "keyword": "atlas",
@@ -207,51 +254,6 @@
       ]
     },
     {
-      "keyword": "pain",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 85,
-      "days_active": 7,
-      "expert_ratio": 0.8,
-      "headline": "Congress Leaves With a Whimper, as the G.O.P. Braces for Midterm Pain",
-      "articles": [
-        {
-          "title": "Congress Leaves With a Whimper, as the G.O.P. Braces for Midterm Pain",
-          "url": "https://www.nytimes.com/2026/10/01/us/politics/republicans-congress-midterm-elections-trump-affordability.html",
-          "source": "The New York Times"
-        },
-        {
-          "title": "Sex-specific mechanisms of chronic pain | Science",
-          "url": "https://www.science.org/doi/10.1126/science.aeh4468",
-          "source": "Science: Current Issue"
-        }
-      ]
-    },
-    {
-      "keyword": "retrieval augmented generation",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 9,
-      "expert_ratio": 0.9,
-      "headline": "BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models",
-      "articles": [
-        {
-          "title": "BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models",
-          "url": "https://arxiv.org/abs/2406.00083",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "ai assistant",
       "mentions": 3,
       "velocity": 0.1,
@@ -278,6 +280,36 @@
           "title": "Meta introduces a new AI assistant for its Instagram creators",
           "url": "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators/",
           "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "ai governance",
+      "mentions": 3,
+      "velocity": 0.1,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 14,
+      "expert_ratio": 0.83,
+      "headline": "US rejects global AI governance at UN Security Council",
+      "articles": [
+        {
+          "title": "US rejects global AI governance at UN Security Council",
+          "url": "https://thenextweb.com/news/us-rejects-global-ai-governance",
+          "source": "The Next Web"
+        },
+        {
+          "title": "The Moral Check: Strategic AI Governance for the Pacing Problem",
+          "url": "https://arxiv.org/abs/2609.22869",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "UK Prime Minister Andy Burnham says he plans to use the UK's upcoming G20 presidency to broker a global AI governance de",
+          "url": "https://www.techmeme.com/260922/p25#a260922p25",
+          "source": "Techmeme"
         }
       ]
     },
@@ -346,40 +378,29 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
+    },
+    {
+      "keyword": "techcrunch",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 12,
+      "expert_ratio": 0.73,
+      "headline": "TechCrunch Mobility: Reining in robotaxis",
+      "articles": [
+        {
+          "title": "TechCrunch Mobility: Reining in robotaxis",
+          "url": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
+          "source": "TechCrunch"
+        }
+      ]
     }
   ],
   "sustained": [
-    {
-      "keyword": "gemini",
-      "mentions": 220,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.44,
-      "headline": "Google says free Gemini users will be limited to the 3.5 Flash-Lite model from October 9, while Plus subscribers will be",
-      "articles": [
-        {
-          "title": "Google says free Gemini users will be limited to the 3.5 Flash-Lite model from October 9, while Plus subscribers will be",
-          "url": "https://www.techmeme.com/261004/p4#a261004p4",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Googlebooks are bringing Gemini Intelligence to premium laptops, but is the cost worth it for these Android based-device",
-          "url": "https://www.techradar.com/computing/chromebooks/googlebook-vs-chromebook",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
     {
       "keyword": "rlvr",
       "mentions": 25,
@@ -412,16 +433,60 @@
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 91,
-      "velocity": 1.7,
+      "keyword": "llama",
+      "mentions": 41,
+      "velocity": 1.5,
       "sources": [
         "articles",
+        "arxiv",
+        "github",
+        "hackernews"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.97,
+      "headline": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
+      "articles": [
+        {
+          "title": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
+          "source": "Ollama Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "langchain",
+      "mentions": 12,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "github",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.75,
+      "headline": "Agent Harness with LangChain Middleware and Jev",
+      "articles": [
+        {
+          "title": "Agent Harness with LangChain Middleware and Jev",
+          "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-3-with-implementation/",
+          "source": "Daily Dose of Data Science"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 89,
+      "velocity": 1.1,
+      "sources": [
         "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.33,
@@ -441,63 +506,6 @@
           "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
           "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
           "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 202,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software could potentially ",
-      "articles": [
-        {
-          "title": "OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software could potentially ",
-          "url": "https://www.techmeme.com/261003/p9#a261003p9",
-          "source": "Techmeme"
-        },
-        {
-          "title": "ChatGPT-6 Astra gioca a World of Warcraft alla cieca ed è più bravo dei pro player",
-          "url": "https://www.tomshw.it/videogioco/chatgpt-6-astra-gioca-a-world-of-warcraft-alla-cieca-ed-e-piu-bravo-dei-pro-player",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/gpt-6-astra-plays-world-of-warcraft-blind-and-clears-the-orc-starting-zone-in-40-minutes-with-no-deaths-ai-agent-navigates-by-server-network-traffic-with-pulled-quest-data",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 34,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
-      "articles": [
-        {
-          "title": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
-          "url": "https://www.techmeme.com/260923/p19#a260923p19",
-          "source": "Techmeme"
         }
       ]
     },
@@ -524,6 +532,37 @@
           "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
           "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
           "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "flux",
+      "mentions": 12,
+      "velocity": 0.6,
+      "sources": [
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "Philips Hue Flux sotto i 75€, 5 metri di luce smart per tutta la stanza",
+      "articles": [
+        {
+          "title": "Philips Hue Flux sotto i 75€, 5 metri di luce smart per tutta la stanza",
+          "url": "https://www.tomshw.it/altro/philips-hue-flux-sotto-i-75eur-5-metri-di-luce-smart-per-tutta-la-stanza",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Zero Flux: Flow-Based Comparison of High-Dimensional Discrete Distributions",
+          "url": "https://arxiv.org/abs/2610.01472",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Beat Saber Flux demo on Meta VR glasses",
+          "url": "https://www.youtube.com/shorts/niZl1U3TG2Y",
+          "source": "The Verge"
         }
       ]
     }
@@ -641,16 +680,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "prompt engineering",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-18",
-      "materialized_on": "2026-09-23",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
-    },
-    {
       "keyword": "flair",
       "signal_type": "emerging",
       "flagged_on": "2026-08-06",
@@ -659,6 +688,16 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+    },
+    {
+      "keyword": "prompt engineering",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "watching_now": {
@@ -745,18 +784,18 @@
         "corroborating_sources": 2
       },
       {
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 11,
+        "prior_mentions": 1,
+        "change_ratio": 11.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "claude cowork",
         "recent_mentions": 10,
         "prior_mentions": 1,
         "change_ratio": 10.0,
         "corroborating_sources": 3
-      },
-      {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 1
       },
       {
         "keyword": "claude 4",
@@ -794,28 +833,28 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "gemini 2",
-        "recent_mentions": 13,
-        "prior_mentions": 3,
-        "change_ratio": 4.33,
+        "keyword": "manus",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
         "corroborating_sources": 2
       },
       {
         "keyword": "openclaw",
-        "recent_mentions": 29,
+        "recent_mentions": 31,
         "prior_mentions": 7,
-        "change_ratio": 4.14,
+        "change_ratio": 4.43,
         "corroborating_sources": 4
       },
       {
-        "keyword": "manus",
+        "keyword": "deepseek v3",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
-        "keyword": "deepseek v3",
+        "keyword": "dreamina",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
