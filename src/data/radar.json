@@ -1,38 +1,12 @@
 {
-  "generated_at": "2026-10-04T07:12:09.369634",
-  "total_tracked": 3392,
+  "generated_at": "2026-10-04T08:46:15.839497",
+  "total_tracked": 3397,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "claude",
-      "mentions": 541,
-      "velocity": 13.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Achtergrond - Claude uploadde malware, maar worstelde eerst urenlang met captcha's",
-      "articles": [
-        {
-          "title": "Achtergrond - Claude uploadde malware, maar worstelde eerst urenlang met captcha's",
-          "url": "https://tweakers.net/reviews/15370/claude-uploadde-malware-maar-worstelde-eerst-urenlang-met-captchas.html",
-          "source": "Tweakers Mixed RSS Feed"
-        }
-      ]
-    },
-    {
       "keyword": "anthropic",
-      "mentions": 184,
-      "velocity": 3.3,
+      "mentions": 186,
+      "velocity": 3.9,
       "sources": [
         "articles",
         "github",
@@ -150,41 +124,7 @@
       ]
     }
   ],
-  "emerging": [
-    {
-      "keyword": "grok",
-      "mentions": 92,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.33,
-      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-      "articles": [
-        {
-          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
-          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
-          "source": "The Next Web"
-        }
-      ]
-    }
-  ],
+  "emerging": [],
   "weak_signals": [
     {
       "keyword": "atlas",
@@ -410,6 +350,37 @@
   ],
   "sustained": [
     {
+      "keyword": "gemini",
+      "mentions": 220,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.44,
+      "headline": "Google says free Gemini users will be limited to the 3.5 Flash-Lite model from October 9, while Plus subscribers will be",
+      "articles": [
+        {
+          "title": "Google says free Gemini users will be limited to the 3.5 Flash-Lite model from October 9, while Plus subscribers will be",
+          "url": "https://www.techmeme.com/261004/p4#a261004p4",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Googlebooks are bringing Gemini Intelligence to premium laptops, but is the cost worth it for these Android based-device",
+          "url": "https://www.techradar.com/computing/chromebooks/googlebook-vs-chromebook",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
       "keyword": "rlvr",
       "mentions": 25,
       "velocity": 1.8,
@@ -441,9 +412,42 @@
       ]
     },
     {
+      "keyword": "grok",
+      "mentions": 91,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.33,
+      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+      "articles": [
+        {
+          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
+          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
       "keyword": "chatgpt",
-      "mentions": 203,
-      "velocity": 1.4,
+      "mentions": 202,
+      "velocity": 1.1,
       "sources": [
         "articles",
         "github",
@@ -476,24 +480,24 @@
       ]
     },
     {
-      "keyword": "llama.cpp",
-      "mentions": 21,
-      "velocity": 1.1,
+      "keyword": "gpt-5",
+      "mentions": 34,
+      "velocity": 1.0,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews"
+        "linkedin"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Transformers now runs llama.cpp quants",
+      "expert_ratio": 0.93,
+      "headline": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
       "articles": [
         {
-          "title": "Transformers now runs llama.cpp quants",
-          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-          "source": "Hugging Face Blog"
+          "title": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
+          "url": "https://www.techmeme.com/260923/p19#a260923p19",
+          "source": "Techmeme"
         }
       ]
     },
@@ -520,54 +524,6 @@
           "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
           "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
           "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "gemini",
-      "mentions": 217,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.44,
-      "headline": "Googlebooks are bringing Gemini Intelligence to premium laptops, but is the cost worth it for these Android based-device",
-      "articles": [
-        {
-          "title": "Googlebooks are bringing Gemini Intelligence to premium laptops, but is the cost worth it for these Android based-device",
-          "url": "https://www.techradar.com/computing/chromebooks/googlebook-vs-chromebook",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 33,
-      "velocity": 0.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
-      "articles": [
-        {
-          "title": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to he",
-          "url": "https://www.techmeme.com/260923/p19#a260923p19",
-          "source": "Techmeme"
         }
       ]
     }
@@ -732,7 +688,7 @@
         "confidence": 0.2
       },
       {
-        "keyword": "gemini",
+        "keyword": "cursor",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 1.0
@@ -744,7 +700,7 @@
         "confidence": 1.0
       },
       {
-        "keyword": "cursor",
+        "keyword": "gemini",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 1.0
@@ -756,13 +712,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "ai consciousness",
+        "keyword": "opencode",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
       },
       {
-        "keyword": "opencode",
+        "keyword": "ai consciousness",
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
@@ -817,14 +773,14 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "openmontage",
+        "keyword": "speech to text",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "speech to text",
+        "keyword": "openmontage",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
@@ -852,14 +808,14 @@
         "corroborating_sources": 4
       },
       {
-        "keyword": "deepseek v3",
+        "keyword": "manus",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 2
       },
       {
-        "keyword": "dreamina",
+        "keyword": "deepseek v3",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
