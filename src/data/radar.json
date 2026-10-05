@@ -1,43 +1,44 @@
 {
-  "generated_at": "2026-10-04T19:14:25.202083",
-  "total_tracked": 3419,
+  "generated_at": "2026-10-05T07:12:55.677537",
+  "total_tracked": 3461,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "lora",
-      "mentions": 49,
-      "velocity": 3.2,
+      "keyword": "simulation",
+      "mentions": 82,
+      "velocity": 17.3,
       "sources": [
+        "articles",
         "arxiv",
-        "reddit"
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
+      "expert_ratio": 0.91,
+      "headline": "PLCWorld: Benchmarking LLM-Generated PLC Programs in Closed-Loop Plant Simulation",
       "articles": [
         {
-          "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
-          "url": "https://arxiv.org/abs/2610.00685",
+          "title": "PLCWorld: Benchmarking LLM-Generated PLC Programs in Closed-Loop Plant Simulation",
+          "url": "https://arxiv.org/abs/2610.02982",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "A Dynamical Theory of LoRA in Continual Learning",
-          "url": "https://arxiv.org/abs/2609.39367",
+          "title": "Network-in-the-Loop at Scale: GPU-Batched 5G Simulation for Massively Parallel Robot Learning",
+          "url": "https://arxiv.org/abs/2610.02370",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
+          "url": "https://arxiv.org/abs/2610.03679",
           "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Beyond LoRA vs. Full Fine-Tuning: Gradient-Guided Optimizer Routing for LLM Adaptation",
-          "url": "https://arxiv.org/abs/2605.07111",
-          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "typesafe",
-      "mentions": 18,
-      "velocity": 2.7,
+      "keyword": "distillation",
+      "mentions": 106,
+      "velocity": 15.9,
       "sources": [
         "articles",
         "arxiv",
@@ -46,30 +47,30 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.26,
-      "headline": "TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and \"we were at a trillion tokens per day",
+      "expert_ratio": 0.99,
+      "headline": "EchoDistill: Robust Large Audio Language Models via Noisy-to-Clean Self-Distillation",
       "articles": [
         {
-          "title": "TypeSafe CEO Diogo Almeida says Jev is in use by ~25% of Fortune 500 companies and \"we were at a trillion tokens per day",
-          "url": "https://www.techmeme.com/261002/p21#a261002p21",
-          "source": "Techmeme"
+          "title": "EchoDistill: Robust Large Audio Language Models via Noisy-to-Clean Self-Distillation",
+          "url": "https://arxiv.org/abs/2605.23954",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Sources: Jev developer TypeSafe is in talks to raise $1B+ at a $10B+ valuation; last week the startup announced a $40M s",
-          "url": "https://www.techmeme.com/260924/p40#a260924p40",
-          "source": "Techmeme"
+          "title": "Learning to Revise Reasoning with Segment-wise On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2610.02703",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "TypeSafe AI's Jev offers an alternative to LLMs that claims to be 193x faster and 445x cheaper",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/typesafe-ais-jev-offers-an-alternative-to-llms-that-claims-to-be-193x-faster-and-445x-cheaper-system-one-type-model-is-bespoke-for-probabilistic-decision-making",
-          "source": "Tom's Hardware"
+          "title": "HINT-SD: Targeted Hindsight Self-Distillation for Long-Horizon Agents",
+          "url": "https://arxiv.org/abs/2605.17873",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "qwen",
-      "mentions": 147,
-      "velocity": 2.5,
+      "mentions": 175,
+      "velocity": 10.2,
       "sources": [
         "articles",
         "arxiv",
@@ -79,7 +80,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.92,
+      "expert_ratio": 0.93,
       "headline": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
       "articles": [
         {
@@ -93,81 +94,38 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "ai safety",
-      "mentions": 31,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "github",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
-      "articles": [
-        {
-          "title": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-04/softbank-s-masayoshi-son-has-rare-cautionary-note-on-ai-safety",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the comp",
-          "url": "https://www.techmeme.com/261002/p23#a261002p23",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Trump’s AI safety deal #Vergecast",
-          "url": "https://www.youtube.com/shorts/sAX65Ifvo-o",
-          "source": "The Verge"
-        }
-      ]
-    },
-    {
-      "keyword": "huggingface",
-      "mentions": 14,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
-      "articles": [
-        {
-          "title": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
-          "url": "https://arxiv.org/abs/2609.35799",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "emerging": [
     {
-      "keyword": "llama.cpp",
-      "mentions": 25,
-      "velocity": 2.3,
+      "keyword": "lora",
+      "mentions": 53,
+      "velocity": 3.5,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews"
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.98,
-      "headline": "Transformers now runs llama.cpp quants",
+      "expert_ratio": 0.88,
+      "headline": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
       "articles": [
         {
-          "title": "Transformers now runs llama.cpp quants",
-          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-          "source": "Hugging Face Blog"
+          "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
+          "url": "https://arxiv.org/abs/2610.00685",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Beyond LoRA vs. Full Fine-Tuning: Gradient-Guided Optimizer Routing for LLM Adaptation",
+          "url": "https://arxiv.org/abs/2605.07111",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "A Dynamical Theory of LoRA in Continual Learning",
+          "url": "https://arxiv.org/abs/2609.39367",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     }
@@ -204,26 +162,6 @@
       ]
     },
     {
-      "keyword": "astabrief",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 71,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "articles": [
-        {
-          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-          "url": "https://huggingface.co/blog/allenai/astabrief",
-          "source": "Hugging Face Blog"
-        }
-      ]
-    },
-    {
       "keyword": "train",
       "mentions": 3,
       "velocity": 0.4,
@@ -234,22 +172,52 @@
       "confidence": 77,
       "days_active": 5,
       "expert_ratio": 0.91,
-      "headline": "Claude Frontier Academy: $100M to train 10,000 engineers",
+      "headline": "How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling",
       "articles": [
         {
-          "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
-          "url": "https://anthropic.com/news/claude-frontier-academy",
-          "source": "Anthropic"
-        },
+          "title": "How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling",
+          "url": "https://arxiv.org/abs/2610.02542",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "ai code",
+      "mentions": 3,
+      "velocity": 0.2,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 15,
+      "expert_ratio": 0.62,
+      "headline": "Are AI Coders Snitches? An Empirical Study of Pretraining Data Detection on Code Large Language Models",
+      "articles": [
         {
-          "title": "Anthropic funds $100M academy to train deployed AI engineers",
-          "url": "https://www.businessinsider.com/anthropic-will-train-10-000-ai-engineers-boost-enterprise-adoption-2026-10",
-          "source": "Business Insider"
-        },
+          "title": "Are AI Coders Snitches? An Empirical Study of Pretraining Data Detection on Code Large Language Models",
+          "url": "https://arxiv.org/abs/2507.17389",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "astabrief",
+      "mentions": 3,
+      "velocity": 0.2,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 4,
+      "expert_ratio": 1.0,
+      "headline": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "articles": [
         {
-          "title": "Anthropic launches the Claude Frontier Academy with a $100M commitment to train 10K Frontier Deployed Engineers by 2028,",
-          "url": "https://www.techmeme.com/261002/p18#a261002p18",
-          "source": "Techmeme"
+          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "url": "https://huggingface.co/blog/allenai/astabrief",
+          "source": "Hugging Face Blog"
         }
       ]
     },
@@ -284,36 +252,6 @@
       ]
     },
     {
-      "keyword": "ai governance",
-      "mentions": 3,
-      "velocity": 0.1,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 14,
-      "expert_ratio": 0.83,
-      "headline": "US rejects global AI governance at UN Security Council",
-      "articles": [
-        {
-          "title": "US rejects global AI governance at UN Security Council",
-          "url": "https://thenextweb.com/news/us-rejects-global-ai-governance",
-          "source": "The Next Web"
-        },
-        {
-          "title": "The Moral Check: Strategic AI Governance for the Pacing Problem",
-          "url": "https://arxiv.org/abs/2609.22869",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "UK Prime Minister Andy Burnham says he plans to use the UK's upcoming G20 presidency to broker a global AI governance de",
-          "url": "https://www.techmeme.com/260922/p25#a260922p25",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
       "keyword": "most capable models",
       "mentions": 3,
       "velocity": 0.1,
@@ -339,6 +277,24 @@
       ]
     },
     {
+      "keyword": "t mean",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 62,
+      "days_active": 6,
+      "expert_ratio": 0.91,
+      "headline": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
+      "articles": [
+        {
+          "title": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
+          "url": "https://www.techradar.com/pro/launching-an-app-shouldnt-mean-learning-how-to-host-godaddy-has-launched-node-js-hosting",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
       "keyword": "superior",
       "mentions": 2,
       "velocity": 0.1,
@@ -360,133 +316,21 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
-    },
-    {
-      "keyword": "t mean",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 62,
-      "days_active": 6,
-      "expert_ratio": 0.91,
-      "headline": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
-      "articles": [
-        {
-          "title": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
-          "url": "https://www.techradar.com/pro/launching-an-app-shouldnt-mean-learning-how-to-host-godaddy-has-launched-node-js-hosting",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "techcrunch",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 12,
-      "expert_ratio": 0.73,
-      "headline": "TechCrunch Mobility: Reining in robotaxis",
-      "articles": [
-        {
-          "title": "TechCrunch Mobility: Reining in robotaxis",
-          "url": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
-          "source": "TechCrunch"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "rlvr",
-      "mentions": 25,
-      "velocity": 1.8,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.99,
-      "headline": "On Language Drift during RLVR Post-Training",
-      "articles": [
-        {
-          "title": "On Language Drift during RLVR Post-Training",
-          "url": "https://arxiv.org/abs/2610.02015",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Advancing Entropy-Level Credit Assignment in RLVR via Proximal Entropy Policy Optimization",
-          "url": "https://arxiv.org/abs/2609.39402",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Unlearnable, or Unmeasured? On the Reliability of Difficulty Labels in RLVR",
-          "url": "https://arxiv.org/abs/2609.40115",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "llama",
-      "mentions": 41,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.97,
-      "headline": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
-      "articles": [
-        {
-          "title": "v0.40.0-rc0: llama-server: prepare to remove compatibility patch",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
-          "source": "Ollama Releases"
-        }
-      ]
-    },
-    {
-      "keyword": "langchain",
-      "mentions": 12,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "Agent Harness with LangChain Middleware and Jev",
-      "articles": [
-        {
-          "title": "Agent Harness with LangChain Middleware and Jev",
-          "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-3-with-implementation/",
-          "source": "Daily Dose of Data Science"
-        }
-      ]
-    },
-    {
       "keyword": "grok",
-      "mentions": 89,
-      "velocity": 1.1,
+      "mentions": 92,
+      "velocity": 1.7,
       "sources": [
+        "articles",
+        "arxiv",
         "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.33,
@@ -510,35 +354,9 @@
       ]
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 14,
-      "velocity": 1.0,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.92,
-      "headline": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-      "articles": [
-        {
-          "title": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-          "url": "https://arxiv.org/abs/2609.22249",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
-          "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
       "keyword": "flux",
-      "mentions": 12,
-      "velocity": 0.6,
+      "mentions": 16,
+      "velocity": 1.6,
       "sources": [
         "hackernews",
         "reddit"
@@ -546,7 +364,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
+      "expert_ratio": 0.8,
       "headline": "Philips Hue Flux sotto i 75€, 5 metri di luce smart per tutta la stanza",
       "articles": [
         {
@@ -565,56 +383,183 @@
           "source": "The Verge"
         }
       ]
+    },
+    {
+      "keyword": "ai safety",
+      "mentions": 31,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
+      "articles": [
+        {
+          "title": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-05/softbank-s-masayoshi-son-warns-on-ai-safety-video",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-04/softbank-s-masayoshi-son-has-rare-cautionary-note-on-ai-safety",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the comp",
+          "url": "https://www.techmeme.com/261002/p23#a261002p23",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "gemini",
+      "mentions": 215,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.44,
+      "headline": "If you're on the free or Plus tiers for Google AI, you're about to lose access to some Gemini models — here's what's cha",
+      "articles": [
+        {
+          "title": "If you're on the free or Plus tiers for Google AI, you're about to lose access to some Gemini models — here's what's cha",
+          "url": "https://www.techradar.com/ai-platforms-assistants/gemini/if-youre-on-the-free-or-plus-tiers-for-google-ai-youre-about-to-lose-access-to-some-gemini-models-heres-whats-changing?utm_source=flipboard&utm_content=TechRadar/magazine/Gemini,+Siri,+Co-Pilot+and+Alexa:+The+AI+wars+commence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Google says free Gemini users will be limited to the 3.5 Flash-Lite model from October 9, while Plus subscribers will be",
+          "url": "https://www.techmeme.com/261004/p4#a261004p4",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Googlebooks are bringing Gemini Intelligence to premium laptops, but is the cost worth it for these Android based-device",
+          "url": "https://www.techradar.com/computing/chromebooks/googlebook-vs-chromebook",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "huggingface",
+      "mentions": 12,
+      "velocity": 0.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.95,
+      "headline": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
+      "articles": [
+        {
+          "title": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
+          "url": "https://arxiv.org/abs/2609.35799",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "copilot",
+      "mentions": 38,
+      "velocity": 0.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.68,
+      "headline": "Coco: An Agentic Copilot for the Hardware--Software Co-Design Lifecycle",
+      "articles": [
+        {
+          "title": "Coco: An Agentic Copilot for the Hardware--Software Co-Design Lifecycle",
+          "url": "https://arxiv.org/abs/2610.02376",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Change.org says it is investing $100M of its own money to rebuild its core petitions platform with AI and has launched a",
+          "url": "https://www.techmeme.com/261004/p22#a261004p22",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Inside Microsoft’s big Copilot rethink",
+          "url": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+          "source": "The Verge -  All Posts"
+        }
+      ]
     }
   ],
   "track_record": {
-    "scored_predictions": 282,
-    "covered": 150,
-    "coverage_rate": 0.532,
+    "scored_predictions": 285,
+    "covered": 151,
+    "coverage_rate": 0.53,
     "early": 78,
-    "early_rate": 0.277,
+    "early_rate": 0.274,
     "avg_lead_days": 14.5,
     "median_lead_days": 10.5,
     "max_lead_days": 42,
-    "hit_rate": 0.532,
-    "materialized": 150,
+    "hit_rate": 0.53,
+    "materialized": 151,
     "by_signal_type": {
-      "emerging": {
-        "scored": 171,
-        "covered": 132,
-        "early": 67,
-        "coverage_rate": 0.772,
-        "early_rate": 0.392,
-        "hit_rate": 0.772
-      },
       "weak_signal": {
-        "scored": 111,
+        "scored": 112,
         "covered": 18,
         "early": 11,
-        "coverage_rate": 0.162,
-        "early_rate": 0.099,
-        "hit_rate": 0.162
+        "coverage_rate": 0.161,
+        "early_rate": 0.098,
+        "hit_rate": 0.161
+      },
+      "emerging": {
+        "scored": 173,
+        "covered": 133,
+        "early": 67,
+        "coverage_rate": 0.769,
+        "early_rate": 0.387,
+        "hit_rate": 0.769
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 282,
+    "n": 285,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.535,
-      "early_rate": 0.28
+      "coverage_rate": 0.533,
+      "early_rate": 0.277
     },
     "null_mean": {
       "coverage_rate": 0.562,
       "early_rate": 0.334
     },
     "p_value": {
-      "coverage_rate": 0.976,
-      "early_rate": 0.998
+      "coverage_rate": 0.986,
+      "early_rate": 0.994
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -680,16 +625,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
-    },
-    {
       "keyword": "prompt engineering",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
@@ -698,10 +633,32 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
       "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+    },
+    {
+      "keyword": "flair",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "llama.cpp",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-05",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "ai governance",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-05",
+        "confidence": 0.2
+      },
       {
         "keyword": "inflection",
         "signal_type": "emerging",
@@ -761,104 +718,92 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 0.4
-      },
-      {
-        "keyword": "retrieval augmented generation",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-02",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "ai coding",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-01",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "code completion",
-        "recent_mentions": 16,
+        "keyword": "claude 4",
+        "recent_mentions": 12,
         "prior_mentions": 1,
-        "change_ratio": 16.0,
-        "corroborating_sources": 2
+        "change_ratio": 12.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 11,
-        "prior_mentions": 1,
-        "change_ratio": 11.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "claude cowork",
+        "keyword": "descript",
         "recent_mentions": 10,
         "prior_mentions": 1,
         "change_ratio": 10.0,
-        "corroborating_sources": 3
+        "corroborating_sources": 1
       },
       {
-        "keyword": "claude 4",
+        "keyword": "quillbot",
         "recent_mentions": 9,
         "prior_mentions": 1,
         "change_ratio": 9.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "reasoning model",
-        "recent_mentions": 21,
-        "prior_mentions": 3,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "speech to text",
-        "recent_mentions": 6,
+        "keyword": "synthesia",
+        "recent_mentions": 9,
         "prior_mentions": 1,
-        "change_ratio": 6.0,
+        "change_ratio": 9.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "openmontage",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "computer-use",
-        "recent_mentions": 29,
-        "prior_mentions": 6,
-        "change_ratio": 4.83,
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 17,
+        "prior_mentions": 2,
+        "change_ratio": 8.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "manus",
+        "keyword": "pictory",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "invideo",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "b200",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "together ai",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "simplified",
+        "recent_mentions": 13,
+        "prior_mentions": 3,
+        "change_ratio": 4.33,
         "corroborating_sources": 2
       },
       {
-        "keyword": "openclaw",
-        "recent_mentions": 31,
-        "prior_mentions": 7,
-        "change_ratio": 4.43,
-        "corroborating_sources": 4
+        "keyword": "sovereign ai",
+        "recent_mentions": 16,
+        "prior_mentions": 4,
+        "change_ratio": 4.0,
+        "corroborating_sources": 3
       },
       {
-        "keyword": "deepseek v3",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "dreamina",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 1
+        "keyword": "mixture of experts",
+        "recent_mentions": 15,
+        "prior_mentions": 4,
+        "change_ratio": 3.75,
+        "corroborating_sources": 2
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-04T17:31:24+00:00",
+  "generated_at": "2026-10-05T05:26:02+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 106,
+    "open": 103,
     "resolved": 125,
     "hits": 7,
     "misses": 118,
@@ -11,79 +11,133 @@
   },
   "open": [
     {
-      "keyword": "browser-use",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-08-20",
-      "days_left": 0
-    },
-    {
-      "keyword": "dify",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-20",
-      "days_left": 0
-    },
-    {
-      "keyword": "gemini 2",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-20",
-      "days_left": 0
-    },
-    {
       "keyword": "voice mode",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-21",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "data centers",
       "signal_type": "emerging",
       "flagged_on": "2026-08-24",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "crewai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-25",
-      "days_left": 5
-    },
-    {
-      "keyword": "ai governance",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-08-25",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "cohere",
       "signal_type": "emerging",
       "flagged_on": "2026-08-25",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "meta ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-25",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "custom gpt",
       "signal_type": "emerging",
       "flagged_on": "2026-08-25",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "code generation",
       "signal_type": "emerging",
       "flagged_on": "2026-08-27",
-      "days_left": 7
+      "days_left": 6
     },
     {
       "keyword": "ai chips",
       "signal_type": "emerging",
       "flagged_on": "2026-08-27",
-      "days_left": 7
+      "days_left": 6
+    },
+    {
+      "keyword": "databricks",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-08-31",
+      "days_left": 10
+    },
+    {
+      "keyword": "command r",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-08-31",
+      "days_left": 10
+    },
+    {
+      "keyword": "prompt engineering",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-31",
+      "days_left": 10
+    },
+    {
+      "keyword": "comet",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-09-01",
+      "days_left": 11
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "perplexity",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-20",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "gpt-5",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-20",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "browser-use",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-08-20",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "grpo",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-20",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "gemini 2",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-20",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "dify",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-20",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "cursor",
       "signal_type": "emerging",
@@ -152,60 +206,6 @@
       "signal_type": "weak_signal",
       "status": "miss",
       "flagged_on": "2026-08-18",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "qlora",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-18",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "cline",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-18",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "ad creative",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-18",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "bolt",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-18",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "openrouter",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-18",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "kimi",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-16",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
