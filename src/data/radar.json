@@ -1,135 +1,46 @@
 {
-  "generated_at": "2026-10-05T07:12:55.677537",
-  "total_tracked": 3461,
+  "generated_at": "2026-10-05T19:16:31.133409",
+  "total_tracked": 3499,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "simulation",
-      "mentions": 82,
-      "velocity": 17.3,
+      "keyword": "chatgpt",
+      "mentions": 206,
+      "velocity": 3.2,
       "sources": [
         "articles",
         "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
         "twitter"
       ],
-      "source_count": 3,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "PLCWorld: Benchmarking LLM-Generated PLC Programs in Closed-Loop Plant Simulation",
+      "expert_ratio": 0.51,
+      "headline": "OpenAI is testing more ads in ChatGPT",
       "articles": [
         {
-          "title": "PLCWorld: Benchmarking LLM-Generated PLC Programs in Closed-Loop Plant Simulation",
-          "url": "https://arxiv.org/abs/2610.02982",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI is testing more ads in ChatGPT",
+          "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
+          "source": "Engadget"
         },
         {
-          "title": "Network-in-the-Loop at Scale: GPU-Batched 5G Simulation for Massively Parallel Robot Learning",
-          "url": "https://arxiv.org/abs/2610.02370",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI gaat ChatGPT-advertenties met afbeeldingen tonen, voorlopig alleen in VS",
+          "url": "https://tweakers.net/nieuws/252974/openai-gaat-chatgpt-advertenties-met-afbeeldingen-tonen-voorlopig-alleen-in-vs.html",
+          "source": "Tweakers Mixed RSS Feed"
         },
         {
-          "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
-          "url": "https://arxiv.org/abs/2610.03679",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "distillation",
-      "mentions": 106,
-      "velocity": 15.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "EchoDistill: Robust Large Audio Language Models via Noisy-to-Clean Self-Distillation",
-      "articles": [
-        {
-          "title": "EchoDistill: Robust Large Audio Language Models via Noisy-to-Clean Self-Distillation",
-          "url": "https://arxiv.org/abs/2605.23954",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Learning to Revise Reasoning with Segment-wise On-Policy Distillation",
-          "url": "https://arxiv.org/abs/2610.02703",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "HINT-SD: Targeted Hindsight Self-Distillation for Long-Horizon Agents",
-          "url": "https://arxiv.org/abs/2605.17873",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 175,
-      "velocity": 10.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-      "articles": [
-        {
-          "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-          "url": "https://github.com/Niko1221/Strata",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
-          "url": "https://arxiv.org/abs/2609.29892",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI is sticking more ads in ChatGPT",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+          "source": "The Verge -  Artificial Intelligences"
         }
       ]
     }
   ],
-  "emerging": [
-    {
-      "keyword": "lora",
-      "mentions": 53,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
-      "articles": [
-        {
-          "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
-          "url": "https://arxiv.org/abs/2610.00685",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Beyond LoRA vs. Full Fine-Tuning: Gradient-Guided Optimizer Routing for LLM Adaptation",
-          "url": "https://arxiv.org/abs/2605.07111",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Dynamical Theory of LoRA in Continual Learning",
-          "url": "https://arxiv.org/abs/2609.39367",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    }
-  ],
+  "emerging": [],
   "weak_signals": [
     {
       "keyword": "atlas",
@@ -162,6 +73,36 @@
       ]
     },
     {
+      "keyword": "super intelligence",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 89,
+      "days_active": 8,
+      "expert_ratio": 0.65,
+      "headline": "Trump announces a new ‘Super Intelligence Force’ to lead federal efforts on AI",
+      "articles": [
+        {
+          "title": "Trump announces a new ‘Super Intelligence Force’ to lead federal efforts on AI",
+          "url": "https://www.fastcompany.com/91618225/trump-announc-new-super-intelligence-force-lead-federal-efforts-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=10052026",
+          "source": "Fast Company"
+        },
+        {
+          "title": "Trump announces a new ‘Super Intelligence Force’ to lead federal efforts on AI",
+          "url": "https://www.fastcompany.com/91618225/trump-announc-new-super-intelligence-force-lead-federal-efforts-ai",
+          "source": "Fast Company"
+        },
+        {
+          "title": "The amount of inference needed will go through the roof if we reach super intelligence: Gene Munster",
+          "url": "https://www.cnbc.com/video/2026/10/05/the-amount-of-inference-needed-will-go-through-the-roof-if-we-reach-super-intelligence-gene-munster.html?__source=flipboard",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
       "keyword": "train",
       "mentions": 3,
       "velocity": 0.4,
@@ -177,26 +118,6 @@
         {
           "title": "How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling",
           "url": "https://arxiv.org/abs/2610.02542",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "ai code",
-      "mentions": 3,
-      "velocity": 0.2,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 15,
-      "expert_ratio": 0.62,
-      "headline": "Are AI Coders Snitches? An Empirical Study of Pretraining Data Detection on Code Large Language Models",
-      "articles": [
-        {
-          "title": "Are AI Coders Snitches? An Empirical Study of Pretraining Data Detection on Code Large Language Models",
-          "url": "https://arxiv.org/abs/2507.17389",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -277,24 +198,6 @@
       ]
     },
     {
-      "keyword": "t mean",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 62,
-      "days_active": 6,
-      "expert_ratio": 0.91,
-      "headline": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
-      "articles": [
-        {
-          "title": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
-          "url": "https://www.techradar.com/pro/launching-an-app-shouldnt-mean-learning-how-to-host-godaddy-has-launched-node-js-hosting",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
       "keyword": "superior",
       "mentions": 2,
       "velocity": 0.1,
@@ -316,40 +219,60 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
+    },
+    {
+      "keyword": "t mean",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 62,
+      "days_active": 6,
+      "expert_ratio": 0.91,
+      "headline": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
+      "articles": [
+        {
+          "title": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
+          "url": "https://www.techradar.com/pro/launching-an-app-shouldnt-mean-learning-how-to-host-godaddy-has-launched-node-js-hosting",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "grok",
-      "mentions": 92,
-      "velocity": 1.7,
+      "keyword": "anthropic",
+      "mentions": 178,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
+        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.33,
-      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+      "expert_ratio": 0.77,
+      "headline": "Anthropic says its IPO could herald the end of the world as we know it",
       "articles": [
         {
-          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
-          "source": "Tom's Hardware"
+          "title": "Anthropic says its IPO could herald the end of the world as we know it",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/05/anthropic-says-its-ipo-could-herald-the-end-of-the-world-as-we-know-it/5300908",
+          "source": "The Register"
         },
         {
-          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
+          "title": "Anthropic wants your thoughts on AI",
+          "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+          "source": "Hacker News"
         },
         {
-          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
-          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
-          "source": "The Next Web"
+          "title": "OpenAI, Anthropic, Google, and Meta are testifying under oath before NYC lawmakers today",
+          "url": "https://qz.com/openai-anthropic-google-meta-nyc-council-ai-hearing-100526",
+          "source": "Quartz"
         }
       ]
     },
@@ -358,10 +281,11 @@
       "mentions": 16,
       "velocity": 1.6,
       "sources": [
+        "articles",
         "hackernews",
         "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.8,
@@ -385,43 +309,69 @@
       ]
     },
     {
-      "keyword": "ai safety",
-      "mentions": 31,
-      "velocity": 1.4,
+      "keyword": "prompt engineering",
+      "mentions": 17,
+      "velocity": 1.6,
+      "sources": [
+        "arxiv",
+        "github",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
+      "articles": [
+        {
+          "title": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
+          "url": "https://arxiv.org/abs/2609.22249",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
+          "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 90,
+      "velocity": 1.1,
       "sources": [
         "articles",
-        "github",
         "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
+      "expert_ratio": 0.33,
+      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
       "articles": [
         {
-          "title": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-05/softbank-s-masayoshi-son-warns-on-ai-safety-video",
-          "source": "Bloomberg Technology"
+          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-04/softbank-s-masayoshi-son-has-rare-cautionary-note-on-ai-safety",
-          "source": "Bloomberg Technology"
+          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
+          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
         },
         {
-          "title": "Meta says it is letting go of employees it hired from AI safety startup Virtue AI four months after they joined the comp",
-          "url": "https://www.techmeme.com/261002/p23#a261002p23",
-          "source": "Techmeme"
+          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
+          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
+          "source": "The Next Web"
         }
       ]
     },
     {
       "keyword": "gemini",
-      "mentions": 215,
-      "velocity": 1.4,
+      "mentions": 212,
+      "velocity": 0.5,
       "sources": [
         "articles",
         "arxiv",
@@ -434,80 +384,54 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.44,
-      "headline": "If you're on the free or Plus tiers for Google AI, you're about to lose access to some Gemini models — here's what's cha",
+      "expert_ratio": 0.43,
+      "headline": "8 prompt per trasformare Gemini Notebook in un analista che risponde solo dalle tue fonti",
       "articles": [
         {
-          "title": "If you're on the free or Plus tiers for Google AI, you're about to lose access to some Gemini models — here's what's cha",
-          "url": "https://www.techradar.com/ai-platforms-assistants/gemini/if-youre-on-the-free-or-plus-tiers-for-google-ai-youre-about-to-lose-access-to-some-gemini-models-heres-whats-changing?utm_source=flipboard&utm_content=TechRadar/magazine/Gemini,+Siri,+Co-Pilot+and+Alexa:+The+AI+wars+commence",
-          "source": "Artificial Intelligence"
+          "title": "8 prompt per trasformare Gemini Notebook in un analista che risponde solo dalle tue fonti",
+          "url": "https://www.tomshw.it/aioperator/8-prompt-per-trasformare-gemini-notebook-in-un-analista-che-risponde-solo-dalle-tue-fonti",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Google says free Gemini users will be limited to the 3.5 Flash-Lite model from October 9, while Plus subscribers will be",
-          "url": "https://www.techmeme.com/261004/p4#a261004p4",
-          "source": "Techmeme"
+          "title": "150€ in meno sul Google Pixel Watch 4 LTE, salute e Gemini al polso",
+          "url": "https://www.tomshw.it/smartphone/150eur-in-meno-sul-google-pixel-watch-4-lte-salute-e-gemini-al-polso",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Googlebooks are bringing Gemini Intelligence to premium laptops, but is the cost worth it for these Android based-device",
-          "url": "https://www.techradar.com/computing/chromebooks/googlebook-vs-chromebook",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Google Gemini si prepara per leggere i file del tuo Mac",
+          "url": "https://www.tomshw.it/business/google-gemini-si-prepara-per-leggere-i-file-del-tuo-mac",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "huggingface",
-      "mentions": 12,
-      "velocity": 0.8,
+      "keyword": "lora",
+      "mentions": 41,
+      "velocity": -0.1,
       "sources": [
-        "articles",
         "arxiv",
-        "github"
+        "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
+      "expert_ratio": 0.88,
+      "headline": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
       "articles": [
         {
-          "title": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
-          "url": "https://arxiv.org/abs/2609.35799",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "copilot",
-      "mentions": 38,
-      "velocity": 0.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "Coco: An Agentic Copilot for the Hardware--Software Co-Design Lifecycle",
-      "articles": [
-        {
-          "title": "Coco: An Agentic Copilot for the Hardware--Software Co-Design Lifecycle",
-          "url": "https://arxiv.org/abs/2610.02376",
+          "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
+          "url": "https://arxiv.org/abs/2610.00685",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Change.org says it is investing $100M of its own money to rebuild its core petitions platform with AI and has launched a",
-          "url": "https://www.techmeme.com/261004/p22#a261004p22",
-          "source": "Techmeme"
+          "title": "Beyond LoRA vs. Full Fine-Tuning: Gradient-Guided Optimizer Routing for LLM Adaptation",
+          "url": "https://arxiv.org/abs/2605.07111",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Inside Microsoft’s big Copilot rethink",
-          "url": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
-          "source": "The Verge -  All Posts"
+          "title": "A Dynamical Theory of LoRA in Continual Learning",
+          "url": "https://arxiv.org/abs/2609.39367",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     }
@@ -524,14 +448,6 @@
     "hit_rate": 0.53,
     "materialized": 151,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 112,
-        "covered": 18,
-        "early": 11,
-        "coverage_rate": 0.161,
-        "early_rate": 0.098,
-        "hit_rate": 0.161
-      },
       "emerging": {
         "scored": 173,
         "covered": 133,
@@ -539,6 +455,14 @@
         "coverage_rate": 0.769,
         "early_rate": 0.387,
         "hit_rate": 0.769
+      },
+      "weak_signal": {
+        "scored": 112,
+        "covered": 18,
+        "early": 11,
+        "coverage_rate": 0.161,
+        "early_rate": 0.098,
+        "hit_rate": 0.161
       }
     }
   },
@@ -654,6 +578,30 @@
         "confidence": 0.6
       },
       {
+        "keyword": "b200",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-05",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "openmontage",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-05",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "ai code",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-05",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "kling",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-05",
+        "confidence": 0.2
+      },
+      {
         "keyword": "ai governance",
         "signal_type": "weak_signal",
         "flagged_on": "2026-10-05",
@@ -694,30 +642,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-02",
         "confidence": 1.0
-      },
-      {
-        "keyword": "gemini",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "grok",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "opencode",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "ai consciousness",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 0.4
       }
     ],
     "heating_up": [
@@ -736,13 +660,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "quillbot",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "synthesia",
         "recent_mentions": 9,
         "prior_mentions": 1,
@@ -750,17 +667,10 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 17,
-        "prior_mentions": 2,
-        "change_ratio": 8.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "pictory",
-        "recent_mentions": 8,
+        "keyword": "quillbot",
+        "recent_mentions": 9,
         "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 9.0,
         "corroborating_sources": 1
       },
       {
@@ -771,11 +681,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "b200",
-        "recent_mentions": 6,
+        "keyword": "pictory",
+        "recent_mentions": 8,
         "prior_mentions": 1,
-        "change_ratio": 6.0,
+        "change_ratio": 8.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "retrieval augmented generation",
+        "recent_mentions": 13,
+        "prior_mentions": 2,
+        "change_ratio": 6.5,
+        "corroborating_sources": 2
       },
       {
         "keyword": "together ai",
@@ -793,16 +710,23 @@
       },
       {
         "keyword": "sovereign ai",
-        "recent_mentions": 16,
+        "recent_mentions": 17,
         "prior_mentions": 4,
-        "change_ratio": 4.0,
+        "change_ratio": 4.25,
         "corroborating_sources": 3
       },
       {
         "keyword": "mixture of experts",
-        "recent_mentions": 15,
+        "recent_mentions": 16,
         "prior_mentions": 4,
-        "change_ratio": 3.75,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "h100",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
         "corroborating_sources": 2
       }
     ]
