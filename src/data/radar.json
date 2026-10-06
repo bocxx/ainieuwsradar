@@ -1,12 +1,45 @@
 {
-  "generated_at": "2026-10-06T07:14:18.986076",
-  "total_tracked": 3435,
+  "generated_at": "2026-10-06T19:17:18.863053",
+  "total_tracked": 3512,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "mistral",
+      "mentions": 48,
+      "velocity": 10.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+      "articles": [
+        {
+          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
+        },
+        {
+          "title": "Mistral is launching a 1-trillion-parameter open AI model it claims leads outside China",
+          "url": "https://qz.com/mistral-large-4-open-weight-ai-model-launch-100626",
+          "source": "Quartz"
+        },
+        {
+          "title": "Mistral Large 4: \"Le Chonk\"",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
       "keyword": "chatgpt",
-      "mentions": 264,
-      "velocity": 19.8,
+      "mentions": 229,
+      "velocity": 9.2,
       "sources": [
         "articles",
         "arxiv",
@@ -20,29 +53,134 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.51,
-      "headline": "OpenAI starts watermarking ChatGPT and Codex text in the EU",
+      "headline": "Ook ChatGPT-teksten krijgen onzichtbaar 'watermerk'",
       "articles": [
         {
-          "title": "OpenAI starts watermarking ChatGPT and Codex text in the EU",
-          "url": "https://thenextweb.com/news/openai-text-watermarking-chatgpt-codex-eu-ai-act",
+          "title": "Ook ChatGPT-teksten krijgen onzichtbaar 'watermerk'",
+          "url": "https://nos.nl/l/2633893",
+          "source": "NOS Nieuws - Algemeen"
+        },
+        {
+          "title": "Anche ChatGPT marca i testi con una filigrana invisibile, ma solo in UE",
+          "url": "https://www.tomshw.it/business/anche-chatgpt-marca-i-testi-con-una-filigrana-invisibile-ma-solo-in-ue",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "My husband used ChatGPT to become a better husband. I hate to admit it, but it helped.",
+          "url": "https://www.businessinsider.com/chatgpt-marriage-relationship-advice-husband-wife-2026-10",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 524,
+      "velocity": 5.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.75,
+      "headline": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "articles": [
+        {
+          "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Meta and Microsoft want to stop their employees using Claude",
+          "url": "https://www.techradar.com/pro/meta-and-microsoft-want-to-stop-their-employees-using-claude",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Florida woman arrested after Anthropic reported her Claude chat to police",
+          "url": "https://thenextweb.com/news/anthropic-claude-chat-reported-police-florida-arrest",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "anthropic",
+      "mentions": 189,
+      "velocity": 4.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "articles": [
+        {
+          "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Anthropic earmarks $100 million to train over 10,000 AI engineers in push to develop enterprise AI",
+          "url": "https://www.techradar.com/pro/anthropic-earmarks-usd100-million-to-train-over-10-000-ai-engineers-in-push-to-develop-enterprise-ai",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "A New Challenger to Anthropic Emerges",
+          "url": "https://www.nytimes.com/2026/10/06/business/dealbook/anthropic-reflection-open-weight-ai.html?utm_source=flipboard&utm_content=newyorktimes/magazine/Business+Day",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 58,
+      "velocity": 3.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
+      "headline": "DeepSeek is raising at least $12 billion in a Tencent-backed funding round",
+      "articles": [
+        {
+          "title": "DeepSeek is raising at least $12 billion in a Tencent-backed funding round",
+          "url": "https://qz.com/deepseek-funding-round-tencent-catl-ipo-100626",
+          "source": "Quartz"
+        },
+        {
+          "title": "DeepSeek reportedly nears $12bn funding round backed by Tencent and CATL",
+          "url": "https://thenextweb.com/news/deepseek-12bn-funding-round-tencent-catl",
           "source": "The Next Web"
         },
         {
-          "title": "OpenAI Expands Visual Ads in ChatGPT and Moves to Help Advertisers Measure Their Impact",
-          "url": "https://www.theinformation.com/briefings/openai-expands-visual-ads-chatgpt-moves-help-advertisers-measure-impact",
-          "source": "The Information"
-        },
-        {
-          "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-          "source": "TechCrunch"
+          "title": "What is Beam? The buzzy American AI model being called the 'DeepSeek of the West'",
+          "url": "https://www.businessinsider.com/what-is-beam-american-ai-model-deepseek-of-the-west-2026-10",
+          "source": "All Content from Business Insider"
         }
       ]
     },
     {
       "keyword": "world models",
-      "mentions": 16,
-      "velocity": 3.2,
+      "mentions": 15,
+      "velocity": 2.9,
       "sources": [
         "articles",
         "arxiv",
@@ -52,21 +190,54 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.96,
-      "headline": "World Action Planner: Generalizable Robot Decision-Making with Action-Conditioned World Models",
+      "headline": "Keeping JEPA World Models Plannable When Little of the Frame Moves",
       "articles": [
-        {
-          "title": "World Action Planner: Generalizable Robot Decision-Making with Action-Conditioned World Models",
-          "url": "https://arxiv.org/abs/2607.27599",
-          "source": "cs.AI updates on arXiv.org"
-        },
         {
           "title": "Keeping JEPA World Models Plannable When Little of the Frame Moves",
           "url": "https://arxiv.org/abs/2610.03137",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
-          "url": "https://arxiv.org/abs/2610.03356",
+          "title": "ConfAL-WM: Confidence-Guided Active Learning for Action-Conditioned World Models",
+          "url": "https://arxiv.org/abs/2608.25572",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "An Irreducible Quantum Advantage in Aligning World Models with Reality",
+          "url": "https://arxiv.org/abs/2608.19779",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 33,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "Chip simulation startup Vinci raises $250m at a $1.5bn valuation",
+      "articles": [
+        {
+          "title": "Chip simulation startup Vinci raises $250m at a $1.5bn valuation",
+          "url": "https://thenextweb.com/news/chip-simulation-startup-vinci-raises-250m-at-a-1-5bn-valuation",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Simulation-Free Learning of Population Dynamics with Wasserstein Lagrangian Residuals",
+          "url": "https://arxiv.org/abs/2610.03679",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Network-in-the-Loop at Scale: GPU-Batched 5G Simulation for Massively Parallel Robot Learning",
+          "url": "https://arxiv.org/abs/2610.02370",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -94,6 +265,82 @@
           "title": "Hinton and leading AI researchers warned of an 'intelligence explosion' in new paper",
           "url": "https://qz.com/hinton-ai-researchers-intelligence-explosion-warning-100226",
           "source": "Quartz"
+        }
+      ]
+    },
+    {
+      "keyword": "libreoffice",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "LibreOffice says ‘no AI’ is now a software feature",
+      "articles": [
+        {
+          "title": "LibreOffice says ‘no AI’ is now a software feature",
+          "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Fedora-gebruikers discussiëren over het vervangen van LibreOffice door Collabora",
+          "url": "https://tweakers.net/nieuws/252616/fedora-gebruikers-discussieren-over-het-vervangen-van-libreoffice-door-collabora.html",
+          "source": "Tweakers Mixed RSS Feed"
+        }
+      ]
+    },
+    {
+      "keyword": "flash",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Google is about to remove free access to Gemini Flash and Pro",
+      "articles": [
+        {
+          "title": "Google is about to remove free access to Gemini Flash and Pro",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "Google removes free access to Gemini Flash and Pro on October 9",
+          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Samsung shock! La super promo flash devasta il listino dei nuovi pieghevoli",
+          "url": "https://www.tomshw.it/smartphone/samsung-shock-la-super-promo-flash-devasta-il-listino-dei-nuovi-pieghevoli",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "semianalysis",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "SemiAnalysis estimates ~90% of Anthropic's business comes from agentic AI, while sources say nearly 25% of its revenue i",
+      "articles": [
+        {
+          "title": "SemiAnalysis estimates ~90% of Anthropic's business comes from agentic AI, while sources say nearly 25% of its revenue i",
+          "url": "https://www.techmeme.com/261001/p9#a261001p9",
+          "source": "Techmeme"
+        },
+        {
+          "title": "ByteDance rents a fifth of China’s data centre capacity, SemiAnalysis says",
+          "url": "https://thenextweb.com/news/bytedance-data-centre-fifth-china-capacity-semianalysis",
+          "source": "The Next Web"
         }
       ]
     },
@@ -128,6 +375,26 @@
       ]
     },
     {
+      "keyword": "train",
+      "mentions": 3,
+      "velocity": 0.4,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 5,
+      "expert_ratio": 0.91,
+      "headline": "Anthropic earmarks $100 million to train over 10,000 AI engineers in push to develop enterprise AI",
+      "articles": [
+        {
+          "title": "Anthropic earmarks $100 million to train over 10,000 AI engineers in push to develop enterprise AI",
+          "url": "https://www.techradar.com/pro/anthropic-earmarks-usd100-million-to-train-over-10-000-ai-engineers-in-push-to-develop-enterprise-ai",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
       "keyword": "ai code",
       "mentions": 3,
       "velocity": 0.2,
@@ -146,226 +413,109 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
+    }
+  ],
+  "sustained": [
     {
-      "keyword": "ai assistant",
-      "mentions": 3,
-      "velocity": 0.1,
+      "keyword": "copilot",
+      "mentions": 43,
+      "velocity": 2.0,
       "sources": [
-        "github"
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "twitter"
       ],
-      "source_count": 1,
-      "confidence": 91,
-      "days_active": 7,
-      "expert_ratio": 0.83,
-      "headline": "Instagram’s Edits app gets an AI assistant that reads your Reels data",
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.67,
+      "headline": "Zombie instructions on carefully constructed web pages could trick GitHub Copilot CLI into sharing secrets",
       "articles": [
         {
-          "title": "Instagram’s Edits app gets an AI assistant that reads your Reels data",
-          "url": "https://thenextweb.com/news/instagram-edits-assistant-ai-creators-reels",
-          "source": "The Next Web"
+          "title": "Zombie instructions on carefully constructed web pages could trick GitHub Copilot CLI into sharing secrets",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/06/zombie-instructions-on-carefully-constructed-web-pages-could-trick-github-copilot-cli-into-sharing-secrets/5301206",
+          "source": "The Register"
         },
         {
-          "title": "Why DoorDash Needs Its Own AI Assistant",
-          "url": "https://www.theinformation.com/articles/doordash-needs-ai-assistant",
-          "source": "The Information"
+          "title": "Amazon hires Microsoft's former Copilot CTO",
+          "url": "https://www.businessinsider.com/amazon-hires-former-microsoft-copilot-cto-ai-agent-push-2026-10",
+          "source": "Business Insider"
         },
         {
-          "title": "Meta introduces a new AI assistant for its Instagram creators",
-          "url": "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators/",
-          "source": "Engadget"
+          "title": "Ora Excel si mette a scrivere il report al posto tuo, fa tutto Copilot",
+          "url": "https://www.tomshw.it/business/ora-excel-si-mette-a-scrivere-il-report-al-posto-tuo-fa-tutto-copilot",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "astabrief",
-      "mentions": 3,
-      "velocity": 0.1,
+      "keyword": "perplexity",
+      "mentions": 21,
+      "velocity": 1.8,
       "sources": [
-        "hackernews"
+        "arxiv",
+        "linkedin",
+        "reddit"
       ],
-      "source_count": 1,
-      "confidence": 83,
-      "days_active": 5,
-      "expert_ratio": 1.0,
-      "headline": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.63,
+      "headline": "AI giants targeted by scraping bots — ChatGPT and Perplexity enter the most-scraped websites list for the first time",
       "articles": [
         {
-          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-          "url": "https://huggingface.co/blog/allenai/astabrief",
-          "source": "Hugging Face Blog"
+          "title": "AI giants targeted by scraping bots — ChatGPT and Perplexity enter the most-scraped websites list for the first time",
+          "url": "https://www.techradar.com/pro/ai-giants-targeted-by-scraping-bots-chatgpt-and-perplexity-enter-the-most-scraped-websites-list-for-the-first-time",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "most capable models",
-      "mentions": 3,
-      "velocity": 0.1,
+      "keyword": "deepmind",
+      "mentions": 14,
+      "velocity": 1.7,
       "sources": [
-        "hackernews"
+        "articles",
+        "linkedin"
       ],
-      "source_count": 1,
-      "confidence": 89,
-      "days_active": 6,
-      "expert_ratio": 1.0,
-      "headline": "OpenAI pauses training of its ‘most capable models’",
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.55,
+      "headline": "Vinod Khosla believes ex-DeepMind engineer’s Wajo will win agent market on trust",
       "articles": [
         {
-          "title": "OpenAI pauses training of its ‘most capable models’",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-          "source": "The Verge -  All Posts"
+          "title": "Vinod Khosla believes ex-DeepMind engineer’s Wajo will win agent market on trust",
+          "url": "https://techcrunch.com/2026/10/06/vinod-khosla-believes-ex-deepmind-engineers-wajo-will-win-agent-market-on-trust/",
+          "source": "TechCrunch"
         },
         {
-          "title": "OpenAI says it paused training, evaluation, and inference with tool-use of its most capable models after a model bypasse",
-          "url": "https://www.techmeme.com/260926/p1#a260926p1",
+          "title": "Google DeepMind's AI readiness chief says benefits of AI will outweigh the risks",
+          "url": "https://qz.com/google-deepmind-lila-ibrahim-ai-readiness-risks-benefits-100626",
+          "source": "Quartz"
+        },
+        {
+          "title": "Q＆A with Google SVP and DeepMind Institute co-director James Manyika on AI risks and why responsibility must be shared a",
+          "url": "https://www.techmeme.com/261004/p21#a261004p21",
           "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "superior",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 62,
-      "days_active": 6,
-      "expert_ratio": 0.91,
-      "headline": "AT＆T CEO argues fiber is superior to Starlink's satellite-based phone plans",
-      "articles": [
-        {
-          "title": "AT＆T CEO argues fiber is superior to Starlink's satellite-based phone plans",
-          "url": "https://www.techradar.com/phones/network-providers/at-and-t-ceo-dismisses-elon-musks-starlink-phone-plans-as-not-viable-then-launches-dead-zones-venture-with-t-mobile-and-verizon-just-in-case",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Neagley is superior in literally every way to Reacher season 4, according to fans",
-          "url": "https://www.techradar.com/streaming/amazon-prime-video/neagley-reacher-season-4-fan-comment",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "t mean",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 62,
-      "days_active": 6,
-      "expert_ratio": 0.91,
-      "headline": "AI ‘Pacing’ Doesn’t Mean Slower Adoption",
-      "articles": [
-        {
-          "title": "AI ‘Pacing’ Doesn’t Mean Slower Adoption",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-05/ai-pacing-doesn-t-mean-slower-adoption-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
-          "url": "https://www.techradar.com/pro/launching-an-app-shouldnt-mean-learning-how-to-host-godaddy-has-launched-node-js-hosting",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "longcat",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 6,
-      "expert_ratio": 0.73,
-      "headline": "LongCat-DeepResearch Technical Report",
-      "articles": [
-        {
-          "title": "LongCat-DeepResearch Technical Report",
-          "url": "https://arxiv.org/abs/2609.36071",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "sustained": [
-    {
-      "keyword": "data centers",
-      "mentions": 24,
-      "velocity": 1.6,
-      "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.35,
-      "headline": "Amazon commits $1 billion to communities near data centers, AWS CEO says it no longer uses NDAs with government agencies",
-      "articles": [
-        {
-          "title": "Amazon commits $1 billion to communities near data centers, AWS CEO says it no longer uses NDAs with government agencies",
-          "url": "https://www.techradar.com/pro/amazon-commits-usd1-billion-to-communities-near-data-centers-aws-ceo-says-it-no-longer-uses-ndas-with-government-agencies",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Finland drops first-come, first-served grid connections — leaving data centers way down the queue",
-          "url": "https://www.techradar.com/pro/finland-drops-first-come-first-served-grid-connections-leaving-data-centers-way-down-the-queue",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "DayOne Data Centers Files for Nasdaq IPO amid Market Uncertainty",
-          "url": "https://www.theinformation.com/briefings/dayone-data-centers-files-nasdaq-ipo-amid-market-uncertainty",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "minimax",
-      "mentions": 29,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Expected Utility Regret Rule: Minimax and Bayes Optimal Portfolio Choice",
-      "articles": [
-        {
-          "title": "Expected Utility Regret Rule: Minimax and Bayes Optimal Portfolio Choice",
-          "url": "https://arxiv.org/abs/2610.02290",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Lower Bounds for Stochastic First-Order Algorithms with Variance Reduction in Nonconvex--Concave Minimax Optimization",
-          "url": "https://arxiv.org/abs/2610.01662",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Bandits with Multiple Optimal Arms: Minimax Regret and Non-Adaptivit",
-          "url": "https://arxiv.org/abs/2609.38659",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "flux",
-      "mentions": 15,
-      "velocity": 0.8,
+      "mentions": 16,
+      "velocity": 1.1,
       "sources": [
-        "articles",
+        "arxiv",
         "hackernews",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
+      "expert_ratio": 0.8,
       "headline": "Philips Hue Flux sotto i 75€, 5 metri di luce smart per tutta la stanza",
       "articles": [
         {
@@ -386,9 +536,30 @@
       ]
     },
     {
+      "keyword": "langchain",
+      "mentions": 11,
+      "velocity": 0.9,
+      "sources": [
+        "github",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "Agent Harness with LangChain Middleware and Jev",
+      "articles": [
+        {
+          "title": "Agent Harness with LangChain Middleware and Jev",
+          "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-3-with-implementation/",
+          "source": "Daily Dose of Data Science"
+        }
+      ]
+    },
+    {
       "keyword": "ai safety",
-      "mentions": 28,
-      "velocity": 0.3,
+      "mentions": 27,
+      "velocity": 0.0,
       "sources": [
         "articles",
         "hackernews",
@@ -398,7 +569,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
+      "expert_ratio": 0.75,
       "headline": "Q＆A with AI researchers Jacob Coxon, Daniel Kokotajlo, Alex Turner, and others on leaving AI labs, AGI's dangers, planne",
       "articles": [
         {
@@ -410,42 +581,6 @@
           "title": "What’s Wrong With AI Safety Testing, and How to Fix It",
           "url": "https://www.theinformation.com/articles/wrong-ai-safety-testing-fix",
           "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "openai",
-      "mentions": 374,
-      "velocity": 0.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.75,
-      "headline": "OpenAI to reiterate apology to Australia over Medicare hack as inquiry told artists risk becoming ‘roadkill’",
-      "articles": [
-        {
-          "title": "OpenAI to reiterate apology to Australia over Medicare hack as inquiry told artists risk becoming ‘roadkill’",
-          "url": "https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "Why OpenAI's Regulatory Nightmare Is Only Getting Started",
-          "url": "https://www.theinformation.com/articles/openais-regulatory-nightmare-getting-started",
-          "source": "The Information"
-        },
-        {
-          "title": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads wi",
-          "url": "https://www.techmeme.com/261005/p33#a261005p33",
-          "source": "Techmeme"
         }
       ]
     }
@@ -462,14 +597,6 @@
     "hit_rate": 0.531,
     "materialized": 153,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 114,
-        "covered": 19,
-        "early": 12,
-        "coverage_rate": 0.167,
-        "early_rate": 0.105,
-        "hit_rate": 0.167
-      },
       "emerging": {
         "scored": 174,
         "covered": 134,
@@ -477,6 +604,14 @@
         "coverage_rate": 0.77,
         "early_rate": 0.391,
         "hit_rate": 0.77
+      },
+      "weak_signal": {
+        "scored": 114,
+        "covered": 19,
+        "early": 12,
+        "coverage_rate": 0.167,
+        "early_rate": 0.105,
+        "hit_rate": 0.167
       }
     }
   },
@@ -563,16 +698,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "prompt engineering",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-18",
-      "materialized_on": "2026-09-23",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
-    },
-    {
       "keyword": "flair",
       "signal_type": "emerging",
       "flagged_on": "2026-08-06",
@@ -581,18 +706,28 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
       "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+    },
+    {
+      "keyword": "prompt engineering",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "hallucination",
+        "keyword": "mcp server",
         "signal_type": "emerging",
         "flagged_on": "2026-10-06",
         "confidence": 0.2
       },
       {
-        "keyword": "mcp server",
+        "keyword": "hallucination",
         "signal_type": "emerging",
         "flagged_on": "2026-10-06",
         "confidence": 0.2
@@ -610,12 +745,6 @@
         "confidence": 0.4
       },
       {
-        "keyword": "ai governance",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-05",
-        "confidence": 0.2
-      },
-      {
         "keyword": "openmontage",
         "signal_type": "weak_signal",
         "flagged_on": "2026-10-05",
@@ -630,6 +759,12 @@
       {
         "keyword": "kling",
         "signal_type": "emerging",
+        "flagged_on": "2026-10-05",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "ai governance",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-10-05",
         "confidence": 0.2
       },
@@ -688,13 +823,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "quillbot",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "claude desktop",
         "recent_mentions": 5,
         "prior_mentions": 1,
@@ -702,14 +830,14 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "kling",
-        "recent_mentions": 28,
-        "prior_mentions": 6,
-        "change_ratio": 4.67,
-        "corroborating_sources": 2
+        "keyword": "quillbot",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "together ai",
+        "keyword": "synthesia",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
@@ -723,10 +851,17 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "synthesia",
+        "keyword": "together ai",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "kling",
+        "recent_mentions": 26,
+        "prior_mentions": 6,
+        "change_ratio": 4.33,
         "corroborating_sources": 1
       },
       {
