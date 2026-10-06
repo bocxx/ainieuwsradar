@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T19:16:31.133409",
-  "total_tracked": 3499,
+  "generated_at": "2026-10-06T07:14:18.986076",
+  "total_tracked": 3435,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "chatgpt",
-      "mentions": 206,
-      "velocity": 3.2,
+      "mentions": 264,
+      "velocity": 19.8,
       "sources": [
         "articles",
         "arxiv",
@@ -20,28 +20,83 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.51,
-      "headline": "OpenAI is testing more ads in ChatGPT",
+      "headline": "OpenAI starts watermarking ChatGPT and Codex text in the EU",
       "articles": [
         {
-          "title": "OpenAI is testing more ads in ChatGPT",
-          "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
-          "source": "Engadget"
+          "title": "OpenAI starts watermarking ChatGPT and Codex text in the EU",
+          "url": "https://thenextweb.com/news/openai-text-watermarking-chatgpt-codex-eu-ai-act",
+          "source": "The Next Web"
         },
         {
-          "title": "OpenAI gaat ChatGPT-advertenties met afbeeldingen tonen, voorlopig alleen in VS",
-          "url": "https://tweakers.net/nieuws/252974/openai-gaat-chatgpt-advertenties-met-afbeeldingen-tonen-voorlopig-alleen-in-vs.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "OpenAI Expands Visual Ads in ChatGPT and Moves to Help Advertisers Measure Their Impact",
+          "url": "https://www.theinformation.com/briefings/openai-expands-visual-ads-chatgpt-moves-help-advertisers-measure-impact",
+          "source": "The Information"
         },
         {
-          "title": "OpenAI is sticking more ads in ChatGPT",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "world models",
+      "mentions": 16,
+      "velocity": 3.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "World Action Planner: Generalizable Robot Decision-Making with Action-Conditioned World Models",
+      "articles": [
+        {
+          "title": "World Action Planner: Generalizable Robot Decision-Making with Action-Conditioned World Models",
+          "url": "https://arxiv.org/abs/2607.27599",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Keeping JEPA World Models Plannable When Little of the Frame Moves",
+          "url": "https://arxiv.org/abs/2610.03137",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+          "url": "https://arxiv.org/abs/2610.03356",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "emerging": [],
   "weak_signals": [
+    {
+      "keyword": "paper",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "arXiv imposes rate limit on paper submissions to stem the AI slop tide",
+      "articles": [
+        {
+          "title": "arXiv imposes rate limit on paper submissions to stem the AI slop tide",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+          "source": "The Register"
+        },
+        {
+          "title": "Hinton and leading AI researchers warned of an 'intelligence explosion' in new paper",
+          "url": "https://qz.com/hinton-ai-researchers-intelligence-explosion-warning-100226",
+          "source": "Quartz"
+        }
+      ]
+    },
     {
       "keyword": "atlas",
       "mentions": 3,
@@ -73,72 +128,22 @@
       ]
     },
     {
-      "keyword": "super intelligence",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 89,
-      "days_active": 8,
-      "expert_ratio": 0.65,
-      "headline": "Trump announces a new ‘Super Intelligence Force’ to lead federal efforts on AI",
-      "articles": [
-        {
-          "title": "Trump announces a new ‘Super Intelligence Force’ to lead federal efforts on AI",
-          "url": "https://www.fastcompany.com/91618225/trump-announc-new-super-intelligence-force-lead-federal-efforts-ai?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=10052026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Trump announces a new ‘Super Intelligence Force’ to lead federal efforts on AI",
-          "url": "https://www.fastcompany.com/91618225/trump-announc-new-super-intelligence-force-lead-federal-efforts-ai",
-          "source": "Fast Company"
-        },
-        {
-          "title": "The amount of inference needed will go through the roof if we reach super intelligence: Gene Munster",
-          "url": "https://www.cnbc.com/video/2026/10/05/the-amount-of-inference-needed-will-go-through-the-roof-if-we-reach-super-intelligence-gene-munster.html?__source=flipboard",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "train",
-      "mentions": 3,
-      "velocity": 0.4,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 5,
-      "expert_ratio": 0.91,
-      "headline": "How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling",
-      "articles": [
-        {
-          "title": "How To Train Your World Model: Fine-tuning vs RAG for LM-based World Modeling",
-          "url": "https://arxiv.org/abs/2610.02542",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "astabrief",
+      "keyword": "ai code",
       "mentions": 3,
       "velocity": 0.2,
       "sources": [
-        "hackernews"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 77,
-      "days_active": 4,
-      "expert_ratio": 1.0,
-      "headline": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "confidence": 95,
+      "days_active": 15,
+      "expert_ratio": 0.61,
+      "headline": "Are AI Coders Snitches? An Empirical Study of Pretraining Data Detection on Code Large Language Models",
       "articles": [
         {
-          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-          "url": "https://huggingface.co/blog/allenai/astabrief",
-          "source": "Hugging Face Blog"
+          "title": "Are AI Coders Snitches? An Empirical Study of Pretraining Data Detection on Code Large Language Models",
+          "url": "https://arxiv.org/abs/2507.17389",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -169,6 +174,26 @@
           "title": "Meta introduces a new AI assistant for its Instagram creators",
           "url": "https://www.engadget.com/2273111/meta-introduces-a-new-ai-assistant-for-its-instagram-creators/",
           "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "astabrief",
+      "mentions": 3,
+      "velocity": 0.1,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 83,
+      "days_active": 5,
+      "expert_ratio": 1.0,
+      "headline": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "articles": [
+        {
+          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "url": "https://huggingface.co/blog/allenai/astabrief",
+          "source": "Hugging Face Blog"
         }
       ]
     },
@@ -229,57 +254,109 @@
       "confidence": 62,
       "days_active": 6,
       "expert_ratio": 0.91,
-      "headline": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
+      "headline": "AI ‘Pacing’ Doesn’t Mean Slower Adoption",
       "articles": [
+        {
+          "title": "AI ‘Pacing’ Doesn’t Mean Slower Adoption",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-05/ai-pacing-doesn-t-mean-slower-adoption-video",
+          "source": "Bloomberg Technology"
+        },
         {
           "title": "‘Launching an app shouldn’t mean learning how to host’: GoDaddy has launched Node.js hosting",
           "url": "https://www.techradar.com/pro/launching-an-app-shouldnt-mean-learning-how-to-host-godaddy-has-launched-node-js-hosting",
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
+    },
+    {
+      "keyword": "longcat",
+      "mentions": 2,
+      "velocity": 0.1,
+      "sources": [
+        "arxiv"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 6,
+      "expert_ratio": 0.73,
+      "headline": "LongCat-DeepResearch Technical Report",
+      "articles": [
+        {
+          "title": "LongCat-DeepResearch Technical Report",
+          "url": "https://arxiv.org/abs/2609.36071",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "anthropic",
-      "mentions": 178,
-      "velocity": 2.0,
+      "keyword": "data centers",
+      "mentions": 24,
+      "velocity": 1.6,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
         "hackernews",
-        "linkedin",
-        "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Anthropic says its IPO could herald the end of the world as we know it",
+      "expert_ratio": 0.35,
+      "headline": "Amazon commits $1 billion to communities near data centers, AWS CEO says it no longer uses NDAs with government agencies",
       "articles": [
         {
-          "title": "Anthropic says its IPO could herald the end of the world as we know it",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/05/anthropic-says-its-ipo-could-herald-the-end-of-the-world-as-we-know-it/5300908",
-          "source": "The Register"
+          "title": "Amazon commits $1 billion to communities near data centers, AWS CEO says it no longer uses NDAs with government agencies",
+          "url": "https://www.techradar.com/pro/amazon-commits-usd1-billion-to-communities-near-data-centers-aws-ceo-says-it-no-longer-uses-ndas-with-government-agencies",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Anthropic wants your thoughts on AI",
-          "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
-          "source": "Hacker News"
+          "title": "Finland drops first-come, first-served grid connections — leaving data centers way down the queue",
+          "url": "https://www.techradar.com/pro/finland-drops-first-come-first-served-grid-connections-leaving-data-centers-way-down-the-queue",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "OpenAI, Anthropic, Google, and Meta are testifying under oath before NYC lawmakers today",
-          "url": "https://qz.com/openai-anthropic-google-meta-nyc-council-ai-hearing-100526",
-          "source": "Quartz"
+          "title": "DayOne Data Centers Files for Nasdaq IPO amid Market Uncertainty",
+          "url": "https://www.theinformation.com/briefings/dayone-data-centers-files-nasdaq-ipo-amid-market-uncertainty",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "minimax",
+      "mentions": 29,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "Expected Utility Regret Rule: Minimax and Bayes Optimal Portfolio Choice",
+      "articles": [
+        {
+          "title": "Expected Utility Regret Rule: Minimax and Bayes Optimal Portfolio Choice",
+          "url": "https://arxiv.org/abs/2610.02290",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Lower Bounds for Stochastic First-Order Algorithms with Variance Reduction in Nonconvex--Concave Minimax Optimization",
+          "url": "https://arxiv.org/abs/2610.01662",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Bandits with Multiple Optimal Arms: Minimax Regret and Non-Adaptivit",
+          "url": "https://arxiv.org/abs/2609.38659",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "flux",
-      "mentions": 16,
-      "velocity": 1.6,
+      "mentions": 15,
+      "velocity": 0.8,
       "sources": [
         "articles",
         "hackernews",
@@ -288,7 +365,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
+      "expert_ratio": 0.77,
       "headline": "Philips Hue Flux sotto i 75€, 5 metri di luce smart per tutta la stanza",
       "articles": [
         {
@@ -309,36 +386,9 @@
       ]
     },
     {
-      "keyword": "prompt engineering",
-      "mentions": 17,
-      "velocity": 1.6,
-      "sources": [
-        "arxiv",
-        "github",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-      "articles": [
-        {
-          "title": "A Tutorial on Prompt Engineering: From Messy Thoughts to AI Workflows",
-          "url": "https://arxiv.org/abs/2609.22249",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while pro",
-          "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 90,
-      "velocity": 1.1,
+      "keyword": "ai safety",
+      "mentions": 28,
+      "velocity": 0.3,
       "sources": [
         "articles",
         "hackernews",
@@ -348,30 +398,25 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.33,
-      "headline": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
+      "expert_ratio": 0.76,
+      "headline": "Q＆A with AI researchers Jacob Coxon, Daniel Kokotajlo, Alex Turner, and others on leaving AI labs, AGI's dangers, planne",
       "articles": [
         {
-          "title": "Trump ha usato Grok come consigliere per la politica estera: siamo all'assurdo",
-          "url": "https://www.tomshw.it/altro/trump-ha-usato-grok-come-consigliere-per-la-politica-estera-siamo-allassurdo",
-          "source": "Tom's Hardware"
+          "title": "Q＆A with AI researchers Jacob Coxon, Daniel Kokotajlo, Alex Turner, and others on leaving AI labs, AGI's dangers, planne",
+          "url": "https://www.techmeme.com/261005/p20#a261005p20",
+          "source": "Techmeme"
         },
         {
-          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
-          "source": "Artificial Intelligence (AI) | TechCrunch"
-        },
-        {
-          "title": "SpaceXAI weighs one Grok and X plan, from free to $100, Bloomberg reports",
-          "url": "https://thenextweb.com/news/spacexai-grok-x-subscription-tiers-ultra-lite",
-          "source": "The Next Web"
+          "title": "What’s Wrong With AI Safety Testing, and How to Fix It",
+          "url": "https://www.theinformation.com/articles/wrong-ai-safety-testing-fix",
+          "source": "The Information"
         }
       ]
     },
     {
-      "keyword": "gemini",
-      "mentions": 212,
-      "velocity": 0.5,
+      "keyword": "openai",
+      "mentions": 374,
+      "velocity": 0.3,
       "sources": [
         "articles",
         "arxiv",
@@ -384,106 +429,75 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.43,
-      "headline": "8 prompt per trasformare Gemini Notebook in un analista che risponde solo dalle tue fonti",
+      "expert_ratio": 0.75,
+      "headline": "OpenAI to reiterate apology to Australia over Medicare hack as inquiry told artists risk becoming ‘roadkill’",
       "articles": [
         {
-          "title": "8 prompt per trasformare Gemini Notebook in un analista che risponde solo dalle tue fonti",
-          "url": "https://www.tomshw.it/aioperator/8-prompt-per-trasformare-gemini-notebook-in-un-analista-che-risponde-solo-dalle-tue-fonti",
-          "source": "Tom's Hardware"
+          "title": "OpenAI to reiterate apology to Australia over Medicare hack as inquiry told artists risk becoming ‘roadkill’",
+          "url": "https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
+          "source": "Artificial intelligence (AI) | The Guardian"
         },
         {
-          "title": "150€ in meno sul Google Pixel Watch 4 LTE, salute e Gemini al polso",
-          "url": "https://www.tomshw.it/smartphone/150eur-in-meno-sul-google-pixel-watch-4-lte-salute-e-gemini-al-polso",
-          "source": "Tom's Hardware"
+          "title": "Why OpenAI's Regulatory Nightmare Is Only Getting Started",
+          "url": "https://www.theinformation.com/articles/openais-regulatory-nightmare-getting-started",
+          "source": "The Information"
         },
         {
-          "title": "Google Gemini si prepara per leggere i file del tuo Mac",
-          "url": "https://www.tomshw.it/business/google-gemini-si-prepara-per-leggere-i-file-del-tuo-mac",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "lora",
-      "mentions": 41,
-      "velocity": -0.1,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
-      "articles": [
-        {
-          "title": "Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection",
-          "url": "https://arxiv.org/abs/2610.00685",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Beyond LoRA vs. Full Fine-Tuning: Gradient-Guided Optimizer Routing for LLM Adaptation",
-          "url": "https://arxiv.org/abs/2605.07111",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Dynamical Theory of LoRA in Continual Learning",
-          "url": "https://arxiv.org/abs/2609.39367",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads wi",
+          "url": "https://www.techmeme.com/261005/p33#a261005p33",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 285,
-    "covered": 151,
-    "coverage_rate": 0.53,
-    "early": 78,
-    "early_rate": 0.274,
-    "avg_lead_days": 14.5,
+    "scored_predictions": 288,
+    "covered": 153,
+    "coverage_rate": 0.531,
+    "early": 80,
+    "early_rate": 0.278,
+    "avg_lead_days": 14.6,
     "median_lead_days": 10.5,
     "max_lead_days": 42,
-    "hit_rate": 0.53,
-    "materialized": 151,
+    "hit_rate": 0.531,
+    "materialized": 153,
     "by_signal_type": {
-      "emerging": {
-        "scored": 173,
-        "covered": 133,
-        "early": 67,
-        "coverage_rate": 0.769,
-        "early_rate": 0.387,
-        "hit_rate": 0.769
-      },
       "weak_signal": {
-        "scored": 112,
-        "covered": 18,
-        "early": 11,
-        "coverage_rate": 0.161,
-        "early_rate": 0.098,
-        "hit_rate": 0.161
+        "scored": 114,
+        "covered": 19,
+        "early": 12,
+        "coverage_rate": 0.167,
+        "early_rate": 0.105,
+        "hit_rate": 0.167
+      },
+      "emerging": {
+        "scored": 174,
+        "covered": 134,
+        "early": 68,
+        "coverage_rate": 0.77,
+        "early_rate": 0.391,
+        "hit_rate": 0.77
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 285,
+    "n": 288,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.533,
-      "early_rate": 0.277
+      "coverage_rate": 0.535,
+      "early_rate": 0.281
     },
     "null_mean": {
-      "coverage_rate": 0.562,
-      "early_rate": 0.334
+      "coverage_rate": 0.565,
+      "early_rate": 0.338
     },
     "p_value": {
-      "coverage_rate": 0.986,
-      "early_rate": 0.994
+      "coverage_rate": 0.984,
+      "early_rate": 0.997
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -572,6 +586,18 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "hallucination",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-06",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "mcp server",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-06",
+        "confidence": 0.2
+      },
+      {
         "keyword": "llama.cpp",
         "signal_type": "emerging",
         "flagged_on": "2026-10-05",
@@ -582,6 +608,12 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-05",
         "confidence": 0.4
+      },
+      {
+        "keyword": "ai governance",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-05",
+        "confidence": 0.2
       },
       {
         "keyword": "openmontage",
@@ -598,12 +630,6 @@
       {
         "keyword": "kling",
         "signal_type": "emerging",
-        "flagged_on": "2026-10-05",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "ai governance",
-        "signal_type": "weak_signal",
         "flagged_on": "2026-10-05",
         "confidence": 0.2
       },
@@ -630,68 +656,56 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-10-03",
         "confidence": 0.2
-      },
-      {
-        "keyword": "cursor",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-02",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "claude 4",
-        "recent_mentions": 12,
+        "keyword": "zapier",
+        "recent_mentions": 8,
         "prior_mentions": 1,
-        "change_ratio": 12.0,
+        "change_ratio": 8.0,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "devin",
+        "recent_mentions": 19,
+        "prior_mentions": 3,
+        "change_ratio": 6.33,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "b200",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "descript",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "synthesia",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
         "corroborating_sources": 1
       },
       {
         "keyword": "quillbot",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "invideo",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "pictory",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 13,
+        "recent_mentions": 11,
         "prior_mentions": 2,
-        "change_ratio": 6.5,
+        "change_ratio": 5.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude desktop",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "kling",
+        "recent_mentions": 28,
+        "prior_mentions": 6,
+        "change_ratio": 4.67,
         "corroborating_sources": 2
       },
       {
@@ -702,32 +716,32 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "simplified",
+        "keyword": "cohere",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "synthesia",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "bolt",
         "recent_mentions": 13,
         "prior_mentions": 3,
         "change_ratio": 4.33,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "sovereign ai",
-        "recent_mentions": 17,
-        "prior_mentions": 4,
-        "change_ratio": 4.25,
         "corroborating_sources": 3
       },
       {
-        "keyword": "mixture of experts",
-        "recent_mentions": 16,
-        "prior_mentions": 4,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "h100",
+        "keyword": "invideo",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       }
     ]
   }
