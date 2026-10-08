@@ -2,25 +2,27 @@
   "title": "quantization — AI-signaal op de radar",
   "keyword": "quantization",
   "slug": "quantization",
-  "description": "Quantization staat sinds 9 februari 2026 op de radar en heeft in 103 dagen tijd 1302 vermeldingen opgeleverd, met een piek van 79 vermeldingen op 28 mei…",
-  "analysis": "Quantization staat sinds 9 februari 2026 op de radar en heeft in 103 dagen tijd 1302 vermeldingen opgeleverd, met een piek van 79 vermeldingen op 28 mei 2026. Dat patroon wijst op aanhoudende technische aandacht, geen eenmalige hype. Het expert-aandeel van 95 procent maakt meteen duidelijk dat dit een signaal uit de ontwikkelaarskring is, niet uit de mainstream-media. Je ziet hier een typisch infrastructureel thema: quantization gaat over het efficiënter maken van AI-modellen door parameters met minder bits voor te stellen, waardoor ze sneller draaien en minder geheugen vragen. De stabiele belangstelling over ruim drie maanden suggereert dat dit geen theoretisch randverschijnsel is, maar een praktisch aandachtspunt voor wie modellen wil inzetten of optimaliseren.\n\nDe betrouwbaarheid van dit signaal is hoog, juist omdat het breed verspreid is over technische bronnen: ArXiv-papers, discussies op Hacker News en Reddit, en posts op LinkedIn en Bluesky. Die spreiding betekent dat quantization zowel in onderzoek als in implementatie leeft. Het bijna volledig ontbreken van mainstream-nieuwsartikelen maakt het signaal wel laat voor beleidsmakers of managers, maar vroeg voor wie technische ontwikkelingen wil volgen. Als je wilt weten waar de grenzen van modelprestaties worden verlegd, is dit een betrouwbare indicator: quantization is geen buzzword, maar gereedschap in actieve ontwikkeling.",
+  "description": "Quantization verschijnt sinds februari 2026 consistent op je radarscherm en heeft zich in ruim 228 dagen ontwikkeld tot een substantieel signaal met 3265…",
+  "analysis": "Quantization verschijnt sinds februari 2026 consistent op je radarscherm en heeft zich in ruim 228 dagen ontwikkeld tot een substantieel signaal met 3265 totale vermeldingen. De piek lag op 28 mei 2026 met 79 vermeldingen op één dag, wat wijst op een moment van intensieve aandacht in het veld. Het onderwerp wordt vrijwel uitsluitend door experts gevolgd: 94% expert-aandeel geeft aan dat dit geen mainstream hype is maar eerder een gespecialiseerde technische discussie onder developers en onderzoekers.\n\nDe bron-spreiding over acht kanalen – van akademische routes via ArXiv tot community-platforms als Reddit en Hacker News – duidt op een gedistribueerd signaal dat groeiwortels heeft in zowel onderzoek als praktische implementatie. De vroege detectie sinds februari en het aanzienlijke volume maken quantization een betrouwbaar vroeg-waarschuwingssignaal, al blijft de absolute sterkte (pieken van ongeveer 80 vermeldingen per dag) bescheiden vergeleken met bredere AI-trends. De consistent hoge expert-ratio suggereert dat dit signaal waarschijnlijk niet snel mainstream wordt, maar wel indicatief is voor ontwikkelingen die de technische kant van AI-systemen vormgeven.",
   "data": {
     "keyword": "quantization",
     "first_seen": "2026-02-09",
-    "last_seen": "2026-06-04",
-    "days_tracked": 103,
+    "last_seen": "2026-10-08",
+    "days_tracked": 228,
     "peak_mentions": 79,
     "peak_date": "2026-05-28",
-    "total_mentions": 1302,
+    "total_mentions": 3265,
     "sources": [
       "articles",
       "arxiv",
       "bluesky",
+      "github",
       "hackernews",
       "linkedin",
+      "producthunt",
       "reddit"
     ],
-    "expert_share": 0.95,
+    "expert_share": 0.94,
     "sample_headlines": [
       "[Release] Experimental Model with Subquadratic Attention: 100 tok/s @ 1M context, 76 tok/s @ 10M context (30B model, sin",
       "📄 Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models",
@@ -646,6 +648,756 @@
         "mentions": 31,
         "expert": 27,
         "mainstream": 4
+      },
+      {
+        "date": "2026-06-05",
+        "mentions": 31,
+        "expert": 29,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-06-06",
+        "mentions": 31,
+        "expert": 28,
+        "mainstream": 3
+      },
+      {
+        "date": "2026-06-07",
+        "mentions": 37,
+        "expert": 35,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-06-08",
+        "mentions": 27,
+        "expert": 25,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-06-09",
+        "mentions": 13,
+        "expert": 13,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-06-10",
+        "mentions": 23,
+        "expert": 20,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-06-11",
+        "mentions": 14,
+        "expert": 13,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-12",
+        "mentions": 11,
+        "expert": 9,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-06-13",
+        "mentions": 17,
+        "expert": 14,
+        "mainstream": 3
+      },
+      {
+        "date": "2026-06-14",
+        "mentions": 14,
+        "expert": 12,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-06-15",
+        "mentions": 18,
+        "expert": 15,
+        "mainstream": 3
+      },
+      {
+        "date": "2026-06-16",
+        "mentions": 8,
+        "expert": 6,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-06-17",
+        "mentions": 7,
+        "expert": 5,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-06-18",
+        "mentions": 9,
+        "expert": 8,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-19",
+        "mentions": 5,
+        "expert": 4,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-20",
+        "mentions": 9,
+        "expert": 9,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-06-21",
+        "mentions": 8,
+        "expert": 7,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-22",
+        "mentions": 6,
+        "expert": 6,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-06-23",
+        "mentions": 13,
+        "expert": 12,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-24",
+        "mentions": 13,
+        "expert": 12,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-25",
+        "mentions": 23,
+        "expert": 22,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-26",
+        "mentions": 14,
+        "expert": 13,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-27",
+        "mentions": 17,
+        "expert": 14,
+        "mainstream": 3
+      },
+      {
+        "date": "2026-06-28",
+        "mentions": 14,
+        "expert": 13,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-29",
+        "mentions": 14,
+        "expert": 13,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-06-30",
+        "mentions": 10,
+        "expert": 9,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-07-01",
+        "mentions": 17,
+        "expert": 17,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-02",
+        "mentions": 21,
+        "expert": 20,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-07-03",
+        "mentions": 17,
+        "expert": 17,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-04",
+        "mentions": 20,
+        "expert": 19,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-07-05",
+        "mentions": 13,
+        "expert": 11,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-07-06",
+        "mentions": 9,
+        "expert": 7,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-07-07",
+        "mentions": 14,
+        "expert": 12,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-07-08",
+        "mentions": 18,
+        "expert": 16,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-07-09",
+        "mentions": 24,
+        "expert": 23,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-07-10",
+        "mentions": 19,
+        "expert": 19,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-11",
+        "mentions": 21,
+        "expert": 21,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-12",
+        "mentions": 15,
+        "expert": 15,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-13",
+        "mentions": 10,
+        "expert": 10,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-14",
+        "mentions": 7,
+        "expert": 7,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-15",
+        "mentions": 10,
+        "expert": 10,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-16",
+        "mentions": 12,
+        "expert": 10,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-07-17",
+        "mentions": 11,
+        "expert": 11,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-18",
+        "mentions": 14,
+        "expert": 14,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-19",
+        "mentions": 16,
+        "expert": 14,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-07-20",
+        "mentions": 15,
+        "expert": 15,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-21",
+        "mentions": 18,
+        "expert": 18,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-22",
+        "mentions": 13,
+        "expert": 12,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-07-23",
+        "mentions": 10,
+        "expert": 7,
+        "mainstream": 3
+      },
+      {
+        "date": "2026-07-24",
+        "mentions": 12,
+        "expert": 10,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-07-25",
+        "mentions": 14,
+        "expert": 14,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-26",
+        "mentions": 16,
+        "expert": 15,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-07-27",
+        "mentions": 18,
+        "expert": 18,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-28",
+        "mentions": 12,
+        "expert": 10,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-07-29",
+        "mentions": 15,
+        "expert": 14,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-07-30",
+        "mentions": 12,
+        "expert": 12,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-07-31",
+        "mentions": 15,
+        "expert": 15,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-01",
+        "mentions": 17,
+        "expert": 17,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-02",
+        "mentions": 18,
+        "expert": 18,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-03",
+        "mentions": 22,
+        "expert": 21,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-08-04",
+        "mentions": 10,
+        "expert": 10,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-05",
+        "mentions": 12,
+        "expert": 12,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-06",
+        "mentions": 32,
+        "expert": 30,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-08-07",
+        "mentions": 30,
+        "expert": 25,
+        "mainstream": 4
+      },
+      {
+        "date": "2026-08-08",
+        "mentions": 32,
+        "expert": 27,
+        "mainstream": 4
+      },
+      {
+        "date": "2026-08-09",
+        "mentions": 27,
+        "expert": 22,
+        "mainstream": 4
+      },
+      {
+        "date": "2026-08-10",
+        "mentions": 34,
+        "expert": 29,
+        "mainstream": 4
+      },
+      {
+        "date": "2026-08-11",
+        "mentions": 9,
+        "expert": 7,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-08-12",
+        "mentions": 5,
+        "expert": 5,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-13",
+        "mentions": 5,
+        "expert": 5,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-14",
+        "mentions": 2,
+        "expert": 2,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-15",
+        "mentions": 4,
+        "expert": 4,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-16",
+        "mentions": 9,
+        "expert": 9,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-18",
+        "mentions": 4,
+        "expert": 4,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-19",
+        "mentions": 4,
+        "expert": 4,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-20",
+        "mentions": 5,
+        "expert": 5,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-21",
+        "mentions": 2,
+        "expert": 2,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-22",
+        "mentions": 7,
+        "expert": 5,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-08-23",
+        "mentions": 5,
+        "expert": 5,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-08-24",
+        "mentions": 15,
+        "expert": 14,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-08-25",
+        "mentions": 31,
+        "expert": 29,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-08-26",
+        "mentions": 26,
+        "expert": 25,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-08-27",
+        "mentions": 31,
+        "expert": 29,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-08-28",
+        "mentions": 23,
+        "expert": 22,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-08-29",
+        "mentions": 23,
+        "expert": 21,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-08-30",
+        "mentions": 13,
+        "expert": 12,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-08-31",
+        "mentions": 11,
+        "expert": 10,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-01",
+        "mentions": 18,
+        "expert": 17,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-02",
+        "mentions": 23,
+        "expert": 23,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-03",
+        "mentions": 25,
+        "expert": 24,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-04",
+        "mentions": 21,
+        "expert": 21,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-05",
+        "mentions": 14,
+        "expert": 14,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-06",
+        "mentions": 14,
+        "expert": 13,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-07",
+        "mentions": 7,
+        "expert": 7,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-08",
+        "mentions": 9,
+        "expert": 8,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-09",
+        "mentions": 24,
+        "expert": 24,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-10",
+        "mentions": 23,
+        "expert": 23,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-11",
+        "mentions": 21,
+        "expert": 21,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-12",
+        "mentions": 20,
+        "expert": 18,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-09-13",
+        "mentions": 12,
+        "expert": 12,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-14",
+        "mentions": 8,
+        "expert": 8,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-15",
+        "mentions": 12,
+        "expert": 12,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-16",
+        "mentions": 3,
+        "expert": 2,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-17",
+        "mentions": 7,
+        "expert": 7,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-18",
+        "mentions": 7,
+        "expert": 7,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-19",
+        "mentions": 12,
+        "expert": 12,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-20",
+        "mentions": 14,
+        "expert": 12,
+        "mainstream": 2
+      },
+      {
+        "date": "2026-09-21",
+        "mentions": 7,
+        "expert": 6,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-22",
+        "mentions": 22,
+        "expert": 21,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-23",
+        "mentions": 22,
+        "expert": 22,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-24",
+        "mentions": 18,
+        "expert": 18,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-25",
+        "mentions": 36,
+        "expert": 35,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-26",
+        "mentions": 15,
+        "expert": 15,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-27",
+        "mentions": 13,
+        "expert": 12,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-28",
+        "mentions": 25,
+        "expert": 24,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-09-29",
+        "mentions": 25,
+        "expert": 25,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-09-30",
+        "mentions": 17,
+        "expert": 17,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-10-01",
+        "mentions": 18,
+        "expert": 18,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-10-02",
+        "mentions": 21,
+        "expert": 21,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-10-03",
+        "mentions": 18,
+        "expert": 18,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-10-04",
+        "mentions": 14,
+        "expert": 13,
+        "mainstream": 1
+      },
+      {
+        "date": "2026-10-05",
+        "mentions": 8,
+        "expert": 8,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-10-06",
+        "mentions": 15,
+        "expert": 15,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-10-07",
+        "mentions": 25,
+        "expert": 25,
+        "mainstream": 0
+      },
+      {
+        "date": "2026-10-08",
+        "mentions": 18,
+        "expert": 18,
+        "mainstream": 0
       }
     ]
   }

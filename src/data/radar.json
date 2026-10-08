@@ -1,18 +1,81 @@
 {
-  "generated_at": "2026-10-08T07:12:30.285860",
-  "total_tracked": 3636,
+  "generated_at": "2026-10-08T19:14:43.299848",
+  "total_tracked": 3688,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 260,
-      "velocity": 45.1,
+      "keyword": "embeddinggemma",
+      "mentions": 9,
+      "velocity": 3.8,
       "sources": [
         "articles",
-        "arxiv",
+        "hackernews",
         "linkedin"
       ],
       "source_count": 3,
+      "confidence": 100,
+      "days_active": 3,
+      "expert_ratio": 0.93,
+      "headline": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
+      "articles": [
+        {
+          "title": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
+          "url": "https://www.techmeme.com/261008/p27#a261008p27",
+          "source": "Techmeme"
+        },
+        {
+          "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+          "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+          "source": "DeepMind Blog"
+        },
+        {
+          "title": "Google launches EmbeddingGemma 2, an open multimodal embedding model for devices",
+          "url": "https://thenextweb.com/news/embeddinggemma-2-on-device-europe",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "mistral",
+      "mentions": 40,
+      "velocity": 3.3,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.88,
+      "headline": "German search engine Ecosia, used by government services, ditches Mistral for open-source models, including Chinese ones",
+      "articles": [
+        {
+          "title": "German search engine Ecosia, used by government services, ditches Mistral for open-source models, including Chinese ones",
+          "url": "https://www.techmeme.com/261008/p4#a261008p4",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
+          "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+          "source": "Ars Technica"
+        },
+        {
+          "title": "« Avec une avance considérable » : le Français Mistral envoie du lourd avec son nouveau modèle d’IA",
+          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-avance-considerable-francais-mistral-envoie-lourd-son-nouveau-modele-ia-138327/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 120,
+      "velocity": 2.8,
+      "sources": [
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -36,50 +99,48 @@
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 246,
-      "velocity": 42.5,
+      "keyword": "copilot",
+      "mentions": 48,
+      "velocity": 2.8,
       "sources": [
-        "articles",
-        "arxiv",
         "github",
+        "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Can Agentic Trading Systems Pay for Their Own Intelligence?",
+      "expert_ratio": 0.67,
+      "headline": "Copilot metterà mano ai file del tuo PC, ma c'è un'incognita",
       "articles": [
         {
-          "title": "Can Agentic Trading Systems Pay for Their Own Intelligence?",
-          "url": "https://arxiv.org/abs/2607.10286",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Copilot metterà mano ai file del tuo PC, ma c'è un'incognita",
+          "url": "https://www.tomshw.it/hardware/copilot-potra-gestire-windows-e-file-quanto-controllo-gli-darai",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Agentic Discovery of Neural Architectures: AIRA-Compose and AIRA-Design",
-          "url": "https://arxiv.org/abs/2605.15871",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Microsoft is about to let Copilot loose on your file system",
+          "url": "https://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763",
+          "source": "The Register"
         },
         {
-          "title": "When Algorithmic Exploration Becomes Cheap: A Case Study of Agentic Research in EDA",
-          "url": "https://arxiv.org/abs/2610.10129",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Microsoft is giving Copilot more control over Windows and your files",
+          "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "source": "The Verge -  Artificial Intelligences"
         }
       ]
     },
     {
       "keyword": "fine-tuning",
-      "mentions": 169,
-      "velocity": 28.1,
+      "mentions": 85,
+      "velocity": 2.7,
       "sources": [
-        "articles",
         "arxiv",
         "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -103,9 +164,202 @@
       ]
     },
     {
+      "keyword": "claude haiku",
+      "mentions": 11,
+      "velocity": 2.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 11,
+      "expert_ratio": 0.69,
+      "headline": "Claude Haiku 5.5 taglia i prezzi: guerra AI aperta",
+      "articles": [
+        {
+          "title": "Claude Haiku 5.5 taglia i prezzi: guerra AI aperta",
+          "url": "https://www.tomshw.it/business/claude-haiku-55-taglia-i-prezzi-guerra-ai-aperta-2026-10-08",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks l",
+          "url": "https://www.techmeme.com/261007/p31#a261007p31",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna - VentureBeat",
+          "url": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
+          "source": "VentureBeat"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "gemini",
+      "mentions": 240,
+      "velocity": 9.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.4,
+      "headline": "Google is launching a one-stop Gemini agent for your work tasks",
+      "articles": [
+        {
+          "title": "Google is launching a one-stop Gemini agent for your work tasks",
+          "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "Google is launching a universal Gemini agent for enterprise workplace tasks",
+          "url": "https://qz.com/google-gemini-universal-agent-enterprise-workplace-100826",
+          "source": "Quartz"
+        },
+        {
+          "title": "Google Cloud unveils a universal Gemini agent to handle multi-day enterprise workflows in Workspace, Microsoft 365, and ",
+          "url": "https://www.techmeme.com/261008/p25#a261008p25",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 556,
+      "velocity": 9.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.74,
+      "headline": "Claude cambia lingua, ma c'è un Paese che resta fuori",
+      "articles": [
+        {
+          "title": "Claude cambia lingua, ma c'è un Paese che resta fuori",
+          "url": "https://www.tomshw.it/hardware/claude-aggiunge-i-menu-in-cinese-per-chi-se-la-cina-e-esclusa",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Rust upstart reveals 'reimplementation' of Microsoft Office – with Claude on coding duty",
+          "url": "https://www.theregister.com/software/2026/10/08/rust-upstart-reveals-reimplementation-of-microsoft-office-with-claude-on-coding-duty/5301952",
+          "source": "The Register"
+        },
+        {
+          "title": "Ricostruisce l'intera Suite Adobe con Claude, e la rilascia gratis per tutti",
+          "url": "https://www.tomshw.it/hardware/ricostruisce-lintera-suite-adobe-con-claude-e-la-rilascia-gratis-per-tutti",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 243,
+      "velocity": 8.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.49,
+      "headline": "ChatGPT has just changed how it works with 'Intelligent UI'",
+      "articles": [
+        {
+          "title": "ChatGPT has just changed how it works with 'Intelligent UI'",
+          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-just-changed-how-it-works-with-intelligent-ui-here-are-5-things-you-can-do-now-that-you-couldnt-before",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "OpenAI is bringing interactive visuals to ChatGPT with GPT-6",
+          "url": "https://qz.com/openai-chatgpt-gpt-6-intelligent-ui-interactive-visuals-100826",
+          "source": "Quartz"
+        },
+        {
+          "title": "OpenAI’s ChatGPT for Teens poses an ‘unacceptable risk’ to kids, says watchdog",
+          "url": "https://www.fastcompany.com/91620701/openais-chatgpt-teens-poses-unacceptable-risk-kids-says-watchdog",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
+      "keyword": "crowdstrike",
+      "mentions": 4,
+      "velocity": 3.0,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 80,
+      "days_active": 2,
+      "expert_ratio": 0.6,
+      "headline": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+      "articles": [
+        {
+          "title": "CrowdStrike finds possible bank hacker's CV among exposed AI logs",
+          "url": "https://www.theregister.com/cyber-crime/2026/10/08/crowdstrike-finds-possible-bank-hackers-cv-among-exposed-ai-logs/5301908",
+          "source": "The Register"
+        },
+        {
+          "title": "CrowdStrike links South Korean bank breaches to AI tools and a China suspect",
+          "url": "https://thenextweb.com/news/crowdstrike-south-korea-bank-hack-suspect-china?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "claude code",
+      "mentions": 51,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "The creator of Claude Code's prompting advice? Talk to your AI like a coworker",
+      "articles": [
+        {
+          "title": "The creator of Claude Code's prompting advice? Talk to your AI like a coworker",
+          "url": "https://www.businessinsider.com/claude-code-creator-boris-cherny-ai-prompt-advice-2026-10",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
       "keyword": "simulation",
-      "mentions": 121,
-      "velocity": 27.2,
+      "mentions": 40,
+      "velocity": 2.7,
       "sources": [
         "articles",
         "arxiv",
@@ -114,7 +368,7 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.91,
+      "expert_ratio": 0.9,
       "headline": "EDGE: Engine for Deterministic Graph Evaluation through Conversation Simulation from Graph Structured DSL Configuration",
       "articles": [
         {
@@ -135,219 +389,34 @@
       ]
     }
   ],
-  "emerging": [
-    {
-      "keyword": "claude",
-      "mentions": 570,
-      "velocity": 13.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks l",
-      "articles": [
-        {
-          "title": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks l",
-          "url": "https://www.techmeme.com/261007/p31#a261007p31",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 239,
-      "velocity": 6.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.49,
-      "headline": "OpenAI says GPT-6 in ChatGPT's Chat tab is powered by GPT-6 Sol for Plus, Pro, Business, and Enterprise tiers and GPT-6 ",
-      "articles": [
-        {
-          "title": "OpenAI says GPT-6 in ChatGPT's Chat tab is powered by GPT-6 Sol for Plus, Pro, Business, and Enterprise tiers and GPT-6 ",
-          "url": "https://www.techmeme.com/261007/p36#a261007p36",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "perplexity",
-      "mentions": 40,
-      "velocity": 5.7,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.64,
-      "headline": "AI giants targeted by scraping bots — ChatGPT and Perplexity enter the most-scraped websites list for the first time",
-      "articles": [
-        {
-          "title": "AI giants targeted by scraping bots — ChatGPT and Perplexity enter the most-scraped websites list for the first time",
-          "url": "https://www.techradar.com/pro/ai-giants-targeted-by-scraping-bots-chatgpt-and-perplexity-enter-the-most-scraped-websites-list-for-the-first-time",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 56,
-      "velocity": 4.3,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "The creator of Claude Code's prompting advice? Talk to your AI like a coworker",
-      "articles": [
-        {
-          "title": "The creator of Claude Code's prompting advice? Talk to your AI like a coworker",
-          "url": "https://www.businessinsider.com/claude-code-creator-boris-cherny-ai-prompt-advice-2026-10",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "langchain",
-      "mentions": 21,
-      "velocity": 2.4,
-      "sources": [
-        "github",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Agent Harness with LangChain Middleware and Jev",
-      "articles": [
-        {
-          "title": "Agent Harness with LangChain Middleware and Jev",
-          "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-3-with-implementation/",
-          "source": "Daily Dose of Data Science"
-        }
-      ]
-    },
-    {
-      "keyword": "deepseek",
-      "mentions": 60,
-      "velocity": 2.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switc",
-      "articles": [
-        {
-          "title": "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switc",
-          "url": "https://www.techradar.com/pro/huawei-and-deepseek-release-open-source-ai-tools-in-a-bid-to-lower-nvidia-exposure-but-will-programmers-make-the-switch",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Artificial Analysis says Mistral Large 4 is the most intelligent model from outside the US and China, achieving results ",
-          "url": "https://www.techmeme.com/261006/p38#a261006p38",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Billions Pour Into OpenAI, DeepSeek Ahead of IPOs",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/bloomberg-tech-10-6-2026-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    }
-  ],
   "weak_signals": [
     {
-      "keyword": "decision model",
+      "keyword": "paris",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
-        "articles"
+        "arxiv"
       ],
       "source_count": 1,
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
+      "headline": "LIVE: Protest in Paris demanding better school conditions",
       "articles": [
         {
-          "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
-          "url": "https://arxiv.org/abs/2610.09937",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "LIVE: Protest in Paris demanding better school conditions",
+          "url": "https://www.youtube.com/watch?v=MXYkF2TLEFA",
+          "source": "Reuters"
         },
         {
-          "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
-          "url": "https://arxiv.org/abs/2610.09683",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Too hot for fur? Warmer weather hits Paris Fashion Week style",
+          "url": "https://www.youtube.com/watch?v=VGAuRihybSc",
+          "source": "Reuters"
         },
         {
-          "title": "Multimodal open d1 decision models for the edge",
-          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-          "source": "Hugging Face Blog"
-        }
-      ]
-    },
-    {
-      "keyword": "user",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "WRIT: Write-Read Intensive Trajectory Synthesis for Multi-Turn User-Facing Agents",
-      "articles": [
-        {
-          "title": "WRIT: Write-Read Intensive Trajectory Synthesis for Multi-Turn User-Facing Agents",
-          "url": "https://arxiv.org/abs/2606.02908",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Beyond Cooperative Simulators: Generating Realistic User Personas for Robust Evaluation of LLM Agents",
-          "url": "https://arxiv.org/abs/2605.12894",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
-          "url": "https://arxiv.org/abs/2610.10355",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Too hot for fur? Warmer weather impacts Paris Fashion Week style",
+          "url": "https://www.youtube.com/shorts/Lh1K43_49Pg",
+          "source": "Reuters"
         }
       ]
     },
@@ -378,6 +447,66 @@
           "title": "LibreOffice says ‘no AI’ is now a software feature",
           "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
           "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "user",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Personalize at Test Time: Learning User Preferences for Image Generation",
+      "articles": [
+        {
+          "title": "Personalize at Test Time: Learning User Preferences for Image Generation",
+          "url": "https://arxiv.org/abs/2610.09015",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Beyond Cooperative Simulators: Generating Realistic User Personas for Robust Evaluation of LLM Agents",
+          "url": "https://arxiv.org/abs/2605.12894",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "WRIT: Write-Read Intensive Trajectory Synthesis for Multi-Turn User-Facing Agents",
+          "url": "https://arxiv.org/abs/2606.02908",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "decision model",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
+      "articles": [
+        {
+          "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
+          "url": "https://arxiv.org/abs/2610.09937",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
+          "url": "https://arxiv.org/abs/2610.09683",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Multimodal open d1 decision models for the edge",
+          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "source": "Hugging Face Blog"
         }
       ]
     },
@@ -442,50 +571,32 @@
       ]
     },
     {
-      "keyword": "mckinsey",
+      "keyword": "diffusion",
       "mentions": 3,
-      "velocity": 0.3,
+      "velocity": 0.2,
       "sources": [
-        "linkedin"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 7,
-      "expert_ratio": 0.62,
-      "headline": "A top McKinsey exec shares what keeps him up at night and why he says AI is the solution",
+      "confidence": 87,
+      "days_active": 6,
+      "expert_ratio": 0.94,
+      "headline": "Koopman Observers for Diffusion Acceleration: Correcting Feature Forecasts with Shallow Measurements",
       "articles": [
         {
-          "title": "A top McKinsey exec shares what keeps him up at night and why he says AI is the solution",
-          "url": "https://www.businessinsider.com/mckinseys-eric-kutcher-ai-could-reduce-national-debt-2026-10",
-          "source": "All Content from Business Insider"
+          "title": "Koopman Observers for Diffusion Acceleration: Correcting Feature Forecasts with Shallow Measurements",
+          "url": "https://arxiv.org/abs/2610.10366",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "McKinsey's Kutcher Says AI Creates Jobs and Opportunity",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-07/mckinsey-s-kutcher-says-ai-creates-jobs-and-opportunity-video",
-          "source": "Bloomberg Technology"
+          "title": "Lower Bounds for Parallel Diffusion Sampling",
+          "url": "https://arxiv.org/abs/2610.09166",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "What a McKinsey partner’s commentary on women CEOs reveals",
-          "url": "https://www.fastcompany.com/91617576/what-a-mckinsey-partners-commentary-on-women-ceos-reveals",
-          "source": "Fast Company"
-        }
-      ]
-    },
-    {
-      "keyword": "paper",
-      "mentions": 2,
-      "velocity": 0.2,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 54,
-      "days_active": 4,
-      "expert_ratio": 0.86,
-      "headline": "This Cheap iPad Accessory Turned My Tablet Into the Paper Notebook I Needed",
-      "articles": [
-        {
-          "title": "This Cheap iPad Accessory Turned My Tablet Into the Paper Notebook I Needed",
-          "url": "https://www.nytimes.com/wirecutter/reviews/astropad-rock-paper-pencil-review/?utm_source=rss&utm_medium=feed&utm_campaign=RSS%20Feed",
-          "source": "The Wirecutter"
+          "title": "Kinetic Langevin Meets Split Gibbs: Accelerated Posterior Sampling for Imaging Inverse Problems with Diffusion Priors",
+          "url": "https://arxiv.org/abs/2610.10187",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     }
@@ -497,13 +608,12 @@
       "velocity": 2.0,
       "sources": [
         "articles",
-        "arxiv",
         "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 14,
-      "expert_ratio": 0.17,
+      "expert_ratio": 0.11,
       "headline": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
       "articles": [
         {
@@ -524,9 +634,75 @@
       ]
     },
     {
-      "keyword": "claude sonnet",
-      "mentions": 16,
+      "keyword": "data center",
+      "mentions": 21,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.5,
+      "headline": "Finland orders Google to stop work on two AI data centers over alleged deforestation",
+      "articles": [
+        {
+          "title": "Finland orders Google to stop work on two AI data centers over alleged deforestation",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/finland-orders-google-to-stop-work-on-two-ai-data-centers-over-alleged-deforestation-company-admits-it-has-fallen-short-of-our-own-high-standards-in-this-instance",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Sources: the IPO of Nvidia-backed data center provider Firmus is uncertain after failing to attract adequate support, un",
+          "url": "https://www.techmeme.com/261008/p31#a261008p31",
+          "source": "Techmeme"
+        },
+        {
+          "title": "How Amazon Rewired Its Data Centers After Mississippi Power Warning",
+          "url": "https://www.theinformation.com/articles/amazon-rewired-data-centers-mississippi-power-warning",
+          "source": "The Information"
+        }
+      ]
+    },
+    {
+      "keyword": "openai",
+      "mentions": 372,
       "velocity": 1.7,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.77,
+      "headline": "AI safety with OpenAI's Zico Kolter",
+      "articles": [
+        {
+          "title": "AI safety with OpenAI's Zico Kolter",
+          "url": "https://www.youtube.com/shorts/5pgpItx2PYI",
+          "source": "Reuters"
+        },
+        {
+          "title": "How OpenAI Beat Math",
+          "url": "https://www.theinformation.com/articles/openai-beat-math",
+          "source": "The Information"
+        },
+        {
+          "title": "Former OpenAI, Cognition Staffers Want AI to Help Run a Business",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-08/former-openai-cognition-staffers-want-ai-to-help-run-a-business",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "gemma",
+      "mentions": 21,
+      "velocity": 1.5,
       "sources": [
         "articles",
         "arxiv",
@@ -535,25 +711,20 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+      "expert_ratio": 0.91,
+      "headline": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
       "articles": [
         {
-          "title": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
-          "url": "https://www.techmeme.com/260929/p42#a260929p42",
+          "title": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
+          "url": "https://www.techmeme.com/261008/p27#a261008p27",
           "source": "Techmeme"
-        },
-        {
-          "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
-          "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
-          "source": "Tom's Hardware"
         }
       ]
     },
     {
       "keyword": "deepmind",
-      "mentions": 18,
-      "velocity": 1.7,
+      "mentions": 16,
+      "velocity": 1.1,
       "sources": [
         "articles",
         "linkedin"
@@ -561,9 +732,14 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.66,
-      "headline": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
+      "expert_ratio": 0.64,
+      "headline": "Sources: Isomorphic Labs, an AI drug discovery startup spun out of Google DeepMind, is in early talks to raise funds at ",
       "articles": [
+        {
+          "title": "Sources: Isomorphic Labs, an AI drug discovery startup spun out of Google DeepMind, is in early talks to raise funds at ",
+          "url": "https://www.techmeme.com/261008/p1#a261008p1",
+          "source": "Techmeme"
+        },
         {
           "title": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
           "url": "https://thenextweb.com/news/biohub-1-8bn-ai-biology-data-meta-google-deepmind",
@@ -573,100 +749,28 @@
           "title": "Meta, Google DeepMind, and Isomorphic Labs invest $300M and the US invests $500M+ in Zuckerberg-backed Biohub to build o",
           "url": "https://www.techmeme.com/261007/p18#a261007p18",
           "source": "Techmeme"
-        },
-        {
-          "title": "Google DeepMind launches EmbeddingGemma 2, a 740M-parameter model to map code, images, video, and audio in a shared embe",
-          "url": "https://www.techmeme.com/261006/p25#a261006p25",
-          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "elevenlabs",
-      "mentions": 16,
-      "velocity": 1.5,
+      "keyword": "perplexity",
+      "mentions": 23,
+      "velocity": 0.6,
       "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
-      "articles": [
-        {
-          "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
-          "url": "https://www.theinformation.com/briefings/microsoft-debuts-voice-ai-compete-elevenlabs",
-          "source": "The Information"
-        },
-        {
-          "title": "AI voice startup ElevenLabs doubles valuation to $22B",
-          "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
-          "source": "Artificial Intelligence (AI) | TechCrunch"
-        },
-        {
-          "title": "ElevenLabs doubles its valuation to $22bn in a $300m share sale",
-          "url": "https://thenextweb.com/news/elevenlabs-valuation-22bn-300m-tender-wellington-t-rowe-price",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "vibe coding",
-      "mentions": 22,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "github",
+        "arxiv",
+        "linkedin",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "VibeOps tackles the governance challenge of enterprise vibe coding - venturebeat.com",
+      "expert_ratio": 0.62,
+      "headline": "AI giants targeted by scraping bots — ChatGPT and Perplexity enter the most-scraped websites list for the first time",
       "articles": [
         {
-          "title": "VibeOps tackles the governance challenge of enterprise vibe coding - venturebeat.com",
-          "url": "https://venturebeat.com/orchestration/vibeops-tackles-the-governance-challenge-of-enterprise-vibe-coding",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "Lovable’s annualized revenue crosses $600M as vibe coding takes off",
-          "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "keyword": "google deepmind",
-      "mentions": 11,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.67,
-      "headline": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
-      "articles": [
-        {
-          "title": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
-          "url": "https://thenextweb.com/news/biohub-1-8bn-ai-biology-data-meta-google-deepmind",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Meta, Google DeepMind, and Isomorphic Labs invest $300M and the US invests $500M+ in Zuckerberg-backed Biohub to build o",
-          "url": "https://www.techmeme.com/261007/p18#a261007p18",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Google DeepMind launches EmbeddingGemma 2, a 740M-parameter model to map code, images, video, and audio in a shared embe",
-          "url": "https://www.techmeme.com/261006/p25#a261006p25",
-          "source": "Techmeme"
+          "title": "AI giants targeted by scraping bots — ChatGPT and Perplexity enter the most-scraped websites list for the first time",
+          "url": "https://www.techradar.com/pro/ai-giants-targeted-by-scraping-bots-chatgpt-and-perplexity-enter-the-most-scraped-websites-list-for-the-first-time",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
@@ -807,6 +911,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "claude code",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 1.0
+      },
+      {
         "keyword": "chatgpt",
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
@@ -816,10 +926,16 @@
         "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
-        "confidence": 1.0
+        "confidence": 0.8
       },
       {
         "keyword": "model context protocol",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "perplexity",
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
         "confidence": 0.8
@@ -829,6 +945,12 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
         "confidence": 0.6
+      },
+      {
+        "keyword": "quantization",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 0.4
       },
       {
         "keyword": "code generation",
@@ -843,10 +965,10 @@
         "confidence": 0.4
       },
       {
-        "keyword": "quantization",
+        "keyword": "langchain",
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
-        "confidence": 0.2
+        "confidence": 0.4
       },
       {
         "keyword": "gpt-4",
@@ -859,24 +981,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-07",
         "confidence": 0.4
-      },
-      {
-        "keyword": "browser use",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-07",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "qdrant",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-07",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "mistral ai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-07",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
@@ -888,13 +992,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "world models",
-        "recent_mentions": 82,
-        "prior_mentions": 8,
-        "change_ratio": 10.25,
-        "corroborating_sources": 4
-      },
-      {
         "keyword": "ideogram",
         "recent_mentions": 6,
         "prior_mentions": 1,
@@ -902,46 +999,25 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "claude haiku",
-        "recent_mentions": 28,
-        "prior_mentions": 5,
-        "change_ratio": 5.6,
-        "corroborating_sources": 6
+        "keyword": "world models",
+        "recent_mentions": 43,
+        "prior_mentions": 8,
+        "change_ratio": 5.38,
+        "corroborating_sources": 4
       },
       {
         "keyword": "cohere",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "world model",
-        "recent_mentions": 54,
-        "prior_mentions": 10,
-        "change_ratio": 5.4,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "synthetic data",
-        "recent_mentions": 44,
-        "prior_mentions": 9,
-        "change_ratio": 4.89,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "blackwell",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "open-source ai",
-        "recent_mentions": 44,
-        "prior_mentions": 11,
-        "change_ratio": 4.0,
-        "corroborating_sources": 4
+        "keyword": "claude haiku",
+        "recent_mentions": 21,
+        "prior_mentions": 5,
+        "change_ratio": 4.2,
+        "corroborating_sources": 6
       },
       {
         "keyword": "jasper",
@@ -951,17 +1027,45 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "computer use",
-        "recent_mentions": 26,
-        "prior_mentions": 7,
-        "change_ratio": 3.71,
-        "corroborating_sources": 4
+        "keyword": "open-source ai",
+        "recent_mentions": 44,
+        "prior_mentions": 11,
+        "change_ratio": 4.0,
+        "corroborating_sources": 3
       },
       {
         "keyword": "zapier",
         "recent_mentions": 11,
         "prior_mentions": 3,
         "change_ratio": 3.67,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "computer use",
+        "recent_mentions": 25,
+        "prior_mentions": 7,
+        "change_ratio": 3.57,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "blackwell",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "invideo",
+        "recent_mentions": 10,
+        "prior_mentions": 3,
+        "change_ratio": 3.33,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "quillbot",
+        "recent_mentions": 10,
+        "prior_mentions": 3,
+        "change_ratio": 3.33,
         "corroborating_sources": 1
       }
     ]
