@@ -1,12 +1,145 @@
 {
-  "generated_at": "2026-10-07T19:15:51.313551",
-  "total_tracked": 3653,
+  "generated_at": "2026-10-08T07:12:30.285860",
+  "total_tracked": 3636,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "reinforcement learning",
+      "mentions": 260,
+      "velocity": 45.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Online Estimation of Dynamic Origin-Destination Matrices Using Reinforcement Learning with Link-Flow Propagation Guidanc",
+      "articles": [
+        {
+          "title": "Online Estimation of Dynamic Origin-Destination Matrices Using Reinforcement Learning with Link-Flow Propagation Guidanc",
+          "url": "https://arxiv.org/abs/2608.30317",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Reinforcement Learning for Code Optimization",
+          "url": "https://arxiv.org/abs/2607.25970",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Chronocooked: A Benchmark for Interval Timing in Reinforcement Learning Agents",
+          "url": "https://arxiv.org/abs/2608.16666",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 246,
+      "velocity": 42.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.85,
+      "headline": "Can Agentic Trading Systems Pay for Their Own Intelligence?",
+      "articles": [
+        {
+          "title": "Can Agentic Trading Systems Pay for Their Own Intelligence?",
+          "url": "https://arxiv.org/abs/2607.10286",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Agentic Discovery of Neural Architectures: AIRA-Compose and AIRA-Design",
+          "url": "https://arxiv.org/abs/2605.15871",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "When Algorithmic Exploration Becomes Cheap: A Case Study of Agentic Research in EDA",
+          "url": "https://arxiv.org/abs/2610.10129",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 169,
+      "velocity": 28.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "APE: Selective Fine-tuning with Acceptance Criteria for Language Model Adaptation",
+      "articles": [
+        {
+          "title": "APE: Selective Fine-tuning with Acceptance Criteria for Language Model Adaptation",
+          "url": "https://arxiv.org/abs/2505.19912",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing",
+          "url": "https://arxiv.org/abs/2610.10345",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
+          "url": "https://arxiv.org/abs/2610.09450",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 121,
+      "velocity": 27.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.91,
+      "headline": "EDGE: Engine for Deterministic Graph Evaluation through Conversation Simulation from Graph Structured DSL Configuration",
+      "articles": [
+        {
+          "title": "EDGE: Engine for Deterministic Graph Evaluation through Conversation Simulation from Graph Structured DSL Configuration",
+          "url": "https://arxiv.org/abs/2608.29971",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Not All Uncertainty Matters: Simulation-in-the-Loop Fast-Slow Reasoning for Decision-Critical Autonomous Driving System",
+          "url": "https://arxiv.org/abs/2610.09520",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Multi-Aspect Runtime Verification for Simulation-Based V＆V of LLM-Enabled Autonomous Agents",
+          "url": "https://arxiv.org/abs/2610.08928",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "claude",
-      "mentions": 556,
-      "velocity": 13.5,
+      "mentions": 570,
+      "velocity": 13.7,
       "sources": [
         "articles",
         "arxiv",
@@ -20,29 +153,45 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.74,
-      "headline": "Cisco brings collaborative agents and Claude into Webex chats",
+      "headline": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks l",
       "articles": [
         {
-          "title": "Cisco brings collaborative agents and Claude into Webex chats",
-          "url": "https://www.computerworld.com/article/4231779/cisco-brings-collaborative-agents-and-claude-into-webex-chats.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
+          "title": "Anthropic launches Claude Haiku 5.5, the first Haiku model with effort controls, for high-volume, cost-sensitive tasks l",
+          "url": "https://www.techmeme.com/261007/p31#a261007p31",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt",
+      "mentions": 239,
+      "velocity": 6.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.49,
+      "headline": "OpenAI says GPT-6 in ChatGPT's Chat tab is powered by GPT-6 Sol for Plus, Pro, Business, and Enterprise tiers and GPT-6 ",
+      "articles": [
         {
-          "title": "ChatGPT, Gemini, and Claude imitated in fake ads that steal credentials and MFA codes",
-          "url": "https://www.techradar.com/pro/security/chatgpt-gemini-and-claude-imitated-in-fake-ads-that-steal-credentials-and-mfa-codes",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
-          "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
-          "source": "The Next Web"
+          "title": "OpenAI says GPT-6 in ChatGPT's Chat tab is powered by GPT-6 Sol for Plus, Pro, Business, and Enterprise tiers and GPT-6 ",
+          "url": "https://www.techmeme.com/261007/p36#a261007p36",
+          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "perplexity",
-      "mentions": 31,
-      "velocity": 4.3,
+      "mentions": 40,
+      "velocity": 5.7,
       "sources": [
         "articles",
         "arxiv",
@@ -52,7 +201,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.62,
+      "expert_ratio": 0.64,
       "headline": "AI giants targeted by scraping bots — ChatGPT and Perplexity enter the most-scraped websites list for the first time",
       "articles": [
         {
@@ -63,49 +212,41 @@
       ]
     },
     {
-      "keyword": "open-source ai",
-      "mentions": 18,
-      "velocity": 4.1,
+      "keyword": "claude code",
+      "mentions": 56,
+      "velocity": 4.3,
       "sources": [
         "articles",
-        "hackernews"
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 5,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.09,
-      "headline": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "The creator of Claude Code's prompting advice? Talk to your AI like a coworker",
       "articles": [
         {
-          "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
-          "url": "https://github.com/nano-muse/nanoMuse",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Open-Source AI Tools Are Problem for Stopping Child Predators",
-          "url": "https://www.bloomberg.com/features/2026-open-source-ai-models-fuel-csam/",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
-          "url": "https://arxiv.org/abs/2610.00074",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "The creator of Claude Code's prompting advice? Talk to your AI like a coworker",
+          "url": "https://www.businessinsider.com/claude-code-creator-boris-cherny-ai-prompt-advice-2026-10",
+          "source": "Business Insider"
         }
       ]
     },
     {
       "keyword": "langchain",
-      "mentions": 22,
-      "velocity": 3.9,
+      "mentions": 21,
+      "velocity": 2.4,
       "sources": [
-        "articles",
         "github",
         "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.78,
+      "expert_ratio": 0.82,
       "headline": "Agent Harness with LangChain Middleware and Jev",
       "articles": [
         {
@@ -116,211 +257,8 @@
       ]
     },
     {
-      "keyword": "gemini",
-      "mentions": 217,
-      "velocity": 3.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.41,
-      "headline": "ChatGPT, Gemini, and Claude imitated in fake ads that steal credentials and MFA codes",
-      "articles": [
-        {
-          "title": "ChatGPT, Gemini, and Claude imitated in fake ads that steal credentials and MFA codes",
-          "url": "https://www.techradar.com/pro/security/chatgpt-gemini-and-claude-imitated-in-fake-ads-that-steal-credentials-and-mfa-codes",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Gemini presto gestirà le email al posto tuo",
-          "url": "https://www.tomshw.it/altro/google-could-soon-let-gemini-handle-your-gmail-inbox-for-you",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Google launches Playground, a browser-based, no-code AI game creation platform available to US users aged 18+, powered b",
-          "url": "https://www.techmeme.com/261007/p15#a261007p15",
-          "source": "Techmeme"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "chatgpt",
-      "mentions": 236,
-      "velocity": 8.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.5,
-      "headline": "ChatGPT is getting college planning tools",
-      "articles": [
-        {
-          "title": "ChatGPT is getting college planning tools",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
-          "source": "The Verge -  Artificial Intelligences"
-        },
-        {
-          "title": "ChatGPT, Gemini, and Claude imitated in fake ads that steal credentials and MFA codes",
-          "url": "https://www.techradar.com/pro/security/chatgpt-gemini-and-claude-imitated-in-fake-ads-that-steal-credentials-and-mfa-codes",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "ChatGPT e rivali non concordano sui brand: di chi fidarsi?",
-          "url": "https://www.tomshw.it/hardware/chatgpt-e-rivali-non-concordano-sui-brand-di-chi-fidarsi",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 42,
-      "velocity": 5.6,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "Mistral says \"Le Chonk\" can challenge the best AI models",
-      "articles": [
-        {
-          "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
-          "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
-          "source": "Ars Technica"
-        },
-        {
-          "title": "« Avec une avance considérable » : le Français Mistral envoie du lourd avec son nouveau modèle d’IA",
-          "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-avance-considerable-francais-mistral-envoie-lourd-son-nouveau-modele-ia-138327/#xtor%3DRSS-8",
-          "source": "Les dernières actualités de Futura-Sciences"
-        },
-        {
-          "title": "Artificial Analysis says Mistral Large 4 is the most intelligent model from outside the US and China, achieving results ",
-          "url": "https://www.techmeme.com/261006/p38#a261006p38",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "simulation",
-      "mentions": 41,
-      "velocity": 4.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.91,
-      "headline": "ECG-WM: A Physiology-Informed ECG World Model for Clinical Intervention Simulation",
-      "articles": [
-        {
-          "title": "ECG-WM: A Physiology-Informed ECG World Model for Clinical Intervention Simulation",
-          "url": "https://arxiv.org/abs/2605.17580",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Data-Driven Personas for Survey Simulation: Insights into Simulation Alignment Across Data-Access Regimes",
-          "url": "https://arxiv.org/abs/2610.05828",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Spectra: Exact Component Transport for Test-Time Prior Adaptation in Simulation-Based Inference",
-          "url": "https://arxiv.org/abs/2610.08021",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    },
-    {
       "keyword": "deepseek",
       "mentions": 60,
-      "velocity": 3.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "Artificial Analysis says Mistral Large 4 is the most intelligent model from outside the US and China, achieving results ",
-      "articles": [
-        {
-          "title": "Artificial Analysis says Mistral Large 4 is the most intelligent model from outside the US and China, achieving results ",
-          "url": "https://www.techmeme.com/261006/p38#a261006p38",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Billions Pour Into OpenAI, DeepSeek Ahead of IPOs",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/bloomberg-tech-10-6-2026-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "DeepSeek is raising at least $12 billion in a Tencent-backed funding round",
-          "url": "https://qz.com/deepseek-funding-round-tencent-catl-ipo-100626",
-          "source": "Quartz"
-        }
-      ]
-    },
-    {
-      "keyword": "deepmind",
-      "mentions": 18,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.6,
-      "headline": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
-      "articles": [
-        {
-          "title": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
-          "url": "https://thenextweb.com/news/biohub-1-8bn-ai-biology-data-meta-google-deepmind",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Meta, Google DeepMind, and Isomorphic Labs invest $300M and the US invests $500M+ in Zuckerberg-backed Biohub to build o",
-          "url": "https://www.techmeme.com/261007/p18#a261007p18",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Google DeepMind launches EmbeddingGemma 2, a 740M-parameter model to map code, images, video, and audio in a shared embe",
-          "url": "https://www.techmeme.com/261006/p25#a261006p25",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "model context protocol",
-      "mentions": 15,
       "velocity": 2.1,
       "sources": [
         "articles",
@@ -331,50 +269,55 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol Layers",
+      "expert_ratio": 0.85,
+      "headline": "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switc",
       "articles": [
         {
-          "title": "COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol Layers",
-          "url": "https://arxiv.org/abs/2610.04378",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switc",
+          "url": "https://www.techradar.com/pro/huawei-and-deepseek-release-open-source-ai-tools-in-a-bid-to-lower-nvidia-exposure-but-will-programmers-make-the-switch",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "Evaluating a Layered Prompt-Injection Defence for the Model Context Protocol: A Record-Level Audit of Decision Conventio",
-          "url": "https://arxiv.org/abs/2604.17125",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Artificial Analysis says Mistral Large 4 is the most intelligent model from outside the US and China, achieving results ",
+          "url": "https://www.techmeme.com/261006/p38#a261006p38",
+          "source": "Techmeme"
         },
         {
-          "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-          "url": "https://arxiv.org/abs/2609.30341",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Billions Pour Into OpenAI, DeepSeek Ahead of IPOs",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/bloomberg-tech-10-6-2026-video",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "semianalysis",
-      "mentions": 3,
+      "keyword": "decision model",
+      "mentions": 2,
       "velocity": 1.0,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 67,
-      "days_active": 3,
+      "confidence": 61,
+      "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "SemiAnalysis estimates ~90% of Anthropic's business comes from agentic AI, while sources say nearly 25% of its revenue i",
+      "headline": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
       "articles": [
         {
-          "title": "SemiAnalysis estimates ~90% of Anthropic's business comes from agentic AI, while sources say nearly 25% of its revenue i",
-          "url": "https://www.techmeme.com/261001/p9#a261001p9",
-          "source": "Techmeme"
+          "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
+          "url": "https://arxiv.org/abs/2610.09937",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ByteDance rents a fifth of China’s data centre capacity, SemiAnalysis says",
-          "url": "https://thenextweb.com/news/bytedance-data-centre-fifth-china-capacity-semianalysis",
-          "source": "The Next Web"
+          "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
+          "url": "https://arxiv.org/abs/2610.09683",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Multimodal open d1 decision models for the edge",
+          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "source": "Hugging Face Blog"
         }
       ]
     },
@@ -389,21 +332,21 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "User Misconceptions of LLM-Based Conversational Programming Assistants",
+      "headline": "WRIT: Write-Read Intensive Trajectory Synthesis for Multi-Turn User-Facing Agents",
       "articles": [
         {
-          "title": "User Misconceptions of LLM-Based Conversational Programming Assistants",
-          "url": "https://arxiv.org/abs/2510.25662",
+          "title": "WRIT: Write-Read Intensive Trajectory Synthesis for Multi-Turn User-Facing Agents",
+          "url": "https://arxiv.org/abs/2606.02908",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
-          "url": "https://arxiv.org/abs/2608.27831",
+          "title": "Beyond Cooperative Simulators: Generating Realistic User Personas for Robust Evaluation of LLM Agents",
+          "url": "https://arxiv.org/abs/2605.12894",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "AgentPersonaBench: Benchmarking Persona-Driven User Simulation",
-          "url": "https://arxiv.org/abs/2610.04379",
+          "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
+          "url": "https://arxiv.org/abs/2610.10355",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -419,8 +362,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "LibreOffice says it 'will not add' AI features to document editor for the foreseeable future",
+      "headline": "LibreOffice touts ‘no AI’ as a feature",
       "articles": [
+        {
+          "title": "LibreOffice touts ‘no AI’ as a feature",
+          "url": "https://www.computerworld.com/article/4232129/libreoffice-no-ai-is-also-a-feature.html",
+          "source": "Computerworld"
+        },
         {
           "title": "LibreOffice says it 'will not add' AI features to document editor for the foreseeable future",
           "url": "https://www.techradar.com/pro/libreoffice-says-it-will-not-add-ai-features-to-document-editor-for-the-foreseeable-future",
@@ -430,74 +378,36 @@
           "title": "LibreOffice says ‘no AI’ is now a software feature",
           "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
           "source": "TechCrunch"
-        },
-        {
-          "title": "Fedora-gebruikers discussiëren over het vervangen van LibreOffice door Collabora",
-          "url": "https://tweakers.net/nieuws/252616/fedora-gebruikers-discussieren-over-het-vervangen-van-libreoffice-door-collabora.html",
-          "source": "Tweakers Mixed RSS Feed"
         }
       ]
     },
     {
-      "keyword": "qdrant",
+      "keyword": "bytedance",
       "mentions": 3,
       "velocity": 0.6,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 91,
-      "days_active": 11,
-      "expert_ratio": 0.78,
-      "headline": "Parameterized Dense-Sparse Fusion for Hybrid Retrieval: Tuning a Rank-Score Mix on BEIR SciFact with Qdrant",
-      "articles": [
-        {
-          "title": "Parameterized Dense-Sparse Fusion for Hybrid Retrieval: Tuning a Rank-Score Mix on BEIR SciFact with Qdrant",
-          "url": "https://arxiv.org/abs/2609.22770",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "train",
-      "mentions": 3,
-      "velocity": 0.5,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 73,
-      "days_active": 4,
-      "expert_ratio": 0.89,
-      "headline": "My favorite weekend getaway is a coastal spot in Southern California — and the $28 train ride there is half the fun",
+      "confidence": 89,
+      "days_active": 11,
+      "expert_ratio": 0.76,
+      "headline": "Keyu Tian, a former ByteDance intern, raised ~$30M from 5Y and IDG for his unnamed AI lab that focuses on building world",
       "articles": [
         {
-          "title": "My favorite weekend getaway is a coastal spot in Southern California — and the $28 train ride there is half the fun",
-          "url": "https://www.businessinsider.com/favorite-weekend-trip-southern-california-oceanside-beaches-food-train-2026-10",
-          "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "flash",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions \"across the board\"; ",
-      "articles": [
-        {
-          "title": "Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions \"across the board\"; ",
-          "url": "https://www.techmeme.com/261006/p45#a261006p45",
+          "title": "Keyu Tian, a former ByteDance intern, raised ~$30M from 5Y and IDG for his unnamed AI lab that focuses on building world",
+          "url": "https://www.techmeme.com/261007/p44#a261007p44",
           "source": "Techmeme"
         },
         {
-          "title": "Google is about to remove free access to Gemini Flash and Pro",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "Ex-ByteDance Intern’s $200 Million AI Lab Takes On Fei-Fei Li",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-07/ex-bytedance-intern-s-200-million-ai-lab-takes-on-fei-fei-li",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "ByteDance rents a fifth of China’s data centre capacity, SemiAnalysis says",
+          "url": "https://thenextweb.com/news/bytedance-data-centre-fifth-china-capacity-semianalysis",
+          "source": "The Next Web"
         }
       ]
     },
@@ -509,9 +419,9 @@
         "articles"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 6,
-      "expert_ratio": 0.62,
+      "confidence": 77,
+      "days_active": 5,
+      "expert_ratio": 0.73,
       "headline": "SoftBank’s Masayoshi Son Has Rare Cautionary Note on AI Safety",
       "articles": [
         {
@@ -530,12 +440,119 @@
           "source": "Techmeme"
         }
       ]
+    },
+    {
+      "keyword": "mckinsey",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "linkedin"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 7,
+      "expert_ratio": 0.62,
+      "headline": "A top McKinsey exec shares what keeps him up at night and why he says AI is the solution",
+      "articles": [
+        {
+          "title": "A top McKinsey exec shares what keeps him up at night and why he says AI is the solution",
+          "url": "https://www.businessinsider.com/mckinseys-eric-kutcher-ai-could-reduce-national-debt-2026-10",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "McKinsey's Kutcher Says AI Creates Jobs and Opportunity",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-07/mckinsey-s-kutcher-says-ai-creates-jobs-and-opportunity-video",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "What a McKinsey partner’s commentary on women CEOs reveals",
+          "url": "https://www.fastcompany.com/91617576/what-a-mckinsey-partners-commentary-on-women-ceos-reveals",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
+      "keyword": "paper",
+      "mentions": 2,
+      "velocity": 0.2,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 54,
+      "days_active": 4,
+      "expert_ratio": 0.86,
+      "headline": "This Cheap iPad Accessory Turned My Tablet Into the Paper Notebook I Needed",
+      "articles": [
+        {
+          "title": "This Cheap iPad Accessory Turned My Tablet Into the Paper Notebook I Needed",
+          "url": "https://www.nytimes.com/wirecutter/reviews/astropad-rock-paper-pencil-review/?utm_source=rss&utm_medium=feed&utm_campaign=RSS%20Feed",
+          "source": "The Wirecutter"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "google deepmind",
-      "mentions": 12,
+      "keyword": "open-source ai",
+      "mentions": 15,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.17,
+      "headline": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
+      "articles": [
+        {
+          "title": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
+          "source": "The Register"
+        },
+        {
+          "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+          "url": "https://github.com/nano-muse/nanoMuse",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Open-Source AI Tools Are Problem for Stopping Child Predators",
+          "url": "https://www.bloomberg.com/features/2026-open-source-ai-models-fuel-csam/",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "claude sonnet",
+      "mentions": 16,
+      "velocity": 1.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.83,
+      "headline": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+      "articles": [
+        {
+          "title": "OpenAI prices GPT-6.1 Sol at $2/1M input and $10/1M output tokens, the same as GPT-6 Sol and Claude Sonnet 5.5, and says",
+          "url": "https://www.techmeme.com/260929/p42#a260929p42",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Con Claude Sonnet 5.5 Anthropic alza ancora l’asticella dell’IA, ecco tutte le novità",
+          "url": "https://www.tomshw.it/hardware/con-claude-sonnet-55-anthropic-alza-ancora-lasticella-dellia-ecco-tutte-le-novita",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "deepmind",
+      "mentions": 18,
       "velocity": 1.7,
       "sources": [
         "articles",
@@ -544,7 +561,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.62,
+      "expert_ratio": 0.66,
       "headline": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
       "articles": [
         {
@@ -565,220 +582,143 @@
       ]
     },
     {
-      "keyword": "openai",
-      "mentions": 369,
-      "velocity": 1.3,
+      "keyword": "elevenlabs",
+      "mentions": 16,
+      "velocity": 1.5,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "OpenAI’s release of mathematical findings draws concerns from experts",
-      "articles": [
-        {
-          "title": "OpenAI’s release of mathematical findings draws concerns from experts",
-          "url": "https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
-          "url": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "OpenAI just posted hundreds more results on major math problems",
-          "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
-      "keyword": "flux",
-      "mentions": 16,
-      "velocity": 0.8,
-      "sources": [
-        "arxiv",
-        "reddit"
+        "linkedin"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Spatially deterministic nucleation of 2D semiconductors by etching flux",
+      "expert_ratio": 0.72,
+      "headline": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
       "articles": [
         {
-          "title": "Spatially deterministic nucleation of 2D semiconductors by etching flux",
-          "url": "https://www.nature.com/articles/s41586-026-11095-1",
-          "source": "Nature - Issue - nature.com science feeds"
-        },
-        {
-          "title": "Philips Hue Flux sotto i 75€, 5 metri di luce smart per tutta la stanza",
-          "url": "https://www.tomshw.it/altro/philips-hue-flux-sotto-i-75eur-5-metri-di-luce-smart-per-tutta-la-stanza",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Zero Flux: Flow-Based Comparison of High-Dimensional Discrete Distributions",
-          "url": "https://arxiv.org/abs/2610.01472",
-          "source": "stat.ML updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 89,
-      "velocity": 0.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.34,
-      "headline": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
-      "articles": [
-        {
-          "title": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
-          "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Sun",
-          "url": "https://www.techmeme.com/261007/p23#a261007p23",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Musk Says SpaceX Will Sometimes Use Rival Models to Power Grok Bot",
-          "url": "https://www.theinformation.com/briefings/musk-says-spacex-will-sometimes-use-rival-models-power-grok-bot",
+          "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
+          "url": "https://www.theinformation.com/briefings/microsoft-debuts-voice-ai-compete-elevenlabs",
           "source": "The Information"
+        },
+        {
+          "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+          "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
+        },
+        {
+          "title": "ElevenLabs doubles its valuation to $22bn in a $300m share sale",
+          "url": "https://thenextweb.com/news/elevenlabs-valuation-22bn-300m-tender-wellington-t-rowe-price",
+          "source": "The Next Web"
         }
       ]
     },
     {
-      "keyword": "data centers",
-      "mentions": 18,
-      "velocity": 0.4,
+      "keyword": "vibe coding",
+      "mentions": 22,
+      "velocity": 1.1,
       "sources": [
         "articles",
-        "linkedin",
-        "twitter"
+        "github",
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.35,
-      "headline": "CoreWeave Tees Up First India Data Centers With AdaniConneX Deal",
+      "expert_ratio": 0.53,
+      "headline": "VibeOps tackles the governance challenge of enterprise vibe coding - venturebeat.com",
       "articles": [
         {
-          "title": "CoreWeave Tees Up First India Data Centers With AdaniConneX Deal",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-07/coreweave-tees-up-first-india-data-centers-with-adaniconnex-deal",
-          "source": "Bloomberg Technology"
+          "title": "VibeOps tackles the governance challenge of enterprise vibe coding - venturebeat.com",
+          "url": "https://venturebeat.com/orchestration/vibeops-tackles-the-governance-challenge-of-enterprise-vibe-coding",
+          "source": "VentureBeat"
         },
         {
-          "title": "A Startup Has a Plan to Make Water From Air Using Data Centers’ Waste Heat",
-          "url": "https://www.wired.com/story/startup-atoco-makes-water-from-air-using-data-centers/",
-          "source": "Science Latest"
-        },
-        {
-          "title": "Turba Labs, which develops tech for optimizing AI infrastructure by creating digital twins of data centers, emerges from",
-          "url": "https://www.techmeme.com/261007/p5#a261007p5",
-          "source": "Techmeme"
+          "title": "Lovable’s annualized revenue crosses $600M as vibe coding takes off",
+          "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
+          "source": "TechCrunch"
         }
       ]
     },
     {
-      "keyword": "copilot",
-      "mentions": 39,
-      "velocity": 0.1,
+      "keyword": "google deepmind",
+      "mentions": 11,
+      "velocity": 0.9,
       "sources": [
         "articles",
-        "github",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "linkedin"
       ],
-      "source_count": 5,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.68,
-      "headline": "Zombie instructions on carefully constructed web pages could trick GitHub Copilot CLI into sharing secrets",
+      "expert_ratio": 0.67,
+      "headline": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
       "articles": [
         {
-          "title": "Zombie instructions on carefully constructed web pages could trick GitHub Copilot CLI into sharing secrets",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/06/zombie-instructions-on-carefully-constructed-web-pages-could-trick-github-copilot-cli-into-sharing-secrets/5301206",
-          "source": "The Register"
+          "title": "Biohub, Meta, Google DeepMind and the US pool $1.8bn for AI biology data",
+          "url": "https://thenextweb.com/news/biohub-1-8bn-ai-biology-data-meta-google-deepmind",
+          "source": "The Next Web"
         },
         {
-          "title": "Amazon hires Microsoft's former Copilot CTO",
-          "url": "https://www.businessinsider.com/amazon-hires-former-microsoft-copilot-cto-ai-agent-push-2026-10",
-          "source": "Business Insider"
+          "title": "Meta, Google DeepMind, and Isomorphic Labs invest $300M and the US invests $500M+ in Zuckerberg-backed Biohub to build o",
+          "url": "https://www.techmeme.com/261007/p18#a261007p18",
+          "source": "Techmeme"
         },
         {
-          "title": "Ora Excel si mette a scrivere il report al posto tuo, fa tutto Copilot",
-          "url": "https://www.tomshw.it/business/ora-excel-si-mette-a-scrivere-il-report-al-posto-tuo-fa-tutto-copilot",
-          "source": "Tom's Hardware"
+          "title": "Google DeepMind launches EmbeddingGemma 2, a 740M-parameter model to map code, images, video, and audio in a shared embe",
+          "url": "https://www.techmeme.com/261006/p25#a261006p25",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 291,
-    "covered": 155,
-    "coverage_rate": 0.533,
-    "early": 82,
-    "early_rate": 0.282,
-    "avg_lead_days": 14.5,
-    "median_lead_days": 10.5,
+    "scored_predictions": 296,
+    "covered": 160,
+    "coverage_rate": 0.541,
+    "early": 83,
+    "early_rate": 0.28,
+    "avg_lead_days": 14.6,
+    "median_lead_days": 11,
     "max_lead_days": 42,
-    "hit_rate": 0.533,
-    "materialized": 155,
+    "hit_rate": 0.541,
+    "materialized": 160,
     "by_signal_type": {
       "emerging": {
-        "scored": 175,
-        "covered": 135,
+        "scored": 179,
+        "covered": 139,
         "early": 69,
-        "coverage_rate": 0.771,
-        "early_rate": 0.394,
-        "hit_rate": 0.771
+        "coverage_rate": 0.777,
+        "early_rate": 0.385,
+        "hit_rate": 0.777
       },
       "weak_signal": {
-        "scored": 116,
-        "covered": 20,
-        "early": 13,
-        "coverage_rate": 0.172,
-        "early_rate": 0.112,
-        "hit_rate": 0.172
+        "scored": 117,
+        "covered": 21,
+        "early": 14,
+        "coverage_rate": 0.179,
+        "early_rate": 0.12,
+        "hit_rate": 0.179
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 291,
+    "n": 296,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.536,
-      "early_rate": 0.285
+      "coverage_rate": 0.544,
+      "early_rate": 0.284
     },
     "null_mean": {
-      "coverage_rate": 0.565,
+      "coverage_rate": 0.573,
       "early_rate": 0.336
     },
     "p_value": {
-      "coverage_rate": 0.98,
-      "early_rate": 0.991
+      "coverage_rate": 0.989,
+      "early_rate": 0.995
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -844,16 +784,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
-    },
-    {
       "keyword": "prompt engineering",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
@@ -862,10 +792,68 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
       "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+    },
+    {
+      "keyword": "flair",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "chatgpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "deepseek",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "model context protocol",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "mistral",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "code generation",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "deepmind",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "quantization",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "gpt-4",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-08",
+        "confidence": 0.2
+      },
       {
         "keyword": "world model",
         "signal_type": "emerging",
@@ -879,149 +867,101 @@
         "confidence": 0.2
       },
       {
-        "keyword": "mistral ai",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-07",
-        "confidence": 0.2
-      },
-      {
         "keyword": "qdrant",
         "signal_type": "weak_signal",
         "flagged_on": "2026-10-07",
         "confidence": 0.2
       },
       {
-        "keyword": "hallucination",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-06",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "mcp server",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-06",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "llama.cpp",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-05",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "b200",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-05",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "ai governance",
+        "keyword": "mistral ai",
         "signal_type": "weak_signal",
-        "flagged_on": "2026-10-05",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "openmontage",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-05",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "ai code",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-05",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "kling",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-05",
+        "flagged_on": "2026-10-07",
         "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "kling",
-        "recent_mentions": 28,
-        "prior_mentions": 5,
-        "change_ratio": 5.6,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "edge ai",
-        "recent_mentions": 10,
-        "prior_mentions": 2,
-        "change_ratio": 5.0,
+        "recent_mentions": 11,
+        "prior_mentions": 1,
+        "change_ratio": 11.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "openmontage",
+        "keyword": "world models",
+        "recent_mentions": 82,
+        "prior_mentions": 8,
+        "change_ratio": 10.25,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "ideogram",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "claude haiku",
+        "recent_mentions": 28,
+        "prior_mentions": 5,
+        "change_ratio": 5.6,
+        "corroborating_sources": 6
+      },
+      {
+        "keyword": "cohere",
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "world model",
+        "recent_mentions": 54,
+        "prior_mentions": 10,
+        "change_ratio": 5.4,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "synthetic data",
+        "recent_mentions": 44,
+        "prior_mentions": 9,
+        "change_ratio": 4.89,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "blackwell",
+        "recent_mentions": 9,
+        "prior_mentions": 2,
+        "change_ratio": 4.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "open-source ai",
+        "recent_mentions": 44,
+        "prior_mentions": 11,
+        "change_ratio": 4.0,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "jasper",
         "recent_mentions": 12,
         "prior_mentions": 3,
         "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "open-source ai",
-        "recent_mentions": 34,
-        "prior_mentions": 9,
-        "change_ratio": 3.78,
-        "corroborating_sources": 3
+        "keyword": "computer use",
+        "recent_mentions": 26,
+        "prior_mentions": 7,
+        "change_ratio": 3.71,
+        "corroborating_sources": 4
       },
       {
-        "keyword": "jasper",
+        "keyword": "zapier",
         "recent_mentions": 11,
         "prior_mentions": 3,
         "change_ratio": 3.67,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "quillbot",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
-        "change_ratio": 3.67,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "synthesia",
-        "recent_mentions": 10,
-        "prior_mentions": 3,
-        "change_ratio": 3.33,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "invideo",
-        "recent_mentions": 10,
-        "prior_mentions": 3,
-        "change_ratio": 3.33,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "pictory",
-        "recent_mentions": 9,
-        "prior_mentions": 3,
-        "change_ratio": 3.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "leonardo",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "ai consciousness",
-        "recent_mentions": 14,
-        "prior_mentions": 5,
-        "change_ratio": 2.8,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "descript",
-        "recent_mentions": 11,
-        "prior_mentions": 4,
-        "change_ratio": 2.75,
         "corroborating_sources": 1
       }
     ]

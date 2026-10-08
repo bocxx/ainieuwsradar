@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-07T17:27:59+00:00",
+  "generated_at": "2026-10-08T05:24:39+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 291,
-    "covered": 155,
-    "coverage_rate": 0.533,
-    "early": 82,
-    "early_rate": 0.282,
-    "avg_lead_days": 14.5,
-    "median_lead_days": 10.5,
+    "scored_predictions": 296,
+    "covered": 160,
+    "coverage_rate": 0.541,
+    "early": 83,
+    "early_rate": 0.28,
+    "avg_lead_days": 14.6,
+    "median_lead_days": 11,
     "max_lead_days": 42,
-    "hit_rate": 0.533,
-    "materialized": 155,
+    "hit_rate": 0.541,
+    "materialized": 160,
     "by_signal_type": {
       "emerging": {
-        "scored": 175,
-        "covered": 135,
+        "scored": 179,
+        "covered": 139,
         "early": 69,
-        "coverage_rate": 0.771,
-        "early_rate": 0.394,
-        "hit_rate": 0.771
+        "coverage_rate": 0.777,
+        "early_rate": 0.385,
+        "hit_rate": 0.777
       },
       "weak_signal": {
-        "scored": 116,
-        "covered": 20,
-        "early": 13,
-        "coverage_rate": 0.172,
-        "early_rate": 0.112,
-        "hit_rate": 0.172
+        "scored": 117,
+        "covered": 21,
+        "early": 14,
+        "coverage_rate": 0.179,
+        "early_rate": 0.12,
+        "hit_rate": 0.179
       }
     }
   },
@@ -96,16 +96,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
-    },
-    {
       "keyword": "prompt engineering",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
@@ -114,6 +104,16 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
       "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+    },
+    {
+      "keyword": "flair",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "caveats": [
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 291,
+    "n": 296,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.536,
-      "early_rate": 0.285
+      "coverage_rate": 0.544,
+      "early_rate": 0.284
     },
     "null_mean": {
-      "coverage_rate": 0.565,
+      "coverage_rate": 0.573,
       "early_rate": 0.336
     },
     "p_value": {
-      "coverage_rate": 0.98,
-      "early_rate": 0.991
+      "coverage_rate": 0.989,
+      "early_rate": 0.995
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
