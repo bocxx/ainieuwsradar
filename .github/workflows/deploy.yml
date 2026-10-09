@@ -9,8 +9,8 @@ name: Deploy ainieuwsradar.nl
 #   (token aanmaken: dash.cloudflare.com → My Profile → API Tokens
 #    → template "Edit Cloudflare Workers")
 #
-# Zolang het secret ontbreekt slaat de deploy-job over met een warning,
-# zodat pushes geen rode kruisjes opleveren.
+# Als het secret ontbreekt of leeg is, faalt de preflight hard,
+# zodat je het meteen ziet i.p.v. twee weken onopgemerkt (zoals in sept 2026).
 on:
   push:
     branches: [main]
@@ -37,8 +37,8 @@ jobs:
           if [ -n "$CLOUDFLARE_API_TOKEN" ]; then
             echo "ok=true" >> "$GITHUB_OUTPUT"
           else
-            echo "::warning::CLOUDFLARE_API_TOKEN ontbreekt — deploy overgeslagen. Zet 'm met: gh secret set CLOUDFLARE_API_TOKEN -R bocxx/ainieuwsradar"
-            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "::error::CLOUDFLARE_API_TOKEN ontbreekt of is leeg. Zet 'm met: gh secret set CLOUDFLARE_API_TOKEN -R bocxx/ainieuwsradar"
+            exit 1
           fi
 
   deploy:
