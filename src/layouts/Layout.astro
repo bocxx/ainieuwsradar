@@ -71,11 +71,11 @@ const jsonld = {
   <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />
 
   {/* Umami Analytics — vul data-website-id met het Website ID van deze site
-      (cloud.umami.is/settings/websites). Eén Umami-account/abonnement, per site
+      (stats.feedzz.online → Settings → Websites). Eén Umami-account/abonnement, per site
       een eigen Website ID. View-Transitions-aware. Leeg = geen tracking. */}
-  <link rel="preconnect" href="https://cloud.umami.is" crossorigin />
-  <link rel="dns-prefetch" href="https://cloud.umami.is" />
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="9dad3643-f050-42a8-8d8a-64a868ad15c9" data-auto-track="false"></script>
+  <link rel="preconnect" href="https://stats.feedzz.online" crossorigin />
+  <link rel="dns-prefetch" href="https://stats.feedzz.online" />
+  <script defer src="https://stats.feedzz.online/stats.js" data-website-id="9dad3643-f050-42a8-8d8a-64a868ad15c9" data-auto-track="false"></script>
   {/* LET OP: GEEN template-literal-wrapper rond de JS hieronder. Met is:inline
       interpoleert Astro niet, dus zo'n wrapper belandt letterlijk in het script
       en dan draait de code nooit — dat was hier de bug (jul 2026): custom events
