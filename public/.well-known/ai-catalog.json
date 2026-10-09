@@ -1,0 +1,31 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "ainieuwsradar.nl",
+    "identifier": "did:web:ainieuwsradar.nl",
+    "description": "Meetinstrument voor opkomende AI-trends met dagelijkse radar en openbaar getoetst track record"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:ainieuwsradar.nl:docs:llms-txt",
+      "displayName": "ainieuwsradar.nl llms.txt",
+      "type": "text/plain",
+      "url": "https://ainieuwsradar.nl/llms.txt",
+      "representativeQueries": [
+        "welke AI-trends versnellen nu",
+        "is deze AI-trend hype of houdbaar",
+        "hoeveel Nederlandse bedrijven gebruiken AI"
+      ]
+    },
+    {
+      "identifier": "urn:air:ainieuwsradar.nl:index:sitemap",
+      "displayName": "ainieuwsradar.nl sitemap",
+      "type": "application/xml",
+      "url": "https://ainieuwsradar.nl/sitemap-index.xml",
+      "representativeQueries": [
+        "alle pagina's van ainieuwsradar.nl",
+        "overzicht van ainieuwsradar.nl"
+      ]
+    }
+  ]
+}

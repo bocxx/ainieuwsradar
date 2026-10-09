@@ -1,0 +1,7 @@
+# Cloudflare static assets _headers
+
+# ARD-catalogus (Agentic Resource Discovery), moet cross-origin leesbaar zijn
+/.well-known/ai-catalog.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600
