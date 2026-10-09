@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "deploy": "npm run build && wrangler deploy",
     "audit:html": "node scripts/check-html-complete.mjs",
-    "postbuild": "node scripts/check-html-complete.mjs"
+    "postbuild": "node scripts/check-html-complete.mjs && node scripts/seo-guard.mjs",
+    "seo:guard": "node scripts/seo-guard.mjs"
   },
   "dependencies": {
     "astro": "^7.3.3"
