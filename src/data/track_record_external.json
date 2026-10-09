@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-08T17:27:49+00:00",
+  "generated_at": "2026-10-09T05:24:38+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 296,
-    "covered": 160,
+    "scored_predictions": 303,
+    "covered": 164,
     "coverage_rate": 0.541,
-    "early": 83,
-    "early_rate": 0.28,
-    "avg_lead_days": 14.6,
-    "median_lead_days": 11,
+    "early": 87,
+    "early_rate": 0.287,
+    "avg_lead_days": 14.3,
+    "median_lead_days": 10,
     "max_lead_days": 42,
     "hit_rate": 0.541,
-    "materialized": 160,
+    "materialized": 164,
     "by_signal_type": {
       "emerging": {
-        "scored": 179,
-        "covered": 139,
-        "early": 69,
-        "coverage_rate": 0.777,
+        "scored": 182,
+        "covered": 140,
+        "early": 70,
+        "coverage_rate": 0.769,
         "early_rate": 0.385,
-        "hit_rate": 0.777
+        "hit_rate": 0.769
       },
       "weak_signal": {
-        "scored": 117,
-        "covered": 21,
-        "early": 14,
-        "coverage_rate": 0.179,
-        "early_rate": 0.12,
-        "hit_rate": 0.179
+        "scored": 121,
+        "covered": 24,
+        "early": 17,
+        "coverage_rate": 0.198,
+        "early_rate": 0.14,
+        "hit_rate": 0.198
       }
     }
   },
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 296,
+    "n": 303,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.544,
-      "early_rate": 0.284
+      "coverage_rate": 0.545,
+      "early_rate": 0.29
     },
     "null_mean": {
-      "coverage_rate": 0.573,
-      "early_rate": 0.336
+      "coverage_rate": 0.572,
+      "early_rate": 0.337
     },
     "p_value": {
-      "coverage_rate": 0.989,
-      "early_rate": 0.995
+      "coverage_rate": 0.983,
+      "early_rate": 0.996
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
