@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T05:25:24+00:00",
+  "generated_at": "2026-10-10T17:26:55+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
@@ -53,12 +53,6 @@
       "days_left": 6
     },
     {
-      "keyword": "flair",
-      "signal_type": "emerging",
-      "flagged_on": "2026-09-01",
-      "days_left": 6
-    },
-    {
       "keyword": "prompt injection",
       "signal_type": "emerging",
       "flagged_on": "2026-09-02",
@@ -78,6 +72,12 @@
     },
     {
       "keyword": "openclaw",
+      "signal_type": "emerging",
+      "flagged_on": "2026-09-02",
+      "days_left": 7
+    },
+    {
+      "keyword": "ai alignment",
       "signal_type": "emerging",
       "flagged_on": "2026-09-02",
       "days_left": 7

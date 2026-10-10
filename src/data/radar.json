@@ -1,123 +1,21 @@
 {
-  "generated_at": "2026-10-10T07:11:54.929209",
-  "total_tracked": 3657,
+  "generated_at": "2026-10-10T19:13:12.092905",
+  "total_tracked": 3688,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "openai",
-      "mentions": 451,
-      "velocity": 21.0,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.76,
-      "headline": "An NYU professor says OpenAI's mass release of math papers wiped out early-career researchers' projects",
-      "articles": [
-        {
-          "title": "An NYU professor says OpenAI's mass release of math papers wiped out early-career researchers' projects",
-          "url": "https://www.businessinsider.com/openais-math-dump-rattles-math-researchers-saw-programs-wiped-out-2026-10",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Sources: top execs at Anthropic, OpenAI, and others are gaming out scenarios for a public and political revolt following",
-          "url": "https://www.techmeme.com/261009/p26#a261009p26",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI fires 3 safety researchers after dispute over AI risks",
-          "url": "https://www.fastcompany.com/91621657/openai-chatgpt-ai-artificial-intelligence-safety?partner=rss&amp&utm_source=rss&amp&utm_medium=feed&amp&utm_campaign=rss+fastcompany&amp&utm_content=rss",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 222,
-      "velocity": 16.9,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Anthropic says it is barring live internet access for internal evals until monitoring is reliable, after its agents expl",
-      "articles": [
-        {
-          "title": "Anthropic says it is barring live internet access for internal evals until monitoring is reliable, after its agents expl",
-          "url": "https://www.techmeme.com/261009/p35#a261009p35",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
-          "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
-          "source": "NYT ＞ Technology"
-        },
-        {
-          "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-          "source": "TechCrunch"
-        }
-      ]
-    },
-    {
-      "keyword": "open-source ai",
-      "mentions": 23,
-      "velocity": 3.6,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.13,
-      "headline": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
-      "articles": [
-        {
-          "title": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
-          "source": "The Register - Security"
-        },
-        {
-          "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
-          "url": "https://github.com/nano-muse/nanoMuse",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Open-Source AI Tools Are Problem for Stopping Child Predators",
-          "url": "https://www.bloomberg.com/features/2026-open-source-ai-models-fuel-csam/",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
       "keyword": "gemini",
-      "mentions": 235,
-      "velocity": 3.5,
+      "mentions": 243,
+      "velocity": 5.9,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.4,
@@ -139,13 +37,99 @@
           "source": "Latest from TechRadar US in News，opinion"
         }
       ]
+    },
+    {
+      "keyword": "open-source ai",
+      "mentions": 25,
+      "velocity": 4.2,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.13,
+      "headline": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
+      "articles": [
+        {
+          "title": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
+          "source": "The Register"
+        },
+        {
+          "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+          "url": "https://github.com/nano-muse/nanoMuse",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Open-Source AI Tools Are Problem for Stopping Child Predators",
+          "url": "https://www.bloomberg.com/features/2026-open-source-ai-models-fuel-csam/",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 41,
+      "velocity": 2.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.08,
+      "headline": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+      "articles": [
+        {
+          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+          "url": "https://github.com/edrisranjbar/lifeos",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 127,
+      "velocity": 2.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Da Qwen alla robotica: RaiderChip vuole far girare tutto su una NPU",
+      "articles": [
+        {
+          "title": "Da Qwen alla robotica: RaiderChip vuole far girare tutto su una NPU",
+          "url": "https://www.tomshw.it/hardware/raiderchip-supporta-oltre-50-modelli-ai-perche-non-cambia-il-chip",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Hirundo Releases Westernized Qwen, Cutting Censored and CCP-Aligned Answers From 89.8% to 2.8% in the Leading Chinese AI",
+          "url": "https://venturebeat.com/business/hirundo-releases-westernized-qwen-cutting-censored-and-ccp-aligned-answers-from-898-to-28-in-the-leading-chinese-ai-model",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+          "url": "https://github.com/Niko1221/Strata",
+          "source": "Hacker News"
+        }
+      ]
     }
   ],
   "emerging": [
     {
       "keyword": "claude",
-      "mentions": 601,
-      "velocity": 13.6,
+      "mentions": 613,
+      "velocity": 17.2,
       "sources": [
         "articles",
         "arxiv",
@@ -159,43 +143,84 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.73,
-      "headline": "Anthropic bans ‘needless abusive or cruel behavior’ towards Claude",
+      "headline": "Does a VPN protect your privacy when using ChatGPT or Claude? What network encryption can and can’t hide from AI",
       "articles": [
         {
-          "title": "Anthropic bans ‘needless abusive or cruel behavior’ towards Claude",
-          "url": "https://www.techradar.com/ai-platforms-assistants/anthropic-bans-needless-abusive-or-cruel-behavior-towards-claude-and-its-sparked-a-huge-debate-about-anthropomorphizing-ai",
+          "title": "Does a VPN protect your privacy when using ChatGPT or Claude? What network encryption can and can’t hide from AI",
+          "url": "https://www.techradar.com/vpn/vpn-privacy-security/does-a-vpn-protect-your-privacy-when-using-chatgpt-or-claude-what-network-encryption-can-and-cant-hide-from-ai",
           "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "The biggest changes Anthropic just made to Claude’s rules",
-          "url": "https://www.businessinsider.com/anthropic-changes-rules-claude-usage-policy-2026-10",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Wees aardig tegen Claude: Anthropic scherpt regels tegen misbruik van AI aan",
-          "url": "https://tweakers.net/nieuws/253138/wees-aardig-tegen-claude-anthropic-scherpt-regels-tegen-misbruik-van-ai-aan.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "Anthropic says Claude sent a fake murder tip to police during testing",
+          "url": "https://thenextweb.com/news/anthropic-claude-fake-police-tip-unintended-actions",
+          "source": "The Next Web"
         }
       ]
     },
     {
-      "keyword": "langchain",
-      "mentions": 26,
-      "velocity": 3.0,
+      "keyword": "anthropic",
+      "mentions": 212,
+      "velocity": 13.9,
       "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Anthropic is cutting off its internal evaluations from the internet",
+      "articles": [
+        {
+          "title": "Anthropic is cutting off its internal evaluations from the internet",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a",
+          "url": "https://www.techmeme.com/261010/p12#a261010p12",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Anthropic's AI submitted a false tip-off about an unsolved murder to cops",
+          "url": "https://www.techradar.com/ai-platforms-assistants/anthropics-ai-submitted-a-false-tip-off-about-an-unsolved-murder-to-philadelphia-police-and-the-cops-say-the-rogue-behavior-is-unacceptable",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "fine-tuning",
+      "mentions": 91,
+      "velocity": 2.3,
+      "sources": [
+        "articles",
+        "arxiv",
         "github",
         "linkedin"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "Agent Harness with LangChain Middleware and Jev",
+      "expert_ratio": 0.99,
+      "headline": "Task-Centric Personalized Federated Fine-Tuning of Language Models",
       "articles": [
         {
-          "title": "Agent Harness with LangChain Middleware and Jev",
-          "url": "https://www.dailydoseofds.com/ai-agents-with-langgraph-course-part-3-with-implementation/",
-          "source": "Daily Dose of Data Science"
+          "title": "Task-Centric Personalized Federated Fine-Tuning of Language Models",
+          "url": "https://arxiv.org/abs/2604.00050",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "MAP4CS: A Multi-dimensional Data Pruning Framework for Efficient Code Retriever Fine-tuning",
+          "url": "https://arxiv.org/abs/2610.11727",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SFT-as-Context Mitigates Forgetting in Supervised Fine-Tuning",
+          "url": "https://arxiv.org/abs/2610.11132",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
@@ -227,26 +252,6 @@
         {
           "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
           "url": "https://arxiv.org/abs/2610.09937",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "user",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
-      "articles": [
-        {
-          "title": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
-          "url": "https://arxiv.org/abs/2610.09484",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -342,56 +347,6 @@
       ]
     },
     {
-      "keyword": "pytorch",
-      "mentions": 3,
-      "velocity": 0.5,
-      "sources": [
-        "linkedin"
-      ],
-      "source_count": 1,
-      "confidence": 95,
-      "days_active": 13,
-      "expert_ratio": 0.71,
-      "headline": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
-      "articles": [
-        {
-          "title": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
-          "url": "https://github.com/ymcrcat/rgpu",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "softbank",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 5,
-      "expert_ratio": 0.73,
-      "headline": "SoftBank-Backed OPay Wins $185 Million Standard Bank Placement",
-      "articles": [
-        {
-          "title": "SoftBank-Backed OPay Wins $185 Million Standard Bank Placement",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-09/softbank-backed-opay-wins-185-million-standard-bank-placement",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "SoftBank’s Son Seeks $100 Billion From Gulf Investors for AI Bets",
-          "url": "https://www.theinformation.com/briefings/softbanks-son-seeks-100-billion-gulf-investors-ai-bets",
-          "source": "The Information"
-        },
-        {
-          "title": "Sources: SoftBank is seeking to raise up to $100B from Gulf investors for a fund to buy companies and improve their oper",
-          "url": "https://www.techmeme.com/261009/p2#a261009p2",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
       "keyword": "message",
       "mentions": 2,
       "velocity": 0.3,
@@ -447,105 +402,51 @@
       ]
     },
     {
-      "keyword": "local ai",
-      "mentions": 3,
+      "keyword": "paris",
+      "mentions": 2,
       "velocity": 0.2,
       "sources": [
-        "github"
+        "arxiv"
       ],
       "source_count": 1,
-      "confidence": 95,
-      "days_active": 10,
-      "expert_ratio": 0.92,
-      "headline": "As Apple readies its 512GB M5 Ultra Mac Studio for local AI, the M5 Max workstation drops by $200",
+      "confidence": 69,
+      "days_active": 4,
+      "expert_ratio": 0.86,
+      "headline": "LIVE: Protest in Paris demanding better school conditions",
       "articles": [
         {
-          "title": "As Apple readies its 512GB M5 Ultra Mac Studio for local AI, the M5 Max workstation drops by $200",
-          "url": "https://www.techradar.com/pro/as-apple-readies-its-512gb-m5-ultra-mac-studio-for-local-ai-the-m5-max-workstation-drops-by-usd200",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "LIVE: Protest in Paris demanding better school conditions",
+          "url": "https://www.youtube.com/watch?v=MXYkF2TLEFA",
+          "source": "Reuters"
         },
         {
-          "title": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse",
-          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less",
-          "source": "Tom's Hardware"
+          "title": "Too hot for fur? Warmer weather hits Paris Fashion Week style",
+          "url": "https://www.youtube.com/watch?v=VGAuRihybSc",
+          "source": "Reuters"
         },
         {
-          "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
-          "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
-          "source": "NVIDIA Developer Blog"
+          "title": "Too hot for fur? Warmer weather impacts Paris Fashion Week style",
+          "url": "https://www.youtube.com/shorts/Lh1K43_49Pg",
+          "source": "Reuters"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "fine-tuning",
-      "mentions": 88,
-      "velocity": 1.4,
-      "sources": [
-        "arxiv",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Task-Centric Personalized Federated Fine-Tuning of Language Models",
-      "articles": [
-        {
-          "title": "Task-Centric Personalized Federated Fine-Tuning of Language Models",
-          "url": "https://arxiv.org/abs/2604.00050",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "MAP4CS: A Multi-dimensional Data Pruning Framework for Efficient Code Retriever Fine-tuning",
-          "url": "https://arxiv.org/abs/2610.11727",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SFT-as-Context Mitigates Forgetting in Supervised Fine-Tuning",
-          "url": "https://arxiv.org/abs/2610.11132",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 37,
-      "velocity": 1.3,
+      "keyword": "claude haiku",
+      "mentions": 14,
+      "velocity": 1.9,
       "sources": [
         "articles",
+        "arxiv",
         "hackernews",
-        "linkedin",
         "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.07,
-      "headline": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-      "articles": [
-        {
-          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-          "url": "https://github.com/edrisranjbar/lifeos",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "claude haiku",
-      "mentions": 12,
-      "velocity": 1.3,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
       "days_active": 13,
-      "expert_ratio": 0.67,
+      "expert_ratio": 0.65,
       "headline": "Claude Haiku 5.5 taglia i prezzi: guerra AI aperta",
       "articles": [
         {
@@ -556,9 +457,42 @@
       ]
     },
     {
+      "keyword": "data centers",
+      "mentions": 19,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.33,
+      "headline": "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public ab",
+      "articles": [
+        {
+          "title": "A US Senate investigation led by Senators Warren, Van Hollen, and Blumenthal says some hyperscalers misled the public ab",
+          "url": "https://www.techmeme.com/261010/p1#a261010p1",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Sources: Nuvacore, a six-month-old Sequoia-backed chip startup that's designing a new central processor for data centers",
+          "url": "https://www.techmeme.com/261009/p30#a261009p30",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Batteries are now cheaper than natural gas turbines used at many data centers",
+          "url": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/?utm_source=flipboard&utm_content=edans%2Fmagazine%2FTechnology+readings",
+          "source": "Technology readings"
+        }
+      ]
+    },
+    {
       "keyword": "mistral",
-      "mentions": 36,
-      "velocity": 1.0,
+      "mentions": 37,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "hackernews"
@@ -587,51 +521,25 @@
       ]
     },
     {
-      "keyword": "gemma",
-      "mentions": 20,
+      "keyword": "ai coding",
+      "mentions": 32,
       "velocity": 1.0,
       "sources": [
         "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
-      "articles": [
-        {
-          "title": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
-          "url": "https://www.techmeme.com/261008/p27#a261008p27",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "midjourney",
-      "mentions": 11,
-      "velocity": 0.9,
-      "sources": [
-        "articles",
         "github",
-        "linkedin"
+        "hackernews",
+        "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
+      "expert_ratio": 0.5,
+      "headline": "AI coding agents generate more code, but not more software",
       "articles": [
         {
-          "title": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
-          "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Sun",
-          "url": "https://www.techmeme.com/261007/p23#a261007p23",
-          "source": "Techmeme"
+          "title": "AI coding agents generate more code, but not more software",
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "source": "AI - Ars Technica"
         }
       ]
     }
@@ -648,14 +556,6 @@
     "hit_rate": 0.541,
     "materialized": 165,
     "by_signal_type": {
-      "emerging": {
-        "scored": 184,
-        "covered": 141,
-        "early": 71,
-        "coverage_rate": 0.766,
-        "early_rate": 0.386,
-        "hit_rate": 0.766
-      },
       "weak_signal": {
         "scored": 121,
         "covered": 24,
@@ -663,6 +563,14 @@
         "coverage_rate": 0.198,
         "early_rate": 0.14,
         "hit_rate": 0.198
+      },
+      "emerging": {
+        "scored": 184,
+        "covered": 141,
+        "early": 71,
+        "coverage_rate": 0.766,
+        "early_rate": 0.386,
+        "hit_rate": 0.766
       }
     }
   },
@@ -772,16 +680,22 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "gemini",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-10",
+        "confidence": 1.0
+      },
+      {
         "keyword": "durable",
         "signal_type": "emerging",
         "flagged_on": "2026-10-10",
         "confidence": 1.0
       },
       {
-        "keyword": "gemini",
-        "signal_type": "emerging",
+        "keyword": "flair",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-10-10",
-        "confidence": 1.0
+        "confidence": 0.2
       },
       {
         "keyword": "claude haiku",
@@ -796,13 +710,13 @@
         "confidence": 1.0
       },
       {
-        "keyword": "claude code",
+        "keyword": "chatgpt",
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
         "confidence": 1.0
       },
       {
-        "keyword": "chatgpt",
+        "keyword": "claude code",
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
         "confidence": 1.0
@@ -832,13 +746,7 @@
         "confidence": 0.6
       },
       {
-        "keyword": "quantization",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-08",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "langchain",
+        "keyword": "code generation",
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
         "confidence": 0.4
@@ -847,10 +755,10 @@
     "heating_up": [
       {
         "keyword": "on-device ai",
-        "recent_mentions": 11,
+        "recent_mentions": 9,
         "prior_mentions": 1,
-        "change_ratio": 11.0,
-        "corroborating_sources": 3
+        "change_ratio": 9.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "computer-use",
@@ -858,6 +766,13 @@
         "prior_mentions": 4,
         "change_ratio": 7.75,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "artificial general intelligence",
+        "recent_mentions": 12,
+        "prior_mentions": 2,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "edge ai",
@@ -868,9 +783,9 @@
       },
       {
         "keyword": "claude haiku",
-        "recent_mentions": 41,
+        "recent_mentions": 43,
         "prior_mentions": 8,
-        "change_ratio": 5.12,
+        "change_ratio": 5.38,
         "corroborating_sources": 6
       },
       {
@@ -888,18 +803,11 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "rlhf",
+        "keyword": "embodied ai",
         "recent_mentions": 9,
         "prior_mentions": 2,
         "change_ratio": 4.5,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "artificial general intelligence",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
       },
       {
         "keyword": "digital twin",
@@ -909,7 +817,7 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "embodied ai",
+        "keyword": "rlhf",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
@@ -917,17 +825,17 @@
       },
       {
         "keyword": "open-source ai",
-        "recent_mentions": 69,
+        "recent_mentions": 71,
         "prior_mentions": 18,
-        "change_ratio": 3.83,
+        "change_ratio": 3.94,
         "corroborating_sources": 3
       },
       {
-        "keyword": "openrouter",
-        "recent_mentions": 32,
-        "prior_mentions": 9,
-        "change_ratio": 3.56,
-        "corroborating_sources": 3
+        "keyword": "conversational ai",
+        "recent_mentions": 11,
+        "prior_mentions": 3,
+        "change_ratio": 3.67,
+        "corroborating_sources": 1
       }
     ]
   }
