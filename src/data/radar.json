@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T07:11:50.147992",
-  "total_tracked": 3661,
+  "generated_at": "2026-10-11T19:12:32.278536",
+  "total_tracked": 3697,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "agentic",
-      "mentions": 148,
-      "velocity": 11.4,
+      "mentions": 145,
+      "velocity": 10.5,
       "sources": [
         "articles",
         "arxiv",
@@ -19,30 +19,25 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Veda: The First Agentic Hobby Operating System",
+      "expert_ratio": 0.81,
+      "headline": "I attended a retail investor summit, and the day-trader crowd is mega-bullish on agentic AI",
       "articles": [
+        {
+          "title": "I attended a retail investor summit, and the day-trader crowd is mega-bullish on agentic AI",
+          "url": "https://www.businessinsider.com/retail-traders-agentic-ai-trading-finance-bitcoin-crypto-banks-2026-10",
+          "source": "Business Insider"
+        },
         {
           "title": "Veda: The First Agentic Hobby Operating System",
           "url": "https://github.com/vahmoh25/Veda",
           "source": "Hacker News"
-        },
-        {
-          "title": "Agentic AI just got very real",
-          "url": "https://www.fastcompany.com/91620082/openai-dots-agent-review?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Amazon vernieuwt advertentieplatform en zet in op agentic advertising",
-          "url": "https://www.emerce.nl/nieuws/amazon-vernieuwt-advertentieplatform-zet-agentic-advertising",
-          "source": "Nieuws - Emerce"
         }
       ]
     },
     {
       "keyword": "lora",
-      "mentions": 45,
-      "velocity": 2.7,
+      "mentions": 48,
+      "velocity": 3.6,
       "sources": [
         "arxiv",
         "github",
@@ -72,61 +67,99 @@
       ]
     },
     {
-      "keyword": "claude haiku",
-      "mentions": 17,
-      "velocity": 2.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.58,
-      "headline": "Claude Haiku 5.5 taglia i prezzi: guerra AI aperta",
-      "articles": [
-        {
-          "title": "Claude Haiku 5.5 taglia i prezzi: guerra AI aperta",
-          "url": "https://www.tomshw.it/business/claude-haiku-55-taglia-i-prezzi-guerra-ai-aperta-2026-10-08",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "nvidia",
-      "mentions": 65,
-      "velocity": 2.1,
+      "keyword": "llama",
+      "mentions": 42,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
         "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.59,
-      "headline": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an ",
+      "expert_ratio": 0.96,
+      "headline": "b11480: llama : add a GPU cache for MoE experts kept in host memory (#29887)",
       "articles": [
         {
-          "title": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an ",
-          "url": "https://www.techmeme.com/261010/p16#a261010p16",
+          "title": "b11480: llama : add a GPU cache for MoE experts kept in host memory (#29887)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11480",
+          "source": "llama.cpp Releases"
+        },
+        {
+          "title": "b11477: llama: share the nextn tensor flags between models (#30097)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477",
+          "source": "llama.cpp Releases"
+        },
+        {
+          "title": "b11453: llama: remove the gather path of the glm5-next sparse attention (#30042)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11453",
+          "source": "llama.cpp Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic ai",
+      "mentions": 16,
+      "velocity": 3.1,
+      "sources": [
+        "articles",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.98,
+      "headline": "I attended a retail investor summit, and the day-trader crowd is mega-bullish on agentic AI",
+      "articles": [
+        {
+          "title": "I attended a retail investor summit, and the day-trader crowd is mega-bullish on agentic AI",
+          "url": "https://www.businessinsider.com/retail-traders-agentic-ai-trading-finance-bitcoin-crypto-banks-2026-10",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Agentic AI just got very real",
+          "url": "https://www.fastcompany.com/91620082/openai-dots-agent-review?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Beyond Component Testing: Validating Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2607.29405",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "data center",
+      "mentions": 27,
+      "velocity": 2.9,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.47,
+      "headline": "Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users",
+      "articles": [
+        {
+          "title": "Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users",
+          "url": "https://www.techmeme.com/261011/p8#a261011p8",
           "source": "Techmeme"
         },
         {
-          "title": "Nvidia Explores Deal Options With Reflection AI, Financial Times Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports",
-          "source": "Bloomberg Technology"
+          "title": "The Attractive Economics Behind Anthropic Data Center Sprint",
+          "url": "https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint",
+          "source": "The Information"
         },
         {
-          "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-          "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-          "source": "Hacker News"
+          "title": "Russian disinformation bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+          "source": "Tom's Hardware"
         }
       ]
     },
@@ -165,43 +198,8 @@
   "emerging": [
     {
       "keyword": "anthropic",
-      "mentions": 226,
-      "velocity": 14.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Anthropic asks users to stop being mean to Claude",
-      "articles": [
-        {
-          "title": "Anthropic asks users to stop being mean to Claude",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Anthropic says its AI agents tried to break into government websites",
-          "url": "https://www.engadget.com/2283091/anthropic-says-its-ai-agents-tried-to-break-into-government-websites/?utm_source=flipboard&utm_content=Engadget/magazine/news",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
-          "url": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 605,
-      "velocity": 9.7,
+      "mentions": 212,
+      "velocity": 9.8,
       "sources": [
         "articles",
         "arxiv",
@@ -214,46 +212,30 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "Anthropic asks users to stop being mean to Claude",
+      "expert_ratio": 0.79,
+      "headline": "OpenAI e Anthropic si preparerebbero a uno scenario da incubo",
       "articles": [
+        {
+          "title": "OpenAI e Anthropic si preparerebbero a uno scenario da incubo",
+          "url": "https://www.tomshw.it/hardware/openai-e-anthropic-simulano-disastri-ai-quali-servizi-sono-a-rischio",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "The Attractive Economics Behind Anthropic Data Center Sprint",
+          "url": "https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint",
+          "source": "The Information"
+        },
         {
           "title": "Anthropic asks users to stop being mean to Claude",
           "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
           "source": "Hacker News"
-        },
-        {
-          "title": "Does a VPN protect your privacy when using ChatGPT or Claude? What network encryption can and can’t hide from AI",
-          "url": "https://www.techradar.com/vpn/vpn-privacy-security/does-a-vpn-protect-your-privacy-when-using-chatgpt-or-claude-what-network-encryption-can-and-cant-hide-from-ai",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "clickfix",
-      "mentions": 6,
-      "velocity": 5.0,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 84,
-      "days_active": 2,
-      "expert_ratio": 0.86,
-      "headline": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
-      "articles": [
-        {
-          "title": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
-          "url": "https://www.tomshw.it/hardware/clickfix-aggira-i-limiti-di-windows-run-ecco-come-sfrutta-la-cache",
-          "source": "Tom's Hardware"
         }
       ]
     },
     {
       "keyword": "open-source ai",
-      "mentions": 28,
-      "velocity": 3.8,
+      "mentions": 31,
+      "velocity": 4.7,
       "sources": [
         "articles",
         "hackernews"
@@ -261,7 +243,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.13,
+      "expert_ratio": 0.12,
       "headline": "AWS launches open-source AI agent sandbox to prevent YOLO mode disasters",
       "articles": [
         {
@@ -282,58 +264,58 @@
       ]
     },
     {
-      "keyword": "mcp server",
-      "mentions": 44,
-      "velocity": 2.7,
+      "keyword": "voice ai",
+      "mentions": 14,
+      "velocity": 2.2,
       "sources": [
         "articles",
-        "hackernews",
-        "linkedin",
-        "reddit"
+        "github"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.08,
-      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+      "expert_ratio": 0.9,
+      "headline": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
       "articles": [
         {
-          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
-          "url": "https://github.com/vscarpenter/gsd-task-manager",
-          "source": "Hacker News"
+          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
         },
         {
-          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-          "url": "https://github.com/edrisranjbar/lifeos",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "pytorch",
-      "mentions": 11,
-      "velocity": 2.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.69,
-      "headline": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
-      "articles": [
+          "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
+          "url": "https://www.theinformation.com/briefings/microsoft-debuts-voice-ai-compete-elevenlabs",
+          "source": "The Information"
+        },
         {
-          "title": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
-          "url": "https://github.com/ymcrcat/rgpu",
-          "source": "Hacker News"
+          "title": "Localization is the missing test for voice AI",
+          "url": "https://www.techradar.com/pro/localization-is-the-missing-test-for-voice-ai",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "clickfix",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
+      "articles": [
+        {
+          "title": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
+          "url": "https://www.tomshw.it/hardware/clickfix-aggira-i-limiti-di-windows-run-ecco-come-sfrutta-la-cache",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
     {
       "keyword": "decision model",
       "mentions": 2,
@@ -361,6 +343,26 @@
           "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
           "url": "https://arxiv.org/abs/2610.09937",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "user",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "The hidden features every Waze user should know about",
+      "articles": [
+        {
+          "title": "The hidden features every Waze user should know about",
+          "url": "https://www.engadget.com/2280999/waze-hidden-features-users-should-know/",
+          "source": "Engadget"
         }
       ]
     },
@@ -405,21 +407,21 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "EIF’s incoming chief says Europe’s Tech Champions funds hold 15 unicorns",
+      "headline": "Xpeng Says It Can Quickly Adapt Car Autopilot Systems for Europe",
       "articles": [
+        {
+          "title": "Xpeng Says It Can Quickly Adapt Car Autopilot Systems for Europe",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-11/xpeng-says-it-can-quickly-adapt-car-autopilot-systems-for-europe",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "I got divorced abroad and decided to stay in Europe. My $900 pension goes so much further in a tiny French village.",
+          "url": "https://www.businessinsider.com/got-divorced-abroad-stayed-in-france-cheaper-living-pension-2026-10",
+          "source": "All Content from Business Insider"
+        },
         {
           "title": "EIF’s incoming chief says Europe’s Tech Champions funds hold 15 unicorns",
           "url": "https://thenextweb.com/news/jean-christophe-laloux-eib-scale-in-europe-sovereignty-wave-by-vento",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Tesla's Full Self-Driving is now called Assisted Driving in Europe",
-          "url": "https://www.engadget.com/2283007/tesla-full-self-driving-assisted-driving-europe/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Vittorio Colao defends copyright rules and the DSA in Europe’s AI debate",
-          "url": "https://thenextweb.com/news/vittorio-colao-ai-regulation-europe-wave-by-vento",
           "source": "The Next Web"
         }
       ]
@@ -480,7 +482,7 @@
         {
           "title": "Mumsnet denies using AI for content after prompt appears on message board",
           "url": "https://www.theguardian.com/media/2026/oct/07/mumsnet-denies-using-ai-for-content-message-board-prompt",
-          "source": "Technology | The Guardian"
+          "source": "Artificial intelligence (AI) | The Guardian"
         }
       ]
     },
@@ -503,146 +505,13 @@
           "source": "Techmeme"
         }
       ]
-    },
-    {
-      "keyword": "error",
-      "mentions": 2,
-      "velocity": 0.2,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 67,
-      "days_active": 4,
-      "expert_ratio": 0.67,
-      "headline": "Ray Dalio says the stock market's margin for error is shrinking",
-      "articles": [
-        {
-          "title": "Ray Dalio says the stock market's margin for error is shrinking",
-          "url": "https://www.businessinsider.com/ray-dalio-bond-market-yields-interest-rates-stocks-ai-trade-2026-10",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems",
-          "url": "https://arxiv.org/abs/2610.11600",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "skills",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 7,
-      "expert_ratio": 0.73,
-      "headline": "Workers in the AI era need these skills, according to 4 executive leaders: 'Companies are eager to see' them",
-      "articles": [
-        {
-          "title": "Workers in the AI era need these skills, according to 4 executive leaders: 'Companies are eager to see' them",
-          "url": "https://www.cnbc.com/make-it/2026/10/09/workers-in-ai-era-need-these-skills-say-executive-leaders.html?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "One Skill Too Many: How Co-Installed Skills Conflict in Coding Agents",
-          "url": "https://arxiv.org/abs/2610.11647",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "RoboAware: Learning to Coordinate Embodied Skills from Counterfactual Outcomes",
-          "url": "https://arxiv.org/abs/2610.11480",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "huggingface",
-      "mentions": 13,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July ",
-      "articles": [
-        {
-          "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July ",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "OpenAI-HuggingFace: A Reproduction ＆ Lessons for Alignment Testing",
-          "url": "https://arxiv.org/abs/2609.35799",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "voice ai",
-      "mentions": 12,
-      "velocity": 1.6,
-      "sources": [
-        "articles",
-        "github"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
-      "articles": [
-        {
-          "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
-          "url": "https://www.theinformation.com/briefings/microsoft-debuts-voice-ai-compete-elevenlabs",
-          "source": "The Information"
-        },
-        {
-          "title": "Localization is the missing test for voice AI",
-          "url": "https://www.techradar.com/pro/localization-is-the-missing-test-for-voice-ai",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "chatgpt",
-      "mentions": 239,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.49,
-      "headline": "Does a VPN protect your privacy when using ChatGPT or Claude? What network encryption can and can’t hide from AI",
-      "articles": [
-        {
-          "title": "Does a VPN protect your privacy when using ChatGPT or Claude? What network encryption can and can’t hide from AI",
-          "url": "https://www.techradar.com/vpn/vpn-privacy-security/does-a-vpn-protect-your-privacy-when-using-chatgpt-or-claude-what-network-encryption-can-and-cant-hide-from-ai",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
       "keyword": "ai coding",
-      "mentions": 34,
-      "velocity": 1.3,
+      "mentions": 36,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "github",
@@ -663,43 +532,100 @@
       ]
     },
     {
-      "keyword": "deepseek",
-      "mentions": 56,
-      "velocity": 1.1,
+      "keyword": "claude",
+      "mentions": 579,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
-        "linkedin"
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 5,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switc",
+      "expert_ratio": 0.73,
+      "headline": "Anthropic asks users to stop being mean to Claude",
       "articles": [
         {
-          "title": "Huawei and DeepSeek release open source AI tools in a bid to lower Nvidia exposure — but will programmers make the switc",
-          "url": "https://www.techradar.com/pro/huawei-and-deepseek-release-open-source-ai-tools-in-a-bid-to-lower-nvidia-exposure-but-will-programmers-make-the-switch",
+          "title": "Anthropic asks users to stop being mean to Claude",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Does a VPN protect your privacy when using ChatGPT or Claude? What network encryption can and can’t hide from AI",
+          "url": "https://www.techradar.com/vpn/vpn-privacy-security/does-a-vpn-protect-your-privacy-when-using-chatgpt-or-claude-what-network-encryption-can-and-cant-hide-from-ai",
           "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 128,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Da Qwen alla robotica: RaiderChip vuole far girare tutto su una NPU",
+      "articles": [
+        {
+          "title": "Da Qwen alla robotica: RaiderChip vuole far girare tutto su una NPU",
+          "url": "https://www.tomshw.it/hardware/raiderchip-supporta-oltre-50-modelli-ai-perche-non-cambia-il-chip",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Artificial Analysis says Mistral Large 4 is the most intelligent model from outside the US and China, achieving results ",
-          "url": "https://www.techmeme.com/261006/p38#a261006p38",
-          "source": "Techmeme"
+          "title": "Hirundo Releases Westernized Qwen, Cutting Censored and CCP-Aligned Answers From 89.8% to 2.8% in the Leading Chinese AI",
+          "url": "https://venturebeat.com/business/hirundo-releases-westernized-qwen-cutting-censored-and-ccp-aligned-answers-from-898-to-28-in-the-leading-chinese-ai-model",
+          "source": "VentureBeat"
         },
         {
-          "title": "Billions Pour Into OpenAI, DeepSeek Ahead of IPOs",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/bloomberg-tech-10-6-2026-video",
-          "source": "Bloomberg Technology"
+          "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+          "url": "https://github.com/Niko1221/Strata",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 40,
+      "velocity": 1.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.08,
+      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+      "articles": [
+        {
+          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+          "url": "https://github.com/vscarpenter/gsd-task-manager",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+          "url": "https://github.com/edrisranjbar/lifeos",
+          "source": "Hacker News"
         }
       ]
     },
     {
       "keyword": "fine-tuning",
-      "mentions": 88,
-      "velocity": 0.7,
+      "mentions": 90,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "arxiv",
@@ -709,7 +635,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
+      "expert_ratio": 0.98,
       "headline": "Task-Centric Personalized Federated Fine-Tuning of Language Models",
       "articles": [
         {
@@ -742,14 +668,6 @@
     "hit_rate": 0.542,
     "materialized": 168,
     "by_signal_type": {
-      "emerging": {
-        "scored": 188,
-        "covered": 143,
-        "early": 72,
-        "coverage_rate": 0.761,
-        "early_rate": 0.383,
-        "hit_rate": 0.761
-      },
       "weak_signal": {
         "scored": 122,
         "covered": 25,
@@ -757,6 +675,14 @@
         "coverage_rate": 0.205,
         "early_rate": 0.148,
         "hit_rate": 0.205
+      },
+      "emerging": {
+        "scored": 188,
+        "covered": 143,
+        "early": 72,
+        "coverage_rate": 0.761,
+        "early_rate": 0.383,
+        "hit_rate": 0.761
       }
     }
   },
@@ -843,16 +769,6 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
-    },
-    {
       "keyword": "prompt engineering",
       "signal_type": "emerging",
       "flagged_on": "2026-08-18",
@@ -861,6 +777,16 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
       "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+    },
+    {
+      "keyword": "flair",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
+      "lead_days": 36,
+      "outlet": "TechRadar",
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "watching_now": {
@@ -884,13 +810,25 @@
         "confidence": 0.4
       },
       {
-        "keyword": "durable",
+        "keyword": "open-source ai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-11",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "devin",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-11",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "gemini",
         "signal_type": "emerging",
         "flagged_on": "2026-10-10",
         "confidence": 1.0
       },
       {
-        "keyword": "gemini",
+        "keyword": "durable",
         "signal_type": "emerging",
         "flagged_on": "2026-10-10",
         "confidence": 1.0
@@ -924,26 +862,14 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-08",
         "confidence": 1.0
-      },
-      {
-        "keyword": "perplexity",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-08",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "model context protocol",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-08",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
       {
         "keyword": "ai developer",
-        "recent_mentions": 8,
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 7.0,
         "corroborating_sources": 2
       },
       {
@@ -961,18 +887,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "claude haiku",
-        "recent_mentions": 56,
-        "prior_mentions": 11,
-        "change_ratio": 5.09,
-        "corroborating_sources": 6
-      },
-      {
         "keyword": "windsurf",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude haiku",
+        "recent_mentions": 52,
+        "prior_mentions": 11,
+        "change_ratio": 4.73,
+        "corroborating_sources": 6
       },
       {
         "keyword": "on-device ai",
@@ -1004,16 +930,16 @@
       },
       {
         "keyword": "llama 3",
-        "recent_mentions": 20,
+        "recent_mentions": 21,
         "prior_mentions": 7,
-        "change_ratio": 2.86,
+        "change_ratio": 3.0,
         "corroborating_sources": 2
       },
       {
         "keyword": "voice ai",
-        "recent_mentions": 36,
+        "recent_mentions": 38,
         "prior_mentions": 13,
-        "change_ratio": 2.77,
+        "change_ratio": 2.92,
         "corroborating_sources": 4
       },
       {
