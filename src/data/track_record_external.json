@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-11T17:25:51+00:00",
+  "generated_at": "2026-10-12T05:24:56+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 310,
-    "covered": 168,
-    "coverage_rate": 0.542,
-    "early": 90,
-    "early_rate": 0.29,
-    "avg_lead_days": 14.1,
-    "median_lead_days": 10.0,
+    "scored_predictions": 313,
+    "covered": 170,
+    "coverage_rate": 0.543,
+    "early": 91,
+    "early_rate": 0.291,
+    "avg_lead_days": 14.4,
+    "median_lead_days": 10,
     "max_lead_days": 42,
-    "hit_rate": 0.542,
-    "materialized": 168,
+    "hit_rate": 0.543,
+    "materialized": 170,
     "by_signal_type": {
+      "emerging": {
+        "scored": 190,
+        "covered": 145,
+        "early": 73,
+        "coverage_rate": 0.763,
+        "early_rate": 0.384,
+        "hit_rate": 0.763
+      },
       "weak_signal": {
-        "scored": 122,
+        "scored": 123,
         "covered": 25,
         "early": 18,
-        "coverage_rate": 0.205,
-        "early_rate": 0.148,
-        "hit_rate": 0.205
-      },
-      "emerging": {
-        "scored": 188,
-        "covered": 143,
-        "early": 72,
-        "coverage_rate": 0.761,
-        "early_rate": 0.383,
-        "hit_rate": 0.761
+        "coverage_rate": 0.203,
+        "early_rate": 0.146,
+        "hit_rate": 0.203
       }
     }
   },
@@ -86,6 +86,16 @@
       "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
     },
     {
+      "keyword": "huggingface",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-28",
+      "materialized_on": "2026-10-05",
+      "lead_days": 38,
+      "outlet": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
+      "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
+    },
+    {
       "keyword": "context window",
       "signal_type": "emerging",
       "flagged_on": "2026-07-05",
@@ -104,16 +114,6 @@
       "outlet": "TechRadar",
       "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
       "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
-    },
-    {
-      "keyword": "flair",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
-      "lead_days": 36,
-      "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "caveats": [
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 310,
+    "n": 313,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.545,
+      "coverage_rate": 0.546,
       "early_rate": 0.294
     },
     "null_mean": {
-      "coverage_rate": 0.576,
-      "early_rate": 0.341
+      "coverage_rate": 0.577,
+      "early_rate": 0.344
     },
     "p_value": {
       "coverage_rate": 0.988,
-      "early_rate": 0.991
+      "early_rate": 0.998
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
