@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-12T07:11:23.268330",
-  "total_tracked": 3707,
+  "generated_at": "2026-10-12T19:13:50.478676",
+  "total_tracked": 3758,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 232,
-      "velocity": 33.6,
+      "keyword": "anthropic",
+      "mentions": 244,
+      "velocity": 16.5,
       "sources": [
         "articles",
         "arxiv",
@@ -19,17 +19,204 @@
       "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "Learning from All-Failed Groups via First-Visit Coverage in Long-Horizon Agentic Tasks",
+      "expert_ratio": 0.79,
+      "headline": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
       "articles": [
         {
-          "title": "Learning from All-Failed Groups via First-Visit Coverage in Long-Horizon Agentic Tasks",
-          "url": "https://arxiv.org/abs/2607.22724",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading",
-          "url": "https://arxiv.org/abs/2605.10268",
+          "title": "AI-agent van Anthropic dient valse tip in over moordzaak",
+          "url": "https://tweakers.net/nieuws/253226/ai-agent-van-anthropic-dient-valse-tip-in-over-moordzaak.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "A profile of Microsoft EVP of Copilot Charles Lamanna, a potential Satya Nadella successor; a source says Microsoft is o",
+          "url": "https://www.techmeme.com/261012/p23#a261012p23",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 603,
+      "velocity": 8.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.73,
+      "headline": "Developer uses Claude to enable Xbox Cloud Gaming on jailbroken PS5s",
+      "articles": [
+        {
+          "title": "Developer uses Claude to enable Xbox Cloud Gaming on jailbroken PS5s",
+          "url": "https://www.tomshardware.com/video-games/console-gaming/xbox-cloud-gaming-is-now-available-on-jailbroken-ps5s-allows-upscaling-to-4k-using-the-ps5-gpu",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Come usare Claude per fare dashboard con i dati aziendali",
+          "url": "https://www.tomshw.it/business/come-usare-claude-per-fare-dashboard-con-i-dati-aziendali",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Claude ora può fare pen-testing, ma i dati poi se li tiene lui",
+          "url": "https://www.tomshw.it/business/claude-ora-puo-fare-pen-testing-ma-i-dati-poi-se-li-tiene-lui",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 48,
+      "velocity": 3.5,
+      "sources": [
+        "articles",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.07,
+      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+      "articles": [
+        {
+          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+          "url": "https://github.com/vscarpenter/gsd-task-manager",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+          "url": "https://github.com/edrisranjbar/lifeos",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 134,
+      "velocity": 3.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Microsoft launches a decision model built on Alibaba’s Qwen",
+      "articles": [
+        {
+          "title": "Microsoft launches a decision model built on Alibaba’s Qwen",
+          "url": "https://thenextweb.com/news/microsoft-decision-1-qwen-decision-model",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Da Qwen alla robotica: RaiderChip vuole far girare tutto su una NPU",
+          "url": "https://www.tomshw.it/hardware/raiderchip-supporta-oltre-50-modelli-ai-perche-non-cambia-il-chip",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Hirundo Releases Westernized Qwen, Cutting Censored and CCP-Aligned Answers From 89.8% to 2.8% in the Leading Chinese AI",
+          "url": "https://venturebeat.com/business/hirundo-releases-westernized-qwen-cutting-censored-and-ccp-aligned-answers-from-898-to-28-in-the-leading-chinese-ai-model",
+          "source": "VentureBeat"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 41,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "github",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.52,
+      "headline": "AI coding agents generate more code, but not more software",
+      "articles": [
+        {
+          "title": "AI coding agents generate more code, but not more software",
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "source": "Ars Technica"
+        }
+      ]
+    },
+    {
+      "keyword": "ai chip",
+      "mentions": 11,
+      "velocity": 2.5,
+      "sources": [
+        "articles",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.2,
+      "headline": "Microsoft Debuts New Homegrown AI Chip, Plans to Deploy Multiple Gigawatts Next Year",
+      "articles": [
+        {
+          "title": "Microsoft Debuts New Homegrown AI Chip, Plans to Deploy Multiple Gigawatts Next Year",
+          "url": "https://www.theinformation.com/briefings/microsoft-debuts-new-homegrown-ai-chip-plans-deploy-multiple-gigawatts-next-year",
+          "source": "The Information"
+        },
+        {
+          "title": "Microsoft unveils its third-gen in-house AI chip, the Maia 300, built on TSMC's N2P process node and aimed at serving as",
+          "url": "https://www.techmeme.com/261012/p21#a261012p21",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Microsoft unveils Maia 300, its most powerful AI chip yet - and it might make using Teams, Copilot and Cowork much bette",
+          "url": "https://www.techradar.com/pro/microsoft-unveils-maia-300-its-most-powerful-ai-chip-yet-and-it-might-make-using-teams-copilot-and-cowork-much-better-at-last",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "agentic",
+      "mentions": 151,
+      "velocity": 9.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships nex",
+      "articles": [
+        {
+          "title": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships nex",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Agentic Large Language Models",
+          "url": "https://arxiv.org/abs/2610.13455",
           "source": "cs.AI updates on arXiv.org"
         },
         {
@@ -40,203 +227,98 @@
       ]
     },
     {
-      "keyword": "reinforcement learning",
-      "mentions": 215,
-      "velocity": 33.5,
+      "keyword": "grok",
+      "mentions": 84,
+      "velocity": 3.7,
       "sources": [
         "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "SUN: Reaching for Novelty in Reinforcement Learning",
-      "articles": [
-        {
-          "title": "SUN: Reaching for Novelty in Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2609.08642",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Robustness of Reinforcement Learning-Based Congestion Management in Low-Voltage Grids",
-          "url": "https://arxiv.org/abs/2607.16004",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Sampling-Based Safe Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2605.19469",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "simulation",
-      "mentions": 88,
-      "velocity": 18.0,
-      "sources": [
-        "articles",
-        "arxiv",
+        "reddit",
         "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "Data-Driven Persona-Conditioned Agents for A/B Test Simulation",
+      "expert_ratio": 0.33,
+      "headline": "SpaceXAI's Grok: What's free in 2026 and what isn't?",
       "articles": [
         {
-          "title": "Data-Driven Persona-Conditioned Agents for A/B Test Simulation",
-          "url": "https://arxiv.org/abs/2609.01038",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "SpaceXAI's Grok: What's free in 2026 and what isn't?",
+          "url": "https://www.engadget.com/2281213/spacexai-grok-free-features-2026/",
+          "source": "Engadget"
         },
         {
-          "title": "From Mastery Profile to Simulated Response: Stochastic Student Knowledge Graphs (SSKG) for Faithful LLM Student Simulati",
-          "url": "https://arxiv.org/abs/2608.21668",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Claude, Ch",
+          "url": "https://www.techmeme.com/261008/p36#a261008p36",
+          "source": "Techmeme"
         },
         {
-          "title": "When Simulation Lies: A Sim-to-Real Benchmark and Domain-Randomized RL Recipe for Tool-Use Agents",
-          "url": "https://arxiv.org/abs/2605.11928",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
+          "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk?utm_source=flipboard&utm_content=user/thenextweb",
+          "source": "Artificial Intelligence"
         }
       ]
     },
     {
-      "keyword": "fine-tuning",
-      "mentions": 145,
-      "velocity": 17.6,
+      "keyword": "cursor",
+      "mentions": 60,
+      "velocity": 3.2,
       "sources": [
         "articles",
-        "arxiv",
         "github",
-        "linkedin"
+        "reddit",
+        "twitter"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Quality, Not Just Outcome: A Structural Scoring Framework for Selecting Coding-Agent Trajectories for Supervised Fine-Tu",
+      "expert_ratio": 0.29,
+      "headline": "OpenAI is hiring its European sales chief from SpaceX's Cursor",
       "articles": [
         {
-          "title": "Quality, Not Just Outcome: A Structural Scoring Framework for Selecting Coding-Agent Trajectories for Supervised Fine-Tu",
-          "url": "https://arxiv.org/abs/2610.13152",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenAI is hiring its European sales chief from SpaceX's Cursor",
+          "url": "https://qz.com/openai-emea-sales-hire-spacex-cursor-100826",
+          "source": "Quartz"
         },
         {
-          "title": "Task-Centric Personalized Federated Fine-Tuning of Language Models",
-          "url": "https://arxiv.org/abs/2604.00050",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "MAP4CS: A Multi-dimensional Data Pruning Framework for Efficient Code Retriever Fine-tuning",
-          "url": "https://arxiv.org/abs/2610.11727",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "llama",
-      "mentions": 47,
-      "velocity": 3.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "b11480: llama : add a GPU cache for MoE experts kept in host memory (#29887)",
-      "articles": [
-        {
-          "title": "b11480: llama : add a GPU cache for MoE experts kept in host memory (#29887)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11480",
-          "source": "llama.cpp Releases"
-        },
-        {
-          "title": "b11477: llama: share the nextn tensor flags between models (#30097)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11477",
-          "source": "llama.cpp Releases"
-        },
-        {
-          "title": "b11453: llama: remove the gather path of the glm5-next sparse attention (#30042)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11453",
-          "source": "llama.cpp Releases"
+          "title": "OpenAI hires Cursor’s Europe chief, its second sales hire from SpaceX",
+          "url": "https://thenextweb.com/news/openai-ismail-elmas-emea-sales-spacex-cursor",
+          "source": "The Next Web"
         }
       ]
     },
     {
-      "keyword": "lora",
-      "mentions": 49,
-      "velocity": 2.9,
+      "keyword": "agentic ai",
+      "mentions": 18,
+      "velocity": 2.8,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "reddit"
+        "github"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "FinVector-Market-4B: A Controlled Study of LoRA Adaptation for Structured Financial Tasks",
+      "expert_ratio": 0.96,
+      "headline": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships nex",
       "articles": [
         {
-          "title": "FinVector-Market-4B: A Controlled Study of LoRA Adaptation for Structured Financial Tasks",
-          "url": "https://arxiv.org/abs/2610.08882",
+          "title": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships nex",
+          "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance",
+          "url": "https://arxiv.org/abs/2610.13479",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "PFAdapter: Hierarchical LoRA Decomposition for Personalized Federated MLLMs",
-          "url": "https://arxiv.org/abs/2607.12111",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Frozen Factor or Spectral Band? Disentangling Two Choices in Low-Rank LoRA",
-          "url": "https://arxiv.org/abs/2610.06621",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "I attended a retail investor summit, and the day-trader crowd is mega-bullish on agentic AI",
+          "url": "https://www.businessinsider.com/retail-traders-agentic-ai-trading-finance-bitcoin-crypto-banks-2026-10",
+          "source": "Business Insider"
         }
       ]
     }
   ],
   "weak_signals": [
-    {
-      "keyword": "user",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Different Feedback, Different Updates: Selective Self-Learning from User Interactions for Large Language Models",
-      "articles": [
-        {
-          "title": "Different Feedback, Different Updates: Selective Self-Learning from User Interactions for Large Language Models",
-          "url": "https://arxiv.org/abs/2608.09109",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "UxSID: Semantic-Aware User Interests Modeling for Ultra-Long Sequence",
-          "url": "https://arxiv.org/abs/2605.09040",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
-          "url": "https://arxiv.org/abs/2610.12872",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
     {
       "keyword": "decision model",
       "mentions": 2,
@@ -248,8 +330,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
+      "headline": "Microsoft launches a decision model built on Alibaba’s Qwen",
       "articles": [
+        {
+          "title": "Microsoft launches a decision model built on Alibaba’s Qwen",
+          "url": "https://thenextweb.com/news/microsoft-decision-1-qwen-decision-model",
+          "source": "The Next Web"
+        },
         {
           "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
           "url": "https://arxiv.org/abs/2610.12292",
@@ -259,10 +346,35 @@
           "title": "TypedBench: A Benchmark for Calibration, Framing Sensitivity, and Cost in System One Decision Models",
           "url": "https://arxiv.org/abs/2610.11392",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "user",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Reddit user pays $35 for a crypto mining rig left in a garage and gets 54GB of VRAM at 65 cents per GB",
+      "articles": [
+        {
+          "title": "Reddit user pays $35 for a crypto mining rig left in a garage and gets 54GB of VRAM at 65 cents per GB",
+          "url": "https://www.tomshardware.com/pc-components/gpus/reddit-user-pays-usd35-for-a-crypto-mining-rig-left-in-a-garage-and-gets-54gb-of-vram-at-65-cents-per-gb-the-first-test-for-2017-era-gpus-a-35b-parameter-ai-model-running-locally-at-over-30-tokens-per-second",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
-          "url": "https://arxiv.org/abs/2610.09937",
+          "title": "Different Feedback, Different Updates: Selective Self-Learning from User Interactions for Large Language Models",
+          "url": "https://arxiv.org/abs/2608.09109",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "UxSID: Semantic-Aware User Interests Modeling for Ultra-Long Sequence",
+          "url": "https://arxiv.org/abs/2605.09040",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -298,26 +410,6 @@
       ]
     },
     {
-      "keyword": "clickfix",
-      "mentions": 3,
-      "velocity": 0.8,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
-      "articles": [
-        {
-          "title": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
-          "url": "https://www.tomshw.it/hardware/clickfix-aggira-i-limiti-di-windows-run-ecco-come-sfrutta-la-cache",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
       "keyword": "flash",
       "mentions": 3,
       "velocity": 0.5,
@@ -328,8 +420,13 @@
       "confidence": 73,
       "days_active": 4,
       "expert_ratio": 0.89,
-      "headline": "Cloudflare debuts Clef-omni, supporting audio and video input alongside text and image, makes Clef up to 2x faster, and ",
+      "headline": "Landslide triggers flash flood in Nepal",
       "articles": [
+        {
+          "title": "Landslide triggers flash flood in Nepal",
+          "url": "https://www.youtube.com/shorts/eO77OqJISAc",
+          "source": "Reuters"
+        },
         {
           "title": "Cloudflare debuts Clef-omni, supporting audio and video input alongside text and image, makes Clef up to 2x faster, and ",
           "url": "https://www.techmeme.com/261009/p34#a261009p34",
@@ -339,11 +436,6 @@
           "title": "Google moves free Gemini to Flash-Lite and launches Nano Banana 2.1",
           "url": "https://thenextweb.com/news/gemini-flash-lite-free-users-nano-banana-2-1",
           "source": "The Next Web"
-        },
-        {
-          "title": "Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions \"across the board\"; ",
-          "url": "https://www.techmeme.com/261006/p45#a261006p45",
-          "source": "Techmeme"
         }
       ]
     },
@@ -358,8 +450,13 @@
       "confidence": 67,
       "days_active": 4,
       "expert_ratio": 0.67,
-      "headline": "Nobel Peace Prize message: Big powers should not behave like bullies",
+      "headline": "NordVPN brings Message Protection to iPhone alongside new free scam-blocking app",
       "articles": [
+        {
+          "title": "NordVPN brings Message Protection to iPhone alongside new free scam-blocking app",
+          "url": "https://www.techradar.com/vpn/vpn-services/nordvpn-brings-message-protection-to-iphone-alongside-new-free-scam-blocking-app",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
         {
           "title": "Nobel Peace Prize message: Big powers should not behave like bullies",
           "url": "https://www.youtube.com/watch?v=0uNaEwvJtpw",
@@ -368,107 +465,61 @@
         {
           "title": "Sheryl Sandberg says adult children can help a widowed parent with a simple message",
           "url": "https://www.businessinsider.com/sheryl-sandberg-adult-children-help-widowed-parent-grief-love-2026-10",
-          "source": "Business Insider"
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "mcdonald",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 95,
+      "days_active": 13,
+      "expert_ratio": 0.81,
+      "headline": "AI Markups Distorting 'True Earnings Power of S＆P,' Says Larry McDonald",
+      "articles": [
+        {
+          "title": "AI Markups Distorting 'True Earnings Power of S＆P,' Says Larry McDonald",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/ai-markups-distort-s-p-earnings-power-says-mcdonald-video",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Mumsnet denies using AI for content after prompt appears on message board",
-          "url": "https://www.theguardian.com/media/2026/oct/07/mumsnet-denies-using-ai-for-content-message-board-prompt",
-          "source": "Technology | The Guardian"
+          "title": "We tried McDonald's Snack Wraps in the US and UK. We can see why the British are up in arms about the 'downgraded' item.",
+          "url": "https://www.businessinsider.com/review-mcdonalds-snack-wrap-us-and-uk-2026-10",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "Suit says dynamic AI prices at McDonald’s are ‘nickel-and-diming consumers’",
+          "url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-defends-its-dynamic-ai-pricing-as-new-lawsuit-says-its-nickel-and-diming-consumers-down-to-the-last-french-fry",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "mcp server",
-      "mentions": 43,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.08,
-      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
-      "articles": [
-        {
-          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
-          "url": "https://github.com/vscarpenter/gsd-task-manager",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-          "url": "https://github.com/edrisranjbar/lifeos",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "prompt injection",
+      "keyword": "ollama",
       "mentions": 12,
-      "velocity": 1.9,
+      "velocity": 1.4,
       "sources": [
         "articles",
-        "arxiv",
-        "reddit"
+        "github",
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+      "expert_ratio": 0.22,
+      "headline": "Costruisci il chatbot interno del reparto IT con Ollama, senza far uscire dati dalla rete",
       "articles": [
         {
-          "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
-          "url": "https://arxiv.org/abs/2506.09956",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Auditing Prompt Injection Defenses Before They Reach Users: What Strong Adversaries Reveal",
-          "url": "https://arxiv.org/abs/2505.15738",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "LTBD: Learnable Trust-Boundary Delimiters for Prompt Injection Defense",
-          "url": "https://arxiv.org/abs/2610.11634",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "data centers",
-      "mentions": 23,
-      "velocity": 1.5,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.37,
-      "headline": "Google is illegaly cutting forest to build data centers",
-      "articles": [
-        {
-          "title": "Google is illegaly cutting forest to build data centers",
-          "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Russian disinformation bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+          "title": "Costruisci il chatbot interno del reparto IT con Ollama, senza far uscire dati dalla rete",
+          "url": "https://www.tomshw.it/aioperator/costruisci-il-chatbot-interno-del-reparto-it-con-ollama-senza-far-uscire-dati-dalla-rete",
           "source": "Tom's Hardware"
-        },
-        {
-          "title": "These Midterm Races Will Decide Data Centers’ Political Fate",
-          "url": "https://www.wired.com/story/midterm-races-decide-data-centers-political-fate/",
-          "source": "WIRED"
         }
       ]
     },
@@ -500,6 +551,72 @@
           "title": "b11509: CUDA: fix CCCL version guard breaking on major version rollover (#29453)",
           "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11509",
           "source": "llama.cpp Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 57,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.83,
+      "headline": "DeepSeek to lead seed round in $400mn robot AI start-up, Bloomberg reports",
+      "articles": [
+        {
+          "title": "DeepSeek to lead seed round in $400mn robot AI start-up, Bloomberg reports",
+          "url": "https://thenextweb.com/news/deepseek-winverse-ai-robot-seed-round?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "DeepSeek is moving to lead a $400 million seed round for a Chinese robotics AI startup",
+          "url": "https://qz.com/deepseek-winverse-ai-robotics-seed-round-101226",
+          "source": "Quartz"
+        },
+        {
+          "title": "Sources: DeepSeek agrees to lead robotic AI startup Winverse AI's seed funding round of tens of millions of dollars, val",
+          "url": "https://www.techmeme.com/261012/p17#a261012p17",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "voice ai",
+      "mentions": 12,
+      "velocity": 0.9,
+      "sources": [
+        "articles",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.88,
+      "headline": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "articles": [
+        {
+          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
+        },
+        {
+          "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
+          "url": "https://www.theinformation.com/briefings/microsoft-debuts-voice-ai-compete-elevenlabs",
+          "source": "The Information"
+        },
+        {
+          "title": "Localization is the missing test for voice AI",
+          "url": "https://www.techradar.com/pro/localization-is-the-missing-test-for-voice-ai",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
@@ -627,18 +744,30 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "prompt engineering",
+      "keyword": "flair",
       "signal_type": "emerging",
-      "flagged_on": "2026-08-18",
-      "materialized_on": "2026-09-23",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
       "lead_days": 36,
       "outlet": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "llama",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-12",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "lora",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-12",
+        "confidence": 0.8
+      },
       {
         "keyword": "data centers",
         "signal_type": "emerging",
@@ -656,6 +785,12 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-12",
         "confidence": 0.4
+      },
+      {
+        "keyword": "suno",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-12",
+        "confidence": 0.2
       },
       {
         "keyword": "stable diffusion",
@@ -692,24 +827,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-11",
         "confidence": 1.0
-      },
-      {
-        "keyword": "vision language model",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-11",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "open-source ai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-11",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "devin",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-11",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
@@ -721,18 +838,18 @@
         "corroborating_sources": 2
       },
       {
+        "keyword": "artificial general intelligence",
+        "recent_mentions": 16,
+        "prior_mentions": 2,
+        "change_ratio": 8.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "real-time voice",
         "recent_mentions": 8,
         "prior_mentions": 1,
         "change_ratio": 8.0,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "artificial general intelligence",
-        "recent_mentions": 15,
-        "prior_mentions": 2,
-        "change_ratio": 7.5,
-        "corroborating_sources": 1
       },
       {
         "keyword": "databricks",
@@ -757,17 +874,24 @@
       },
       {
         "keyword": "vllm",
-        "recent_mentions": 26,
+        "recent_mentions": 27,
         "prior_mentions": 8,
-        "change_ratio": 3.25,
+        "change_ratio": 3.38,
         "corroborating_sources": 3
       },
       {
         "keyword": "tokenizer",
-        "recent_mentions": 32,
+        "recent_mentions": 28,
         "prior_mentions": 10,
-        "change_ratio": 3.2,
+        "change_ratio": 2.8,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "hugging face",
+        "recent_mentions": 35,
+        "prior_mentions": 13,
+        "change_ratio": 2.69,
+        "corroborating_sources": 6
       },
       {
         "keyword": "litellm",
@@ -784,18 +908,11 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "voice mode",
-        "recent_mentions": 10,
-        "prior_mentions": 4,
-        "change_ratio": 2.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "open-source ai",
-        "recent_mentions": 108,
-        "prior_mentions": 44,
-        "change_ratio": 2.45,
-        "corroborating_sources": 3
+        "keyword": "claude haiku",
+        "recent_mentions": 52,
+        "prior_mentions": 21,
+        "change_ratio": 2.48,
+        "corroborating_sources": 6
       }
     ]
   }
