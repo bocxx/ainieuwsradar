@@ -1,12 +1,43 @@
 {
-  "generated_at": "2026-10-13T07:13:06.404393",
-  "total_tracked": 3657,
+  "generated_at": "2026-10-13T19:15:25.090134",
+  "total_tracked": 3716,
   "window_days": 14,
   "accelerating": [
     {
+      "keyword": "cuda",
+      "mentions": 15,
+      "velocity": 2.2,
+      "sources": [
+        "arxiv",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.87,
+      "headline": "b11586: cuda : warnings cleanup (#30420)",
+      "articles": [
+        {
+          "title": "b11586: cuda : warnings cleanup (#30420)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11586",
+          "source": "llama.cpp Releases"
+        },
+        {
+          "title": "b11517: CUDA: pass src1 precision to host MMQ config helpers (#30168)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11517",
+          "source": "llama.cpp Releases"
+        },
+        {
+          "title": "b11513: CUDA: improve top-k algorithm selection (#28713)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11513",
+          "source": "llama.cpp Releases"
+        }
+      ]
+    },
+    {
       "keyword": "data centers",
-      "mentions": 28,
-      "velocity": 2.4,
+      "mentions": 27,
+      "velocity": 2.1,
       "sources": [
         "articles",
         "hackernews",
@@ -18,22 +49,22 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.4,
-      "headline": "Russian bot traffic decimated overnight after Ukraine drone strikes knock multiple Yandex data centers offline",
+      "headline": "Anthropic warns of self-replicating AI worm threat that doesn't need data centers to self-improve and spread",
       "articles": [
         {
-          "title": "Russian bot traffic decimated overnight after Ukraine drone strikes knock multiple Yandex data centers offline",
-          "url": "https://www.techradar.com/pro/russian-bot-traffic-decimated-overnight-after-ukraine-drone-strikes-knock-multiple-yandex-data-centers-offline",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Anthropic warns of self-replicating AI worm threat that doesn't need data centers to self-improve and spread",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "What data centers need to consider when storing produced water",
-          "url": "https://www.techradar.com/pro/what-data-centers-need-to-consider-when-storing-produced-water",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Anthropic is eyeing renewable-powered data centers across all of Australia",
+          "url": "https://qz.com/anthropic-australia-data-centers-renewable-energy-101326",
+          "source": "Quartz"
         },
         {
-          "title": "Yandex Taxi, Map Services Curbed After Ukraine Hits Data Centers",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-12/yandex-taxi-map-services-curbed-after-ukraine-hits-data-centers",
-          "source": "Bloomberg Technology"
+          "title": "AI models may soon self-replicate without access to data centers",
+          "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
+          "source": "Hacker News"
         }
       ]
     }
@@ -55,35 +86,100 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.8,
-      "headline": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through disti",
+      "headline": "Anthropic co-founder Jack Clark says \"I now think it's more likely we'll see full RSI become possible in 2027\", earlier ",
       "articles": [
         {
-          "title": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through disti",
-          "url": "https://www.techmeme.com/261012/p46#a261012p46",
+          "title": "Anthropic co-founder Jack Clark says \"I now think it's more likely we'll see full RSI become possible in 2027\", earlier ",
+          "url": "https://www.techmeme.com/261013/p29#a261013p29",
           "source": "Techmeme"
         },
         {
-          "title": "Sources: NTT Data is in advanced talks to build a data center for Anthropic in Osaka of up to 500 MW, among Japan's larg",
-          "url": "https://www.techmeme.com/261012/p45#a261012p45",
+          "title": "Anthropic warns of self-replicating AI worm threat that doesn't need data centers to self-improve and spread",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Anthropic is eyeing renewable-powered data centers across all of Australia",
+          "url": "https://qz.com/anthropic-australia-data-centers-renewable-energy-101326",
+          "source": "Quartz"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 68,
+      "velocity": 4.7,
+      "sources": [
+        "articles",
+        "github",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.28,
+      "headline": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+      "articles": [
+        {
+          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 p",
+          "url": "https://www.techmeme.com/261013/p10#a261013p10",
           "source": "Techmeme"
         },
         {
-          "title": "Anthropic Eyeing Data Center Investment in Australia, Envoy Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-13/anthropic-eyeing-data-center-investment-in-australia-envoy-says",
-          "source": "Bloomberg Technology"
+          "title": "X bundles Premium, Grok and Cursor under a single monthly subscription",
+          "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
+          "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "ai coding",
+      "mentions": 46,
+      "velocity": 3.5,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.52,
+      "headline": "Epic Games reportedly delays Disney shooter title so it can pivot to AI coding",
+      "articles": [
+        {
+          "title": "Epic Games reportedly delays Disney shooter title so it can pivot to AI coding",
+          "url": "https://www.tomshardware.com/video-games/pc-gaming/epic-games-reportedly-delays-disney-shooter-title-so-it-can-pivot-to-ai-coding-staff-allegedly-told-no-more-handwritten-code-with-art-generated-with-full-ai-workflows",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "How AI coding tools could amplify software supply-chain attacks",
+          "url": "https://thenextweb.com/news/npm-trusted-publishing-flaw-ai-agents-slugfest",
+          "source": "The Next Web"
+        },
+        {
+          "title": "AI coding agents generate more code, but not more software",
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "source": "Hacker News"
         }
       ]
     },
     {
       "keyword": "distillation",
-      "mentions": 49,
-      "velocity": 4.0,
+      "mentions": 45,
+      "velocity": 2.8,
       "sources": [
-        "articles",
         "arxiv",
         "hackernews"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -107,84 +203,57 @@
       ]
     },
     {
-      "keyword": "cursor",
-      "mentions": 64,
-      "velocity": 3.5,
+      "keyword": "grok",
+      "mentions": 84,
+      "velocity": 2.6,
       "sources": [
         "articles",
-        "github",
         "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.28,
-      "headline": "OpenAI is hiring its European sales chief from SpaceX's Cursor",
+      "expert_ratio": 0.33,
+      "headline": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
       "articles": [
         {
-          "title": "OpenAI is hiring its European sales chief from SpaceX's Cursor",
-          "url": "https://qz.com/openai-emea-sales-hire-spacex-cursor-100826",
-          "source": "Quartz"
+          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+          "source": "TechCrunch"
         },
         {
-          "title": "OpenAI hires Cursor’s Europe chief, its second sales hire from SpaceX",
-          "url": "https://thenextweb.com/news/openai-ismail-elmas-emea-sales-spacex-cursor",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 41,
-      "velocity": 2.0,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "AI coding agents generate more code, but not more software",
-      "articles": [
-        {
-          "title": "AI coding agents generate more code, but not more software",
-          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "blackwell",
-      "mentions": 8,
-      "velocity": 1.4,
-      "sources": [
-        "articles",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.38,
-      "headline": "Redundancy and synergy in multivariate Gaussians via the Blackwell order",
-      "articles": [
-        {
-          "title": "Redundancy and synergy in multivariate Gaussians via the Blackwell order",
-          "url": "https://arxiv.org/abs/2610.07360",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Mistral says ML4 was trained using 3,800 Nvidia Grace Blackwell GPUs in its own data centers in Europe and much of its t",
-          "url": "https://www.techmeme.com/261006/p32#a261006p32",
+          "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 p",
+          "url": "https://www.techmeme.com/261013/p10#a261013p10",
           "source": "Techmeme"
+        },
+        {
+          "title": "X bundles Premium, Grok and Cursor under a single monthly subscription",
+          "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
+          "source": "Engadget"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "new world",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "Microsoft sends PDFs to strange new worlds instead of SharePoint",
+      "articles": [
+        {
+          "title": "Microsoft sends PDFs to strange new worlds instead of SharePoint",
+          "url": "https://www.theregister.com/software/2026/09/29/microsoft-sends-pdfs-to-strange-new-worlds-instead-of-sharepoint/5299735",
+          "source": "The Register"
+        }
+      ]
+    },
     {
       "keyword": "wireguard",
       "mentions": 2,
@@ -287,11 +356,6 @@
           "title": "Nobel Peace Prize message: Big powers should not behave like bullies",
           "url": "https://www.youtube.com/watch?v=0uNaEwvJtpw",
           "source": "Reuters"
-        },
-        {
-          "title": "Sheryl Sandberg says adult children can help a widowed parent with a simple message",
-          "url": "https://www.businessinsider.com/sheryl-sandberg-adult-children-help-widowed-parent-grief-love-2026-10",
-          "source": "All Content from Business Insider"
         }
       ]
     },
@@ -312,109 +376,51 @@
           "title": "Norway fined a Microsoft subsidiary $9.6 million for allegedly misusing Grindr user data",
           "url": "https://www.engadget.com/2284434/norway-fined-a-microsoft-subsidiary-96-million-for-allegedly-misusing-grindr-user-data/",
           "source": "Engadget"
-        },
-        {
-          "title": "Reddit user pays $35 for a crypto mining rig left in a garage and gets 54GB of VRAM at 65 cents per GB",
-          "url": "https://www.tomshardware.com/pc-components/gpus/reddit-user-pays-usd35-for-a-crypto-mining-rig-left-in-a-garage-and-gets-54gb-of-vram-at-65-cents-per-gb-the-first-test-for-2017-era-gpus-a-35b-parameter-ai-model-running-locally-at-over-30-tokens-per-second",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Different Feedback, Different Updates: Selective Self-Learning from User Interactions for Large Language Models",
-          "url": "https://arxiv.org/abs/2608.09109",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "clickfix",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "hackernews"
-      ],
-      "source_count": 1,
-      "confidence": 77,
-      "days_active": 4,
-      "expert_ratio": 0.82,
-      "headline": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
-      "articles": [
-        {
-          "title": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
-          "url": "https://www.tomshw.it/hardware/clickfix-aggira-i-limiti-di-windows-run-ecco-come-sfrutta-la-cache",
-          "source": "Tom's Hardware"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "ollama",
-      "mentions": 15,
-      "velocity": 1.9,
+      "keyword": "mcp server",
+      "mentions": 44,
+      "velocity": 1.2,
       "sources": [
-        "articles",
-        "github",
         "hackernews",
+        "linkedin",
         "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.24,
-      "headline": "Costruisci il chatbot interno del reparto IT con Ollama, senza far uscire dati dalla rete",
-      "articles": [
-        {
-          "title": "Costruisci il chatbot interno del reparto IT con Ollama, senza far uscire dati dalla rete",
-          "url": "https://www.tomshw.it/aioperator/costruisci-il-chatbot-interno-del-reparto-it-con-ollama-senza-far-uscire-dati-dalla-rete",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "claude opus",
-      "mentions": 24,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Sun",
+      "expert_ratio": 0.08,
+      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
       "articles": [
         {
-          "title": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Sun",
-          "url": "https://www.techmeme.com/261007/p23#a261007p23",
-          "source": "Techmeme"
+          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+          "url": "https://github.com/vscarpenter/gsd-task-manager",
+          "source": "Hacker News"
         },
         {
-          "title": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads wi",
-          "url": "https://www.techmeme.com/261005/p33#a261005p33",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Claude Opus 5.5 uses em-dashes 99% less often and sounds more human — but still exhibits 2,548 AI writing tells - Ventur",
-          "url": "https://venturebeat.com/data/claude-opus-5-5-uses-em-dashes-99-less-often-and-sounds-more-human-but-still-exhibits-2-548-ai-writing-tells",
-          "source": "VentureBeat"
+          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+          "url": "https://github.com/edrisranjbar/lifeos",
+          "source": "Hacker News"
         }
       ]
     },
     {
       "keyword": "gemma",
-      "mentions": 22,
-      "velocity": 1.8,
+      "mentions": 18,
+      "velocity": 0.6,
       "sources": [
-        "articles",
         "arxiv",
-        "linkedin"
+        "linkedin",
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
+      "expert_ratio": 0.82,
       "headline": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
       "articles": [
         {
@@ -425,64 +431,9 @@
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 81,
-      "velocity": 1.7,
-      "sources": [
-        "articles",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.33,
-      "headline": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
-      "articles": [
-        {
-          "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
-          "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
-          "source": "Feed: Artificial Intelligence Latest"
-        },
-        {
-          "title": "SpaceXAI's Grok: What's free in 2026 and what isn't?",
-          "url": "https://www.engadget.com/2281213/spacexai-grok-free-features-2026/",
-          "source": "Engadget"
-        },
-        {
-          "title": "AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Claude, Ch",
-          "url": "https://www.techmeme.com/261008/p36#a261008p36",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "pytorch",
-      "mentions": 11,
-      "velocity": 1.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.69,
-      "headline": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
-      "articles": [
-        {
-          "title": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
-          "url": "https://github.com/ymcrcat/rgpu",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
       "keyword": "elevenlabs",
-      "mentions": 14,
-      "velocity": 1.2,
+      "mentions": 11,
+      "velocity": 0.3,
       "sources": [
         "linkedin",
         "reddit"
@@ -490,7 +441,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.73,
+      "expert_ratio": 0.74,
       "headline": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
       "articles": [
         {
@@ -506,6 +457,69 @@
         {
           "title": "ElevenLabs doubles its valuation to $22bn in a $300m share sale",
           "url": "https://thenextweb.com/news/elevenlabs-valuation-22bn-300m-tender-wellington-t-rowe-price",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "deepmind",
+      "mentions": 14,
+      "velocity": 0.1,
+      "sources": [
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.73,
+      "headline": "Moderna, Google DeepMind, Biocon on AI in Science",
+      "articles": [
+        {
+          "title": "Moderna, Google DeepMind, Biocon on AI in Science",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-13/moderna-google-deepmind-biocon-on-ai-in-science-video",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "An interview with ex-DeepMind scientist David Silver on his startup Ineffable, building an AI \"super learner\" using RL a",
+          "url": "https://www.techmeme.com/261012/p3#a261012p3",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Sources: Isomorphic Labs, an AI drug discovery startup spun out of Google DeepMind, is in early talks to raise funds at ",
+          "url": "https://www.techmeme.com/261008/p1#a261008p1",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 126,
+      "velocity": -0.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Alibaba starts selling its Qwen N1 AI glasses in China from $450",
+      "articles": [
+        {
+          "title": "Alibaba starts selling its Qwen N1 AI glasses in China from $450",
+          "url": "https://thenextweb.com/news/alibaba-qwen-glasses-n1-price-launch",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$5",
+          "url": "https://www.techmeme.com/261013/p11#a261013p11",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Microsoft launches a decision model built on Alibaba’s Qwen",
+          "url": "https://thenextweb.com/news/microsoft-decision-1-qwen-decision-model",
           "source": "The Next Web"
         }
       ]
@@ -647,10 +661,22 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "ai coding",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-13",
+        "confidence": 0.8
+      },
+      {
         "keyword": "cursor",
         "signal_type": "emerging",
         "flagged_on": "2026-10-13",
         "confidence": 0.8
+      },
+      {
+        "keyword": "vllm",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-13",
+        "confidence": 0.6
       },
       {
         "keyword": "grok",
@@ -659,13 +685,19 @@
         "confidence": 0.6
       },
       {
-        "keyword": "world models",
+        "keyword": "blackwell",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-13",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "tokenizer",
         "signal_type": "emerging",
         "flagged_on": "2026-10-13",
         "confidence": 0.2
       },
       {
-        "keyword": "tokenizer",
+        "keyword": "world models",
         "signal_type": "emerging",
         "flagged_on": "2026-10-13",
         "confidence": 0.2
@@ -699,32 +731,14 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-12",
         "confidence": 0.4
-      },
-      {
-        "keyword": "suno",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-12",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "stable diffusion",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-12",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "openai codex",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-12",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
       {
         "keyword": "databricks",
-        "recent_mentions": 9,
+        "recent_mentions": 8,
         "prior_mentions": 1,
-        "change_ratio": 9.0,
+        "change_ratio": 8.0,
         "corroborating_sources": 2
       },
       {
@@ -736,24 +750,17 @@
       },
       {
         "keyword": "suno",
-        "recent_mentions": 19,
+        "recent_mentions": 18,
         "prior_mentions": 3,
-        "change_ratio": 6.33,
-        "corroborating_sources": 2
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "cuda",
-        "recent_mentions": 39,
+        "recent_mentions": 43,
         "prior_mentions": 9,
-        "change_ratio": 4.33,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "in video",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
+        "change_ratio": 4.78,
+        "corroborating_sources": 3
       },
       {
         "keyword": "ai winter",
@@ -763,6 +770,20 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "in video",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai developer",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
         "keyword": "hugging face",
         "recent_mentions": 42,
         "prior_mentions": 11,
@@ -770,17 +791,10 @@
         "corroborating_sources": 6
       },
       {
-        "keyword": "ai developer",
-        "recent_mentions": 7,
-        "prior_mentions": 2,
-        "change_ratio": 3.5,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "qlora",
-        "recent_mentions": 13,
+        "recent_mentions": 14,
         "prior_mentions": 4,
-        "change_ratio": 3.25,
+        "change_ratio": 3.5,
         "corroborating_sources": 2
       },
       {
@@ -791,18 +805,18 @@
         "corroborating_sources": 2
       },
       {
-        "keyword": "vllm",
-        "recent_mentions": 38,
-        "prior_mentions": 12,
-        "change_ratio": 3.17,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "hermes agent",
-        "recent_mentions": 6,
-        "prior_mentions": 2,
+        "keyword": "openai codex",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
         "change_ratio": 3.0,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "vllm",
+        "recent_mentions": 36,
+        "prior_mentions": 12,
+        "change_ratio": 3.0,
+        "corroborating_sources": 4
       }
     ]
   }
