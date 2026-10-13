@@ -1,267 +1,115 @@
 {
-  "generated_at": "2026-10-12T19:13:50.478676",
-  "total_tracked": 3758,
+  "generated_at": "2026-10-13T07:13:06.404393",
+  "total_tracked": 3657,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "anthropic",
-      "mentions": 244,
-      "velocity": 16.5,
+      "keyword": "data centers",
+      "mentions": 28,
+      "velocity": 2.4,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.79,
-      "headline": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
+      "expert_ratio": 0.4,
+      "headline": "Russian bot traffic decimated overnight after Ukraine drone strikes knock multiple Yandex data centers offline",
       "articles": [
         {
-          "title": "Anthropic AI Model Goes Rogue, Gives Cops a Fake Tip",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/anthropic-ai-model-goes-rogue-gives-cops-a-fake-tip-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "AI-agent van Anthropic dient valse tip in over moordzaak",
-          "url": "https://tweakers.net/nieuws/253226/ai-agent-van-anthropic-dient-valse-tip-in-over-moordzaak.html",
-          "source": "Tweakers Mixed RSS Feed"
-        },
-        {
-          "title": "A profile of Microsoft EVP of Copilot Charles Lamanna, a potential Satya Nadella successor; a source says Microsoft is o",
-          "url": "https://www.techmeme.com/261012/p23#a261012p23",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 603,
-      "velocity": 8.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "Developer uses Claude to enable Xbox Cloud Gaming on jailbroken PS5s",
-      "articles": [
-        {
-          "title": "Developer uses Claude to enable Xbox Cloud Gaming on jailbroken PS5s",
-          "url": "https://www.tomshardware.com/video-games/console-gaming/xbox-cloud-gaming-is-now-available-on-jailbroken-ps5s-allows-upscaling-to-4k-using-the-ps5-gpu",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Come usare Claude per fare dashboard con i dati aziendali",
-          "url": "https://www.tomshw.it/business/come-usare-claude-per-fare-dashboard-con-i-dati-aziendali",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Claude ora può fare pen-testing, ma i dati poi se li tiene lui",
-          "url": "https://www.tomshw.it/business/claude-ora-puo-fare-pen-testing-ma-i-dati-poi-se-li-tiene-lui",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 48,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "hackernews",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.07,
-      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
-      "articles": [
-        {
-          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
-          "url": "https://github.com/vscarpenter/gsd-task-manager",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-          "url": "https://github.com/edrisranjbar/lifeos",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 134,
-      "velocity": 3.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "Microsoft launches a decision model built on Alibaba’s Qwen",
-      "articles": [
-        {
-          "title": "Microsoft launches a decision model built on Alibaba’s Qwen",
-          "url": "https://thenextweb.com/news/microsoft-decision-1-qwen-decision-model",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Da Qwen alla robotica: RaiderChip vuole far girare tutto su una NPU",
-          "url": "https://www.tomshw.it/hardware/raiderchip-supporta-oltre-50-modelli-ai-perche-non-cambia-il-chip",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Hirundo Releases Westernized Qwen, Cutting Censored and CCP-Aligned Answers From 89.8% to 2.8% in the Leading Chinese AI",
-          "url": "https://venturebeat.com/business/hirundo-releases-westernized-qwen-cutting-censored-and-ccp-aligned-answers-from-898-to-28-in-the-leading-chinese-ai-model",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 41,
-      "velocity": 2.8,
-      "sources": [
-        "articles",
-        "github",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.52,
-      "headline": "AI coding agents generate more code, but not more software",
-      "articles": [
-        {
-          "title": "AI coding agents generate more code, but not more software",
-          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-          "source": "Ars Technica"
-        }
-      ]
-    },
-    {
-      "keyword": "ai chip",
-      "mentions": 11,
-      "velocity": 2.5,
-      "sources": [
-        "articles",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.2,
-      "headline": "Microsoft Debuts New Homegrown AI Chip, Plans to Deploy Multiple Gigawatts Next Year",
-      "articles": [
-        {
-          "title": "Microsoft Debuts New Homegrown AI Chip, Plans to Deploy Multiple Gigawatts Next Year",
-          "url": "https://www.theinformation.com/briefings/microsoft-debuts-new-homegrown-ai-chip-plans-deploy-multiple-gigawatts-next-year",
-          "source": "The Information"
-        },
-        {
-          "title": "Microsoft unveils its third-gen in-house AI chip, the Maia 300, built on TSMC's N2P process node and aimed at serving as",
-          "url": "https://www.techmeme.com/261012/p21#a261012p21",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Microsoft unveils Maia 300, its most powerful AI chip yet - and it might make using Teams, Copilot and Cowork much bette",
-          "url": "https://www.techradar.com/pro/microsoft-unveils-maia-300-its-most-powerful-ai-chip-yet-and-it-might-make-using-teams-copilot-and-cowork-much-better-at-last",
+          "title": "Russian bot traffic decimated overnight after Ukraine drone strikes knock multiple Yandex data centers offline",
+          "url": "https://www.techradar.com/pro/russian-bot-traffic-decimated-overnight-after-ukraine-drone-strikes-knock-multiple-yandex-data-centers-offline",
           "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "What data centers need to consider when storing produced water",
+          "url": "https://www.techradar.com/pro/what-data-centers-need-to-consider-when-storing-produced-water",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Yandex Taxi, Map Services Curbed After Ukraine Hits Data Centers",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-12/yandex-taxi-map-services-curbed-after-ukraine-hits-data-centers",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "agentic",
-      "mentions": 151,
-      "velocity": 9.2,
+      "keyword": "anthropic",
+      "mentions": 264,
+      "velocity": 17.5,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
         "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships nex",
+      "expert_ratio": 0.8,
+      "headline": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through disti",
       "articles": [
         {
-          "title": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships nex",
-          "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations",
-          "source": "Tom's Hardware"
+          "title": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through disti",
+          "url": "https://www.techmeme.com/261012/p46#a261012p46",
+          "source": "Techmeme"
         },
         {
-          "title": "Agentic Large Language Models",
-          "url": "https://arxiv.org/abs/2610.13455",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Sources: NTT Data is in advanced talks to build a data center for Anthropic in Osaka of up to 500 MW, among Japan's larg",
+          "url": "https://www.techmeme.com/261012/p45#a261012p45",
+          "source": "Techmeme"
         },
         {
-          "title": "AnomalyAgent: Agentic Industrial Anomaly Synthesis via Tool-Augmented Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2604.07900",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic Eyeing Data Center Investment in Australia, Envoy Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-13/anthropic-eyeing-data-center-investment-in-australia-envoy-says",
+          "source": "Bloomberg Technology"
         }
       ]
     },
     {
-      "keyword": "grok",
-      "mentions": 84,
-      "velocity": 3.7,
+      "keyword": "distillation",
+      "mentions": 49,
+      "velocity": 4.0,
       "sources": [
         "articles",
-        "reddit",
-        "twitter"
+        "arxiv",
+        "hackernews"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.33,
-      "headline": "SpaceXAI's Grok: What's free in 2026 and what isn't?",
+      "expert_ratio": 0.99,
+      "headline": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through disti",
       "articles": [
         {
-          "title": "SpaceXAI's Grok: What's free in 2026 and what isn't?",
-          "url": "https://www.engadget.com/2281213/spacexai-grok-free-features-2026/",
-          "source": "Engadget"
-        },
-        {
-          "title": "AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Claude, Ch",
-          "url": "https://www.techmeme.com/261008/p36#a261008p36",
+          "title": "Anthropic says new measures like preserved thinking in Fable 5.1 and Opus 5.5 have reduced data harvesting through disti",
+          "url": "https://www.techmeme.com/261012/p46#a261012p46",
           "source": "Techmeme"
         },
         {
-          "title": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
-          "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk?utm_source=flipboard&utm_content=user/thenextweb",
-          "source": "Artificial Intelligence"
+          "title": "Strengthening our defenses against distillation attacks",
+          "url": "https://www.anthropic.com/research/distillation-defenses",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Defence against the dark arts of distillation: Unsupervised discovery of subliminal learning",
+          "url": "https://arxiv.org/abs/2610.13536",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "cursor",
-      "mentions": 60,
-      "velocity": 3.2,
+      "mentions": 64,
+      "velocity": 3.5,
       "sources": [
         "articles",
         "github",
@@ -271,7 +119,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.29,
+      "expert_ratio": 0.28,
       "headline": "OpenAI is hiring its European sales chief from SpaceX's Cursor",
       "articles": [
         {
@@ -287,40 +135,58 @@
       ]
     },
     {
-      "keyword": "agentic ai",
-      "mentions": 18,
-      "velocity": 2.8,
+      "keyword": "ai coding",
+      "mentions": 41,
+      "velocity": 2.0,
       "sources": [
         "articles",
-        "github"
+        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.52,
+      "headline": "AI coding agents generate more code, but not more software",
+      "articles": [
+        {
+          "title": "AI coding agents generate more code, but not more software",
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "blackwell",
+      "mentions": 8,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "linkedin"
       ],
       "source_count": 2,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.96,
-      "headline": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships nex",
+      "days_active": 13,
+      "expert_ratio": 0.38,
+      "headline": "Redundancy and synergy in multivariate Gaussians via the Blackwell order",
       "articles": [
         {
-          "title": "AMD debuts Helion reference design for agentic AI servers with up to 32,768 Zen 6 ‘Venice’ cores — rack design ships nex",
-          "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations",
-          "source": "Tom's Hardware"
+          "title": "Redundancy and synergy in multivariate Gaussians via the Blackwell order",
+          "url": "https://arxiv.org/abs/2610.07360",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance",
-          "url": "https://arxiv.org/abs/2610.13479",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "I attended a retail investor summit, and the day-trader crowd is mega-bullish on agentic AI",
-          "url": "https://www.businessinsider.com/retail-traders-agentic-ai-trading-finance-bitcoin-crypto-banks-2026-10",
-          "source": "Business Insider"
+          "title": "Mistral says ML4 was trained using 3,800 Nvidia Grace Blackwell GPUs in its own data centers in Europe and much of its t",
+          "url": "https://www.techmeme.com/261006/p32#a261006p32",
+          "source": "Techmeme"
         }
       ]
     }
   ],
   "weak_signals": [
     {
-      "keyword": "decision model",
+      "keyword": "wireguard",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -330,57 +196,22 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "Microsoft launches a decision model built on Alibaba’s Qwen",
+      "headline": "Surfshark rende WireGuard post-quantistico: cosa cambia per i dati",
       "articles": [
         {
-          "title": "Microsoft launches a decision model built on Alibaba’s Qwen",
-          "url": "https://thenextweb.com/news/microsoft-decision-1-qwen-decision-model",
-          "source": "The Next Web"
-        },
-        {
-          "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
-          "url": "https://arxiv.org/abs/2610.12292",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "TypedBench: A Benchmark for Calibration, Framing Sensitivity, and Cost in System One Decision Models",
-          "url": "https://arxiv.org/abs/2610.11392",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "user",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "Reddit user pays $35 for a crypto mining rig left in a garage and gets 54GB of VRAM at 65 cents per GB",
-      "articles": [
-        {
-          "title": "Reddit user pays $35 for a crypto mining rig left in a garage and gets 54GB of VRAM at 65 cents per GB",
-          "url": "https://www.tomshardware.com/pc-components/gpus/reddit-user-pays-usd35-for-a-crypto-mining-rig-left-in-a-garage-and-gets-54gb-of-vram-at-65-cents-per-gb-the-first-test-for-2017-era-gpus-a-35b-parameter-ai-model-running-locally-at-over-30-tokens-per-second",
+          "title": "Surfshark rende WireGuard post-quantistico: cosa cambia per i dati",
+          "url": "https://www.tomshw.it/hardware/surfshark-rende-wireguard-post-quantistico-cosa-cambia-per-i-dati",
           "source": "Tom's Hardware"
         },
         {
-          "title": "Different Feedback, Different Updates: Selective Self-Learning from User Interactions for Large Language Models",
-          "url": "https://arxiv.org/abs/2608.09109",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "UxSID: Semantic-Aware User Interests Modeling for Ultra-Long Sequence",
-          "url": "https://arxiv.org/abs/2605.09040",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Surfshark claims a major first by bringing full post-quantum security to WireGuard",
+          "url": "https://www.techradar.com/vpn/vpn-services/surfshark-claims-a-major-first-by-bringing-full-post-quantum-security-to-wireguard",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     },
     {
-      "keyword": "libreoffice",
+      "keyword": "status",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -390,22 +221,17 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "LibreOffice touts ‘no AI’ as a feature",
+      "headline": "New status symbols are taking over this fall. Here's what you'll see everywhere.",
       "articles": [
         {
-          "title": "LibreOffice touts ‘no AI’ as a feature",
-          "url": "https://www.computerworld.com/article/4232129/libreoffice-no-ai-is-also-a-feature.html",
-          "source": "Computerworld"
+          "title": "New status symbols are taking over this fall. Here's what you'll see everywhere.",
+          "url": "https://www.businessinsider.com/fall-fashion-trends-status-symbols-2026-10",
+          "source": "All Content from Business Insider"
         },
         {
-          "title": "LibreOffice says it 'will not add' AI features to document editor for the foreseeable future",
-          "url": "https://www.techradar.com/pro/libreoffice-says-it-will-not-add-ai-features-to-document-editor-for-the-foreseeable-future",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "LibreOffice says ‘no AI’ is now a software feature",
-          "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
-          "source": "TechCrunch"
+          "title": "SpaceX stock climbs to highest since June, returning Musk to trillionaire status",
+          "url": "https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html?__source=iosappshare%7Ccom.flipboard.flipboard-ipad.ShareExtension",
+          "source": "Artificial Intelligence"
         }
       ]
     },
@@ -442,14 +268,14 @@
     {
       "keyword": "message",
       "mentions": 2,
-      "velocity": 0.3,
+      "velocity": 0.4,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 67,
-      "days_active": 4,
-      "expert_ratio": 0.67,
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
       "headline": "NordVPN brings Message Protection to iPhone alongside new free scam-blocking app",
       "articles": [
         {
@@ -470,32 +296,52 @@
       ]
     },
     {
-      "keyword": "mcdonald",
-      "mentions": 3,
-      "velocity": 0.3,
+      "keyword": "user",
+      "mentions": 2,
+      "velocity": 0.4,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 95,
-      "days_active": 13,
-      "expert_ratio": 0.81,
-      "headline": "AI Markups Distorting 'True Earnings Power of S＆P,' Says Larry McDonald",
+      "confidence": 65,
+      "days_active": 3,
+      "expert_ratio": 0.8,
+      "headline": "Norway fined a Microsoft subsidiary $9.6 million for allegedly misusing Grindr user data",
       "articles": [
         {
-          "title": "AI Markups Distorting 'True Earnings Power of S＆P,' Says Larry McDonald",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/ai-markups-distort-s-p-earnings-power-says-mcdonald-video",
-          "source": "Bloomberg Technology"
+          "title": "Norway fined a Microsoft subsidiary $9.6 million for allegedly misusing Grindr user data",
+          "url": "https://www.engadget.com/2284434/norway-fined-a-microsoft-subsidiary-96-million-for-allegedly-misusing-grindr-user-data/",
+          "source": "Engadget"
         },
         {
-          "title": "We tried McDonald's Snack Wraps in the US and UK. We can see why the British are up in arms about the 'downgraded' item.",
-          "url": "https://www.businessinsider.com/review-mcdonalds-snack-wrap-us-and-uk-2026-10",
-          "source": "All Content from Business Insider"
+          "title": "Reddit user pays $35 for a crypto mining rig left in a garage and gets 54GB of VRAM at 65 cents per GB",
+          "url": "https://www.tomshardware.com/pc-components/gpus/reddit-user-pays-usd35-for-a-crypto-mining-rig-left-in-a-garage-and-gets-54gb-of-vram-at-65-cents-per-gb-the-first-test-for-2017-era-gpus-a-35b-parameter-ai-model-running-locally-at-over-30-tokens-per-second",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Suit says dynamic AI prices at McDonald’s are ‘nickel-and-diming consumers’",
-          "url": "https://www.techradar.com/ai-platforms-assistants/mcdonalds-defends-its-dynamic-ai-pricing-as-new-lawsuit-says-its-nickel-and-diming-consumers-down-to-the-last-french-fry",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Different Feedback, Different Updates: Selective Self-Learning from User Interactions for Large Language Models",
+          "url": "https://arxiv.org/abs/2608.09109",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "clickfix",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "hackernews"
+      ],
+      "source_count": 1,
+      "confidence": 77,
+      "days_active": 4,
+      "expert_ratio": 0.82,
+      "headline": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
+      "articles": [
+        {
+          "title": "ClickFix aggira i limiti di Windows Run: ecco come sfrutta la cache",
+          "url": "https://www.tomshw.it/hardware/clickfix-aggira-i-limiti-di-windows-run-ecco-come-sfrutta-la-cache",
+          "source": "Tom's Hardware"
         }
       ]
     }
@@ -503,17 +349,18 @@
   "sustained": [
     {
       "keyword": "ollama",
-      "mentions": 12,
-      "velocity": 1.4,
+      "mentions": 15,
+      "velocity": 1.9,
       "sources": [
         "articles",
         "github",
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.22,
+      "expert_ratio": 0.24,
       "headline": "Costruisci il chatbot interno del reparto IT con Ollama, senza far uscire dati dalla rete",
       "articles": [
         {
@@ -524,122 +371,165 @@
       ]
     },
     {
-      "keyword": "cuda",
-      "mentions": 11,
-      "velocity": 1.4,
+      "keyword": "claude opus",
+      "mentions": 24,
+      "velocity": 1.8,
       "sources": [
+        "articles",
         "arxiv",
-        "github"
+        "hackernews"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.85,
-      "headline": "b11517: CUDA: pass src1 precision to host MMQ config helpers (#30168)",
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Sun",
       "articles": [
         {
-          "title": "b11517: CUDA: pass src1 precision to host MMQ config helpers (#30168)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11517",
-          "source": "llama.cpp Releases"
+          "title": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Sun",
+          "url": "https://www.techmeme.com/261007/p23#a261007p23",
+          "source": "Techmeme"
         },
         {
-          "title": "b11513: CUDA: improve top-k algorithm selection (#28713)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11513",
-          "source": "llama.cpp Releases"
+          "title": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads wi",
+          "url": "https://www.techmeme.com/261005/p33#a261005p33",
+          "source": "Techmeme"
         },
         {
-          "title": "b11509: CUDA: fix CCCL version guard breaking on major version rollover (#29453)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11509",
-          "source": "llama.cpp Releases"
+          "title": "Claude Opus 5.5 uses em-dashes 99% less often and sounds more human — but still exhibits 2,548 AI writing tells - Ventur",
+          "url": "https://venturebeat.com/data/claude-opus-5-5-uses-em-dashes-99-less-often-and-sounds-more-human-but-still-exhibits-2-548-ai-writing-tells",
+          "source": "VentureBeat"
         }
       ]
     },
     {
-      "keyword": "deepseek",
-      "mentions": 57,
-      "velocity": 1.1,
+      "keyword": "gemma",
+      "mentions": 22,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit"
+        "linkedin"
       ],
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.83,
-      "headline": "DeepSeek to lead seed round in $400mn robot AI start-up, Bloomberg reports",
+      "expert_ratio": 0.81,
+      "headline": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
       "articles": [
         {
-          "title": "DeepSeek to lead seed round in $400mn robot AI start-up, Bloomberg reports",
-          "url": "https://thenextweb.com/news/deepseek-winverse-ai-robot-seed-round?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "DeepSeek is moving to lead a $400 million seed round for a Chinese robotics AI startup",
-          "url": "https://qz.com/deepseek-winverse-ai-robotics-seed-round-101226",
-          "source": "Quartz"
-        },
-        {
-          "title": "Sources: DeepSeek agrees to lead robotic AI startup Winverse AI's seed funding round of tens of millions of dollars, val",
-          "url": "https://www.techmeme.com/261012/p17#a261012p17",
+          "title": "Google debuts Google AI Edge Foresight, a local macOS note-taking app for meetings that uses its 740M-parameter Embeddin",
+          "url": "https://www.techmeme.com/261008/p27#a261008p27",
           "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "voice ai",
-      "mentions": 12,
-      "velocity": 0.9,
+      "keyword": "grok",
+      "mentions": 81,
+      "velocity": 1.7,
       "sources": [
         "articles",
-        "github"
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.33,
+      "headline": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+      "articles": [
+        {
+          "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+          "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+          "source": "Feed: Artificial Intelligence Latest"
+        },
+        {
+          "title": "SpaceXAI's Grok: What's free in 2026 and what isn't?",
+          "url": "https://www.engadget.com/2281213/spacexai-grok-free-features-2026/",
+          "source": "Engadget"
+        },
+        {
+          "title": "AI hardware startup Natura unveils Interface, a $99 smart ring that connects to AI agents and apps, including Claude, Ch",
+          "url": "https://www.techmeme.com/261008/p36#a261008p36",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "pytorch",
+      "mentions": 11,
+      "velocity": 1.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "linkedin"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 13,
+      "expert_ratio": 0.69,
+      "headline": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
+      "articles": [
+        {
+          "title": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
+          "url": "https://github.com/ymcrcat/rgpu",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "elevenlabs",
+      "mentions": 14,
+      "velocity": 1.2,
+      "sources": [
+        "linkedin",
+        "reddit"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.88,
-      "headline": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "expert_ratio": 0.73,
+      "headline": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
       "articles": [
-        {
-          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-          "source": "Artificial Intelligence (AI) | TechCrunch"
-        },
         {
           "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
           "url": "https://www.theinformation.com/briefings/microsoft-debuts-voice-ai-compete-elevenlabs",
           "source": "The Information"
         },
         {
-          "title": "Localization is the missing test for voice AI",
-          "url": "https://www.techradar.com/pro/localization-is-the-missing-test-for-voice-ai",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+          "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
+        },
+        {
+          "title": "ElevenLabs doubles its valuation to $22bn in a $300m share sale",
+          "url": "https://thenextweb.com/news/elevenlabs-valuation-22bn-300m-tender-wellington-t-rowe-price",
+          "source": "The Next Web"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 313,
-    "covered": 170,
-    "coverage_rate": 0.543,
-    "early": 91,
-    "early_rate": 0.291,
-    "avg_lead_days": 14.4,
-    "median_lead_days": 10,
+    "scored_predictions": 314,
+    "covered": 171,
+    "coverage_rate": 0.545,
+    "early": 92,
+    "early_rate": 0.293,
+    "avg_lead_days": 14.3,
+    "median_lead_days": 10.0,
     "max_lead_days": 42,
-    "hit_rate": 0.543,
-    "materialized": 170,
+    "hit_rate": 0.545,
+    "materialized": 171,
     "by_signal_type": {
       "emerging": {
-        "scored": 190,
-        "covered": 145,
-        "early": 73,
-        "coverage_rate": 0.763,
-        "early_rate": 0.384,
-        "hit_rate": 0.763
+        "scored": 191,
+        "covered": 146,
+        "early": 74,
+        "coverage_rate": 0.764,
+        "early_rate": 0.387,
+        "hit_rate": 0.764
       },
       "weak_signal": {
         "scored": 123,
@@ -654,21 +544,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 313,
+    "n": 314,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.546,
-      "early_rate": 0.294
+      "coverage_rate": 0.548,
+      "early_rate": 0.296
     },
     "null_mean": {
-      "coverage_rate": 0.577,
-      "early_rate": 0.344
+      "coverage_rate": 0.578,
+      "early_rate": 0.345
     },
     "p_value": {
-      "coverage_rate": 0.988,
-      "early_rate": 0.998
+      "coverage_rate": 0.982,
+      "early_rate": 0.994
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -744,18 +634,42 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
+      "keyword": "prompt engineering",
       "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
       "lead_days": 36,
       "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "cursor",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-13",
+        "confidence": 0.8
+      },
+      {
+        "keyword": "grok",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-13",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "world models",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-13",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "tokenizer",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-13",
+        "confidence": 0.2
+      },
       {
         "keyword": "llama",
         "signal_type": "emerging",
@@ -803,116 +717,92 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-10-12",
         "confidence": 0.2
-      },
-      {
-        "keyword": "dify",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-12",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "inflection",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-12",
-        "confidence": 0
-      },
-      {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-11",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "claude",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-11",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "cline",
+        "keyword": "databricks",
         "recent_mentions": 9,
         "prior_mentions": 1,
         "change_ratio": 9.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "artificial general intelligence",
+        "keyword": "qwen 2",
         "recent_mentions": 16,
         "prior_mentions": 2,
         "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "real-time voice",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "databricks",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 2
+        "corroborating_sources": 1
       },
       {
         "keyword": "suno",
-        "recent_mentions": 17,
-        "prior_mentions": 4,
-        "change_ratio": 4.25,
+        "recent_mentions": 19,
+        "prior_mentions": 3,
+        "change_ratio": 6.33,
         "corroborating_sources": 2
       },
       {
-        "keyword": "qwen 2",
-        "recent_mentions": 11,
-        "prior_mentions": 3,
-        "change_ratio": 3.67,
+        "keyword": "cuda",
+        "recent_mentions": 39,
+        "prior_mentions": 9,
+        "change_ratio": 4.33,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "in video",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai winter",
+        "recent_mentions": 8,
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "hugging face",
+        "recent_mentions": 42,
+        "prior_mentions": 11,
+        "change_ratio": 3.82,
+        "corroborating_sources": 6
+      },
+      {
+        "keyword": "ai developer",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "qlora",
+        "recent_mentions": 13,
+        "prior_mentions": 4,
+        "change_ratio": 3.25,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "tokenizer",
+        "recent_mentions": 32,
+        "prior_mentions": 10,
+        "change_ratio": 3.2,
         "corroborating_sources": 2
       },
       {
         "keyword": "vllm",
-        "recent_mentions": 27,
-        "prior_mentions": 8,
-        "change_ratio": 3.38,
-        "corroborating_sources": 3
+        "recent_mentions": 38,
+        "prior_mentions": 12,
+        "change_ratio": 3.17,
+        "corroborating_sources": 5
       },
       {
-        "keyword": "tokenizer",
-        "recent_mentions": 28,
-        "prior_mentions": 10,
-        "change_ratio": 2.8,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "hugging face",
-        "recent_mentions": 35,
-        "prior_mentions": 13,
-        "change_ratio": 2.69,
-        "corroborating_sources": 6
-      },
-      {
-        "keyword": "litellm",
-        "recent_mentions": 10,
-        "prior_mentions": 4,
-        "change_ratio": 2.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "windsurf",
-        "recent_mentions": 5,
+        "keyword": "hermes agent",
+        "recent_mentions": 6,
         "prior_mentions": 2,
-        "change_ratio": 2.5,
+        "change_ratio": 3.0,
         "corroborating_sources": 2
-      },
-      {
-        "keyword": "claude haiku",
-        "recent_mentions": 52,
-        "prior_mentions": 21,
-        "change_ratio": 2.48,
-        "corroborating_sources": 6
       }
     ]
   }

@@ -1,89 +1,116 @@
 {
-  "generated_at": "2026-10-12T17:28:23+00:00",
+  "generated_at": "2026-10-13T05:27:18+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
     "open": 108,
-    "resolved": 135,
+    "resolved": 136,
     "hits": 7,
-    "misses": 128,
-    "hit_rate": 0.052
+    "misses": 129,
+    "hit_rate": 0.051
   },
   "open": [
     {
       "keyword": "command r",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-31",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "databricks",
       "signal_type": "weak_signal",
       "flagged_on": "2026-08-31",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "prompt engineering",
       "signal_type": "emerging",
       "flagged_on": "2026-08-31",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "comet",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-01",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "ai regulation",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-01",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "cuda",
       "signal_type": "emerging",
       "flagged_on": "2026-09-01",
-      "days_left": 4
+      "days_left": 3
     },
     {
       "keyword": "prompt injection",
       "signal_type": "emerging",
       "flagged_on": "2026-09-02",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "yolo",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-02",
-      "days_left": 5
-    },
-    {
-      "keyword": "tokenizer",
-      "signal_type": "emerging",
-      "flagged_on": "2026-09-02",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "openclaw",
       "signal_type": "emerging",
       "flagged_on": "2026-09-02",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "ai alignment",
       "signal_type": "emerging",
       "flagged_on": "2026-09-02",
-      "days_left": 5
+      "days_left": 4
     },
     {
       "keyword": "hermes-agent",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-03",
-      "days_left": 6
+      "days_left": 5
+    },
+    {
+      "keyword": "notion",
+      "signal_type": "emerging",
+      "flagged_on": "2026-09-03",
+      "days_left": 5
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "hugging face",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-28",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "huggingface",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-28",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "openai codex",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-08-28",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "mcp server",
       "signal_type": "emerging",
@@ -177,33 +204,6 @@
     {
       "keyword": "meta ai",
       "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "custom gpt",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "computer use",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "gpt-4o",
-      "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-08-25",
       "resolved_on": null,

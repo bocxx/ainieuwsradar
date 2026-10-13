@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-12T17:27:52+00:00",
+  "generated_at": "2026-10-13T05:26:47+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 313,
-    "covered": 170,
-    "coverage_rate": 0.543,
-    "early": 91,
-    "early_rate": 0.291,
-    "avg_lead_days": 14.4,
-    "median_lead_days": 10,
+    "scored_predictions": 314,
+    "covered": 171,
+    "coverage_rate": 0.545,
+    "early": 92,
+    "early_rate": 0.293,
+    "avg_lead_days": 14.3,
+    "median_lead_days": 10.0,
     "max_lead_days": 42,
-    "hit_rate": 0.543,
-    "materialized": 170,
+    "hit_rate": 0.545,
+    "materialized": 171,
     "by_signal_type": {
       "emerging": {
-        "scored": 190,
-        "covered": 145,
-        "early": 73,
-        "coverage_rate": 0.763,
-        "early_rate": 0.384,
-        "hit_rate": 0.763
+        "scored": 191,
+        "covered": 146,
+        "early": 74,
+        "coverage_rate": 0.764,
+        "early_rate": 0.387,
+        "hit_rate": 0.764
       },
       "weak_signal": {
         "scored": 123,
@@ -106,14 +106,14 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
+      "keyword": "prompt engineering",
       "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
       "lead_days": 36,
       "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "caveats": [
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 313,
+    "n": 314,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.546,
-      "early_rate": 0.294
+      "coverage_rate": 0.548,
+      "early_rate": 0.296
     },
     "null_mean": {
-      "coverage_rate": 0.577,
-      "early_rate": 0.344
+      "coverage_rate": 0.578,
+      "early_rate": 0.345
     },
     "p_value": {
-      "coverage_rate": 0.988,
-      "early_rate": 0.998
+      "coverage_rate": 0.982,
+      "early_rate": 0.994
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
