@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-14T17:28:45+00:00",
+  "generated_at": "2026-10-15T05:25:59+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 314,
-    "covered": 171,
-    "coverage_rate": 0.545,
-    "early": 92,
-    "early_rate": 0.293,
-    "avg_lead_days": 14.3,
-    "median_lead_days": 10.0,
+    "scored_predictions": 318,
+    "covered": 174,
+    "coverage_rate": 0.547,
+    "early": 95,
+    "early_rate": 0.299,
+    "avg_lead_days": 14.5,
+    "median_lead_days": 11,
     "max_lead_days": 42,
-    "hit_rate": 0.545,
-    "materialized": 171,
+    "hit_rate": 0.547,
+    "materialized": 174,
     "by_signal_type": {
       "emerging": {
-        "scored": 191,
-        "covered": 146,
-        "early": 74,
-        "coverage_rate": 0.764,
-        "early_rate": 0.387,
-        "hit_rate": 0.764
+        "scored": 192,
+        "covered": 147,
+        "early": 75,
+        "coverage_rate": 0.766,
+        "early_rate": 0.391,
+        "hit_rate": 0.766
       },
       "weak_signal": {
-        "scored": 123,
-        "covered": 25,
-        "early": 18,
-        "coverage_rate": 0.203,
-        "early_rate": 0.146,
-        "hit_rate": 0.203
+        "scored": 126,
+        "covered": 27,
+        "early": 20,
+        "coverage_rate": 0.214,
+        "early_rate": 0.159,
+        "hit_rate": 0.214
       }
     }
   },
@@ -106,14 +106,14 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "prompt engineering",
+      "keyword": "flair",
       "signal_type": "emerging",
-      "flagged_on": "2026-08-18",
-      "materialized_on": "2026-09-23",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
       "lead_days": 36,
       "outlet": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "caveats": [
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 314,
+    "n": 318,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.548,
-      "early_rate": 0.296
+      "coverage_rate": 0.55,
+      "early_rate": 0.302
     },
     "null_mean": {
       "coverage_rate": 0.578,
-      "early_rate": 0.345
+      "early_rate": 0.346
     },
     "p_value": {
-      "coverage_rate": 0.982,
-      "early_rate": 0.993
+      "coverage_rate": 0.981,
+      "early_rate": 0.98
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
