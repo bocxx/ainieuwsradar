@@ -1,18 +1,53 @@
 {
-  "generated_at": "2026-10-15T07:12:38.122658",
-  "total_tracked": 3826,
+  "generated_at": "2026-10-15T19:14:01.545343",
+  "total_tracked": 3873,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "reinforcement learning",
-      "mentions": 481,
-      "velocity": 119.9,
+      "keyword": "chatgpt",
+      "mentions": 243,
+      "velocity": 10.8,
       "sources": [
         "articles",
         "arxiv",
+        "github",
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 7,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.47,
+      "headline": "At least 8 states sued OpenAI, alleging ChatGPT harmed children and deceived parents",
+      "articles": [
+        {
+          "title": "At least 8 states sued OpenAI, alleging ChatGPT harmed children and deceived parents",
+          "url": "https://qz.com/states-sue-openai-chatgpt-child-safety-101526",
+          "source": "Quartz"
+        },
+        {
+          "title": "Staten VS vinden ChatGPT schadelijk voor kinderen en spannen rechtszaken aan",
+          "url": "https://tweakers.net/nieuws/253346/staten-vs-vinden-chatgpt-schadelijk-voor-kinderen-en-spannen-rechtszaken-aan.html",
+          "source": "Tweakers Mixed RSS Feed"
+        },
+        {
+          "title": "Arkansas sues OpenAI, alleging it misled users about ChatGPT safety",
+          "url": "https://thenextweb.com/news/arkansas-sues-openai-chatgpt-safety",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 109,
+      "velocity": 7.5,
+      "sources": [
+        "arxiv",
         "linkedin"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.99,
@@ -36,174 +71,153 @@
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 341,
-      "velocity": 69.3,
+      "keyword": "claude code",
+      "mentions": 52,
+      "velocity": 4.1,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
         "hackernews",
-        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "The Silent Failures in Agentic Data Science",
+      "expert_ratio": 0.0,
+      "headline": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
       "articles": [
         {
-          "title": "The Silent Failures in Agentic Data Science",
-          "url": "https://arxiv.org/abs/2610.14115",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2610.18683",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Frustratingly Easy Agentic RAG via Portable Skills: A Case Study in Customer Support",
-          "url": "https://arxiv.org/abs/2610.14428",
+          "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+          "url": "https://arxiv.org/abs/2604.14228",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "fine-tuning",
-      "mentions": 243,
-      "velocity": 51.9,
+      "keyword": "grok",
+      "mentions": 92,
+      "velocity": 4.0,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.32,
+      "headline": "Elon Musk says SpaceX will pay back anyone whose Grok AI agent makes a rogue purchase",
+      "articles": [
+        {
+          "title": "Elon Musk says SpaceX will pay back anyone whose Grok AI agent makes a rogue purchase",
+          "url": "https://www.businessinsider.com/elon-musk-spacex-will-pay-users-back-grok-purchase-mistakes-2026-10",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "SpaceXSI debuts Grok Voice 3.0, saying it tops Artificial Analysis' speech-to-speech index, responds in under a second, ",
+          "url": "https://www.techmeme.com/261014/p38#a261014p38",
+          "source": "Techmeme"
+        },
+        {
+          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 53,
+      "velocity": 3.6,
+      "sources": [
+        "articles",
         "linkedin",
         "reddit"
       ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "SoFT: Soft Targets for Generalizable LLM Fine-Tuning",
-      "articles": [
-        {
-          "title": "SoFT: Soft Targets for Generalizable LLM Fine-Tuning",
-          "url": "https://arxiv.org/abs/2609.32493",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "FiberTune: Preserving Action-Fiber Visual Residuals in Vision-Language-Action Fine-Tuning",
-          "url": "https://arxiv.org/abs/2606.08653",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Geometric Calibration of Supervised Fine-Tuning",
-          "url": "https://arxiv.org/abs/2610.18634",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "qwen",
-      "mentions": 280,
-      "velocity": 46.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "China clears Alibaba’s Qwen AI just in time for iPhone Duo",
+      "expert_ratio": 0.08,
+      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
       "articles": [
         {
-          "title": "China clears Alibaba’s Qwen AI just in time for iPhone Duo",
-          "url": "https://www.computerworld.com/article/4235207/china-clears-alibabas-qwen-ai-just-in-time-for-iphone-duo.html",
-          "source": "Computerworld"
+          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+          "url": "https://github.com/vscarpenter/gsd-task-manager",
+          "source": "Hacker News"
         },
         {
-          "title": "Alibaba starts selling its Qwen N1 AI glasses in China from $450",
-          "url": "https://thenextweb.com/news/alibaba-qwen-glasses-n1-price-launch",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Alibaba unveils its next-gen Qwen Glasses N1, starting at ~$450, with 50MP cameras, sensors, and eye-tracking on the ~$5",
-          "url": "https://www.techmeme.com/261013/p11#a261013p11",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "distillation",
-      "mentions": 153,
-      "velocity": 36.0,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Correcting or Continuing? What On-Policy Distillation Learns from Student Errors",
-      "articles": [
-        {
-          "title": "Correcting or Continuing? What On-Policy Distillation Learns from Student Errors",
-          "url": "https://arxiv.org/abs/2610.18011",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Sig-DEG for Distillation: Making Diffusion Models Faster and Lighter",
-          "url": "https://arxiv.org/abs/2508.16939",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Function-Space Temporal Self-Distillation for Policy Optimization",
-          "url": "https://arxiv.org/abs/2610.19687",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+          "url": "https://github.com/edrisranjbar/lifeos",
+          "source": "Hacker News"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "gemini",
-      "mentions": 250,
-      "velocity": 7.6,
+      "keyword": "cursor",
+      "mentions": 77,
+      "velocity": 4.2,
       "sources": [
         "articles",
         "arxiv",
         "github",
-        "hackernews",
-        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.37,
-      "headline": "Android will use Gemini to warn you about scammy messages",
+      "expert_ratio": 0.25,
+      "headline": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
       "articles": [
         {
-          "title": "Android will use Gemini to warn you about scammy messages",
-          "url": "https://www.engadget.com/2286355/android-will-use-gemini-to-warn-you-about-scammy-messages/",
+          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 p",
+          "url": "https://www.techmeme.com/261013/p10#a261013p10",
+          "source": "Techmeme"
+        },
+        {
+          "title": "X bundles Premium, Grok and Cursor under a single monthly subscription",
+          "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
           "source": "Engadget"
+        }
+      ]
+    },
+    {
+      "keyword": "perplexity",
+      "mentions": 32,
+      "velocity": 3.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "linkedin",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.64,
+      "headline": "AI reputation management: what gets said about you inside ChatGPT, Perplexity ＆ Google Gemini",
+      "articles": [
+        {
+          "title": "AI reputation management: what gets said about you inside ChatGPT, Perplexity ＆ Google Gemini",
+          "url": "https://thenextweb.com/news/ai-reputation-management-chatgpt-perplexity-gemini",
+          "source": "The Next Web"
         },
         {
-          "title": "Automatizzare il lavoro con Gemini? Dipende dall'account che usi",
-          "url": "https://www.tomshw.it/business/automatizzare-il-lavoro-con-gemini-dipende-dallaccount-che-usi",
-          "source": "Tom's Hardware"
+          "title": "PIVOT: Perplexity-Informed KD-to-RL Transition Scheduling for Vertical-Domain Few-Shot Distillation",
+          "url": "https://arxiv.org/abs/2610.11167",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Google positions Gemini 4 Argon for long-horizon agentic work",
-          "url": "https://www.computerworld.com/article/4235123/google-positions-gemini-4-argon-for-long-horizon-agentic-work-2.html",
-          "source": "Artificial Intelligence – Computerworld"
+          "title": "AI giants targeted by scraping bots — ChatGPT and Perplexity enter the most-scraped websites list for the first time",
+          "url": "https://www.techradar.com/pro/ai-giants-targeted-by-scraping-bots-chatgpt-and-perplexity-enter-the-most-scraped-websites-list-for-the-first-time",
+          "source": "Latest from TechRadar US in News，opinion"
         }
       ]
     }
@@ -270,21 +284,21 @@
       "confidence": 65,
       "days_active": 3,
       "expert_ratio": 0.8,
-      "headline": "Disclosure-Gated User Simulation for Companion-Agent Evaluation",
+      "headline": "Large Language Model Assisted Transportation Planning through a Differentiable User Equilibrium Layer",
       "articles": [
         {
-          "title": "Disclosure-Gated User Simulation for Companion-Agent Evaluation",
-          "url": "https://arxiv.org/abs/2609.00982",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SimInter: Evidence-Grounded User Simulation with Interview-Based Profile Enrichment for Conversational Recommender Syste",
-          "url": "https://arxiv.org/abs/2610.18308",
+          "title": "Large Language Model Assisted Transportation Planning through a Differentiable User Equilibrium Layer",
+          "url": "https://arxiv.org/abs/2610.16140",
           "source": "cs.AI updates on arXiv.org"
         },
         {
           "title": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
           "url": "https://arxiv.org/abs/2610.14709",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "SimInter: Evidence-Grounded User Simulation with Interview-Based Profile Enrichment for Conversational Recommender Syste",
+          "url": "https://arxiv.org/abs/2610.18308",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
@@ -361,168 +375,80 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "skills",
-      "mentions": 2,
-      "velocity": 0.1,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 73,
-      "days_active": 5,
-      "expert_ratio": 0.89,
-      "headline": "EmbodiedSkills: World Action Model-augmented Cascaded Skills for Vision-Language-Action Agent",
-      "articles": [
-        {
-          "title": "EmbodiedSkills: World Action Model-augmented Cascaded Skills for Vision-Language-Action Agent",
-          "url": "https://arxiv.org/abs/2609.01281",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Encrypted Skills Can Become New Security Exploits If AI Agents Know How to Decipher",
-          "url": "https://arxiv.org/abs/2610.18262",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SkillScreen: High-Recall Screening of Malicious Agent Skills with Decision Models",
-          "url": "https://arxiv.org/abs/2610.17727",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "openclaw",
-      "mentions": 14,
-      "velocity": 1.9,
+      "keyword": "gemini",
+      "mentions": 230,
+      "velocity": 1.6,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
-        "linkedin"
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 7,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "OpenClaw claimt nieuw topleveldomein .claw voor internetadressen bij ICANN",
+      "expert_ratio": 0.37,
+      "headline": "Android will use Gemini to warn you about scammy messages",
       "articles": [
         {
-          "title": "OpenClaw claimt nieuw topleveldomein .claw voor internetadressen bij ICANN",
-          "url": "https://tweakers.net/nieuws/253178/openclaw-claimt-nieuw-topleveldomein-claw-voor-internetadressen-bij-icann.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "Android will use Gemini to warn you about scammy messages",
+          "url": "https://www.engadget.com/2286355/android-will-use-gemini-to-warn-you-about-scammy-messages/",
+          "source": "Engadget"
         },
         {
-          "title": "OpenClaw Enterprise è gratuito e punta sul controllo degli agenti",
-          "url": "https://www.tomshw.it/business/openclaw-enterprise-e-gratuito-e-punta-sul-controllo-degli-agenti",
+          "title": "Automatizzare il lavoro con Gemini? Dipende dall'account che usi",
+          "url": "https://www.tomshw.it/business/automatizzare-il-lavoro-con-gemini-dipende-dallaccount-che-usi",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Google positions Gemini 4 Argon for long-horizon agentic work",
+          "url": "https://www.computerworld.com/article/4235123/google-positions-gemini-4-argon-for-long-horizon-agentic-work-2.html",
+          "source": "Computerworld"
+        }
+      ]
+    },
+    {
+      "keyword": "claude haiku",
+      "mentions": 11,
+      "velocity": 1.4,
+      "sources": [
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.49,
+      "headline": "Claude Haiku 4.5 invia una falsa soffiata alla polizia: ecco perché",
+      "articles": [
+        {
+          "title": "Claude Haiku 4.5 invia una falsa soffiata alla polizia: ecco perché",
+          "url": "https://www.tomshw.it/hardware/claude-haiku-45-invia-una-falsa-soffiata-alla-polizia-ecco-perche",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Claude Haiku 5.5 taglia i prezzi: guerra AI aperta",
+          "url": "https://www.tomshw.it/business/claude-haiku-55-taglia-i-prezzi-guerra-ai-aperta-2026-10-08",
           "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "voice ai",
-      "mentions": 18,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "DeepL CEO on Voice AI Growth and Competition",
-      "articles": [
-        {
-          "title": "DeepL CEO on Voice AI Growth and Competition",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-14/deepl-ceo-on-voice-ai-growth-and-competition-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-          "source": "Artificial Intelligence (AI) | TechCrunch"
-        },
-        {
-          "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
-          "url": "https://www.theinformation.com/briefings/microsoft-debuts-voice-ai-compete-elevenlabs",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "model context protocol",
-      "mentions": 11,
-      "velocity": 1.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.87,
-      "headline": "COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol Layers",
-      "articles": [
-        {
-          "title": "COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol Layers",
-          "url": "https://arxiv.org/abs/2610.04378",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Evaluating a Layered Prompt-Injection Defence for the Model Context Protocol: A Record-Level Audit of Decision Conventio",
-          "url": "https://arxiv.org/abs/2604.17125",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 69,
-      "velocity": 1.8,
-      "sources": [
-        "arxiv",
-        "github",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.25,
-      "headline": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
-      "articles": [
-        {
-          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
-          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 p",
-          "url": "https://www.techmeme.com/261013/p10#a261013p10",
-          "source": "Techmeme"
-        },
-        {
-          "title": "X bundles Premium, Grok and Cursor under a single monthly subscription",
-          "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
-          "source": "Engadget"
-        }
-      ]
-    },
-    {
       "keyword": "minimax",
-      "mentions": 29,
-      "velocity": 1.7,
+      "mentions": 26,
+      "velocity": 0.8,
       "sources": [
-        "articles",
         "arxiv",
         "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.82,
@@ -546,34 +472,62 @@
       ]
     },
     {
-      "keyword": "cuda",
-      "mentions": 13,
-      "velocity": 0.9,
+      "keyword": "data centers",
+      "mentions": 27,
+      "velocity": 0.7,
       "sources": [
         "articles",
-        "arxiv",
-        "github"
+        "hackernews",
+        "linkedin",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 3,
+      "source_count": 5,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.87,
-      "headline": "b11632: cuda, hip: GDN chunked kernel (#29353)",
+      "days_active": 15,
+      "expert_ratio": 0.44,
+      "headline": "Malicious Russian disinformation bot traffic barely flinches after Ukraine strikes Yandex data centers and auto-migratio",
       "articles": [
         {
-          "title": "b11632: cuda, hip: GDN chunked kernel (#29353)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11632",
-          "source": "llama.cpp Releases"
+          "title": "Malicious Russian disinformation bot traffic barely flinches after Ukraine strikes Yandex data centers and auto-migratio",
+          "url": "https://www.tomshardware.com/service-providers/network-providers/malicious-russian-disinformation-bot-traffic-barely-flinches-after-ukraine-strikes-yandex-data-centers-and-auto-migration-kicks-in-cloudflare-tracks-170-million-automated-attacks-shifting-to-alternate-cloud-hosts",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "b11592: cuda : add GGML_CUDA_GRAPH_DEBUG and read env vars once (#30327)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11592",
-          "source": "llama.cpp Releases"
+          "title": "Exclusive: Mueon Raises $65 Million to Rework How Data Centers Are Put Together",
+          "url": "https://www.theinformation.com/briefings/exclusive-mueon-raises-65-million-rework-data-centers-put-together",
+          "source": "The Information"
         },
         {
-          "title": "b11586: cuda : warnings cleanup (#30420)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11586",
-          "source": "llama.cpp Releases"
+          "title": "ByteDance in Talks to Secure MediaTek AI Chips for Data Centers",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/bytedance-in-talks-to-secure-mediatek-ai-chips-for-data-centers",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "midjourney",
+      "mentions": 11,
+      "velocity": 0.7,
+      "sources": [
+        "github",
+        "linkedin"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
+      "headline": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
+      "articles": [
+        {
+          "title": "Musk’s Grok Bot will use Anthropic’s Claude, Midjourney and Suno models",
+          "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Sun",
+          "url": "https://www.techmeme.com/261007/p23#a261007p23",
+          "source": "Techmeme"
         }
       ]
     }
@@ -714,13 +668,19 @@
   "watching_now": {
     "new_on_radar": [
       {
-        "keyword": "cerebras",
+        "keyword": "neuromorphic",
         "signal_type": "emerging",
+        "flagged_on": "2026-10-15",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "rlhf",
+        "signal_type": "weak_signal",
         "flagged_on": "2026-10-14",
         "confidence": 0.2
       },
       {
-        "keyword": "prompt injection",
+        "keyword": "llama.cpp",
         "signal_type": "emerging",
         "flagged_on": "2026-10-14",
         "confidence": 0.2
@@ -732,14 +692,14 @@
         "confidence": 0.2
       },
       {
-        "keyword": "llama.cpp",
+        "keyword": "prompt injection",
         "signal_type": "emerging",
         "flagged_on": "2026-10-14",
         "confidence": 0.2
       },
       {
-        "keyword": "rlhf",
-        "signal_type": "weak_signal",
+        "keyword": "cerebras",
+        "signal_type": "emerging",
         "flagged_on": "2026-10-14",
         "confidence": 0.2
       },
@@ -756,13 +716,13 @@
         "confidence": 0.8
       },
       {
-        "keyword": "grok",
+        "keyword": "vllm",
         "signal_type": "emerging",
         "flagged_on": "2026-10-13",
         "confidence": 0.6
       },
       {
-        "keyword": "vllm",
+        "keyword": "grok",
         "signal_type": "emerging",
         "flagged_on": "2026-10-13",
         "confidence": 0.6
@@ -775,12 +735,6 @@
       },
       {
         "keyword": "tokenizer",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-13",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "world models",
         "signal_type": "emerging",
         "flagged_on": "2026-10-13",
         "confidence": 0.2
@@ -803,52 +757,17 @@
       },
       {
         "keyword": "phi-4",
-        "recent_mentions": 20,
+        "recent_mentions": 16,
         "prior_mentions": 4,
-        "change_ratio": 5.0,
+        "change_ratio": 4.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "world models",
-        "recent_mentions": 123,
-        "prior_mentions": 27,
-        "change_ratio": 4.56,
-        "corroborating_sources": 3
-      },
-      {
         "keyword": "whisper",
-        "recent_mentions": 32,
+        "recent_mentions": 28,
         "prior_mentions": 8,
-        "change_ratio": 4.0,
+        "change_ratio": 3.5,
         "corroborating_sources": 4
-      },
-      {
-        "keyword": "synthetic data",
-        "recent_mentions": 31,
-        "prior_mentions": 8,
-        "change_ratio": 3.88,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "qlora",
-        "recent_mentions": 27,
-        "prior_mentions": 7,
-        "change_ratio": 3.86,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "gpt-4o",
-        "recent_mentions": 27,
-        "prior_mentions": 7,
-        "change_ratio": 3.86,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "embodied ai",
-        "recent_mentions": 25,
-        "prior_mentions": 7,
-        "change_ratio": 3.57,
-        "corroborating_sources": 2
       },
       {
         "keyword": "dalle",
@@ -858,18 +777,53 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "ai chip",
+        "recent_mentions": 26,
+        "prior_mentions": 8,
+        "change_ratio": 3.25,
+        "corroborating_sources": 4
+      },
+      {
         "keyword": "bolt",
-        "recent_mentions": 14,
+        "recent_mentions": 13,
         "prior_mentions": 4,
-        "change_ratio": 3.5,
+        "change_ratio": 3.25,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai governance",
+        "recent_mentions": 18,
+        "prior_mentions": 6,
+        "change_ratio": 3.0,
         "corroborating_sources": 2
       },
       {
         "keyword": "hermes agent",
-        "recent_mentions": 10,
+        "recent_mentions": 9,
         "prior_mentions": 3,
-        "change_ratio": 3.33,
-        "corroborating_sources": 3
+        "change_ratio": 3.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "qwen 2",
+        "recent_mentions": 23,
+        "prior_mentions": 8,
+        "change_ratio": 2.88,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "suno",
+        "recent_mentions": 17,
+        "prior_mentions": 6,
+        "change_ratio": 2.83,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "browser-use",
+        "recent_mentions": 5,
+        "prior_mentions": 2,
+        "change_ratio": 2.5,
+        "corroborating_sources": 2
       }
     ]
   }
