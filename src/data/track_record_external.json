@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T05:28:45+00:00",
+  "generated_at": "2026-10-16T17:32:30+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -16,14 +16,6 @@
     "hit_rate": 0.552,
     "materialized": 179,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 130,
-        "covered": 30,
-        "early": 21,
-        "coverage_rate": 0.231,
-        "early_rate": 0.162,
-        "hit_rate": 0.231
-      },
       "emerging": {
         "scored": 194,
         "covered": 149,
@@ -31,6 +23,14 @@
         "coverage_rate": 0.768,
         "early_rate": 0.392,
         "hit_rate": 0.768
+      },
+      "weak_signal": {
+        "scored": 130,
+        "covered": 30,
+        "early": 21,
+        "coverage_rate": 0.231,
+        "early_rate": 0.162,
+        "hit_rate": 0.231
       }
     }
   },
@@ -106,14 +106,14 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "prompt engineering",
+      "keyword": "flair",
       "signal_type": "emerging",
-      "flagged_on": "2026-08-18",
-      "materialized_on": "2026-09-23",
+      "flagged_on": "2026-08-06",
+      "materialized_on": "2026-09-11",
       "lead_days": 36,
       "outlet": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
-      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
+      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
+      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
     }
   ],
   "caveats": [
