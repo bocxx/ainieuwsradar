@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-15T17:28:28+00:00",
+  "generated_at": "2026-10-16T05:28:45+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 318,
-    "covered": 174,
-    "coverage_rate": 0.547,
-    "early": 95,
+    "scored_predictions": 324,
+    "covered": 179,
+    "coverage_rate": 0.552,
+    "early": 97,
     "early_rate": 0.299,
-    "avg_lead_days": 14.5,
-    "median_lead_days": 11,
+    "avg_lead_days": 14.4,
+    "median_lead_days": 10,
     "max_lead_days": 42,
-    "hit_rate": 0.547,
-    "materialized": 174,
+    "hit_rate": 0.552,
+    "materialized": 179,
     "by_signal_type": {
-      "emerging": {
-        "scored": 192,
-        "covered": 147,
-        "early": 75,
-        "coverage_rate": 0.766,
-        "early_rate": 0.391,
-        "hit_rate": 0.766
-      },
       "weak_signal": {
-        "scored": 126,
-        "covered": 27,
-        "early": 20,
-        "coverage_rate": 0.214,
-        "early_rate": 0.159,
-        "hit_rate": 0.214
+        "scored": 130,
+        "covered": 30,
+        "early": 21,
+        "coverage_rate": 0.231,
+        "early_rate": 0.162,
+        "hit_rate": 0.231
+      },
+      "emerging": {
+        "scored": 194,
+        "covered": 149,
+        "early": 76,
+        "coverage_rate": 0.768,
+        "early_rate": 0.392,
+        "hit_rate": 0.768
       }
     }
   },
@@ -76,16 +76,6 @@
       "title": "Uber reports Q2 revenue up 12% YoY to $14.2B, below $14.24B est., Gross Bookings up 24% to $58B, above $57B est., and forecasts Q3 adjusted EPS below est. (Lora Kolodny/CNBC)"
     },
     {
-      "keyword": "inflection",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-14",
-      "materialized_on": "2026-07-22",
-      "lead_days": 38,
-      "outlet": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
-      "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
-    },
-    {
       "keyword": "huggingface",
       "signal_type": "emerging",
       "flagged_on": "2026-08-28",
@@ -94,6 +84,16 @@
       "outlet": "Tom's Hardware",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
       "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
+    },
+    {
+      "keyword": "inflection",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-14",
+      "materialized_on": "2026-07-22",
+      "lead_days": 38,
+      "outlet": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
+      "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
     },
     {
       "keyword": "context window",
@@ -106,14 +106,14 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
+      "keyword": "prompt engineering",
       "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
       "lead_days": 36,
       "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "caveats": [
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 318,
+    "n": 324,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.55,
+      "coverage_rate": 0.556,
       "early_rate": 0.302
     },
     "null_mean": {
-      "coverage_rate": 0.578,
-      "early_rate": 0.346
+      "coverage_rate": 0.581,
+      "early_rate": 0.348
     },
     "p_value": {
-      "coverage_rate": 0.981,
-      "early_rate": 0.98
+      "coverage_rate": 0.973,
+      "early_rate": 0.982
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }

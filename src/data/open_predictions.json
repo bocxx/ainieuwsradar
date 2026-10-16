@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T17:29:00+00:00",
+  "generated_at": "2026-10-16T05:29:15+00:00",
   "window_days": 45,
   "ground_truth": "verschijning in een Tier-A-outlet binnen het venster",
   "stats": {
-    "open": 113,
+    "open": 112,
     "resolved": 136,
     "hits": 7,
     "misses": 129,
@@ -11,79 +11,115 @@
   },
   "open": [
     {
-      "keyword": "command r",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-08-31",
-      "days_left": 0
-    },
-    {
-      "keyword": "databricks",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-08-31",
-      "days_left": 0
-    },
-    {
-      "keyword": "prompt engineering",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-31",
-      "days_left": 0
-    },
-    {
       "keyword": "comet",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-01",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "ai regulation",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-01",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "cuda",
       "signal_type": "emerging",
       "flagged_on": "2026-09-01",
-      "days_left": 1
+      "days_left": 0
     },
     {
       "keyword": "yolo",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-02",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "openclaw",
       "signal_type": "emerging",
       "flagged_on": "2026-09-02",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "ai alignment",
       "signal_type": "emerging",
       "flagged_on": "2026-09-02",
-      "days_left": 2
+      "days_left": 1
     },
     {
       "keyword": "hermes-agent",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-03",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "notion",
       "signal_type": "emerging",
       "flagged_on": "2026-09-03",
-      "days_left": 3
+      "days_left": 2
     },
     {
       "keyword": "sovereign ai",
       "signal_type": "weak_signal",
       "flagged_on": "2026-09-04",
-      "days_left": 4
+      "days_left": 3
+    },
+    {
+      "keyword": "national ai",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-09-04",
+      "days_left": 3
+    },
+    {
+      "keyword": "embodied ai",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-09-06",
+      "days_left": 5
+    },
+    {
+      "keyword": "real-time voice",
+      "signal_type": "emerging",
+      "flagged_on": "2026-09-06",
+      "days_left": 5
     }
   ],
   "recent_resolved": [
+    {
+      "keyword": "h100",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-08-31",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "prompt engineering",
+      "signal_type": "emerging",
+      "status": "miss",
+      "flagged_on": "2026-08-31",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "command r",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-08-31",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
+    {
+      "keyword": "databricks",
+      "signal_type": "weak_signal",
+      "status": "miss",
+      "flagged_on": "2026-08-31",
+      "resolved_on": null,
+      "lead_days": null,
+      "outlet": null
+    },
     {
       "keyword": "minimax",
       "signal_type": "emerging",
@@ -170,42 +206,6 @@
       "signal_type": "emerging",
       "status": "miss",
       "flagged_on": "2026-08-26",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "quantization",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-26",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "crewai",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "cohere",
-      "signal_type": "emerging",
-      "status": "miss",
-      "flagged_on": "2026-08-25",
-      "resolved_on": null,
-      "lead_days": null,
-      "outlet": null
-    },
-    {
-      "keyword": "ai governance",
-      "signal_type": "weak_signal",
-      "status": "miss",
-      "flagged_on": "2026-08-25",
       "resolved_on": null,
       "lead_days": null,
       "outlet": null
