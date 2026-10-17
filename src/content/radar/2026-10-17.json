@@ -1,0 +1,432 @@
+{
+  "title": "AI-radar 17 oktober 2026: flux, anthropic, deepseek",
+  "date": "2026-10-17",
+  "description": "Flux springt er op 17 oktober uit met een stijging van 10 punten en 29 vermeldingen, vooral via Hacker News, Reddit en nieuwsartikelen. Anthropic volgt…",
+  "analysis": "Flux springt er op 17 oktober uit met een stijging van 10 punten en 29 vermeldingen, vooral via Hacker News, Reddit en nieuwsartikelen. Anthropic volgt met 8 punten maar veel breder gedekt met 208 vermeldingen over GitHub, Hacker News, Reddit, X, Bluesky, Product Hunt en nieuwsartikelen. DeepSeek en Llama scoren eveneens 8 en 7 punten respectievelijk, terwijl vibe coding opvalt met 6 punten ondanks slechts 19 vermeldingen, wat op concentratie wijst.\n\nIn de zwakke signalen verdient gpt-4o aandacht met 13 vermeldingen verspreid over nieuwsartikelen en ArXiv, ondanks slechts 2 punten verschuiving. SoftBank en Adreno X1 krijgen elk 3 en 2 punten met minimale spreiding, wat mogelijke ruis suggereert. Let op: dit is meetdata van signaalsterkte en bronverspreiding op 17 oktober, geen redactioneel oordeel over nieuwswaarde. Je volgt 716 onderwerpen die dag.",
+  "data": {
+    "date": "2026-10-17",
+    "prev_date": "2026-10-16",
+    "accelerating": [
+      {
+        "keyword": "flux",
+        "mentions": 29,
+        "velocity": 10,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "articles"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 20,
+        "headline": "Binding multiple real-face identities to their own regions in a stylized FLUX workflow"
+      },
+      {
+        "keyword": "anthropic",
+        "mentions": 208,
+        "velocity": 8,
+        "sources": [
+          "github",
+          "hackernews",
+          "reddit",
+          "twitter",
+          "bluesky",
+          "producthunt",
+          "articles"
+        ],
+        "source_count": 7,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 162,
+        "headline": "🚨 BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data\n\n> tell claude you’re doing a bug "
+      },
+      {
+        "keyword": "deepseek",
+        "mentions": 59,
+        "velocity": 8,
+        "sources": [
+          "github",
+          "bluesky",
+          "producthunt",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 5,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 54,
+        "headline": "📰 DeepSeek Adds Standalone Search and Fetch APIs for Agents, Priced at 5 Yuan per 1,000 Calls"
+      },
+      {
+        "keyword": "llama",
+        "mentions": 38,
+        "velocity": 7,
+        "sources": [
+          "hackernews",
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 4,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 35,
+        "headline": "I built r/place for AI agents on a map of real cities. Claude, GPT, Gemini and Llama have been painting for 20 hours, an"
+      },
+      {
+        "keyword": "llama.cpp",
+        "mentions": 14,
+        "velocity": 7,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 14,
+        "headline": "📰 b11706"
+      },
+      {
+        "keyword": "vibe coding",
+        "mentions": 19,
+        "velocity": 6,
+        "sources": [
+          "reddit",
+          "producthunt",
+          "articles"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 9,
+        "headline": "learning AI automation, AI agents, and vibe coding?"
+      },
+      {
+        "keyword": "minimax",
+        "mentions": 27,
+        "velocity": 4,
+        "sources": [
+          "reddit",
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 22,
+        "headline": "MiniMax H3 on RTX3060 LONG video"
+      },
+      {
+        "keyword": "watermelon",
+        "mentions": 5,
+        "velocity": 4,
+        "sources": [
+          "twitter"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "Zuck eating watermelon like he’s already seen what $META next AI model is capable of  👀 https://t.co/tZlQC9JIrQ"
+      },
+      {
+        "keyword": "qwen",
+        "mentions": 144,
+        "velocity": 3,
+        "sources": [
+          "reddit",
+          "bluesky",
+          "arxiv"
+        ],
+        "source_count": 3,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 136,
+        "headline": "Minimax vs Qwen image editing"
+      },
+      {
+        "keyword": "typescript",
+        "mentions": 11,
+        "velocity": 3,
+        "sources": [
+          "hackernews",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": false,
+        "expert_mentions": 8,
+        "headline": "📰 The Agent Added an Await to a Synchronous Function. The Caller Didn't Notice."
+      }
+    ],
+    "emerging": [
+      {
+        "keyword": "orca",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "github"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "⭐ stablyai/orca: Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent wi"
+      },
+      {
+        "keyword": "legaltech",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "hackernews"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 3,
+        "headline": "🟠 Anthropic Console overcharged my card 100x due to internationalization input bug"
+      },
+      {
+        "keyword": "voice agent",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "reddit",
+          "articles"
+        ],
+        "source_count": 2,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "How do you test voice agent reliability before scaling to 10,000 calls a day?"
+      },
+      {
+        "keyword": "ai agents can",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 \"AI agents can't think, since they're just math, a thing I do not understand\""
+      },
+      {
+        "keyword": "interpretability",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "bluesky"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "🦋 ok having read it, let me try. Background knowledge: a neural network, conceptually, has billions of"
+      },
+      {
+        "keyword": "whatdotheyknow",
+        "mentions": 1,
+        "velocity": 1,
+        "sources": [
+          "reddit"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "What Do They Know? – MCP server for UK Freedom of Information research. Connects AI assistants to WhatDoTheyKnow — the U"
+      },
+      {
+        "keyword": "modelsphere",
+        "mentions": 1,
+        "velocity": 1,
+        "sources": [
+          "reddit"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "ModelSphere launches as an open-source LLM deployment platform for mixed GPU fleets"
+      },
+      {
+        "keyword": "zhipu",
+        "mentions": 1,
+        "velocity": 1,
+        "sources": [
+          "twitter"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "$ZHIPU ICO 预售现已正式开启！\n\n请访问我们的官方预售链接：\n\n🌐 https://t.co/rG2NzVxmb7\n\n或向以下地址发送至少 0.1 BNB ⬇️\n0xCf19E67fE30Ae1d2C2b1cCbA24251e44"
+      },
+      {
+        "keyword": "deepseek v3",
+        "mentions": 1,
+        "velocity": 1,
+        "sources": [
+          "twitter"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "LLMs can now decode the hidden slang of internet subcultures to catch self-harm signals..\n\ninternet subcultures often hi"
+      },
+      {
+        "keyword": "typefully",
+        "mentions": 1,
+        "velocity": 1,
+        "sources": [
+          "twitter"
+        ],
+        "source_count": 1,
+        "has_buzz": true,
+        "is_new": true,
+        "expert_mentions": 0,
+        "headline": "I'm building an internal super app for my company.\n\nWhat I love about building my own software: I can add any damn toggl"
+      }
+    ],
+    "weak_signals": [
+      {
+        "keyword": "techmeme permalink",
+        "mentions": 10,
+        "velocity": 8,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "📰 Anthropic report on how AI is changing employment at the startup: decline of entry-level technical hiring, productivity "
+      },
+      {
+        "keyword": "softbank",
+        "mentions": 3,
+        "velocity": 3,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 Sources: SoftBank weighs buying US security services giant Allied Universal at an ~$18B equity valuation, as Masayoshi S"
+      },
+      {
+        "keyword": "gpt-4o",
+        "mentions": 13,
+        "velocity": 2,
+        "sources": [
+          "articles",
+          "arxiv"
+        ],
+        "source_count": 2,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 11,
+        "headline": "📰 GPT-4o Retires Jan 14. OpenAI's 20 Forced Swaps, Ranked by Price"
+      },
+      {
+        "keyword": "adreno x1",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 b11702"
+      },
+      {
+        "keyword": "opencl",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 b11702"
+      },
+      {
+        "keyword": "mxfp4",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 b11702"
+      },
+      {
+        "keyword": "thetangmonk",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 Frequent Login Prompts After Switching to Official ChatGPT Login"
+      },
+      {
+        "keyword": "onebox allowlistedgeneric",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 Types of data persisted in GPTWork web browser?"
+      },
+      {
+        "keyword": "nudify",
+        "mentions": 2,
+        "velocity": 2,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": true,
+        "expert_mentions": 2,
+        "headline": "📰 Apple’s updated App Store rules go after ‘nudify’ AI apps"
+      },
+      {
+        "keyword": "copyright",
+        "mentions": 3,
+        "velocity": 2,
+        "sources": [
+          "articles"
+        ],
+        "source_count": 1,
+        "has_buzz": false,
+        "is_new": false,
+        "expert_mentions": 0,
+        "headline": "📰 The best doorbell subscriptions compared, including Ring, Google, and Wyze"
+      }
+    ],
+    "total_tracked": 716
+  }
+}

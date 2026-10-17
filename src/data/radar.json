@@ -1,82 +1,108 @@
 {
-  "generated_at": "2026-10-16T19:16:04.676549",
-  "total_tracked": 3811,
+  "generated_at": "2026-10-17T07:14:41.972815",
+  "total_tracked": 3613,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "nvidia",
-      "mentions": 78,
-      "velocity": 6.8,
+      "keyword": "deepseek",
+      "mentions": 59,
+      "velocity": 3.0,
       "sources": [
         "articles",
-        "github",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "arxiv",
+        "github"
       ],
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Orders are live on Nvidia RTX Spark devices, secure the Surface Laptop Ultra or other RTX Spark laptops here — starting ",
+      "expert_ratio": 0.87,
+      "headline": "DeepSeek si ferma per quasi 5 ore: è un problema di chip?",
       "articles": [
         {
-          "title": "Orders are live on Nvidia RTX Spark devices, secure the Surface Laptop Ultra or other RTX Spark laptops here — starting ",
-          "url": "https://www.tomshardware.com/laptops/nvidia-rtx-spark-devices-are-now-officially-on-sale-secure-the-surface-laptop-ultra-or-other-rtx-spark-laptops-here-starting-at-usd2-599-where-to-buy-pricing-and-availability-revealed-on-several-models",
+          "title": "DeepSeek si ferma per quasi 5 ore: è un problema di chip?",
+          "url": "https://www.tomshw.it/hardware/deepseek-si-ferma-per-quasi-5-ore-e-un-problema-di-chip",
           "source": "Tom's Hardware"
         },
         {
-          "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-          "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-          "source": "The Verge -  All Posts"
+          "title": "Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FL",
+          "url": "https://www.techmeme.com/261015/p59#a261015p59",
+          "source": "Techmeme"
         },
         {
-          "title": "Nvidia haalt RTX 5090 uit Amerikaanse webshop na geruchten over productiestop",
-          "url": "https://tweakers.net/nieuws/253420/nvidia-haalt-rtx-5090-uit-amerikaanse-webshop-na-geruchten-over-productiestop.html",
-          "source": "Tweakers Mixed RSS Feed"
+          "title": "L'IA arriva anche nel mouse: questo modello con DeepSeek costa appena 20€",
+          "url": "https://www.tomshw.it/hardware/mouse-wireless-ai-con-chatgpt-in-offerta-a-soli-20eur-2026-10-14",
+          "source": "Tom's Hardware"
         }
       ]
-    },
+    }
+  ],
+  "emerging": [
     {
-      "keyword": "gemini",
-      "mentions": 243,
-      "velocity": 5.2,
+      "keyword": "chatgpt",
+      "mentions": 260,
+      "velocity": 7.7,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
-        "linkedin",
         "reddit",
         "twitter"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.37,
-      "headline": "Google adds Gemini-powered scam checks to Messages and Android calls",
+      "expert_ratio": 0.48,
+      "headline": "CEO Amjad Masad says Replit is no longer working with Anthropic, citing cost and saying \"ChatGPT is better now\"; source:",
       "articles": [
         {
-          "title": "Google adds Gemini-powered scam checks to Messages and Android calls",
-          "url": "https://thenextweb.com/news/google-android-scam-protections-gemini",
-          "source": "The Next Web"
+          "title": "CEO Amjad Masad says Replit is no longer working with Anthropic, citing cost and saying \"ChatGPT is better now\"; source:",
+          "url": "https://www.techmeme.com/261016/p24#a261016p24",
+          "source": "Techmeme"
         },
         {
-          "title": "A team of Gemini 4 Argon agents beats Minecraft",
-          "url": "https://arxiv.org/abs/2610.22319",
+          "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+          "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "flux",
+      "mentions": 29,
+      "velocity": 5.3,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
+      "articles": [
+        {
+          "title": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
+          "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
+          "url": "https://arxiv.org/abs/2607.28022",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Google launches Universal Cart in the US, with checkout built into Search and the Gemini app",
-          "url": "https://thenextweb.com/news/google-universal-cart-us-only-eu",
-          "source": "The Next Web"
+          "title": "Welcome FLUX.3 Image Klein in Diffusers",
+          "url": "https://huggingface.co/blog/flux-3",
+          "source": "Hugging Face Blog"
         }
       ]
     },
     {
       "keyword": "qwen",
-      "mentions": 141,
-      "velocity": 5.0,
+      "mentions": 144,
+      "velocity": 4.4,
       "sources": [
         "arxiv",
         "reddit"
@@ -103,21 +129,40 @@
           "source": "Computerworld"
         }
       ]
+    }
+  ],
+  "weak_signals": [
+    {
+      "keyword": "arxiv",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "ArXiv versus AI slop: will capping preprint submissions work?",
+      "articles": [
+        {
+          "title": "ArXiv versus AI slop: will capping preprint submissions work?",
+          "url": "https://www.nature.com/articles/d41586-026-03194-w",
+          "source": "Nature - Issue - nature.com science feeds"
+        }
+      ]
     },
     {
-      "keyword": "perplexity",
-      "mentions": 40,
-      "velocity": 4.7,
+      "keyword": "sandbox",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "articles",
-        "arxiv",
-        "linkedin",
-        "reddit"
+        "articles"
       ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.64,
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
       "headline": "Perplexity open sources SPACE, its AI agent sandbox, and says partners including CoreWeave, Akamai, and Crusoe agreed to",
       "articles": [
         {
@@ -126,237 +171,28 @@
           "source": "Techmeme"
         },
         {
-          "title": "AI reputation management: what gets said about you inside ChatGPT, Perplexity ＆ Google Gemini",
-          "url": "https://thenextweb.com/news/ai-reputation-management-chatgpt-perplexity-gemini",
-          "source": "The Next Web"
-        },
-        {
-          "title": "PIVOT: Perplexity-Informed KD-to-RL Transition Scheduling for Vertical-Domain Few-Shot Distillation",
-          "url": "https://arxiv.org/abs/2610.11167",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "cursor",
-      "mentions": 80,
-      "velocity": 3.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.24,
-      "headline": "Cursor Staff Investigated Whether Confidential Data Reached SpaceX for AI Training",
-      "articles": [
-        {
-          "title": "Cursor Staff Investigated Whether Confidential Data Reached SpaceX for AI Training",
-          "url": "https://www.theinformation.com/articles/cursor-staff-investigated-whether-confidential-data-reached-spacex-ai-training",
-          "source": "The Information"
-        },
-        {
-          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
-          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
-          "source": "Artificial Intelligence (AI) | TechCrunch"
-        },
-        {
-          "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 p",
-          "url": "https://www.techmeme.com/261013/p10#a261013p10",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "claude",
-      "mentions": 572,
-      "velocity": 2.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.71,
-      "headline": "Accenture employees will only be able to spend $29 on Claude per month after some ended up splashing out thousands of do",
-      "articles": [
-        {
-          "title": "Accenture employees will only be able to spend $29 on Claude per month after some ended up splashing out thousands of do",
-          "url": "https://www.techradar.com/pro/accenture-employees-given-usd29-claude-spend-per-month-after-some-employees-spent-thousands",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "NVIDIA's new, open Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchma",
-          "url": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks?utm_source=flipboard&utm_content=topic/artificialintelligence",
-          "source": "Artificial Intelligence"
-        }
-      ]
-    },
-    {
-      "keyword": "ai coding",
-      "mentions": 46,
-      "velocity": 2.5,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.49,
-      "headline": "Aidlc: Adaptive workflow steering rules for AI coding agents",
-      "articles": [
-        {
-          "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
-          "url": "https://github.com/awslabs/aidlc-workflows",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Epic Games reportedly delays Disney shooter title so it can pivot to AI coding",
-          "url": "https://www.tomshardware.com/video-games/pc-gaming/epic-games-reportedly-delays-disney-shooter-title-so-it-can-pivot-to-ai-coding-staff-allegedly-told-no-more-handwritten-code-with-art-generated-with-full-ai-workflows",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "How AI coding tools could amplify software supply-chain attacks",
-          "url": "https://thenextweb.com/news/npm-trusted-publishing-flaw-ai-agents-slugfest",
-          "source": "The Next Web"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "chatgpt",
-      "mentions": 273,
-      "velocity": 16.6,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.48,
-      "headline": "ChatGPT can now look at your Chrome tabs to do tasks for you",
-      "articles": [
-        {
-          "title": "ChatGPT can now look at your Chrome tabs to do tasks for you",
-          "url": "https://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome/",
-          "source": "Engadget"
-        },
-        {
-          "title": "ChatGPT impara a usare Chrome, ecco cosa può fare adesso",
-          "url": "https://www.tomshw.it/altro/chatgpt-impara-a-usare-chrome-ecco-cosa-puo-fare-adesso",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "reinforcement learning",
-      "mentions": 129,
-      "velocity": 11.3,
-      "sources": [
-        "arxiv",
-        "linkedin"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "Provably Efficient Risk-Sensitive Offline Reinforcement Learning via Optimized Certainty Equivalents",
-      "articles": [
-        {
-          "title": "Provably Efficient Risk-Sensitive Offline Reinforcement Learning via Optimized Certainty Equivalents",
-          "url": "https://arxiv.org/abs/2610.21870",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Drive As You Like: Multi-Head Diffusion with Reinforcement Learning for Personalized Driving",
-          "url": "https://arxiv.org/abs/2508.16947",
+          "title": "ASIWorld: Benchmarking Autonomous Agents in a Persistent Survival Sandbox",
+          "url": "https://arxiv.org/abs/2610.14807",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Design the Feedback, Not Just the Reward: Environments for Open-Ended Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2608.27906",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "mcp server",
-      "mentions": 61,
-      "velocity": 4.9,
-      "sources": [
-        "articles",
-        "linkedin",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.08,
-      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
-      "articles": [
-        {
-          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
-          "url": "https://github.com/vscarpenter/gsd-task-manager",
+          "title": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
+          "url": "https://github.com/plimsollmark/plimsoll",
           "source": "Hacker News"
         }
       ]
     },
-    {
-      "keyword": "claude code",
-      "mentions": 58,
-      "velocity": 4.7,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
-      "articles": [
-        {
-          "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
-          "url": "https://arxiv.org/abs/2604.14228",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    }
-  ],
-  "weak_signals": [
     {
       "keyword": "ai research",
       "mentions": 3,
-      "velocity": 2.0,
+      "velocity": 0.8,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 63,
-      "days_active": 2,
-      "expert_ratio": 0.75,
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
       "headline": "AIPOCH Open-Science: An Open-Source AI Research Workbench with Reproducible .science Packages",
       "articles": [
         {
@@ -402,8 +238,13 @@
       "confidence": 73,
       "days_active": 4,
       "expert_ratio": 0.89,
-      "headline": "Promozione Flash Samsung (di nuovo): fino a 400€ di sconto e Galaxy Watch8 gratis",
+      "headline": "How flash storage can cut GPU waste from KV-cache recomputation - VentureBeat",
       "articles": [
+        {
+          "title": "How flash storage can cut GPU waste from KV-cache recomputation - VentureBeat",
+          "url": "https://venturebeat.com/infrastructure/up-to-60-of-gpu-compute-goes-to-recomputing-context-flash-storage-can-put-that-capacity-back-to-work",
+          "source": "VentureBeat"
+        },
         {
           "title": "Promozione Flash Samsung (di nuovo): fino a 400€ di sconto e Galaxy Watch8 gratis",
           "url": "https://www.tomshw.it/offerte/promozione-flash-samsung-di-nuovo-fino-a-400eur-di-sconto-e-galaxy-watch8-gratis",
@@ -413,11 +254,6 @@
           "title": "Flash Sale Dyson: solo per poche ore sconti su V15s Submarine e Airwrap",
           "url": "https://www.tomshw.it/offerte/flash-sale-dyson-solo-per-poche-ore-sconti-su-v15s-submarine-e-airwrap",
           "source": "Tom's Hardware"
-        },
-        {
-          "title": "From The Flash to Megalopolis: Hollywood's costliest flops",
-          "url": "https://qz.com/box-office-bombs-2020s",
-          "source": "Quartz"
         }
       ]
     },
@@ -437,183 +273,108 @@
         {
           "title": "User refused to change her password because everyone already knew it",
           "url": "https://www.theregister.com/security/2026/10/16/user-refused-to-change-her-password-because-everyone-already-knew-it/5301864",
-          "source": "The Register - Security"
-        },
-        {
-          "title": "ARGUS: An Agenda-Driven Framework for Reliable User Simulation",
-          "url": "https://arxiv.org/abs/2610.21346",
-          "source": "cs.AI updates on arXiv.org"
+          "source": "The Register"
         },
         {
           "title": "FedSumUp: User-Auditable Privacy-Aware Representation Sharing for Resource-Constrained Federated Intelligence",
           "url": "https://arxiv.org/abs/2610.21194",
           "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ARGUS: An Agenda-Driven Framework for Reliable User Simulation",
+          "url": "https://arxiv.org/abs/2610.21346",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "comet",
+      "keyword": "deepfakes",
       "mentions": 2,
       "velocity": 0.3,
-      "sources": [
-        "arxiv"
-      ],
-      "source_count": 1,
-      "confidence": 67,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 52,
       "days_active": 4,
       "expert_ratio": 0.67,
-      "headline": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
+      "headline": "Nobody is safe from celebrity AI deepfakes",
       "articles": [
         {
-          "title": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
-          "url": "https://www.sciencedaily.com/releases/2026/10/261005071523.htm",
-          "source": "ScienceDaily"
+          "title": "Nobody is safe from celebrity AI deepfakes",
+          "url": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+          "source": "The Verge -  Artificial Intelligences"
+        },
+        {
+          "title": "Microsoft Teams will soon be able to spot third-party deepfakes on your morning meeting",
+          "url": "https://www.techradar.com/pro/microsoft-teams-will-soon-be-able-to-spot-third-party-deepfakes-on-your-morning-meeting",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Giorgia Meloni files to trademark her voice against AI deepfakes",
+          "url": "https://thenextweb.com/news/meloni-trademark-her-voice-ai-deepfakes",
+          "source": "The Next Web"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "openai",
-      "mentions": 346,
-      "velocity": 1.4,
+      "keyword": "mcp server",
+      "mentions": 56,
+      "velocity": 1.9,
       "sources": [
         "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 7,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
+      "expert_ratio": 0.08,
+      "headline": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
       "articles": [
         {
-          "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
-          "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
-          "source": "Engadget"
-        },
-        {
-          "title": "OpenAI claims ex-employee took 100-plus secret files to Apple",
-          "url": "https://www.techradar.com/pro/openai-claims-ex-employee-took-100-plus-secret-files-to-apple",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "OpenAI says its model paid for a deployment on an Ethereum test network with a wallet it did not own, after obtaining ke",
-          "url": "https://www.techmeme.com/261016/p4#a261016p4",
-          "source": "Techmeme"
+          "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+          "url": "https://github.com/vscarpenter/gsd-task-manager",
+          "source": "Hacker News"
         }
       ]
     },
     {
-      "keyword": "agentic",
-      "mentions": 112,
-      "velocity": 1.1,
+      "keyword": "ai coding",
+      "mentions": 45,
+      "velocity": 1.5,
       "sources": [
         "articles",
-        "arxiv",
         "github",
         "hackernews",
-        "linkedin",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 7,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-      "articles": [
-        {
-          "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-          "url": "https://arxiv.org/abs/2610.20681",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Asynchrony Is Nearly Free for Evolution Strategies on Long-Horizon LLM Agentic Tasks",
-          "url": "https://arxiv.org/abs/2610.04196",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "LLM-as-an-Investigator: Evidence-First Agentic Reasoning for Robust Interactive Problem Diagnosis",
-          "url": "https://arxiv.org/abs/2606.13220",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "deepseek",
-      "mentions": 51,
-      "velocity": 0.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "linkedin"
+        "reddit"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "DeepSeek si ferma per quasi 5 ore: è un problema di chip?",
+      "expert_ratio": 0.48,
+      "headline": "Aidlc: Adaptive workflow steering rules for AI coding agents",
       "articles": [
         {
-          "title": "DeepSeek si ferma per quasi 5 ore: è un problema di chip?",
-          "url": "https://www.tomshw.it/hardware/deepseek-si-ferma-per-quasi-5-ore-e-un-problema-di-chip",
+          "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+          "url": "https://github.com/awslabs/aidlc-workflows",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Epic Games reportedly delays Disney shooter title so it can pivot to AI coding",
+          "url": "https://www.tomshardware.com/video-games/pc-gaming/epic-games-reportedly-delays-disney-shooter-title-so-it-can-pivot-to-ai-coding-staff-allegedly-told-no-more-handwritten-code-with-art-generated-with-full-ai-workflows",
           "source": "Tom's Hardware"
         },
         {
-          "title": "Microsoft unveils MAI-Base-2, a MoE model with 2.8T total and 80B active parameters, claiming 4x-12x more pretraining FL",
-          "url": "https://www.techmeme.com/261015/p59#a261015p59",
-          "source": "Techmeme"
-        },
-        {
-          "title": "L'IA arriva anche nel mouse: questo modello con DeepSeek costa appena 20€",
-          "url": "https://www.tomshw.it/hardware/mouse-wireless-ai-con-chatgpt-in-offerta-a-soli-20eur-2026-10-14",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 82,
-      "velocity": -0.2,
-      "sources": [
-        "articles",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.32,
-      "headline": "Musk says SpaceX will cover Grok Bot purchase mistakes and leaked cards",
-      "articles": [
-        {
-          "title": "Musk says SpaceX will cover Grok Bot purchase mistakes and leaked cards",
-          "url": "https://thenextweb.com/news/musk-grok-bot-credit-card-spacex-make-you-whole",
+          "title": "How AI coding tools could amplify software supply-chain attacks",
+          "url": "https://thenextweb.com/news/npm-trusted-publishing-flaw-ai-agents-slugfest",
           "source": "The Next Web"
-        },
-        {
-          "title": "Calling up Starlink customer service? You'll be talking to Grok.",
-          "url": "https://www.businessinsider.com/starlink-customer-service-grok-2026-10",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Elon Musk says SpaceX will pay back anyone whose Grok AI agent makes a rogue purchase",
-          "url": "https://www.businessinsider.com/elon-musk-spacex-will-pay-users-back-grok-purchase-mistakes-2026-10",
-          "source": "All Content from Business Insider"
         }
       ]
     },
     {
-      "keyword": "minimax",
-      "mentions": 23,
-      "velocity": -0.3,
+      "keyword": "context window",
+      "mentions": 12,
+      "velocity": 1.4,
       "sources": [
         "arxiv",
         "reddit"
@@ -621,75 +382,153 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "When Is Muon Optimal? Radial Fragility and Minimax Geometry",
+      "expert_ratio": 0.75,
+      "headline": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
       "articles": [
         {
-          "title": "When Is Muon Optimal? Radial Fragility and Minimax Geometry",
-          "url": "https://arxiv.org/abs/2610.21549",
+          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
+          "url": "https://arxiv.org/abs/2608.22137",
           "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "vibe coding",
+      "mentions": 19,
+      "velocity": 1.3,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.59,
+      "headline": "Bluesky expands Attie, its AI tool for building custom feeds, with a \"social vibe coding\" feature to create sites, games",
+      "articles": [
+        {
+          "title": "Bluesky expands Attie, its AI tool for building custom feeds, with a \"social vibe coding\" feature to create sites, games",
+          "url": "https://www.techmeme.com/261015/p53#a261015p53",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "cursor",
+      "mentions": 75,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.24,
+      "headline": "Cursor Staff Investigated Whether Confidential Data Reached SpaceX for AI Training",
+      "articles": [
+        {
+          "title": "Cursor Staff Investigated Whether Confidential Data Reached SpaceX for AI Training",
+          "url": "https://www.theinformation.com/articles/cursor-staff-investigated-whether-confidential-data-reached-spacex-ai-training",
+          "source": "The Information"
         },
         {
-          "title": "Two Sample Sizes in Test-Time LLM Ensembling: Buffered ERM and Minimax Theory",
-          "url": "https://arxiv.org/abs/2610.21363",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
         },
         {
-          "title": "Discrete Diffusion Models are Minimax Optimal Under Sparsity",
-          "url": "https://arxiv.org/abs/2610.19020",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "SpaceXSI launches a unified X Subscription bundling Grok, Cursor, and X Premium, with tiers at $8, $30, $100, and $200 p",
+          "url": "https://www.techmeme.com/261013/p10#a261013p10",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 38,
+      "velocity": 1.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.93,
+      "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "articles": [
+        {
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "Hacker News"
+        },
+        {
+          "title": "b11679: llama : share the k-pool input views between layers (#30613)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679",
+          "source": "llama.cpp Releases"
+        },
+        {
+          "title": "b11599: llama : do not map foreign ranges into a backend buffer (#30405)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11599",
+          "source": "llama.cpp Releases"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 324,
-    "covered": 179,
-    "coverage_rate": 0.552,
-    "early": 97,
-    "early_rate": 0.299,
-    "avg_lead_days": 14.4,
-    "median_lead_days": 10,
+    "scored_predictions": 331,
+    "covered": 184,
+    "coverage_rate": 0.556,
+    "early": 100,
+    "early_rate": 0.302,
+    "avg_lead_days": 14.6,
+    "median_lead_days": 10.5,
     "max_lead_days": 42,
-    "hit_rate": 0.552,
-    "materialized": 179,
+    "hit_rate": 0.556,
+    "materialized": 184,
     "by_signal_type": {
       "emerging": {
-        "scored": 194,
-        "covered": 149,
-        "early": 76,
-        "coverage_rate": 0.768,
+        "scored": 199,
+        "covered": 153,
+        "early": 78,
+        "coverage_rate": 0.769,
         "early_rate": 0.392,
-        "hit_rate": 0.768
+        "hit_rate": 0.769
       },
       "weak_signal": {
-        "scored": 130,
-        "covered": 30,
-        "early": 21,
-        "coverage_rate": 0.231,
-        "early_rate": 0.162,
-        "hit_rate": 0.231
+        "scored": 132,
+        "covered": 31,
+        "early": 22,
+        "coverage_rate": 0.235,
+        "early_rate": 0.167,
+        "hit_rate": 0.235
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 324,
+    "n": 331,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.556,
-      "early_rate": 0.302
+      "coverage_rate": 0.559,
+      "early_rate": 0.305
     },
     "null_mean": {
-      "coverage_rate": 0.581,
+      "coverage_rate": 0.583,
       "early_rate": 0.348
     },
     "p_value": {
-      "coverage_rate": 0.973,
-      "early_rate": 0.982
+      "coverage_rate": 0.98,
+      "early_rate": 0.991
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -735,16 +574,6 @@
       "title": "Uber reports Q2 revenue up 12% YoY to $14.2B, below $14.24B est., Gross Bookings up 24% to $58B, above $57B est., and forecasts Q3 adjusted EPS below est. (Lora Kolodny/CNBC)"
     },
     {
-      "keyword": "huggingface",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-28",
-      "materialized_on": "2026-10-05",
-      "lead_days": 38,
-      "outlet": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
-      "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
-    },
-    {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-14",
@@ -753,6 +582,16 @@
       "outlet": "VentureBeat",
       "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
       "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
+    },
+    {
+      "keyword": "huggingface",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-28",
+      "materialized_on": "2026-10-05",
+      "lead_days": 38,
+      "outlet": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
+      "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
     },
     {
       "keyword": "context window",
@@ -765,18 +604,30 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
+      "keyword": "prompt engineering",
       "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
       "lead_days": 36,
       "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "watching_now": {
     "new_on_radar": [
+      {
+        "keyword": "mcp server",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-17",
+        "confidence": 0.6
+      },
+      {
+        "keyword": "flux",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-17",
+        "confidence": 0.2
+      },
       {
         "keyword": "chatgpt",
         "signal_type": "emerging",
@@ -826,36 +677,31 @@
         "confidence": 0.4
       },
       {
-        "keyword": "higgsfield",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-14",
-        "confidence": 0.2
-      },
-      {
         "keyword": "cerebras",
         "signal_type": "emerging",
         "flagged_on": "2026-10-14",
         "confidence": 0.2
       },
       {
-        "keyword": "llama.cpp",
+        "keyword": "higgsfield",
         "signal_type": "emerging",
-        "flagged_on": "2026-10-14",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "rlhf",
-        "signal_type": "weak_signal",
         "flagged_on": "2026-10-14",
         "confidence": 0.2
       }
     ],
     "heating_up": [
       {
-        "keyword": "jasper",
-        "recent_mentions": 10,
+        "keyword": "character ai",
+        "recent_mentions": 12,
         "prior_mentions": 1,
-        "change_ratio": 10.0,
+        "change_ratio": 12.0,
+        "corroborating_sources": 3
+      },
+      {
+        "keyword": "jasper",
+        "recent_mentions": 12,
+        "prior_mentions": 1,
+        "change_ratio": 12.0,
         "corroborating_sources": 1
       },
       {
@@ -866,74 +712,67 @@
         "corroborating_sources": 3
       },
       {
-        "keyword": "qwen2.5",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "retrieval augmented generation",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "ai alignment",
-        "recent_mentions": 9,
-        "prior_mentions": 2,
-        "change_ratio": 4.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "qwen2",
-        "recent_mentions": 8,
-        "prior_mentions": 2,
-        "change_ratio": 4.0,
-        "corroborating_sources": 2
+        "keyword": "character.ai",
+        "recent_mentions": 23,
+        "prior_mentions": 3,
+        "change_ratio": 7.67,
+        "corroborating_sources": 3
       },
       {
         "keyword": "rlhf",
-        "recent_mentions": 20,
-        "prior_mentions": 6,
-        "change_ratio": 3.33,
+        "recent_mentions": 29,
+        "prior_mentions": 4,
+        "change_ratio": 7.25,
         "corroborating_sources": 2
       },
       {
-        "keyword": "synthetic data",
-        "recent_mentions": 21,
-        "prior_mentions": 7,
-        "change_ratio": 3.0,
-        "corroborating_sources": 2
+        "keyword": "ai alignment",
+        "recent_mentions": 12,
+        "prior_mentions": 2,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
       },
       {
         "keyword": "slm",
         "recent_mentions": 12,
-        "prior_mentions": 4,
-        "change_ratio": 3.0,
+        "prior_mentions": 2,
+        "change_ratio": 6.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "xai",
-        "recent_mentions": 52,
-        "prior_mentions": 19,
-        "change_ratio": 2.74,
+        "keyword": "simplified",
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "text to speech",
+        "recent_mentions": 10,
+        "prior_mentions": 2,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "leonardo",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "replicate",
+        "recent_mentions": 30,
+        "prior_mentions": 7,
+        "change_ratio": 4.29,
         "corroborating_sources": 4
       },
       {
-        "keyword": "ai governance",
-        "recent_mentions": 19,
-        "prior_mentions": 7,
-        "change_ratio": 2.71,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "dalle",
+        "keyword": "aider",
         "recent_mentions": 8,
-        "prior_mentions": 3,
-        "change_ratio": 2.67,
-        "corroborating_sources": 1
+        "prior_mentions": 2,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
       }
     ]
   }
