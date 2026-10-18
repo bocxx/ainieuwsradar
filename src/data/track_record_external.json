@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-17T17:25:53+00:00",
+  "generated_at": "2026-10-18T05:25:19+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 331,
-    "covered": 184,
-    "coverage_rate": 0.556,
+    "scored_predictions": 336,
+    "covered": 187,
+    "coverage_rate": 0.557,
     "early": 100,
-    "early_rate": 0.302,
+    "early_rate": 0.298,
     "avg_lead_days": 14.6,
     "median_lead_days": 10.5,
     "max_lead_days": 42,
-    "hit_rate": 0.556,
-    "materialized": 184,
+    "hit_rate": 0.557,
+    "materialized": 187,
     "by_signal_type": {
       "emerging": {
-        "scored": 199,
-        "covered": 153,
+        "scored": 203,
+        "covered": 156,
         "early": 78,
-        "coverage_rate": 0.769,
-        "early_rate": 0.392,
-        "hit_rate": 0.769
+        "coverage_rate": 0.768,
+        "early_rate": 0.384,
+        "hit_rate": 0.768
       },
       "weak_signal": {
-        "scored": 132,
+        "scored": 133,
         "covered": 31,
         "early": 22,
-        "coverage_rate": 0.235,
-        "early_rate": 0.167,
-        "hit_rate": 0.235
+        "coverage_rate": 0.233,
+        "early_rate": 0.165,
+        "hit_rate": 0.233
       }
     }
   },
@@ -106,14 +106,14 @@
       "title": "Het context window van Claude Code: Uitleg ＆ Tips"
     },
     {
-      "keyword": "flair",
+      "keyword": "prompt engineering",
       "signal_type": "emerging",
-      "flagged_on": "2026-08-06",
-      "materialized_on": "2026-09-11",
+      "flagged_on": "2026-08-18",
+      "materialized_on": "2026-09-23",
       "lead_days": 36,
       "outlet": "TechRadar",
-      "url": "https://www.techradar.com/gaming/exclusive-jason-seems-quite-deadpan-and-monotone-former-gta-dev-says-he-wants-to-see-more-personality-from-the-gta-6-protagonist-since-rockstar-usually-gives-us-characters-who-are-funny-and-have-their-own-flair",
-      "title": "Exclusive: 'Jason seems quite deadpan and monotone' — Former GTA dev says he wants to see more personality from the GTA 6 protagonist, since Rockstar 'usually gives us characters who are funny and have their own flair'"
+      "url": "https://www.techradar.com/pro/ai-is-wiping-out-whole-degrees-in-china-translation-photography-illustration-and-fashion-design-are-going-while-prompt-engineering-is-the-new-job-appearing-in-film",
+      "title": "AI is wiping out whole degrees in China — translation, photography, illustration and fashion design are going, while prompt engineering is the new job appearing in film"
     }
   ],
   "caveats": [
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 331,
+    "n": 336,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.559,
-      "early_rate": 0.305
+      "coverage_rate": 0.56,
+      "early_rate": 0.301
     },
     "null_mean": {
-      "coverage_rate": 0.583,
+      "coverage_rate": 0.584,
       "early_rate": 0.348
     },
     "p_value": {
-      "coverage_rate": 0.98,
-      "early_rate": 0.991
+      "coverage_rate": 0.974,
+      "early_rate": 0.994
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
