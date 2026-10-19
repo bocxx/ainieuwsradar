@@ -1,103 +1,261 @@
 {
-  "generated_at": "2026-10-18T19:12:52.369073",
-  "total_tracked": 3590,
+  "generated_at": "2026-10-19T07:12:48.346774",
+  "total_tracked": 3550,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "openai",
-      "mentions": 354,
+      "keyword": "simulation",
+      "mentions": 40,
+      "velocity": 5.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.83,
+      "headline": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
+      "articles": [
+        {
+          "title": "ENFR: Evidence Networks with Flow-Matched References for Amortized Simulation-Based Model Inference",
+          "url": "https://arxiv.org/abs/2610.23825",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Diffusion Models in Simulation-Based Inference: A Tutorial Review",
+          "url": "https://arxiv.org/abs/2512.20685",
+          "source": "stat.ML updates on arXiv.org"
+        },
+        {
+          "title": "Conditional Mean Flows: Few-Step Densities for Simulation-Based Inference",
+          "url": "https://arxiv.org/abs/2610.21657",
+          "source": "stat.ML updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "reinforcement learning",
+      "mentions": 130,
       "velocity": 4.4,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Watch OpenAI Arrest Raises AI Espionage Concerns - Bloomberg",
+      "expert_ratio": 0.99,
+      "headline": "Online Inference for Quantile Distributional Reinforcement Learning",
       "articles": [
         {
-          "title": "Watch OpenAI Arrest Raises AI Espionage Concerns - Bloomberg",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-18/openai-arrest-raises-ai-espionage-concerns-video?utm_source=flipboard&utm_content=bloomberg/magazine/Bloomberg+Television",
-          "source": "Artificial Intelligence"
+          "title": "Online Inference for Quantile Distributional Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.12973",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "OpenAI is building a humanoid robot, but the body isn't the real challenge",
-          "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
-          "source": "Engadget"
+          "title": "Reinforcement Learning in MDPs with Information-Ordered Policies",
+          "url": "https://arxiv.org/abs/2508.03904",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
-          "url": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
-          "source": "The Next Web"
+          "title": "Provably Efficient Risk-Sensitive Offline Reinforcement Learning via Optimized Certainty Equivalents",
+          "url": "https://arxiv.org/abs/2610.21870",
+          "source": "stat.ML updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "ai safety",
-      "mentions": 22,
-      "velocity": 3.2,
+      "keyword": "flux",
+      "mentions": 33,
+      "velocity": 4.3,
       "sources": [
         "articles",
-        "arxiv",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.69,
-      "headline": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-      "articles": [
-        {
-          "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-          "source": "Hacker News"
-        },
-        {
-          "title": "Bill Gates leans on CEOs as he plans a bigger AI safety push, Axios reports",
-          "url": "https://thenextweb.com/news/bill-gates-ai-safety-push-ceos-axios",
-          "source": "The Next Web"
-        },
-        {
-          "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
-          "url": "https://thenextweb.com/news/ftc-subpoenas-openai-anthropic-ai-safety-incidents",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "hugging face",
-      "mentions": 17,
-      "velocity": 2.7,
-      "sources": [
-        "articles",
-        "arxiv",
         "hackernews",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.4,
-      "headline": "Odd Lots: How OpenAI’s Rogue Model Hacked Hugging Face",
+      "expert_ratio": 0.74,
+      "headline": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
       "articles": [
         {
-          "title": "Odd Lots: How OpenAI’s Rogue Model Hacked Hugging Face",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/odd-lots-how-openai-s-rogue-model-hacked-hugging-face-video",
+          "title": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
+          "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
+          "url": "https://arxiv.org/abs/2607.28022",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Welcome FLUX.3 Image Klein in Diffusers",
+          "url": "https://huggingface.co/blog/flux-3",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "keyword": "open-source ai",
+      "mentions": 26,
+      "velocity": 4.0,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.07,
+      "headline": "AIPOCH Open-Science: An Open-Source AI Research Workbench with Reproducible .science Packages",
+      "articles": [
+        {
+          "title": "AIPOCH Open-Science: An Open-Source AI Research Workbench with Reproducible .science Packages",
+          "url": "https://arxiv.org/abs/2610.17110",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Anthropic executive warns open-source AI models carry more safety risk",
+          "url": "https://qz.com/anthropic-open-source-ai-safety-risk-101426",
+          "source": "Quartz"
+        },
+        {
+          "title": "Anthropic Executive Says Open-Source AI Models Are Higher Risk",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/anthropic-executive-says-open-source-ai-models-are-higher-risk",
           "source": "Bloomberg Technology"
         }
       ]
     },
     {
-      "keyword": "distillation",
-      "mentions": 38,
+      "keyword": "world model",
+      "mentions": 16,
+      "velocity": 3.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.84,
+      "headline": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "articles": [
+        {
+          "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+          "url": "https://arxiv.org/abs/2610.22364",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+          "url": "https://arxiv.org/abs/2610.22343",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
+          "url": "https://arxiv.org/abs/2610.21910",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "nvidia",
+      "mentions": 68,
       "velocity": 2.6,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit",
+      "articles": [
+        {
+          "title": "Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit",
+          "url": "https://www.techmeme.com/261018/p11#a261018p11",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Sources: Nvidia asked Samsung, SK Hynix, and Micron to make base dies for its custom NVHBM memory on TSMC's 3nm process;",
+          "url": "https://www.techmeme.com/261018/p9#a261018p9",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs",
+          "url": "https://www.tomshardware.com/pc-components/gpus/amd-cards-now-run-all-dlss-features-thanks-to-one-developers-project-plans-to-match-native-nvidia-gpu-performance",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "huggingface",
+      "mentions": 18,
+      "velocity": 2.4,
+      "sources": [
+        "arxiv",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July ",
+      "articles": [
+        {
+          "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July ",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
+          "source": "Tom's Hardware"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
+      "keyword": "deepseek",
+      "mentions": 114,
+      "velocity": 12.3,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "DeepSeek releases V4.1-Flash-1017, an update it says offers \"stronger benchmark performance, faster task completion, and",
+      "articles": [
+        {
+          "title": "DeepSeek releases V4.1-Flash-1017, an update it says offers \"stronger benchmark performance, faster task completion, and",
+          "url": "https://www.techmeme.com/261017/p13#a261017p13",
+          "source": "Techmeme"
+        },
+        {
+          "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "DeepSeek-v4.1-Flash-1017",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "distillation",
+      "mentions": 44,
+      "velocity": 3.7,
       "sources": [
         "arxiv",
         "reddit"
@@ -119,172 +277,62 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    }
-  ],
-  "emerging": [
+    },
     {
-      "keyword": "deepseek",
-      "mentions": 103,
-      "velocity": 12.9,
+      "keyword": "mistral",
+      "mentions": 22,
+      "velocity": 2.0,
       "sources": [
         "articles",
         "arxiv",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.89,
-      "headline": "DeepSeek releases V4.1-Flash-1017, an update it says offers \"stronger benchmark performance, faster task completion, and",
-      "articles": [
-        {
-          "title": "DeepSeek releases V4.1-Flash-1017, an update it says offers \"stronger benchmark performance, faster task completion, and",
-          "url": "https://www.techmeme.com/261017/p13#a261017p13",
-          "source": "Techmeme"
-        },
-        {
-          "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "DeepSeek-v4.1-Flash-1017",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "anthropic",
-      "mentions": 232,
-      "velocity": 4.5,
-      "sources": [
-        "articles",
-        "github",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-      "articles": [
-        {
-          "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-          "source": "Hacker News"
-        },
-        {
-          "title": "What are self-replicating ‘AI worms’, and why is Anthropic worried about them?",
-          "url": "https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries",
-          "source": "Artificial intelligence (AI) | The Guardian"
-        },
-        {
-          "title": "How employment is changing at Anthropic",
-          "url": "https://www.anthropic.com/research/employment-at-anthropic",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "flux",
-      "mentions": 27,
-      "velocity": 3.6,
-      "sources": [
-        "articles",
-        "hackernews",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
+      "expert_ratio": 0.72,
+      "headline": "CERN and Mistral plan an AI foundation model for particle physics",
       "articles": [
         {
-          "title": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
-          "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
-          "source": "VentureBeat"
+          "title": "CERN and Mistral plan an AI foundation model for particle physics",
+          "url": "https://thenextweb.com/news/cern-mistral-large-physics-model",
+          "source": "The Next Web"
         },
         {
-          "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
-          "url": "https://arxiv.org/abs/2607.28022",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Mistral’s new Large 4 trails some Chinese open models in independent tests",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Welcome FLUX.3 Image Klein in Diffusers",
-          "url": "https://huggingface.co/blog/flux-3",
-          "source": "Hugging Face Blog"
+          "title": "China bouwt als een dolle datacenters en Ecosia laat Mistral vallen",
+          "url": "https://www.nrc.nl/nieuws/2026/10/08/china-bouwt-als-een-dolle-datacenters-en-ecosia-laat-mistral-vallen-a4938487",
+          "source": "NRC"
         }
       ]
     },
     {
-      "keyword": "qwen",
-      "mentions": 141,
-      "velocity": 2.2,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
-      "articles": [
-        {
-          "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
-          "url": "https://arxiv.org/abs/2610.21614",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Nvidia's RTX Spark Superchip in the Surface Laptop Ultra outperforms Apple's M5 Max MacBook Pro by ~25% in agentic AI co",
-          "url": "https://www.techmeme.com/261015/p26#a261015p26",
-          "source": "Techmeme"
-        },
-        {
-          "title": "China clears Alibaba’s Qwen AI just in time for iPhone Duo",
-          "url": "https://www.computerworld.com/article/4235207/china-clears-alibabas-qwen-ai-just-in-time-for-iphone-duo.html",
-          "source": "Computerworld"
-        }
-      ]
-    },
-    {
-      "keyword": "replicate",
-      "mentions": 14,
+      "keyword": "higgsfield",
+      "mentions": 11,
       "velocity": 2.0,
       "sources": [
-        "articles",
-        "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Could AI really replicate across the internet? What Anthropic warns | Reuters World News",
+      "expert_ratio": 0.14,
+      "headline": "Higgsfield takes AI video from 1 minute to over 10",
       "articles": [
         {
-          "title": "Could AI really replicate across the internet? What Anthropic warns | Reuters World News",
-          "url": "https://www.youtube.com/watch?v=eMWDn40RqK0",
-          "source": "Reuters"
+          "title": "Higgsfield takes AI video from 1 minute to over 10",
+          "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+          "source": "OpenAI"
         },
         {
-          "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-          "source": "Ars Technica"
-        },
-        {
-          "title": "AI models may soon self-replicate without access to data centers",
-          "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
-          "source": "Hacker News"
+          "title": "Higgsfield CEO on Growth, $1B Run-rate",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-06/higgsfield-ceo-on-growth-1b-run-rate-video",
+          "source": "Bloomberg Technology"
         }
       ]
     }
@@ -301,27 +349,27 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "The terrifying true stories that inspired your favorite horror movies",
+      "headline": "How to watch Catfish Murders online — stream the true crime series for FREE",
       "articles": [
+        {
+          "title": "How to watch Catfish Murders online — stream the true crime series for FREE",
+          "url": "https://www.techradar.com/how-to-watch/how-to-watch-catfish-murders-online-stream-the-true-crime-series-for-free",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "How to watch Snapped: Killer Moms online — stream the true crime series for FREE",
+          "url": "https://www.techradar.com/how-to-watch/how-to-watch-snapped-killer-moms",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
         {
           "title": "The terrifying true stories that inspired your favorite horror movies",
           "url": "https://www.businessinsider.com/horror-movies-true-stories-2018-1",
           "source": "All Content from Business Insider"
-        },
-        {
-          "title": "CEOs say they're getting gains from AI agents. A true transformation is harder.",
-          "url": "https://www.businessinsider.com/kpmg-survey-ceos-ai-agents-hiring-2026-10",
-          "source": "Business Insider"
-        },
-        {
-          "title": "10 best true crime podcasts right now, and the real cases behind them",
-          "url": "https://qz.com/best-true-crime-podcasts-rolling-stone",
-          "source": "Quartz"
         }
       ]
     },
     {
-      "keyword": "arxiv",
+      "keyword": "webgpu",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
@@ -331,12 +379,12 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "ArXiv versus AI slop: will capping preprint submissions work?",
+      "headline": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
       "articles": [
         {
-          "title": "ArXiv versus AI slop: will capping preprint submissions work?",
-          "url": "https://www.nature.com/articles/d41586-026-03194-w",
-          "source": "Nature - Issue - nature.com science feeds"
+          "title": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
+          "url": "https://github.com/shader-effects-inc/shaders",
+          "source": "Hacker News"
         }
       ]
     },
@@ -371,27 +419,22 @@
       ]
     },
     {
-      "keyword": "free ai",
-      "mentions": 3,
-      "velocity": 0.8,
+      "keyword": "arxiv",
+      "mentions": 2,
+      "velocity": 1.0,
       "sources": [
-        "github"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
-      "headline": "Tether Is bridging the intelligence gap with free AI",
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "ArXiv versus AI slop: will capping preprint submissions work?",
       "articles": [
         {
-          "title": "Tether Is bridging the intelligence gap with free AI",
-          "url": "https://www.computerworld.com/article/4234276/tether-is-bridging-the-intelligence-gap-with-free-ai.html",
-          "source": "Computerworld"
-        },
-        {
-          "title": "Anthropic launches free AI security scans for open-source projects",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "ArXiv versus AI slop: will capping preprint submissions work?",
+          "url": "https://www.nature.com/articles/d41586-026-03194-w",
+          "source": "Nature - Issue - nature.com science feeds"
         }
       ]
     },
@@ -469,34 +512,151 @@
           "source": "Engadget"
         }
       ]
+    },
+    {
+      "keyword": "free ai",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "Tether Is bridging the intelligence gap with free AI",
+      "articles": [
+        {
+          "title": "Tether Is bridging the intelligence gap with free AI",
+          "url": "https://www.computerworld.com/article/4234276/tether-is-bridging-the-intelligence-gap-with-free-ai.html",
+          "source": "Computerworld"
+        },
+        {
+          "title": "Anthropic launches free AI security scans for open-source projects",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+          "source": "The Verge -  Artificial Intelligences"
+        }
+      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "opencode",
+      "keyword": "llama.cpp",
       "mentions": 14,
-      "velocity": 1.8,
+      "velocity": 1.2,
       "sources": [
         "articles",
-        "reddit"
+        "hackernews"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.08,
-      "headline": "Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys,",
+      "expert_ratio": 0.94,
+      "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
       "articles": [
         {
-          "title": "Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys,",
-          "url": "https://www.techmeme.com/261017/p18#a261017p18",
-          "source": "Techmeme"
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "Hacker News"
+        },
+        {
+          "title": "b11429: llama.cpp : bump version to 0.6.0 (#29997)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11429",
+          "source": "llama.cpp Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 26,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
+      "articles": [
+        {
+          "title": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
+          "url": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "cuda",
+      "mentions": 11,
+      "velocity": 1.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.84,
+      "headline": "b11632: cuda, hip: GDN chunked kernel (#29353)",
+      "articles": [
+        {
+          "title": "b11632: cuda, hip: GDN chunked kernel (#29353)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11632",
+          "source": "llama.cpp Releases"
+        },
+        {
+          "title": "b11592: cuda : add GGML_CUDA_GRAPH_DEBUG and read env vars once (#30327)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11592",
+          "source": "llama.cpp Releases"
+        },
+        {
+          "title": "b11586: cuda : warnings cleanup (#30420)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11586",
+          "source": "llama.cpp Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "grok",
+      "mentions": 86,
+      "velocity": 0.8,
+      "sources": [
+        "articles",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.33,
+      "headline": "Musk says SpaceX will cover Grok Bot purchase mistakes and leaked cards",
+      "articles": [
+        {
+          "title": "Musk says SpaceX will cover Grok Bot purchase mistakes and leaked cards",
+          "url": "https://thenextweb.com/news/musk-grok-bot-credit-card-spacex-make-you-whole",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Calling up Starlink customer service? You'll be talking to Grok.",
+          "url": "https://www.businessinsider.com/starlink-customer-service-grok-2026-10",
+          "source": "All Content from Business Insider"
+        },
+        {
+          "title": "Elon Musk says SpaceX will pay back anyone whose Grok AI agent makes a rogue purchase",
+          "url": "https://www.businessinsider.com/elon-musk-spacex-will-pay-users-back-grok-purchase-mistakes-2026-10",
+          "source": "Business Insider"
         }
       ]
     },
     {
       "keyword": "claude opus",
       "mentions": 18,
-      "velocity": 1.0,
+      "velocity": 0.7,
       "sources": [
         "articles",
         "arxiv",
@@ -506,7 +666,7 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.76,
+      "expert_ratio": 0.75,
       "headline": "NVIDIA's new, open Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchma",
       "articles": [
         {
@@ -527,76 +687,75 @@
       ]
     },
     {
-      "keyword": "gpt-5",
-      "mentions": 24,
-      "velocity": 0.8,
+      "keyword": "hugging face",
+      "mentions": 13,
+      "velocity": 0.7,
       "sources": [
-        "articles",
-        "arxiv",
-        "github"
+        "hackernews",
+        "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
+      "expert_ratio": 0.36,
+      "headline": "Odd Lots: How OpenAI’s Rogue Model Hacked Hugging Face",
       "articles": [
         {
-          "title": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
-          "url": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
-          "source": "The Next Web"
+          "title": "Odd Lots: How OpenAI’s Rogue Model Hacked Hugging Face",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/odd-lots-how-openai-s-rogue-model-hacked-hugging-face-video",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 336,
-    "covered": 187,
-    "coverage_rate": 0.557,
-    "early": 100,
-    "early_rate": 0.298,
+    "scored_predictions": 341,
+    "covered": 192,
+    "coverage_rate": 0.563,
+    "early": 104,
+    "early_rate": 0.305,
     "avg_lead_days": 14.6,
     "median_lead_days": 10.5,
     "max_lead_days": 42,
-    "hit_rate": 0.557,
-    "materialized": 187,
+    "hit_rate": 0.563,
+    "materialized": 192,
     "by_signal_type": {
-      "emerging": {
-        "scored": 203,
-        "covered": 156,
-        "early": 78,
-        "coverage_rate": 0.768,
-        "early_rate": 0.384,
-        "hit_rate": 0.768
-      },
       "weak_signal": {
-        "scored": 133,
-        "covered": 31,
-        "early": 22,
-        "coverage_rate": 0.233,
-        "early_rate": 0.165,
-        "hit_rate": 0.233
+        "scored": 136,
+        "covered": 34,
+        "early": 25,
+        "coverage_rate": 0.25,
+        "early_rate": 0.184,
+        "hit_rate": 0.25
+      },
+      "emerging": {
+        "scored": 205,
+        "covered": 158,
+        "early": 79,
+        "coverage_rate": 0.771,
+        "early_rate": 0.385,
+        "hit_rate": 0.771
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 336,
+    "n": 341,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.56,
-      "early_rate": 0.301
+      "coverage_rate": 0.566,
+      "early_rate": 0.308
     },
     "null_mean": {
-      "coverage_rate": 0.584,
-      "early_rate": 0.348
+      "coverage_rate": 0.591,
+      "early_rate": 0.353
     },
     "p_value": {
-      "coverage_rate": 0.974,
-      "early_rate": 0.994
+      "coverage_rate": 0.979,
+      "early_rate": 0.987
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -685,6 +844,24 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "anthropic",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-19",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "pinecone",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-19",
+        "confidence": 0.2
+      },
+      {
+        "keyword": "mistral",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-19",
+        "confidence": 0.2
+      },
+      {
         "keyword": "deepseek",
         "signal_type": "emerging",
         "flagged_on": "2026-10-18",
@@ -727,120 +904,102 @@
         "confidence": 0.6
       },
       {
-        "keyword": "mixtral",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-16",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "ai energy",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-16",
-        "confidence": 0.4
-      },
-      {
         "keyword": "langflow",
         "signal_type": "emerging",
         "flagged_on": "2026-10-16",
         "confidence": 0.4
       },
       {
-        "keyword": "comet",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-16",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "neuromorphic",
+        "keyword": "mixtral",
         "signal_type": "emerging",
-        "flagged_on": "2026-10-15",
+        "flagged_on": "2026-10-16",
         "confidence": 0.4
       }
     ],
     "heating_up": [
       {
-        "keyword": "context length",
-        "recent_mentions": 17,
-        "prior_mentions": 2,
-        "change_ratio": 8.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "comet",
+        "keyword": "groq",
         "recent_mentions": 8,
         "prior_mentions": 1,
         "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "jasper",
-        "recent_mentions": 14,
-        "prior_mentions": 2,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "rlhf",
-        "recent_mentions": 34,
-        "prior_mentions": 5,
-        "change_ratio": 6.8,
         "corroborating_sources": 2
       },
       {
-        "keyword": "quillbot",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
+        "keyword": "modal",
+        "recent_mentions": 12,
+        "prior_mentions": 2,
         "change_ratio": 6.0,
-        "corroborating_sources": 1
+        "corroborating_sources": 3
       },
       {
-        "keyword": "reward hacking",
-        "recent_mentions": 22,
-        "prior_mentions": 4,
+        "keyword": "small language model",
+        "recent_mentions": 11,
+        "prior_mentions": 2,
         "change_ratio": 5.5,
         "corroborating_sources": 1
       },
       {
-        "keyword": "groq",
+        "keyword": "wispr",
         "recent_mentions": 5,
         "prior_mentions": 1,
         "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "wispr flow",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "context length",
+        "recent_mentions": 19,
+        "prior_mentions": 4,
+        "change_ratio": 4.75,
         "corroborating_sources": 2
       },
       {
-        "keyword": "simplified",
-        "recent_mentions": 15,
-        "prior_mentions": 3,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "poe",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "base44",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "slm",
-        "recent_mentions": 10,
+        "keyword": "leonardo",
+        "recent_mentions": 8,
         "prior_mentions": 2,
-        "change_ratio": 5.0,
+        "change_ratio": 4.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "notion ai",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
+        "keyword": "rlhf",
+        "recent_mentions": 36,
+        "prior_mentions": 9,
+        "change_ratio": 4.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "flux",
+        "recent_mentions": 103,
+        "prior_mentions": 26,
+        "change_ratio": 3.96,
+        "corroborating_sources": 6
+      },
+      {
+        "keyword": "replicate",
+        "recent_mentions": 41,
+        "prior_mentions": 12,
+        "change_ratio": 3.42,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "agi",
+        "recent_mentions": 40,
+        "prior_mentions": 12,
+        "change_ratio": 3.33,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "lovable",
+        "recent_mentions": 26,
+        "prior_mentions": 8,
+        "change_ratio": 3.25,
+        "corroborating_sources": 3
       }
     ]
   }
