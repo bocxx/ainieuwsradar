@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T19:14:15.524904",
-  "total_tracked": 3592,
+  "generated_at": "2026-10-20T07:12:08.818099",
+  "total_tracked": 3533,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "deepseek",
-      "mentions": 124,
-      "velocity": 15.3,
+      "mentions": 157,
+      "velocity": 20.7,
       "sources": [
         "articles",
         "arxiv",
@@ -18,60 +18,241 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.9,
-      "headline": "US orders civilian federal agencies to remove DeepSeek from their systems",
+      "headline": "Homeland Security bans DeepSeek use in federal civilian agencies",
       "articles": [
         {
-          "title": "US orders civilian federal agencies to remove DeepSeek from their systems",
-          "url": "https://thenextweb.com/news/us-bars-deepseek-federal-agencies",
-          "source": "The Next Web"
+          "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
+          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/?utm_source=flipboard&utm_content=Engadget/magazine/news",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "The US DHS orders all federal civilian agencies to remove any DeepSeek tech from their IT systems and prohibits future p",
-          "url": "https://www.techmeme.com/261019/p28#a261019p28",
-          "source": "Techmeme"
+          "title": "US to Bar China’s DeepSeek From Federal Agency Systems",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-20/us-to-bar-china-s-deepseek-from-federal-agency-systems-video",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Trump administration is ordering DeepSeek removed from all U.S. civilian agency systems",
-          "url": "https://qz.com/deepseek-ban-civilian-agencies-dhs-order-101926",
-          "source": "Quartz"
+          "title": "DeepSeek deep-sixed at all US federal civilian agencies",
+          "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+          "source": "The Register - Security"
         }
       ]
     },
     {
-      "keyword": "flux",
-      "mentions": 39,
-      "velocity": 6.1,
+      "keyword": "fine-tuning",
+      "mentions": 107,
+      "velocity": 11.0,
       "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces",
+      "articles": [
+        {
+          "title": "Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces",
+          "url": "https://arxiv.org/abs/2604.22783",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ToPA: Block-wise Toeplitz Adaptation for Expressive and Efficient Fine-Tuning",
+          "url": "https://arxiv.org/abs/2610.22883",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Knowledge That Is Linear Before Fine-Tuning Generalizes After It",
+          "url": "https://arxiv.org/abs/2610.22300",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "mistral",
+      "mentions": 37,
+      "velocity": 5.4,
+      "sources": [
+        "articles",
+        "arxiv",
         "hackernews",
         "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.71,
+      "headline": "Une IA capable de débusquer l'inconnu : le pari du Cern et du français Mistral pour révolutionner la physique",
+      "articles": [
+        {
+          "title": "Une IA capable de débusquer l'inconnu : le pari du Cern et du français Mistral pour révolutionner la physique",
+          "url": "https://www.futura-sciences.com/sciences/actualites/physique-ia-capable-debusquer-inconnu-pari-cern-francais-mistral-revolutionner-physique-138643/#xtor%3DRSS-8",
+          "source": "Les dernières actualités de Futura-Sciences"
+        },
+        {
+          "title": "Timestral: Mistral release time-series foundation models",
+          "url": "https://mistral.ai/news/timestral/",
+          "source": "Hacker News"
+        },
+        {
+          "title": "CERN and Mistral plan an AI foundation model for particle physics",
+          "url": "https://thenextweb.com/news/cern-mistral-large-physics-model",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 38,
+      "velocity": 4.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.82,
+      "headline": "HydroShear: Hydroelastic Shear Simulation for Tactile Sim-to-Real Reinforcement Learning",
+      "articles": [
+        {
+          "title": "HydroShear: Hydroelastic Shear Simulation for Tactile Sim-to-Real Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2603.00446",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Designing for Imperfect Prompts: A Simulation-Based Evaluation of an LLM-Based Enterprise Data Assistant Using Knowledge",
+          "url": "https://arxiv.org/abs/2610.23304",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
+          "url": "https://arxiv.org/abs/2610.22450",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "claude code",
+      "mentions": 45,
+      "velocity": 3.4,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "Developers and vibe coders are using AI tools like Claude Code to get rid of sponsored ads on their smart TVs, disable t",
+      "articles": [
+        {
+          "title": "Developers and vibe coders are using AI tools like Claude Code to get rid of sponsored ads on their smart TVs, disable t",
+          "url": "https://www.techmeme.com/261019/p38#a261019p38",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Claude Code AI agent caught a crypto miner hiding on a developer’s overheating Mac",
+          "url": "https://www.tomshardware.com/tech-industry/cryptomining/claude-code-ai-agent-caught-a-crypto-miner-hiding-on-a-developers-overheating-mac-xmrig-task-was-hogging-about-1175-percent-cpu-roughly-12-cores-pushing-temps-to-112-degrees",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "openrouter",
+      "mentions": 14,
+      "velocity": 3.1,
+      "sources": [
+        "articles",
+        "hackernews"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
+      "expert_ratio": 0.35,
+      "headline": "Source: Nvidia considered a last-minute OpenRouter bid, telling its leadership it was prepared to make a generous offer,",
       "articles": [
         {
-          "title": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
-          "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
-          "source": "VentureBeat"
+          "title": "Source: Nvidia considered a last-minute OpenRouter bid, telling its leadership it was prepared to make a generous offer,",
+          "url": "https://www.techmeme.com/261007/p47#a261007p47",
+          "source": "Techmeme"
         },
         {
-          "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
-          "url": "https://arxiv.org/abs/2607.28022",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "OpenRouter: the share of business spending between OpenAI and Anthropic models was roughly even in September, vs. Anthro",
+          "url": "https://www.techmeme.com/261007/p46#a261007p46",
+          "source": "Techmeme"
         },
         {
-          "title": "Welcome FLUX.3 Image Klein in Diffusers",
-          "url": "https://huggingface.co/blog/flux-3",
-          "source": "Hugging Face Blog"
+          "title": "Treg (OpenRouter for Tools)",
+          "url": "https://github.com/superdesigndev/treg",
+          "source": "Hacker News"
         }
       ]
     },
     {
+      "keyword": "llama",
+      "mentions": 41,
+      "velocity": 3.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.93,
+      "headline": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+      "articles": [
+        {
+          "title": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+          "url": "https://arxiv.org/abs/2610.23796",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "Hacker News"
+        },
+        {
+          "title": "b11679: llama : share the k-pool input views between layers (#30613)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11679",
+          "source": "llama.cpp Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "seedance",
+      "mentions": 20,
+      "velocity": 2.3,
+      "sources": [
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "fal launches FLUX 3 Max, claiming 22× faster AI video generation than Seedance 2.5 - VentureBeat",
+      "articles": [
+        {
+          "title": "fal launches FLUX 3 Max, claiming 22× faster AI video generation than Seedance 2.5 - VentureBeat",
+          "url": "https://venturebeat.com/technology/fal-launches-flux-3-max-claiming-22-faster-ai-video-generation-than-seedance-2-5",
+          "source": "VentureBeat"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "nvidia",
-      "mentions": 79,
-      "velocity": 5.9,
+      "mentions": 80,
+      "velocity": 4.4,
       "sources": [
         "articles",
         "arxiv",
@@ -82,29 +263,82 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.53,
-      "headline": "You can now modify the vBIOS on Nvidia gaming GPUs without flashing thanks to a solo developer’s project",
+      "headline": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
       "articles": [
         {
-          "title": "You can now modify the vBIOS on Nvidia gaming GPUs without flashing thanks to a solo developer’s project",
-          "url": "https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration",
-          "source": "Tom's Hardware"
+          "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+          "url": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html?utm_source=flipboard&utm_content=CNBC/magazine/Top+News",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Nvidia reportedly wants all its HBM suppliers to use TSMC’s 3nm process",
-          "url": "https://thenextweb.com/news/nvidia-nvhbm-samsung-tsmc-3nm-base-die-sk-hynix-micron",
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
+        },
+        {
+          "title": "Modal says Nvidia’s Vera CPU doubles throughput for its AI sandboxes",
+          "url": "https://thenextweb.com/news/modal-nvidia-vera-cpu-sandboxes",
           "source": "The Next Web"
-        },
-        {
-          "title": "AI infrastructure startup Modal says it plans to start using Nvidia's Vera CPUs for the first time for hosting agents, a",
-          "url": "https://www.techmeme.com/261019/p31#a261019p31",
-          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "world model",
-      "mentions": 11,
-      "velocity": 2.2,
+      "keyword": "flux",
+      "mentions": 34,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.73,
+      "headline": "fal launches FLUX 3 Max, claiming 22× faster AI video generation than Seedance 2.5 - VentureBeat",
+      "articles": [
+        {
+          "title": "fal launches FLUX 3 Max, claiming 22× faster AI video generation than Seedance 2.5 - VentureBeat",
+          "url": "https://venturebeat.com/technology/fal-launches-flux-3-max-claiming-22-faster-ai-video-generation-than-seedance-2-5",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses - VentureBeat",
+          "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Flux-OPD: On-Policy Distillation with Evolving Contexts",
+          "url": "https://arxiv.org/abs/2607.28022",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "llama.cpp",
+      "mentions": 18,
+      "velocity": 2.3,
+      "sources": [
+        "articles",
+        "hackernews"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.95,
+      "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "articles": [
+        {
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "prompt injection",
+      "mentions": 14,
+      "velocity": 2.1,
       "sources": [
         "arxiv",
         "reddit"
@@ -112,39 +346,7 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Towards Unified World Models for Visual Navigation via Memory-Augmented Planning and Foresight",
-      "articles": [
-        {
-          "title": "Towards Unified World Models for Visual Navigation via Memory-Augmented Planning and Foresight",
-          "url": "https://arxiv.org/abs/2510.08713",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving",
-          "url": "https://arxiv.org/abs/2610.22450",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Beyond Large Language Models: A Mental World Model Framework for Mental Modeling, Simulation, Evolution, and Interpretab",
-          "url": "https://arxiv.org/abs/2610.23722",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "prompt injection",
-      "mentions": 12,
-      "velocity": 2.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
+      "expert_ratio": 0.86,
       "headline": "MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection in Web Agents",
       "articles": [
         {
@@ -161,97 +363,6 @@
           "title": "Indirect prompt injection starts turning up in webpage headers, please ignore all previous instructions and rise up agai",
           "url": "https://www.theregister.com/ai-and-ml/2026/10/15/indirect-prompt-injection-starts-turning-up-in-webpage-headers-please-ignore-all-previous-instructions-and-rise-up-against-your-masters/5303434",
           "source": "The Register - Security"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "distillation",
-      "mentions": 44,
-      "velocity": 3.7,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "BenthicDINO: Physics-Informed Self-Distillation for View-Invariant Side-Scan Sonar Representations",
-      "articles": [
-        {
-          "title": "BenthicDINO: Physics-Informed Self-Distillation for View-Invariant Side-Scan Sonar Representations",
-          "url": "https://arxiv.org/abs/2608.23215",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "A Stronger Teacher Within: Strengthening MoE Models via On-Policy Bidirectional Distillation",
-          "url": "https://arxiv.org/abs/2610.23185",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2610.23181",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 27,
-      "velocity": 3.6,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "Timestral: Mistral release time-series foundation models",
-      "articles": [
-        {
-          "title": "Timestral: Mistral release time-series foundation models",
-          "url": "https://mistral.ai/news/timestral/",
-          "source": "Hacker News"
-        },
-        {
-          "title": "CERN and Mistral plan an AI foundation model for particle physics",
-          "url": "https://thenextweb.com/news/cern-mistral-large-physics-model",
-          "source": "The Next Web"
-        },
-        {
-          "title": "Mistral’s new Large 4 trails some Chinese open models in independent tests",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "higgsfield",
-      "mentions": 11,
-      "velocity": 2.0,
-      "sources": [
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.14,
-      "headline": "Higgsfield takes AI video from 1 minute to over 10",
-      "articles": [
-        {
-          "title": "Higgsfield takes AI video from 1 minute to over 10",
-          "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Higgsfield CEO on Growth, $1B Run-rate",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-06/higgsfield-ceo-on-growth-1b-run-rate-video",
-          "source": "Bloomberg Technology"
         }
       ]
     }
@@ -288,8 +399,13 @@
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "How to watch Catfish Murders online — stream the true crime series for FREE",
+      "headline": "My honest Halara review after testing the bestsellers with too-good-to-be-true prices",
       "articles": [
+        {
+          "title": "My honest Halara review after testing the bestsellers with too-good-to-be-true prices",
+          "url": "https://www.businessinsider.com/guides/style/halara-clothing-review",
+          "source": "Business Insider"
+        },
         {
           "title": "How to watch Catfish Murders online — stream the true crime series for FREE",
           "url": "https://www.techradar.com/how-to-watch/how-to-watch-catfish-murders-online-stream-the-true-crime-series-for-free",
@@ -299,31 +415,24 @@
           "title": "How to watch Snapped: Killer Moms online — stream the true crime series for FREE",
           "url": "https://www.techradar.com/how-to-watch/how-to-watch-snapped-killer-moms",
           "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "The terrifying true stories that inspired your favorite horror movies",
-          "url": "https://www.businessinsider.com/horror-movies-true-stories-2018-1",
-          "source": "All Content from Business Insider"
         }
       ]
     },
     {
-      "keyword": "arxiv",
+      "keyword": "glean",
       "mentions": 2,
       "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "ArXiv versus AI slop: will capping preprint submissions work?",
+      "headline": "Glean CEO Arvind Jain says he wants Glean to be easy to replace",
       "articles": [
         {
-          "title": "ArXiv versus AI slop: will capping preprint submissions work?",
-          "url": "https://www.nature.com/articles/d41586-026-03194-w",
-          "source": "Nature - Issue - nature.com science feeds"
+          "title": "Glean CEO Arvind Jain says he wants Glean to be easy to replace",
+          "url": "https://thenextweb.com/news/arvind-jain-glean-claude-context-tnw-podcast",
+          "source": "The Next Web"
         }
       ]
     },
@@ -388,8 +497,13 @@
       "confidence": 73,
       "days_active": 4,
       "expert_ratio": 0.89,
-      "headline": "MiniMax launches M3.1 Flash, saying it delivers \"a generational leap\" in agentic tasks, coding, computer use, and cybers",
+      "headline": "MiniMax's new M3.1 Flash beats DeepSeek and Opus 5 on a key business benchmark at lower cost — but with a high hallucina",
       "articles": [
+        {
+          "title": "MiniMax's new M3.1 Flash beats DeepSeek and Opus 5 on a key business benchmark at lower cost — but with a high hallucina",
+          "url": "https://venturebeat.com/technology/minimaxs-new-m3-1-flash-beats-deepseek-and-opus-5-on-a-key-business-benchmark-at-lower-cost-but-with-a-high-hallucination-rate",
+          "source": "VentureBeat"
+        },
         {
           "title": "MiniMax launches M3.1 Flash, saying it delivers \"a generational leap\" in agentic tasks, coding, computer use, and cybers",
           "url": "https://www.techmeme.com/261019/p30#a261019p30",
@@ -399,25 +513,40 @@
           "title": "DeepSeek released an updated V4.1-Flash model with higher scores and shorter outputs",
           "url": "https://qz.com/deepseek-v4-1-flash-1017-model-update-benchmarks-101926",
           "source": "Quartz"
-        },
+        }
+      ]
+    },
+    {
+      "keyword": "eu ai act",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
+      "headline": "De EU AI Act hoort niet thuis bij Legal, maar bij IT",
+      "articles": [
         {
-          "title": "These 6 retro sites let you relive the glory days of 2000s Flash games",
-          "url": "https://www.engadget.com/2285729/where-to-play-2000s-retro-flash-games/",
-          "source": "Engadget"
+          "title": "De EU AI Act hoort niet thuis bij Legal, maar bij IT",
+          "url": "https://www.agconnect.nl/business/juridisch/de-eu-ai-act-hoort-niet-thuis-bij-legal-maar-bij-it",
+          "source": "AG Connect"
         }
       ]
     },
     {
       "keyword": "ai research",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.3,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
       "headline": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
       "articles": [
         {
@@ -435,14 +564,14 @@
     {
       "keyword": "free ai",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.3,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 75,
-      "days_active": 4,
-      "expert_ratio": 0.9,
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
       "headline": "Tether Is bridging the intelligence gap with free AI",
       "articles": [
         {
@@ -460,14 +589,65 @@
   ],
   "sustained": [
     {
-      "keyword": "minimax",
-      "mentions": 31,
-      "velocity": 2.0,
+      "keyword": "vibe coding",
+      "mentions": 21,
+      "velocity": 1.8,
+      "sources": [
+        "articles",
+        "github"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.64,
+      "headline": "Vibe coding is turning the music gear world upside down",
+      "articles": [
+        {
+          "title": "Vibe coding is turning the music gear world upside down",
+          "url": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "Bluesky expands Attie, its AI tool for building custom feeds, with a \"social vibe coding\" feature to create sites, games",
+          "url": "https://www.techmeme.com/261015/p53#a261015p53",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "ollama",
+      "mentions": 12,
+      "velocity": 1.7,
       "sources": [
         "articles",
         "reddit"
       ],
       "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.21,
+      "headline": "Costruisci il chatbot interno del reparto IT con Ollama, senza far uscire dati dalla rete",
+      "articles": [
+        {
+          "title": "Costruisci il chatbot interno del reparto IT con Ollama, senza far uscire dati dalla rete",
+          "url": "https://www.tomshw.it/aioperator/costruisci-il-chatbot-interno-del-reparto-it-con-ollama-senza-far-uscire-dati-dalla-rete",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "agentic",
+      "mentions": 111,
+      "velocity": 1.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.81,
@@ -479,108 +659,80 @@
           "source": "Techmeme"
         },
         {
-          "title": "Minimax-optimal Scaling Laws in Ridge Regression via Transfer Learning",
-          "url": "https://arxiv.org/abs/2610.23337",
-          "source": "stat.ML updates on arXiv.org"
+          "title": "Arm says its AGI CPU delivers nearly 2X the performance per rack of AMD EPYC 9755 in new agentic AI CPU tests",
+          "url": "https://www.tomshardware.com/pc-components/cpus/arm-claims-agi-cpu-delivers-double-the-performance-per-rack-of-amd-epyc-9755-in-independent-analysis-new-cpu-evaluation-methodology-developed-by-arm-evaluates-agentic-ai-performance-across-seven-workloads",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "When Is Muon Optimal? Radial Fragility and Minimax Geometry",
-          "url": "https://arxiv.org/abs/2610.21549",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Q＆A with Nvidia's Vera team on agentic AI driving CPU demands and forcing CPU design priority back to single-threaded pe",
+          "url": "https://www.techmeme.com/261019/p10#a261019p10",
+          "source": "Techmeme"
         }
       ]
     },
     {
-      "keyword": "anthropic",
-      "mentions": 228,
-      "velocity": 1.9,
+      "keyword": "opencode",
+      "mentions": 13,
+      "velocity": 1.1,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "Anthropic's safety bill would let the US block an AI model if there's imminent risk of 50-plus deaths",
-      "articles": [
-        {
-          "title": "Anthropic's safety bill would let the US block an AI model if there's imminent risk of 50-plus deaths",
-          "url": "https://www.businessinsider.com/anthropic-pitches-ai-safety-bill-lawmakers-2026-10",
-          "source": "All Content from Business Insider"
-        },
-        {
-          "title": "Source: Anthropic is preparing a model with superior intuition and reasoning that can discern unstated intentions and is",
-          "url": "https://www.techmeme.com/261019/p25#a261019p25",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Anthropic Readies Model That Reads Users' Intentions Better",
-          "url": "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "reinforcement learning",
-      "mentions": 121,
-      "velocity": 1.7,
-      "sources": [
-        "arxiv",
         "reddit"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+      "expert_ratio": 0.08,
+      "headline": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
       "articles": [
         {
-          "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2608.19182",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
         },
         {
-          "title": "Group-Graph Policy Optimization for Long-Horizon Agentic Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2606.22995",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys,",
+          "url": "https://www.techmeme.com/261017/p18#a261017p18",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 19,
+      "velocity": 0.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.74,
+      "headline": "NVIDIA's new, open Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchma",
+      "articles": [
+        {
+          "title": "NVIDIA's new, open Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchma",
+          "url": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks?utm_source=flipboard&utm_content=topic/artificialintelligence",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Coordination Matters: Process-Aware Evaluation of Cooperative Multi-Agent Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2605.06557",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Elon Musk says Grok Bot will use the \"best back end model for any given task, including Claude Opus 5.5, MidJourney, Sun",
+          "url": "https://www.techmeme.com/261007/p23#a261007p23",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Analysis: Anthropic's subscriptions offer ~5x more API-equivalent value per month than OpenAI's for agentic workloads wi",
+          "url": "https://www.techmeme.com/261005/p33#a261005p33",
+          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "hugging face",
       "mentions": 14,
-      "velocity": 1.0,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.36,
-      "headline": "Odd Lots: How OpenAI’s Rogue Model Hacked Hugging Face",
-      "articles": [
-        {
-          "title": "Odd Lots: How OpenAI’s Rogue Model Hacked Hugging Face",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-12/odd-lots-how-openai-s-rogue-model-hacked-hugging-face-video",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "llama.cpp",
-      "mentions": 12,
-      "velocity": 0.6,
+      "velocity": 0.7,
       "sources": [
         "articles",
         "hackernews"
@@ -588,33 +740,33 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "expert_ratio": 0.37,
+      "headline": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
       "articles": [
         {
-          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-          "url": "https://github.com/cobanov/PS5LM",
-          "source": "Hacker News"
+          "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+          "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+          "source": "TechCrunch"
         },
         {
-          "title": "b11429: llama.cpp : bump version to 0.6.0 (#29997)",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11429",
-          "source": "llama.cpp Releases"
+          "title": "Odd Lots: How OpenAI’s Rogue Model Hacked Hugging Face",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-12/odd-lots-how-openai-s-rogue-model-hacked-hugging-face-video",
+          "source": "Bloomberg Technology"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 341,
-    "covered": 192,
+    "scored_predictions": 343,
+    "covered": 193,
     "coverage_rate": 0.563,
-    "early": 104,
-    "early_rate": 0.305,
-    "avg_lead_days": 14.6,
-    "median_lead_days": 10.5,
+    "early": 105,
+    "early_rate": 0.306,
+    "avg_lead_days": 14.8,
+    "median_lead_days": 11,
     "max_lead_days": 42,
     "hit_rate": 0.563,
-    "materialized": 192,
+    "materialized": 193,
     "by_signal_type": {
       "emerging": {
         "scored": 205,
@@ -625,33 +777,33 @@
         "hit_rate": 0.771
       },
       "weak_signal": {
-        "scored": 136,
-        "covered": 34,
-        "early": 25,
-        "coverage_rate": 0.25,
-        "early_rate": 0.184,
-        "hit_rate": 0.25
+        "scored": 138,
+        "covered": 35,
+        "early": 26,
+        "coverage_rate": 0.254,
+        "early_rate": 0.188,
+        "hit_rate": 0.254
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 341,
+    "n": 343,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
       "coverage_rate": 0.566,
-      "early_rate": 0.308
+      "early_rate": 0.309
     },
     "null_mean": {
       "coverage_rate": 0.591,
-      "early_rate": 0.353
+      "early_rate": 0.356
     },
     "p_value": {
-      "coverage_rate": 0.979,
-      "early_rate": 0.987
+      "coverage_rate": 0.981,
+      "early_rate": 0.991
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -814,88 +966,88 @@
     ],
     "heating_up": [
       {
-        "keyword": "groq",
-        "recent_mentions": 7,
+        "keyword": "conversational ai",
+        "recent_mentions": 13,
         "prior_mentions": 1,
-        "change_ratio": 7.0,
+        "change_ratio": 13.0,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "claude desktop",
+        "recent_mentions": 10,
+        "prior_mentions": 1,
+        "change_ratio": 10.0,
         "corroborating_sources": 2
       },
       {
         "keyword": "modal",
-        "recent_mentions": 13,
+        "recent_mentions": 17,
         "prior_mentions": 2,
-        "change_ratio": 6.5,
+        "change_ratio": 8.5,
         "corroborating_sources": 3
       },
       {
-        "keyword": "small language model",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "wispr flow",
-        "recent_mentions": 5,
+        "keyword": "resemble",
+        "recent_mentions": 8,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "wispr",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "context length",
-        "recent_mentions": 17,
-        "prior_mentions": 4,
-        "change_ratio": 4.25,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "flux",
-        "recent_mentions": 109,
-        "prior_mentions": 26,
-        "change_ratio": 4.19,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "rlhf",
-        "recent_mentions": 36,
-        "prior_mentions": 9,
-        "change_ratio": 4.0,
+        "change_ratio": 8.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "leonardo",
+        "keyword": "watermelon",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "cot",
+        "recent_mentions": 39,
+        "prior_mentions": 9,
+        "change_ratio": 4.33,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "groq",
         "recent_mentions": 8,
         "prior_mentions": 2,
         "change_ratio": 4.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "replicate",
-        "recent_mentions": 39,
-        "prior_mentions": 12,
-        "change_ratio": 3.25,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "agi",
-        "recent_mentions": 38,
-        "prior_mentions": 12,
-        "change_ratio": 3.17,
-        "corroborating_sources": 5
-      },
-      {
-        "keyword": "lovable",
-        "recent_mentions": 24,
-        "prior_mentions": 8,
-        "change_ratio": 3.0,
+        "keyword": "krea",
+        "recent_mentions": 22,
+        "prior_mentions": 6,
+        "change_ratio": 3.67,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "cohere",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "flux",
+        "recent_mentions": 124,
+        "prior_mentions": 37,
+        "change_ratio": 3.35,
+        "corroborating_sources": 5
+      },
+      {
+        "keyword": "langflow",
+        "recent_mentions": 6,
+        "prior_mentions": 2,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "mistral",
+        "recent_mentions": 97,
+        "prior_mentions": 35,
+        "change_ratio": 2.77,
+        "corroborating_sources": 7
       }
     ]
   }
