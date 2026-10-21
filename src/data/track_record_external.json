@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T08:09:26+00:00",
+  "generated_at": "2026-10-21T17:31:30+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
@@ -16,14 +16,6 @@
     "hit_rate": 0.562,
     "materialized": 195,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 141,
-        "covered": 36,
-        "early": 27,
-        "coverage_rate": 0.255,
-        "early_rate": 0.191,
-        "hit_rate": 0.255
-      },
       "emerging": {
         "scored": 206,
         "covered": 159,
@@ -31,6 +23,14 @@
         "coverage_rate": 0.772,
         "early_rate": 0.388,
         "hit_rate": 0.772
+      },
+      "weak_signal": {
+        "scored": 141,
+        "covered": 36,
+        "early": 27,
+        "coverage_rate": 0.255,
+        "early_rate": 0.191,
+        "hit_rate": 0.255
       }
     }
   },
@@ -76,16 +76,6 @@
       "title": "Uber reports Q2 revenue up 12% YoY to $14.2B, below $14.24B est., Gross Bookings up 24% to $58B, above $57B est., and forecasts Q3 adjusted EPS below est. (Lora Kolodny/CNBC)"
     },
     {
-      "keyword": "inflection",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-14",
-      "materialized_on": "2026-07-22",
-      "lead_days": 38,
-      "outlet": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
-      "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
-    },
-    {
       "keyword": "huggingface",
       "signal_type": "emerging",
       "flagged_on": "2026-08-28",
@@ -94,6 +84,16 @@
       "outlet": "Tom's Hardware",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
       "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
+    },
+    {
+      "keyword": "inflection",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-14",
+      "materialized_on": "2026-07-22",
+      "lead_days": 38,
+      "outlet": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
+      "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
     },
     {
       "keyword": "context window",
@@ -132,7 +132,7 @@
     },
     "null_mean": {
       "coverage_rate": 0.591,
-      "early_rate": 0.359
+      "early_rate": 0.358
     },
     "p_value": {
       "coverage_rate": 0.983,
