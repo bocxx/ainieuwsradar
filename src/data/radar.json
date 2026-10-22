@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-10-22T07:13:02.876454",
-  "total_tracked": 3382,
+  "generated_at": "2026-10-22T19:16:21.340299",
+  "total_tracked": 3412,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "claude opus",
-      "mentions": 34,
-      "velocity": 4.7,
+      "mentions": 33,
+      "velocity": 4.4,
       "sources": [
         "articles",
         "arxiv",
-        "hackernews"
+        "hackernews",
+        "reddit"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.77,
@@ -26,16 +27,48 @@
       ]
     },
     {
+      "keyword": "litellm",
+      "mentions": 12,
+      "velocity": 2.7,
+      "sources": [
+        "articles",
+        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 14,
+      "expert_ratio": 0.62,
+      "headline": "LiteLLM distribuisce malware, a rischio le chiavi API dell'IA",
+      "articles": [
+        {
+          "title": "LiteLLM distribuisce malware, a rischio le chiavi API dell'IA",
+          "url": "https://www.tomshw.it/business/litellm-distribuisce-malware-a-rischio-le-chiavi-api-dellia",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
+          "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+          "source": "The Register"
+        },
+        {
+          "title": "LiteLLM, due falle potevano mettere in ginocchio l'AI aziendale",
+          "url": "https://www.tomshw.it/hardware/litellm-corregge-falle-gravi-come-proteggere-le-chiavi-api",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
       "keyword": "simulation",
-      "mentions": 41,
-      "velocity": 3.9,
+      "mentions": 37,
+      "velocity": 2.7,
       "sources": [
         "articles",
         "arxiv",
-        "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.82,
@@ -57,47 +90,75 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
+    },
+    {
+      "keyword": "prompt injection",
+      "mentions": 17,
+      "velocity": 2.1,
+      "sources": [
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.85,
+      "headline": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
+      "articles": [
+        {
+          "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
+          "url": "https://arxiv.org/abs/2610.28364",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
+          "url": "https://arxiv.org/abs/2610.20776",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection in Web Agents",
+          "url": "https://arxiv.org/abs/2606.20717",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
     }
   ],
   "emerging": [
     {
-      "keyword": "deepseek",
-      "mentions": 167,
-      "velocity": 11.4,
+      "keyword": "fine-tuning",
+      "mentions": 115,
+      "velocity": 6.6,
       "sources": [
-        "articles",
         "arxiv",
-        "github",
-        "hackernews",
         "reddit"
       ],
-      "source_count": 5,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "Sources: DeepSeek raised ~$15B in its latest fundraising round, one of China's largest ever, with CATL and Tencent among",
+      "expert_ratio": 0.99,
+      "headline": "When Thoughts Become Memory: Unifying In-Context Learning and Fine-Tuning",
       "articles": [
         {
-          "title": "Sources: DeepSeek raised ~$15B in its latest fundraising round, one of China's largest ever, with CATL and Tencent among",
-          "url": "https://www.techmeme.com/261021/p61#a261021p61",
-          "source": "Techmeme"
+          "title": "When Thoughts Become Memory: Unifying In-Context Learning and Fine-Tuning",
+          "url": "https://arxiv.org/abs/2610.29419",
+          "source": "stat.ML updates on arXiv.org"
         },
         {
-          "title": "DeepSeek Raises $15 Billion in Challenge to Leading US Labs",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs",
-          "source": "Bloomberg Technology"
+          "title": "Rethinking LLM Fine-Tuning via Weight Space Reparameterization: Preserving Safety during Downstream Adaptation",
+          "url": "https://arxiv.org/abs/2610.26443",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "DeepSeek ha un nuovo prodotto, ricerca web per agenti AI a prezzi concorrenziali",
-          "url": "https://www.tomshw.it/business/deepseek-ha-un-nuovo-prodotto-ricerca-web-per-agenti-ai-a-prezzi-concorrenziali",
-          "source": "Tom's Hardware"
+          "title": "Fine-Tuning Small Language Models for Reliable VASP INCAR Generation",
+          "url": "https://arxiv.org/abs/2608.05387",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "claude code",
-      "mentions": 58,
-      "velocity": 4.9,
+      "mentions": 59,
+      "velocity": 5.2,
       "sources": [
         "articles",
         "hackernews",
@@ -114,15 +175,39 @@
           "title": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
           "url": "https://github.com/xamrayev/nexus-cli",
           "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 142,
+      "velocity": 3.9,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 5,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.9,
+      "headline": "DeepSeek reportedly raises $15B days after US restrictions",
+      "articles": [
+        {
+          "title": "DeepSeek reportedly raises $15B days after US restrictions",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+          "source": "TechCrunch"
         },
         {
-          "title": "Claude Code scova un programma nascosto che genera criptovalute, come ha fatto",
-          "url": "https://www.tomshw.it/hardware/claude-code-scova-un-programma-nascosto-che-genera-criptovalute-come-ha-fatto",
-          "source": "Tom's Hardware"
+          "title": "DeepSeek raised about $15 billion in funding ahead of a possible IPO",
+          "url": "https://qz.com/deepseek-15-billion-funding-round-possible-ipo-102226",
+          "source": "Quartz"
         },
         {
-          "title": "Developers and vibe coders are using AI tools like Claude Code to get rid of sponsored ads on their smart TVs, disable t",
-          "url": "https://www.techmeme.com/261019/p38#a261019p38",
+          "title": "A look at Huawei and DeepSeek's mutual reliance, where Huawei provides compute hardware while DeepSeek contributes model",
+          "url": "https://www.techmeme.com/261022/p12#a261022p12",
           "source": "Techmeme"
         }
       ]
@@ -132,29 +217,62 @@
       "mentions": 42,
       "velocity": 3.5,
       "sources": [
+        "articles",
         "arxiv",
         "hackernews"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.7,
-      "headline": "Une IA capable de débusquer l'inconnu : le pari du Cern et du français Mistral pour révolutionner la physique",
+      "headline": "Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral",
       "articles": [
         {
-          "title": "Une IA capable de débusquer l'inconnu : le pari du Cern et du français Mistral pour révolutionner la physique",
-          "url": "https://www.futura-sciences.com/sciences/actualites/physique-ia-capable-debusquer-inconnu-pari-cern-francais-mistral-revolutionner-physique-138643/#xtor%3DRSS-8",
-          "source": "Les dernières actualités de Futura-Sciences"
+          "title": "Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral",
+          "url": "https://www.techmeme.com/261022/p24#a261022p24",
+          "source": "Techmeme"
         },
         {
-          "title": "Timestral: Mistral release time-series foundation models",
-          "url": "https://mistral.ai/news/timestral/",
-          "source": "Hacker News"
+          "title": "Agente locale eseguito in casa, ora è possibile con Mistral",
+          "url": "https://www.tomshw.it/business/agente-locale-eseguito-in-casa-ora-e-possibile-con-mistral",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "CERN and Mistral plan an AI foundation model for particle physics",
-          "url": "https://thenextweb.com/news/cern-mistral-large-physics-model",
-          "source": "The Next Web"
+          "title": "Mistral Advances AI for Engineering with NVIDIA",
+          "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+          "source": "Mistral AI — News"
+        }
+      ]
+    },
+    {
+      "keyword": "frontier model",
+      "mentions": 12,
+      "velocity": 2.1,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 13,
+      "expert_ratio": 0.78,
+      "headline": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "articles": [
+        {
+          "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+          "source": "Hugging Face Blog"
+        },
+        {
+          "title": "Microsoft admits 'frontier models can't be trusted', unveils new security tools to treat AI agents as insider threats",
+          "url": "https://www.techradar.com/pro/security/microsoft-admits-frontier-models-cant-be-trusted-unveils-new-security-tools-to-treat-ai-agents-as-insider-threats",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+          "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+          "source": "Artificial Intelligence (AI) | TechCrunch"
         }
       ]
     }
@@ -298,44 +416,98 @@
   ],
   "sustained": [
     {
-      "keyword": "gemini",
-      "mentions": 221,
+      "keyword": "vllm",
+      "mentions": 15,
       "velocity": 1.9,
+      "sources": [
+        "arxiv",
+        "github",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.72,
+      "headline": "PyTorch-native TPU back end for vLLM",
+      "articles": [
+        {
+          "title": "PyTorch-native TPU back end for vLLM",
+          "url": "https://github.com/vllm-project/vllm-torchtpu",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 31,
+      "velocity": 1.8,
       "sources": [
         "articles",
         "arxiv",
-        "github",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "OpenAI says the PHP flaws, found using GPT-5.6 Sol, \"are among several significant vulnerabilities\" it found and expects",
+      "articles": [
+        {
+          "title": "OpenAI says the PHP flaws, found using GPT-5.6 Sol, \"are among several significant vulnerabilities\" it found and expects",
+          "url": "https://www.techmeme.com/261021/p34#a261021p34",
+          "source": "Techmeme"
+        },
+        {
+          "title": "PHP's creators disclose a critical memory-management vulnerability, dubbed \"PHP2Shell\", that affects up to 70% of websit",
+          "url": "https://www.techmeme.com/261021/p30#a261021p30",
+          "source": "Techmeme"
+        },
+        {
+          "title": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
+          "url": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "ai safety",
+      "mentions": 21,
+      "velocity": 0.9,
+      "sources": [
+        "articles",
+        "arxiv",
         "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.38,
-      "headline": "Conversational Gemini navigation comes to Apple CarPlay",
+      "expert_ratio": 0.72,
+      "headline": "The AI safety bottleneck: Save the world or get the bag",
       "articles": [
         {
-          "title": "Conversational Gemini navigation comes to Apple CarPlay",
-          "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-          "source": "The Verge -  All Posts"
+          "title": "The AI safety bottleneck: Save the world or get the bag",
+          "url": "https://www.businessinsider.com/ai-safety-jobs-pay-work-in-labs-nonprofits-save-humanity-2026-10",
+          "source": "All Content from Business Insider"
         },
         {
-          "title": "Now you can chat with Gemini while using Google Maps through CarPlay",
-          "url": "https://www.engadget.com/2292912/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay/",
-          "source": "Engadget"
+          "title": "OpenAI, Anthropic Should Cap Compute for R＆D, Say AI Safety Advocates",
+          "url": "https://www.theinformation.com/articles/openai-anthropic-cap-compute-r-d-say-ai-safety-advocates",
+          "source": "The Information"
         },
         {
-          "title": "Gemini Personal Intelligence arriva in auto: quali dati userà?",
-          "url": "https://www.tomshw.it/hardware/gemini-personal-intelligence-arriva-in-auto-quali-dati-usera",
-          "source": "Tom's Hardware"
+          "title": "Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety",
+          "url": "https://arxiv.org/abs/2606.25034",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "data center",
-      "mentions": 24,
-      "velocity": 1.8,
+      "mentions": 20,
+      "velocity": 0.5,
       "sources": [
         "articles",
         "hackernews"
@@ -343,56 +515,23 @@
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.6,
-      "headline": "Data centers could erase decades of air quality gains",
+      "expert_ratio": 0.59,
+      "headline": "How Google, Amazon, and Meta are trying to win over communities pushing back against data centers",
       "articles": [
         {
-          "title": "Data centers could erase decades of air quality gains",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-          "source": "The Verge -  All Posts"
+          "title": "How Google, Amazon, and Meta are trying to win over communities pushing back against data centers",
+          "url": "https://www.fastcompany.com/91628160/how-google-amazon-meta-trying-win-over-communities-pushing-back-against-data-centers?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=10222026",
+          "source": "Fast Company"
         },
         {
-          "title": "'Data centers can be located in exhausted open pits': Russia eyes 300-meter-deep coal mines to shield server infrastruct",
-          "url": "https://www.techradar.com/pro/data-centers-can-be-located-in-exhausted-open-pits-russia-eyes-300-meter-deep-coal-mines-to-shield-server-infrastructure-from-ukrainian-drones",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Nokia beat profit expectations as AI data center sales more than doubled",
+          "url": "https://qz.com/nokia-earnings-beat-ai-cloud-sales-102226",
+          "source": "Quartz"
         },
         {
-          "title": "New $4.2 Billion Texas Gas Pipe to Supply Fuel for Data Center",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/new-4-2-billion-texas-gas-pipe-to-supply-fuel-for-data-center",
-          "source": "Bloomberg Technology"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 85,
-      "velocity": 1.3,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.36,
-      "headline": "Hackers Used Claude and Grok to Fully Automate Attacks on Banks",
-      "articles": [
-        {
-          "title": "Hackers Used Claude and Grok to Fully Automate Attacks on Banks",
-          "url": "https://www.theinformation.com/articles/hackers-used-claude-grok-fully-automate-attacks-banks",
-          "source": "The Information"
-        },
-        {
-          "title": "Scientists say Elon Musk is getting something wrong about whether Grok is getting tortured",
-          "url": "https://www.businessinsider.com/is-ai-conscious-sentient-cruelty-abusive-behavior-torture-llms2026-10",
-          "source": "Business Insider"
-        },
-        {
-          "title": "Musk says SpaceX will cover Grok Bot purchase mistakes and leaked cards",
-          "url": "https://thenextweb.com/news/musk-grok-bot-credit-card-spacex-make-you-whole",
-          "source": "The Next Web"
+          "title": "Google Eyes Large ‘Virtual Power Plant’ for Data Centers",
+          "url": "https://www.nytimes.com/2026/10/22/climate/google-voltus-virtual-power-plant.html",
+          "source": "NYT ＞ Science"
         }
       ]
     }
@@ -409,14 +548,6 @@
     "hit_rate": 0.56,
     "materialized": 196,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 143,
-        "covered": 36,
-        "early": 27,
-        "coverage_rate": 0.252,
-        "early_rate": 0.189,
-        "hit_rate": 0.252
-      },
       "emerging": {
         "scored": 207,
         "covered": 160,
@@ -424,6 +555,14 @@
         "coverage_rate": 0.773,
         "early_rate": 0.386,
         "hit_rate": 0.773
+      },
+      "weak_signal": {
+        "scored": 143,
+        "covered": 36,
+        "early": 27,
+        "coverage_rate": 0.252,
+        "early_rate": 0.189,
+        "hit_rate": 0.252
       }
     }
   },
@@ -539,6 +678,18 @@
         "confidence": 0.6
       },
       {
+        "keyword": "synthetic data",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-22",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "capcut",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-22",
+        "confidence": 0.2
+      },
+      {
         "keyword": "nvidia",
         "signal_type": "emerging",
         "flagged_on": "2026-10-21",
@@ -557,6 +708,12 @@
         "confidence": 0.4
       },
       {
+        "keyword": "together ai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-21",
+        "confidence": 0.2
+      },
+      {
         "keyword": "hallucination",
         "signal_type": "emerging",
         "flagged_on": "2026-10-21",
@@ -564,12 +721,6 @@
       },
       {
         "keyword": "mistral ai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-21",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "together ai",
         "signal_type": "emerging",
         "flagged_on": "2026-10-21",
         "confidence": 0.2
@@ -591,18 +742,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-19",
         "confidence": 1.0
-      },
-      {
-        "keyword": "mistral",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-19",
-        "confidence": 0.6
-      },
-      {
-        "keyword": "pinecone",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-19",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
@@ -635,20 +774,6 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "voice agent",
-        "recent_mentions": 15,
-        "prior_mentions": 2,
-        "change_ratio": 7.5,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "pika",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
         "keyword": "ai chips",
         "recent_mentions": 7,
         "prior_mentions": 1,
@@ -656,10 +781,10 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "deepseek r1",
-        "recent_mentions": 6,
+        "keyword": "pika",
+        "recent_mentions": 7,
         "prior_mentions": 1,
-        "change_ratio": 6.0,
+        "change_ratio": 7.0,
         "corroborating_sources": 1
       },
       {
@@ -670,24 +795,38 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "cot",
-        "recent_mentions": 62,
-        "prior_mentions": 11,
-        "change_ratio": 5.64,
+        "keyword": "deepseek r1",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "litellm",
+        "recent_mentions": 23,
+        "prior_mentions": 4,
+        "change_ratio": 5.75,
+        "corroborating_sources": 4
+      },
+      {
+        "keyword": "voice agent",
+        "recent_mentions": 11,
+        "prior_mentions": 2,
+        "change_ratio": 5.5,
         "corroborating_sources": 2
       },
       {
-        "keyword": "openrouter",
-        "recent_mentions": 36,
-        "prior_mentions": 7,
-        "change_ratio": 5.14,
-        "corroborating_sources": 3
+        "keyword": "cot",
+        "recent_mentions": 59,
+        "prior_mentions": 11,
+        "change_ratio": 5.36,
+        "corroborating_sources": 2
       },
       {
-        "keyword": "edge ai",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "keyword": "conversational ai",
+        "recent_mentions": 16,
+        "prior_mentions": 3,
+        "change_ratio": 5.33,
         "corroborating_sources": 2
       }
     ]
