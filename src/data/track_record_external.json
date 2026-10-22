@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-21T17:31:30+00:00",
+  "generated_at": "2026-10-22T05:25:42+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 347,
-    "covered": 195,
-    "coverage_rate": 0.562,
+    "scored_predictions": 350,
+    "covered": 196,
+    "coverage_rate": 0.56,
     "early": 107,
-    "early_rate": 0.308,
+    "early_rate": 0.306,
     "avg_lead_days": 14.7,
     "median_lead_days": 10,
     "max_lead_days": 42,
-    "hit_rate": 0.562,
-    "materialized": 195,
+    "hit_rate": 0.56,
+    "materialized": 196,
     "by_signal_type": {
-      "emerging": {
-        "scored": 206,
-        "covered": 159,
-        "early": 80,
-        "coverage_rate": 0.772,
-        "early_rate": 0.388,
-        "hit_rate": 0.772
-      },
       "weak_signal": {
-        "scored": 141,
+        "scored": 143,
         "covered": 36,
         "early": 27,
-        "coverage_rate": 0.255,
-        "early_rate": 0.191,
-        "hit_rate": 0.255
+        "coverage_rate": 0.252,
+        "early_rate": 0.189,
+        "hit_rate": 0.252
+      },
+      "emerging": {
+        "scored": 207,
+        "covered": 160,
+        "early": 80,
+        "coverage_rate": 0.773,
+        "early_rate": 0.386,
+        "hit_rate": 0.773
       }
     }
   },
@@ -76,16 +76,6 @@
       "title": "Uber reports Q2 revenue up 12% YoY to $14.2B, below $14.24B est., Gross Bookings up 24% to $58B, above $57B est., and forecasts Q3 adjusted EPS below est. (Lora Kolodny/CNBC)"
     },
     {
-      "keyword": "huggingface",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-28",
-      "materialized_on": "2026-10-05",
-      "lead_days": 38,
-      "outlet": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
-      "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
-    },
-    {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-14",
@@ -94,6 +84,16 @@
       "outlet": "VentureBeat",
       "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
       "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
+    },
+    {
+      "keyword": "huggingface",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-28",
+      "materialized_on": "2026-10-05",
+      "lead_days": 38,
+      "outlet": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
+      "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
     },
     {
       "keyword": "context window",
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 347,
+    "n": 350,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.565,
-      "early_rate": 0.311
+      "coverage_rate": 0.563,
+      "early_rate": 0.309
     },
     "null_mean": {
-      "coverage_rate": 0.591,
-      "early_rate": 0.358
+      "coverage_rate": 0.59,
+      "early_rate": 0.359
     },
     "p_value": {
       "coverage_rate": 0.983,
-      "early_rate": 0.992
+      "early_rate": 0.994
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
