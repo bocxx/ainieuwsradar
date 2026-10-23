@@ -1,12 +1,72 @@
 {
-  "generated_at": "2026-10-23T07:13:10.623685",
-  "total_tracked": 3308,
+  "generated_at": "2026-10-23T19:15:03.353002",
+  "total_tracked": 3369,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 184,
-      "velocity": 25.0,
+      "keyword": "claude code",
+      "mentions": 72,
+      "velocity": 7.6,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "LiteLLM says hackers poisoned it with GitHub tokens leaked via Claude Code",
+      "articles": [
+        {
+          "title": "LiteLLM says hackers poisoned it with GitHub tokens leaked via Claude Code",
+          "url": "https://thenextweb.com/news/litellm-hack-github-tokens-logs-claude-code",
+          "source": "The Next Web"
+        },
+        {
+          "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+          "url": "https://github.com/rbartoli/agent-usage-guard",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "gpt-5",
+      "mentions": 36,
+      "velocity": 2.8,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Microsoft says its GPT-5-powered Diagnostic Orchestrator uses agents that mimic panels of experts to diagnose conditions",
+      "articles": [
+        {
+          "title": "Microsoft says its GPT-5-powered Diagnostic Orchestrator uses agents that mimic panels of experts to diagnose conditions",
+          "url": "https://www.techmeme.com/261022/p48#a261022p48",
+          "source": "Techmeme"
+        },
+        {
+          "title": "OpenAI says the PHP flaws, found using GPT-5.6 Sol, \"are among several significant vulnerabilities\" it found and expects",
+          "url": "https://www.techmeme.com/261021/p34#a261021p34",
+          "source": "Techmeme"
+        },
+        {
+          "title": "PHP's creators disclose a critical memory-management vulnerability, dubbed \"PHP2Shell\", that affects up to 70% of websit",
+          "url": "https://www.techmeme.com/261021/p30#a261021p30",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 28,
+      "velocity": 2.2,
       "sources": [
         "articles",
         "arxiv",
@@ -16,30 +76,90 @@
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.81,
-      "headline": "TrustAgent-RFF: Agentic Diagnostic Planning for Reliable RF Fingerprinting under Domain Shift",
+      "expert_ratio": 0.5,
+      "headline": "Amazon bows to local backlash over AI data centers, scraps plans to build four new facilities in Northern Virginia",
       "articles": [
         {
-          "title": "TrustAgent-RFF: Agentic Diagnostic Planning for Reliable RF Fingerprinting under Domain Shift",
-          "url": "https://arxiv.org/abs/2610.24930",
+          "title": "Amazon bows to local backlash over AI data centers, scraps plans to build four new facilities in Northern Virginia",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-bows-to-local-backlash-over-ai-data-centers-scraps-plans-to-build-four-new-facilities-in-northern-virginia-site-to-be-repurposed-for-mixed-use-and-residential-development",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Wolves roam into Finnish villages after Google destroys 1,300 acres of forest for AI data centers",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/wolves-roam-into-finnish-villages-after-google-destroys-1-300-acres-of-forest-for-ai-data-centers-forest-where-wolf-packs-used-to-live-are-now-an-expanse-of-mud",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "quantization",
+      "mentions": 18,
+      "velocity": 2.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.96,
+      "headline": "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models",
+      "articles": [
+        {
+          "title": "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models",
+          "url": "https://arxiv.org/abs/2610.25961",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Agentic Video Understanding: A Survey",
-          "url": "https://arxiv.org/abs/2609.31713",
+          "title": "InfoQuant: Shaping Activation Distributions for Low-Bit LLM Quantization",
+          "url": "https://arxiv.org/abs/2605.26175",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
-          "url": "https://arxiv.org/abs/2607.00272",
+          "title": "Activation Sensitivity as a Unifying Principle for Post-Training Quantization",
+          "url": "https://arxiv.org/abs/2601.11663",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
+      "keyword": "vibe coding",
+      "mentions": 25,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.59,
+      "headline": "20 of Merriam-Webster's 1,400 new words and meanings, from vibe coding to yacht rock",
+      "articles": [
+        {
+          "title": "20 of Merriam-Webster's 1,400 new words and meanings, from vibe coding to yacht rock",
+          "url": "https://qz.com/merriam-webster-new-words-2026",
+          "source": "Quartz"
+        },
+        {
+          "title": "People are vibe coding their way to better TVs",
+          "url": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
+          "source": "The Verge -  All Posts"
+        },
+        {
+          "title": "A San Francisco gym went viral for a sign about vibe coding. The gym says it's an AI-generated fake.",
+          "url": "https://www.businessinsider.com/san-francisco-gym-viral-vibe-coding-sign-ai-fake-2026-10",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "fine-tuning",
-      "mentions": 180,
-      "velocity": 24.2,
+      "mentions": 108,
+      "velocity": 2.5,
       "sources": [
         "articles",
         "arxiv",
@@ -67,62 +187,9 @@
           "source": "cs.AI updates on arXiv.org"
         }
       ]
-    },
-    {
-      "keyword": "simulation",
-      "mentions": 93,
-      "velocity": 18.8,
-      "sources": [
-        "articles",
-        "arxiv",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.85,
-      "headline": "Model Capacity Frontier: A Development Framework for LLM-Supported Social Simulation",
-      "articles": [
-        {
-          "title": "Model Capacity Frontier: A Development Framework for LLM-Supported Social Simulation",
-          "url": "https://arxiv.org/abs/2610.24168",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Dooly: Configuration-Agnostic, Redundancy-Aware Profiling for LLM Inference Simulation",
-          "url": "https://arxiv.org/abs/2605.07985",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation",
-          "url": "https://arxiv.org/abs/2610.30047",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
     }
   ],
-  "emerging": [],
   "weak_signals": [
-    {
-      "keyword": "openevidence",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
-      "articles": [
-        {
-          "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
-          "url": "https://www.techmeme.com/261021/p6#a261021p6",
-          "source": "Techmeme"
-        }
-      ]
-    },
     {
       "keyword": "sharepoint",
       "mentions": 2,
@@ -140,6 +207,26 @@
           "title": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
           "url": "https://www.computerworld.com/article/4236627/october-patch-tuesday-1408-cves-1-exploited-flaw-and-a-sharepoint-surprise.html",
           "source": "Artificial Intelligence – Computerworld"
+        }
+      ]
+    },
+    {
+      "keyword": "openevidence",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
+      "articles": [
+        {
+          "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
+          "url": "https://www.techmeme.com/261021/p6#a261021p6",
+          "source": "Techmeme"
         }
       ]
     },
@@ -165,6 +252,34 @@
           "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
           "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
           "source": "WIRED"
+        }
+      ]
+    },
+    {
+      "keyword": "canada",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [],
+      "source_count": 0,
+      "confidence": 46,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "LIVE: Canada's Carney speaks during his trip to Turkey",
+      "articles": [
+        {
+          "title": "LIVE: Canada's Carney speaks during his trip to Turkey",
+          "url": "https://www.youtube.com/watch?v=BM_o4RvMwU4",
+          "source": "Reuters"
+        },
+        {
+          "title": "LIVE: Canada's Carney speaks during his trip to Turkey",
+          "url": "https://www.youtube.com/watch?v=MMEVh1VpR0U",
+          "source": "Reuters"
+        },
+        {
+          "title": "Canada's Molly Carlson becomes first woman to dive off an iceberg",
+          "url": "https://www.youtube.com/shorts/2bCrXzHQfvc",
+          "source": "Reuters"
         }
       ]
     },
@@ -199,6 +314,26 @@
       ]
     },
     {
+      "keyword": "ai scraping",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
+      "headline": "Meta delays new business terms after publisher pushback on AI scraping",
+      "articles": [
+        {
+          "title": "Meta delays new business terms after publisher pushback on AI scraping",
+          "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+          "source": "The Verge -  Artificial Intelligences"
+        }
+      ]
+    },
+    {
       "keyword": "blackrock",
       "mentions": 2,
       "velocity": 0.3,
@@ -209,8 +344,13 @@
       "confidence": 77,
       "days_active": 10,
       "expert_ratio": 0.91,
-      "headline": "BlackRock's Larry Fink warned that not building data centers could be inflationary",
+      "headline": "BlackRock’s Boivin Sees Rates Getting More in Line With the Environment",
       "articles": [
+        {
+          "title": "BlackRock’s Boivin Sees Rates Getting More in Line With the Environment",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/rates-getting-more-in-line-with-environment-boivin-video",
+          "source": "Bloomberg Technology"
+        },
         {
           "title": "BlackRock's Larry Fink warned that not building data centers could be inflationary",
           "url": "https://qz.com/larry-fink-data-centers-inflation-blackrock-102126",
@@ -219,11 +359,6 @@
         {
           "title": "BlackRock’s Fink Sees Inflation Risk in Slow Data-Center Buildout",
           "url": "https://www.bloomberg.com/news/videos/2026-10-21/blackrock-s-fink-sees-risks-in-slow-data-center-buildout-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "BlackRock’s Fink Says Slow AI Buildout Would Spur Inflation",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/blackrock-s-fink-says-slow-data-center-buildout-is-inflationary",
           "source": "Bloomberg Technology"
         }
       ]
@@ -247,70 +382,44 @@
           "source": "Computerworld"
         }
       ]
-    },
-    {
-      "keyword": "ai research",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "AI research startup Flapping Airplanes raised $1 billion at a $6 billion valuation",
-      "articles": [
-        {
-          "title": "AI research startup Flapping Airplanes raised $1 billion at a $6 billion valuation",
-          "url": "https://qz.com/flapping-airplanes-ai-startup-1-billion-funding-valuation-102126",
-          "source": "Quartz"
-        },
-        {
-          "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-          "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-          "source": "Top News - MIT Technology Review"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "data centers",
-      "mentions": 25,
-      "velocity": 1.3,
+      "keyword": "prompt injection",
+      "mentions": 18,
+      "velocity": 1.8,
       "sources": [
-        "articles",
-        "hackernews",
-        "twitter"
+        "arxiv",
+        "reddit"
       ],
-      "source_count": 3,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.5,
-      "headline": "Amazon is spending over $1 billion on a new nuclear energy project to power its next data centers — but will it really l",
+      "expert_ratio": 0.83,
+      "headline": "Combining Long-Term Memory and LLMs Comes at a High Cost: From Prompt Injection to Persistent Compromise",
       "articles": [
         {
-          "title": "Amazon is spending over $1 billion on a new nuclear energy project to power its next data centers — but will it really l",
-          "url": "https://www.techradar.com/pro/amazon-is-spending-over-usd1-billion-on-a-new-nuclear-energy-project-to-power-its-next-data-centers-but-will-it-really-live-up-to-the-test",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Combining Long-Term Memory and LLMs Comes at a High Cost: From Prompt Injection to Persistent Compromise",
+          "url": "https://arxiv.org/abs/2610.28810",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "Why you should worry less about big data centers and more about big data",
-          "url": "https://www.fastcompany.com/91627173/why-you-should-worry-less-about-big-data-centers-and-more-about-big-data?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=10232026",
-          "source": "Fast Company"
+          "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
+          "url": "https://arxiv.org/abs/2610.28364",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection in Web Agents",
+          "url": "https://arxiv.org/abs/2606.20717",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "claude",
-      "mentions": 545,
-      "velocity": 1.2,
+      "mentions": 546,
+      "velocity": 1.5,
       "sources": [
         "articles",
         "arxiv",
@@ -322,57 +431,111 @@
       "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.71,
-      "headline": "Claude flags nearly 500 worrying open source security issues — C, Java, and Python code all at risk as one flaw wasn't s",
+      "expert_ratio": 0.7,
+      "headline": "Come usare Claude per redigere la prima bozza del report di sostenibilità partendo dai dati interni",
       "articles": [
         {
-          "title": "Claude flags nearly 500 worrying open source security issues — C, Java, and Python code all at risk as one flaw wasn't s",
-          "url": "https://www.techradar.com/pro/security/claude-flags-nearly-500-worrying-open-source-security-issues-c-java-and-python-code-all-at-risk-as-one-flaw-wasnt-spotted-for-21-years",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Come usare Claude per redigere la prima bozza del report di sostenibilità partendo dai dati interni",
+          "url": "https://www.tomshw.it/aioperator/come-usare-claude-per-redigere-la-prima-bozza-del-report-di-sostenibilita-partendo-dai-dati-interni",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Salesforce Customers Brace For New Fees to Use Claude in Its Apps",
-          "url": "https://www.theinformation.com/articles/salesforce-customers-brace-new-fees-use-claude-apps",
-          "source": "The Information"
+          "title": "Il nuovo agente di Claude si fa proattivo, ti cerca per primo e ti organizza la giornata",
+          "url": "https://www.tomshw.it/business/il-nuovo-agente-di-claude-si-fa-proattivo-ti-cerca-per-primo-e-ti-organizza-la-giornata",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
-          "url": "https://github.com/rbartoli/agent-usage-guard",
-          "source": "Hacker News"
+          "title": "Google Cloud ora vende anche Claude e GPT, l'esclusiva Microsoft su OpenAI ormai è un ricordo",
+          "url": "https://www.tomshw.it/business/google-cloud-ora-vende-anche-claude-e-gpt-lesclusiva-microsoft-su-openai-ormai-e-un-ricordo",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "ai safety",
-      "mentions": 21,
-      "velocity": 0.7,
+      "keyword": "claude opus",
+      "mentions": 27,
+      "velocity": 1.3,
       "sources": [
         "articles",
         "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.78,
+      "headline": "NVIDIA's new, open Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchma",
+      "articles": [
+        {
+          "title": "NVIDIA's new, open Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchma",
+          "url": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks?utm_source=flipboard&utm_content=topic/artificialintelligence",
+          "source": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "keyword": "hallucination",
+      "mentions": 13,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.86,
+      "headline": "Target-Aware Curation of Hallucination Stress Tests for Large Language Models",
+      "articles": [
+        {
+          "title": "Target-Aware Curation of Hallucination Stress Tests for Large Language Models",
+          "url": "https://arxiv.org/abs/2610.27247",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "CARLAR Influence: A Structured Hallucination Risk in Multimodal Cheque Extraction and an Exploratory Compressed-Image Co",
+          "url": "https://arxiv.org/abs/2610.27192",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Robustness of Internal Signals for Hallucination Detection in Vision-Language Models",
+          "url": "https://arxiv.org/abs/2610.27041",
+          "source": "cs.AI updates on arXiv.org"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek",
+      "mentions": 137,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
         "hackernews",
-        "reddit",
-        "twitter"
+        "reddit"
       ],
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.73,
-      "headline": "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, ",
+      "expert_ratio": 0.9,
+      "headline": "DeepSeek V4.1 Flash sorprende nei test, ma inciampa su un vecchio problema",
       "articles": [
         {
-          "title": "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, ",
-          "url": "https://www.techmeme.com/261022/p61#a261022p61",
-          "source": "Techmeme"
+          "title": "DeepSeek V4.1 Flash sorprende nei test, ma inciampa su un vecchio problema",
+          "url": "https://www.tomshw.it/hardware/deepseek-v41-flash-e-piu-efficiente-puoi-fidarti-delle-risposte",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
-          "url": "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance",
-          "source": "Artificial intelligence (AI) | The Guardian"
+          "title": "Deepseek's latest AI model is smarter than ever, but its low running costs come at a price",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseeks-latest-ai-model-is-smarter-than-ever-but-its-low-running-costs-come-at-a-price-open-weight-model-is-fit-for-agentic-workloads-but-is-more-prone-to-hallucination-than-proprietary-competitors",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "The AI safety bottleneck: Save the world or get the bag",
-          "url": "https://www.businessinsider.com/ai-safety-jobs-pay-work-in-labs-nonprofits-save-humanity-2026-10",
-          "source": "All Content from Business Insider"
+          "title": "DeepSeek reportedly raises $15bn from Tencent and CATL ahead of IPO",
+          "url": "https://thenextweb.com/news/deepseek-reportedly-raises-15bn-from-tencent-and-catl-ahead-of-ipo?utm_source=flipboard&utm_content=topic%2Fartificialintelligence",
+          "source": "Artificial Intelligence"
         }
       ]
     }
@@ -389,14 +552,6 @@
     "hit_rate": 0.563,
     "materialized": 200,
     "by_signal_type": {
-      "emerging": {
-        "scored": 210,
-        "covered": 163,
-        "early": 82,
-        "coverage_rate": 0.776,
-        "early_rate": 0.39,
-        "hit_rate": 0.776
-      },
       "weak_signal": {
         "scored": 145,
         "covered": 37,
@@ -404,6 +559,14 @@
         "coverage_rate": 0.255,
         "early_rate": 0.193,
         "hit_rate": 0.255
+      },
+      "emerging": {
+        "scored": 210,
+        "covered": 163,
+        "early": 82,
+        "coverage_rate": 0.776,
+        "early_rate": 0.39,
+        "hit_rate": 0.776
       }
     }
   },
@@ -594,13 +757,6 @@
         "corroborating_sources": 4
       },
       {
-        "keyword": "chain of thought",
-        "recent_mentions": 10,
-        "prior_mentions": 1,
-        "change_ratio": 10.0,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "pika",
         "recent_mentions": 9,
         "prior_mentions": 1,
@@ -608,18 +764,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "litellm",
-        "recent_mentions": 32,
-        "prior_mentions": 4,
-        "change_ratio": 8.0,
-        "corroborating_sources": 4
-      },
-      {
         "keyword": "together ai",
         "recent_mentions": 15,
         "prior_mentions": 2,
         "change_ratio": 7.5,
         "corroborating_sources": 1
+      },
+      {
+        "keyword": "litellm",
+        "recent_mentions": 27,
+        "prior_mentions": 4,
+        "change_ratio": 6.75,
+        "corroborating_sources": 4
       },
       {
         "keyword": "flair",
@@ -636,10 +792,17 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "fireworks",
-        "recent_mentions": 5,
+        "keyword": "chain of thought",
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "fireworks",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
@@ -658,16 +821,16 @@
       },
       {
         "keyword": "qlora",
-        "recent_mentions": 14,
+        "recent_mentions": 12,
         "prior_mentions": 3,
-        "change_ratio": 4.67,
+        "change_ratio": 4.0,
         "corroborating_sources": 2
       },
       {
         "keyword": "computer-use",
-        "recent_mentions": 26,
+        "recent_mentions": 24,
         "prior_mentions": 6,
-        "change_ratio": 4.33,
+        "change_ratio": 4.0,
         "corroborating_sources": 2
       }
     ]
