@@ -1,313 +1,108 @@
 {
-  "generated_at": "2026-10-22T19:16:21.340299",
-  "total_tracked": 3412,
+  "generated_at": "2026-10-23T07:13:10.623685",
+  "total_tracked": 3308,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "claude opus",
-      "mentions": 33,
-      "velocity": 4.4,
+      "keyword": "agentic",
+      "mentions": 184,
+      "velocity": 25.0,
       "sources": [
         "articles",
         "arxiv",
         "hackernews",
-        "reddit"
+        "twitter"
       ],
       "source_count": 4,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "NVIDIA's Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchmarks - Vent",
+      "expert_ratio": 0.81,
+      "headline": "TrustAgent-RFF: Agentic Diagnostic Planning for Reliable RF Fingerprinting under Domain Shift",
       "articles": [
         {
-          "title": "NVIDIA's Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchmarks - Vent",
-          "url": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks",
-          "source": "VentureBeat"
+          "title": "TrustAgent-RFF: Agentic Diagnostic Planning for Reliable RF Fingerprinting under Domain Shift",
+          "url": "https://arxiv.org/abs/2610.24930",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Agentic Video Understanding: A Survey",
+          "url": "https://arxiv.org/abs/2609.31713",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+          "url": "https://arxiv.org/abs/2607.00272",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
-      "keyword": "litellm",
-      "mentions": 12,
-      "velocity": 2.7,
+      "keyword": "fine-tuning",
+      "mentions": 180,
+      "velocity": 24.2,
       "sources": [
         "articles",
-        "github",
-        "hackernews",
+        "arxiv",
         "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.62,
-      "headline": "LiteLLM distribuisce malware, a rischio le chiavi API dell'IA",
+      "days_active": 15,
+      "expert_ratio": 0.99,
+      "headline": "Mixture-of-Control: State-Aware Fine-Tuning for Transformer-based Models",
       "articles": [
         {
-          "title": "LiteLLM distribuisce malware, a rischio le chiavi API dell'IA",
-          "url": "https://www.tomshw.it/business/litellm-distribuisce-malware-a-rischio-le-chiavi-api-dellia",
-          "source": "Tom's Hardware"
+          "title": "Mixture-of-Control: State-Aware Fine-Tuning for Transformer-based Models",
+          "url": "https://arxiv.org/abs/2606.31397",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
-          "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
-          "source": "The Register"
+          "title": "Fine-Tuning Small Reasoning Models for Quantum Field Theory",
+          "url": "https://arxiv.org/abs/2604.18936",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "LiteLLM, due falle potevano mettere in ginocchio l'AI aziendale",
-          "url": "https://www.tomshw.it/hardware/litellm-corregge-falle-gravi-come-proteggere-le-chiavi-api",
-          "source": "Tom's Hardware"
+          "title": "When Do Gaussian Priors Fail? A Latent Geometry Investigation of RL Fine-Tuning",
+          "url": "https://arxiv.org/abs/2610.28849",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
       "keyword": "simulation",
-      "mentions": 37,
-      "velocity": 2.7,
+      "mentions": 93,
+      "velocity": 18.8,
       "sources": [
         "articles",
         "arxiv",
         "twitter"
       ],
       "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from st",
-      "articles": [
-        {
-          "title": "Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from st",
-          "url": "https://www.techmeme.com/261021/p38#a261021p38",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
-          "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-          "source": "Hugging Face Blog"
-        },
-        {
-          "title": "SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images",
-          "url": "https://arxiv.org/abs/2610.28585",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "prompt injection",
-      "mentions": 17,
-      "velocity": 2.1,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.85,
-      "headline": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
+      "headline": "Model Capacity Frontier: A Development Framework for LLM-Supported Social Simulation",
       "articles": [
         {
-          "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
-          "url": "https://arxiv.org/abs/2610.28364",
+          "title": "Model Capacity Frontier: A Development Framework for LLM-Supported Social Simulation",
+          "url": "https://arxiv.org/abs/2610.24168",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
-          "url": "https://arxiv.org/abs/2610.20776",
+          "title": "Dooly: Configuration-Agnostic, Redundancy-Aware Profiling for LLM Inference Simulation",
+          "url": "https://arxiv.org/abs/2605.07985",
           "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection in Web Agents",
-          "url": "https://arxiv.org/abs/2606.20717",
+          "title": "SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation",
+          "url": "https://arxiv.org/abs/2610.30047",
           "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
-  "emerging": [
-    {
-      "keyword": "fine-tuning",
-      "mentions": 115,
-      "velocity": 6.6,
-      "sources": [
-        "arxiv",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.99,
-      "headline": "When Thoughts Become Memory: Unifying In-Context Learning and Fine-Tuning",
-      "articles": [
-        {
-          "title": "When Thoughts Become Memory: Unifying In-Context Learning and Fine-Tuning",
-          "url": "https://arxiv.org/abs/2610.29419",
-          "source": "stat.ML updates on arXiv.org"
-        },
-        {
-          "title": "Rethinking LLM Fine-Tuning via Weight Space Reparameterization: Preserving Safety during Downstream Adaptation",
-          "url": "https://arxiv.org/abs/2610.26443",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "Fine-Tuning Small Language Models for Reliable VASP INCAR Generation",
-          "url": "https://arxiv.org/abs/2608.05387",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "claude code",
-      "mentions": 59,
-      "velocity": 5.2,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
-      "articles": [
-        {
-          "title": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
-          "url": "https://github.com/xamrayev/nexus-cli",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "deepseek",
-      "mentions": 142,
-      "velocity": 3.9,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 5,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.9,
-      "headline": "DeepSeek reportedly raises $15B days after US restrictions",
-      "articles": [
-        {
-          "title": "DeepSeek reportedly raises $15B days after US restrictions",
-          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "DeepSeek raised about $15 billion in funding ahead of a possible IPO",
-          "url": "https://qz.com/deepseek-15-billion-funding-round-possible-ipo-102226",
-          "source": "Quartz"
-        },
-        {
-          "title": "A look at Huawei and DeepSeek's mutual reliance, where Huawei provides compute hardware while DeepSeek contributes model",
-          "url": "https://www.techmeme.com/261022/p12#a261022p12",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "mistral",
-      "mentions": 42,
-      "velocity": 3.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.7,
-      "headline": "Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral",
-      "articles": [
-        {
-          "title": "Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral",
-          "url": "https://www.techmeme.com/261022/p24#a261022p24",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Agente locale eseguito in casa, ora è possibile con Mistral",
-          "url": "https://www.tomshw.it/business/agente-locale-eseguito-in-casa-ora-e-possibile-con-mistral",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Mistral Advances AI for Engineering with NVIDIA",
-          "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
-          "source": "Mistral AI — News"
-        }
-      ]
-    },
-    {
-      "keyword": "frontier model",
-      "mentions": 12,
-      "velocity": 2.1,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.78,
-      "headline": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "articles": [
-        {
-          "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-          "source": "Hugging Face Blog"
-        },
-        {
-          "title": "Microsoft admits 'frontier models can't be trusted', unveils new security tools to treat AI agents as insider threats",
-          "url": "https://www.techradar.com/pro/security/microsoft-admits-frontier-models-cant-be-trusted-unveils-new-security-tools-to-treat-ai-agents-as-insider-threats",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-          "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-          "source": "Artificial Intelligence (AI) | TechCrunch"
-        }
-      ]
-    }
-  ],
+  "emerging": [],
   "weak_signals": [
-    {
-      "keyword": "flash",
-      "mentions": 3,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 65,
-      "days_active": 2,
-      "expert_ratio": 0.8,
-      "headline": "FADU puts the filesystem inside the SSD's flash to bypass host CPUs",
-      "articles": [
-        {
-          "title": "FADU puts the filesystem inside the SSD's flash to bypass host CPUs",
-          "url": "https://www.tomshardware.com/pc-components/ssds/fadu-puts-the-filesystem-inside-the-ssds-flash-to-bypass-host-cpus-file-semantic-pcie-6-0-ssd-delivers-460-000-ops-s-to-gpus-and-dpus-samples-due-by-q3-2027",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "Sources: Samsung and SK Hynix are upgrading their China fabs to produce NAND flash chips with 200+ layers, aiming to fen",
-          "url": "https://www.techmeme.com/261021/p5#a261021p5",
-          "source": "Techmeme"
-        },
-        {
-          "title": "This silent all-flash NAS with 10GbE and dual USB4 is cheaper if you buy it bare-bone and add your own SSDs",
-          "url": "https://www.techradar.com/pro/this-silent-all-flash-nas-with-10gbe-and-dual-usb4-is-cheaper-if-you-buy-it-bare-bone-and-add-your-own-ssds",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
     {
       "keyword": "openevidence",
       "mentions": 2,
@@ -325,6 +120,26 @@
           "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
           "url": "https://www.techmeme.com/261021/p6#a261021p6",
           "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "sharepoint",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
+      "articles": [
+        {
+          "title": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
+          "url": "https://www.computerworld.com/article/4236627/october-patch-tuesday-1408-cves-1-exploited-flaw-and-a-sharepoint-surprise.html",
+          "source": "Artificial Intelligence – Computerworld"
         }
       ]
     },
@@ -356,14 +171,14 @@
     {
       "keyword": "ai search",
       "mentions": 3,
-      "velocity": 0.8,
+      "velocity": 0.5,
       "sources": [
         "github"
       ],
       "source_count": 1,
-      "confidence": 69,
-      "days_active": 3,
-      "expert_ratio": 0.86,
+      "confidence": 75,
+      "days_active": 4,
+      "expert_ratio": 0.9,
       "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
       "articles": [
         {
@@ -384,96 +199,153 @@
       ]
     },
     {
-      "keyword": "teacher",
-      "mentions": 3,
-      "velocity": 0.4,
+      "keyword": "blackrock",
+      "mentions": 2,
+      "velocity": 0.3,
       "sources": [
-        "arxiv"
+        "articles"
       ],
       "source_count": 1,
-      "confidence": 71,
-      "days_active": 3,
-      "expert_ratio": 1.0,
-      "headline": "Oregon Teacher Disputes Account of Her Heroism During School Shooting",
+      "confidence": 77,
+      "days_active": 10,
+      "expert_ratio": 0.91,
+      "headline": "BlackRock's Larry Fink warned that not building data centers could be inflationary",
       "articles": [
         {
-          "title": "Oregon Teacher Disputes Account of Her Heroism During School Shooting",
-          "url": "https://www.nytimes.com/2026/10/21/us/bend-oregon-school-shooting-teacher-hero.html",
-          "source": "The New York Times"
+          "title": "BlackRock's Larry Fink warned that not building data centers could be inflationary",
+          "url": "https://qz.com/larry-fink-data-centers-inflation-blackrock-102126",
+          "source": "Quartz"
         },
         {
-          "title": "TamedFlow: Trajectory-Aware Distillation for Teacher-Assisted Diffusion Sampling",
-          "url": "https://arxiv.org/abs/2610.26025",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "BlackRock’s Fink Sees Inflation Risk in Slow Data-Center Buildout",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-21/blackrock-s-fink-sees-risks-in-slow-data-center-buildout-video",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "Composing What Each Teacher Learned: Delta Distillation for Multi-Teacher On-Policy Learning",
-          "url": "https://arxiv.org/abs/2610.10460",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "BlackRock’s Fink Says Slow AI Buildout Would Spur Inflation",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/blackrock-s-fink-says-slow-data-center-buildout-is-inflationary",
+          "source": "Bloomberg Technology"
+        }
+      ]
+    },
+    {
+      "keyword": "free ai",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
+      "headline": "Tether Is bridging the intelligence gap with free AI",
+      "articles": [
+        {
+          "title": "Tether Is bridging the intelligence gap with free AI",
+          "url": "https://www.computerworld.com/article/4234276/tether-is-bridging-the-intelligence-gap-with-free-ai.html",
+          "source": "Computerworld"
+        }
+      ]
+    },
+    {
+      "keyword": "ai research",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
+      "headline": "AI research startup Flapping Airplanes raised $1 billion at a $6 billion valuation",
+      "articles": [
+        {
+          "title": "AI research startup Flapping Airplanes raised $1 billion at a $6 billion valuation",
+          "url": "https://qz.com/flapping-airplanes-ai-startup-1-billion-funding-valuation-102126",
+          "source": "Quartz"
+        },
+        {
+          "title": "AI Research Startup Flapping Airplanes Valued at $6 Billion in Round",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+          "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+          "source": "Top News - MIT Technology Review"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "vllm",
-      "mentions": 15,
-      "velocity": 1.9,
-      "sources": [
-        "arxiv",
-        "github",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "PyTorch-native TPU back end for vLLM",
-      "articles": [
-        {
-          "title": "PyTorch-native TPU back end for vLLM",
-          "url": "https://github.com/vllm-project/vllm-torchtpu",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "gpt-5",
-      "mentions": 31,
-      "velocity": 1.8,
+      "keyword": "data centers",
+      "mentions": 25,
+      "velocity": 1.3,
       "sources": [
         "articles",
-        "arxiv",
-        "reddit"
+        "hackernews",
+        "twitter"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.94,
-      "headline": "OpenAI says the PHP flaws, found using GPT-5.6 Sol, \"are among several significant vulnerabilities\" it found and expects",
+      "expert_ratio": 0.5,
+      "headline": "Amazon is spending over $1 billion on a new nuclear energy project to power its next data centers — but will it really l",
       "articles": [
         {
-          "title": "OpenAI says the PHP flaws, found using GPT-5.6 Sol, \"are among several significant vulnerabilities\" it found and expects",
-          "url": "https://www.techmeme.com/261021/p34#a261021p34",
-          "source": "Techmeme"
+          "title": "Amazon is spending over $1 billion on a new nuclear energy project to power its next data centers — but will it really l",
+          "url": "https://www.techradar.com/pro/amazon-is-spending-over-usd1-billion-on-a-new-nuclear-energy-project-to-power-its-next-data-centers-but-will-it-really-live-up-to-the-test",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "PHP's creators disclose a critical memory-management vulnerability, dubbed \"PHP2Shell\", that affects up to 70% of websit",
-          "url": "https://www.techmeme.com/261021/p30#a261021p30",
-          "source": "Techmeme"
+          "title": "Why you should worry less about big data centers and more about big data",
+          "url": "https://www.fastcompany.com/91627173/why-you-should-worry-less-about-big-data-centers-and-more-about-big-data?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=2&partner=newsletter&campaign_date=10232026",
+          "source": "Fast Company"
+        }
+      ]
+    },
+    {
+      "keyword": "claude",
+      "mentions": 545,
+      "velocity": 1.2,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.71,
+      "headline": "Claude flags nearly 500 worrying open source security issues — C, Java, and Python code all at risk as one flaw wasn't s",
+      "articles": [
+        {
+          "title": "Claude flags nearly 500 worrying open source security issues — C, Java, and Python code all at risk as one flaw wasn't s",
+          "url": "https://www.techradar.com/pro/security/claude-flags-nearly-500-worrying-open-source-security-issues-c-java-and-python-code-all-at-risk-as-one-flaw-wasnt-spotted-for-21-years",
+          "source": "Latest from TechRadar US in News，opinion"
         },
         {
-          "title": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
-          "url": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
-          "source": "The Next Web"
+          "title": "Salesforce Customers Brace For New Fees to Use Claude in Its Apps",
+          "url": "https://www.theinformation.com/articles/salesforce-customers-brace-new-fees-use-claude-apps",
+          "source": "The Information"
+        },
+        {
+          "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+          "url": "https://github.com/rbartoli/agent-usage-guard",
+          "source": "Hacker News"
         }
       ]
     },
     {
       "keyword": "ai safety",
       "mentions": 21,
-      "velocity": 0.9,
+      "velocity": 0.7,
       "sources": [
         "articles",
         "arxiv",
@@ -484,106 +356,75 @@
       "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.72,
-      "headline": "The AI safety bottleneck: Save the world or get the bag",
+      "expert_ratio": 0.73,
+      "headline": "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, ",
       "articles": [
+        {
+          "title": "OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, ",
+          "url": "https://www.techmeme.com/261022/p61#a261022p61",
+          "source": "Techmeme"
+        },
+        {
+          "title": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
+          "url": "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance",
+          "source": "Artificial intelligence (AI) | The Guardian"
+        },
         {
           "title": "The AI safety bottleneck: Save the world or get the bag",
           "url": "https://www.businessinsider.com/ai-safety-jobs-pay-work-in-labs-nonprofits-save-humanity-2026-10",
           "source": "All Content from Business Insider"
-        },
-        {
-          "title": "OpenAI, Anthropic Should Cap Compute for R＆D, Say AI Safety Advocates",
-          "url": "https://www.theinformation.com/articles/openai-anthropic-cap-compute-r-d-say-ai-safety-advocates",
-          "source": "The Information"
-        },
-        {
-          "title": "Yuvion VL: A Multimodal Foundation Model for Adversarial Content and AI Safety",
-          "url": "https://arxiv.org/abs/2606.25034",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "data center",
-      "mentions": 20,
-      "velocity": 0.5,
-      "sources": [
-        "articles",
-        "hackernews"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.59,
-      "headline": "How Google, Amazon, and Meta are trying to win over communities pushing back against data centers",
-      "articles": [
-        {
-          "title": "How Google, Amazon, and Meta are trying to win over communities pushing back against data centers",
-          "url": "https://www.fastcompany.com/91628160/how-google-amazon-meta-trying-win-over-communities-pushing-back-against-data-centers?utm_source=postup&utm_medium=email&utm_campaign=artificial-intelligence&position=1&partner=newsletter&campaign_date=10222026",
-          "source": "Fast Company"
-        },
-        {
-          "title": "Nokia beat profit expectations as AI data center sales more than doubled",
-          "url": "https://qz.com/nokia-earnings-beat-ai-cloud-sales-102226",
-          "source": "Quartz"
-        },
-        {
-          "title": "Google Eyes Large ‘Virtual Power Plant’ for Data Centers",
-          "url": "https://www.nytimes.com/2026/10/22/climate/google-voltus-virtual-power-plant.html",
-          "source": "NYT ＞ Science"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 350,
-    "covered": 196,
-    "coverage_rate": 0.56,
-    "early": 107,
-    "early_rate": 0.306,
-    "avg_lead_days": 14.7,
-    "median_lead_days": 10,
+    "scored_predictions": 355,
+    "covered": 200,
+    "coverage_rate": 0.563,
+    "early": 110,
+    "early_rate": 0.31,
+    "avg_lead_days": 14.5,
+    "median_lead_days": 10.5,
     "max_lead_days": 42,
-    "hit_rate": 0.56,
-    "materialized": 196,
+    "hit_rate": 0.563,
+    "materialized": 200,
     "by_signal_type": {
       "emerging": {
-        "scored": 207,
-        "covered": 160,
-        "early": 80,
-        "coverage_rate": 0.773,
-        "early_rate": 0.386,
-        "hit_rate": 0.773
+        "scored": 210,
+        "covered": 163,
+        "early": 82,
+        "coverage_rate": 0.776,
+        "early_rate": 0.39,
+        "hit_rate": 0.776
       },
       "weak_signal": {
-        "scored": 143,
-        "covered": 36,
-        "early": 27,
-        "coverage_rate": 0.252,
-        "early_rate": 0.189,
-        "hit_rate": 0.252
+        "scored": 145,
+        "covered": 37,
+        "early": 28,
+        "coverage_rate": 0.255,
+        "early_rate": 0.193,
+        "hit_rate": 0.255
       }
     }
   },
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 350,
+    "n": 355,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.563,
-      "early_rate": 0.309
+      "coverage_rate": 0.566,
+      "early_rate": 0.313
     },
     "null_mean": {
-      "coverage_rate": 0.59,
-      "early_rate": 0.359
+      "coverage_rate": 0.592,
+      "early_rate": 0.361
     },
     "p_value": {
-      "coverage_rate": 0.983,
-      "early_rate": 0.994
+      "coverage_rate": 0.974,
+      "early_rate": 0.991
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -672,6 +513,12 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "frontier model",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-23",
+        "confidence": 0.6
+      },
+      {
         "keyword": "lora",
         "signal_type": "emerging",
         "flagged_on": "2026-10-22",
@@ -736,34 +583,35 @@
         "signal_type": "weak_signal",
         "flagged_on": "2026-10-21",
         "confidence": 0
-      },
-      {
-        "keyword": "anthropic",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-19",
-        "confidence": 1.0
       }
     ],
     "heating_up": [
       {
-        "keyword": "dreamina",
-        "recent_mentions": 13,
-        "prior_mentions": 1,
-        "change_ratio": 13.0,
-        "corroborating_sources": 1
+        "keyword": "frontier model",
+        "recent_mentions": 37,
+        "prior_mentions": 3,
+        "change_ratio": 12.33,
+        "corroborating_sources": 4
       },
       {
-        "keyword": "claude desktop",
-        "recent_mentions": 12,
+        "keyword": "chain of thought",
+        "recent_mentions": 10,
         "prior_mentions": 1,
-        "change_ratio": 12.0,
+        "change_ratio": 10.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "frontier model",
-        "recent_mentions": 28,
-        "prior_mentions": 3,
-        "change_ratio": 9.33,
+        "keyword": "pika",
+        "recent_mentions": 9,
+        "prior_mentions": 1,
+        "change_ratio": 9.0,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "litellm",
+        "recent_mentions": 32,
+        "prior_mentions": 4,
+        "change_ratio": 8.0,
         "corroborating_sources": 4
       },
       {
@@ -774,59 +622,52 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "ai chips",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "pika",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "glean",
+        "keyword": "flair",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "deepseek r1",
+        "keyword": "heygen",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "litellm",
-        "recent_mentions": 23,
-        "prior_mentions": 4,
-        "change_ratio": 5.75,
-        "corroborating_sources": 4
+        "keyword": "fireworks",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "voice agent",
-        "recent_mentions": 11,
-        "prior_mentions": 2,
-        "change_ratio": 5.5,
-        "corroborating_sources": 2
+        "keyword": "framer",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "cot",
-        "recent_mentions": 59,
-        "prior_mentions": 11,
-        "change_ratio": 5.36,
-        "corroborating_sources": 2
+        "keyword": "ideogram",
+        "recent_mentions": 5,
+        "prior_mentions": 1,
+        "change_ratio": 5.0,
+        "corroborating_sources": 1
       },
       {
-        "keyword": "conversational ai",
-        "recent_mentions": 16,
+        "keyword": "qlora",
+        "recent_mentions": 14,
         "prior_mentions": 3,
-        "change_ratio": 5.33,
+        "change_ratio": 4.67,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "computer-use",
+        "recent_mentions": 26,
+        "prior_mentions": 6,
+        "change_ratio": 4.33,
         "corroborating_sources": 2
       }
     ]
