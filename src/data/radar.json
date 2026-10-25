@@ -1,37 +1,153 @@
 {
-  "generated_at": "2026-10-24T19:16:57.732701",
-  "total_tracked": 3224,
+  "generated_at": "2026-10-25T07:13:36.857917",
+  "total_tracked": 3160,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "chatgpt",
-      "mentions": 233,
-      "velocity": 7.2,
+      "keyword": "agentic",
+      "mentions": 135,
+      "velocity": 8.8,
       "sources": [
         "articles",
         "arxiv",
-        "github",
         "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 6,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "ChatGPT's new Locked Chats feature has a major privacy catch",
+      "expert_ratio": 0.8,
+      "headline": "Show HN: Argus- open source security platform to protect against agentic attacks",
       "articles": [
         {
-          "title": "ChatGPT's new Locked Chats feature has a major privacy catch",
-          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpts-new-locked-chats-feature-sounds-great-for-privacy-until-you-read-the-fine-print",
-          "source": "Latest from TechRadar US in News，opinion"
+          "title": "Show HN: Argus- open source security platform to protect against agentic attacks",
+          "url": "https://github.com/thomasunise/argus",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Investors Figuring Out Agentic AI: Robinhood's Guild",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/investors-figuring-out-agentic-ai-robinhood-s-guild-video",
+          "source": "Bloomberg Technology"
+        },
+        {
+          "title": "TrustAgent-RFF: Agentic Diagnostic Planning for Reliable RF Fingerprinting under Domain Shift",
+          "url": "https://arxiv.org/abs/2610.24930",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
     {
+      "keyword": "llama.cpp",
+      "mentions": 24,
+      "velocity": 4.8,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.93,
+      "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "articles": [
+        {
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 48,
+      "velocity": 4.7,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.93,
+      "headline": "b11800: llama: create new fused op for QSA mask (#30640)",
+      "articles": [
+        {
+          "title": "b11800: llama: create new fused op for QSA mask (#30640)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11800",
+          "source": "llama.cpp Releases"
+        },
+        {
+          "title": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+          "url": "https://arxiv.org/abs/2610.23796",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "keyword": "gemma",
+      "mentions": 25,
+      "velocity": 4.5,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.74,
+      "headline": "v0.40.10-rc0: Update gemma renderers (#19241)",
+      "articles": [
+        {
+          "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+          "source": "Ollama Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "simulation",
+      "mentions": 39,
+      "velocity": 3.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.81,
+      "headline": "Developing AI-Based Digital Twins and Simulation for the Manufacturing Industry",
+      "articles": [
+        {
+          "title": "Developing AI-Based Digital Twins and Simulation for the Manufacturing Industry",
+          "url": "https://intelligence.theregister.com/paper/view/21117",
+          "source": "The Register"
+        },
+        {
+          "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+          "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+          "source": "NVIDIA Developer Blog"
+        }
+      ]
+    }
+  ],
+  "emerging": [
+    {
       "keyword": "openai",
-      "mentions": 307,
-      "velocity": 6.5,
+      "mentions": 303,
+      "velocity": 3.4,
       "sources": [
         "articles",
         "arxiv",
@@ -44,117 +160,35 @@
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.78,
-      "headline": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "headline": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, a",
       "articles": [
+        {
+          "title": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, a",
+          "url": "https://www.techmeme.com/261024/p8#a261024p8",
+          "source": "Techmeme"
+        },
         {
           "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
           "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-          "source": "TechCrunch"
+          "source": "Artificial Intelligence (AI) | TechCrunch"
         },
         {
           "title": "Anthropic’s Margin is OpenAI’s Opportunity",
           "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
           "source": "The Information"
-        },
-        {
-          "title": "UK funds £100m AI biosecurity lab with OpenAI and Anthropic",
-          "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic",
-          "source": "The Next Web"
-        }
-      ]
-    },
-    {
-      "keyword": "seedance",
-      "mentions": 23,
-      "velocity": 3.2,
-      "sources": [
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "fal launches FLUX 3 Max, claiming 22× faster AI video generation than Seedance 2.5 - VentureBeat",
-      "articles": [
-        {
-          "title": "fal launches FLUX 3 Max, claiming 22× faster AI video generation than Seedance 2.5 - VentureBeat",
-          "url": "https://venturebeat.com/technology/fal-launches-flux-3-max-claiming-22-faster-ai-video-generation-than-seedance-2-5",
-          "source": "VentureBeat"
-        }
-      ]
-    },
-    {
-      "keyword": "kimi",
-      "mentions": 16,
-      "velocity": 2.1,
-      "sources": [
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Moonshot AI Launches New Kimi K3.1 Pro Model",
-      "articles": [
-        {
-          "title": "Moonshot AI Launches New Kimi K3.1 Pro Model",
-          "url": "https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model",
-          "source": "The Information"
-        },
-        {
-          "title": "Moonshot says it removed cyber-related data from training phases for Kimi K3.1 Pro \"to reduce potential misuse risk whil",
-          "url": "https://www.techmeme.com/261023/p19#a261023p19",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Artificial Analysis says Kimi K3.1 Pro lands 4th on its Intelligence Index, behind only Opus 5.5 (max), Sonnet 5.5 (max)",
-          "url": "https://www.techmeme.com/261023/p18#a261023p18",
-          "source": "Techmeme"
-        }
-      ]
-    }
-  ],
-  "emerging": [
-    {
-      "keyword": "claude code",
-      "mentions": 70,
-      "velocity": 4.7,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Claude Code vs. a 100-line harness: Same score - VentureBeat",
-      "articles": [
-        {
-          "title": "Claude Code vs. a 100-line harness: Same score - VentureBeat",
-          "url": "https://venturebeat.com/orchestration/a-coding-agents-harness-can-triple-its-cost-without-making-it-more-accurate-study-finds",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "LiteLLM says hackers poisoned it with GitHub tokens leaked via Claude Code",
-          "url": "https://thenextweb.com/news/litellm-hack-github-tokens-logs-claude-code",
-          "source": "The Next Web"
         }
       ]
     },
     {
       "keyword": "quantization",
-      "mentions": 24,
-      "velocity": 3.3,
+      "mentions": 25,
+      "velocity": 2.6,
       "sources": [
+        "articles",
         "arxiv",
         "reddit"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.95,
@@ -178,74 +212,48 @@
       ]
     },
     {
-      "keyword": "data centers",
-      "mentions": 33,
-      "velocity": 3.0,
+      "keyword": "seedance",
+      "mentions": 24,
+      "velocity": 2.5,
       "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
         "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.51,
-      "headline": "Google will pay people to use less electricity so its data centers can use more",
+      "expert_ratio": 0.0,
+      "headline": "fal launches FLUX 3 Max, claiming 22× faster AI video generation than Seedance 2.5 - VentureBeat",
       "articles": [
         {
-          "title": "Google will pay people to use less electricity so its data centers can use more",
-          "url": "https://www.computerworld.com/article/4239858/google-will-pay-people-to-use-less-electricity-so-its-data-centers-can-use-more.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "The US wants to fill thousands of acres of public land with AI data centers — land records show 35 data center-related d",
-          "url": "https://www.techradar.com/pro/the-us-wants-to-fill-thousands-of-acres-of-public-land-with-ai-data-centers-land-records-show-35-data-center-related-developments-are-planned-so-far",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "The states with the fewest and most data centers, ranked",
-          "url": "https://www.businessinsider.com/number-data-centers-in-each-state-2026-10",
-          "source": "All Content from Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "agentic",
-      "mentions": 111,
-      "velocity": 2.3,
-      "sources": [
-        "articles",
-        "arxiv",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.8,
-      "headline": "Investors Figuring Out Agentic AI: Robinhood's Guild",
-      "articles": [
-        {
-          "title": "Investors Figuring Out Agentic AI: Robinhood's Guild",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-23/investors-figuring-out-agentic-ai-robinhood-s-guild-video",
-          "source": "Bloomberg Technology"
-        },
-        {
-          "title": "Agentic Video Understanding: A Survey",
-          "url": "https://arxiv.org/abs/2609.31713",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "TrainBridge: Agentic NPU Training Optimization Guided by GPU Compilation Evidence",
-          "url": "https://arxiv.org/abs/2610.29171",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "fal launches FLUX 3 Max, claiming 22× faster AI video generation than Seedance 2.5 - VentureBeat",
+          "url": "https://venturebeat.com/technology/fal-launches-flux-3-max-claiming-22-faster-ai-video-generation-than-seedance-2-5",
+          "source": "VentureBeat"
         }
       ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "sharepoint",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
+      "articles": [
+        {
+          "title": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
+          "url": "https://www.computerworld.com/article/4236627/october-patch-tuesday-1408-cves-1-exploited-flaw-and-a-sharepoint-surprise.html",
+          "source": "Artificial Intelligence – Computerworld"
+        }
+      ]
+    },
     {
       "keyword": "openevidence",
       "mentions": 2,
@@ -292,59 +300,69 @@
       ]
     },
     {
-      "keyword": "sharepoint",
+      "keyword": "doordash",
       "mentions": 2,
       "velocity": 1.0,
       "sources": [
-        "articles"
+        "arxiv"
       ],
       "source_count": 1,
       "confidence": 61,
       "days_active": 2,
       "expert_ratio": 0.67,
-      "headline": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
+      "headline": "Instacart reportedly discussed selling itself with DoorDash and Uber",
       "articles": [
         {
-          "title": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
-          "url": "https://www.computerworld.com/article/4236627/october-patch-tuesday-1408-cves-1-exploited-flaw-and-a-sharepoint-surprise.html",
-          "source": "Artificial Intelligence – Computerworld"
+          "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+          "url": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Sources: Instacart, currently valued at $12B, is in talks to sell itself and held preliminary conversations with DoorDas",
+          "url": "https://www.techmeme.com/261023/p21#a261023p21",
+          "source": "Techmeme"
+        },
+        {
+          "title": "This new food delivery service is trying to take on DoorDash and Uber Eats by offering no menu markups",
+          "url": "https://www.businessinsider.com/olos-app-offers-in-store-prices-rivals-doordash-uber-eats-2026-10",
+          "source": "Business Insider"
         }
       ]
     },
     {
-      "keyword": "blackrock",
+      "keyword": "local llm",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.8,
       "sources": [
-        "articles"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 10,
-      "expert_ratio": 0.85,
-      "headline": "BlackRock’s Boivin Sees Rates Getting More in Line With the Environment",
+      "confidence": 69,
+      "days_active": 3,
+      "expert_ratio": 0.86,
+      "headline": "LocalIntent: Outcome-Specific Structured Generation for Backend-Compatible Smart Building Automation with Local LLMs",
       "articles": [
         {
-          "title": "BlackRock’s Boivin Sees Rates Getting More in Line With the Environment",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-23/rates-getting-more-in-line-with-environment-boivin-video",
-          "source": "Bloomberg Technology"
+          "title": "LocalIntent: Outcome-Specific Structured Generation for Backend-Compatible Smart Building Automation with Local LLMs",
+          "url": "https://arxiv.org/abs/2610.23511",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "BlackRock's Larry Fink warned that not building data centers could be inflationary",
-          "url": "https://qz.com/larry-fink-data-centers-inflation-blackrock-102126",
-          "source": "Quartz"
+          "title": "P2Skill: Privacy Preserving Skill Distillation for Cloud-Local LLM Inference Systems",
+          "url": "https://arxiv.org/abs/2608.14094",
+          "source": "cs.AI updates on arXiv.org"
         },
         {
-          "title": "BlackRock’s Fink Sees Inflation Risk in Slow Data-Center Buildout",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-21/blackrock-s-fink-sees-risks-in-slow-data-center-buildout-video",
-          "source": "Bloomberg Technology"
+          "title": "Qualcomm CEO Cristiano Amon says AI companies are \"starting to do phones\" and asking Qualcomm to support running 100B-pa",
+          "url": "https://www.techmeme.com/261011/p15#a261011p15",
+          "source": "Techmeme"
         }
       ]
     },
     {
       "keyword": "ai memory",
       "mentions": 3,
-      "velocity": 0.5,
+      "velocity": 0.6,
       "sources": [
         "github"
       ],
@@ -362,30 +380,32 @@
       ]
     },
     {
-      "keyword": "canada",
-      "mentions": 2,
-      "velocity": 0.4,
-      "sources": [],
-      "source_count": 0,
-      "confidence": 50,
-      "days_active": 3,
-      "expert_ratio": 0.8,
-      "headline": "LIVE: Canada's Carney speaks during his trip to Turkey",
+      "keyword": "blackrock",
+      "mentions": 3,
+      "velocity": 0.5,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 79,
+      "days_active": 9,
+      "expert_ratio": 0.83,
+      "headline": "BlackRock’s Boivin Sees Rates Getting More in Line With the Environment",
       "articles": [
         {
-          "title": "LIVE: Canada's Carney speaks during his trip to Turkey",
-          "url": "https://www.youtube.com/watch?v=BM_o4RvMwU4",
-          "source": "Reuters"
+          "title": "BlackRock’s Boivin Sees Rates Getting More in Line With the Environment",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-23/rates-getting-more-in-line-with-environment-boivin-video",
+          "source": "Bloomberg Technology"
         },
         {
-          "title": "LIVE: Canada's Carney speaks during his trip to Turkey",
-          "url": "https://www.youtube.com/watch?v=MMEVh1VpR0U",
-          "source": "Reuters"
+          "title": "BlackRock's Larry Fink warned that not building data centers could be inflationary",
+          "url": "https://qz.com/larry-fink-data-centers-inflation-blackrock-102126",
+          "source": "Quartz"
         },
         {
-          "title": "Canada's Molly Carlson becomes first woman to dive off an iceberg",
-          "url": "https://www.youtube.com/shorts/2bCrXzHQfvc",
-          "source": "Reuters"
+          "title": "BlackRock’s Fink Sees Inflation Risk in Slow Data-Center Buildout",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-21/blackrock-s-fink-sees-risks-in-slow-data-center-buildout-video",
+          "source": "Bloomberg Technology"
         }
       ]
     },
@@ -410,67 +430,127 @@
       ]
     },
     {
-      "keyword": "openshell",
+      "keyword": "ai search",
       "mentions": 3,
       "velocity": 0.3,
       "sources": [
-        "hackernews"
+        "github"
       ],
       "source_count": 1,
-      "confidence": 89,
-      "days_active": 11,
-      "expert_ratio": 0.76,
-      "headline": "Nvidia OpenShell",
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
+      "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
       "articles": [
         {
-          "title": "Nvidia OpenShell",
-          "url": "https://github.com/NVIDIA/OpenShell",
-          "source": "Hacker News"
+          "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
+          "url": "https://www.techmeme.com/261021/p6#a261021p6",
+          "source": "Techmeme"
         },
         {
-          "title": "Nvidia launches its OpenShell Reference Architecture, a framework to secure, monitor, and govern AI agents, and partners",
-          "url": "https://www.techmeme.com/261021/p23#a261021p23",
-          "source": "Techmeme"
+          "title": "Gmail's Live AI search feature arrives for Google AI subscribers",
+          "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
+          "source": "Engadget"
+        },
+        {
+          "title": "Airbnb adds AI search and more services to help you plan your next getaway",
+          "url": "https://www.techradar.com/computing/websites-apps/airbnb-adds-ai-search-and-more-services-to-help-you-plan-your-next-getaway",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
+    {
+      "keyword": "ai scraping",
+      "mentions": 3,
+      "velocity": 0.3,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 81,
+      "days_active": 5,
+      "expert_ratio": 0.92,
+      "headline": "Meta delays new business terms after publisher pushback on AI scraping",
+      "articles": [
+        {
+          "title": "Meta delays new business terms after publisher pushback on AI scraping",
+          "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+          "source": "The Verge -  Artificial Intelligences"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "litellm",
-      "mentions": 12,
-      "velocity": 1.9,
+      "keyword": "grok",
+      "mentions": 84,
+      "velocity": 1.3,
       "sources": [
         "articles",
-        "hackernews"
+        "hackernews",
+        "reddit",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 4,
       "confidence": 100,
-      "days_active": 14,
-      "expert_ratio": 0.67,
-      "headline": "LiteLLM says hackers poisoned it with GitHub tokens leaked via Claude Code",
+      "days_active": 15,
+      "expert_ratio": 0.36,
+      "headline": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
       "articles": [
         {
-          "title": "LiteLLM says hackers poisoned it with GitHub tokens leaked via Claude Code",
-          "url": "https://thenextweb.com/news/litellm-hack-github-tokens-logs-claude-code",
-          "source": "The Next Web"
+          "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+          "source": "TechCrunch"
         },
         {
-          "title": "LiteLLM distribuisce malware, a rischio le chiavi API dell'IA",
-          "url": "https://www.tomshw.it/business/litellm-distribuisce-malware-a-rischio-le-chiavi-api-dellia",
+          "title": "Claude and Grok among AI agents used to automate attacks on Latin American institutions",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
           "source": "Tom's Hardware"
         },
         {
-          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
-          "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
-          "source": "The Register"
+          "title": "Grok Bot ora usa le app dello smartphone, ecco cosa può fare",
+          "url": "https://www.tomshw.it/smartphone/grok-bot-ora-usa-le-app-dello-smartphone-ecco-cosa-puo-fare",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
-      "keyword": "world model",
-      "mentions": 11,
-      "velocity": 1.4,
+      "keyword": "data centers",
+      "mentions": 30,
+      "velocity": 1.2,
+      "sources": [
+        "arxiv",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.53,
+      "headline": "Google will pay people to use less electricity so its data centers can use more",
+      "articles": [
+        {
+          "title": "Google will pay people to use less electricity so its data centers can use more",
+          "url": "https://www.computerworld.com/article/4239858/google-will-pay-people-to-use-less-electricity-so-its-data-centers-can-use-more.html",
+          "source": "Artificial Intelligence – Computerworld"
+        },
+        {
+          "title": "The US wants to fill thousands of acres of public land with AI data centers — land records show 35 data center-related d",
+          "url": "https://www.techradar.com/pro/the-us-wants-to-fill-thousands-of-acres-of-public-land-with-ai-data-centers-land-records-show-35-data-center-related-developments-are-planned-so-far",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "The states with the fewest and most data centers, ranked",
+          "url": "https://www.businessinsider.com/number-data-centers-in-each-state-2026-10",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "claude opus",
+      "mentions": 26,
+      "velocity": 0.7,
       "sources": [
         "articles",
         "arxiv",
@@ -479,68 +559,36 @@
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.86,
-      "headline": "Feedback World Model Enables Precise Guidance of Diffusion Policy",
+      "expert_ratio": 0.8,
+      "headline": "NVIDIA's new, open Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchma",
       "articles": [
         {
-          "title": "Feedback World Model Enables Precise Guidance of Diffusion Policy",
-          "url": "https://arxiv.org/abs/2605.15705",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "World Models Under Asynchronous Sensor Observations",
-          "url": "https://arxiv.org/abs/2609.07299",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-          "url": "https://arxiv.org/abs/2610.30125",
-          "source": "cs.AI updates on arXiv.org"
-        }
-      ]
-    },
-    {
-      "keyword": "gemma",
-      "mentions": 13,
-      "velocity": 1.2,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "v0.40.10-rc0: Update gemma renderers (#19241)",
-      "articles": [
-        {
-          "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
-          "source": "Ollama Releases"
+          "title": "NVIDIA's new, open Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchma",
+          "url": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks?utm_source=flipboard&utm_content=topic/artificialintelligence",
+          "source": "Artificial Intelligence"
         }
       ]
     }
   ],
   "track_record": {
-    "scored_predictions": 360,
+    "scored_predictions": 361,
     "covered": 202,
-    "coverage_rate": 0.561,
+    "coverage_rate": 0.56,
     "early": 111,
-    "early_rate": 0.308,
+    "early_rate": 0.307,
     "avg_lead_days": 14.4,
     "median_lead_days": 10,
     "max_lead_days": 42,
-    "hit_rate": 0.561,
+    "hit_rate": 0.56,
     "materialized": 202,
     "by_signal_type": {
       "emerging": {
-        "scored": 215,
+        "scored": 216,
         "covered": 165,
         "early": 83,
-        "coverage_rate": 0.767,
-        "early_rate": 0.386,
-        "hit_rate": 0.767
+        "coverage_rate": 0.764,
+        "early_rate": 0.384,
+        "hit_rate": 0.764
       },
       "weak_signal": {
         "scored": 145,
@@ -555,21 +603,21 @@
   "track_record_method": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "track_record_window": 45,
   "track_record_null": {
-    "n": 360,
+    "n": 361,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.564,
-      "early_rate": 0.311
+      "coverage_rate": 0.562,
+      "early_rate": 0.31
     },
     "null_mean": {
       "coverage_rate": 0.591,
       "early_rate": 0.36
     },
     "p_value": {
-      "coverage_rate": 0.986,
-      "early_rate": 0.995
+      "coverage_rate": 0.989,
+      "early_rate": 0.998
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   },
@@ -732,59 +780,31 @@
     ],
     "heating_up": [
       {
-        "keyword": "dreamina",
-        "recent_mentions": 16,
+        "keyword": "heygen",
+        "recent_mentions": 10,
         "prior_mentions": 1,
-        "change_ratio": 16.0,
+        "change_ratio": 10.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "qlora",
-        "recent_mentions": 13,
+        "keyword": "gemini 2",
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 13.0,
+        "change_ratio": 6.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "pika",
-        "recent_mentions": 9,
-        "prior_mentions": 1,
-        "change_ratio": 9.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "flair",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "heygen",
-        "recent_mentions": 7,
-        "prior_mentions": 1,
-        "change_ratio": 7.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "google deepmind",
+        "keyword": "writesonic",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
-        "keyword": "frontier model",
-        "recent_mentions": 42,
-        "prior_mentions": 7,
-        "change_ratio": 6.0,
-        "corroborating_sources": 4
-      },
-      {
-        "keyword": "custom gpt",
-        "recent_mentions": 5,
+        "keyword": "openai codex",
+        "recent_mentions": 6,
         "prior_mentions": 1,
-        "change_ratio": 5.0,
+        "change_ratio": 6.0,
         "corroborating_sources": 1
       },
       {
@@ -795,7 +815,7 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "deepmind",
+        "keyword": "notion ai",
         "recent_mentions": 10,
         "prior_mentions": 2,
         "change_ratio": 5.0,
@@ -809,11 +829,39 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "litellm",
-        "recent_mentions": 35,
-        "prior_mentions": 7,
-        "change_ratio": 5.0,
+        "keyword": "capcut",
+        "recent_mentions": 46,
+        "prior_mentions": 10,
+        "change_ratio": 4.6,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "qlora",
+        "recent_mentions": 15,
+        "prior_mentions": 4,
+        "change_ratio": 3.75,
+        "corroborating_sources": 2
+      },
+      {
+        "keyword": "ai act",
+        "recent_mentions": 15,
+        "prior_mentions": 4,
+        "change_ratio": 3.75,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "model context protocol",
+        "recent_mentions": 40,
+        "prior_mentions": 11,
+        "change_ratio": 3.64,
         "corroborating_sources": 4
+      },
+      {
+        "keyword": "world models",
+        "recent_mentions": 43,
+        "prior_mentions": 12,
+        "change_ratio": 3.58,
+        "corroborating_sources": 2
       }
     ]
   }
