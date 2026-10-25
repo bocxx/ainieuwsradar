@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-25T07:13:36.857917",
-  "total_tracked": 3160,
+  "generated_at": "2026-10-25T19:14:01.609929",
+  "total_tracked": 3194,
   "window_days": 14,
   "accelerating": [
     {
       "keyword": "agentic",
-      "mentions": 135,
-      "velocity": 8.8,
+      "mentions": 133,
+      "velocity": 8.2,
       "sources": [
         "articles",
         "arxiv",
+        "github",
         "hackernews",
-        "reddit",
         "twitter"
       ],
       "source_count": 5,
@@ -38,30 +38,41 @@
       ]
     },
     {
-      "keyword": "llama.cpp",
-      "mentions": 24,
-      "velocity": 4.8,
+      "keyword": "grok",
+      "mentions": 95,
+      "velocity": 4.6,
       "sources": [
         "articles",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.93,
-      "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "expert_ratio": 0.36,
+      "headline": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
       "articles": [
         {
-          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-          "url": "https://github.com/cobanov/PS5LM",
-          "source": "Hacker News"
+          "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Claude and Grok among AI agents used to automate attacks on Latin American institutions",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Grok Bot ora usa le app dello smartphone, ecco cosa può fare",
+          "url": "https://www.tomshw.it/smartphone/grok-bot-ora-usa-le-app-dello-smartphone-ecco-cosa-puo-fare",
+          "source": "Tom's Hardware"
         }
       ]
     },
     {
       "keyword": "llama",
-      "mentions": 48,
-      "velocity": 4.7,
+      "mentions": 47,
+      "velocity": 4.4,
       "sources": [
         "articles",
         "arxiv",
@@ -92,39 +103,69 @@
       ]
     },
     {
-      "keyword": "gemma",
-      "mentions": 25,
-      "velocity": 4.5,
+      "keyword": "data centers",
+      "mentions": 40,
+      "velocity": 4.2,
       "sources": [
         "articles",
         "arxiv",
         "hackernews",
-        "reddit"
+        "reddit",
+        "twitter"
       ],
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.74,
-      "headline": "v0.40.10-rc0: Update gemma renderers (#19241)",
+      "expert_ratio": 0.52,
+      "headline": "Nvidia eyes converting old nuclear plants into massive AI data centers",
       "articles": [
         {
-          "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
-          "source": "Ollama Releases"
+          "title": "Nvidia eyes converting old nuclear plants into massive AI data centers",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-eyes-converting-old-nuclear-plants-into-massive-ai-data-centers-reusing-shut-down-german-energy-sites-could-reduce-the-cost-and-timeline-of-building-from-scratch",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+          "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+          "source": "Feed: Artificial Intelligence Latest"
+        },
+        {
+          "title": "Google will pay people to use less electricity so its data centers can use more",
+          "url": "https://www.computerworld.com/article/4239858/google-will-pay-people-to-use-less-electricity-so-its-data-centers-can-use-more.html",
+          "source": "Artificial Intelligence – Computerworld"
+        }
+      ]
+    },
+    {
+      "keyword": "llama.cpp",
+      "mentions": 21,
+      "velocity": 3.9,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.94,
+      "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "articles": [
+        {
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "Hacker News"
         }
       ]
     },
     {
       "keyword": "simulation",
-      "mentions": 39,
-      "velocity": 3.0,
+      "mentions": 37,
+      "velocity": 2.4,
       "sources": [
-        "articles",
         "arxiv",
-        "reddit",
         "twitter"
       ],
-      "source_count": 4,
+      "source_count": 2,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.81,
@@ -145,69 +186,34 @@
   ],
   "emerging": [
     {
-      "keyword": "openai",
-      "mentions": 303,
-      "velocity": 3.4,
-      "sources": [
-        "articles",
-        "arxiv",
-        "github",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 6,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.78,
-      "headline": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, a",
-      "articles": [
-        {
-          "title": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, a",
-          "url": "https://www.techmeme.com/261024/p8#a261024p8",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-          "source": "Artificial Intelligence (AI) | TechCrunch"
-        },
-        {
-          "title": "Anthropic’s Margin is OpenAI’s Opportunity",
-          "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
-          "source": "The Information"
-        }
-      ]
-    },
-    {
-      "keyword": "quantization",
-      "mentions": 25,
+      "keyword": "litellm",
+      "mentions": 16,
       "velocity": 2.6,
       "sources": [
         "articles",
-        "arxiv",
+        "hackernews",
         "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.95,
-      "headline": "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models",
+      "days_active": 14,
+      "expert_ratio": 0.7,
+      "headline": "LiteLLM says hackers poisoned it with GitHub tokens leaked via Claude Code",
       "articles": [
         {
-          "title": "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models",
-          "url": "https://arxiv.org/abs/2610.25961",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "LiteLLM says hackers poisoned it with GitHub tokens leaked via Claude Code",
+          "url": "https://thenextweb.com/news/litellm-hack-github-tokens-logs-claude-code",
+          "source": "The Next Web"
         },
         {
-          "title": "InfoQuant: Shaping Activation Distributions for Low-Bit LLM Quantization",
-          "url": "https://arxiv.org/abs/2605.26175",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "LiteLLM distribuisce malware, a rischio le chiavi API dell'IA",
+          "url": "https://www.tomshw.it/business/litellm-distribuisce-malware-a-rischio-le-chiavi-api-dellia",
+          "source": "Tom's Hardware"
         },
         {
-          "title": "Activation Sensitivity as a Unifying Principle for Post-Training Quantization",
-          "url": "https://arxiv.org/abs/2601.11663",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
+          "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+          "source": "The Register"
         }
       ]
     },
@@ -231,6 +237,29 @@
           "source": "VentureBeat"
         }
       ]
+    },
+    {
+      "keyword": "gemma",
+      "mentions": 18,
+      "velocity": 2.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.76,
+      "headline": "v0.40.10-rc0: Update gemma renderers (#19241)",
+      "articles": [
+        {
+          "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+          "source": "Ollama Releases"
+        }
+      ]
     }
   ],
   "weak_signals": [
@@ -251,26 +280,6 @@
           "title": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
           "url": "https://www.computerworld.com/article/4236627/october-patch-tuesday-1408-cves-1-exploited-flaw-and-a-sharepoint-surprise.html",
           "source": "Artificial Intelligence – Computerworld"
-        }
-      ]
-    },
-    {
-      "keyword": "openevidence",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
-      "articles": [
-        {
-          "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
-          "url": "https://www.techmeme.com/261021/p6#a261021p6",
-          "source": "Techmeme"
         }
       ]
     },
@@ -326,6 +335,26 @@
           "title": "This new food delivery service is trying to take on DoorDash and Uber Eats by offering no menu markups",
           "url": "https://www.businessinsider.com/olos-app-offers-in-store-prices-rivals-doordash-uber-eats-2026-10",
           "source": "Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "openevidence",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
+      "articles": [
+        {
+          "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
+          "url": "https://www.techmeme.com/261021/p6#a261021p6",
+          "source": "Techmeme"
         }
       ]
     },
@@ -410,147 +439,98 @@
       ]
     },
     {
-      "keyword": "auto",
-      "mentions": 2,
-      "velocity": 0.3,
+      "keyword": "techcrunch",
+      "mentions": 3,
+      "velocity": 0.4,
       "sources": [
         "articles"
       ],
       "source_count": 1,
-      "confidence": 67,
-      "days_active": 4,
-      "expert_ratio": 0.67,
-      "headline": "34mila anni di test simulati sulle prossime batterie per auto",
+      "confidence": 95,
+      "days_active": 13,
+      "expert_ratio": 0.62,
+      "headline": "TechCrunch Mobility: Blue-green is the color of autonomy",
       "articles": [
         {
-          "title": "34mila anni di test simulati sulle prossime batterie per auto",
-          "url": "https://www.tomshw.it/business/34mila-anni-di-test-simulati-sulle-prossime-batterie-per-auto",
-          "source": "Tom's Hardware"
+          "title": "TechCrunch Mobility: Blue-green is the color of autonomy",
+          "url": "https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now",
+          "url": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+          "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+          "source": "TechCrunch"
         }
       ]
     },
     {
-      "keyword": "ai search",
+      "keyword": "computer use",
       "mentions": 3,
-      "velocity": 0.3,
+      "velocity": 0.4,
       "sources": [
-        "github"
+        "hackernews"
       ],
       "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
+      "confidence": 95,
+      "days_active": 14,
+      "expert_ratio": 0.68,
+      "headline": "MiniMax launches M3.1 Flash, saying it delivers \"a generational leap\" in agentic tasks, coding, computer use, and cybers",
       "articles": [
         {
-          "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
-          "url": "https://www.techmeme.com/261021/p6#a261021p6",
+          "title": "MiniMax launches M3.1 Flash, saying it delivers \"a generational leap\" in agentic tasks, coding, computer use, and cybers",
+          "url": "https://www.techmeme.com/261019/p30#a261019p30",
           "source": "Techmeme"
         },
         {
-          "title": "Gmail's Live AI search feature arrives for Google AI subscribers",
-          "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers/",
-          "source": "Engadget"
-        },
-        {
-          "title": "Airbnb adds AI search and more services to help you plan your next getaway",
-          "url": "https://www.techradar.com/computing/websites-apps/airbnb-adds-ai-search-and-more-services-to-help-you-plan-your-next-getaway",
-          "source": "Latest from TechRadar US in News，opinion"
-        }
-      ]
-    },
-    {
-      "keyword": "ai scraping",
-      "mentions": 3,
-      "velocity": 0.3,
-      "sources": [
-        "github"
-      ],
-      "source_count": 1,
-      "confidence": 81,
-      "days_active": 5,
-      "expert_ratio": 0.92,
-      "headline": "Meta delays new business terms after publisher pushback on AI scraping",
-      "articles": [
-        {
-          "title": "Meta delays new business terms after publisher pushback on AI scraping",
-          "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-          "source": "The Verge -  Artificial Intelligences"
+          "title": "Adaptation of Computer Use Agents to New Software with User Manuals",
+          "url": "https://arxiv.org/abs/2610.23012",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     }
   ],
   "sustained": [
     {
-      "keyword": "grok",
-      "mentions": 84,
-      "velocity": 1.3,
+      "keyword": "vibe coding",
+      "mentions": 26,
+      "velocity": 1.6,
       "sources": [
         "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
+        "github",
+        "reddit"
       ],
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.36,
-      "headline": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "expert_ratio": 0.56,
+      "headline": "20 of Merriam-Webster's 1,400 new words and meanings, from vibe coding to yacht rock",
       "articles": [
         {
-          "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-          "source": "TechCrunch"
+          "title": "20 of Merriam-Webster's 1,400 new words and meanings, from vibe coding to yacht rock",
+          "url": "https://qz.com/merriam-webster-new-words-2026",
+          "source": "Quartz"
         },
         {
-          "title": "Claude and Grok among AI agents used to automate attacks on Latin American institutions",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
-          "source": "Tom's Hardware"
+          "title": "People are vibe coding their way to better TVs",
+          "url": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os?utm_source=flipboard&utm_content=other",
+          "source": "Artificial Intelligence"
         },
         {
-          "title": "Grok Bot ora usa le app dello smartphone, ecco cosa può fare",
-          "url": "https://www.tomshw.it/smartphone/grok-bot-ora-usa-le-app-dello-smartphone-ecco-cosa-puo-fare",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "data centers",
-      "mentions": 30,
-      "velocity": 1.2,
-      "sources": [
-        "arxiv",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Google will pay people to use less electricity so its data centers can use more",
-      "articles": [
-        {
-          "title": "Google will pay people to use less electricity so its data centers can use more",
-          "url": "https://www.computerworld.com/article/4239858/google-will-pay-people-to-use-less-electricity-so-its-data-centers-can-use-more.html",
-          "source": "Artificial Intelligence – Computerworld"
-        },
-        {
-          "title": "The US wants to fill thousands of acres of public land with AI data centers — land records show 35 data center-related d",
-          "url": "https://www.techradar.com/pro/the-us-wants-to-fill-thousands-of-acres-of-public-land-with-ai-data-centers-land-records-show-35-data-center-related-developments-are-planned-so-far",
-          "source": "Latest from TechRadar US in News，opinion"
-        },
-        {
-          "title": "The states with the fewest and most data centers, ranked",
-          "url": "https://www.businessinsider.com/number-data-centers-in-each-state-2026-10",
+          "title": "A San Francisco gym went viral for a sign about vibe coding. The gym says it's an AI-generated fake.",
+          "url": "https://www.businessinsider.com/san-francisco-gym-viral-vibe-coding-sign-ai-fake-2026-10",
           "source": "All Content from Business Insider"
         }
       ]
     },
     {
       "keyword": "claude opus",
-      "mentions": 26,
-      "velocity": 0.7,
+      "mentions": 27,
+      "velocity": 1.0,
       "sources": [
         "articles",
         "arxiv",
@@ -706,6 +686,36 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "openai",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-25",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "chatgpt",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-25",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "claude",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-25",
+        "confidence": 1.0
+      },
+      {
+        "keyword": "seedance",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-25",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "openai codex",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-25",
+        "confidence": 0.2
+      },
+      {
         "keyword": "data centers",
         "signal_type": "emerging",
         "flagged_on": "2026-10-24",
@@ -746,36 +756,6 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-22",
         "confidence": 0.2
-      },
-      {
-        "keyword": "nvidia",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-21",
-        "confidence": 0.8
-      },
-      {
-        "keyword": "gpt-5",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-21",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "prompt engineering",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-21",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "mistral ai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-21",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "together ai",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-21",
-        "confidence": 0.2
       }
     ],
     "heating_up": [
@@ -787,6 +767,13 @@
         "corroborating_sources": 1
       },
       {
+        "keyword": "openai codex",
+        "recent_mentions": 6,
+        "prior_mentions": 1,
+        "change_ratio": 6.0,
+        "corroborating_sources": 1
+      },
+      {
         "keyword": "gemini 2",
         "recent_mentions": 6,
         "prior_mentions": 1,
@@ -795,13 +782,6 @@
       },
       {
         "keyword": "writesonic",
-        "recent_mentions": 6,
-        "prior_mentions": 1,
-        "change_ratio": 6.0,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "openai codex",
         "recent_mentions": 6,
         "prior_mentions": 1,
         "change_ratio": 6.0,
@@ -829,18 +809,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "capcut",
-        "recent_mentions": 46,
-        "prior_mentions": 10,
-        "change_ratio": 4.6,
-        "corroborating_sources": 2
-      },
-      {
         "keyword": "qlora",
         "recent_mentions": 15,
         "prior_mentions": 4,
         "change_ratio": 3.75,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "litellm",
+        "recent_mentions": 45,
+        "prior_mentions": 12,
+        "change_ratio": 3.75,
+        "corroborating_sources": 4
       },
       {
         "keyword": "ai act",
@@ -850,18 +830,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "model context protocol",
-        "recent_mentions": 40,
-        "prior_mentions": 11,
-        "change_ratio": 3.64,
-        "corroborating_sources": 4
-      },
-      {
         "keyword": "world models",
         "recent_mentions": 43,
         "prior_mentions": 12,
         "change_ratio": 3.58,
         "corroborating_sources": 2
+      },
+      {
+        "keyword": "model context protocol",
+        "recent_mentions": 39,
+        "prior_mentions": 11,
+        "change_ratio": 3.55,
+        "corroborating_sources": 4
       }
     ]
   }
