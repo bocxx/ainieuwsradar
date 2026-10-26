@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-25T18:26:45+00:00",
+  "generated_at": "2026-10-26T06:28:04+00:00",
   "method": "extern",
   "ground_truth": "verschijning in een Tier-A-outlet (titel) binnen 45 dagen na de flag",
   "window_days": 45,
   "early_threshold_days": 3,
   "track_record": {
-    "scored_predictions": 361,
-    "covered": 202,
-    "coverage_rate": 0.56,
-    "early": 111,
-    "early_rate": 0.307,
+    "scored_predictions": 367,
+    "covered": 204,
+    "coverage_rate": 0.556,
+    "early": 113,
+    "early_rate": 0.308,
     "avg_lead_days": 14.4,
     "median_lead_days": 10,
     "max_lead_days": 42,
-    "hit_rate": 0.56,
-    "materialized": 202,
+    "hit_rate": 0.556,
+    "materialized": 204,
     "by_signal_type": {
-      "emerging": {
-        "scored": 216,
-        "covered": 165,
-        "early": 83,
-        "coverage_rate": 0.764,
-        "early_rate": 0.384,
-        "hit_rate": 0.764
-      },
       "weak_signal": {
-        "scored": 145,
+        "scored": 146,
         "covered": 37,
         "early": 28,
-        "coverage_rate": 0.255,
-        "early_rate": 0.193,
-        "hit_rate": 0.255
+        "coverage_rate": 0.253,
+        "early_rate": 0.192,
+        "hit_rate": 0.253
+      },
+      "emerging": {
+        "scored": 221,
+        "covered": 167,
+        "early": 85,
+        "coverage_rate": 0.756,
+        "early_rate": 0.385,
+        "hit_rate": 0.756
       }
     }
   },
@@ -76,16 +76,6 @@
       "title": "Uber reports Q2 revenue up 12% YoY to $14.2B, below $14.24B est., Gross Bookings up 24% to $58B, above $57B est., and forecasts Q3 adjusted EPS below est. (Lora Kolodny/CNBC)"
     },
     {
-      "keyword": "inflection",
-      "signal_type": "weak_signal",
-      "flagged_on": "2026-06-14",
-      "materialized_on": "2026-07-22",
-      "lead_days": 38,
-      "outlet": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
-      "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
-    },
-    {
       "keyword": "huggingface",
       "signal_type": "emerging",
       "flagged_on": "2026-08-28",
@@ -94,6 +84,16 @@
       "outlet": "Tom's Hardware",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
       "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
+    },
+    {
+      "keyword": "inflection",
+      "signal_type": "weak_signal",
+      "flagged_on": "2026-06-14",
+      "materialized_on": "2026-07-22",
+      "lead_days": 38,
+      "outlet": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
+      "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
     },
     {
       "keyword": "context window",
@@ -122,21 +122,21 @@
     "De dekking is tegen een nulmodel afgezet; zie het null_model-blok in dit bestand voor de p-waarde."
   ],
   "null_model": {
-    "n": 361,
+    "n": 367,
     "permutations": 1000,
     "window_days": 45,
     "early_threshold_days": 3,
     "observed": {
-      "coverage_rate": 0.562,
-      "early_rate": 0.31
+      "coverage_rate": 0.559,
+      "early_rate": 0.311
     },
     "null_mean": {
-      "coverage_rate": 0.591,
-      "early_rate": 0.36
+      "coverage_rate": 0.588,
+      "early_rate": 0.359
     },
     "p_value": {
-      "coverage_rate": 0.989,
-      "early_rate": 0.998
+      "coverage_rate": 0.993,
+      "early_rate": 0.992
     },
     "verdict_early": "niet onderscheidbaar van toeval"
   }
