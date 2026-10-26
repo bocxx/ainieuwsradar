@@ -1,82 +1,292 @@
 {
-  "generated_at": "2026-10-26T07:14:59.260809",
-  "total_tracked": 3208,
+  "generated_at": "2026-10-26T19:14:46.785415",
+  "total_tracked": 3269,
   "window_days": 14,
   "accelerating": [
     {
-      "keyword": "agentic",
-      "mentions": 189,
-      "velocity": 22.6,
+      "keyword": "anthropic",
+      "mentions": 295,
+      "velocity": 29.6,
       "sources": [
         "articles",
         "arxiv",
         "github",
         "hackernews",
+        "reddit",
         "twitter"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.82,
-      "headline": "ToolRACER: A Robust Agentic Conversation Emulation Resource for Agent Training and Evaluation",
+      "expert_ratio": 0.77,
+      "headline": "Anthropic's IPO filing shows each of its 7 cofounders is worth $13B+",
       "articles": [
         {
-          "title": "ToolRACER: A Robust Agentic Conversation Emulation Resource for Agent Training and Evaluation",
-          "url": "https://arxiv.org/abs/2610.09163",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic's IPO filing shows each of its 7 cofounders is worth $13B+",
+          "url": "https://qz.com/anthropic-ipo-filing-seven-cofounders-worth-13-billion-102626",
+          "source": "Quartz"
         },
         {
-          "title": "EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver",
-          "url": "https://arxiv.org/abs/2610.25931",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "S-1: as of September 30, Anthropic had 11,900+ customers spending $100,000+ annually, 1,900+ customers spending $1M+, an",
+          "url": "https://www.techmeme.com/261026/p36#a261026p36",
+          "source": "Techmeme"
         },
         {
-          "title": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
-          "url": "https://arxiv.org/abs/2610.06790",
-          "source": "cs.AI updates on arXiv.org"
+          "title": "Anthropic Files for IPO in Global Race to Raise Cash for AI",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-26/anthropic-files-for-ipo-in-race-to-raise-cash-for-ai-video",
+          "source": "Bloomberg Technology"
         }
       ]
     },
     {
-      "keyword": "simulation",
-      "mentions": 83,
-      "velocity": 15.6,
+      "keyword": "claude",
+      "mentions": 597,
+      "velocity": 13.9,
       "sources": [
         "articles",
         "arxiv",
+        "github",
+        "hackernews",
+        "reddit",
         "twitter"
+      ],
+      "source_count": 6,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.7,
+      "headline": "Un file apparentemente innocuo può ingannare Codex e Claude Code",
+      "articles": [
+        {
+          "title": "Un file apparentemente innocuo può ingannare Codex e Claude Code",
+          "url": "https://www.tomshw.it/hardware/codex-installa-malware-nei-test-cosi-un-file-diventa-un-ordine",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "ChatGPT holds 56.4% of AI chatbot web traffic as Gemini and Claude gain ground",
+          "url": "https://qz.com/most-used-ai-chatbots-web-traffic-2026-visual-capitalist",
+          "source": "Quartz"
+        },
+        {
+          "title": "Sweden’s Government Offices block ChatGPT and Claude on work computers",
+          "url": "https://thenextweb.com/news/sweden-government-blocks-chatgpt-claude",
+          "source": "The Next Web"
+        }
+      ]
+    },
+    {
+      "keyword": "qwen",
+      "mentions": 119,
+      "velocity": 5.0,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "reddit"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.93,
+      "headline": "Plucky Chinese startup claims to beat Nvidia DGX Spark, Mac Mini on Qwen — says its '256 TOPS beats 1000 TOPS in prefill",
+      "articles": [
+        {
+          "title": "Plucky Chinese startup claims to beat Nvidia DGX Spark, Mac Mini on Qwen — says its '256 TOPS beats 1000 TOPS in prefill",
+          "url": "https://www.techradar.com/pro/plucky-chinese-startup-claims-to-beat-nvidia-dgx-spark-mac-mini-on-qwen-says-its-256-tops-beats-1000-tops-in-prefill-running-16-core-cortex-a55-soc-on-40w",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
+        {
+          "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
+          "url": "https://arxiv.org/abs/2610.21614",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "Nvidia's RTX Spark Superchip in the Surface Laptop Ultra outperforms Apple's M5 Max MacBook Pro by ~25% in agentic AI co",
+          "url": "https://www.techmeme.com/261015/p26#a261015p26",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "mcp server",
+      "mentions": 50,
+      "velocity": 3.9,
+      "sources": [
+        "articles",
+        "reddit"
+      ],
+      "source_count": 2,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.07,
+      "headline": "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Ag",
+      "articles": [
+        {
+          "title": "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Ag",
+          "url": "https://www.techmeme.com/261021/p62#a261021p62",
+          "source": "Techmeme"
+        }
+      ]
+    },
+    {
+      "keyword": "vibe coding",
+      "mentions": 32,
+      "velocity": 3.0,
+      "sources": [
+        "articles",
+        "github",
+        "reddit"
       ],
       "source_count": 3,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.84,
-      "headline": "Developing AI-Based Digital Twins and Simulation for the Manufacturing Industry",
+      "expert_ratio": 0.54,
+      "headline": "20 of Merriam-Webster's 1,400 new words and meanings, from vibe coding to yacht rock",
       "articles": [
         {
-          "title": "Developing AI-Based Digital Twins and Simulation for the Manufacturing Industry",
-          "url": "https://intelligence.theregister.com/paper/view/21117",
-          "source": "The Register"
+          "title": "20 of Merriam-Webster's 1,400 new words and meanings, from vibe coding to yacht rock",
+          "url": "https://qz.com/merriam-webster-new-words-2026",
+          "source": "Quartz"
         },
         {
-          "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
-          "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
-          "source": "NVIDIA Developer Blog"
+          "title": "People are vibe coding their way to better TVs",
+          "url": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os?utm_source=flipboard&utm_content=other",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "A San Francisco gym went viral for a sign about vibe coding. The gym says it's an AI-generated fake.",
+          "url": "https://www.businessinsider.com/san-francisco-gym-viral-vibe-coding-sign-ai-fake-2026-10",
+          "source": "All Content from Business Insider"
+        }
+      ]
+    },
+    {
+      "keyword": "kimi",
+      "mentions": 17,
+      "velocity": 2.0,
+      "sources": [
+        "articles",
+        "hackernews",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.0,
+      "headline": "Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosin",
+      "articles": [
+        {
+          "title": "Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosin",
+          "url": "https://www.techmeme.com/261025/p2#a261025p2",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations - VentureBeat",
+          "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+          "source": "VentureBeat"
         }
       ]
     }
   ],
   "emerging": [
     {
-      "keyword": "llama",
-      "mentions": 62,
-      "velocity": 7.6,
+      "keyword": "grok",
+      "mentions": 98,
+      "velocity": 4.1,
+      "sources": [
+        "articles",
+        "reddit",
+        "twitter"
+      ],
+      "source_count": 3,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.35,
+      "headline": "È uscita \"l'Odissea\" di Grok, interamente generata dall'IA: guardate i primi 7 minuti",
+      "articles": [
+        {
+          "title": "È uscita \"l'Odissea\" di Grok, interamente generata dall'IA: guardate i primi 7 minuti",
+          "url": "https://www.tomshw.it/altro/e-uscita-lodissea-di-grok-interamente-generata-dallia-guardate-i-primi-7-minuti",
+          "source": "Tom's Hardware"
+        },
+        {
+          "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+          "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "keyword": "gemma",
+      "mentions": 23,
+      "velocity": 3.1,
       "sources": [
         "articles",
         "arxiv",
-        "github",
+        "hackernews",
         "reddit"
       ],
       "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.79,
+      "headline": "v0.40.10-rc0: Update gemma renderers (#19241)",
+      "articles": [
+        {
+          "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+          "source": "Ollama Releases"
+        }
+      ]
+    },
+    {
+      "keyword": "data centers",
+      "mentions": 38,
+      "velocity": 2.4,
+      "sources": [
+        "articles",
+        "arxiv",
+        "hackernews",
+        "twitter"
+      ],
+      "source_count": 4,
+      "confidence": 100,
+      "days_active": 15,
+      "expert_ratio": 0.52,
+      "headline": "Heterogeneous Space Data Centers: A Key Paradigm for Future Non-Terrestrial and In-Orbit Services",
+      "articles": [
+        {
+          "title": "Heterogeneous Space Data Centers: A Key Paradigm for Future Non-Terrestrial and In-Orbit Services",
+          "url": "https://arxiv.org/abs/2610.32260",
+          "source": "cs.AI updates on arXiv.org"
+        },
+        {
+          "title": "High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data ",
+          "url": "https://www.techmeme.com/261025/p15#a261025p15",
+          "source": "Techmeme"
+        },
+        {
+          "title": "Nvidia eyes converting old nuclear plants into massive AI data centers",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-eyes-converting-old-nuclear-plants-into-massive-ai-data-centers-reusing-shut-down-german-energy-sites-could-reduce-the-cost-and-timeline-of-building-from-scratch",
+          "source": "Tom's Hardware"
+        }
+      ]
+    },
+    {
+      "keyword": "llama",
+      "mentions": 44,
+      "velocity": 2.1,
+      "sources": [
+        "articles",
+        "arxiv",
+        "github"
+      ],
+      "source_count": 3,
       "confidence": 100,
       "days_active": 15,
       "expert_ratio": 0.93,
@@ -98,128 +308,39 @@
           "source": "Hacker News"
         }
       ]
-    },
-    {
-      "keyword": "data centers",
-      "mentions": 45,
-      "velocity": 4.5,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.53,
-      "headline": "Heterogeneous Space Data Centers: A Key Paradigm for Future Non-Terrestrial and In-Orbit Services",
-      "articles": [
-        {
-          "title": "Heterogeneous Space Data Centers: A Key Paradigm for Future Non-Terrestrial and In-Orbit Services",
-          "url": "https://arxiv.org/abs/2610.32260",
-          "source": "cs.AI updates on arXiv.org"
-        },
-        {
-          "title": "High-frequency trading firms such as Jane Street are investing in AI and chip startups and neoclouds, and building data ",
-          "url": "https://www.techmeme.com/261025/p15#a261025p15",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Nvidia eyes converting old nuclear plants into massive AI data centers",
-          "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-eyes-converting-old-nuclear-plants-into-massive-ai-data-centers-reusing-shut-down-german-energy-sites-could-reduce-the-cost-and-timeline-of-building-from-scratch",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "grok",
-      "mentions": 99,
-      "velocity": 4.4,
-      "sources": [
-        "articles",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.35,
-      "headline": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "articles": [
-        {
-          "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-          "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-          "source": "TechCrunch"
-        },
-        {
-          "title": "Claude and Grok among AI agents used to automate attacks on Latin American institutions",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
-          "source": "Tom's Hardware"
-        }
-      ]
-    },
-    {
-      "keyword": "gemma",
-      "mentions": 23,
-      "velocity": 3.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews",
-        "reddit"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.77,
-      "headline": "v0.40.10-rc0: Update gemma renderers (#19241)",
-      "articles": [
-        {
-          "title": "v0.40.10-rc0: Update gemma renderers (#19241)",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
-          "source": "Ollama Releases"
-        }
-      ]
-    },
-    {
-      "keyword": "vibe coding",
-      "mentions": 30,
-      "velocity": 2.4,
-      "sources": [
-        "github",
-        "reddit"
-      ],
-      "source_count": 2,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.55,
-      "headline": "20 of Merriam-Webster's 1,400 new words and meanings, from vibe coding to yacht rock",
-      "articles": [
-        {
-          "title": "20 of Merriam-Webster's 1,400 new words and meanings, from vibe coding to yacht rock",
-          "url": "https://qz.com/merriam-webster-new-words-2026",
-          "source": "Quartz"
-        },
-        {
-          "title": "People are vibe coding their way to better TVs",
-          "url": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os?utm_source=flipboard&utm_content=other",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "A San Francisco gym went viral for a sign about vibe coding. The gym says it's an AI-generated fake.",
-          "url": "https://www.businessinsider.com/san-francisco-gym-viral-vibe-coding-sign-ai-fake-2026-10",
-          "source": "All Content from Business Insider"
-        }
-      ]
     }
   ],
   "weak_signals": [
+    {
+      "keyword": "ai infrastructure",
+      "mentions": 3,
+      "velocity": 2.0,
+      "sources": [
+        "github"
+      ],
+      "source_count": 1,
+      "confidence": 63,
+      "days_active": 2,
+      "expert_ratio": 0.75,
+      "headline": "Nvidia discusses $2,000-per-GPU annual software fee for running agents on AI infrastructure",
+      "articles": [
+        {
+          "title": "Nvidia discusses $2,000-per-GPU annual software fee for running agents on AI infrastructure",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform?utm_source=flipboard&utm_content=TomsHardware/magazine/Tom's+Hardware",
+          "source": "Artificial Intelligence"
+        },
+        {
+          "title": "Morgan Stanley says these 24 AI infrastructure stocks are built to hold up even if capex slows",
+          "url": "https://www.businessinsider.com/ai-infrastructure-stocks-to-buy-hyperscaler-spending-capex-2026-10",
+          "source": "Business Insider"
+        },
+        {
+          "title": "Many firms are still falling behind when it comes to getting their AI infrastructure up to speed",
+          "url": "https://www.techradar.com/pro/many-firms-are-still-falling-behind-when-it-comes-to-getting-their-ai-infrastructure-up-to-speed",
+          "source": "Latest from TechRadar US in News，opinion"
+        }
+      ]
+    },
     {
       "keyword": "zero financial payoff",
       "mentions": 3,
@@ -231,8 +352,13 @@
       "confidence": 63,
       "days_active": 2,
       "expert_ratio": 0.75,
-      "headline": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "headline": "Top economist warns AI is giving ‘zero financial payoff’ to many firms - and warns 'mainstream corporate America is pull",
       "articles": [
+        {
+          "title": "Top economist warns AI is giving ‘zero financial payoff’ to many firms - and warns 'mainstream corporate America is pull",
+          "url": "https://www.techradar.com/pro/top-economist-warns-ai-is-giving-zero-financial-payoff-to-many-firms-and-warns-mainstream-corporate-america-is-pulling-back-on-ai-spending",
+          "source": "Latest from TechRadar US in News，opinion"
+        },
         {
           "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
           "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
@@ -242,51 +368,6 @@
           "title": "Apollo says AI has delivered 'zero financial payoff' outside the tech industry",
           "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
           "source": "Business Insider"
-        }
-      ]
-    },
-    {
-      "keyword": "deepseek-v4.1-flash",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "DeepSeek-V4.1-Flash-1017 arrives with improved benchmarks just as the U.S. government bans it from agencies — what enter",
-      "articles": [
-        {
-          "title": "DeepSeek-V4.1-Flash-1017 arrives with improved benchmarks just as the U.S. government bans it from agencies — what enter",
-          "url": "https://venturebeat.com/security/deepseek-v4-1-flash-1017-arrives-with-improved-benchmarks-just-as-the-u-s-government-bans-it-from-agencies-what-enterprises-should-do",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "DeepSeek-v4.1-Flash-1017",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "source": "Hacker News"
-        }
-      ]
-    },
-    {
-      "keyword": "openevidence",
-      "mentions": 2,
-      "velocity": 1.0,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 61,
-      "days_active": 2,
-      "expert_ratio": 0.67,
-      "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
-      "articles": [
-        {
-          "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
-          "url": "https://www.techmeme.com/261021/p6#a261021p6",
-          "source": "Techmeme"
         }
       ]
     },
@@ -307,6 +388,26 @@
           "title": "October Patch Tuesday: 1,408 CVEs, 1 exploited flaw and a SharePoint surprise",
           "url": "https://www.computerworld.com/article/4236627/october-patch-tuesday-1408-cves-1-exploited-flaw-and-a-sharepoint-surprise.html",
           "source": "Artificial Intelligence – Computerworld"
+        }
+      ]
+    },
+    {
+      "keyword": "openevidence",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
+      "articles": [
+        {
+          "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to gener",
+          "url": "https://www.techmeme.com/261021/p6#a261021p6",
+          "source": "Techmeme"
         }
       ]
     },
@@ -332,6 +433,31 @@
           "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
           "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
           "source": "WIRED"
+        }
+      ]
+    },
+    {
+      "keyword": "deepseek-v4.1-flash",
+      "mentions": 2,
+      "velocity": 1.0,
+      "sources": [
+        "articles"
+      ],
+      "source_count": 1,
+      "confidence": 61,
+      "days_active": 2,
+      "expert_ratio": 0.67,
+      "headline": "DeepSeek-V4.1-Flash-1017 arrives with improved benchmarks just as the U.S. government bans it from agencies — what enter",
+      "articles": [
+        {
+          "title": "DeepSeek-V4.1-Flash-1017 arrives with improved benchmarks just as the U.S. government bans it from agencies — what enter",
+          "url": "https://venturebeat.com/security/deepseek-v4-1-flash-1017-arrives-with-improved-benchmarks-just-as-the-u-s-government-bans-it-from-agencies-what-enterprises-should-do",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "DeepSeek-v4.1-Flash-1017",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "source": "Hacker News"
         }
       ]
     },
@@ -444,90 +570,27 @@
           "source": "TechCrunch"
         }
       ]
-    },
-    {
-      "keyword": "onedrive",
-      "mentions": 2,
-      "velocity": 0.3,
-      "sources": [
-        "articles"
-      ],
-      "source_count": 1,
-      "confidence": 67,
-      "days_active": 4,
-      "expert_ratio": 0.67,
-      "headline": "OneDrive divora spazio? Ecco come liberare il disco",
-      "articles": [
-        {
-          "title": "OneDrive divora spazio? Ecco come liberare il disco",
-          "url": "https://www.tomshw.it/hardware/onedrive-occupa-spazio-disco-windows-11",
-          "source": "Tom's Hardware"
-        },
-        {
-          "title": "OneDrive gives Macs a million things to keep in sync",
-          "url": "https://www.theregister.com/saas/2026/10/21/onedrive-gives-macs-a-million-things-to-keep-in-sync/5304442",
-          "source": "The Register"
-        },
-        {
-          "title": "OneDrive loses bunch of Copilot shortcuts in File Explorer clear-out",
-          "url": "https://www.theregister.com/ai-and-ml/2026/10/20/onedrive-loses-bunch-of-copilot-shortcuts-in-file-explorer-clear-out/5304149",
-          "source": "The Register"
-        }
-      ]
     }
   ],
   "sustained": [
     {
-      "keyword": "mcp server",
-      "mentions": 43,
-      "velocity": 1.8,
+      "keyword": "prompt engineering",
+      "mentions": 16,
+      "velocity": 1.6,
       "sources": [
-        "articles",
-        "reddit"
+        "arxiv",
+        "github"
       ],
       "source_count": 2,
       "confidence": 100,
       "days_active": 15,
-      "expert_ratio": 0.07,
-      "headline": "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Ag",
+      "expert_ratio": 0.97,
+      "headline": "Using Evidence-Centered Design to Guide Prompt Engineering in Measurement: An Illustration with Automated Essay Scoring",
       "articles": [
         {
-          "title": "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Ag",
-          "url": "https://www.techmeme.com/261021/p62#a261021p62",
-          "source": "Techmeme"
-        }
-      ]
-    },
-    {
-      "keyword": "kimi",
-      "mentions": 16,
-      "velocity": 1.8,
-      "sources": [
-        "articles",
-        "hackernews",
-        "reddit",
-        "twitter"
-      ],
-      "source_count": 4,
-      "confidence": 100,
-      "days_active": 15,
-      "expert_ratio": 0.0,
-      "headline": "Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosin",
-      "articles": [
-        {
-          "title": "Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosin",
-          "url": "https://www.techmeme.com/261025/p2#a261025p2",
-          "source": "Techmeme"
-        },
-        {
-          "title": "Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations - VentureBeat",
-          "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
-          "source": "VentureBeat"
-        },
-        {
-          "title": "Moonshot AI Launches New Kimi K3.1 Pro Model",
-          "url": "https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model",
-          "source": "The Information"
+          "title": "Using Evidence-Centered Design to Guide Prompt Engineering in Measurement: An Illustration with Automated Essay Scoring",
+          "url": "https://arxiv.org/abs/2610.15231",
+          "source": "cs.AI updates on arXiv.org"
         }
       ]
     },
@@ -552,38 +615,6 @@
           "source": "VentureBeat"
         }
       ]
-    },
-    {
-      "keyword": "frontier model",
-      "mentions": 11,
-      "velocity": 1.1,
-      "sources": [
-        "articles",
-        "arxiv",
-        "hackernews"
-      ],
-      "source_count": 3,
-      "confidence": 100,
-      "days_active": 13,
-      "expert_ratio": 0.76,
-      "headline": "OpenAI cuts live internet from all frontier model training",
-      "articles": [
-        {
-          "title": "OpenAI cuts live internet from all frontier model training",
-          "url": "https://thenextweb.com/news/openai-frontier-training-no-live-internet?utm_source=flipboard&utm_content=thenextweb/magazine/TNW+-+All+Stories",
-          "source": "Artificial Intelligence"
-        },
-        {
-          "title": "OpenAI says it built an \"offline world\" from cached web content to train isolated frontier models to browse, search for ",
-          "url": "https://www.techmeme.com/261023/p25#a261023p25",
-          "source": "Techmeme"
-        },
-        {
-          "title": "OpenAI says it's cutting off internet access for frontier model training",
-          "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
-          "source": "Engadget"
-        }
-      ]
     }
   ],
   "track_record": {
@@ -598,14 +629,6 @@
     "hit_rate": 0.556,
     "materialized": 204,
     "by_signal_type": {
-      "weak_signal": {
-        "scored": 146,
-        "covered": 37,
-        "early": 28,
-        "coverage_rate": 0.253,
-        "early_rate": 0.192,
-        "hit_rate": 0.253
-      },
       "emerging": {
         "scored": 221,
         "covered": 167,
@@ -613,6 +636,14 @@
         "coverage_rate": 0.756,
         "early_rate": 0.385,
         "hit_rate": 0.756
+      },
+      "weak_signal": {
+        "scored": 146,
+        "covered": 37,
+        "early": 28,
+        "coverage_rate": 0.253,
+        "early_rate": 0.192,
+        "hit_rate": 0.253
       }
     }
   },
@@ -679,16 +710,6 @@
       "title": "Uber reports Q2 revenue up 12% YoY to $14.2B, below $14.24B est., Gross Bookings up 24% to $58B, above $57B est., and forecasts Q3 adjusted EPS below est. (Lora Kolodny/CNBC)"
     },
     {
-      "keyword": "huggingface",
-      "signal_type": "emerging",
-      "flagged_on": "2026-08-28",
-      "materialized_on": "2026-10-05",
-      "lead_days": 38,
-      "outlet": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
-      "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
-    },
-    {
       "keyword": "inflection",
       "signal_type": "weak_signal",
       "flagged_on": "2026-06-14",
@@ -697,6 +718,16 @@
       "outlet": "VentureBeat",
       "url": "https://venturebeat.com/orchestration/inflection-ai-returns-to-consumer-market-with-pi-journeys-after-microsoft-upheaval",
       "title": "Inflection AI returns to consumer market with Pi Journeys after Microsoft upheaval"
+    },
+    {
+      "keyword": "huggingface",
+      "signal_type": "emerging",
+      "flagged_on": "2026-08-28",
+      "materialized_on": "2026-10-05",
+      "lead_days": 38,
+      "outlet": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/former-openai-safety-employee-says-companys-safety-culture-is-broken-exits-company-after-failed-kill-switch-and-july-huggingface-hack",
+      "title": "Former OpenAI safety employee says company’s safety culture is broken — exits company after failed kill switch and July HuggingFace hack"
     },
     {
       "keyword": "context window",
@@ -722,16 +753,46 @@
   "watching_now": {
     "new_on_radar": [
       {
+        "keyword": "llama",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-26",
+        "confidence": 0.8
+      },
+      {
         "keyword": "gemma",
         "signal_type": "emerging",
         "flagged_on": "2026-10-26",
         "confidence": 0.8
       },
       {
+        "keyword": "grok",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-26",
+        "confidence": 0.6
+      },
+      {
         "keyword": "litellm",
         "signal_type": "emerging",
         "flagged_on": "2026-10-26",
         "confidence": 0.6
+      },
+      {
+        "keyword": "vibe coding",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-26",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "context length",
+        "signal_type": "emerging",
+        "flagged_on": "2026-10-26",
+        "confidence": 0.4
+      },
+      {
+        "keyword": "cerebras",
+        "signal_type": "weak_signal",
+        "flagged_on": "2026-10-26",
+        "confidence": 0.2
       },
       {
         "keyword": "open-source ai",
@@ -752,7 +813,7 @@
         "confidence": 0.2
       },
       {
-        "keyword": "claude",
+        "keyword": "chatgpt",
         "signal_type": "emerging",
         "flagged_on": "2026-10-25",
         "confidence": 1.0
@@ -762,51 +823,14 @@
         "signal_type": "emerging",
         "flagged_on": "2026-10-25",
         "confidence": 1.0
-      },
-      {
-        "keyword": "chatgpt",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-25",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "seedance",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-25",
-        "confidence": 0.4
-      },
-      {
-        "keyword": "openai codex",
-        "signal_type": "weak_signal",
-        "flagged_on": "2026-10-25",
-        "confidence": 0.2
-      },
-      {
-        "keyword": "data centers",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-24",
-        "confidence": 1.0
-      },
-      {
-        "keyword": "claude code",
-        "signal_type": "emerging",
-        "flagged_on": "2026-10-24",
-        "confidence": 0.8
       }
     ],
     "heating_up": [
       {
         "keyword": "ai alignment",
-        "recent_mentions": 14,
+        "recent_mentions": 11,
         "prior_mentions": 1,
-        "change_ratio": 14.0,
-        "corroborating_sources": 2
-      },
-      {
-        "keyword": "gemini 2",
-        "recent_mentions": 8,
-        "prior_mentions": 1,
-        "change_ratio": 8.0,
+        "change_ratio": 11.0,
         "corroborating_sources": 2
       },
       {
@@ -815,6 +839,13 @@
         "prior_mentions": 1,
         "change_ratio": 8.0,
         "corroborating_sources": 3
+      },
+      {
+        "keyword": "gemini 2",
+        "recent_mentions": 8,
+        "prior_mentions": 1,
+        "change_ratio": 8.0,
+        "corroborating_sources": 2
       },
       {
         "keyword": "gamma",
@@ -832,15 +863,8 @@
       },
       {
         "keyword": "ai act",
-        "recent_mentions": 22,
+        "recent_mentions": 20,
         "prior_mentions": 4,
-        "change_ratio": 5.5,
-        "corroborating_sources": 1
-      },
-      {
-        "keyword": "open webui",
-        "recent_mentions": 5,
-        "prior_mentions": 1,
         "change_ratio": 5.0,
         "corroborating_sources": 1
       },
@@ -853,16 +877,16 @@
       },
       {
         "keyword": "chain of thought",
-        "recent_mentions": 14,
+        "recent_mentions": 12,
         "prior_mentions": 3,
-        "change_ratio": 4.67,
+        "change_ratio": 4.0,
         "corroborating_sources": 2
       },
       {
-        "keyword": "context length",
-        "recent_mentions": 23,
-        "prior_mentions": 6,
-        "change_ratio": 3.83,
+        "keyword": "moonshot ai",
+        "recent_mentions": 7,
+        "prior_mentions": 2,
+        "change_ratio": 3.5,
         "corroborating_sources": 1
       },
       {
@@ -873,11 +897,18 @@
         "corroborating_sources": 1
       },
       {
-        "keyword": "model context protocol",
-        "recent_mentions": 54,
-        "prior_mentions": 16,
-        "change_ratio": 3.38,
-        "corroborating_sources": 4
+        "keyword": "runway",
+        "recent_mentions": 25,
+        "prior_mentions": 8,
+        "change_ratio": 3.12,
+        "corroborating_sources": 1
+      },
+      {
+        "keyword": "heygen",
+        "recent_mentions": 9,
+        "prior_mentions": 3,
+        "change_ratio": 3.0,
+        "corroborating_sources": 1
       }
     ]
   }
