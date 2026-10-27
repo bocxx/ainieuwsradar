@@ -13,9 +13,16 @@ routes = [
   { pattern = "www.ainieuwsradar.nl", custom_domain = true },
 ]
 
-[assets]
-directory = "./dist"
-not_found_handling = "404-page"
+# Sinds de netwerkconsolidatie (okt 2026) serveert deze Worker geen site meer:
+# src/worker.ts stuurt elk verzoek met een 301 door naar hetlaatsteainieuws.nl.
+main = "src/worker.ts"
+
+# Het [assets]-blok staat bewust uit. Met assets erbij zou Cloudflare bestaande
+# pagina's uit ./dist serveren vóór de Worker draait. Voor die paden komt er dan
+# nooit een redirect. Terugdraaien = `main` weghalen en dit blok terugzetten.
+# [assets]
+# directory = "./dist"
+# not_found_handling = "404-page"
 
 [observability]
 enabled = true

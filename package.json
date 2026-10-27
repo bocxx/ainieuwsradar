@@ -8,7 +8,8 @@
     "build": "npm run verify:links && astro build",
     "verify:links": "node scripts/verify-links.mjs",
     "preview": "astro preview",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run test:redirects && wrangler deploy",
+    "test:redirects": "node --experimental-strip-types scripts/test-redirects.mjs",
     "audit:html": "node scripts/check-html-complete.mjs",
     "postbuild": "node scripts/check-html-complete.mjs && node scripts/seo-guard.mjs",
     "seo:guard": "node scripts/seo-guard.mjs"
